@@ -1,0 +1,13 @@
+{{ $thumb := ""}}
+{{ with .Params.thumb}}
+  {{ with $.Resources.GetMatch .}}
+      {{ $thumb = .Fill "80x80"}}
+      {{ with $thumb}}
+        <div class="post-thumb"><img src="{{ $thumb.Permalink }}" class="img-fluid"/></div>
+      {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if eq $thumb ""}}
+  <div class="post-thumb"><img src="/img/blog/grey-thumb.png" class="img-fluid"/></div>
+{{ end }}

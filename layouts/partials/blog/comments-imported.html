@@ -1,0 +1,12 @@
+{{ range . }}
+  <div class="comment">
+    <div class="comment-avatar"></div>
+    <div class="comment-content">
+      <div class="comment-header">
+        <div class="comment-user">{{ .Params.user }}</div>
+        <div class="comment-date">{{ (time (int .Params.created)).Format "02.01.2006 - 15:04" }}</div>
+      </div>
+      <div class="comment-body">{{ .Content | markdownify }}</div>
+    </div>
+  </div>
+{{ end }}

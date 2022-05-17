@@ -13,15 +13,13 @@
             {{ range (where .Site.RegularPages "Type" "blog").ByDate.Reverse | first .Site.Params.Blog.NumberOfPosts }}    
                     {{ .Render "summary"}}
             {{ end }}
-            <a href="/blog/" class="btn btn-secondary btn-lg mt-4" target="_blank">{{ .Site.Params.Blog.ReadMore}}</a>
             </div>
             <div class="sidebar col-12 col-lg-3">
-                <h2 class="recent mb-4 mt-5 mt-lg-0">Categories:</h2>
-                <div class="list mb-5">
-                    {{ partial "blog/sidebar-cat" . }}
+                <a href="/blog/" class="btn btn-secondary btn-lg mb-5" target="_blank">{{ .Site.Params.Blog.ReadMore}}</a>
+                <h2 class="recent mb-4 mt-5 mt-lg-0">Filter:</h2>
+                <div class="list mb-2 d-flex flex-wrap justify-content-between">
+                    {{ partial "blog/sidebar-cat-dropdown" . }}  {{ partial "blog/sidebar-years" . }}
                 </div>
-                <h2 class="recent mb-3 mt-5 mt-lg-0">Archive:</h2>
-                <p>{{ .Site.Params.Blog.Warning | markdownify }}</p>
             </div>
         </div>
     </div>

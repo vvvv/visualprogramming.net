@@ -20,6 +20,7 @@ section#Blog
     .sidebar
     {
         top: inherit;
+        min-height: 400px;
         
         li {
             padding: 1em 0em 1em 1em;
@@ -63,10 +64,10 @@ section#Blog
 
     .post-thumb
     {
-        border: 5px solid #fff;
-        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-        width: 60px;
-        height: 60px;
+        // border: 5px solid #fff;
+        // box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        width: 90px;
+        height: 90px;
     }
 
     .pagination{
@@ -152,27 +153,31 @@ section#Blog
         }
 
         h2
-            {
-                font-family: $serif;
-                font-weight: 700;
-                font-size: 2.3em;
-                line-height: 1.3em;
-                margin-bottom: 0.3em;
-            }
+        {
+            font-family: $serif;
+            font-weight: 700;
+            font-size: 2.3em;
+            line-height: 1.3em;
+            margin-bottom: 0.3em;
+        }
+
+
+        a{
+            text-decoration: none;
+            border-bottom: 1px solid #ccc;
+            color: inherit;
+        }
+
+        a:hover{
+            color: $orange-link-hover;
+        }
+
 
         .header
         {
 
-            .link
-            {
-                text-decoration: none;
-                padding-bottom: 0.1 em;
-                font-size: 0.9rem;
-
-                a
-                {
-                    border-bottom: 1px solid #ccc;
-                }
+            span {
+                font-size: 0.8rem;
             }
 
             .date
@@ -183,6 +188,47 @@ section#Blog
         } 
 
         .content{
+
+            margin-top: 3em;
+            font-family: $sans;
+            $base-font: 1em;
+
+            .meta
+            {
+                background-color: #f6f6f6;
+                border-radius: 5px;
+                border: none;
+                padding: 1em;
+
+                table td
+                {
+                    padding-right: 1em;
+                }
+
+                .download
+                {
+                    td
+                    {
+                        padding: 0.5em;
+                    }
+                }
+            }
+
+           .signpill
+            {
+                // vertical-align: super;
+                font-size: 0.7em;
+                background-color: #e6e6e6;
+                color: #666;
+                border: none;
+                padding: 2px 3px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin-left: 0.25em;
+                border-radius: 2px;
+                line-height: 1.1em;
+            }
 
             h1{
                 font-family: $serif;
@@ -220,15 +266,6 @@ section#Blog
                 margin-bottom: 1em;
             }
 
-            margin-top: 3em;
-            font-family: $sans;
-
-            $base-font: 1em;
-
-            a{
-                color: $orange;
-            }
-
             ul{
                 padding-left: 2em;
             }
@@ -261,18 +298,52 @@ section#Blog
                     text-decoration: underline;
                 }
             }
-
-            a{
-                color: #777;
-                text-decoration: underline;
-            }
-
-            a:hover{
-                color: $orange;
-            }
         }
 
         .comments{
+
+            .comment{
+                .comment-avatar{
+                    box-sizing: border-box;
+                    display: flex;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    border-radius: 50%;
+                    margin: 0;
+                    background-color: #eee;
+                    flex: 0 0 2.5rem
+                }
+                .comment-content{
+                    .comment-header {
+                        .comment-user{
+                            font-weight: 700;
+                        }
+                        .comment-date{
+                            color: rgb(153, 153, 153);
+                        }
+                        display: flex;
+                        gap: 1em;
+                        flex-wrap: wrap;
+                    }
+                    
+                    .comment-body{
+                        p{   
+                            margin-bottom: 20px;
+                            line-height: 1.5;
+                        }
+                    }
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5em;
+                }
+               
+                display: flex;
+                flex-direction: row;
+                gap: 1em;
+                padding: 0.5em 0 1em;
+                border-block-end: 1px solid #ddd;
+            }
+
             font-family: $sans;
             --cactus-text-color--soft: #999;
             --cactus-border-radius: 0px;
@@ -305,8 +376,20 @@ section#Blog
     {
         top: 120px;
         z-index: 0;
-        overflow: auto;
+        min-height: 500px;
+
+        .dropdown-menu {
+            height: 200px;
+            overflow: auto;
+        }
         
+        .filter
+        {
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+            flex-wrap: wrap;
+        }
         hr{
             border: none;
             height: 1px;

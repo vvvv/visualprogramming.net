@@ -1,5 +1,39 @@
 <ul class="list-group list-group-flush">
-    {{ range .Site.Taxonomies.categories.ByCount }}
-      <li class="list-group-item"><a href="{{ .Page.RelPermalink }}">{{ .Page.Title}}</a></li>
+    {{ $configCats := .Site.Params.Blog.Categories }}
+    {{ $postsCats := .Site.Taxonomies.categories.Alphabetical }}
+
+    {{ $sorted := slice }}
+    {{ $leftover := slice}}
+    
+    <!-- Pick categories that are equal to those from Config -->
+    {{ range $cat := $configCats }}
+      {{ range $postsCats }}
+        {{ if eq (.Page.Title | lower) ($cat | lower) }}
+          {{ $sorted = $sorted | append . }}
+        {{ end }}
+      {{ end }}
     {{ end }}
+    
+    <!-- Find categories that are still not picked in the previous step -->
+    {{ range $cat := $postsCats }}
+      {{ $found := false }}
+      {{ range $sorted }}
+        {{ if eq .Page.Title $cat.Page.Title }}
+          {{ $found = true }}
+        {{ end }}
+      {{ end }}
+
+      {{ if ne $found true}}
+        {{ $leftover = $leftover | append $cat }}
+      {{ end }}
+    {{ end }}
+
+    {{ range $sorted}}
+      <li class="list-group-item"><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+    {{ end }}
+    {{ range $leftover}}
+      <li class="list-group-item"><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+    {{ end }}
+
+
 </ul>

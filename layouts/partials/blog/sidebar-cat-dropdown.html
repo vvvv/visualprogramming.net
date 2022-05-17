@@ -1,0 +1,46 @@
+{{ $configCats := .Site.Params.Blog.Categories }}
+{{ $postsCats := .Site.Taxonomies.categories.Alphabetical }}
+
+{{ $sorted := slice }}
+{{ $leftover := slice}}
+{{ $title := .Page.Title }}
+
+<!-- Pick categories that are equal to those from Config -->
+{{ range $cat := $configCats }}
+  {{ range $postsCats }}
+    {{ if eq (.Page.Title | lower) ($cat | lower) }}
+      {{ $sorted = $sorted | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<!-- Find categories that are still not picked in the previous step -->
+{{ range $cat := $postsCats }}
+  {{ $found := false }}
+  {{ range $sorted }}
+    {{ if eq .Page.Title $cat.Page.Title }}
+      {{ $found = true }}
+    {{ end }}
+  {{ end }} 
+
+  {{ if ne $found true}}
+    {{ $leftover = $leftover | append $cat }}
+  {{ end }}
+{{ end }}
+
+ <div class="dropdown">
+  <div class="btn-group">
+    <button id="dropdownMenuButton" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Category
+    </button>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      {{ range $sorted}}
+        <a class="dropdown-item {{ if eq .Page.Title $title }} active {{ end }}" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+      {{ end }}
+      {{ range $leftover}}
+        <a class="dropdown-item {{ if eq .Page.Title $title }} active {{ end }}" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+      {{ end }}
+    </div>
+  </div>
+</div>
