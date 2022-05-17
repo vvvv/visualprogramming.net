@@ -1,5 +1,5 @@
 ---
-categories: "News"
+categories: "vvvv gamma Releases"
 author: "joreg"
 date: "2020-04-01"
 title: "vvvv gamma 2020.1 release"
@@ -22,10 +22,12 @@ We believe vvvv gamma is a novel approach to visual programming that brings it t
 
 Still not convinced? Please head over to our preliminary page on [](http://visualprogramming.net) where we've prepared a convenient list of selling points for you. And tell your friends and family!
 
-## Buy vvvv gamma for commercial use
+## Buy vvvv gamma for commercial use
+
 Starting today, as you're working on a commercial project using vvvv gamma, you need a license. So if Corona hasn't canceled your work and you're in the lucky situation that you can use vvvv gamma commercially already, please head over to the [store](https://store.vvvv.org/) now and insert coins. 
 
-## Discounts
+## Discounts
+
 You'll see that all gamma licenses have an **early bird discount of 20%** applied automatically. We'll run this promotion for at least a month from now and reevaluate then.
 
 Further, if you've bought a commercial license of vvvv beta since April 1st, 2018, you are eligible to apply an **additional discount of 20%** to one of your future orders. This discount applies to all vvvv gamma developer licenses of one order. To do so, simply use the coupon code **GIMMEGAMMA** at checkout.
@@ -36,7 +38,8 @@ Note that while the early bird discount will run out at some point, the GIMMEGAM
 
 We've promised to have subscription plans that will be 30% cheaper from the second year onwards. These are still planned to come within the coming year and everyone who buys an annual license now will have a chance to convert to such a subscription in time.
 
-## What next?
+## What next?
+
 Let's recap a bit:
 - February 2013: First mention and demo of what is to become VL during NODE13 keynode
 - May 2015: beta-preview builds are shipping with VL

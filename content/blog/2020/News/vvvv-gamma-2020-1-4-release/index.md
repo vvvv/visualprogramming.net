@@ -1,10 +1,10 @@
 ---
-categories: "News"
+categories: "vvvv gamma Releases"
 author: "joreg"
 date: "2020-06-16"
 title: "vvvv gamma 2020.1.4 release"
 slug: "vvvv-gamma-2020.1.4-release"
-description: ""
+description: "Release notes"
 imported: "true"
 ---
 

@@ -1,10 +1,10 @@
 ---
-categories: "News"
+categories: "vvvv gamma Releases"
 author: "gregsn"
 date: "2021-01-08"
 title: "vvvv gamma 2020.2 release"
 slug: "vvvv2020.2-gammabeta0"
-description: ""
+description: "Release notes"
 imported: "true"
 ---
 
@@ -26,7 +26,8 @@ It also comes with small improvements for object-oriented programming patterns b
 
 For the full list of changes, see the [The Log of Changes](https://thegraybook.vvvv.org/changelog/2020.2.html).
 
-## Updating libraries
+## Updating libraries
+
 This release introduces a breaking change for certain NuGet packages! If you use any of the following packages then you'll have to make sure to use the latest available version:
 
 * VL.OpenCV
@@ -43,14 +44,16 @@ This release introduces a breaking change for certain NuGet packages! If you use
 
 So when updating to 2020.2.x you need to update to the latest version of these libraries. See [Manage Nugets](https://thegraybook.vvvv.org/reference/libraries/dependencies.html#manage-nugets) on how to do so via command-line.
 
-## Running 2020.1.x on the same machine
+## Running 2020.1.x on the same machine
+
 If, after running 2020.2.x and updating the above libraries you want to run 2020.1.x again, you'll have to make sure to first remove the new packs that are only working for 2020.2.x.
 
 To do so, you'd go to your 
     AppData\Local\vvvv\gamma\nugets
 and either delete packs selectively or simply clean the whole directory and re-install NuGets as you need them. 
 
-## Info for library developers
+## Info for library developers
+
 This breaking change only affects your library if it is using a CSharp-project that is referencing VL.Core! In this case, all you have to do is to update VL.Core to 2020.2.x.
 
 Then please communicate which version of your library is compatible with which version of vvvv.
