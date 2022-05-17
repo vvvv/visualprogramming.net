@@ -4,7 +4,7 @@ draft: false
 date: "2022-04-20"
 title: "News in Hap world"
 description: "The Hap player news"
-categories: Guest Post
+categories: Guest Posts
 author: lev
 ---
 

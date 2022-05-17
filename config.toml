@@ -144,7 +144,7 @@ blog = '/blog/:sections[1]/:slug/'
 		NumberOfPosts = 4
 		ReadMore = "All posts"
 		Warning = "\\* Looking for older blog posts? Find them at: [vvvv.org/blog](https://vvvv.org/blog/1575+1576+25+23+24+39+26+1461+127+126+124)."
-		Categories = ["Monthly Reviews", "News", "Dates", "Development News", "vvvv gamma Releases", "vvvv beta Releases"]
+		Categories = ["Monthly Reviews", "News", "Development News", "Dates", "vvvv gamma Releases", "vvvv beta Releases", "vvvv beta Addon Releases", "Guest Posts"]
 		CommentsDisabled = "New comments are disabled."
 
 	#Community section

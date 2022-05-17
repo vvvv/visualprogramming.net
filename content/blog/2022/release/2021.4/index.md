@@ -3,7 +3,7 @@ draft: false
 date: "2022-03-29"
 title: "vvvv gamma 2021.4 release"
 description: Release notes
-categories: Release
+categories: vvvv gamma Releases
 author: joreg
 thumb: filters.jpg
 ---

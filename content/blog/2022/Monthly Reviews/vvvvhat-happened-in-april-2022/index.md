@@ -3,7 +3,7 @@ draft: false
 date: "2022-05-05"
 title: "vvvvhat happened in April 2022"
 description: "Last month in review"
-categories: vvvvhat happened
+categories: Monthly Reviews
 author: joreg
 ---
 
