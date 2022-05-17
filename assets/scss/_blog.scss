@@ -62,6 +62,22 @@ section#Blog
 #Blog
 {
 
+    .signpill
+    {
+        // vertical-align: super;
+        font-size: 0.7em;
+        background-color: #e6e6e6;
+        color: #666;
+        border: none;
+        padding: 2px 3px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 0.25em;
+        border-radius: 2px;
+        line-height: 1.1em;
+    }
+
     .post-thumb
     {
         // border: 5px solid #fff;
@@ -212,22 +228,6 @@ section#Blog
                         padding: 0.5em;
                     }
                 }
-            }
-
-           .signpill
-            {
-                // vertical-align: super;
-                font-size: 0.7em;
-                background-color: #e6e6e6;
-                color: #666;
-                border: none;
-                padding: 2px 3px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                margin-left: 0.25em;
-                border-radius: 2px;
-                line-height: 1.1em;
             }
 
             h1{
