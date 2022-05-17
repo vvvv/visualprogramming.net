@@ -1,0 +1,30 @@
+{{ "<!-- TopFeatures -->" | safeHTML }}
+<div class="row justify-content-start">
+    {{ range $index, $elem:=(index (where (.Site.GetPage "Features").Sections "Title" (.Scratch.Get "sectionTitle")) 0).RegularPages.ByParam "id" }}
+    <div class="col-md-5 mb-5 {{if modBool $index 2}}ml-md-5{{end}} {{if not (modBool $index 2)}}offset-md-1{{end}}">
+        <div class="row g-0 d-flex align-items-start position-relative">
+          <div class="col-12 mb-3" style="color: #fff">
+            {{ with .Params.img}}
+              <img src="{{ . }}" class="img-fluid mediaShadow">
+            {{ end }}
+            {{ with .Params.VimeoVideo}}
+              <div class="mediaShadow">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe src="https://player.vimeo.com/video/{{ . }}?autoplay=0&loop=1&title=0&byline=0&portrait=0" class="embed-responsive-item mediaShadow" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+                  </iframe>
+                </div>    
+              </div>
+              <script src="https://player.vimeo.com/api/player.js"></script>
+            {{ end }}
+          </div>
+          <div class="col-12">
+            <h5 class="title mb-3">{{ .Title }}</h5>
+            <div class="description">{{ .Content  | markdownify }}</div>
+            {{ with .Params.button}}
+              <a href="{{ .buttonLink }}" class="btn btn-secondary btn-lg mt-4" target="_blank">{{ .buttonText }}</a>
+            {{end}}
+          </div>
+        </div>
+      </div>
+    {{ end }}  
+  </div>

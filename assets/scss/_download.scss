@@ -1,0 +1,81 @@
+#PreviewDownloads 
+{
+    .modal-header
+    {
+    padding-left: 0;
+    padding-right: 0;
+    }
+
+    a
+    {
+    border-width: 1px;
+    text-decoration: underline;
+    }
+
+    td
+    {
+    padding: 0.5em 1.5em 0 0;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 0.8em;
+    }
+
+    .date
+    {
+    color: #aaa;
+    }
+
+    .changes
+    {
+        /* font-size: 0.8em; */
+        border-bottom: 1px solid #bbb;
+        color: #aaa;
+
+        &:hover
+        {
+            border-bottom: 1px solid #fff;
+        }
+    }
+
+    .previewButton
+    {
+        border-radius: 0.4em;
+        border-bottom: 0;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 1em;
+        padding: 0.3em 1em;
+    }
+
+    .modal-dialog a
+    {
+        color: #000;
+        text-decoration: underline;
+        border: none;
+    }
+
+    ul
+    {
+        margin-bottom: 1.5em;
+    }
+}
+
+#PreviousReleases
+{
+  color: #ccc;
+  
+  a
+  {
+    border-bottom: 1px solid #888;
+    text-decoration: none;
+  }
+}
+
+.tippy-box {
+    background-color: #444;
+    min-width: 380px;
+  }
+  
+.tippy-box[data-placement^='right'] > .tippy-arrow::before {
+    border-right-color: #444;
+}
+  

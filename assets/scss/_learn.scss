@@ -1,0 +1,26 @@
+#Learn
+{
+
+  a
+  {
+    padding-bottom: 0.15em;
+    border-bottom: 1px solid #aaaaaa;
+
+    &:hover
+    {
+      border-bottom: 1px solid $orange;  
+    }
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    filter: opacity(60%)
+  }
+
+  li{
+    padding-right: 0px;
+    border-color: #ddd;
+  }
+  
+}

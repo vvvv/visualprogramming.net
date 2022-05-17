@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ partial "head.html" . }}
+        <!-- Cactus comments -->
+        <script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+        <link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+   </head>
+<body>
+    <div class="main">
+        {{ partial "nav-blog" . }}
+        
+        {{ block "main" . }}{{ end }}
+
+        {{ partial "contact" . }}
+        
+        {{ partial "footer" . }}
+
+        {{ partial "js.html" . }}
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{{ "<!-- SUPPORT -->" | safeHTML }}
+<section id="Support">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading text-light">{{ .Site.Params.support.headline }}</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 justify-content-between">
+                {{ range ((where .Site.RegularPages "Section" "Support").ByParam "id") }}
+                    {{ partial "supportSection" .}}
+                {{ end }}
+        </div>
+    </div>
+    
+</section>

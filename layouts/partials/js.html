@@ -1,0 +1,36 @@
+{{ "<!-- jQuery -->" | safeHTML }}
+<script src="{{ "/js/jquery-3.6.0.min.js" | absURL }}"></script>
+{{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
+<script src="{{ "/js/bootstrap.min.js" | absURL }}"></script>
+{{ "<!-- Plugin JavaScript -->" | safeHTML }}
+<script src="{{ "/js/jquery.easing.min.js" | absURL }}"></script>
+<script src="{{ "/js/jquery.fittext.js" | absURL }}"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+
+{{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
+{{ $build := resources.Get "js/creative.js" | js.Build "js/creative.js" | minify}}
+<script type="text/javascript" src="{{ $build.RelPermalink }}" defer></script>
+{{ $build := resources.Get "js/download.js" | js.Build "js/download.js" | minify}}
+<script type="text/javascript" src="{{ $build.RelPermalink }}" defer></script>
+
+{{ "<!-- Newsletter -->" | safeHTML }}
+<script>
+    window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+    window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+    window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank. ";
+    window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";  
+    window.translation = {
+      common: {
+        selectedList: '{quantity} list selected',
+        selectedLists: '{quantity} lists selected'
+      }
+    };
+   var AUTOHIDE = Boolean(0);
+</script>
+<script src="https://sibforms.com/forms/end-form/build/main.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+
+{{ "<!-- Plausible -->" | safeHTML }}
+<script async defer data-domain="visualprogramming.net" src="https://plausible.io/js/plausible.js"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>

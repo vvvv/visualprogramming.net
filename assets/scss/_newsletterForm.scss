@@ -1,0 +1,38 @@
+#sib-container {
+    padding: 0px;
+    margin: 0px;
+
+    input:-ms-input-placeholder {
+        text-align: left;
+        color: #c0ccda;
+        border-width: px;
+      }
+
+    input::placeholder {
+    text-align: left;
+    color: #c0ccda;
+    border-width: px;
+    }
+     
+  }
+  
+  .sib-form {
+    padding: 0px;
+    margin: 0px;
+    font: inherit;
+  }
+  
+  .entry__field
+  {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #999;
+    border-radius: 0px;
+  }
+  
+  .sib-form-block
+  {
+    padding: 0px;
+  }
+  

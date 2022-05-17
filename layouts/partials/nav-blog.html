@@ -1,0 +1,39 @@
+{{ "<!-- NAVIGATION -->" | safeHTML }}
+<div class="sticky-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-light navbar-expand-lg affix">
+        {{ with .Site.Params.navigation.brand }}
+                    <a class="navbar-brand noUnderline ml-1 ml-md-3" href="{{ "/#page-top" | relLangURL}}">{{ . | markdownify }}</a>
+                {{ end }}
+                <button class="navbar-toggler mx-3" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-links">
+                    <ul class="navbar-nav nav ml-auto mr-1">
+                        <li class="nav-item ml-4 mx-lg-0">
+                            <a class="nav-link noUnderline" href="{{ "/" | relLangURL }}#{{.Site.Params.navigation.links.features}}">{{ .Site.Params.navigation.links.features }}</a>
+                        </li>
+                        <li class="nav-item mx-4 mx-lg-0">
+                            <a class="nav-link noUnderline active" href="{{ "/" | relLangURL }}#{{ .Site.Params.navigation.links.blog }}">{{ .Site.Params.navigation.links.blog }}</a>
+                        </li>
+                        <li class="nav-item mx-4 mx-lg-0">
+                            <a class="nav-link noUnderline" href="{{ "/" | relLangURL }}#{{ .Site.Params.navigation.links.showcase }}">{{ .Site.Params.navigation.links.showcase }}</a>
+                        </li>
+                        <li class="nav-item mx-4 mx-lg-0">
+                            <a class="nav-link noUnderline" href="{{ "/" | relLangURL }}#{{ .Site.Params.navigation.links.learn }}">{{ .Site.Params.navigation.links.learn }}</a>
+                        </li>
+                        <li class="nav-item mx-4 mx-lg-0">
+                            <a class="nav-link noUnderline" href="{{ "/" | relLangURL }}#{{ .Site.Params.navigation.links.community }}">{{ .Site.Params.navigation.links.community }}</a>
+                        </li>
+                        <li class="nav-item mx-4 mx-lg-0">
+                            <a class="nav-link noUnderline" href="{{ "/" | relLangURL }}#{{ .Site.Params.navigation.links.licensing }}">{{ .Site.Params.navigation.links.licensing }}</a>
+                        </li>
+                        <li class="nav-item mx-4 mx-lg-0">
+                            <a class="nav-link noUnderline" href="{{ "/" | relLangURL }}#{{ .Site.Params.navigation.links.support }}">{{ .Site.Params.navigation.links.support }}</a>
+                        </li>
+                        <li class="nav-item download-pill mx-2 mr-lg-4 ml-lg-3 px-3 px-lg-2 mb-3 mb-lg-0">
+                            <a class="nav-link noUnderline" href="{{ "/" | relLangURL }}#{{ .Site.Params.navigation.links.download }}">{{ .Site.Params.navigation.links.download }}</a>
+                        </li>
+                    </ul>
+                </div>
+    </nav>
+</div>

@@ -1,0 +1,199 @@
+baseURL = "https://visualprogramming.net/"
+languageCode = "en-us"
+paginate = 10
+paginatePath = "page"
+summaryLength = 20
+title = "vvvv - visual live-progamming for .NET"
+
+[Services.RSS]
+  limit = 10
+
+[server]
+[[server.headers]]
+  for = '/**'
+  [server.headers.values]
+    Referrer-Policy = 'strict-origin-when-cross-origin'
+    X-Content-Type-Options = 'nosniff'
+    X-Frame-Options = 'DENY'
+    X-XSS-Protection = '1; mode=block'
+	Access-Control-Allow-Origin = '*'
+
+[markup]
+	[markup.goldmark.renderer]
+	      hardWraps = false
+	      unsafe = true
+	      xhtml = false
+
+# Change the default theme to be use when building the site with Hugo
+theme = "hugo-creative-theme-master"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[taxonomies]
+category = 'categories'
+tag = 'tags'
+author = 'author'
+
+[permalinks]
+blog = ':sections/:slug/'
+
+# [permalinks]
+#   blog = '/blog/posts/:slug/'
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss+xml"
+    baseName = "index"
+
+[params]
+
+		title = "vvvv - visual live-progamming for .NET"
+		author = "vvvv group"
+		description = "vvvv is a visual live-programming environment for .NET"
+		
+		ogTitle = "vvvv"
+		ogDescription = "A visual live-programming environment that takes you from rapid prototyping to final production."
+
+		# The path must be relative to the static folder
+		favicon = "favicon.ico"
+
+		# Navigation
+		[params.navigation]
+		brand 		= "visualprogramming.net"
+
+		[params.navigation.links]
+		features  = "Features"
+		blog = "Blog"
+		download  = "Download"
+		showcase = "Showcase"
+		Learn = "Learn"
+		community = "Community"
+		licensing = "Licensing"
+		support = "Support"
+		contact   = "contact"
+
+		# Ribbon
+		# [params.Ribbon]
+		# text 			= "PRELIMINARY"
+		# tooltip 	= "A unified website for both vvvv beta and vvvv gamma is still to come. For now find everything about vvvv gamma on this page and go to vvvv.org to learn about vvvv beta."
+
+		# Hero section
+		[params.Hero]
+		slogan     = "vvvv"
+		subtitle   = "A visual live-programming environment that takes you from rapid prototyping to final production."
+		tryitButton = "Download"
+		tryitButtonLink = "Download"
+		requestADemoButton = "Request a tour"
+		requestADemoLink = "Support"
+		learnmoreButton = "Learn More"
+		learnmoreButtonLink = "Features"
+		tagsHeadline = "It claims to be popular for:"
+		tags = "#creativecoding, #generativedesign, #interactiondesign, #datavisualization, #computervision, #vr, #showcontrol, #physicalcomputing, #datascience, #machinelearning, #dotnet"
+
+		# Overview Section
+		[params.Features]
+		headline = "Visual Live-Programming with vvvv"
+
+		# Download section
+		[params.Download]
+		Headline = "Download"
+		Copy = 'vvvv is free without any restrictions for non-commercial use.<br/>Commercial use requires a <a href="https://store.vvvv.org/" target="_blank">License</a>.'
+
+		[params.Download.gamma]
+		Headline = "vvvv gamma"
+		Copy = "First released in April 2020, vvvv gamma is the next generation of vvvv, entirely rewritten from scratch."
+
+		StableText  = "Download: Stable"
+		StableLink = "https://teamcity.vvvv.org/guestAuth/app/rest/builds/id:35209/artifacts/content/vvvv_gamma_2021.4.8_setup.exe"
+		StableVersion = "Version: 2021.4.8"
+
+		PreviewText = "Download: Preview"
+		PreviewLink = "PreviewDownloads"
+		PreviewVersion = "Unstable, daily preview builds"
+		# Preview Branch, note %2F instead of '/'
+		PreviewBranch = "%3Cdefault%3E"
+
+		LibrariesText  = "Additional Libraries"
+		LibrariesLink = "https://thegraybook.vvvv.org/reference/libraries/overview.html"
+		LibrariesTarget = "_blank"
+
+		ChangeLogText = "Change Log & Previous Releases"
+		ChangeLogLink = "https://thegraybook.vvvv.org/changelog/"
+		ChangeLogTarget = "_blank"
+
+		Target = "_self"
+
+		[params.Download.gamma.previewWindow]
+		Title = "Latest Previews"
+		Subtitle ="Don't use for production!"
+		Text = 'These are daily development builds. If you find one to be broken, try an earlier one.<p>Please mark problems you report in the <a href="https://discourse.vvvv.org/c/vvvv-gamma/" target="_blank">forum</a> with the *preview* tag or visit us in the <a href="https://app.element.io/#/room/#vvvv:matrix.org" target="_blank">chat</a> to talk about issues you encounter.</p>'
+
+		
+		[params.Download.beta]
+		Headline = "vvvv beta"
+		Copy = "In development since 2001, vvvv beta has been used by many companies worldwide to create large media environments."
+		Text  = "Go to vvvv.org"
+		Link = "https://vvvv.org/downloads"
+		Target = "_blank"
+
+		[params.Showcase]
+		headline = "Showcase"
+		showreelHeadline = "Showreel 2002 - 2019"
+		showreelSubline = "Projects in this showreel were realized mostly with vvvv beta within the past few years."
+		vimeo = 371511910
+
+		[params.Blog]
+		Title = "Blog"
+		NumberOfPosts = 4
+		ReadMore = "All posts"
+		Warning = "\\* Looking for older blog posts? Find them at: [vvvv.org/blog](https://vvvv.org/blog/1575+1576+25+23+24+39+26+1461+127+126+124)."
+
+	#Community section
+	  [params.Community]
+		headline = "Community"
+
+		[[params.Community.list]]
+		img = "img/icons/Discourse-32x32_gray.png"
+		imgAlt = "vvvv Forum"
+		title = "Forum"
+		description = "Get answers to your questions or find them in existing discussions in the vvvv forum."
+		link = "https://discourse.vvvv.org/c/vvvv-gamma"
+		text = "Open Forum"
+
+		[[params.Community.list]]
+		img = "img/icons/element-32x32-black.png"
+		imgAlt = "vvvv on Matrix"
+		title = "Chat"
+		description = "Join us for a chat: Get help 24/7 or just hang out with your fellow patchers."
+		link = "https://app.element.io/#/room/#vvvv:matrix.org"
+		text = "Open Element"
+
+		[[params.Community.list]]
+		img = "img/icons/gettogether_logo_w_32x32_gray.png"
+		imgAlt = "vvvv GetTogehter"
+		title = "Meetups"
+		description = "Join us for a meetup: real-world, in-person drinks and presentations around vvvv."
+		link = "https://gettogether.community/vvvv/events/"
+		text = "Open Gettogether"
+
+	# Learn section
+		[params.Learn]
+		headline = "Learn"
+
+	# Support Section
+		[params.support]
+		headline = "Support"
+	# Contact section
+		[params.contact]
+		headline = "Contact"
+		description = " "
+
+		[params.contact.imprint]
+		headline = "Imprint"
+		text ="vvvv - Dießl & Gregor GbR<br>Oranienstrasse 10 <br> 10997 Berlin/Germany<br>VAT: DE275566955<br><br>groupӘvvvv.org"
+
+		[params.footer]
+		hugoText = "Thanks to <a href=\"https://gohugo.io\" target=\"_blank\">Hugo</a> for building this website."
+		plausibleText = "Analytics by <a href=\"https://plausible.io\" target=\"_blank\">Plausible</a>."

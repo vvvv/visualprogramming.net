@@ -1,0 +1,24 @@
+<div class="col mb-5">
+    <div class="card text-light shadow">
+        {{ with .Params.img}}
+            <img src="{{ . }}" class="card-img-top">
+        {{ end }}
+        <div class="card-body">
+            <h3 class="card-title font-weight-bold">{{ .Params.title }}</h3>
+            <div class="card-text text-faded">
+                <p>{{ .Content }}</p>
+            </div>
+        </div>
+        
+        {{ $button := .Params.button}}
+        {{ $plausible:= .Params.plausible}}
+
+        <div class="card-footer">
+            {{ range where (where .Site.RegularPages "Section" "SupportMailTemplates") ".Params.id" "==" .Params.id }}
+                {{ with . }}
+                    <a href="mailto:{{.Params.email}}?subject={{.Params.subject}}&body={{.Content|markdownify|plainify|}}" class="btn btn-lg text-light blueColor" target="_blank" onclick="plausible('{{$plausible}}')">{{ $button }}</a>
+                {{ end  }}
+            {{ end }}
+        </div>
+    </div>
+</div>

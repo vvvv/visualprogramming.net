@@ -1,0 +1,10 @@
+<ul class="list-group list-group-flush">
+  {{ range (where .Site.RegularPages "Type" "blog").GroupByDate "2006"}}
+  {{ $key := .Key }}
+  {{ range first 1 .Pages}}
+    <li class="list-group-item"><a href="{{.CurrentSection.Permalink }}">{{ $key }}</a></li>
+    {{ end }}
+  {{ end }}
+</ul>
+
+

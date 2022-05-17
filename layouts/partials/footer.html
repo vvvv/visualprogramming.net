@@ -1,0 +1,11 @@
+{{ "<!-- FOOTER -->" | safeHTML }}
+<section id="footer" class="grayLight">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p>{{ .Site.Params.footer.hugoText | markdownify}}<br>
+        {{ .Site.Params.footer.plausibleText | markdownify}}</p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,19 @@
+{{ $rightItem := .right}}
+
+{{ with .context}}
+<div class="swiper-slide py-4 px-3">
+    <div class="card text-white card-has-bg click-col h-100">
+        <img class="card-img swiper-lazy" data-src="{{.Params.img}}" alt="{{ .Params.Title }}">
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        <div class="card-img-overlay d-flex">
+            <div class="card-body mx-2 mb-sm-3 align-self-end flex-grow-0 d-flex flex-column">
+                <small class="d-xs-none d-sm-block card-meta mb-2">{{.Params.Author}}</small>
+                <a href="{{ .Params.link }}" target="_blank" class="stretched-link"><h4 class="card-title mt-0 ">{{.Params.Title}}</h4></a>
+                <div class="d-xs-none d-sm-block">
+                    {{.Content}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

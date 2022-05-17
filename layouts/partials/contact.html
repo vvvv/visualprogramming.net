@@ -1,0 +1,55 @@
+{{ "<!-- CONTACT -->" | safeHTML }}
+<section id="contact" class="grayLight">
+    <div class="container">
+        <div class="row row justify-content-center">
+            <div class="col-lg-8 text-center">
+                {{ with .Site.Params.contact.headline }}
+                    <h2 class="section-heading">{{ . }}</h2>
+                {{ end }}
+                {{ if and .Site.Params.contact.headline .Site.Params.contact.description }}
+                    <hr class="primary">
+                {{ end }}
+                {{ with .Site.Params.contact.description }}
+                    <p>{{ . | markdownify }}</p>
+                {{ end }}
+            </div>
+        </div>
+
+
+        <div class="row justify-content-between">
+          <div class="col-md-3 mt-5">
+            <h3><strong>{{ .Site.Params.Contact.Imprint.Headline | markdownify}}</strong></h3>
+            {{ .Site.Params.Contact.Imprint.Text | markdownify}}
+          </div>
+          <div class="col-md-3 mt-5">
+            <h3><strong>Follow us</strong></h3>
+            <div class="row justify-content-start ml-1">
+              <div class="col-2 col-md-5 col-lg-2 p-0 mb-md-3 mr-sm-2">
+                <a rel="me" href="https://mastodon.xyz/@vvvv" target="_blank" class="noUnderline">
+                  <img src="{{ "img/icons/mastodon32x32.png" | relLangURL }}" alt="Mastodon.social">
+                </a>
+              </div>
+              <div class="col-2 col-md-5 col-lg-2 p-0 mb-md-3 mr-sm-2">
+                <a href="https://github.com/vvvv" target="_blank" class="noUnderline">
+                  <img src="{{ "img/icons/github32x32.png" | relLangURL }}" alt="Github">
+                </a>
+              </div>
+              <div class="col-2 col-md-5 col-lg-2 p-0 mb-md-3 mr-sm-2">
+                    <a href="https://vimeo.com/groups/vvvv/sort:date/format:thumbnail" target="_blank" class="noUnderline">
+                      <img src="{{ "img/icons/vimeo-32x32.png" | relLangURL }}" alt="Vimeo">
+                    </a>
+              </div>
+              <div class="col-2 col-md-5 col-lg-2 p-0 mb-md-3 mr-sm-2">
+                    <a href="https://www.youtube.com/channel/UCu-xqv-TLwv6L0An7MJJA5A" target="_blank" class="noUnderline">
+                      <img src="{{ "img/icons/youtube-32x32.png" | relLangURL }}" alt="Youtube">
+                    </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-5">
+            <h3><strong>Sign up for our Newsletter</strong></h3>
+            {{ partial "newsletterForm"}}
+          </div>
+        </div>
+    </div>
+</section>

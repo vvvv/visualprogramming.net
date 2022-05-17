@@ -1,0 +1,34 @@
+{{ if gt .Paginator.TotalPages 1 }}
+{{ $.Scratch.Set "hasPrevDots" false}}
+{{ $.Scratch.Set "hasNextDots" false}}
+    <nav class='pagination mt-4'>
+        <ul class="pagination justify-content-center">
+        {{ if $.Paginator.HasPrev}}
+            <li class="page-item"><a class="page-link" href="{{ $.Paginator.Prev.URL}}">Previous</a></li>
+        {{ else }}
+            <li class="page-item disabled"><a class="page-link">Previous</a></li>
+        {{ end }}
+        {{ range .Paginator.Pagers }}
+            {{ if eq . $.Paginator }}
+                <li class="page-item current"><a class="page-link" href="#">{{ .PageNumber }}</a></li>
+                {{ else if or (or (eq . $.Paginator.First) (eq . $.Paginator.Prev)) (or  (eq . $.Paginator.Next) (eq . $.Paginator.Last )) }}
+                <li class="page-item"><a class="page-link" href=" {{ .URL }}">{{ .PageNumber }}</a></li>
+                {{ else }}
+                    {{ if and (not ($.Scratch.Get "hasPrevDots")) (lt .PageNumber $.Paginator.PageNumber)  }}
+                        {{ $.Scratch.Set "hasPrevDots" true }}
+                        <li class='page-item dots disabled'><a class="page-link" href="#">&hellip;</a></li>
+                    {{ else if and (not ($.Scratch.Get "hasNextDots")) (gt .PageNumber $.Paginator.PageNumber) }}
+                        {{ $.Scratch.Set "hasNextDots" true }}
+                        <li class='page-item dots disabled'><a class="page-link" href="#">&hellip;</a></li>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+
+        {{ if $.Paginator.HasNext}}
+            <li class="page-item"><a class="page-link" href="{{ $.Paginator.Next.URL}}">Next</a></li>
+        {{ else }}
+            <li class="page-item disabled"><a class="page-link">Next</a></li>
+        {{ end }}
+        </ul>
+    </nav>
+{{ end }}

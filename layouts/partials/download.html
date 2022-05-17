@@ -1,0 +1,56 @@
+{{ "<!-- DOWNLOAD -->" | safeHTML }}
+<section id="Download">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                {{ with .Site.Params.download }}
+                    <h2 class="section-heading">{{ .Headline }}</h2>
+                    <hr>
+                {{ end }}
+            </div>
+        </div>
+        <div class="row mb-4">
+            {{ with .Site.Params.download }}
+            <div class="col-lg-8 offset-lg-2 mt-4 text-center">
+                <p class="text-faded">{{ .Copy | markdownify }}</p>
+            </div>
+            {{ end }}
+        </div>
+        <div class="row">
+            <div class="col-lg-7 mb-5">
+                {{ with .Site.Params.download.gamma }}
+                <h4 class="mb-4 underlined"><strong>{{ .Headline }}</strong></h4>
+                <p>{{ .Copy }}</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="{{ .StableLink }}" class="btn btn-primary btn-xl mb-2" target="{{ .Target }}" onclick="plausible('download')">{{ .StableText }}<span class="WindowsIcon"></span></a>
+                        <div class="version text">&nbsp;&nbsp;{{ .StableVersion | markdownify }}</div>
+                        
+                        <a branch="{{ .PreviewBranch }}" id="previewButton" class="btn btn-secondary btn-xl mb-2 mt-4">{{ .PreviewText }}<span class="WindowsIcon"></span></a>
+                        <div class="version text">&nbsp;&nbsp;{{ .PreviewVersion | markdownify }}</div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <a href="{{ .LibrariesLink }}" class="btn btn-secondary btn-xl font-weight-normal mt-4 mt-md-0"  target="{{ .LibrariesTarget }}" onclick="plausible('additionalpacks')">{{ .LibrariesText }}</a>
+                        
+                        <div class="mt-5 btn btn-xl font-weight-normal text-left pl-0 mr-5 mr-lg-0" id="PreviousReleases">
+                            <a href="{{ .ChangeLogLink }}" target="{{ .ChangeLogTarget }}">{{ .ChangeLogText }}</a>
+                        </div>
+                        
+                    </div>
+                </div>
+               {{ end }}
+            </div>
+
+            <div class="col-lg-4 ml-auto mt-5 mt-sm-0">
+                {{ with .Site.Params.download.beta }}
+                <h4 class="mb-4 underlined"><strong>{{ .Headline }}</strong></h4> 
+                <p>{{ .Copy }}</p>
+                <a href="{{ .Link }}" class="btn btn-secondary btn-xl font-weight-normal mb-2" target="{{ .Target }}" onclick="plausible('gotobeta')">{{ .Text }}</a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+
+

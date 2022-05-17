@@ -1,0 +1,17 @@
+<article class="post">
+  <a href='{{ .Permalink }}'>
+    <div class="row justify-content-between">
+      <div class="col-12 col-md-2">    
+        {{ .Render "thumb"}}
+      </div>
+      <div class="col-12 col-md-8 mt-3 mt-md-0">
+        <h2> {{ .Title }} </h2>
+        <p class="description">{{ .Params.description }}</p>
+      </div>
+      <div class="col-12 col-md-2">
+        <div class="post-meta col-md-text-right">{{ .Date.Format "Jan 2, 2006" }}</div>
+      </div>
+    </div>
+  </a>
+    <hr class="thin"/>
+</article>
