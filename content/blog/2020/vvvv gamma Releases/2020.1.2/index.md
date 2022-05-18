@@ -4,7 +4,7 @@ author: "joreg"
 date: "2020-05-26"
 title: "vvvv gamma 2020.1.2 release"
 slug: "vvvv-gamma-2020.1.2-release"
-description: ""
+description: "Release notes"
 imported: "true"
 ---
 
