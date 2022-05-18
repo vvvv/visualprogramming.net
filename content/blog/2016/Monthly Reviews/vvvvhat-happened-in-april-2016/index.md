@@ -8,12 +8,10 @@ description: ""
 imported: "true"
 ---
 
-
-previously on vvvv: [vvvvhat happened in March 2016](/blog/2016/vvvvhat-happened-in-march-2016)
-
 again. apparently a lot happened in april. so lets get right to it:
 ---
-## Contributions
+## Contributions
+
 all new:
 * {{< contribution "dissociated-press" "Dissociated Press" >}} by {{< user "eps" >}} remixes texts based on a Markov chain technique
 * {{< contribution "polymap-(beta-vl-only)" "PolyMap" >}} by {{< user "digitalwannabe" >}} is a little mapping tool (needs latest alpha to work!)
@@ -24,7 +22,8 @@ and updated:
 * {{< contribution "Message 2.0" >}} by {{< user "velcrome" >}} got a little preview update (see his vveekend vvorkshop linked to below)
 * {{< contribution "badMapper" >}} i just made a few cosmetic updates to it
 
-## Gallery
+## Gallery
+
 now this is how you make and document a project. only he forgot to upload it to our gallery, so i'm afraid only 90 out of 100 points. it apparently was a bachelor thesis by thomas mayer at the [Hochschule für Gestaltung Schwäbisch Gmünd](http://www.hfg-gmuend.de/en/)). more details [on his website](http://thomas-mayer.de/portfolio/table-tennis-trainer).
 {{< vimeo "161672022" >}}
 
@@ -39,7 +38,8 @@ but there's been more:
 
 ...and {{< user "zeos" >}} is telling us how he goes [about his work](https://vimeo.com/160707634).
 
-## Oldies but Goldies
+## Oldies but Goldies
+
 i've been recently reminded of this little gem by [Grosse8](https://vvvv.org/businesses/grosse8):
 {{< vimeo "55024483" >}}
 
@@ -47,12 +47,14 @@ but also i want to make sure that everyone is aware of [Spout](http://spout.zeal
 
 latest vvvv alphas come with ready to use modules: Spout (DX9 Sender) and Spout (DX9 Receiver)!
 
-## Coming Up
+## Coming Up
+
 * {{< user "tonfilm" >}} and me are looking forward to joining the [Mapping Festival](/blog/2016/vvvv-at-mapping-festival-2016) in Geneva on May 8
 * {{< user "robotanton" >}} will again speak at [this years CG Event](http://www.cgevent.eu/?p=10191) in Vilnius on May 28
 * the lovvvvely Schmiede in Hallein is [accepting applications](/blog/2016/schmiede16-ausnahmezustand-application) for September 
 
-## Education
+## Education
+
 still going strong: {{< user "microdee" >}} and his vveekend vvorkshops. meanwhile accessible via a proper url: https://www.youtube.com/c/vveekendvvorkshops
 
 latest additions:
@@ -61,7 +63,8 @@ latest additions:
 
 und die kunstuniversität linz sucht eine/n [UniversitätsassistentIn - Schwerpunkt Interaktive Medien](https://vvvv.org/blog/universit%C3%A4tsassistentin-schwerpunkt-interaktive-medien)
 
-## what the VL?
+## what the VL?
+
 about a year ago [we boldly demoed VL](https://vimeo.com/129085756). and now it still hasn't made it out of alpha. zzzz. wherever we show it, people who get it, get it very quickly. and they can't wait to getting handson with it. but we're still a bit cautious in recommending to use it, because we're just not there yet to allow everyone have a great initial experience. so please use it already if you're bravvvve but still wait if you like things a little more polished. latest news are always here: [/vl](https://betadocs.vvvv.org/using-vvvv/vl.html)
 
 {{< user "gregsn" >}}, {{< user "azeno" >}} and {{< user "dominikkoller" >}} just came back from a 3 day workshop at this years resonate festival. [their report](/blog/2016/resonate-report) comes with a link to the github repository that has the game they created with the participants.

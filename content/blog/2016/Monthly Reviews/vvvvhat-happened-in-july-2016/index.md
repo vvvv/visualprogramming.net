@@ -8,9 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
-previously on vvvv: [vvvvhat happened in June 2016](/blog/2016/vvvvhat-happened-in-june-2016)
-
 hallihallo,
 
 time flies and i am glad another month has just started which gives us a break to look back at all the things that happened recently. it's been a lot, check this:
@@ -21,7 +18,8 @@ there were some small updates on our own behalf:
 * a fix for the new [Spout](/blog/2016/spout-0) nodes 
 
 ---
-## Contributions
+## Contributions
+
 then just last week {{< user "digitalwannabe" >}} went on a rampage releasing two powerful plugins:
 * {{< contribution "TetGen" >}} - a Quality Tetrahedral Mesh Generator and a 3D Delaunay Triangulator
 * {{< contribution "Triangle" >}} - a 2d Quality Mesh Generator and Delaunay Triangulator
@@ -42,7 +40,8 @@ and again it seems {{< user "u7angel" >}} has something [brewing in his laborato
 
 boooom..let that all sink for a while...then:
 
-## Gallery
+## Gallery
+
 {{< vimeo "173679093" >}}
 *Hypnotic: 'Terra Nullius' by {{< user "Patxi7" >}}*
 
@@ -60,7 +59,8 @@ Ars Electronica has setup two exhibitions including works by vvvv users:
 and berliners listen up:
 {{< user "rrrr" >}} will be performing at the upcoming [Berlin Atonal 2016](http://www.berlin-atonal.com/atonal-2016/) festival. i cannot set a link to his works on the website(!), so please help yourself looking for "Rainer Kohlberger". see you there...
 
-## what the VL?
+## what the VL?
+
 hmpff..the spring-update is already written and is mostly missing images. i can tell you it is a long one...if that helps. anyway not happy with it being delayed...working on it (and everything). 
 
 ---

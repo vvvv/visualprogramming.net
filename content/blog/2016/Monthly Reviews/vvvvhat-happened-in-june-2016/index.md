@@ -8,16 +8,14 @@ description: ""
 imported: "true"
 ---
 
-
-previously on vvvv: [vvvvhat happened in May 2016](/blog/2016/vvvvhat-happened-in-may-2016)
-
 summer is icumen in and another month has past. many of you are apparently on holiday as we notice the usual sommerloch. but apparently on june 6th someone found it necessary to post [vvvv on hackernews](https://news.ycombinator.com/item?id=11842176) which resulted in the following website access peak (and for a while maxed out our server): 
 
 ![](ynews-spike.png)
 from the usual just above 2k simultaneous sessions to nearly 9k!
 
 ---
-## Contributions
+## Contributions
+
 * a simple {{< contribution "gopro-vr" "GoPro VR" >}} player by {{< user "nzo.nzo" >}}
 * proper modules for the {{< contribution "logitechplaystation-buzzer-module" "Logitech/Playstation Buzzer Module" >}} by {{< user "motzi" >}}
 * a simple patch for using the {{< contribution "akai-midimix" "AKAI Midimix" >}} device by {{< user "graphicuserinterface" >}}
@@ -26,7 +24,8 @@ not yet a contribution, but {{< user "u7angel" >}} keeps teasing us with his lat
 
 i think it would only be fair if everyone interested in using this goes to u7's userpage and sends him an email bugging him to [RERO](https://en.wikipedia.org/wiki/Release_early%2C_release_often).
 
-## Gallery
+## Gallery
+
 quite some quality projects this time. here only my personal favorites:
 
 {{< user "princemio" >}} of [Waltz Binaire](http://waltzbinaire.com/), who became a shader-master quickly in the last years, shared is latest project [Soap and Milk](/blog/soap-and-milk) with more details in this [writeup on creativeapplications](http://www.creativeapplications.net/openframeworks/soap-and-milk-organic-figments-of-data/).
@@ -41,7 +40,8 @@ quite some quality projects this time. here only my personal favorites:
 
 and our alwaysbusy {{< user "lasal" >}} is apparently working on a [Midi Sequencer](https://www.youtube.com/watch?v=EVZh_liwiPA)..
 
-## Education
+## Education
+
 die BTK - Hochschule für Gestaltung in Hamburg-Altona sucht einen möglichst lokalen [vvvv lehrbeauftragten](forum).
 
 Hochschule Darmstadt is running the [Interactive Future Exhibition](http://imd.mediencampus.h-da.de/blog/interactive-future-exhibition/) from july 5th to 7th, apparently featuring quite some vvvv projects. also there seems to be a [beginner vvvv workshop](https://www.facebook.com/interactivefuture/photos/a.565456233634025.1073741828.560758727437109/569304183249230).
@@ -51,7 +51,8 @@ and we're always happy to see more additions to the vveekend vvorkshops hosted b
 * {{< user "tonfilm" >}}'s VAudio
 as always, you can find them all conveniently listest at the [vveekend vvorkshops youtube channel](https://www.youtube.com/channel/UCa8Vqigdbq5Gam_6dcGdNBw).
 
-## what the VL?
+## what the VL?
+
 mostly the fact that we're late with the spring update which may see some even further delay. but then it will be there. suddenly.
 
 ---

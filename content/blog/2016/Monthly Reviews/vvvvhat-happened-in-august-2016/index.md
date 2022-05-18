@@ -8,9 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
-previously on vvvv: [vvvvhat happened in July 2016](/blog/2016/vvvvhat-happened-in-july-2016)
-
 Patchers worldwide,
 
 let me do you a favour by wrapping up all the wonderfull things that happened this past month in our little univvvverse. 
@@ -19,7 +16,8 @@ Our own stuff first: we released a new set of Arduino nodes, redesigned together
 
 ---
 
-## Contributions
+## Contributions
+
 Probably the most active month since we have records, fasten your seatbelts, here comes two major new contributions:
 
 - {{< user "tonfilm" >}} and sponsors give us the essential: {{< contribution "vvvv.openvr" "VVVV.OpenVR" >}}
@@ -50,7 +48,8 @@ plus some teasers:
 
 aaaand we are grateful to {{< user "ravazquez" >}} who translated quite some wiki pages to spanish. Gracias amigo!
 
-## Gallery
+## Gallery
+
 {{< vimeo "165759910" >}}
 *Folding Patterns by Ann-Katrin Krenz*
 
@@ -74,7 +73,8 @@ Students of the Interactive Architecture course at the Bartlett in London found 
 
 And lastbutnotleast you shall be informed that the jury has selected two artists for the coming edition of the [TADAEX/NODE Exchange Program](http://node.vvvv.org/jury-selection-tadaexnode-exchange-201617/). Horray to the lucky Lilian Nejatpour and [Simon Weckert](http://www.simonweckert.com/).
 
-## What the VL?
+## What the VL?
+
 There is something in the bushes... if you haven't already, subscribe to the [devvvv blog](/blog/23)!
 
 ---

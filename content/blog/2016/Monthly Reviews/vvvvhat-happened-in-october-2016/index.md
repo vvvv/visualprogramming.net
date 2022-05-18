@@ -8,9 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
-previously on vvvv: [vvvvhat happened in September 2016](/blog/2016/vvvvhat-happened-in-september-2016)
-
 helo again,
 
 yet another month of restless patching has just passed. Here i give to you your personal summary: 
