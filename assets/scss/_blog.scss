@@ -247,6 +247,24 @@ section#Blog
             font-family: $sans;
             $base-font: 1em;
 
+            table{
+                width: 100%;
+                margin: 1.7em 0em;
+                font-size: 0.95em;
+                border-top: 1px solid #ddd;
+                border-bottom: 1px solid #ddd;
+
+                th
+                {
+                    padding: 0.5em 0em;
+                }
+
+                td
+                {
+                    padding-bottom: 0.3em;
+                }
+            }
+
             .meta
             {
                 background-color: #f6f6f6;
