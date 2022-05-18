@@ -8,6 +8,9 @@
                 <div class="col-12 col-lg-8">
                     <div class="post">
                         <div class="header">
+                            
+                            {{ partial "blog/prev-next" . }}
+
                             <h2 class="display-1">{{ .Title }}</h2>
                             {{ with .Params.date }}
                                 <span class="date mr-3">{{ time.Format "January 2, 2006" .}}</span>
@@ -34,7 +37,7 @@
 
                         </div>
                         <div class="content">
-                            
+
                             {{ if eq .Params.categories "Dates"}}
                                 {{ partial "blog/block-date.html" . }}
                             {{ end }}
