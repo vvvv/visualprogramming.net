@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in December 2017](/blog/2018/vvvvhat-happened-in-december-2017)
-
----
-
 jannuary 2018,
 
 or as i'd like to call it: a new dawn.
@@ -37,10 +33,12 @@ and even more to come... but beware: there aren't really instructions yet on how
 
 with beta36 hopefully out soon we'll then make plans for the next release. high priorities are endless, will be some tough decisions to make again. 
 
-## vvvv Academy
+## vvvv Academy
+
 it happened. it was great. 6 participants from zero to vvovv in 6 days. a few impressions are [here](https://twitter.com/vvvvAcademy). we're planning to do this again, stay tuned!
 
-## Contributions
+## Contributions
+
 here is a big one: {{< user "u7angel" >}} open sourced his {{< contribution "automata-ui" "Automata UI" >}} and in addition is also giving it away for free now for commercial projects! you be stoopid not use it and get him at least a drink the next time you see him. thanks man!
 
 further quite a load of new stuff:
@@ -58,7 +56,8 @@ and updates to many top contributions:
 * {{< contribution "craftlie-dx11-drawing-for-vl" "Craftlie DX11 drawing for vl" >}} by {{< user "tonfilm" >}}
 * {{< contribution "htmltexture-(dx11)" "HTMLTexture (DX11" >}}) by {{< user "tonfilm" >}}
 
-## Gallery
+## Gallery
+
 {{< vimeo "251957445" >}}
 *Recursive Infinity - Endless Procedural Crazyshit by {{< user "evvvvil" >}}*
 

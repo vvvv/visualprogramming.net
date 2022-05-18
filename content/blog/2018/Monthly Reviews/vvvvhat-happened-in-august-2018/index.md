@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in July 2018](/blog/2018/vvvvhat-happened-in-july-2018)
-
----
-
 what a summer...
 
 you missed [link](http://link-summercamp.de/)? well..you were missed too. so what happened? basically: patch, lake, food. to get a bit of a glimpse, check the [final presentations of the focus groups](http://www.link-summercamp.de/results/).
@@ -25,7 +21,8 @@ and the latest big news is that we've announced to have started work on a [3d-pa
 
 if you're looking for a job, check this [announcement by intolight](https://discourse.vvvv.org/t/intolight-looking-for-freelancers-in-aug-sep-2018/16661).
 
-## Contributions
+## Contributions
+
 we got one new contribution this month:
 * {{< contribution "shaderbox" >}} by {{< user "umanema" >}}
 
@@ -35,7 +32,8 @@ and then, as a direct outcome of a discussion at link, to boost the "work in pro
 and we got two teasers: [one](/blog/interpole-(help)-preview) and [two](/blog/root-192)
 
 
-## Gallery
+## Gallery
+
 {{< vimeo "283191224" >}}
 *[Rotor by VOLNA](/blog/rotor-by-volna)*
 

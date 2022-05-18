@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in August 2018](/blog/2018/vvvvhat-happened-in-august-2018)
-
----
-
 we did it,
 
 [vvvv 50beta37 is out](/blog/2018/vvvv50beta37)! and you're hopefully using it already. since we haven't gotten any problematic reports since, it seems fair to say that we managed to get out another quite stable release. if you find otherwise, you know how to reach us in the [forum](https://discourse.vvvv.org/) or [chat](https://betadocs.vvvv.org/chat.html). we're here to help!
@@ -32,7 +28,8 @@ and finally: {{< user "tonfilm" >}} wrote about fancy way for [debugging dx11 fr
 
 has this just turned into a full-blown monologue? geee..
 
-## Contributions
+## Contributions
+
 <!--{SPLIT()}-->
 two fine new ones
 * {{< contribution "global-s-r-nodes" "Global S&R Nodes" >}} by {{< user "ravazquez" >}}
@@ -50,7 +47,8 @@ and a couple of new works in progress:
 * [Form Menues](https://discourse.vvvv.org/t/form-menus/16707) by {{< user "sebl" >}}
 * [VL.NetMQ](https://discourse.vvvv.org/t/vl-io-netmq/16704) by {{< user "joreg" >}}
 
-## Gallery
+## Gallery
+
 {{< youtube "YFdVpllPP5U" >}}
 *Art Vision Vjing 2018 1st prize by {{< user "Idwyr" >}}*
 

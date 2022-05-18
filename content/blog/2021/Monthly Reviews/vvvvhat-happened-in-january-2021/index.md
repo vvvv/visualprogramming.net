@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-Previously on vvvv: [vvvvhat happened in December 2020](/blog/2021/vvvvhat-happened-in-december-2020)
-
----
-
 First off, 
 
 there's been the [2020.2.5 release](/blog/vvvv-gamma-2020.2-release).
@@ -23,7 +19,8 @@ Even before this one is released you're asking what's next?! How on earth could 
 
 Until then, let's hear it from the working groups:
 
-## Working Groups
+## Working Groups
+
 There've been a lot of updates in the last meetup. Here is the gist:
 
 * [VL.OpenCV](https://youtu.be/6QogLkSX5GE?t=442) update by {{< user "ravazquez" >}}
@@ -35,7 +32,8 @@ There've been a lot of updates in the last meetup. Here is the gist:
 
 Or just lean back and [watch the whole 7th meetup](https://youtu.be/6QogLkSX5GE) in one go.
 
-## Contributions
+## Contributions
+
 New:
 * [VL.HapPlayer](https://www.nuget.org/packages/VL.HapPlayer) by {{< user "lev" >}}
 
@@ -45,11 +43,13 @@ Updates:
 * [VL.Audio](https://www.nuget.org/packages/VL.Audio) by vvvv
 * [VL.Audio.GPL](https://www.nuget.org/packages/VL.Audio.GPL) by {{< user "motzi" >}}
 
-## Learning material
+## Learning material
+
 * {{< user "takuma" >}} continued his [vvvv gamma Learn log](https://www.youtube.com/playlist?list=PLK3HDkvkLePThFo_sp9hPuue_61nxkQOM) 
 * [All vvvv workshop recordings from NODE20](https://thenodeinstitute.org/courses/node20-vvvv-workshop-bundle/)
 
-## Gallery
+## Gallery
+
 {{< vimeo "492467329" >}}
 *Schattenfänger by [BADABOOM](https://vvvv.org/businesses/badaboomberlin)*
 
@@ -61,7 +61,8 @@ And more:
 * [Raresh // Live Studio Session](https://www.youtube.com/watch?v=gxyU53Qu2uM)
 * [ACHAT](https://vimeo.com/498870540)
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)

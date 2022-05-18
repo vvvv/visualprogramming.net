@@ -8,14 +8,12 @@ description: ""
 imported: "true"
 ---
 
-
-previously on vvvv: [vvvvhat happened in October 2015](/blog/2015/vvvvhat-happened-in-october-2015)
----
 ouright scratch that,
 
 it seems everyone is just too busy to write a review for last month so i'll appoint myself again. oh thanks. i'm welcome... off the top of my head i remember that again a lot of things happened last month, so lets see what i can find...
 
-## Contributions
+## Contributions
+
 i visited {{< user "woei" >}} at his desk last week where he showed my some crazy stuff thats still to come. but he has already cleaned out his harddisk and found the following:
 * {{< contribution "simplecloth" >}}
 * {{< contribution "ardrone" >}}
@@ -27,7 +25,8 @@ also the following got updated:
 * {{< user "tekcor" >}} provided a dx11 version of {{< contribution "ft-cubic-lens-distortion" >}}
 * {{< user "vasilis" >}} provided a dx11 version of {{< contribution "polar-menu" >}}
 
-## Teasers
+## Teasers
+
 and a lot of teasing this time:
 * someone has gestures [gesture-(devices-window)-help](/blog/gesture-(devices-window)-help)
 * {{< user "microdee" >}} has a [mitterline](/blog/mitterline)
@@ -37,7 +36,8 @@ if you know your github and can't wait for contributions help yourself with thes
 * {{< user "velcrome" >}} pushed his [ZeroMQ](/blog/sockets-on-steroids) lib to [github](https://github.com/velcrome/vvvv-ZeroMQ)  
 * {{< user "microdee" >}} pushed his [ironhydra](/blog/ironhydra) lib to [github](https://github.com/microdee/IronHydra)
 
-## Gallery
+## Gallery
+
 i forgot to mention this beauty by {{< user "lasal" >}} last month: [tesela-interactive-paper-sculpture](/blog/tesela-interactive-paper-sculpture). this time i couldn't really decide on my favorite...so i go for the obvious:
 {{< vimeo "145836531" >}}
 
@@ -49,7 +49,8 @@ but also these are worth watching:
 
 and new in my rss-reader this month: https://uberact.com/blog/
 
-## Education
+## Education
+
 a lot of things going on education-wise. most notably of course mr. {{< user "microdee" "microdee" >}} has started his series of weekend workshops. not exactly very straight workshops one could argue, but definitely interesting vvvv-entertainmaint if you have a few hours to spend. he provides uncut version of all livestreams is his [vveekend vvorkshops youtube channel](https://www.youtube.com/channel/UCa8Vqigdbq5Gam_6dcGdNBw).
 
 {{< user "vux" >}}, {{< user "ain" >}} and {{< user "idwyr" >}} apparently have something coming up in moscow [polytech.science.art-week-audiovision-lab](/blog/2015/polytech.science.art-week-audiovision-lab).

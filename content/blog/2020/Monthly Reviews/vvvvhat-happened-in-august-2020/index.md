@@ -8,10 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
-Previously on vvvv: [vvvvhat happened in July 2020](/blog/2020/vvvvhat-happened-in-july-2020)
-
----
 Swoooosh,
 
 and another month has passed... We're happily running the [VL.Stride EarlyAccess program](/blog/2020/vl.stride-earlyaccess-available-now) and at this point want to say **HUGE THANKS** to those who joined us. Development is in overdrive to make sure we can soon release a public version for all of you to patch with. If you can't wait, you can still join the program!
@@ -29,21 +25,25 @@ Or, for a free ticket contribute in a different way:
 
 In other news: If you're interested in machine learning, you may want to test this new pack we just released: [VL.RunwayML](https://discourse.vvvv.org/t/vl-runwayml/18770) allows you to run any model provided by [](runwayml.com) directly as a node in vvvv!
 
-## Gallery
+## Gallery
+
 {{< vimeo "455750009" >}}
 *data sculpture by Nils Schack*
 
 {{< youtube "ANNSePLvqbk" >}}
 *Jugend Hackt in talks with {{< user "timpernagel" >}} about "Beethoven Recomposed"*
 
-## Contributions
-### Updates
+## Contributions
+
+### Updates
+
 * {{< contribution "gamma-launcher" "Gamma Launcher" >}} by {{< user "sebescudie" >}}
 * The continued series of [vvvv beta tutorials](https://www.youtube.com/playlist?list=PLK3HDkvkLePS9UKCVw1o_eb09Ocws6Wcr) by {{< user "takuma" >}}
 
 Also {{< user "takuma" >}} is running another online workshop before NODE20. So if you can't wait, [check this out](/blog/2020/generative-graphics-workshop-with-vvvv-beta)!
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
 

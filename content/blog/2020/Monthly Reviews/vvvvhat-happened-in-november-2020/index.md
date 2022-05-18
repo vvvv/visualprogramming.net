@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-Previously on vvvv: [vvvvhat happened in October 2020](/blog/2020/vvvvhat-happened-in-october-2020)
-
----
-
 November!
 
 A seemingly calm month, but it is boiling under the covvvvers: First, you notice that we continue to update the 2020.2 release with bugfixes. The latest release is [vvvv gamma 2020.2.4](https://thegraybook.vvvv.org/changelog/2020.2.html).
@@ -27,7 +23,8 @@ If you haven't yet, watch the [recording of the last vvvv meetup](https://www.yo
 
 And finally done are the completely reworked, easy to use OSC and TUIO nodes which will show up in one of the coming previews soon!
 
-## Contributions
+## Contributions
+
 Two new ones:
 * {{< contribution "vl.opencv-camera-calibration-helper" >}} by {{< user "ravazquez" >}}
 * {{< contribution "texture-sharing-from-gamma-to-beta-and-back" >}} by {{< user "bjoern" >}}
@@ -40,18 +37,21 @@ And some new works in progress:
 * [VL.SunCalc](https://discourse.vvvv.org/t/vl-suncalc/18971) by {{< user "texone" >}}
 * [Elementa "timed" widgets](https://discourse.vvvv.org/t/elementa-timed-widgets/18960) by {{< user "bjoern" >}}
 
-## Learning material
+## Learning material
+
 * [A polish vvvv beta course](https://www.youtube.com/watch?v=z7qWF-ENOko)
 * [A chinese vvvv gamma course](https://www.youtube.com/playlist?list=PLlC309TWKG87MfZC61rCTyqMTVDgoWbFy)
 * [All vvvv workshop recordings from NODE20](https://thenodeinstitute.org/courses/node20-vvvv-workshop-bundle/)
 
-## Gallery
+## Gallery
+
 {{< vimeo "474322751" >}}
 *塵-The Dust by 杜鹏程*
 
 ----
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
 

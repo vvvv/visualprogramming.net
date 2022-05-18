@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in July 2017](/blog/2017/vvvvhat-happened-in-july-2017)
-
----
-
 so helo again, 
 
 summertime...and we learn from google that you've been a bit more active on vvvv.org this year than compared to last summer:
@@ -30,7 +26,8 @@ on the documentation front we're making small progress behind the scenes and hav
 
 and without our intervention apparently [VL made its way to china](https://www.youtube.com/watch?v=RywbDJ35BqI).
 
-## Contributions
+## Contributions
+
 <!--{SPLIT()}-->
 we've received a couple of new contributions:
 - {{< contribution "crt-shader(dx11)" >}} by {{< user "letoast" >}}
@@ -48,7 +45,8 @@ and some existing contributions got an update:
 
 and don't forget, all NODE17 workshop materials and videos are conveniently collected [here](/blog/2017/node17-workshop-material).
 
-## Gallery
+## Gallery
+
 {{< vimeo "230181858" >}}
 *[12 Bit Alchemy](/blog/12-bit-alchemy) by Waltz Binaire*
 

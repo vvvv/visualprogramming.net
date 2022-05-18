@@ -8,10 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
-Previously on vvvv: [vvvvhat happened in October 2021](/blog/2021/vvvvhat-happened-in-october-2021)
-
----
 It is out!
 
 This past month we're happy to have released [vvvv gamma 2021.4](/blog/2022/vvvv-gamma-2021.4-release), the latest and greatest (so far). It took us much longer than originally planned, but probably that wasn't much of a surprise to many of you. Still, we're trying to get better with our predictions. So for the [freshly updated roadmap](https://thegraybook.vvvv.org/roadmap/planned.html), we tried to be a bit more conservative for a start and rather update it along the way. But it should give you a perspective already for the coming year. 
@@ -20,7 +16,8 @@ Also, we tried to improve the [Features section on the website](https://visualpr
 
 Then apologies for silently skipping the last two regularly scheduled meetups, but we now have a date announced: On December 7th, 8pm CET {{< user "baxtan" >}} the great will host **[The final meetup of 2021](/blog/2021/15.-vvvv-worldwide-meetup)** where everyone is invited to join and show us what you're working on.
 
-## Contributions
+## Contributions
+
 We received updates to the following:
 * {{< contribution "gamma-launcher" "Gamma Launcher" >}}
 * [VL.CEF](https://www.nuget.org/packages/VL.CEF/)
@@ -30,14 +27,16 @@ We received updates to the following:
 * [VL.SocketIO](https://www.nuget.org/packages/VL.SocketIO)
 * [VL.IO.HTTP.WebServer](https://www.nuget.org/packages/VL.IO.HTTP.WebServer)
 
-## Gallery
+## Gallery
+
 {{< youtube "AzzYgu9Ns-w" >}}
 *Climate Stripes data visualisation by {{< user "StiX" >}}*
 
 * [LI //// MOTORSAW Basement 2021](https://youtu.be/1jgxhhzyvzs) by {{< user "sunep" >}}
 * [#madewithvvvv](https://www.picuki.com/tag/madewithvvvv) by various patchers
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)

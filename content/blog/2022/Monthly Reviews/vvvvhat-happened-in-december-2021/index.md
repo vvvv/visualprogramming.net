@@ -8,10 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
-Previously on vvvv: [vvvvhat happened in November 2021](/blog/2021/vvvvhat-happened-in-november-2021)
-
----
 Happy new evvvveryone!
 
 It's that time of the year again where we're throwing out the old one and are unconditionally happy for yet another one to come. That's the spirit! So while you mentally prepare for the upcoming meetup on January 25th, you have a chance to rewatch the [15th vvvv online meetup](https://www.youtube.com/watch?v=lxpaJjaJg_o), the last one from 2021.
@@ -23,7 +19,8 @@ With vvvv gamma finally being in proper shape, we're starting an educational off
 
 **[Course: Mastering vvvv for teaching](https://thenodeinstitute.org/mastering-vvvv-for-teaching/)**
 
-## Contributions
+## Contributions
+
 We got a new one:
 * [VL.Spotify](https://www.nuget.org/packages/VL.Spotify) by {{< user "sebescudie" >}} as [demonstrated in the last meetup](https://youtu.be/lxpaJjaJg_o?t=3826)
 
@@ -37,14 +34,16 @@ and received updates to the following:
 
 And there is a growing number of [video tutorials in chinese](https://www.youtube.com/channel/UCSJuEFRlfo11WDbeWFcFZVg) by {{< user "lavalse" >}}
 
-## Gallery
+## Gallery
+
 {{< vimeo "657825615" >}}
 *Fantastic Mobility by [BADABOOMBERLIN](https://vvvv.org/businesses/badaboomberlin)*
 
 * [Perpetual Myth](https://www.aristidesgarcia.de/perpetual-myth) by {{< user "lasal" >}}
 * [#madewithvvvv](https://www.picuki.com/tag/madewithvvvv) by various patchers
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)

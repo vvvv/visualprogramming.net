@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-Previously on vvvv: [vvvvhat happened in January 2021](/blog/2021/vvvvhat-happened-in-january-2021)
-
----
-
 What did you do in February?
 
 Well, we did two releases:
@@ -24,7 +20,8 @@ We're already working on a beta 42 which will include the latest VL 2021.3 and a
 
 We all met for [the 8th online meetup](https://youtu.be/jUBEyp-z3JI) and some of you also couldn't resist and once again made some great contributions:
 
-## Contributions
+## Contributions
+
 * The long-awaited "not your ordinary timeline" Kairos by {{< user "dottore" >}} is out:
  ** Get the [VL.Kairos NuGet](https://www.nuget.org/packages/VL.Kairos/)
  ** Watch a [brief introduction](https://www.youtube.com/watch?v=jUBEyp-z3JI&t=3855s) from the last meetup
@@ -44,11 +41,13 @@ There've also been some updates:
 
 And as always have a look at [the forums Work-In-Progress section](https://discourse.vvvv.org/c/wip/27) for some more recent goodies...
 
-## Gallery
+## Gallery
+
 {{< vimeo "508799883" >}}
 *TIME OF MELTING by {{< user "stain" >}}*
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)

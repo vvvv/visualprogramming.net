@@ -9,11 +9,8 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in April 2017](/blog/2017/vvvvhat-happened-in-april-2017)
+##  NODE17
 
----
-
-##  NODE17
 so node, obviously, coming up in just a few weeks, here is what you need to know:
 - [Workshop Booking is Live!](/blog/2017/node17-book-your-workshops)
 - Workshops [by Schedule](/blog/2017/node17-workshop-schedule) or [by Categories](/blog/2017/node17-workshops-announced)
@@ -24,20 +21,23 @@ so node, obviously, coming up in just a few weeks, here is what you need to know
 [CreativeApplications](http://www.creativeapplications.net/news/node17-designing-hope-26-6-2-7-2017-frankfurt-germany/) did a thorough writeup of what to expect. 
 and if you've missed NODE15, [watch this as inspiration](https://vimeo.com/189334101).
 
-##  vvvv/vl
+##  vvvv/vl
+
 sorry for not blogging more about the recent changes to vvvv/vl which are already live in alpha builds but a new release is imminent and we'll cover things then. one thing though you shouldn't miss is:
 * [welcome-gizmo](/blog/2017/welcome-gizmo)
 
 and there is a new way to get in touch with us and many of you are already using it:
 * [chat-vvvv-on-matrix.org](/blog/2017/chat-vvvv-on-matrix.org)
 
-##  Contributions
+##  Contributions
+
 we've received three new contributions in may:
 * {{< contribution "perception-neuron-(tcp)-demo" "Perception Neuron (TCP) Demo" >}} by {{< user "scatena" >}}
 * {{< contribution "growing-lines-from-svg-paths" "Growing Lines from SVG paths" >}} by {{< user "catweasel" >}}
 * {{< contribution "music-wheel" "Music Wheel" >}} by {{< user "ravazquez" >}}
 
-##  Teaser
+##  Teaser
+
 quite a few teasers..hope to see those released soon:
 * [detectfaces](/blog/detectfaces) by {{< user "sebl" >}}
 * [c-mix-1](/blog/c-mix-1) by {{< user "lecloneur" >}}
@@ -46,7 +46,8 @@ quite a few teasers..hope to see those released soon:
 * [excel](/blog/excel) & [examplepatch-renderer](/blog/examplepatch-renderer) by {{< user "guest" >}}
 * [0-preview-3](/blog/0-preview-3) by {{< user "readme" >}}
 
-## Gallery
+## Gallery
+
 and a lot of fresh projects realized with vvvv:
 {{< vimeo "218573298" >}}
 *[Archive Dreaming](http://www.creativeapplications.net/vvvv/archive-dreaming/) by Refik Anadol Studio*

@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-Previously on vvvv: [vvvvhat happened in March 2020](/blog/2020/vvvvhat-happened-in-march-2020)
-
----
-
 Here we are now,
 
 vvvv beta just got a [bugfix 39.1 release](/blog/2020/vvvv50beta39.1). Nothing big, just getting rid of some annoyances and preparing for the upcoming beta40 which will include latest VL! 
@@ -31,7 +27,8 @@ So you see, we're far from bored...In case you are, here are two things for you 
 
 And finally, if you need a vvvv specialist or are one yourself, check out this new listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire).
 
-## Contributions
+## Contributions
+
 A couple of updates
 * {{< contribution "vvvv-telegram" "VVVV.Telegram" >}} by {{< user "motzi" >}}
 * {{< contribution "gamma-launcher" "Gamma Launcher" >}} by {{< user "sebescudie" >}}
@@ -40,11 +37,13 @@ A couple of updates
 
 And as usual quite some activity in the forums [work-in-progress section](https://discourse.vvvv.org/c/wip/27)!
 
-## Gallery
+## Gallery
+
 {{< vimeo "410401989" >}}
 *Cornerstone by Anya Maryina*
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * And there are some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
 

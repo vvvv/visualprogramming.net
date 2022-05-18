@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-Previously on vvvv: [vvvvhat happened in November 2019](/blog/2019/vvvvhat-happened-in-november-2019)
-
----
-
 okok,
 
 still no bigfat vvvv gamma release but we're now really getting close. See what we've just released last month:
@@ -28,7 +24,8 @@ Documentation-wise there've been three updates: A new [Section on IOBoxes](https
 
 And the biggest news of all: **[NODE20 is happening!](/blog/2019/node-2020)** Just in time so that we'll have 3d-support in vvvv gamma and hopefully finally match most features of vvvv beta. Ideally we'll have at least a first version of VL.Xenko out before, so that some of you can even already prepare workshops with it... Curious about our progress there? Expect a separate blogpost with a wrap-up of latest developments shortly.
 
-## Contributions
+## Contributions
+
 A few updates:
 * {{< contribution "vvvv.openvr" "VVVV.OpenVR" >}} by {{< user "tonfilm" >}} 
 * {{< contribution "craftlie-dx11-drawing-for-vl" "Craftlie DX11 drawing for VL" >}} by {{< user "tonfilm" >}}
@@ -44,7 +41,8 @@ And there's been some action in the work-in-progress section on the forum:
 * [Spine](https://discourse.vvvv.org/t/spine/18074)
 * [VL.Material](https://discourse.vvvv.org/t/vl-material/18087)
 
-## Gallery
+## Gallery
+
 {{< vimeo "376539566" >}}
 *[Empyrean](/blog/empyrean-kinetic-light-installation-by-volna-2a-production) by {{< user "iam404" >}}*
 
@@ -55,7 +53,8 @@ And some more fresh from the vimeo group:
 * [Fantasie#2@Radialsystem_Quadrature](https://vimeo.com/378256231) by Quadrature
 * [LGM#2 Teaser](https://vimeo.com/378276781) by Quadrature
 
-## Jobs
+## Jobs
+
 * [A new livvvve in Switzerland?](https://discourse.vvvv.org/t/a-new-livvvve-in-switzerland/18112) by [-naut GmbH](https://vvvv.org/businesses/naut-gmbh)
 * [Some more on dasauge.de](https://dasauge.de/sta/Vvvv/)
 

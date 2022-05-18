@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-Previously on vvvv: [vvvvhat happened in April 2021](/blog/2021/vvvvhat-happened-in-april-2021)
-
----
-
 What's on and going?
 I can tell you that:
 
@@ -22,7 +18,8 @@ Then if you're brave enough to test drive the 2021.4 previews you'll now see the
 
 Coming up next: We're still working on smoothing out issues with TextureFX, building a UI for the settings and improving the NuGet integration for the [coming release](https://thegraybook.vvvv.org/roadmap/planned.html). Plus, if we're lucky there'll be some surprise goodies ready in time...
 
-## Meetup
+## Meetup
+
 In case you missed it, you really missed some things. Here are the chapters from the [last meetup](https://youtu.be/wuDZGIvxR9U) for you to rewatch:
 
 * Fynn: [about the MMODG VVVVarkle he implemented in his 6 week internship with us](https://youtu.be/wuDZGIvxR9U?t=435)
@@ -31,7 +28,8 @@ In case you missed it, you really missed some things. Here are the chapters from
 * {{< user "gegenlicht" >}} [about his reseach into ShaderFX](https://youtu.be/wuDZGIvxR9U?t=4251)
 * {{< user "sebl" >}} [demoing the use of his latest nuget: VL.OpenAI](https://youtu.be/wuDZGIvxR9U?t=4937)
 
-## Contributions
+## Contributions
+
 New:
 * [VL.OpenAI](https://www.nuget.org/packages/VL.OpenAI/) by {{< user "sebl" >}}
 * [VL.SmallestCircle](https://www.nuget.org/packages/VL.SmallestCircle/) by {{< user "sebl" >}}
@@ -44,11 +42,13 @@ Update your nugets for the following:
 
 And as always have a look at [the forums Work-In-Progress section](https://discourse.vvvv.org/c/wip/27) for some more recent goodies...
 
-## Gallery
+## Gallery
+
 {{< vimeo "555981152" >}}
 *Inconsequential Ramblings by Sean Norris*
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)

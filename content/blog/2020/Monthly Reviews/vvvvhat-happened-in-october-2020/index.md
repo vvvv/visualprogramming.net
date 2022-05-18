@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-Previously on vvvv: [vvvvhat happened in August 2020](/blog/2020/vvvvhat-happened-in-august-2020)
-
----
-
 So once again, where were we...
 
 oh, [NODE20 just happened](/blog/2020/this-was-node20) and never mind if you missed it, you can still [access the recordings of all workshops](/blog/2020/node20-workshop-recordings-online-survey)!
@@ -21,7 +17,8 @@ If you haven't noticed yet, the latest previews for vvvv gamma now include [VL.S
 
 [vvvv gamma 2020.2](/blog/vvvv-gamma-2020.2-release) is out and also the latest [previews for beta41](https://vvvv.org/downloads/previews) already include the 2020.2.x branch of VL!
 
-## Contributions
+## Contributions
+
 Some new:
 * [Publishing your VL nugets with Github Actions](/blog/2020/publishing-your-vl-nugets-with-github-actions) by {{< user "sebescudie" >}} 
 * {{< contribution "vl.opencv-camera-calibration-helper" "OpenCV Camera Calibration Helper" >}} by {{< user "ravazquez" >}}
@@ -42,7 +39,8 @@ Quite a few new works in progress:
 * https://discourse.vvvv.org/t/vl-io-mqttnet/18794
 * https://discourse.vvvv.org/t/vl-visca-with-dmx-to-visca-rs485-controller/18776
 
-## Gallery
+## Gallery
+
 {{< vimeo "456625253" >}}
 *Visuals Reel by {{< user "c nissidis" >}}*
 
@@ -54,7 +52,8 @@ Quite a few new works in progress:
 
 ----
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
 

@@ -8,14 +8,12 @@ description: ""
 imported: "true"
 ---
 
-
-previously on vvvv: [vvvvhat happened in January 2016](/blog/2016/vvvvhat-happened-in-january-2016)
----
 only 29 days,
 
 but still too many news and updates to follow. so here is a recap of the vvvv communities activities in february:
 
-## Contributions
+## Contributions
+
 since a few days the download-counter is working again for contributions. sorry for the delay, we sure lost quite some counts for the statistics, but you know, everyone is so busy these days.. so whats been new last month?
 
 * {{< user "darrelp" >}} gives to us a comprehensive set of {{< contribution "voronoi-with-winged-edge-information" "Voronoi" >}} plugins. All you ever wanted to know from voronoi, you'll find it there. 
@@ -29,12 +27,14 @@ since a few days the download-counter is working again for contributions. sorry 
 
 and if i'm interpreting [these](/blog/strong-typing-made-easy) [latest](/blog/generictest) screenshots correctly it seems as if {{< user "velcrome" >}} and {{< user "microdee" >}} have something cooking..
 
-## Oldies but goldies
+## Oldies but goldies
+
 already more than 3 years old the {{< contribution "vvvv.packs.image" "CV.Image pack" >}} by {{< user "elliotwoods" >}} is still the one to choose when doing anything computer-vision. and it seems {{< user "sebl" >}} has a great addition to it in the making: looks like a spreadable input for uEye cameras..
 ![](screenshot1456265234.png) 
 
 
-## Gallery
+## Gallery
+
 many people are using vvvv for commercial work, which is great. only hardly anyone seems to bother posting their work in the [gallery](https://visualprogramming.net/#Showcase). because of course everyone is too busy. never mind, leaves more space for the arts:
 * {{< user "rogalag" >}} just posted his [latest work](/blog/installation-review)
 * {{< user "dominikkoller" >}} shared the latest update to his award-winning project [Visual Drumset](/blog/davidecks-drums-present-visualdrumset)
@@ -50,12 +50,14 @@ also {{< user "tekcor" >}} sent in his latest work, a hybrid system of vvvv and 
 ![](MixBotBeta_fb_meta.jpg)
 *MixBot*
 
-## Education
+## Education
+
 {{< user "microdee" >}} organized another vveekend vvorkshop with {{< user "antokhio" >}} who gave an introduction to Raymarching. as usual you can watch them all in the [vveekend vvorkshops youtube channel](https://www.youtube.com/channel/UCa8Vqigdbq5Gam_6dcGdNBw).
 
 and if you're free between april 12-16th come to [](http://resonate.io) and join the 3 day intensive VL workshop with {{< user "gregsn" >}} and {{< user "elias" >}}.
 
-## what the [VL](https://betadocs.vvvv.org/using-vvvv/vl.html)?
+## what the [VL](https://betadocs.vvvv.org/using-vvvv/vl.html)?
+
 it is amazing! i'm hoping to write a winter update before the end of winter.. ah and if you haven't already, check out the completely refurbished [Editing Framework](/blog/2016/introducing-the-editing-framework) we patched almost entirely in VL. available in latest [alphas](https://vvvv.org/downloads/previews).
 
 ---

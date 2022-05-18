@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in October 2018](/blog/2018/vvvvhat-happened-in-october-2018)
-
----
-
 dezember!
 
 one week to go for the opening of [We live in an Ocean of Air](http://oceanofair.com/) which you normally wouldn't have to care about but in this special case, how this connects to you through this blogpost is, that this is the first fully [vl](https://betadocs.vvvv.org/using-vvvv/vl.html) + [Xenko](/blog/2018/vl-xenko-3d-engine-update-1) project we've helped to realized. if you're in london between December 7th and January 20th, go see it, it is good, promised! if not, let's hope that everything goes well, because then the thing should go on tour and maybe come a bit closer to you.. here is a little teaser:
@@ -25,12 +21,14 @@ but that is not all:
 
 next up: we're going to evaluate where we are with vl-standalone and xenko after this above mentioned project and we should have an update for you by the end of this year. and everybody yayy.
 
-## Jobs
+## Jobs
+
 looking for a job at where it all once started? here are two opportunities at [](http://meso.design)
 * [Senior vvvv developer for media software](https://meso.design/en/articles/wanted-senior-vvvv-developer-for-media-software)
 * [Senior vvvv patcher for creative coding and design](https://meso.design/en/articles/wanted-senior-vvvv-patcher-for-creative-coding-and-design)
 
-## Contributions
+## Contributions
+
 one new: {{< contribution "Opticalflow3d" >}} by {{< user "timpernagel" >}}
 one updated: {{< contribution "vvvv.audio-pack-alpha" "VAudio" >}} by {{< user "tonfilm" >}}
 
@@ -51,7 +49,8 @@ a tease:
 and something in chinese:
 [watch](https://www.youtube.com/watch?v=-sNCYnDpmPE)
 
-## Gallery
+## Gallery
+
 {{< youtube "dCWw30Ca0z8" >}}
 *Second Litany by {{< user "StiX" >}}*
 

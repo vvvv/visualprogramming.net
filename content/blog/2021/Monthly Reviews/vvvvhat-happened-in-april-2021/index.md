@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-Previously on vvvv: [vvvvhat happened in March 2021](/blog/2021/vvvvhat-happened-in-march-2021)
-
----
-
 So what have we got?!
 
 Releases: 
@@ -26,7 +22,8 @@ Meanwhile, we added the following 3 offers to our portfolio:
 * Want to get started with vvvv: [We offer custom training](/blog/2021/we-offer-custom-training)
 * Need a hand with a project? [We offer custom support and development](/blog/2021/we-offer-custom-support-and-development)
 
-## Meetup
+## Meetup
+
 The [last meetup](https://youtu.be/ShUefLRL_H0) was one continuous 2h and 24 minute long highlight, smoothly operated by {{< user "baxtan" >}}. Here is what you missed (in case):
 
 * Emanuel Gollop [about his work with Robots and Machine Learning](https://youtu.be/ShUefLRL_H0?t=487)
@@ -37,7 +34,8 @@ The [last meetup](https://youtu.be/ShUefLRL_H0) was one continuous 2h and 24 min
 * {{< user "gegenlicht" >}} [about his PBR Utilities](https://youtu.be/ShUefLRL_H0?t=5599)
 * The FUSE Team [about the status of the FUSE development](https://youtu.be/ShUefLRL_H0?t=6262)
 
-## Contributions
+## Contributions
+
 New:
 * [VL.ColorLovers](https://www.nuget.org/packages/VL.ColourLovers) by {{< user "sebescudie" >}}
 
@@ -55,11 +53,13 @@ Update your nugets for the following:
 
 And as always have a look at [the forums Work-In-Progress section](https://discourse.vvvv.org/c/wip/27) for some more recent goodies...
 
-## Gallery
+## Gallery
+
 {{< vimeo "538462895" >}}
 *xr field. by {{< user "ggml" >}}*
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)

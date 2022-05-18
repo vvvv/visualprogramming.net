@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-Previously on vvvv: [vvvvhat happened in January 2020](/blog/2020/vvvvhat-happened-in-january-2020)
-
----
-
 Bonjour from paris,
 
 where I was happy to witness a short AV performance by {{< user "dottore" >}} which he developed as part of a [residency](https://vertigo.starts.eu/calls/starts-residencies-call-3/residencies/still/detail/) with us. vvvv gamma + VL.Xenko used to its finest...
@@ -26,7 +22,8 @@ Meanwhile back on vvvv.org we opened a [new store](/blog/2020/moving-forward-sto
 
 With vvvv gamma we're getting closer to a release-candidate phase. We still have a few known issues we want to sort out before, but no more show stoppers. Please follow our progress and [fetch latest previews from here](/blog/2020/vvvv-gamma-2019.2-preview). 
 
-## Contributions
+## Contributions
+
 An update:
 * {{< contribution "automata-ui" "Automata UI" >}} by {{< user "u7angel" >}}
 
@@ -40,11 +37,13 @@ And there's been quite some action in the work-in-progress section on the forum:
 * [VL.Devices.Nuitrack](https://discourse.vvvv.org/t/vl-devices-astra/16615) by {{< user "elias" >}}
 * [VL.Devices.Kinect](https://discourse.vvvv.org/t/vl-devices-kinect/18223) by {{< user "chowpow" >}}
 
-## Gallery
+## Gallery
+
 {{< youtube "OkzfYQCLrCE" >}}
 *{{< user "readme" >}} and Max about "Beathoven" at the last vvvv meetup in Berlin*
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * And there are some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
 

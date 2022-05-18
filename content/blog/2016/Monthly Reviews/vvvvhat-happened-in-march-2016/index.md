@@ -8,12 +8,10 @@ description: ""
 imported: "true"
 ---
 
-
-previously on vvvv: [vvvvhat happened in February 2016](/blog/2016/vvvvhat-happened-in-february-2016)
----
 winter's come to an end but still apparently everyone was very busy vvvvinging away, because here is what we got this time:
 
-## Contributions
+## Contributions
+
 two completely new addons:
 * {{< contribution "intel-realsense-plugin" "Intel RealSense Plugin" >}} by {{< user "aoi" >}} allows to interface with Realsense devices
 * {{< contribution "engravvvver" "Engravvvver" >}} by {{< user "LaserLars" >}} rasters images to G-Code
@@ -24,7 +22,8 @@ and a couple of updates:
 * {{< contribution "polar-coordinates" >}} with a dx11 version by {{< user "colorsound" >}}
 * {{< contribution "spatial-edge-blend-shader" >}} with new stuff by {{< user "colorsound" >}}
 
-## Gallery
+## Gallery
+
 [SOMAPHONY](http://somaphonics.com/) an audiovisual composition by {{< user "zeos" >}} performed by Katharina Köller:
 
 {{< vimeo "157440677" >}}
@@ -45,12 +44,14 @@ Here is a list of flickr users who recently added some of their stuff to the vvv
 
 And [Quadrature](http://www.quadrature.co) are in the news: http://www.aec.at/aeblog/2016/03/15/artandscience-quadrature/
 
-## Education
+## Education
+
 {{< user "microdee" >}} is unstoppable. he organized and streamed another 2 workshops. one with {{< user "vux" >}} on how to write DX11 Plugins, the other with some of his friends on integrating LambdaCube (a functional gpu-language)) with vvvv. see them and all the previous ones on the [vveekend vvorkshops youtube channel](https://www.youtube.com/channel/UCa8Vqigdbq5Gam_6dcGdNBw).
 
 if you're keen on meeting other patchers in person have a look at these [creative coding meetups around the world](http://www.meetup.com/find/?allMeetups=false&keywords=vvvv&radius=Infinity). i can specifically recommend [the berlin one](http://www.meetup.com/creativeCodeBerlin/) which i've enjoyed myself some of already..
 
-## Upcoming workshops
+## Upcoming workshops
+
 Because there are so many in april i thought i'd list them for you:
 * 11, 12, 13 april [at Resonate in Belgrade](/blog/2016/resonate-vvvv-vl)
 * 11, 13, 15 april [at Gray Area in San Francisco](/blog/vvvv-workshop-at-gray-area-san-francisco)
@@ -59,7 +60,8 @@ Because there are so many in april i thought i'd list them for you:
 * 24 april [at Gray Area Festival in San Francisco](http://grayareafestival.io/)
 * 6 may [at Mapping Festival in geneve](http://2016.mappingfestival.com/workshops/vvvv-masterclass)
 
-## what the VL?
+## what the VL?
+
 If you care to read some more about the future of programming please check our two recent posts:
 [Integer and Primitive Types in VL](/blog/2016/integer-and-primitive-types-in-vl)
 [VL Winter Update](/blog/2016/vl-winter-update)

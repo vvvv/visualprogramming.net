@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in May 2019](/blog/2019/vvvvhat-happened-in-may-2019)
-
----
-
 so here we are, 
 
 in the middle of the summer hole and bad news first, we still haven't come to terms with a proper update on the 2 last remaining features for vvvv gamma 2019.1 that are (as mentioned before) better tooltips and executable export. good news, there is progress:
@@ -27,7 +23,8 @@ besides, our work on the node-library is doing well. currently in the works and 
 
 so grab the [latest preview](/blog/2019/vvvv-gamma-2019.1-preview) and give those and everything else a spin. this is really a good time to get into vvvv gamma and report your findings. mentioned already last month, but this deserves a recall: be sure to watch the latest [design pattern video tutorials](https://discourse.vvvv.org/t/model-runtime-editor-design-pattern-intro-0-6/17597) by {{< user "dottore" >}}, they'll get you going builing proper apps with vvvv as has not been possible before!
 
-## Contributions
+## Contributions
+
 first up a huge drop in the [wip section](https://discourse.vvvv.org/c/wip) by {{< user "eno" >}} [VL.Tilda](https://discourse.vvvv.org/t/vl-tilda/17644), a timeliner for vl!
 
 <!--{SPLIT()}-->
@@ -43,7 +40,8 @@ and the updates:
 {{< contribution "happy.fxh" "Happy.fxh" >}} by {{< user "everyoneishappy" >}}
 <!--{SPLIT}-->
 
-## Gallery
+## Gallery
+
 {{< vimeo "335418627" >}}
 *[.inf](/blog/.inf) by {{< user "wisp" >}}*
 
@@ -52,7 +50,8 @@ and more:
 * [tor](/blog/tor) by {{< user "ggml" >}}
 * [Neuropathy](/blog/neuropathy) by {{< user "onur77" >}}
 
-## Jobs
+## Jobs
+
 and as always if you're looking for a vvvv job or even have one to announce, remember these:
 * Worldwide jobs via [our forum](https://discourse.vvvv.org/c/jobs)
 * Worldwide jobs via [Interactivejobs.io](https://interactivejobs.io/?category=all&search=vvvv)

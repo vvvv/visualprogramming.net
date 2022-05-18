@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in Jannuary 2017](/blog/2017/vvvvhat-happened-in-jannuary-2017)
-
----
-
 and there it was already over, weird february..
 
 in our quest to arrive at a more regular release cycle we gave you [vvvv 50beta35.2](/blog/2017/vvvv50beta35.2) just about a week ago. it doesn't come with much new stuff but since it has a lot of little fixes it is definitely the version to use now.
@@ -31,13 +27,15 @@ vl is going strong. at least on our side. but also more and more of you are eage
 
 aaaaand the [quickfancypix](https://vvvv.org/businesses/schnellebuntebilder) are spoiling  you with a [recording of their latest workshop about vl](/blog/2017/video-doc-vvvvorkshop-ii-about-vl) held by {{< user "elias" >}} and {{< user "tonfilm" >}}
 
-## Jobs
+## Jobs
+
 vvvv/vl skills are in high demand, so get your acts together and apply for one of these:
 * [Full-time vvvv developer for YR, London](http://www.thisisyr.com/uk/yr/careers/)
 * [Freelance/fulltime vvvv developer with a focus on rendering, animation, design at nsynk, Frankfurt](http://nsynk.de/jobs)
 * [Multimedia Software Developer / VVVV Patcher at MESO Digital Interiors, Frankfurt](http://meso.net/jobs)
 
-## Contributions
+## Contributions
+
 three new:
 - {{< contribution "calibrate-and-re-project" "Calibrate and Re-Project" >}} a clickclick convenience tool for projector calibration by {{< user "robotanton" >}}
 - {{< contribution "Morphology" >}} a dx11-version of the same by {{< user "lasal" >}}
@@ -54,7 +52,8 @@ a few updated:
 - {{< contribution "pointeditorcs-%28dx11.geometry%29" "PointEditorCS (DX11.Geometry" >}}) by {{< user "antokhio" >}}
 - {{< contribution "departures-airport-table" "Departures Airport Table" >}} by {{< user "StiX" >}}
 
-## Gallery
+## Gallery
+
 {{< youtube "tQinS_K3foM" >}}
 REPITCH01LP by {{< user "StiX" >}} plus [writeup](https://medium.com/@borisvitzek/animation-workflow-and-rendering-in-vvvv-4ad2550b97c). Excellent!
 

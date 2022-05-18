@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-Previously on vvvv: [vvvvhat happened in September 2019](/blog/2019/vvvvhat-happened-in-september-2019)
-
----
-
 So another month passed,
 
 and the promised executable export from vvvv gamma is still not available. Bummer, but all we can say is, this is not how it was planned! We got caught up in a few things. November it shall be, most definitely...Still be sure to always test with the [latest vvvv gamma preview](/blog/2019/vvvv-gamma-2019.1-preview) which we're continuously updating. Also the first 3 beginner tutorials are now available:
@@ -33,12 +29,14 @@ And if you haven't seen it yet, a short video documentation about the last editi
 
 {{< vimeo "348602765" >}}
 
-## Binge potential:
+## Binge potential:
+
 - **[vvvvTv on youtube](https://www.youtube.com/channel/UCu-xqv-TLwv6L0An7MJJA5A)** is now prepared to collect all future beta and gamma related videos. Expect tutorials, howtos, releasenotes and live streams there. 
 - the **[vimeo group 'vvvv'](https://vimeo.com/groups/vvvv)** was initiated by {{< user "phl" >}} ages ago for which we wanna say thankyouverymuch. He now handed it over so we can manage it from our end. Expect a stream of the latest fine projects of patchers worldwide. 
 
 
-## Upcoming dates
+## Upcoming dates
+
 A lot is happening this month, save those dates:
 * November 7: vvvv at [DotNextConf 2019](/blog/2019/vvvv-at-dotnextconf-moscow)
 * November 8+9: [Meetup and Workshops in Moscow](/blog/2019/vvvv-meetup-and-workshop-in-moscow)
@@ -49,7 +47,8 @@ A lot is happening this month, save those dates:
 * November 26: [vvvv Meetup #15](https://gettogether.community/events/2908/vvvv-berlin-meetup-15/)
 * November 29: Full day workshop: [Getting started with Music Visualization](https://nodeforum.org/announcements/workshop-getting-started-with-music-visualization/)
 
-## Contributions
+## Contributions
+
 More works in progress have been posted:
 * [mxmi.UX](https://discourse.vvvv.org/t/mxmi-ux/17943) by {{< user "mxmi" >}}
 * [VL.PjLink](https://discourse.vvvv.org/t/vl-pjlink/17966) by {{< user "sebl" >}}

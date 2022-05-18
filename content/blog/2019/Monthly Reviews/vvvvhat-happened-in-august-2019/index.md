@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-Previously on vvvv: [vvvvhat happened in July 2019](/blog/2019/vvvvhat-happened-in-july-2019)
-
----
-
 What's been the happenings?
 
 Glad you aks! First off: Mid August saw the [2nd incarnation of the /blog/2019/link-summer-camp-slovakia-edition summercamp](/blog/2019/link-summer-camp-slovakia-edition). This time organized by {{< user "StiX" >}} near Bratislava. He wanted to write a little report of our activities there so I'm not gonna spoil it. Only wanna say so much: It was a blast! We cannot thank StiX and his friends enough, who did all the organization and prepared all the amazing food. Chapeau! And I wittnessed talks of possible future LINKs in france and spain. Let's see who gets this done first...
@@ -31,7 +27,8 @@ As I hope you've noticed already, we've been strong on education lately: We're n
 * September 24: [vvvv meetup](https://gettogether.community/vvvv/)
 * September 25: [Getting Started with Data Visualization](https://nodeforum.org/announcements/workshop-getting-started-with-data-visualization/)
 
-## Contributions
+## Contributions
+
 Besides two new contributions:
 * {{< contribution "webgallery" >}} by {{< user "vnm" >}}
 * {{< contribution "touch-damper-aka-id-based-animation-filter" "Touch Damper aka Id-based-animation-filter" >}} by {{< user "u7angel" >}}
@@ -46,13 +43,15 @@ We saw saw quite some activity in the forums work-in-progress section:
 * [VLML.ONNX](https://discourse.vvvv.org/t/vlml-onnx/17848)
 * [TrackObjects](https://discourse.vvvv.org/t/trackobjects/17484)
 
-## Gallery
+## Gallery
+
 {{< vimeo "352358337" >}}
 *[Duel by VOLNA](/blog/duel-%e2%80%93-kinetic-light-installation-by-volna)*
 
 And also: [Steel City Interactive](/blog/steel-city-interactive-installation) by [Responsive Spaces](https://vvvv.org/businesses/responsive-spaces-gmbh)
 
-## Jobs
+## Jobs
+
 Aas always if you're looking for a vvvv job or even have one to announce, remember these:
 * Worldwide jobs via [our forum](https://discourse.vvvv.org/c/jobs)
 * Worldwide jobs via [Interactivejobs.io](https://interactivejobs.io/?category=all&search=vvvv)
