@@ -61,6 +61,15 @@ section#Blog
 //Single Pages + Lists
 #Blog
 {
+    .guestLabel
+    {
+        background-color: #555;
+        border-radius: 4px;
+        border: none;
+        padding: 0.3em 0.8em;
+        color: #fff;
+        font-size: 0.7rem;
+    }
 
     .signpill
     {
@@ -199,7 +208,6 @@ section#Blog
             .date
             {
                 color: #888;
-                font-size: 0.9rem;
             }
         } 
 
