@@ -14,6 +14,8 @@ release:
 imported: "true"
 ---
 
+{{<previousRelease>}}
+
 
 ![](beta39.1.png)
 

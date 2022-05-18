@@ -14,6 +14,8 @@ release:
 imported: "true"
 ---
 
+{{<previousRelease>}}
+
 
 ### Surprise!
 Another release just out of the gray only 2.5 months after the previous. How come?

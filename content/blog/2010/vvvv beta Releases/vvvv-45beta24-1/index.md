@@ -13,8 +13,10 @@ release:
 imported: "true"
 ---
 
+{{<previousRelease>}}
 
-![](_NODE10-DirectX Renderer_0.png) 
+
+![](_NODE10-DirectX%20Renderer.png) 
 
 bug.
 fix.

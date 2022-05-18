@@ -13,6 +13,8 @@ release:
 imported: "true"
 ---
 
+{{<previousRelease>}}
+
 
 ![](b28.jpg) 
 photo by {{< user "benju" >}}

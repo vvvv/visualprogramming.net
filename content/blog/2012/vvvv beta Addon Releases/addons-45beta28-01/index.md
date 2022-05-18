@@ -1,5 +1,5 @@
 ---
-categories: "vvvv beta Addon Releases"
+categories: "vvvv beta Releases"
 author: "joreg"
 date: "2012-08-13"
 title: "addons_45beta28_01"
@@ -13,6 +13,8 @@ release:
     app_file: "sites/default/files/addons_45beta28-01.zip"
 imported: "true"
 ---
+
+{{<previousRelease>}}
 
 
 ![](screen-DirectX%20Renderer.png) 

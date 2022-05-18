@@ -1,5 +1,5 @@
 ---
-categories: "vvvv beta Addon Releases"
+categories: "vvvv beta Releases"
 author: "joreg"
 date: "2012-02-18"
 title: "addons_45beta27.1_01"
@@ -13,6 +13,8 @@ release:
     app_file: "sites/default/files/addons_45beta27.1.zip"
 imported: "true"
 ---
+
+{{<previousRelease>}}
 
 
 ![](TodoMap.png)

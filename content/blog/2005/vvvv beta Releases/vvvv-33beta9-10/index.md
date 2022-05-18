@@ -13,6 +13,7 @@ release:
 imported: "true"
 ---
 
+{{<previousRelease>}}
 
 <!--{SPLIT()}-->
 this is to inform you of our latest and greatest. 

@@ -13,6 +13,8 @@ release:
 imported: "true"
 ---
 
+{{<previousRelease>}}
+
 
 <!--{SPLIT()}-->
 let's see..there is not much in the [Change Log](https://betadocs.vvvv.org/changelog/index.html).

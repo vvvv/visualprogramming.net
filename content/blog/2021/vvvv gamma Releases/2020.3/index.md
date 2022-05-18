@@ -1,13 +1,14 @@
 ---
-categories: vvvv gamma Releases
+categories: "vvvv gamma Releases"
 author: "joreg"
 date: "2021-05-20"
 title: "vvvv gamma 2021.3 release"
 slug: "vvvv-gamma-2021.3-release"
-description: "Release notes"
+description: ""
 imported: "true"
 ---
 
+{{<previousRelease>}}
 
 ![](bunchofprimitives-850.png)
 

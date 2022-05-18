@@ -1,5 +1,5 @@
 ---
-categories: "vvvv beta Addon Releases"
+categories: "vvvv beta Releases"
 author: "joreg"
 date: "2009-12-24"
 title: "addons_40beta22_01"
@@ -13,5 +13,7 @@ release:
     app_file: "sites/default/files/addonpack_vvvv40beta22_01.zip"
 imported: "true"
 ---
+
+{{<previousRelease>}}
 
 

@@ -4,10 +4,11 @@ author: "gregsn"
 date: "2021-01-08"
 title: "vvvv gamma 2020.2 release"
 slug: "vvvv2020.2-gammabeta0"
-description: "Release notes"
+description: ""
 imported: "true"
 ---
 
+{{<previousRelease>}}
 
 Hello everyone!
 

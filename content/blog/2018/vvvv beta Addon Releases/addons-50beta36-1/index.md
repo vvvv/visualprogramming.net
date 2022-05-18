@@ -1,5 +1,5 @@
 ---
-categories: "vvvv beta Addon Releases"
+categories: "vvvv beta Releases"
 author: "joreg"
 date: "2018-03-20"
 title: "addons_50beta36_1"
@@ -14,6 +14,8 @@ release:
     app_file_64: "sites/default/files/addons_50beta36_x64.zip"
 imported: "true"
 ---
+
+{{<previousRelease>}}
 
 
 a single change this time by {{< user "woei" >}}:

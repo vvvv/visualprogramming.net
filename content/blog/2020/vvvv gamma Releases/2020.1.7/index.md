@@ -8,6 +8,7 @@ description: "Release notes"
 imported: "true"
 ---
 
+{{<previousRelease>}}
 
 Right,
 
