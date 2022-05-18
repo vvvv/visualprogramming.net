@@ -15,7 +15,7 @@ originalType: "stuff"
 
 &gt;The 96-inch screen employs computer-controlled bursts of fire, in a 12 x 7 array, to create scrolling text, simple animations, freehand sketching (via mouse), and an audio level meter. There's even a percussion mode, which takes advantage of the concussive nature of each burst to allow scripting and playback of complex rhythms.
 
-[](http://www.infernoptix.com/)
+<http://www.infernoptix.com/>
 <!--~~~-->
 
 ![](headerfeat1.jpg)
