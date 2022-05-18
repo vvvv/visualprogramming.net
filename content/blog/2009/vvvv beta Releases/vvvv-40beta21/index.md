@@ -13,8 +13,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 ![](_root_shwopsdirectxrenderer_2009.04.1501.38.21.jpg)
 

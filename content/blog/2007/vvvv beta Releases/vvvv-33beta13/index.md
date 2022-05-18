@@ -13,8 +13,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 <!--{SPLIT()}-->
 soso, what do we have here..

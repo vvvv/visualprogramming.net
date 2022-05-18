@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 ![](screen-DirectX%20Renderer.png) 
 rendering by {{< user "unc" >}}

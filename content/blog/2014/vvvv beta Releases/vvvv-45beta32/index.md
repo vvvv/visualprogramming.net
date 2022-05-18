@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 ![](08_TTY_ASCII_Art-Renderer-TTY%20Renderer_2014.05.02-17.19.12.png)
 *ascii donut*
@@ -26,7 +24,8 @@ it is our pleassure to announce the latest and greatest: vvvv45beta32
 
 this was in the making for a while and its changelog is quite overwhelming, so let me lay this out for you:
 
-## for the patcher
+## for the patcher
+
 * we finally managed to get rid of crack.exe -> setup.exe
 * vvvv is now dpiAware and defaults to /dx9ex see: [updates-regarding-windows-8.1](/blog/2014/updates-regarding-windows-8.1)
 * there are a number of subtle [ui-improvements-for-beta32](/blog/2014/ui-improvements-for-beta32)
@@ -36,7 +35,8 @@ this was in the making for a while and its changelog is quite overwhelming, so l
 * there is huge list (>25) of new nodes (see changelog) 
 * Binsized modules are now much easier to patch using the new NormalizeBinSize (T) modules
 
-## for the developer
+## for the developer
+
 * we now provide [nuget-development-packages](/blog/2013/nuget-development-packages)
 * and a [generic-nodes-project](/blog/2014/generic-nodes-project)
 * we have infos on [plugins-targeting-.net-4.5](/blog/2014/plugins-targeting-.net-4.5)

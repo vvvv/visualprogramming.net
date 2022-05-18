@@ -8,8 +8,6 @@ description: ""
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 Here is!
 
 The first bug-fix release for vvvv gamma is available for **[download](https://visualprogramming.net/#Download)** and **[purchase](https://store.vvvv.org)** now!

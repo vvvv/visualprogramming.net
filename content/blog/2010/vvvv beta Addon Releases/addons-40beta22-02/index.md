@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 above all this fixes the mess we had with different SlimDX versions needed for different plugins. all plugins in this pack are compiled agains **SlimDX(August 2009)** so make sure you have that installed. this pack contains of course all stuff of the previous packs, including vuxens christmas special!
 

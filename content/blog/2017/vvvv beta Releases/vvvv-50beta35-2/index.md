@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 We got more feedback on VL since beta35 and we are really really happy about that! It's true. True! 
 And since you know how much we dig VL, you will believe me, even though i did everything to sound silly. Besides, also some vvvv issues were reported.

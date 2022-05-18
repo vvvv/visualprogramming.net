@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 ...and this is the suitable addonpack for beta27.2
 

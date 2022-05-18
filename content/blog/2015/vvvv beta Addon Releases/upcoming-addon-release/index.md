@@ -13,7 +13,5 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 b35 addons

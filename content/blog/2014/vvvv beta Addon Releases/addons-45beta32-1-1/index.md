@@ -15,8 +15,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 it seems the only two new thing this time are:
 * Button (3d Quad/Mesh Multitouch) modules by {{< user "motzi" >}}

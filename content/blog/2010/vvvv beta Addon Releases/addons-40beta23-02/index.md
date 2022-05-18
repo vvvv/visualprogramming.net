@@ -14,6 +14,4 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 

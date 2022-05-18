@@ -14,7 +14,5 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 beta25s addons...

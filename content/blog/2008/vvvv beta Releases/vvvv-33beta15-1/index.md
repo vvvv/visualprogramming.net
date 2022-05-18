@@ -13,8 +13,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 ouright, 
 nothing much to say.

@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 ![](beta40-0.png)
 
@@ -44,14 +42,16 @@ Why should you update? Because this gives you access to the latest developments 
 - VL.Devices.Nuitrack
 - VL.Devices.LeapOrion
 - VL.Devices.WinTab
-and [so many more](https://www.nuget.org/packages?q=vl).{{< /box >}}
+and [so many more](https://www.nuget.org/packages?q=vl).
+{{< /box >}}
 
 To learn how to install nugets please consult [this documentation](https://thegraybook.vvvv.org/reference/libraries/dependencies.html#manage-nugets).
 
 **EDIT 18 02 2021:**
 Replaced beta40 with beta40.1, because an issue emerged that made the installer of beta40 to fail under certain conditions. So beta40.1 is exactly the same as beta40, except with the installer issues fixed.
 
-## Offline Installer
+## Offline Installer
+
 32bit Version: [core](http://teamcity.vvvv.org/guestAuth/app/rest/builds/id:33928/artifacts/content/vvvv_beta_40.1_x86_setup_offline.exe) [addons](http://teamcity.vvvv.org/guestAuth/app/rest/builds/id:33928/artifacts/content/addons_40.1_x86.zip)
 64bit Version: [core](http://teamcity.vvvv.org/guestAuth/app/rest/builds/id:33777/artifacts/content/vvvv_beta_40.1_x64_setup_offline.exe) [addons](http://teamcity.vvvv.org/guestAuth/app/rest/builds/id:33777/artifacts/content/addons_40.1_x64.zip)
 

@@ -15,8 +15,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 only two new nodes this time:
 * {{< node "ShellExecute (System Advanced)" >}} thanks to {{< user "zeos" >}} and {{< user "alg" >}}

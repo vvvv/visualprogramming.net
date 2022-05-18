@@ -8,8 +8,6 @@ description: ""
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 This is it!
 
 The first official stable version of the all-new **vvvv gamma 2020.1** is available for **[download](https://visualprogramming.net/#Download)** and **[purchase](https://store.vvvv.org)** now. And here is a first look at it for those who haven't dared to play with it yet:

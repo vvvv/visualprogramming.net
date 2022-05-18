@@ -8,8 +8,6 @@ description: ""
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 Because we care,
 
 ![](vvvv-2020.1.3.png)

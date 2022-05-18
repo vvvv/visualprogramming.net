@@ -15,7 +15,5 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 No changes to the previous version here. Just fresh bits.

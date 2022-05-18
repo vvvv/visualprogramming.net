@@ -8,8 +8,6 @@ description: ""
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 Right,
 
 ![](vvvv-2020.1.7.png)

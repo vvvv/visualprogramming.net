@@ -15,8 +15,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 may i have your attention please. 
 

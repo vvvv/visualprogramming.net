@@ -15,8 +15,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 If i am not mistaken there are only minor changes this time:
 

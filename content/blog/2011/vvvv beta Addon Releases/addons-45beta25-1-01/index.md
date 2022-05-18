@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 the first addonpack for beta25.1
 please see the changelog below for all the fine new stuff brought to you mostly by yours truly {{< user "woei" >}} and {{< user "vux" >}}.

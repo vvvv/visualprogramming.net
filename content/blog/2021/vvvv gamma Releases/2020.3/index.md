@@ -8,8 +8,6 @@ description: ""
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 ![](bunchofprimitives-850.png)
 
 This is the big one!

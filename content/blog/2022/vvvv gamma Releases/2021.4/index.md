@@ -8,8 +8,6 @@ author: joreg
 thumb: filters.jpg
 ---
 
-{{<previousRelease>}}
-
 ![vvvv gamma 2021.4 release](filters.jpg "")
 
 This has been a long time coming!

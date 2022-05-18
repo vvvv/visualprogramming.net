@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 as usual the addonpack is stuffed with great bytes by vvvvs regulars {{< user " vux" >}}, {{< user " woei" >}} and {{< user "phlegma" >}}. keep it up bois! please consult the [addons change log](https://betadocs.vvvv.org/changelog/index.html) to see what they came up with.
 
