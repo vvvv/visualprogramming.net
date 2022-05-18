@@ -1,5 +1,5 @@
 ---
-categories: "vvvv beta Addon Releases"
+categories: "vvvv beta Releases"
 author: "joreg"
 date: "2016-12-20"
 title: "addons_50beta35_01"
@@ -15,6 +15,8 @@ release:
 imported: "true"
 ---
 
+{{<previousRelease>}}
+
 
 Aloha,
 
@@ -22,11 +24,13 @@ not much is happening in the addonpack anymore recently as most contributors dec
 
 Still a view things have accumulated over the past year:
 
-### New
+### New
+
 * new MJpegStream (EX9.Texture Sender/Receiver) modules
 * new module for concave polygons Polygon (EX9.Geometry 2d Concave)
 
-### Fixes
+### Fixes
+
 * MESO has sponsored an [update of the HTMLTexture nodes](/blog/2016/htmltexture-update-to-chromium-54)
 * Two new pins on AudioOut node, to allow lower latency settings when needed. by {{< user "vux" >}}
 * bugfix for Firmata for incoming String Data. by {{< user "antongit" >}}

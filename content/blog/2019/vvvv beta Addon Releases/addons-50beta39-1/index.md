@@ -1,5 +1,5 @@
 ---
-categories: "vvvv beta Addon Releases"
+categories: "vvvv beta Releases"
 author: "joreg"
 date: "2019-12-07"
 title: "addons_50beta39_1"
@@ -14,6 +14,8 @@ release:
     app_file_64: "sites/default/files/addons_39_x64.zip"
 imported: "true"
 ---
+
+{{<previousRelease>}}
 
 
 No changes to the previous version. Just a fresh download.

@@ -14,6 +14,8 @@ release:
 imported: "true"
 ---
 
+{{<previousRelease>}}
+
 
 ![](windows_xp.png) 
 *Computer Art*

@@ -1,5 +1,5 @@
 ---
-categories: "vvvv beta Addon Releases"
+categories: "vvvv beta Releases"
 author: "gregsn"
 date: "2009-04-26"
 title: "addons_40beta21_01"
@@ -13,5 +13,7 @@ release:
     app_file: "sites/default/files/addonpack_vvvv40beta21_01.zip"
 imported: "true"
 ---
+
+{{<previousRelease>}}
 
 

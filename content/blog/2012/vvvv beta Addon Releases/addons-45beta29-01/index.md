@@ -1,5 +1,5 @@
 ---
-categories: "vvvv beta Addon Releases"
+categories: "vvvv beta Releases"
 author: "joreg"
 date: "2012-12-24"
 title: "addons_45beta29_01"
@@ -14,6 +14,8 @@ release:
     app_file_64: "sites/default/files/addons_45beta29_x64.zip"
 imported: "true"
 ---
+
+{{<previousRelease>}}
 
 
 * {{< user "phlegma" >}} revamped the FileStream (Irrklang) plugin

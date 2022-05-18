@@ -1,5 +1,5 @@
 ---
-categories: "vvvv beta Addon Releases"
+categories: "vvvv beta Releases"
 author: "joreg"
 date: "2013-06-25"
 title: "addons_45beta30.2_01"
@@ -14,6 +14,8 @@ release:
     app_file_64: "sites/default/files/addons_45beta30.2-01_x64.zip"
 imported: "true"
 ---
+
+{{<previousRelease>}}
 
 
 only two new nodes this time:

@@ -3,10 +3,12 @@ draft: false
 date: "2022-03-29"
 title: "vvvv gamma 2021.4 release"
 description: Release notes
-categories: vvvv gamma Releases
+categories: "vvvv gamma Releases"
 author: joreg
 thumb: filters.jpg
 ---
+
+{{<previousRelease>}}
 
 ![vvvv gamma 2021.4 release](filters.jpg "")
 

@@ -1,5 +1,5 @@
 ---
-categories: "vvvv beta Addon Releases"
+categories: "vvvv beta Releases"
 author: "gregsn"
 date: "2018-09-05"
 title: "addons_50beta37_1"
@@ -14,6 +14,8 @@ release:
     app_file_64: "sites/default/files/addons_50beta37_x64.zip"
 imported: "true"
 ---
+
+{{<previousRelease>}}
 
 
 HTMLTexture is available for DX11 and more: [link](/blog/2018/htmltexture-now-for-dx11-and-more)

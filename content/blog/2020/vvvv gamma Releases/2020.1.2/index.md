@@ -1,5 +1,5 @@
 ---
-categories: "News"
+categories: "vvvv gamma Releases"
 author: "joreg"
 date: "2020-05-26"
 title: "vvvv gamma 2020.1.2 release"
@@ -8,6 +8,7 @@ description: ""
 imported: "true"
 ---
 
+{{<previousRelease>}}
 
 Just when you think it cannot get any better,
 

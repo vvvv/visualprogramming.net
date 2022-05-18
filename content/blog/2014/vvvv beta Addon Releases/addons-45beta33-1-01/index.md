@@ -1,5 +1,5 @@
 ---
-categories: "vvvv beta Addon Releases"
+categories: "vvvv beta Releases"
 author: "joreg"
 date: "2014-09-08"
 title: "addons_45beta33.1_01"
@@ -14,6 +14,8 @@ release:
     app_file_64: "sites/default/files/addons_45beta33.1_x64.zip"
 imported: "true"
 ---
+
+{{<previousRelease>}}
 
 
 ![](polygoneditor.png)

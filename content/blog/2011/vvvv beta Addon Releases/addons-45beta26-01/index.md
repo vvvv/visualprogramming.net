@@ -1,5 +1,5 @@
 ---
-categories: "vvvv beta Addon Releases"
+categories: "vvvv beta Releases"
 author: "joreg"
 date: "2011-08-17"
 title: "addons_45beta26_01"
@@ -14,6 +14,8 @@ release:
 imported: "true"
 ---
 
+{{<previousRelease>}}
+
 
 as usual the addonpack is stuffed with great bytes by vvvvs regulars {{< user " vux" >}}, {{< user " woei" >}} and {{< user "phlegma" >}}. keep it up bois! please consult the [addons change log](https://betadocs.vvvv.org/changelog/index.html) to see what they came up with.
 
@@ -26,7 +28,8 @@ also this time is a first for {{< user "unc" >}} who makes his debut with sharin
 this needs to go out to the world, so i prepared a little press-statment:
 
 {{< box >}}quote:vvvv:
-~np~#~/np~texturefx for #vvvv by unc is one of the most extensive GPU-based, opensource image-manipulation and -analysis packages available.  {{< /box >}}
+~np~#~/np~texturefx for #vvvv by unc is one of the most extensive GPU-based, opensource image-manipulation and -analysis packages available.  
+{{< /box >}}
 
 see, i made this <140 characters for your tweeting pleasure. people interested herein were also interested in [unc's videos on vimeo](http://vimeo.com/unc/videos)
 

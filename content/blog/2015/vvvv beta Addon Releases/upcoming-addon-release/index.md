@@ -1,5 +1,5 @@
 ---
-categories: "vvvv beta Addon Releases"
+categories: "vvvv beta Releases"
 author: "joreg"
 date: "2015-10-12"
 title: "upcoming addon release"
@@ -12,6 +12,8 @@ release:
     date: "1970-01-01"
 imported: "true"
 ---
+
+{{<previousRelease>}}
 
 
 b35 addons

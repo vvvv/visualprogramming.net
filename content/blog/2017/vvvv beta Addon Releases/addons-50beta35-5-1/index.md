@@ -1,5 +1,5 @@
 ---
-categories: "vvvv beta Addon Releases"
+categories: "vvvv beta Releases"
 author: "tonfilm"
 date: "2017-04-19"
 title: "addons_50beta35.5_1"
@@ -14,6 +14,8 @@ release:
     app_file_64: "sites/default/files/addons_50beta35.5_x64.zip"
 imported: "true"
 ---
+
+{{<previousRelease>}}
 
 
 No changes to the previous version here. Just fresh bits.

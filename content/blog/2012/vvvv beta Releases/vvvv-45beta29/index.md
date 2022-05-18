@@ -14,6 +14,8 @@ release:
 imported: "true"
 ---
 
+{{<previousRelease>}}
+
 
 exactly 10 years ago today vvvv33beta1 descended to earth. and it brought great joy amongst us all. in order to celebrate this occasion we want to re-release it today: {{< contribution "vvvv33beta1" >}}
 

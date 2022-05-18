@@ -1,5 +1,5 @@
 ---
-categories: "vvvv beta Addon Releases"
+categories: "vvvv beta Releases"
 author: "joreg"
 date: "2014-05-09"
 title: "addons_45beta32_1"
@@ -14,6 +14,8 @@ release:
     app_file_64: "sites/default/files/addons_45beta32_x64.zip"
 imported: "true"
 ---
+
+{{<previousRelease>}}
 
 
 changes, fixes and new stuff as you can see in the changelog. 
