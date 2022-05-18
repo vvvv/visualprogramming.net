@@ -13,15 +13,27 @@
       {{with .location_name}}
       <tr><td><b>Location: </b></td><td>{{.}}</td></tr>
       {{end}}
-      <tr><td><b>Where: </b></td><td>{{with .street}}{{.}}, {{end}}{{with .additional}}{{.}}, {{end}}{{with .city}}{{.}}, {{end}}{{with .country_name}}{{.}}{{end}}</td></tr>
+        <tr><td><b>Where: </b></td><td>{{with .street}}{{.}}, {{end}}{{with .additional}}{{.}}, {{end}}{{with .city}}{{.}}, {{end}}{{with .country_name}}{{.}}{{end}}</td></tr>
       {{ if .lat}}
-      <tr><td><b>Lat / Long: </b></td><td>{{.lat}} {{.long}}</td></tr>
+        {{ if and (ne .lat "None") (ne .long "None")}}
+            <tr><td><b>Lat / Long: </b></td><td>{{.lat}} {{.long}}</td></tr>
+        {{end}}
       {{end}}
       {{ with .from_date }}
-      <tr><td><b>From: </b></td><td>{{(time (int .)).Format "02 Jan 2006 15:04"}}</td></tr>
+        {{ $dateAndTime := time (int .) }}
+        {{ $date := $dateAndTime.Format "02 Jan 2006" }}
+        {{ $time := $dateAndTime.Format "15:04" }}
+        {{ if ne . "0" }}
+            <tr><td><b>{{ if ne $.Params.where.to_date . }}From:{{else}}When:{{end}} </b></td><td>{{$date}}{{ if ne $time "00:00"}} {{$time}}{{end}}</td></tr>
+        {{ end }}
       {{end}}
       {{with .to_date}}
-      <tr><td><b>To: </b></td><td>{{(time (int .)).Format "02 Jan 2006 15:04"}}</td></tr>
+        {{ $dateAndTime := time (int .) }}
+        {{ $date := $dateAndTime.Format "02 Jan 2006" }}
+        {{ $time := $dateAndTime.Format "15:04" }}
+        {{ if and (ne . "0") (ne $.Params.where.from_date . ) }}
+            <tr><td><b>To: </b></td><td>{{$date}}{{ if ne $time "00:00"}} {{$time}}{{end}} </td></tr>
+        {{ end }}
       {{end}}
   {{ end }}
     </table>
