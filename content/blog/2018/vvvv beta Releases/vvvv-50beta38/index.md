@@ -14,10 +14,9 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
 
+### Surprise!
 
-### Surprise!
 Another release just out of the gray only 2.5 months after the previous. How come?
 
 The last beta37 release proofed to be quite stable, hardly any too concerning bug reports, but we have a breaking change to introduce and think this is a good moment. Hear us out:
@@ -32,7 +31,8 @@ Note:
 
 Since there are hardly any other changes, we recommend you also switch as soon as possible and never look back...
 
-### So why the breaking change?
+### So why the breaking change?
+
 It's about how values get stored in IO boxes and pins. They now use the same serialization technique we already [introduced](/blog/2018/vl-serialization) as a node set for beta37. This means that we can store any data inside patches for which a serializer is registered - be it a spread of values, a dictionary or even a custom record:
 ![A spread of values in b37 and b38](spread.PNG)
 And as a second example a dictionary from string to value

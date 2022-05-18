@@ -8,11 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
-Previously on vvvv: [vvvvhat happened in January 2022](/blog/2022/vvvvhat-happened-in-january-2022)
-
----
-
 So let's see,
 
 [vvvv gamma 2021.4.7](https://thegraybook.vvvv.org/changelog/2021.4.html) is out which sounds like a small update but really it is quite a biggy: Now including the polished audio library: VL.Audio. With no more need for anything extra to install, audio analysis, synthesis, playback, recording.. all at your fingertips now.
@@ -27,7 +22,8 @@ We're now about halfway through the [Mastering vvvv for teaching course](https:/
 * [Custom Regions](https://thegraybook.vvvv.org/reference/extending/custom-regions.html)
 And much more to come...
 
-## Contributions
+## Contributions
+
 We got some new ones:
 * {{< contribution "kinect2-fuse-utils" "Kinect2 FUSE Utils" >}} by {{< user "lasal" >}}
 * [VL.Alembic](https://www.nuget.org/packages/VL.Alembic) by {{< user "torinos" >}}
@@ -43,13 +39,15 @@ and received updates to the following:
 * [VL.Audio.GPL](https://www.nuget.org/packages/VL.Audio.GPL)
 * [VL.OpenEXR](https://www.nuget.org/packages/VL.OpenEXR/)
 
-## Gallery
+## Gallery
+
 {{< vimeo "639022568" >}}
 *The Metascape by {{< user "alg" >}}*
 
 * [#madewithvvvv](https://www.picuki.com/tag/madewithvvvv) by various patchers
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [The Interactive & Immersive Job Board](https://jobs.interactiveimmersive.io/jobs-2/?s=vvvv&post_type=job_listing) and [dasauge.de](https://dasauge.de/sta/Vvvv/)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)

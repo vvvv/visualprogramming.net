@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in April 2019](/blog/2019/vvvvhat-happened-in-april-2019)
-
----
-
 the results are in!
 
 of the [2019 survvvvey](/blog/2019/the-2019-survvvvey-results). bottom line: you're all the same, you haven't changed a bit. comforting..
@@ -21,7 +17,8 @@ if you still haven't gotten anything better to do in summer, like me, meet your 
 
 and still [vvvv-gamma-2019.1-preview](/blog/2019/vvvv-gamma-2019.1-preview) is going strong. none of the bigger missing parts are in yet, but we're constantly releasing bug-fix releases. every report is verymuch appreciated! new tooltips and exe-export are still in the works and they'll be coming as promised.
 
-## Contributions
+## Contributions
+
 <!--{SPLIT()}-->
 great new stuff:
 * {{< contribution "model-runtime-editor-design-pattern" "Model-Runtime-Editor design pattern" >}} by {{< user "dottore" >}}
@@ -37,7 +34,8 @@ and a teaser: [artnet-polling](/blog/artnet-polling)
 
 but really too much to list here is happening in the forums **[work-in-progress](https://discourse.vvvv.org/c/wip)** section. be sure not to miss those!
 
-## Gallery
+## Gallery
+
 {{< vimeo "334848063" >}}
 *[Amnesia](/blog/amnesia-0) by {{< user "Onur77" >}}*
 
@@ -48,7 +46,8 @@ and some more:
 * [Realtime Graphic Composition 2018 Part 1](/blog/realtime-graphic-composition-2018-part-1) by {{< user "cloneproduction" >}}
 * [Weaving for violin solo](https://www.youtube.com/watch?v=vrSlaVyIMIg) by Yuta Inada
 
-## Jobs
+## Jobs
+
 and as always if you're looking for a vvvv job or even have one to announce, remember these:
 * https://discourse.vvvv.org/c/jobs
 * https://dasauge.de/sta/Vvvv/

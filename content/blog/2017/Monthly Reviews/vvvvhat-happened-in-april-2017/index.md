@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in March 2017](/blog/2017/vvvvhat-happened-in-march-2017)
-
----
-
 helo everyone and welcome to this past months recap.
 
 NODE17 is heavily in the making. the [list of workshops](/blog/2017/node17-workshops-announced) is nearly complete and [festival passes are already on sale](/blog/2017/node17-festival-passes-finally-on-sale)! vvvv and vl are getting ready for their big appearance..
@@ -24,7 +20,8 @@ fresh from our labs you got [vvvv50beta35.5](/blog/2017/vvvv50beta35.5) whose mo
 
 we're planning one more release early june that we'll want everyone to use at node. not sure yet, if it will include the promised vl-node-importing features but we'll definitely have those available at least in alpha-builds. 
 
-## Contributions
+## Contributions
+
 in contribution land we had one new:
 {{< contribution "trinamic-stepper-motor-motion-control-(tmcl)" "Trinamic Stepper Motor Motion Control" >}} which is the second contribution by {{< user "zepi" >}}
 
@@ -42,7 +39,8 @@ and here is some work in progress:
 
 if you've also got some hidden vvvv-projects on github please tag them with "vvvv" so we can all get a good view on them, like so: [vvvv related repositories on github](https://github.com/search?q=topic%3Avvvv&type=Repositories)
 
-## Gallery
+## Gallery
+
 april saw three gallery entries:
 * [Chant of the Protoalchemists](/blog/chant-of-the-protoalchemists) by {{< user "sinus" >}}
 * [Dust ― Virtual reality and contemporary dance](/blog/dust-%e2%80%95-virtual-reality-and-contemporary-dance) by {{< user "id144" >}}

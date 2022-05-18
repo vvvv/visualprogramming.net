@@ -8,9 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
-previously on vvvv: [vvvvhat happened in September 2015](/blog/2015/vvvvhat-happened-in-september-2015)
----
 wellwellwell,
 
 that obviously didn't work out as i planned. {{< user "velcrome" >}} who won the competition to write the review for october apologized for being to deep into vvvv projects to make it this time. fair enough, hard to argue against the generating of licenses.. so let me try this again.
@@ -21,7 +18,8 @@ first: if you haven't already done so, do yourself a favor and switch to the lat
 we haven't heard any serious complaints about it yet. just sayin... and also the addonpack now includes a polished version of @manuel 's original photoshop-layer reader. that should be quite useful for some of you.
 * and here are just a few notes on what has recently changed on vvvv.org: [website-updates-2](/blog/2015/website-updates-2)
 
-## Contributions
+## Contributions
+
 again there've been a couple of new or updates to existing contributions. as always you can [find them all here](https://vvvv.org/contributions), this is a list of only my favorites:
 * {{< user "vth1618" >}} shared his {{< contribution "excel-reader" >}}
 * {{< user "gumilastik" >}} forgot to add a changelog but apparently there's an update to his {{< contribution "htmltexture-(dx11)" >}}
@@ -32,12 +30,14 @@ not a contribution yet, but i am hoping for one here: {{< user "AKa-visuals" >}}
 
 also it seems {{< user "LaserLars" >}} is working on something gcode related, see: [gcoderimage-engrave](/blog/gcoderimage-engrave)
 
-## Oldies but goldies
+## Oldies but goldies
+
 this section is to point out older contributions that should be quite interesting to some of you. this time: if you're using OSC a lot to communicate between different instances of vvvv or even other software/devices, you should have a look at this as a probably more comfortable alternative:
 * {{< contribution "mqtt-sender-receiver" >}} by {{< user "korriander" >}}
 * related node15 workshop material: https://github.com/JOxBERGER/IoT-Intro
 
-## Gallery
+## Gallery
+
 from the things that landed in our gallery in october i found this interactive game by students of the [Muthesius Kunsthochschule](http://en.muthesius-kunsthochschule.de/) quite ql. not only because it features a computer voice! 
 {{< vimeo "134966915" >}}
 
@@ -50,7 +50,8 @@ also, if you're among the unfortunate that use instagram you might as well follo
 * https://instagram.com/schnellebuntebilder
 * https://instagram.com/idwyr/
 
-## VL stuff
+## VL stuff
+
 just a little update regarding VL: we're hard working-on/learning VL ourselves. it's coming along very nicely. latest additions that can also be used in vvvv (if you use the latest [alpha](https://vvvv.org/downloads/previews)version):
 * [/forum-alpha/artnet-vl-plugin](https://discourse.vvvv.org/t/artnet-vl-plugin/13360) (multi subnet/universe node)
 * [/forum-alpha/leap-vl-plugin](https://discourse.vvvv.org/t/leap-vl-plugin/13344) 

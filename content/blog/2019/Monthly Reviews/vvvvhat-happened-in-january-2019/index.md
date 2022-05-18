@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in December 2018](/blog/2019/vvvvhat-happened-in-december-2018)
-
----
-
 here we go, 
 
 clickclickclick. [2018 is numbered](/blog/2019/vvvv-in-numbers-2018) and we're now heading towards the biggest release in vvvv history. as announced previously: [vvvv gamma](/blog/2018/the-road-to-gamma).
@@ -28,7 +24,8 @@ none of these are in alphas yet, but if things go well, they should land soon.
 
 while you're waiting and haven't yet, please fill out the [2019 Survvvvey](https://goo.gl/forms/g3t6gwSwUfZwMOyd2)!
 
-##  contributions
+##  contributions
+
 <!--{SPLIT()}-->
 new stuff:
 - {{< contribution "gea.naivegpu" "Gea.NaiveGPU" >}} by {{< user "dottore" >}}
@@ -44,7 +41,8 @@ released as work in progress:
 - [VL.GStreamer](https://discourse.vvvv.org/t/gstreamer-video-playback-in-vl/16612)
 <!--{SPLIT}-->
 
-##  gallery
+##  gallery
+
 :{{< vimeo "309375244" >}}
 *[vvvVR Robotics](/blog/vvvvr%20robotics) by {{< user "MultiNIL" >}}*
 

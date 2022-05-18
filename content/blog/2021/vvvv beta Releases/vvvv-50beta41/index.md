@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 ![](b41.png)
 
@@ -27,6 +25,7 @@ this is **vvvv beta 41**, with mostly 3 changes over the previous release:
 * A fix for [troubled BezierEditor nodes](https://discourse.vvvv.org/t/2d-bezier-reader-not-working/19103)
 * A fix for [problems with red Mouse nodes](https://discourse.vvvv.org/t/mouse-devices-window-node-red/19044)
 
-## Offline Installers
+## Offline Installers
+
 32bit Version: [core](http://teamcity.vvvv.org/guestAuth/app/rest/builds/id:33798/artifacts/content/vvvv_beta_41_x86_setup_offline.exe) [addons](http://teamcity.vvvv.org/guestAuth/app/rest/builds/id:33798/artifacts/content/addons_41_x86.zip)
 64bit Version: [core](http://teamcity.vvvv.org/guestAuth/app/rest/builds/id:33799/artifacts/content/vvvv_beta_41_x64_setup_offline.exe) [addons](http://teamcity.vvvv.org/guestAuth/app/rest/builds/id:33799/artifacts/content/addons_41_x64.zip)

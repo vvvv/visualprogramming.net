@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 this is the addonpack corresponding to beta24.1
 enjoy.

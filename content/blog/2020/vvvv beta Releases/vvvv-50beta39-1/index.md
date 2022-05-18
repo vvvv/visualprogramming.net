@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 ![](beta39.1.png)
 
@@ -31,7 +29,8 @@ Nugets requiring a specific version to work with beta39.1
  nuget install VL.OpenCV -Version 0.2.141-alpha
  nuget install VL.Devices.Kinect2 -Version 0.1.45-alpha
  nuget install VL.Devices.Realsense -Version 0.1.7-alpha
- nuget install VL.GStreamer -Version 1.0.18-gadcd7f95e5{{< /box >}}
+ nuget install VL.GStreamer -Version 1.0.18-gadcd7f95e5
+{{< /box >}}
 
 {{< box >}}
 Nugets that do not require a specific version, but still the prerelease flag:
@@ -42,14 +41,16 @@ Nugets that do not require a specific version, but still the prerelease flag:
  nuget install VL.2D.Voronoi -pre
  nuget install VL.Animation.ParticleSystem -pre
  nuget install VL.ColorBlender -pre
- nuget install VL.ColorThief -pre{{< /box >}}
+ nuget install VL.ColorThief -pre
+{{< /box >}}
 
 {{< box >}}
 Nugets that have a proper release already and thus don't require the prerelease flag:
  nuget install VL.DBSCAN
  nuget install VL.StringExtensions
  nuget install VL.2D.Simplify
- nuget install VL.InfluxDB{{< /box >}}
+ nuget install VL.InfluxDB
+{{< /box >}}
 
 If you have other public nugets that you tested to work with this release, please post them in the comments below!
 

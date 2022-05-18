@@ -15,8 +15,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 changes, fixes and new stuff as you can see in the changelog. 
 be reminded that many treasures can be found among the [/contributions](https://vvvv.org/contributions). if you like something from there to be in the addonpack make sure to bug the author to add it. 

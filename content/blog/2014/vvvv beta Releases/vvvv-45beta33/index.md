@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 here is to you the latest and greatest: vvvv_45beta33
 in other words: bestest release evvvver. 

@@ -13,8 +13,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 <!--{SPLIT()}-->
 let's call this a bug fix release for vvvvs 4th anniversary. phew..and still beta. will we ever make it to a final? who cares..

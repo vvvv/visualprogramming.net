@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 {{< vimeo "59306213" >}}
 this is to announce the availability of beta29.2, a maintainance release fixing mostly the most urgent troubles with beta29 that was release a bit over a month ago. just in time for [node13](http://node13.vvvv.org).

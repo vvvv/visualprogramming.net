@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in February 2017](/blog/2017/vvvvhat-happened-in-february-2017)
-
----
-
 aaand here is what happened in march in vvvv-land:
 - we now have a dedicated [jobs category](https://discourse.vvvv.org/c/jobs) in the forum
 - we announced the first batch of [workshops for node17](/blog/2017/node17-workshops-announced)
@@ -21,7 +17,8 @@ aaand here is what happened in march in vvvv-land:
 
 and sneakpeak: we're on the finishing touches for XML and MIDI-IO nodes for VL which we hope to have in alphas shortly (you'll love them, trust me for once). in parallel, as [mentioned before](/blog/2017/devvvvlopment-update-january-2017), we're still working on making the importing of libraries super comfortable for everyone. think: drag-drop...
 
-## Contributions
+## Contributions
+
 {{< vimeo "206586772" >}}
 *DX11.Particles MegaPack*
 
@@ -35,7 +32,8 @@ and sneakpeak: we're on the finishing touches for XML and MIDI-IO nodes for VL w
 And if you have a minute help {{< user "lev" >}} by giving the [public beta of HAP](https://discourse.vvvv.org/t/decent-hap-video-playback-solution-for-vvvv-gpu-video-decoding/14663/25) a shot so you don't have to complain about it later!
 Or be the first to answer the [Persion New Year Coding Challenge](https://discourse.vvvv.org/t/the-7-s-persian-new-year-coding-challange/14877) of {{< user "remony" >}}.
 
-## Gallery
+## Gallery
+
 {{< youtube "-XgaXc_K7dE" >}}
 *[001](/blog/001-manuel-palenque-tatiana-heuman-live-performance) by Manuel Palenque and Tatiana Heuman*
 

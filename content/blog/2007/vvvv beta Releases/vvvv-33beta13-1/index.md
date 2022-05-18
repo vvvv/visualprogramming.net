@@ -13,8 +13,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 still not the vvvvacko. only fixing some of the nasty bugs introduced with beta13 + some little goodies. 
 

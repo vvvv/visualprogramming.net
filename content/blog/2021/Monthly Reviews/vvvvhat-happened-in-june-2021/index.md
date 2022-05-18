@@ -8,11 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
-Previously on vvvv: [vvvvhat happened in May 2021](/blog/2021/vvvvhat-happened-in-may-2021)
-
----
-
 Helo from the devvvvlabs!
 
 If you look at [our roadmap](https://thegraybook.vvvv.org/roadmap/planned.html), you can see that we had 2021.4 planned for release in June. Now that didn't happen. Here is what happened instead: Guess what, some things took longer than anticipated. So let's recap the state of currently available 2021.4 previews. Besides numerous bug fixes, here is what you already get:
@@ -28,7 +23,8 @@ Still in the works for the release: a UI for Settings, simple shader creation, E
 
 As many of you do, you can always help by testing the [latest previews](visualprogramming.net/#Download) and [reporting issues in the forum](https://discourse.vvvv.org/c/vvvv-gamma/bug/31)!
 
-## Meetup
+## Meetup
+
 Missed the 12th online meetup? Here is what you missed exactly:
 
 * {{< user "hadasi" >}} [Transforming Skeletons](https://youtu.be/AkInLnC944w?t=332)
@@ -39,7 +35,8 @@ Missed the 12th online meetup? Here is what you missed exactly:
 * {{< user "sebescudie" >}} [VL.MLNet Model Runner](https://youtu.be/AkInLnC944w?t=4798)
 * FUSE team: [VL.Fuse update](https://youtu.be/AkInLnC944w?t=6131)
 
-## Contributions
+## Contributions
+
 New:
 * {{< contribution "vl.settingsreader" "VL.SettingsReader" >}} by {{< user "ravazquez" >}}
 * [VL.Fresnel](https://www.nuget.org/packages/VL.Fresnel) by {{< user "aka-visuals" >}}
@@ -59,11 +56,13 @@ Update your nugets for the following:
 
 And {{< user "takuma" >}} released his [6th vvvv gamma learn log](https://youtu.be/LqQbjQ7Odj4)!
 
-## Gallery
+## Gallery
+
 {{< vimeo "560807156" >}}
 *FLOWRZ - Generative A/V composition by Josecarlos Florez*
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)

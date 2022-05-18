@@ -8,14 +8,12 @@ description: ""
 imported: "true"
 ---
 
-
-previously on vvvv: [vvvvhat happened in November 2015](/blog/2015/vvvvhat-happened-in-november-2015)
----
 happy new,
 
 and stuff... a lot of! now if everything went according to plan you're just gaining back consciousness from the last days and have come to your favorite website to learn about what you missed last month. glad you made it. you should now have a cosy weekend ahead to dive into all those presents:
 
-## Contributions
+## Contributions
+
 first a big horray for some updates of goodies we already know and lovvvve:
 * {{< user "vux" >}} has just released an update to his {{< contribution "directx11-nodes-alpha" "DirectX11 Nodes Alpha" >}}
 * {{< user "everyoneishappy" >}} updated his {{< contribution "instance-noodles" "Instance Noodles" >}}
@@ -31,10 +29,12 @@ then for all the crazy new stuff:
 * {{< contribution "swipe-gesture-dx11-touch" "Swipe Gesture DX11-Touch" >}} an example of the Swipe gesture for touch interfaces by {{< user "vasilis" >}}
 * {{< contribution "arduino-network-firmata" "Arduino Network Firmata" >}} use arduino/firmata via network by {{< user "adybadi" >}}
 
-## Oldies but goldies
+## Oldies but goldies
+
 working with QRCodes? yes there is {{< node "QRCode (EX9.Texture)" >}} to create QRCodes but how about reading them? well, already two years ago {{< user "kiilo" >}} provided a {{< contribution "zxing-qrcode-reader" "QRCode Reader" >}} he based on the great [ZXing](https://github.com/zxing/zxing) library. sources included. very handy! 
 
-## Gallery
+## Gallery
+
 always good for a surprise this {{< user "tekcor" >}} guy. if i am not mistaken he claims this video to be made entirely with vvvv. chapeau for the unique style: 
 {{< vimeo "149366172" >}}
 
@@ -55,12 +55,14 @@ and while on that site i spotted at least three projects among the [10 most memo
 and remember the guy who did the {{< contribution "wrapped-in-code" "smooth cloth animation" >}} for node15? i found him on instagram:
 * https://www.instagram.com/michael_theman/
 
-## Education
+## Education
+
 {{< user "microdee" >}} is really meaning it. he continued his series of vveekendvvorkshops nearly every week. even had some guest lecturers over. what a great idea and realization. now everybody go and click the flattr button on his userpage to show your support. if you want! no pressure. OR you go to the [vveekendvvorkshops page on patreon](https://www.patreon.com/vveekendvvorkshops) and show your appreciation there. either way is fine.
 
 if you're not convinced yet just follow the [vveekendvvorkshops youtube channel](https://www.youtube.com/channel/UCa8Vqigdbq5Gam_6dcGdNBw) for a start. 
 
-## VL
+## VL
+
 and of course VL our next-generation visual programming language is in active development and did some nice steps forward as you can read in the devvvv blog:
 
 [VL autumn update](/blog/vl%20autumn%20update)

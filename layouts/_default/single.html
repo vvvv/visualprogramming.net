@@ -8,6 +8,9 @@
                 <div class="col-12 col-lg-8">
                     <div class="post">
                         <div class="header">
+                            
+                            {{ partial "blog/prev-next" . }}
+
                             <h2 class="display-1">{{ .Title }}</h2>
                             {{ with .Params.date }}
                                 <span class="date mr-3">{{ time.Format "January 2, 2006" .}}</span>
@@ -17,24 +20,13 @@
                                 <span class="link mr-3">posted by: <a href="{{ printf "author/%s/" . | lower| relURL }}" >{{ . }}</a></span>
                             {{ end }}
 
-                            <!-- Find link to the current category -->
-                            {{ $currentCat := .Params.categories}}
-                            {{ $currentCatLink := ""}}
-                            {{ range .Site.Taxonomies.categories }}
-                                {{ if eq .Page.Title $currentCat }}
-                                    {{ $currentCatLink = .Page.RelPermalink }}
-                                {{ end }}
-                            {{ end }}
-
-                                <span class="link">category: <a href="{{ $currentCatLink }}">{{ .Params.categories }}</a></span>
-
                             {{ if $guest }}
                                 <span class="guestLabel ml-3">Guest Post</span>
                             {{ end }}
 
                         </div>
                         <div class="content">
-                            
+
                             {{ if eq .Params.categories "Dates"}}
                                 {{ partial "blog/block-date.html" . }}
                             {{ end }}

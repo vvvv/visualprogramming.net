@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in May 2018](/blog/2018/vvvvhat-happened-in-may-2018)
-
----
-
 hola,
 
 que patcha? we did it. as announced here last time, we've finally finished our [cleanup of the VL.Corelib](/blog/2018/vl-corelib-cleanup). further we've released [improved File IO](/blog/2018/vl-improved-file-io) nodes and a little new feature to [frame your patches](/blog/2018/vl-frame-your-patches). we've also reworked how groups and categories work which we'll introduce in a blogpost soon. these then were the biggest chunks that we had planned for the coming release. so we're now soon reaching everyones favorite: release-candidate time! 
@@ -20,7 +16,8 @@ que patcha? we did it. as announced here last time, we've finally finished our [
 and on july 10th, the [second berlin meetup](/blog/2018/2-berlin-vvvv-meetup) is happening, organized by {{< user "a_a_a_a" >}} and {{< user "sebl" >}}, horray!
 
 
-## Contributions
+## Contributions
+
 <!--{SPLIT()}-->
 again some amazing new stuff: 
 * [Reogrid](/blog/reogrid) plus [video tutorial](https://www.youtube.com/watch?v=2AhHjvxn5iI) by {{< user "microdee" >}}
@@ -37,7 +34,8 @@ and some fine updates to existing contributions:
 * {{< contribution "x-ray" "X-Ray" >}} by {{< user "u7angel" >}}
 <!--{SPLIT}-->
 
-## Gallery
+## Gallery
+
 {{< vimeo "270885543" >}}
 *30° - Visualising Ocean Data by students of the Muthesius Academy of Fine Arts, Kiel*
 

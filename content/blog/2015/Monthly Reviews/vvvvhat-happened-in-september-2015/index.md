@@ -8,14 +8,12 @@ description: ""
 imported: "true"
 ---
 
-
-previously on vvvv: [contribution-roundup](/blog/2015/contribution-roundup)
----
 helo my dear fellow patchers,
 
 i got the feeling lately that you've been doing way too much of vvvv for anyone to be able follow. and we're all so busy and certainly everyone misses half of whats happening. so let me just write out loud here...i'm thinking...a monthly recap that allows everyone to get a quick overview of the highlights of the past vvvv month, something like so:
 
-## Contributions
+## Contributions
+
 yo, so firstly we got blessed with some amazing new contributions:
 * obviously {{< user "velcrome" >}} shoot the bird (ifimaysayso) once again by doing this: {{< contribution "vvvv-patchbox" >}}. he collected all the crazy UI tweaks already out there since years in some cases, cleaned them up and added more into one consistent pack. if you're not gonna flattr him for that..i don't know..
 * {{< user "everyoneishappy" >}} indeed when they taste the {{< contribution "instance-noodles" >}}. kind of like the textureFX for geometry. well done sir!
@@ -26,10 +24,12 @@ yo, so firstly we got blessed with some amazing new contributions:
 * i updated the {{< contribution "kinect-v2-hdface" >}} contribution to work with the latest {{< contribution "kinect2-nodes" >}} pack. only there is still a problem with getting the face matched to the rgb image. so if you happen to know how this is supposed to work, please add your mustard over there. 
 * and {{< user "vux" >}} added his materials from his node15 compute workshop: {{< contribution "node-15-compute-shader-workshop-patches" >}} which also adds to the complete list of [node15-workshop-material](/blog/2015/node15-workshop-material)s
 
-## Previously on vvvv
+## Previously on vvvv
+
 next. have you ever browsed through the contributions and stumbled over something from ninetinehundredsoandso that you want everyone to know about? then make sure it runs with the latest vvvversion and reupload it. so i did: {{< contribution "pathgeometry" >}}. 
 
-## Gallery
+## Gallery
+
 and finally ma favorite [gallery](https://visualprogramming.net/#Showcase) entry for september: Fatal Light Attraction by Samuel Kerridge, {{< user "id144" "Andrej Boleslavský" >}} & Mária Júdová. 
 {{< vimeo "138702095" >}}
 simple, effective. reduced to the max. for details see: [samuel-kerridge-fatal-light-attraction](/blog/samuel-kerridge-fatal-light-attraction)

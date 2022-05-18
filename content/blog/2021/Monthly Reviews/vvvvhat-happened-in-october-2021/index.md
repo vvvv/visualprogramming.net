@@ -8,11 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
-Previously on vvvv: [vvvvhat happened in September 2021](/blog/2021/vvvvhat-happened-in-september-2021)
-
----
-
 So, 
 
 we have a [candidate for the upcoming 2021.4 release](/blog/2021/vvvv-gamma-2021.4-release-candidate). It includes the latest [updates for videoplayback](/blog/2021/video-playback-news) and also a new thing called [editor extensions](https://thegraybook.vvvv.org/reference/hde/extensions.html), which are little tools to extend the vvvv editor. The best thing about them: Those are just patches as well, so it is really easy [to make your own](https://thegraybook.vvvv.org/reference/extending/editor-extensions.html).
@@ -21,7 +16,8 @@ Next up: We're now fixing a few more buggers that showed up in the release candi
 
 Also coming up: The November meetup on the 23rd!
 
-## Contributions
+## Contributions
+
 Here are some new bits for you to try:
 * [VL.SpoutMonitor.HDE](https://www.nuget.org/packages/VL.SpoutMonitor.HDE)
 * [VL.TUIO.HDE](https://www.nuget.org/packages/VL.TUIO.HDE)
@@ -40,11 +36,13 @@ And the following nugets got updated:
 
 In other surprise news: A [new vvvv book](https://www.impressrd.jp/news/detail/1130) is out in Japan that also covers vvvv gamma.
 
-## Gallery
+## Gallery
+
 ![](gk.jpg)
 *Currently showing at [Galerie König](https://www.koeniggalerie.com) in Berlin: A [FUSE](https://www.thefuselab.io/) powered projection by [Refik Anadol](https://refikanadol.com/)*
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)

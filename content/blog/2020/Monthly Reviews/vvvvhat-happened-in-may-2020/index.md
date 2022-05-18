@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-Previously on vvvv: [vvvvhat happened in April 2020](/blog/2020/vvvvhat-happened-in-april-2020)
-
----
-
 So where were we...
 
 ...right, we just released [vvvv gamma 2020.1.3](/blog/2020/vvvv-gamma-2020.1.3-release), the 3rd bug-fix release. Before that, we saw some impressive work by {{< user "idwyr" >}}, {{< user "ravel" >}} and {{< user "andresc4" >}} at the last [worldwide meetup](https://youtu.be/pa3HRQ7kj6w). 
@@ -27,16 +23,19 @@ But VL.Stride is not the only thing that is cooking: The last weeks we've also p
 
 Next step according to the [roadmap](https://betadocs.vvvv.org/roadmap.html) is improving networking... 
 
-## Contributions
+## Contributions
+
 * Nothing less than yet another update to the probably single-most elaborate UI widget library for a visualprogramming environment out there: {{< contribution "vl.elementa" "VL.Elementa" >}} by {{< user "dottore" >}} and contributors. Join them in the [VL.Elementa Chat](https://riot.im/app/#/room/#VL.Elementa:matrix.org)!
 * Ever more [vvvv beta tutorial videos](https://www.youtube.com/playlist?list=PLK3HDkvkLePS9UKCVw1o_eb09Ocws6Wcr) by {{< user "takuma" >}}
 * And don't forget to have a look at the forums [work-in-progress section](https://discourse.vvvv.org/c/wip/27) that also has continuous goodies coming in.
 
-## Gallery
+## Gallery
+
 {{< vimeo "415207972" >}}
 *Beethoven Recomposed by [schnellebuntebilder](https://vvvv.org/businesses/schnellebuntebilder)*
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)

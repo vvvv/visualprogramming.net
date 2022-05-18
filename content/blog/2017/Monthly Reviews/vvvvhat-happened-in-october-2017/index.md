@@ -9,15 +9,12 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in September 2017](/blog/2017/vvvvhat-happened-in-september-2017)
-
----
-
 what a month!
 
 you may want to make yourself comfortable before diving into this. summertime is over and everyone is back patching in their cavvvves. a lot of beautiful things happened in the past month. here we go:
 
-## vvvv/vl wise
+## vvvv/vl wise
+
 our main focus is still getting beta36 out, which will include the new and trivl way to develop nodes for vl as already mentioned here [last time](/blog/2017/vvvvhat-happened-in-september-2017). just still not happy with all the details. we'll get there eventually.. but meanwhile also a few other things happened that are ready for you to test in latest alphas:
 - the VL.Experimental package now includes reworked UDP nodes that will soon leave experimental status and are already being used under the hood now in the ArtNet (Network Sender/Receiver) nodes in vvvv which makes them faster.  
 - also new in experimental: RS232 nodes for vl which will power the FirmataBord (Devices) in vvvv soon to also make it faster.
@@ -32,7 +29,8 @@ our main focus is still getting beta36 out, which will include the new and trivl
 * fixes for the I2C firmata nodes: [firmata-updates-and-fixes](/blog/2017/firmata-updates-and-fixes)
 * HTMLTexture can now talk to vvvv via javascript, see girlpower\IO\Web\10_JavascriptToVVVV
 
-## Contributions
+## Contributions
+
 {{< user "woei" >}} once again went totally overboard with 3 new contributions:
 * {{< contribution "stablefluids" "StableFluids" >}} which also is a great resource for [using c++ code in plugins](https://discourse.vvvv.org/t/current-state-of-using-c-code-for-dynamic-plugins/15450/7)
 * {{< contribution "findrelated-(vvvv)" "FindRelated (VVVV" >}})
@@ -44,7 +42,8 @@ our main focus is still getting beta36 out, which will include the new and trivl
 
 and {{< user "sebl" >}} updated {{< contribution "readback-dx11" "ReadBack DX11" >}} for vvvv b35.8 and dx11 > 1.0
 
-## Gallery
+## Gallery
+
 also a large number of great projects this time. keep them coming!
 {{< vimeo "235766578" >}}
 *[Malachite](/blog/malachite) by [VOLNA](http://volna-media.com/)* 
@@ -57,13 +56,15 @@ also a large number of great projects this time. keep them coming!
 
 and a new twitter user to follow: [vvvvmotions](https://twitter.com/vvvvmotions)
 
-## Teasers
+## Teasers
+
 a couple of interesting teasers...
 * https://discourse.vvvv.org/t/interpole/15566
 * [openvr-tracking-without-headset](/blog/openvr-tracking-without-headset)
 * https://twitter.com/vvvv_jp/status/919223251061981185
 
-## Upcoming
+## Upcoming
+
 and some vvvv action coming up:
 * in belgium: [vvvv at KIKK 2017](/blog/2017/vvvv-at-kikk-2017)
 * and milan: [Patcher Kucha in Milan 2017](/blog/2017/patcher-kucha-in-milan-2017-11)

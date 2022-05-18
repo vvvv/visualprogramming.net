@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 ![](AsyncTaskDemo_2018.02.19-19.02.37.png)
 *Symbiosis: VL handling the heavy load for VVVV*
@@ -25,7 +23,8 @@ this is a big one!
 in the works for more than half a year, it is finally out: beta36 comes with a lot of new stuff for both vvvv and vl. many thanks to everyone who helped us tweak the release by reporting problems with the release candidates. but now please have a look at the following list of highlights of this release:
 
 <!--{SPLIT()}-->
-## VVVV
+## VVVV
+
 - [Dynamic Plugins Now Use C#6 Compiler](/blog/2017/c6-compiler-for-dynamic-plugins)
 - [Changes regarding AspectRatio and Projection Space](/blog/2018/aspect-ratio-and-projection-space)
 - There is now an {{< pin "Evaluate" >}} input on every node
@@ -36,7 +35,8 @@ in the works for more than half a year, it is finally out: beta36 comes with a l
 - a simple beautiful Line (EX9 2d) node
 - HTMLTexture nodes now can send values to vvvv from javascript via window.vvvvSend()
 <!--~~~-->
-## VL
+## VL
+
 - you can now [Use .NET Libraries and Write Custom Nodes](/blog/2017/vl-using-.net-libraries-and-writing-custom-nodes)
 - you can now fill [Dynamic DX11 Buffers in VL](/blog/2018/dynamic-dx11-buffers-in-vl) and use them in vvvv
 - we now have an [Image Exchange Interface](/blog/2018/vl-image-exchange-interface)

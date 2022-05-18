@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in Jannuary 2018](/blog/2018/vvvvhat-happened-in-jannuary-2018)
-
----
-
 okok,
 
 have we mentioned beta36 yet? it is still a release candidate and about to be released soon. quasi. so please take this last chance and make sure your latest projects will work with it when it will be released, by getting the [latest candidate](/blog/2018/beta36-release-candidate) and testing them against it. in the unlikely event that you have something bugging you, prettyplease let us know. in the comments, in the [forum](https://discourse.vvvv.org/) or in the [chat](https://riot.im/app/#/room/#vvvv:matrix.org). thanks.
@@ -23,12 +19,14 @@ in case you've missed the february news from the devvvv room, please catch up he
 
 and meanwhile we're already working on a branch towards b36.1 scheduled for in about 2 months after b36 release. it will mostly focus on a cleanup of all vl libraries and finally opensourcing them so we can start accepting contributions.
 
-## Jobs
+## Jobs
+
 looking or a job? there are currently two offers: one by [grosse8 in cologne](https://discourse.vvvv.org/t/full-time-job-programming-interactive-exhibits-in-cologne/16117) and another by [intermediate engineering in hamburg](https://discourse.vvvv.org/t/intermediate-engineering-hamburg-sucht-programmierer-fur-medieninstallationen/16122).
 
 and in general this place seems to have some related listings: [das auge](https://dasauge.de/sta/Vvvv/)
 
-## Contributions
+## Contributions
+
 <!--{SPLIT()}-->
 **two new ones**
 * {{< contribution "simple-preset-maker" "Simple Preset Maker" >}} by veteran {{< user "lasal" >}}
@@ -53,7 +51,8 @@ the DX11 pack by {{< user "vux" >}} comes with [fixes and new features](/blog/20
 * {{< contribution "vvvv-patchbox" "Patchbox" >}} by {{< user "velcrome" >}}
 <!--{SPLIT}-->
 
-## Gallery
+## Gallery
+
 {{< vimeo "255910392" >}}
 *Sincronización Láser con proyección by {{< user "colorsound" >}}*
 

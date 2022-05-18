@@ -8,8 +8,6 @@ description: "Release notes"
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 Because why not,
 
 ![](vvvv-2020.1.4.png)

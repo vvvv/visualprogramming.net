@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in January 2019](/blog/2019/vvvvhat-happened-in-january-2019)
-
----
-
 say vvvvhat?
 
 right when we have only one month left to the [announced release of vvvv gamma](/blog/2018/the-road-to-gamma), february cut us short of another 2 days...had we only known that.. so where are we?
@@ -27,7 +23,8 @@ so, less than a month left till the announced release..we make very good progres
 
 also last call to take part in the [2019 Survvvvey](https://goo.gl/forms/g3t6gwSwUfZwMOyd2). we've reached more than 300 participants and will be closing it and releasing the results soon!
 
-## Contributions
+## Contributions
+
 <!--{SPLIT()}-->
 quite a couple new things:
 * {{< contribution "fibonacci-sphere" "Fibonacci Sphere" >}} by {{< user "catweasel" >}}
@@ -40,7 +37,8 @@ and one update:
 * {{< contribution "vvvv.packs.multitouchstack" "VVVV.Packs.MultiTouchStack" >}} by {{< user "elliotwoods" >}}
 <!--{SPLIT}-->
 
-## Gallery
+## Gallery
+
 {{< vimeo "320445164" >}}
 *ENCHANTMENT. FIELDS by {{< user "stain" >}}*
 

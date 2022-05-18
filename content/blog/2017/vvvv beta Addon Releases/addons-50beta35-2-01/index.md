@@ -15,8 +15,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 {INCLUDE:addons change log 50beta35.2-01}
  

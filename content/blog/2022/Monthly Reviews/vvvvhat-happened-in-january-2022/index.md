@@ -8,10 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
-Previously on vvvv: [vvvvhat happened in December 2021](/blog/2022/vvvvhat-happened-in-december-2021)
-
----
 And the patch goes on:
 
 We've released not one, not two, but 3 bugfix releases for vvvv gamma in January. Read all about them in [The ChangeLog](https://thegraybook.vvvv.org/changelog/2021.4.html).
@@ -22,7 +18,8 @@ The [Mastering vvvv for teaching](https://thenodeinstitute.org/mastering-vvvv-fo
 
 Oh and in case you missed it, you can still [rewatch the 16th vvvv online meetup](https://youtu.be/ecnUCMwEgJo).
 
-## Contributions
+## Contributions
+
 We got some new ones:
 * [VL.OpenEXR](https://www.nuget.org/packages/VL.OpenEXR)
 * [VL.Boids-GPU](https://www.nuget.org/packages/VL.Boids-GPU)
@@ -37,7 +34,8 @@ and received updates to the following:
 * [VL.ColorThief](https://www.nuget.org/packages/VL.ColorThief)
 * [VL.CEF](https://www.nuget.org/packages/VL.CEF)
 
-## Gallery
+## Gallery
+
 {{< vimeo "670777111" >}}
 *Machine Eyes by Malte Kropp*
 
@@ -46,7 +44,8 @@ and received updates to the following:
 
 * [#madewithvvvv](https://www.picuki.com/tag/madewithvvvv) by various patchers
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [The Interactive & Immersive Job Board](https://jobs.interactiveimmersive.io/jobs-2/?s=vvvv&post_type=job_listing) and [dasauge.de](https://dasauge.de/sta/Vvvv/)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)

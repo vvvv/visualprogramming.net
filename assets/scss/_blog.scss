@@ -1,6 +1,16 @@
 $sans: "Open-Sans", sans-serif;
 $serif: "Roboto Slab", serif;
 
+.guestLabel
+{
+    background-color: #aaa;
+    border-radius: 1em;
+    border: none;
+    padding: 0.3em 0.8em;
+    color: #fff;
+    font-size: 0.75rem;
+}
+
 //Blog @ Home
 section#Blog
 {
@@ -61,15 +71,6 @@ section#Blog
 //Single Pages + Lists
 #Blog
 {
-    .guestLabel
-    {
-        background-color: #555;
-        border-radius: 4px;
-        border: none;
-        padding: 0.3em 0.8em;
-        color: #fff;
-        font-size: 0.7rem;
-    }
 
     .signpill
     {
@@ -164,6 +165,36 @@ section#Blog
 
     .post{
 
+        .prev-next
+        {
+            font-size: 0.85em;
+            color: #666;
+
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.9em;
+            margin-bottom: 2em;
+
+            font-family: $sans;
+
+            .btn
+            {
+                color: #fff;
+                font-size: 0.9em;
+                border: none;
+                border-radius: 5px;
+            }
+              
+            .disabled
+            {
+                pointer-events: none;
+                cursor: default;
+                color: #fff;
+                border-bottom: none;
+                background-color: #ccc;
+            }
+
+        }
+
         hr
         {
             border-color: #ddd;
@@ -200,7 +231,6 @@ section#Blog
 
         .header
         {
-
             span {
                 font-size: 0.8rem;
             }
@@ -213,7 +243,7 @@ section#Blog
 
         .content{
 
-            margin-top: 3em;
+            margin-top: 2.5em;
             font-family: $sans;
             $base-font: 1em;
 

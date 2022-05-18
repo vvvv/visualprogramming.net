@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in June 2018](/blog/2018/vvvvhat-happened-in-june-2018)
-
----
-
 Summertime...
 
 ...and the patching goes easy. And we have a [release candidate for beta37](/blog/2018/beta37-release-candidate) out! Please take a moment to test it against your latest projects and report any problems in the forum using the *alpha* tag. 
@@ -25,7 +21,8 @@ For the brave we also pre-released the long announced [2d Rendering Engine for V
 
 The [2nd Berlin Meetup](https://vvvv.org/404) has happened and now [http://link-summercamp.de/ Summer Camp](http://link-summercamp.de/) is coming up shortly. Even if you're not attending, we'd be happy if you [participate in the discussions](/blog/2018/link-summercamp-presenting-the-topics) we'll be having there. And maybe you can make it to our next [meetup at the lake](/blog/2018/3-berlin-vvvv-meetup-at-link-open-sunday) on August 12th!
 
-## Contributions
+## Contributions
+
 <!--{SPLIT()}-->
 Two new: 
 * {{< contribution "Scenegraph" >}} by {{< user "woei" >}}
@@ -38,11 +35,13 @@ Two updated:
 
 And also one [WorkInProgress](https://discourse.vvvv.org/t/vlml/16539) and a [Teaser](/blog/opacity-layers-demo).
 
-## Gallery
+## Gallery
+
 {{< vimeo "278763002" >}}
 *Realtime Image Regeneration by {{< user "eps" >}} using [https://github.com/affinelayer/pix2pix-tensorflow|pix2pix*
 
-## Upcoming
+## Upcoming
+
 The [Wisp collective](http://wisp-kollektiv.de/) has an [Open Call](/blog/2018/open-call-wisp-laboratory-18) for their Laboratory in Leipzig, this September.
 
 ---

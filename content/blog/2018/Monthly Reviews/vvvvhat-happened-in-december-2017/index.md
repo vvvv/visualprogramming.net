@@ -9,13 +9,10 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in November 2017](/blog/2017/vvvvhat-happened-in-november-2017)
-
----
-
 happy new patcherpeople,
 
-## vvvv/vl
+## vvvv/vl
+
 in case you haven't noticed, 2017 has passed without the release of beta36. booohh..i know, this wasn't our intention but you know, good things... and on the other hand you can say it is practically already there: please check our **[beta36 release candidate](/blog/2018/beta36-release-candidate)** and report your final findings!
 
 among the new features in vl is a way to pause and step through frames as you can learn in: [One Frame at a Time](/blog/2017/vl-one-frame-at-a-time). find out about the many more changes in possibly the [longest changelog evvvver](https://betadocs.vvvv.org/changelog/index.html).
@@ -30,10 +27,12 @@ and if you didn't dare yet to touch vl, here is a soft way to get started: lean 
 
 regarding the promised major new feature of using .NET libraries, here is a quick example of using the [bulletsharp](http://andrestraks.github.io/BulletSharp/) physics library in vl without the need to write a single line of code: [Doing Bullet3d with vl](https://discourse.vvvv.org/t/doing-bullet3d-with-vl/15916)
 
-## vvvv Academy
+## vvvv Academy
+
 starting now, follow [@vvvvAcademy](https://twitter.com/vvvvAcademy)
 
-## Contributions
+## Contributions
+
 <!--{SPLIT()}-->
 Some new stuff:
 * [Content Management System](https://vvvv.org/store/store#content-management-system) by {{< user "u7angel" >}} available in the Store
@@ -45,7 +44,8 @@ and two updates:
 * {{< contribution "player-(dx11.texture)" "Player (DX11.Texture" >}}) by {{< user "woeishi" >}}
 <!--{SPLIT}-->
 
-## Gallery
+## Gallery
+
 {{< vimeo "247694961" >}}
 *{{< user "colorsound" >}} experiments with lasers and vl*
 * [Schwarzwald](/blog/schwarzwald) by {{< user "iam404" >}}
@@ -54,7 +54,8 @@ and two updates:
 * a constructivvvvist bot to follow: [@pattrn_exe](https://twitter.com/pttrn_exe)
 * CreativeApplications [Highlights and Favorites of 2017](http://www.creativeapplications.net/features/can-2017-highlights-and-favourites) has some vvvv
 
-## Teasers
+## Teasers
+
 A single disguised teaser this time: [spreaded-html](/blog/spreaded-html) or what is this? [forest-pointcloud-0](/blog/forest-pointcloud-0)
 --- 
 

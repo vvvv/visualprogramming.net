@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 this is beta27s addonpack. 
 *(2nd service. now also including stuff accidentally missing from the first pack, like Box2d nodes)*

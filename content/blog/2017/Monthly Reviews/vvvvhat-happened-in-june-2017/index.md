@@ -9,25 +9,24 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in May 2017](/blog/2017/vvvvhat-happened-in-mai-2017)
+##  NODE17
 
----
-
-##  NODE17
 Are you in post-node depression mode or haven't even been able to visit? Here is our full keynode we streamed live last week. It has a lot of goodies and should give a nice overview of what happened the past two years since NODE15. 
 
 {{< youtube "BKHbEWaHjcw" >}}
 
 Quite a few of the workshops were recorded, so those should also pop up at some point soon. And of course we'll also try to collect as many of the workshop materials again for posterity. Watch this blog for updates!
 
-##  Education
+##  Education
+
 If you weren't able to come to NODE this time here are three more chances this summer in Berlin to get a vvvv/vl treatment:
 
 * [VVVV Summer Course](/blog/2017/summer-course-berlin) for beginners offered by {{< user "dominikKoller" >}}
 * [VL Course](/blog/2017/vl-course-berlin) also offered by dominik
 * [Parametric Design with Cardboard](/blog/2017/parametric-design-with-cardboard-in-vvvv) by {{< user "lasal" >}}
 
-##  Contributions
+##  Contributions
+
 In the run-up to NODE17 a large number of contributions were updated...
 <!--{SPLIT()}-->
 - {{< contribution "directx11-nodes" "DirectX11 Nodes" >}} updated by {{< user "vux" >}} with a proper [changelog](/blog/2017/directx11-1.1-update)
@@ -62,11 +61,13 @@ And as announced during keynode there is some more stuff available now by [NSYNK
 - DX11 BlackmagicDesign Decklink VideoIn
 - OptiTrack Motiontracking
 
-## Jobs
+## Jobs
+
 Looking for a vvvv internship in london? Here you go:
 - [Cinimod Studio is looking for an intern](https://discourse.vvvv.org/t/cinimod-studio-is-looking-for-an-intern-london/15353)
 
-## Gallery
+## Gallery
+
 {{< vimeo "222084800" >}}
 *MOA PILLAR — And the Moon Stopped by {{< user "yar" >}}*
 

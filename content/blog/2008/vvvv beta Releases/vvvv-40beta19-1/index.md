@@ -13,8 +13,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 ![](grideditorex9helpdirectxrenderer_2008.11.1500.27.02.jpg)
 

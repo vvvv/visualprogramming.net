@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in March 2018](/blog/2018/vvvvhat-happened-in-march-2018)
-
----
-
 time flies,
 
 more than a month now since the release of b36 and we are happy with it. but are you? anyone using a previous version still? meanwhile we have b36.1 heavily in the making where we are concentrating our work on the vl CoreLib. making it more managable so we can finally open it up for contributions. some of the fruits can already be seen in the nodebrowser if you're using [alpha builds](https://vvvv.org/downloads/previews). announcement and some explaining words on this still pending. and then quite some crazyshit is happening in the secret labs that we hopefully can talk about soon...geee
@@ -25,7 +21,8 @@ still more on the beginner end of things?
 
 and in case you missed the annoucement: [/blog/2018/link-the-vvvv-summer-camp-2018 - the vvvv summercamp](/blog/2018/link-the-vvvv-summer-camp-2018) application will open soon and selected participants will then be informed by june 8th, leaving you with 2 months to arrange your travels.
 
-## Contributions
+## Contributions
+
 <!--{SPLIT()}-->
 some nifty new stuff:
 * {{< contribution "sprite-player" "Sprite Player" >}} a first by {{< user "jj-h" >}}
@@ -42,13 +39,15 @@ and two nice teases from upcoming work by {{< user "microdee" >}} as part of his
 * some more [nodes](/blog/nodes-0) 
 <!--{SPLIT}-->
 
-## Wips
+## Wips
+
 happy to see three works in progress shared in april. keep them coming:
 * [UI with VL research](https://discourse.vvvv.org/t/ui-with-vl-research/16239) by {{< user "yar" >}}
 * [GameController](https://discourse.vvvv.org/t/gamecontroller/16243) by {{< user "velcrome" >}}
 * [Creating a Camera (Transform Touch)](https://discourse.vvvv.org/t/creating-a-camera-transform-touch/16183) by {{< user "sebescudie" >}}
 
-## Gallery
+## Gallery
+
 {{< vimeo "264369157" >}}
 *Melting Memories by [Refik Anadol](http://refikanadol.com/)*
 *using {{< contribution "fieldtrip" "FieldTrip" >}} by {{< user "everyoneishappy" >}}*

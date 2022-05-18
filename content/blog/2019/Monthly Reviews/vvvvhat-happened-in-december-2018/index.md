@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in November 2018](/blog/2018/vvvvhat-happened-in-november-2018)
-
----
-
 aaand that was it again..
 
 but before we head off into this happy new year, let's recap what happened on the last mile:
@@ -28,7 +24,8 @@ with the job out of our heads, we took to defining the coming milestones for vvv
 
 and if you haven't already, then prettyplease fill out [the 2019 survvvvey](/blog/2018/the-2019-survvvvey). it takes no more than 5 minutes. promised!
 
-##  contributions
+##  contributions
+
 <!--{SPLIT()}-->
 horray for 3 new:
 * {{< contribution "vectoraygen-to-vvvv" "VectorayGen to vvvv" >}} by {{< user "u7angel" >}}
@@ -49,7 +46,8 @@ and a little tease:
 [rewire-test](/blog/rewire-test)
 <!--{SPLIT}-->
 
-##  gallery
+##  gallery
+
 beautiful beautiful renderings from the pros:
 {{< vimeo "305938914" >}}
 *[Aid Kid AV Concert](/blog/aid-kid-av-live-concert) by {{< user "karafiat" >}}*
@@ -62,7 +60,8 @@ and some more fine stuff:
 * [Constellations](/blog/constellations-studio-jl) by {{< user "Joanie_AntiVJ" >}}
 * [Θ Theta: Sensory Feedback System [](montaje](/blog/θ-theta-sensory-feedback-system-montaje)) by {{< user "ventolinmono" >}}
 
-##  jobs
+##  jobs
+
 these have been announced for a while now. if you're interested, be quick!
 * [MESO, Frankfurt](https://discourse.vvvv.org/t/senior-vvvv-patcher-developers-wanted-meso-frankfurt/17006)
 * [m box, Berlin](https://discourse.vvvv.org/t/creative-coder-wanted-berlin/17016)

@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in April 2018](/blog/2018/vvvvhat-happened-in-april-2018)
-
----
-
 wow, 
 
 what a month. again so many new things... while we've still not managed to finalize our rework of the vl corlib, as mentioned here last month, you can already follow our developments using [alpha builds](https://vvvv.org/downloads/previews) if you're curious. we're now mostly done and are working on documentation and a blogpost to give you an easy overview of whats new.
@@ -27,7 +23,8 @@ berliners save the date: **June 12th** will be our first [vvvv/vl meetup](/blog/
 
 and finally: we've started collecting [Universities and other Educational Institutions](https://vvvv.org/documentation/educational-institutions) that are using vvvv/vl. we got 9 so far. please add yours there, if it is still missing!
 
-## Contributions
+## Contributions
+
 exciting stuff as always, check these:
 <!--{SPLIT()}-->
 * {{< contribution "notuiv" "Notuiv" >}} by {{< user "microdee" >}} plus [writeup](/blog/2018/₪i-and-md.ecosystem-in-2018)
@@ -43,7 +40,8 @@ and a teaser:
 * [vader-(string)-help](/blog/vader-(string)-help)
 <!--{SPLIT}-->
 
-## Gallery
+## Gallery
+
 {{< vimeo "194760211" >}}
 *[Responsive Fabric](/blog/responsive-fabric) by {{< user "MultiNIL" >}}*
 * [AirCade](/blog/aircade) by {{< user "MultiNIL" >}}

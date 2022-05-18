@@ -8,10 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
-previously on vvvv: [vvvvhat happened in August 2017](/blog/2017/vvvvhat-happened-in-august-2017)
-
----
 heidiho, 
 
 here we go..all devvvvs are finally back in office after a few weeks of...recreational activities. and powered by our new patcher-in-residence [guest](https://discourse.vvvv.org/users/guest/activity) we're in full swing. Finally officially announced [the big thing](/blog/2017/vl-using-.net-libraries-and-writing-custom-nodes) we've been working on for quite a while now. It turned out gorgeous if I may say so. Fully equipped with documentation it is now on you to give it a shot and tell us what you think.
@@ -22,7 +18,8 @@ Next up: beta36 and a few little gems on the way..speaking of which we're releas
 
 And in vvvv news it seems we finally found the culprit of the [~temp.v4p problem](https://discourse.vvvv.org/t/patch-save-error-with-message-this-time/15600/8) and also provide a solution to the recent  [saving woes](https://discourse.vvvv.org/t/save-all-also-saves-root-patch/15670/13).
 
-## Contributions
+## Contributions
+
 3 new in the house:
 * {{< contribution "box2d" >}} used to be in the addonpack but is now available as a separate contribution by {{< user "vux" >}}
 * {{< contribution "Slotmanager" "SlotManager" >}} by {{< user "tobyk" >}} is conveniently using vl under the hood
@@ -34,7 +31,8 @@ And in vvvv news it seems we finally found the culprit of the [~temp.v4p problem
 
 and a certain guest teases this: [tsnesmalltest-directx-renderer](/blog/tsnesmalltest-directx-renderer)
 
-## Gallery
+## Gallery
+
 Many quality projects landed in the gallery this month, check these:
 
 {{< vimeo "233756367" >}}

@@ -14,8 +14,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 ![](splash_1.png)
 
@@ -24,13 +22,15 @@ Just right in time one week before [NODE17](https://17.nodeforum.org) we proudly
 
 This release primarily focuses on bug fixes and workflow glitches so that the patching experience during workshops at NODE is as smooth as possible.
 
-## VVVV
+## VVVV
+
 * All editors from the [editing framework](https://betadocs.vvvv.org/topics/graphics/direct3d-9/basics/editing-framework/editing-framework.html) have a [Gizmo](/blog/2017/welcome-gizmo) manipulator.
 * Less drawing glitches on high DPI displays.
 * Links can finally turn red when the source and sink types don't match anymore. Should you come across them in your existing patches this simply means that you see a potential problem in your patch the UI didn't show you before.
 * Enums saw quite a few improvements, from a simpler internal encoding to no more red spread operation nodes. Also the S/R performance should be back up to normal.
 
-## VL
+## VL
+
 * [The Gray Book](https://vvvv.gitbooks.io/the-gray-book/content/en) was heavily updated. You might find quite a few gems hidden there you didn't know about yet.
 * One can now [search](https://vvvv.gitbooks.io/the-gray-book/content/en/reference/hde/finders.html) inside a patch like in any text editor by pressing [CTRL+F](https://vvvv.gitbooks.io/the-gray-book/content/en/reference/hde/patching.html) and across all the VL documents by pressing [CTRL+SHIFT+F](https://vvvv.gitbooks.io/the-gray-book/content/en/reference/hde/patching.html)
 * The new [Solution Explorer](https://vvvv.gitbooks.io/the-gray-book/content/en/reference/hde/solution-explorer.html) allows you to quickly navigate and get an overview of all the documents, their node definitions and dependencies between them. Open it by pressing [CTRL+J](https://vvvv.gitbooks.io/the-gray-book/content/en/reference/hde/patching.html).

@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in September 2018](/blog/2018/vvvvhat-happened-in-september-2018)
-
----
-
 time flies,
 
 as mentioned in last months update, we're in the middle of realizing the very first project entirely with vl standalone while at the same time integrating vl with [Xenko](http://xenko.com/). It is a complex multiplayer VR project involving 2 groups of 6 players each, who interact with each other and a beautifully shaded environment. And the ride couldn't have been more smooth so far. The project kinda develops itself along all the research we put into it that goes directly into the future usability of vl for everyone. Still a month to go until the opening...
@@ -30,7 +26,8 @@ But now grab a drink, lean back and watch this:
 {{< youtube "eGqWiO86HS0" >}}
 *Hero {{< user "lasal" >}} in an interview by [psst](http://www.psst.one/)*
 
-## Contributions
+## Contributions
+
 <!--{SPLIT()}-->
 Here are this months updates:
 * {{< contribution "global-s-r-nodes" "Global S&R Nodes" >}} by {{< user "ravazquez" >}}
@@ -49,7 +46,8 @@ and a couple of new works in progress:
 And for those into vvvv.js, make sure not to miss: [glTF PBR Rendering in VVVV.JS and UI Patching](/blog/2018/gltf-pbr-rendering-in-vvvv.js-and-ui-patching) by {{< user "tekcor" >}}
 
 
-## Gallery
+## Gallery
+
 {{< vimeo "296035076" >}}
 *The Bumblebee and the Salesman Problem. A VR installation by Cornelia Heß*
 

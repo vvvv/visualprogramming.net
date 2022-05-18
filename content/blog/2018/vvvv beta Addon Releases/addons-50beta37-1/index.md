@@ -15,7 +15,5 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 HTMLTexture is available for DX11 and more: [link](/blog/2018/htmltexture-now-for-dx11-and-more)

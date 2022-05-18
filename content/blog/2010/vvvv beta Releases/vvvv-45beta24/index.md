@@ -13,8 +13,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 ![45beta24](45beta24_0.png) 
 
@@ -26,7 +24,8 @@ in order to make the news easier to digest they are presented here in two bits:
 * To the Patcher
 * To the Coder <- this is where people interested in [processing.org](http://processing.org) have also been interested in
 <!--break-->
-## To the Patcher
+## To the Patcher
+
 * beta24 is the first version that requires **.net3.5 SP1** to be installed. win7 pcs seem to have that by default, on winXP you best get it via windows update. while SlimDX is no longer needed you still need the latest **native DirectX (june 2010)** udpate. (see the [Downloads](https://vvvv.org/downloads) for a link).
 * you got a new and hopefully more useful **WindowSwitcher**. check CTRL+TAB while you have some windows open. horray.
 * shortcuts like ALT+1,2,3 and CTRL+1,2,3,W ... now also work on all plugin windows like the Timeliner and the new CodeEditor.
@@ -40,7 +39,8 @@ in order to make the news easier to digest they are presented here in two bits:
 
 that should be it. for the patcher. those still not confused may want to read on..
 
-## To the Coders
+## To the Coders
+
 in order to show you this is a big one we gave vvvvs main version number another random jump from 40 to 45. remember, the last jump from 33 to 40 was with beta16 when with the PluginInterfaces V1 we introduced a way for everyone to write their own nodes. still you needed an external IDE to code and compile your nodes. 
 
 with beta24 you can now edit and compile nodes within vvvvs new built in **CodeEditor** (based on the fantastic opensource [SharpDevelop IDE](http://www.sharpdevelop.net/opensource/sd/)). while that doesn't replace a fully blown IDE with a debugger (anybody missed that with processing? hehe, jaaa not those that use eclipse then anyway) it feels quite comfortable already with codecompletion, methodinsight and CTRL+click to jump to definitions. of course the same editor is now used for effects. 

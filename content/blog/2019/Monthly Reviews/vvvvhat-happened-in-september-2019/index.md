@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-Previously on vvvv: [vvvvhat happened in August 2019](/blog/2019/vvvvhat-happened-in-august-2019)
-
----
-
 September,
 
 didn't make it. But it looks quite good for October: We've shown it at recent meetups in Hamburg and Berlin. Ready your patches, because it is here, it is gorgeous and it takes only one click. Executable support is ready and you will be able to test it on your own rather sooner than later. Call it a game-changer or just another thing you didn't ask for. Either way, no need to pray, it is going to stay. Watch [this space](/blog/2019/vvvv-gamma-2019.1-preview).
@@ -28,7 +24,8 @@ Our first round of [short](/blog/2019/free-vvvv-intro-workshops-this-summer-in-b
 
 And one more: [Teaching Patching - a mini conference](/blog/2019/teaching-patching-a-mini-conference): Please forward this to anyone who could be interested in helping us improve education of and with vvvv. If you have experience, we'd like to here from you! Come join us for 2 days of cozy talks and help us position vvvv for the years to come!
 
-## Contributions
+## Contributions
+
 We have a new one by {{< user "u7angel" >}}
 {{< contribution "touch-damper-aka-id-based-animation-filter" "Touch Damper" >}}
 
@@ -37,13 +34,15 @@ And an update by {{< user "ravazquez" >}}
 
 But as usual nowadays, more is going on in the [work-in-progress area](https://discourse.vvvv.org/c/wip). Check latest developments on Kinect2 now coming with face and handtracking and the new VL.InfluxDB.
 
-## Gallery
+## Gallery
+
 {{< vimeo "362506010" >}}
 *[GYROVAGVS](/blog/gyrovagvs) by {{< user "Patxi7" >}}*
 
 And [Lenaura](/blog/lenaura) by {{< user "nissidis" >}}
 
-## Jobs
+## Jobs
+
 Aas always if you're looking for a vvvv job or even have one to announce, remember these:
 * Worldwide jobs via [our forum](https://discourse.vvvv.org/c/jobs)
 * Worldwide jobs via [Interactivejobs.io](https://interactivejobs.io/?category=all&search=vvvv)

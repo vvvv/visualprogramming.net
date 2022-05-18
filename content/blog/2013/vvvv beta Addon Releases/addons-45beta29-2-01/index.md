@@ -15,8 +15,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 mostly changes/fixes by {{< user "jens.a.e" >}} and {{< user "woei" >}}. 
 please consult the changelog for details.

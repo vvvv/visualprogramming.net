@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-previously on vvvv: [vvvvhat happened in March 2019](/blog/2019/vvvvhat-happened-in-march-2019)
-
----
-
 have you tried it yet?
 
 it is still hot and [regularly updated](/blog/2019/vvvv-gamma-2019.1-preview)! if you haven't yet, maybe the [latest IOBox update](/blog/2019/vl-the-big-iobox-update) convinces you to give it a go. massive thanks to everyone who is testing and giving feedback and reporting bugs. very much appreciated!
@@ -23,7 +19,8 @@ meanwhile if you have thoughts on working with Kinect2 in vl, [please let us kno
 
 and thanks to {{< user "u7angel" >}} we have recordings of a recent [vvvv gamma workshop](https://discourse.vvvv.org/t/particles-with-their-own-behavior/17507/2), a [presentation about Ocean Of Air](https://youtu.be/0laS6O0ET0w) and a [VL.Xenko demo](https://youtu.be/KgkdLZg7BZw).
 
-## Contributions
+## Contributions
+
 happy to see vl based contributions rolling in...
 <!--{SPLIT()}-->
 new:
@@ -49,7 +46,8 @@ some teasers:
 * [nicedreams](/blog/nicedreams)
 <!--{SPLIT}-->
 
-## Gallery
+## Gallery
+
 {{< vimeo "329191638" >}}
 *Real-time point cloud experiments* by {{< user "boplbopl" >}}
 
@@ -58,7 +56,8 @@ and some more not to miss:
 * [Scalable storytelling environment](/blog/here-technologies-–-scalable-storytelling-environment-for-international-location-technology-fir) by {{< user "MESO" >}}
 * [Bosphorus: Data Sculpture](https://vimeo.com/325634926) by Refik Anadol
 
-## Jobs
+## Jobs
+
 and again some relevvvvant jobs are posted on jobboard [Das Auge](https://dasauge.de/sta/Vvvv/).
 
 ---

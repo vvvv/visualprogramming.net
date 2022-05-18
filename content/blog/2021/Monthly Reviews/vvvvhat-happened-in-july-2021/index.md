@@ -8,11 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
-Previously on vvvv: [vvvvhat happened in June 2021](/blog/2021/vvvvhat-happened-in-june-2021)
-
----
-
 So where are we?
 
 We have a new release: Update your vvvv beta projects and [licenses](https://store.vvvv.org), [vvvv beta 42](/blog/2021/vvvv50beta42) is here, including VL 2021.3.3. This means a lot of [fixes and improvements](https://thegraybook.vvvv.org/changelog/2021.3.html)!
@@ -21,7 +16,8 @@ And then we're still sorting things for the upcoming vvvv gamma 2021.4 release. 
 
 Nothing much else to report at this point other than that while we're quite delayed on our [roadmap](https://thegraybook.vvvv.org/roadmap/planned.html), things are looking good code-wise. Remeber that you can always follow our daily progress by testing the [latest previews](visualprogramming.net/#Download). And please don't forget to [report issues you find in the forum](https://discourse.vvvv.org/c/vvvv-gamma/bug/31)!
 
-## Contributions
+## Contributions
+
 New:
 * [VL.PsTools](https://www.nuget.org/packages/VL.PsTools) by vvvv
 
@@ -45,7 +41,8 @@ And update your nugets for the following:
 
 For more recent updates from the Fuse team join the [VL.Fuse channel on matrix](https://matrix.to/#/#VL.Fuse:matrix.org)!
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)

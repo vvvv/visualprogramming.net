@@ -9,10 +9,6 @@ imported: "true"
 ---
 
 
-Previously on vvvv: [vvvvhat happened in December 2019](/blog/2020/vvvvhat-happened-in-december-2019)
-
----
-
 Meanwhile,
 
 work continues as per the usual on our quest to release a smooth vvvv gamma 2020.1 within Q1. [Previews](/blog/2020/vvvv-gamma-2019.2-preview) are coming out about once a week now. Most recently we introduced another improvement for [help patches](/blog/2020/vl-help-patches). 
@@ -24,7 +20,8 @@ Into numerology? You may be interested in [last year's numbers and figures](/blo
 And if you're up for meeting your fellow patchers in real-life, make sure not to miss our upcoming [intro workshops, meetups and patching circles](/blog/2020/upcoming-intro-workshops-meetups-and-patching-circles) in Berlin. Here is the [stream of our most recent meetup](https://youtu.be/zwLVcvGfPic) where we heard news from ur-patcher {{< user "sunep" >}}.
 
 
-## Contributions
+## Contributions
+
 A new one:
 * {{< contribution "gamma-launcher" "Gamma Launcher" >}} by {{< user "sebescudie" >}}
 
@@ -37,13 +34,15 @@ And there's been some action in the work-in-progress section on the forum:
 * [VL.Skiad3d](https://discourse.vvvv.org/t/vl-skia3d/18201)
 * [Drag'n'Drop Stuff on a Renderer](https://discourse.vvvv.org/t/drag-and-drop-stuff-on-a-renderer/18202)
 
-## Gallery
+## Gallery
+
 {{< vimeo "383302281" >}}
 *Refik Anadol: “Latent Being” - Trailer*
 
 And also make sure to check out this little gem by Juan Hurle: [Fractal Armor](https://vimeo.com/381776756)
 
-## Jobs
+## Jobs
+
 [Some more on dasauge.de](https://dasauge.de/sta/Vvvv/)
 
 ---

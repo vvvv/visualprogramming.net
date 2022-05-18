@@ -15,8 +15,6 @@ release:
 imported: "true"
 ---
 
-{{<previousRelease>}}
-
 
 * {{< user "phlegma" >}} revamped the FileStream (Irrklang) plugin
 * {{< user "unc" >}} added a series of helppatches to his [TextureFX](https://betadocs.vvvv.org/topics/graphics/direct3d-9/texture/video-effects-(texturefx).html) series of nodes and fixed some

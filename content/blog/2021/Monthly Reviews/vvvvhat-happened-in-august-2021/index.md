@@ -8,11 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
-Previously on vvvv: [vvvvhat happened in July 2021](/blog/2021/vvvvhat-happened-in-july-2021)
-
----
-
 Ohyeah!
 
 This time of the month again. First off, for your calenders:
@@ -31,7 +26,8 @@ Things you may have missed:
 * Are you into visual state machines? Check out [this new proposal](https://github.com/vvvv/VL-Language/issues/46)
 * The always busy {{< user "Takuma" >}} did a [presentaion at SIGGRAPH](/blog/2021/talking-about-vvvv-at-siggraph) 
 
-## Contributions
+## Contributions
+
 Here are some new nugets that got minted recently: 
 * [VL.JSON](https://www.nuget.org/packages/VL.JSON/)
 * [VL.Geo](https://www.nuget.org/packages/VL.Geo/)
@@ -47,7 +43,8 @@ And the following got updated:
 * [VL.Audio](https://www.nuget.org/packages/VL.Audio)
 * [VL.IO.RCP](https://www.nuget.org/packages/VL.IO.RCP)
 
-## Gallery
+## Gallery
+
 {{< youtube "wm97ehLdxTU" >}}
 *Rayshade travelling by Simon Holden using VL.Fuse*
 
@@ -56,7 +53,8 @@ And the following got updated:
 
 For more recent updates from the Fuse team join the [VL.Fuse channel on matrix](https://matrix.to/#/#VL.Fuse:matrix.org)!
 
-## Jobs
+## Jobs
+
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
 * If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
