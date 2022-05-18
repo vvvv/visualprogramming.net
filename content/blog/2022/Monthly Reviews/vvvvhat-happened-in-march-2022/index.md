@@ -7,12 +7,6 @@ categories: Monthly Reviews
 author: joreg
 ---
 
----
-
-{{<previousInCategory text="Previously on vvvv:">}}
-
----
-
 If you're reading this,
 
 you're reading it on our brand-new blog. Horray! And as proof you've read this, would you mind testing the new comment system? Please scroll down and either just provide a name, or preferrably log-in via your matrix (element) user name and give us a sign...
