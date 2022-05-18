@@ -17,7 +17,7 @@ And then some more too early to talk about. Stay tuned! And go outside when the 
 
 ## Contributions
 We got a new one:
-* [GetDimensions (DX11)](https://vvvv.org/contribution/getdimensions-%28dx11.texture%29) by [antokhio](https://vvvv.org/users/antokhio)
+* {{< contribution "getdimensions-(dx11.texture)" "GetDimensions (DX11)" >}} by [antokhio](https://vvvv.org/users/antokhio)
 
 and received updates to the following:
 * [VL.OpenCV](https://www.nuget.org/packages/VL.OpenCV)
