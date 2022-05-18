@@ -1,28 +1,12 @@
-{{ $url := .Page.URL }}
 {{ $cat := .Page.Params.categories}}
 
-{{ $i := -1}}
-
-{{ $posts := (where $.Site.RegularPages ".Params.categories" $cat).ByDate.Reverse }}
-
-{{ range $index, $seq := $posts}}
-    {{ if eq $seq.URL $url }}
-        {{ $i = $index }}
-    {{ end }}
-{{ end }}
+{{ $posts := where $.Site.RegularPages ".Params.categories" $cat }}
 
 {{ $prev := "" }}
 {{ $next := "" }}
 
-{{ range (first 1 (after (add $i 1) $posts)) }}
-    {{ $prev = .Permalink }}
-{{ end }}
-
-{{ if ne $i 0}}
-    {{ range (first 1 (after (sub $i 1) $posts)) }}
-        {{ $next = .Permalink }}
-    {{ end }}
-{{ end }}
+{{with $posts.Prev . }}{{$prev = .RelPermalink}}{{end}}
+{{with $posts.Next . }}{{$next = .RelPermalink}}{{end}}
 
 <!-- Find link to the current category -->
 {{ $currentCat := .Params.categories}}
