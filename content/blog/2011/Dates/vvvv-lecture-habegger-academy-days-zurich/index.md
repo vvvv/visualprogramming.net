@@ -21,7 +21,7 @@ imported: "true"
 ---
 
 
-![title](hag academydays 2012 a.PNG) 
+![title](hag%20academydays%202012%20a.PNG) 
 
 vvvv lecture at the Habegger Academy Days in Regensdorf (Zürich), Switzerland.
  
@@ -44,4 +44,4 @@ Programmheft:
 
 [](http://www.habegger.ch/fileadmin/dateiablage/Academy/Habegger_AceademyDays11_Programmheft.pdf)
 
-![academydays2011](hag academyweek 2 2012.PNG) 
+![academydays2011](hag%20academyweek%202%202012.PNG) 
