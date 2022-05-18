@@ -8,7 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
 So let's see,
 
 [vvvv gamma 2021.4.7](https://thegraybook.vvvv.org/changelog/2021.4.html) is out which sounds like a small update but really it is quite a biggy: Now including the polished audio library: VL.Audio. With no more need for anything extra to install, audio analysis, synthesis, playback, recording.. all at your fingertips now.

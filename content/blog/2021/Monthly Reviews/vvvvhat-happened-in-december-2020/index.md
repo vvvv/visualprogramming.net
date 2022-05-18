@@ -8,7 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
 So,
 
 December happened and what not happened is the planned release of 2020.3, the first stable one including the shiny new 3d engine VL.Stride, as planned. We're in the final commits for it, so please bear with us and just [get a preview](https://visualprogramming.net/#Download) if you can't wait.

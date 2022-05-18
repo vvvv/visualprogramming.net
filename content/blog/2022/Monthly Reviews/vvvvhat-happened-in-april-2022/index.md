@@ -7,12 +7,6 @@ categories: Monthly Reviews
 author: joreg
 ---
 
----
-
-{{<previousInCategory text="Previously on vvvv:">}}
-
----
-
 The future is near!
 
 We're progressing well on the promised upgrade to .NET6 and will have a preview plus a blogpost on what this all means, available for you soon™.

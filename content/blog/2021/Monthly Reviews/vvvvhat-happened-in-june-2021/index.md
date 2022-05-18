@@ -8,7 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
 Helo from the devvvvlabs!
 
 If you look at [our roadmap](https://thegraybook.vvvv.org/roadmap/planned.html), you can see that we had 2021.4 planned for release in June. Now that didn't happen. Here is what happened instead: Guess what, some things took longer than anticipated. So let's recap the state of currently available 2021.4 previews. Besides numerous bug fixes, here is what you already get:

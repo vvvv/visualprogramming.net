@@ -8,7 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
 So where are we?
 
 We have a new release: Update your vvvv beta projects and [licenses](https://store.vvvv.org), [vvvv beta 42](/blog/2021/vvvv50beta42) is here, including VL 2021.3.3. This means a lot of [fixes and improvements](https://thegraybook.vvvv.org/changelog/2021.3.html)!

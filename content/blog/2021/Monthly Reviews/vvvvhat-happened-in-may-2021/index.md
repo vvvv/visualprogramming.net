@@ -8,7 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
 What's on and going?
 I can tell you that:
 

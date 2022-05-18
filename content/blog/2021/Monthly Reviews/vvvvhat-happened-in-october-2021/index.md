@@ -8,7 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
 So, 
 
 we have a [candidate for the upcoming 2021.4 release](/blog/2021/vvvv-gamma-2021.4-release-candidate). It includes the latest [updates for videoplayback](/blog/2021/video-playback-news) and also a new thing called [editor extensions](https://thegraybook.vvvv.org/reference/hde/extensions.html), which are little tools to extend the vvvv editor. The best thing about them: Those are just patches as well, so it is really easy [to make your own](https://thegraybook.vvvv.org/reference/extending/editor-extensions.html).
