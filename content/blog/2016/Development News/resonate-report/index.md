@@ -53,6 +53,6 @@ We also had a look onto the game that we created. The presentation was patched i
 
 https://www.youtube.com/watch?v=NLyIYmPfCps
 http://meso.net/download/filename/49/ok_spektral_meso_email.pdf
-![](IMG_2222_0.JPG) 
+![](IMG_2222.JPG) 
 
 

@@ -19,7 +19,7 @@ imported: "true"
 ---
 
 
-![](50_1.png) 
+![](50.png) 
 
 It is a pleasure to invite all vvvv interested people in London to a replay of the vvvv50 intorduction [talk from scope sessions](/blog/2015/vvvv50-introduction-talk-scope-sessions) at the RCA Kensington in the Stevens Building.
 

@@ -15,7 +15,7 @@ imported: "true"
 ---
 
 
-![](splash_1.png)
+![](splash.png)
 
 
 Just right in time one week before [NODE17](https://17.nodeforum.org) we proudly present the latest vvvv release - the beta35.7!

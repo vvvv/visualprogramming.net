@@ -18,7 +18,7 @@ Previously tooltips where text-only, rendered all in one style and often contain
 ## Nodes
 Tooltips on nodes foremost show the nodes full name and category plus its "Summary" and "Remarks" help information in two separate paragraphs. Additionally, if available you'll see timing information, ie the amout of time the node needs to execute. Operation nodes can also show you the name of the operation they are currently executed on.
 
-![](node1_1.png)
+![](node1.png)
 *A process node with summary, remarks and timings*
 
 ![](operation1.png) 
@@ -64,7 +64,7 @@ Zooming patches is nice, but we figured independent of that, we also want to be 
 ## Explorer
 Also the patch explorer got a bit more informative using the new tooltips.
 
-![](explorer_0.gif)
+![](explorer.gif)
 *Tooltips on the patch explorer*
 
 ## Nodebrowser

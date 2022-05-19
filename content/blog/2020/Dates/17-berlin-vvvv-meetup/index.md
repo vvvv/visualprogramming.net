@@ -30,14 +30,14 @@ That means the next edition of our monthly vvvv-meetup is just around the corner
 
 {{< box >}}
 This time {{< user "a a a a" >}}, {{< user "readme" >}} and {{< user "maxs" >}} will showcase a project called *beathoven* and take us on a journey to the technical details.
-![midi](image_1.png) {{< /box >}}
+![midi](image.png) {{< /box >}}
 
 
 
 
 {{< box >}}
 {{< user "joreg" >}} will be showing the Contribution Manager for vvvv beta and give and update on the progress of the vvvv gamma HelpBrowser.
-![Contribution Manager](grafik_0.png) {{< /box >}}
+![Contribution Manager](grafik.png) {{< /box >}}
 
 
 

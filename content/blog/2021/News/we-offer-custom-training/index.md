@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![](workshp_0_0.png)
+![](workshp_0.png)
 
 {{< box >}}
 **You want to jump-start your vvvv expertise?**

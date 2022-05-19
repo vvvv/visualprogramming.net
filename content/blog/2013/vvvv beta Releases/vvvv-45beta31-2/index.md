@@ -27,7 +27,7 @@ and featurewise:
 * there is [a new debugmode](/blog/2013/debugging-spreads): ctrl+F10 to see spreadcounts visualized
 * there is a set of [sweet new vector swizzle nodes](/blog/2013/new-vector-swizzle-nodes-and-vector-joinsplit-up-to-5x-faster)
 
-![](beta31.2_0.png)
+![](beta31.2.png)
 
 also this release sees a fat drop of next generation girlpowers. please check your
  \girlpower\The Next Generation

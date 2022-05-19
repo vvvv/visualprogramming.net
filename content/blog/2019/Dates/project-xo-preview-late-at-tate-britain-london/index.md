@@ -19,7 +19,7 @@ imported: "true"
 ---
 
 
-![ProjectXO_Flyer2](web-teaser-tate-britain_0.png) 
+![ProjectXO_Flyer2](web-teaser-tate-britain.png) 
  
 Project XO is a project by New Movement Collective from London. In collaboration with Fenyce they developed an exoskeleton for experimental use in a dance piece. Luca (Fenyce) developed the control software in vvvv and Simon Haenggi (Visualpilots) is joining them to work on the production of the dance piece for the final show in April 2020.
 

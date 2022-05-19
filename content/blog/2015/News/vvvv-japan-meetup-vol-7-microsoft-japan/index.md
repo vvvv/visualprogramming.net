@@ -14,7 +14,7 @@ imported: "true"
 
 We held vvvv workshop for MSP(Microsoft Student Partners) at Microsoft Japan office. 
 
-![vvvv_JP1](20150608-_DSC6708_1.jpg) 
+![vvvv_JP1](20150608-_DSC6708.jpg) 
 
 
 
@@ -30,5 +30,5 @@ Support : Yusuke Murata
 !#  
 **Everyone is crazy about vvvv!!!**
 
-![vvvv_JP3](20150608-_DSC6726_0.jpg) 
+![vvvv_JP3](20150608-_DSC6726.jpg) 
 

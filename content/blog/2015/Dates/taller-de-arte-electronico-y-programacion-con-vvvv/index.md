@@ -21,7 +21,7 @@ imported: "true"
 ---
 
 
-![taller_uaem](cartel_taller_vvvv_uaem_anon_0.png)
+![taller_uaem](cartel_taller_vvvv_uaem_anon.png)
 
 
 

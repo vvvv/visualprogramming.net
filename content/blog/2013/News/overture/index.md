@@ -25,7 +25,7 @@ sat 22 jun 2013 - 20.15
 
 
 
-![](image003_0.jpg) 
+![](image003.jpg) 
 ![](image001.jpg) 
 ![](image002.jpg) 
 ![](image004.jpg) 

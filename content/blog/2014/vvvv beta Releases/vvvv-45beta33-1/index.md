@@ -15,7 +15,7 @@ imported: "true"
 ---
 
 
-![](headquarter_0.jpg) 
+![](headquarter.jpg) 
 
 say helo to the bugfix-only release: 
  

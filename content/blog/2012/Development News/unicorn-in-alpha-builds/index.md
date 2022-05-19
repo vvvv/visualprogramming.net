@@ -13,7 +13,7 @@ helos,
 
 this is to announce that vvvv [alpha-builds](https://vvvv.org/downloads/previews) now include the afformentioned unicode changes. 
 
-![](unicorn_0.png)
+![](unicorn.png)
 
 summarized to you this means:
 - no more dealing with UTF8 vs. ANSI on various string-related nodes

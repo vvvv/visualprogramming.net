@@ -45,7 +45,7 @@ For all midi message types there are specific nodes to read the message content 
 ### Event Based Processing
 You can process a midi message (in fact any event) directly as it occurs. The new ForEach region in the Reactive category executes it's patch for each event that is passed in and can transform the event into a different message type and decide whether to pass the current event on via the *Keep* output.
 
-![](040_EventBased_0.PNG)
+![](040_EventBased.PNG)
 *Handling midi messages in a custom patch as they occur*
 
 This is part of a bigger programming paradigm that was also polished for the new midi nodes. Definitely check out for the [blog post on Reactive Programming](/blog/2017/vl-reactive-programming).

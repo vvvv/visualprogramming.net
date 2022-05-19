@@ -10,5 +10,5 @@ originalType: "stuff"
 ---
 
 
-![](Capture_8.PNG) 
+![](Capture.PNG) 
 

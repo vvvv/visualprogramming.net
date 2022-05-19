@@ -38,7 +38,7 @@ Location: Moscow => Berlin
 
 We got Kat! A visual artist using vvvv since 2012 for interactive installations, VJ, Real time graphics and video production. Last 4 year I was also working as a vj in clubs/festivals and developed my own tool for vjing using WPF and vvvv. I will show the inside of the WPF project and vvvv patches to demonstrate how both communicate together, using midi controllers and OSC.
 
-![](Unbenannt_1.PNG) 
+![](Unbenannt.PNG) 
 
 
 

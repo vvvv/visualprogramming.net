@@ -10,6 +10,6 @@ originalType: "stuff"
 ---
 
 
-![](Untitled_0.png) 
+![](Untitled.png) 
 
 message of caring

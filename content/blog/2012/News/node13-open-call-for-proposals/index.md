@@ -66,7 +66,7 @@ Your NODE team
 __
 
 ##  This was NODE10
-![NODE10](NODE10%20-%20Overview_0.png) 
+![NODE10](NODE10%20-%20Overview.png) 
 
 
 ![NODE13 Venue - Frankfurter Kunstverein Germany (exterior view)](NODE13%20Venue%20-%20Frankfurter%20Kunstverein%20Germany%20%28exterior%20view%29.jpg) 

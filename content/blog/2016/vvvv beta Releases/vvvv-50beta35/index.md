@@ -15,7 +15,7 @@ imported: "true"
 ---
 
 
-![](splash_0.png)
+![](splash.png)
 
 
 BOOOOM,

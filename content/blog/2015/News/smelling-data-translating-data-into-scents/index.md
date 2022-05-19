@@ -34,17 +34,17 @@ Twitter: http://www.twitter.com/smellingdata
 
 {{< vimeo "118723554" >}}
 
-![](SD_1_01_0.jpg) 
+![](SD_1_01.jpg) 
 
-![](SD_2_01_0.jpg) 
+![](SD_2_01.jpg) 
 
 ![](SD_Detail_03.jpg) 
 
-![](SD_4_01_0.jpg) 
+![](SD_4_01.jpg) 
 
-![](SD_5_03_0.jpg) 
+![](SD_5_03.jpg) 
 
-![](SD_5_00_0.jpg) 
+![](SD_5_00.jpg) 
 
 ![](00_Smelling_Data_01.jpg) 
 

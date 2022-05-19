@@ -22,7 +22,7 @@ after a successful [first round of vvvvv gamma workshops](/blog/2019/vvvv-gamma-
 
 As you know, the all-new vvvv gamma is [getting into shape](/blog/2019/vvvv-gamma-2019.1-preview) and can already give you an incredible boost in productivity. Therefore in addition to our [free introductory workshops](/blog/2019/upcoming-free-vvvv-gamma-workshops-in-berlin), we're also offering the following series of workshops to get you going proper:
     
-![](PhysicalComputing_0.png) 
+![](PhysicalComputing.png) 
 
 ## Getting started with Physical Computing 
 Reading data from sensors to control lights and motors connected to a computer via an Arduino, is a breeze if you know how to. The same is true for working with data transfer protocols like OSC, MIDI, MQTT and DMX/ArtNet. Learn all this without the need to write any code, by using the visual programming environment vvvv.
@@ -44,7 +44,7 @@ This workshop is for creative coders, students, media artists and makers who wan
 **Hosts**: Anton Mezhiborskiy (vvvv developer)
 **[Tickets](https://nodeforum.org/announcements/workshop-getting-started-with-physical-computing-2/)** for Getting started with Physical Computing{{< /box >}}
 
-![](ComputerVision_0.png) 
+![](ComputerVision.png) 
 
 ## Getting started with Computer Vision 
 With easy access to the computer vision library (OpenCV) and depth cameras (Kinect, RealSense,...), vvvv is a loyal companion for prototyping your computer vision applications and installations. With its no-code user-interface it allows you to quickly achieve your goals with just a few mouseclicks. Applying video filters, detecting motion and even using latest machine-learning powered techniques like YOLO, to label things in a video stream, becomes accessible to everyone.
@@ -88,7 +88,7 @@ This workshop is for interacton and interactive media designers who need to prot
 **Hosts**: joreg (vvvv developer)
 **[Tickets](https://nodeforum.org/announcements/workshop-getting-started-with-interaction-design-2/)** for Getting started with Interaction Design{{< /box >}}
 
-![](DataViz_0.png) 
+![](DataViz.png) 
 
 ## Getting started with Data Visualization
 Interested in data visualization but afraid of the coding it usually requires? This workshop is for you! vvvv is a visual programming tool that allows you to do what programmers can do with code. You'll learn how to read data from files or online sources and visualize it with 2d drawing techniques. We'll also show you how to export your creations to vector graphics for further processing them in vector tools like Inkscape or Illustrator.

@@ -14,7 +14,7 @@ imported: "true"
 ---
 
 
-![45beta24](45beta24_0.png) 
+![45beta24](45beta24.png) 
 
 this one goes out to the lovvvvers...
 

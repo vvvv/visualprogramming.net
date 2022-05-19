@@ -28,11 +28,11 @@ The go to node for handling events is definitely **ForEach** *Region* (was *Regi
 *Refresh web data every 30 seconds in the background and pass the result on to the mainloop.*
 
 You can switch or merge event sources:
-![](020_SwitchMerge_0.PNG)
+![](020_SwitchMerge.PNG)
 *Switching or merging midi events.*
 
 There are also filtering options with **OfType** or **Where**:
-![](030_Filter_0.PNG)
+![](030_Filter.PNG)
 *Only get TouchDown events from a combined event stream*
 
 Other nodes include Skip, Delay, Delay (Selector), Scan, Switch, ...
@@ -40,12 +40,12 @@ Other nodes include Skip, Delay, Delay (Selector), Scan, Switch, ...
 ### Receiving events
 If you want to leave the observable world and pass event values to the mainloop use one of the 3 nodes **HoldLatest**, **Sampler** or **S+H** which all behave a little bit different. Depends on what you need:
 
-![](035_ReceivingEvents2_0.PNG)
+![](035_ReceivingEvents2.PNG)
 *Three ways to get event values to the mainloop.*
 
 ### Creating events
 It's also pretty easy to generate event sources of your own:
-![](040_CreatingEvents_0.PNG)
+![](040_CreatingEvents.PNG)
 *Different ways to create observable event sources.*
 
 As a general advice, only send values of type *Record* as event data because they are thread safe. If you send values of any *Class* type be sure that you know exactly what you are doing.

@@ -48,7 +48,7 @@ y = radius * sin(angle)
 ```
 
 Here a positive angular velocity moves the position counter-clockwise on a circle:
-![](Ebene_polarkoordinaten_0.PNG) 
+![](Ebene_polarkoordinaten.PNG) 
 Note that many 2d computer graphics coordinate systems have the y-axis pointing downwards so that everything is flipped upside down. In that case, using the same calculations as above, a positive angular velocity moves the position clockwise.
 
 To get the same behavior in a 2d cartesian system with y-axis down the calculations would be:

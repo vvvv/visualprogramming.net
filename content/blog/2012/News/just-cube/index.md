@@ -10,6 +10,6 @@ originalType: "stuff"
 ---
 
 
-![](render_012_0.jpg) 
+![](render_012.jpg) 
 
 I am from China, it is the part of the DEll new product exhibition.

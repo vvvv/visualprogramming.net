@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![vvvv gamma](vvvv_2.png) 
+![vvvv gamma](vvvv.png) 
 
 Today I'll be giving a presentation at SIGGRAPH online 90% talking about vvvv. If anyone is attending :) 
 

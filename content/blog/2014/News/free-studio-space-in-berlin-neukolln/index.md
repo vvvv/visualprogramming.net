@@ -25,4 +25,4 @@ rent: 150,- (including VAT and everything else - u need VAT ID because it's "gew
 contact:
 http://quadrature.co/contact/
 
-![left side office, right side workshop](20140416_152512_0.jpg) 
+![left side office, right side workshop](20140416_152512.jpg) 

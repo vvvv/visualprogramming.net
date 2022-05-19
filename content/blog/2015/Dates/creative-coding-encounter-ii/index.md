@@ -22,7 +22,7 @@ imported: "true"
 ---
 
 
-![Creative Coding Group](1_13.jpg) 
+![Creative Coding Group](1.jpg) 
 
 ::::II CREATIVE CODING ENCOUNTER 
 

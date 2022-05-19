@@ -37,4 +37,4 @@ December 9 2016 at 22:00 at platform 4, Aalborg
 December 21 2016 at 20:00 at Odense Musikbibliotek, Odense
 December 28 at 16:00 and 19:00 atCafe Sorte Firkant, Copenhagen N
 
-![Iben Kaalund by Krzysztof Wieczorek](_DSC5320_0.jpg)
+![Iben Kaalund by Krzysztof Wieczorek](_DSC5320.jpg)

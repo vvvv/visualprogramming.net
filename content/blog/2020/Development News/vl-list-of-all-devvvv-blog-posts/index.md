@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![](vvvv2019-2_0.png)
+![](vvvv2019-2.png)
 
 {{< box >}}
 Note:

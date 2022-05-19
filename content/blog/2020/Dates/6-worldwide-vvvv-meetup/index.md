@@ -38,7 +38,7 @@ Location: Hamburg
 
 wirmachenbunt is a studio for interactive and immersive shows and exhibits. The team will present the Magenta Moon Garden software, the system behind a 360° interactive space, incorporating 16 projectors, 9 Radartouch sensors, 6 channel surround sound, 4 games and lots of pixels. While the visual output is rendered with vvvv beta, they used VL and vvvv gamma heavily for the backend and surround sound engine, marking a transition of the studio workflow. While going into the patch details, they reveal the process, from simulation to the live setup. 
 
-![](magentamoommakingof_0.png) 
+![](magentamoommakingof.png) 
 
 ## Christian Riekoff
 {{< user "texone" >}}

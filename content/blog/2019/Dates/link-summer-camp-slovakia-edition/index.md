@@ -20,7 +20,7 @@ imported: "true"
 ---
 
 
-![](Untitled-1_12.jpg) 
+![](Untitled-1.jpg) 
 
 Hi everybody!
 Since I missed meeting the best community this summer, I decided to organize Link summer camp in Slovakia!
@@ -45,7 +45,7 @@ In a nutshell:
 40km from Bratislava
 180€ with all food and drinks inclusive
 Everybody gets a bed!
-![](Untitled-2_4.jpg) 
+![](Untitled-2.jpg) 
 
 
 

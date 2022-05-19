@@ -20,7 +20,7 @@ imported: "true"
 ---
 
 
-![VVVVibrations Flyer](Unbenannt-1_0.png) 
+![VVVVibrations Flyer](Unbenannt-1.png) 
 
 If you happen to be in our around Salzburg / Austria tonite, please stop by for our little vernissage at the showroom of FH Salzburg. The exhibition features 10 fast, vibrating and mesmerizing works of the students of Multimedia Art at Fachhochschule Salzburg. 
 

@@ -174,7 +174,7 @@ Version to parse hexadecimal strings into a numeric type.
 ###  TryParse (Binary)
 My personal favorite, parsing binary strings. (Didn't you ever want to just type ones and zeroes into your computer?). 
 
-![](03_try_parse_conversions_0.png) 
+![](03_try_parse_conversions.png) 
 
 # Conclusion
 This might be some heavy detailed stuff for the average user, but it gives us a solid core library that is ready for all tasks and can solve even the problems on the lowest level.

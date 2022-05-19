@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![](workshops_0.PNG) 
+![](workshops.PNG) 
 
 Hey VVVVolks,
 

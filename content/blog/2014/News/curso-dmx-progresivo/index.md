@@ -13,7 +13,7 @@ Who: Koldo Belloso
 When: 22-23-24 Julio
 Where: MagicStudio, Madrid, Spain.
 
-![](DMX_Progresivo_0.png) 
+![](DMX_Progresivo.png) 
 
 
 

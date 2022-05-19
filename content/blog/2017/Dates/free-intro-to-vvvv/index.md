@@ -28,10 +28,10 @@ There will be another **[FREE INTRO TO VVVV](https://www.facebook.com/2496143455
 Learn vvvv right at the epicentre - **the office of the vvvv Developers**.
 
 We will build cool things, like
-![GRID](smallGrid_min_0.gif) 
+![GRID](smallGrid_min.gif) 
 
 or this if we get far enough:
-![CUBES](cubesShort_min_0.gif) 
+![CUBES](cubesShort_min.gif) 
 
 
 **All the details+application at:**

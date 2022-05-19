@@ -18,7 +18,7 @@ Buy a **dongle** in the period between **December 24th, 2014** and **Jannuary 11
 and **pay 40% less** than what you'd normally pay. {{< /box >}}
 How does that sound?
 
-![](dongle_1.png)
+![](dongle.png)
 *The business saint: St. Dongle*
 
 What's a dongle? Well, glad you asked: If you need to deploy a vvvv project and want to make sure that it is only running a certain number of copies or for a certain period of time you can protect your vvvv source code using a dongle. For full details please head over to the [Protektor](https://betadocs.vvvv.org/using-vvvv/protektor.html) page. 

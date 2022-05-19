@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![](edgedetect_0.png) 
+![](edgedetect.png) 
 
 As promised at node10, we have put the vertex and pixelshader examples into tutorials and uploaded the files:
 

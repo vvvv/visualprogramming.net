@@ -26,7 +26,7 @@ First here is a bit you may not have been aware of: When in vvvv45 (45) you crea
 ## Defining Operations
 As an example let's have a look at two patches in 45 which are called "PointIsWithinCircle" and "PointIsWithinRectangle":
 
-![](45_0.png) 
+![](45.png) 
 *Two 45 patches defining one operation each.*
 
 So here each of the two operations is defined and saved in a separate .v4p file. In 50 they look basically exactly the same only that they can also be defined together in one patch like so:

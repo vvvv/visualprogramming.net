@@ -24,7 +24,7 @@ A Material describes the rendering pipeline. This is very fundamental and after 
 We reduced the number of base nodes and added easier building blocks to customize a material. There are help patches for most of these, check the help browser and the material category in the node browser. It basically mirrors the [Stride documentation](https://doc.stride3d.net/latest/en/manual/graphics/materials/index.html).
 ### Simpler Data Input
 The parameters of a material are GPU values, either float or color. For the GPU a color is just a vector with 4 components, so we now have inputs of type *GPU<Float32>* and *GPU<Vector4>*. We simplified the node-set in a way that you can use a single value, a texture, or any dynamic GPU value. There are also nodes to input different values per instance. The reworked nodes are internally built with ShaderFX. If you are interested, have a look inside the new nodes to get an idea of how you can build your own.
-![](03_Materials_0.png) 
+![](03_Materials.png) 
 ### Async Compilation and Caching
 Compiling complex materials takes a while because there are often several shader stages involved. Stride has a mechanism to compile a material in the background and cache the compiled shaders on disc. So the next time the same material is used, it loads almost instantly. So when you see a geometry blinking green, it means that the material is compiling in the background and will be saved to disc. If it is blinking red, the material has an error.
 

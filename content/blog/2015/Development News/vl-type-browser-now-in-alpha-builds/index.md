@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![](TypeBrowserAlpha_0.png) 
+![](TypeBrowserAlpha.png) 
 
 The winner of the [VL feature voting](/blog/2015/vl-feature-voting) is now available in the [alpha builds](https://vvvv.org/downloads/previews).
 

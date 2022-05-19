@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![](vvvv_js_thing_0.png) 
+![](vvvv_js_thing.png) 
 
 Ok, it's not exactly what you consider "news", because it has been around the internet for two days already, but:
 

@@ -41,5 +41,5 @@ Thanks!
 
 Best,
 
-![vvvv Academy](vvvvaca_0.jpg) 
+![vvvv Academy](vvvvaca.jpg) 
 

@@ -22,7 +22,7 @@ imported: "true"
 ---
 
 
-![](50_0.png) 
+![](50.png) 
 
 On Thursday 8th Jan all vvvv interested people in Berlin will have an opportunity to get a peek preview of the next big vvvv thing.
 

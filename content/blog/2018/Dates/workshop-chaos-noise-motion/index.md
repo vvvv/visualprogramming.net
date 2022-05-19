@@ -51,7 +51,7 @@ David Gann studied biology and interface art and is working as a artist, develop
 
 
 
-![FBM Noise](fBm_domainDistortion_0.jpg) 
+![FBM Noise](fBm_domainDistortion.jpg) 
 
 
 

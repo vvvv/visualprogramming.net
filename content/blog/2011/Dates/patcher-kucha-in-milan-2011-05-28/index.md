@@ -33,5 +33,5 @@ L' idea prende vita dal Patcher Kucha "madre" che si tiene ogni 2 anni al NODE d
 
 Vi aspettiamo al centro medionauta http://www.medionauta.org/ in zona Isola a Milano il 28 maggio.
 
-![La Madonnina vvvv](Patcher%20Kucha_0.png)
+![La Madonnina vvvv](Patcher%20Kucha.png)
 

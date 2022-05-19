@@ -10,5 +10,5 @@ originalType: "stuff"
 ---
 
 
-![](1_2.png) 
+![](1.png) 
 I'm from girly patch

@@ -19,7 +19,7 @@ imported: "true"
 ---
 
 
-![Ustable Empathy](area1_double_0.jpg) 
+![Ustable Empathy](area1_double.jpg) 
 
 **Unstable Empathy** is a project by Mattia Casalegno and Enzo Varriale (aka Lanvideosource), produced by iMal for the Media Facade Festival 2010 and Nuite Blanch Brussels.
 

@@ -10,8 +10,8 @@ originalType: "stuff"
 ---
 
 
-![](image_0.jpg) 
+![](image.jpg) 
 
-![](image_1.jpg) 
+![](image.jpg) 
 
 and see you on NODE15!

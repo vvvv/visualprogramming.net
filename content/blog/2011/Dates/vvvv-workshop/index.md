@@ -18,4 +18,4 @@ imported: "true"
 
 Italian workshop, check the link for more infos! i'll be there ;)
 [](http://www.ualuba.org/?p=1517=it)
-![](ualuba_0.png) 
+![](ualuba.png) 

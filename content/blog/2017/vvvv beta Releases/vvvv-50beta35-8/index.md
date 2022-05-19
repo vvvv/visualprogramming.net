@@ -15,7 +15,7 @@ imported: "true"
 ---
 
 
-![](splash_2.png)
+![](splash.png)
 
 A few more glitches came up right after the [last release](/blog/2017/vvvv50beta35.7), so here we go again, welcome beta35.8!
 

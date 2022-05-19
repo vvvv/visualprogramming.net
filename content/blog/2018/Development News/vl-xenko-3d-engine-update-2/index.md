@@ -37,16 +37,16 @@ As you can see, it adds a **BoxComponent** to the entity on *Create* (white) and
 In the patch we saw the **EmptyEntity** node, which is a general entity object that contains nothing more than a **TransformComponent**, hence the transform input pin. To make something useful with it, we add more components (e.g. model, material, audio, physics etc.) to it. There are many of them and you can combine them as it suits your use case. The big advantage here is, that the components are able to interact with each other via the common parent entity and that the scene graph system automatically processes them in an optimized way. This is where it gets interesting!
 
 Let's say we want the box from the patch above to emit a sound from its current position. In order to do that we only have to add a **SpatialAudioComponent** to the same entity as the box component:
-![](20_BassBoxEntity_0.PNG) 
+![](20_BassBoxEntity.PNG) 
 
 Since the SpatialAudioComponent and the BoxComponent have a common parent entity they will share the same transformation. Also, if an entity has child entities, the children get transformed by the parent. We could use that feature to add an **AxisEntity** to our custom entity:
-![](25_BassBoxEntityDebug_0.PNG) 
+![](25_BassBoxEntityDebug.PNG) 
 
 Again, there is no need to connect the input transformation to the AxisEntity since it gets added as a child to the main entity and gets transformed automatically. 
 Here is what a little scene could look like:
-![](30_BassBoxScene_0.PNG)
+![](30_BassBoxScene.PNG)
 
-![](35_BassBoxSceneView_0.PNG)
+![](35_BassBoxSceneView.PNG)
 Let's add a second one and let them rotate in the scene to hear the spatial audio effect. Aaaaaand action! (works best with headphones):
 {{< vimeo "305013010" >}}
 

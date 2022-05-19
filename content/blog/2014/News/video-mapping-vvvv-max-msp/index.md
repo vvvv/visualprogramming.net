@@ -10,5 +10,5 @@ originalType: "stuff"
 ---
 
 
-![change boxes](controllo_lati_0.png) 
+![change boxes](controllo_lati.png) 
 

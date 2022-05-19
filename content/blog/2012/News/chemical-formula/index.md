@@ -10,5 +10,5 @@ originalType: "stuff"
 ---
 
 
-![](2_4.jpg) 
+![](2.jpg) 
 

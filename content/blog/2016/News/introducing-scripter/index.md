@@ -37,7 +37,7 @@ the first public static method is parsed for IO. you can of course have as many 
 
 and the config pin solution brings another advantage: scripter works **per instance**
 
-![multi instance binsize whatever](1_2016.01.10-18.32.19_0.png) 
+![multi instance binsize whatever](1_2016.01.10-18.32.19.png) 
 *multi instance binsize stuff accessing loop index*
 
 ---

@@ -10,5 +10,5 @@ originalType: "stuff"
 ---
 
 
-![](IMG_1067_0.PNG) 
+![](IMG_1067.PNG) 
 

@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![](praktikant_1.jpg)
+![](praktikant.jpg)
 
 
 [WHITEvoid](http://whitevoid.com) sucht Praktikanten im Bereich CAD, Modellbau, Programmierung

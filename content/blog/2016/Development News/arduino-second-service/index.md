@@ -13,7 +13,7 @@ imported: "true"
 From now on: **[Firmata Second Service](/blog/2016/firmata-second-service).**
 
 #  
-![](vvvv-Firmata-Arduino_0.gif) 
+![](vvvv-Firmata-Arduino.gif) 
 
 
 Good news everyone, from now on you're getting a brand new set of nodes able to talk to your loaded-with-firmata Arduino Boards:

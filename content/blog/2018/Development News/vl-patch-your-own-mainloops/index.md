@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![](6008359552_b4a187e8a7_0.jpg)
+![](6008359552_b4a187e8a7.jpg)
 
 Welcome dear patchers to a new episode of devvvvs giving you control over your PC mainboard.
 
@@ -52,7 +52,7 @@ Since its possible to measure time with high accuracy, one can write an infinite
 
 If any patch processing is happening on the timer event, the power of your core is of course shared with the busy wait. Just make sure that the processing doesn't take longer as the specified period:
 
-![](NbVtlpXEWA_0.gif)
+![](NbVtlpXEWA.gif)
 
 This timer has an option to reduce CPU load for period times that are higher than the accuracy of your system timer. You can specify a time span called *Wait Accuracy*. This is a time span before the desired end of the period that specifies when the busy wait phase should start. Before that time the timer is set to sleep for 1ms periodically. 16ms is a safe value, but you can decrease it until the *Last Period* starts to jump in order to reduce CPU load even more.
 

@@ -10,5 +10,5 @@ originalType: "stuff"
 ---
 
 
-![vvvvwork](vvvv_0.jpg) 
+![vvvvwork](vvvv.jpg) 
 

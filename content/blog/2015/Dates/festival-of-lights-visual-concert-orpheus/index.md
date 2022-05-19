@@ -21,7 +21,7 @@ imported: "true"
 ---
 
 
-![Kopffarben - Festival of Lights](FoL_Kopffarben_0.jpg) 
+![Kopffarben - Festival of Lights](FoL_Kopffarben.jpg) 
 
 #  description
 We hereby invite all of you to our visual concert during the Festival of Lights in Berlin.

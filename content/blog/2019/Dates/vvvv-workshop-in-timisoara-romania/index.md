@@ -20,7 +20,7 @@ imported: "true"
 ---
 
 
-![](2_10.png) 
+![](2.png) 
 
 We're happy to visit the co(art) festival in romania!
 

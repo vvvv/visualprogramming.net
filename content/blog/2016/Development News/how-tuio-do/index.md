@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![](tuio_logo_0.png)
+![](tuio_logo.png)
 
 ## Short Version
 vvvv now has native support for both sending and receiving TUIO messages!

@@ -29,7 +29,7 @@ The **six workshops** will be spread over the two weeks of the festival, which i
 
 **The deadline for registration is April 1, 2016.** Check out our website  [](http://www.mappingfestival.com) for more information and register via the dedicated form!
 
-![Mapping Festival 2016 // 28.04-8.05 // Geneva](Mapping_NeoLogo_Vignette_023_0.jpg) 
+![Mapping Festival 2016 // 28.04-8.05 // Geneva](Mapping_NeoLogo_Vignette_023.jpg) 
 
 
 **Sound Spatialisation in Immersive VR Environments** /// 4-6.05 /// 

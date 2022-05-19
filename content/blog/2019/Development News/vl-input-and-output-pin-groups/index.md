@@ -13,7 +13,7 @@ Up until now VL had a rather rudimentary support for pin groups. Only nodes foll
 
 ## Pin Groups by Index
 This all changes now by introducing proper support for pin groups. So let's jump right into it and have a look at the definition of the very famous Cons node:
-![](Cons_0.png)
+![](Cons.png)
 
 As we can see the pin inspektor is showing one new entry called "Pin Group". This flag has to be enabled obviously. Then we annotate the pin with type *Spread*. This creates pins with the name "Input", "Input 2", "Input 3" etc. on the node.
 

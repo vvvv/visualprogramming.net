@@ -48,7 +48,7 @@ Step 2) Multiple particles
 * Intuitively we'd want to somehow create particles and put them into a spread as such. Only we don't really get hold of the particle itself. What we can get access to is its position and velocity properties. So lets put those in a spread
 * In order to be able to manage (ie. add/remove) individual particles we have to move the framedelay from inside the Particle patch (where we'd actually want it) to its parent patch. Now the Particle patch is degraded to a hull with the name "Particle" but it no longer holds the actual particla-data. That is bad.
 
-![Left: the Particle no longer holds the data. Right: the parent patch manages the particles data via InsertSlice and Select within a framedelay loop.](Particle6_0.png) 
+![Left: the Particle no longer holds the data. Right: the parent patch manages the particles data via InsertSlice and Select within a framedelay loop.](Particle6.png) 
 *Click to enlarge.*
 
 The framedelay together with an InsertSlice and a Select allow us to easily (well,..) add and remove slices dynamically.  

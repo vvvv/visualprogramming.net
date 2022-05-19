@@ -12,7 +12,7 @@ imported: "true"
 "The Humble Quad Bundle" by #vvvv serves 4 computer classics implemented using the stilltocome #visualprogramming language codenamed #vvvv50
 (*hint: the above are exactly 140 characters*)
 
-![](games_0.png) 
+![](games.png) 
 
 The bundle comes with a reissue of the hit games [Pong](http://en.wikipedia.org/wiki/Pong) (1972),  [Frogger](http://en.wikipedia.org/wiki/Frogger) (1981), [Worms](http://en.wikipedia.org/wiki/Worms_%28series%29) (1995) and [Asteroids](http://en.wikipedia.org/wiki/Asteroids_%28video_game%29) (1979) all realized using the patternpending Quad render-engine. Something for the whole family. 
 

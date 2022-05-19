@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![](vvvveb_0.png)
+![](vvvveb.png)
 
 ladies and boys of near and far come and see: vvvv is wearing a new wig.
 

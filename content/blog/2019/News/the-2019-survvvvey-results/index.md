@@ -13,30 +13,30 @@ Thanks everyone,
 
 for filling out this years survvvvey! Judging from the responses it looks like some of you even did twice or thrice! What can we say... Anyway, since we've [done this before](/blog/2015/the-2015-survvvvey-results) this time we can compare to the previous results and in general we can say you're pretty stable. As you'll see, answers are in most cases roughly the same as last time, which i think adds to the credibility of the numbers overall. So here are your results with added attempts of interpretation and a few comments.
 
-![](Survey2019_block0_2_0.png)
+![](Survey2019_block0_2.png)
 
 ## Who you are
 Most likely you're a german speaking male, living in germany, in your early thirties and labeling yourself an artist, rather than a developer or designer. You're considering yourself an intermediate user and are using vvvv every week.
 
-![](Survey2019_block1_2_0.png) 
+![](Survey2019_block1_2.png) 
 
 Even though you do have a username on vvvv.org, when it comes to the forum, you mostly read it silently. Which seems to be enough for you as you say the forum was your second favorite learning-resource after the help-patches and before the girlpowers. Also you've attended at least one edition of the [NODE festival](http://nodeforum.org/festival/)
 
-![](Survey2019_block2_3_0.png) 
+![](Survey2019_block2_3.png) 
 
 You found out about vvvv by searching on the internet and have more likely taught vvvv to others than having learned it in an [educational institution](https://vvvv.org/documentation/educational-institutions). When we ask you how you prefer to get your vvvv news, curiously there was a little spike in your request for email. In this day and age where the so-called social-media is showing its true face, we appreciate this request and are planning to offer a newsletter in the future. 
 
-![](Survey2019_block3_3_0.png) 
+![](Survey2019_block3_3.png) 
 
 ## Using vvvv
 We asked you what your favorite user contributions are and here are your top ten:
 
-![](Survey2019_block7_2_0.png) 
+![](Survey2019_block7_2.png) 
 
 With 3 hits in the charts {{< user "everyoneishappy" >}} clearly bombs it. Chapeau! And this list also clearly shows us what you'll be missing in vvvv gamma from the start. The foundations are built, we're on it...
 
 ### How nerdy are you?
-![](Survey2019_block4_2_0.png) 
+![](Survey2019_block4_2.png) 
 
 ### Your biggest challenges
 Then we asked about the biggest challenges you have with vvvv. And your answers can be summed up, in this particular order of occurence:
@@ -70,7 +70,7 @@ This is a tricky one since there is the inherent performance of vvvv and then th
 ### Your favorite tag-lines
 Next we've asked you to choose your favorite tag-lines that best describe the vvvv you want to use. Here are the results in order of popularity:
 
-![](Survey2019_block6_2_1.png) 
+![](Survey2019_block6_2.png) 
 
 If you were uncertain, in particular in regards to vvvv gamma, who we make it for and what it aspires to be, this listing gives a good answer. This is where vvvv comes from and it is also where we see its future!
 
@@ -114,7 +114,7 @@ Here are some of the 15% *other* answers you gave:
 <!--{SPLIT}-->
 
 ## What is gamma?
-![](Survey2019_block9_2_0.png) 
+![](Survey2019_block9_2.png) 
 
 Here are some of the 32% *other* answers you gave:
 <!--{SPLIT()}-->
@@ -146,7 +146,7 @@ In this section your answers where particularly close to your answers in 2015. H
 
 And finally, look how this one has pleasently changed:
 
-![](Survey2019_block5_6_0.png) 
+![](Survey2019_block5_6.png) 
 
 --- 
 

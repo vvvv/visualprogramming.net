@@ -20,7 +20,7 @@ imported: "true"
 * [kopffarben.de](http://kopffarben.de)
 * [mail@kopffarben.de](mailto:mail@kopffarben.de)
 
-![nocturn | berlin leuchtet](NOCTURNE_0.jpg) 
+![nocturn | berlin leuchtet](NOCTURNE.jpg) 
 
 Hi VVVVolks,
 this year we ([kopffarben](http://kopffarben.de)) organize an Media-Installation-Exhibition in the course of the "berlin leuchtet" festival. So we are looking for interactive-Installations, light-art objects or just people who want help us. 

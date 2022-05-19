@@ -65,7 +65,7 @@ And now we introduce to you:
 * *Orange nodes, Runtime Warnings*: They show you a problem at runtime. But it doesn't harm your system as pink nodes do. Orange nodes are runtime warnings. Library developers can put warnings on their nodes in order to communicate to the user that something is slightly off.
 
 You can try it yourself by using the Warn or the Warn (Reactive) node. 
-![just a reminder](warning_0.png) 
+![just a reminder](warning.png) 
 The warning will not only show up on the Warn node, but also on the applications of your patch.
 
 ## S&R nodes

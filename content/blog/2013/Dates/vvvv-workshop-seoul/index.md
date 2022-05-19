@@ -32,4 +32,4 @@ Registration is now open.
 
 Elliot
 
-![(c)  Stefan Kernjak / NODE Forum for Digital Arts](Capture_16.PNG) 
+![(c)  Stefan Kernjak / NODE Forum for Digital Arts](Capture.PNG) 

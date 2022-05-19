@@ -13,7 +13,7 @@ originalType: "stuff"
 I love vvvv, then,
 I've made ​​just once, so even if I use it right?
 
-![](DSC01975_0.JPG) 
+![](DSC01975.JPG) 
 
 ![](DSC01976.JPG) 
 

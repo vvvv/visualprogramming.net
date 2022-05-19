@@ -20,7 +20,7 @@ imported: "true"
 ---
 
 
-![](splicer_0.gif)
+![](splicer.gif)
 *Click, click, click,... VL in action*
 
 On short notice,

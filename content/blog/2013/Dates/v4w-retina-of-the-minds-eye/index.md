@@ -21,7 +21,7 @@ imported: "true"
 ---
 
 
-![V4W RotME2](V4W-Temmplate---Civic-TV_0.jpg) 
+![V4W RotME2](V4W-Temmplate---Civic-TV.jpg) 
 
 
 V4Wednesday introduces Retina of the Mind’s Eye,  the name coming from the David Cronenburg's cult classic, Videodrome, a channel that permanently alters the viewer's perceptions.

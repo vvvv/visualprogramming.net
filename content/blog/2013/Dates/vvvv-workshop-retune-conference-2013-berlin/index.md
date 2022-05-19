@@ -19,7 +19,7 @@ imported: "true"
 ---
 
 
-![](quvvvvad_0.jpg) 
+![](quvvvvad.jpg) 
 
 ## ABOUT RETUNE
 Around the world new technologies and new means of production and distribution enable unprecedented innovation and creative expression; while the sharing, forking and remixing of knowledge blend traditional fields in a way that informs and inspires new questions, theories and methods.

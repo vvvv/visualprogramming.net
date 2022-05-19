@@ -11,7 +11,7 @@ imported: "true"
 
 You don't have anything to do on saturdays? even if you do you should rather sit in front of your viewing device and join the weekly online workshop series starting this week! It's food for your brainz, and a little jazz-up for the community!
 
-![](logo_1.png) 
+![](logo.png) 
 
 Now seriously we will discover random problems solved or not really solved in vvvv. These workshops will start from 4PM GMT and could be left on the whole night if the tutors and the audience are up for it. Every saturday we will tackle a specific topic to its extreme depths, starting out slowly and gently then combining all the computer ninja tricks you learnt from the interwebz (or in better case from this very series) like there's no tomorrow.
 

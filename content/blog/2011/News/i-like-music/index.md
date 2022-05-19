@@ -10,5 +10,5 @@ originalType: "stuff"
 ---
 
 
-![but who don't](014_music_analyzer_2011.12.29-23.47.18_0.png) 
+![but who don't](014_music_analyzer_2011.12.29-23.47.18.png) 
 

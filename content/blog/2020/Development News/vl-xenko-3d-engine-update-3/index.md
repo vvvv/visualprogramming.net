@@ -38,12 +38,12 @@ For convenience, every group and entity got a transformation and name input. The
 The scene graph can become large and complex quite quickly. Especially when you are a brave patcher and you use sub-patches to stay organized. Sometimes you want an overview of the whole tree structure and see basic properties (at runtime, of course!). Luckily there was an [older project for Xenko](https://forums.xenko.com/t/project-live-editor/909) that traverses the entity tree and visualizes its components and properties.
 
 We updated it to the latest Xenko version and imported it as a debug helper.
-![](image3_0.png) 
+![](image3.png) 
 
 ### Materials
 If you look at the options and properties of a [material in Xenko](https://doc.xenko.com/latest/en/manual/graphics/materials/index.html) it’s quite complex and some features require expert knowledge. To make things quick and easy, we made a few simple nodes to cover the basics.
 ![](image9.png) 
-![](image1_1.png)
+![](image1.png)
 
 We’ll also add texture-based versions of them and for more complex setups, you can always design the material in Game Studio and import it.
 ### Runtime Asset Loading
@@ -52,7 +52,7 @@ For almost every project you have to import content. Be it images, videos, model
 Game engines usually solve it like this: Resource files like models, textures, etc. get imported via the editor and compiled to runtime assets. These asset files get placed next to the executable on compilation. This works well for static assets, but for rapid prototyping and changes at runtime, we need something more flexible. So we took the Xenko asset builder and adapted it to work at runtime. This allows for importing and building assets while the application is running.
 ### File Assets
 Load single resource files directly from disk, aka FileTexture. Good thing is, this works together with Xenko’s asset database and caches already loaded files. So everything is pooled by default.
-![](image3_1.png)
+![](image3.png)
 
 ### Load Project
 That’s a nice one, you can create a Xenko project in Game Studio, work on Assets, Scenes, Prefabs, etc and import everything at once with the LoadProject node. It even updates on save!

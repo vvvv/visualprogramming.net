@@ -16,7 +16,7 @@ originalType: "stuff"
 
 ![](25.jpg) 
 
-![](26_0.jpg) 
+![](26.jpg) 
 
 ![](21.jpg) 
 
