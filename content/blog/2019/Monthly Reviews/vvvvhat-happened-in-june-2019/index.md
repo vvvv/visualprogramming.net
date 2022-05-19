@@ -29,15 +29,15 @@ first up a huge drop in the [wip section](https://discourse.vvvv.org/c/wip) by {
 
 <!--{SPLIT()}-->
 all the new stuff:
-{{< contribution "vl.io.net.email" "VL.IO.Net.Email" >}} by {{< user "ravazquez" >}}
-{{< contribution "korg-nanokontrol2" "Korg NanoKontrol2" >}} by {{< user "yar" >}}
+- {{< contribution "vl.io.net.email" "VL.IO.Net.Email" >}} by {{< user "ravazquez" >}}
+- {{< contribution "korg-nanokontrol2" "Korg NanoKontrol2" >}} by {{< user "yar" >}}
 {{< contribution "asteroids-font-(laser)" "Asteroids Font (Laser" >}}) by {{< user "soundreactor" >}}
 
 <!--~~~-->
 and the updates: 
-{{< contribution "instance-noodles" "Instance Noodles" >}} by {{< user "everyoneishappy" >}}
-{{< contribution "fieldtrip" "FieldTrip" >}} by {{< user "everyoneishappy" >}}
-{{< contribution "happy.fxh" "Happy.fxh" >}} by {{< user "everyoneishappy" >}}
+- {{< contribution "instance-noodles" "Instance Noodles" >}} by {{< user "everyoneishappy" >}}
+- {{< contribution "fieldtrip" "FieldTrip" >}} by {{< user "everyoneishappy" >}}
+- {{< contribution "happy.fxh" "Happy.fxh" >}} by {{< user "everyoneishappy" >}}
 <!--{SPLIT}-->
 
 ## Gallery
