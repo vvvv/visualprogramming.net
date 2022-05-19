@@ -25,35 +25,30 @@ Think shortterm: Which of the following features could your patching most benefi
 * **Type Browser:** At the moment you still have to know the exact spelling of possible types by heart. The type browser will assist you when annotating the type of a pad by providing an auto completion list with all types valid in the current scope. 
 <!--~~~-->
 
-[/blog/vl-feature-voting?1|Type Browser](flattr)
 <!--{SPLIT}-->
 
 <!--{SPLIT()}-->
 * **Automatic Type Converters:** At the moment some links (like Float64->Float32) can not simply be made without manually placing a converter node (like: ToFloat32) in between. We'll introduce special links which convert a value from one type to another and will directly allow you to make such connections saving you quite some clicks. 
 <!--~~~-->
 
-[/blog/vl-feature-voting?2|Automatic Type Converters](flattr)
 <!--{SPLIT}-->
 
 <!--{SPLIT()}-->
 * **Custom Enum Types:** At the moment you cannot define your own enum types. You need this in order to be able to create operations like “Map” that can switch between different modes, like Wrap, Float, Mirror...
 <!--~~~-->
 
-[/blog/vl-feature-voting?3|Custom Enum Types](flattr)
 <!--{SPLIT}-->
 
 <!--{SPLIT()}-->
 * **ForEach Component Region:** At the moment when you want an operation to be applied to all components of a vector at the same time you'll have to split and then join it again. We'll introduce a new region especially made for vectors which executes its body for each component of a vector. This allows you to use nodes working with scalar values on vectors without doing the splits and joins manually.
 <!--~~~-->
 
-[/blog/vl-feature-voting?4|Foreach Component Region](flattr)
 <!--{SPLIT}-->
 
 <!--{SPLIT()}-->
 * **Dynamic pin counts:** At the moment nodes always have a hard-coded amout of pins. Nodes with potentially dynamic pin counts (Cons, Group, ...) will automatically get a pin added when the mouse is close and a pin removed when a link gets deleted. This means no more changing the pin count in the inspector.
 <!--~~~-->
 
-[/blog/vl-feature-voting?5|Dynamic Pin Counts](flattr)
 <!--{SPLIT}-->
 
 **Voting ends on June 14th.** 

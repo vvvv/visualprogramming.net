@@ -10,7 +10,7 @@ imported: "true"
 
 
 <!--{SPLIT()}-->
-![](generativegestaltung_1.jpg)
+![](generativegestaltung.jpg)
 <!--~~~-->
 **Generative Gestaltung**
 Bohnacker, Groß, Laub, Lazzeroni

@@ -24,14 +24,14 @@ next steps? polishing gamma to a proper 1.0 release by holding on to our [roadma
 a firework of new and updated contributions this week. take your time to check these out:
 <!--{SPLIT()}-->
 new:
-{{< contribution "Struct" >}} by {{< user "woei" >}}
-{{< contribution "Preset Manager" >}} by {{< user "joao" >}}
+- {{< contribution "Struct" >}} by {{< user "woei" >}}
+- {{< contribution "Preset Manager" >}} by {{< user "joao" >}}
 <!--~~~-->
 updated:
-{{< contribution "Player (DX11.Texture)" >}} by {{< user "woei" >}}
-{{< contribution "SceneGraph" >}} by {{< user "woei" >}}
-{{< contribution "Ivans Project Template" >}} by {{< user "bo27" >}}
-{{< contribution "Barcode1d (Texture) spreadable nodes" >}} by {{< user "bjoern" >}}
+- {{< contribution "Player (DX11.Texture)" >}} by {{< user "woei" >}}
+- {{< contribution "SceneGraph" >}} by {{< user "woei" >}}
+- {{< contribution "Ivans Project Template" >}} by {{< user "bo27" >}}
+- {{< contribution "Barcode1d (Texture) spreadable nodes" >}} by {{< user "bjoern" >}}
 <!--{SPLIT}-->
 
 and the great {{< user "yhy" >}}, one of the winners of the golden quad 2015, who also happens to be a youtube celebrity with over 1000 subscribers, who brought us [100+ tutorials on vvvv](https://www.youtube.com/playlist?list=PLqjkdWFcBMk8gVdbGuSqwi4q1ihr7LcaW) that have a total of ~50k views, is at it again: as of this writing, he has already produced 8 japanese vl tutorials: [vvvv講座(VL編)](https://www.youtube.com/playlist?list=PLqjkdWFcBMk_z0kG5-D8VfPfNjjRDdWRV)
