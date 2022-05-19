@@ -12,6 +12,6 @@ originalType: "stuff"
 
 Audio Retrieval by Rhythmic Similarity / Automatic Music Summarization via Similarity Analysis / Visualizing Musical Structure and Rhythm via Self-Similarity / A New Approach to Rhythm Analysis / Automatic Audio Segmentation using a Measure of Audio Novelty
 
-![]()
+![](http://www.fxpal.com/people/foote/pix/matrix.png)
 
 [](http://www.fxpal.com/people/foote/musicseg)

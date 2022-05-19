@@ -9,10 +9,11 @@ imported: "true"
 ---
 
 
-![Letters Are My Friends](vvvv-news.jpg?1303837182) 
+![Letters Are My Friends](vvvv-news.jpg) 
 
 
-#  What is 'Letters Are My Friends'?
+#  What is 'Letters Are My Friends'?
+
 'Letters Are My Friends' is a **concept store** for typography right in the heart of Berlin Kreuzberg. A place where analogue and digital type meet with emerging technologies. The first of its kind in Berlin.
 
 One part of 'Letters Are My Friends' is a **cosy showroom** where letter relationships can be experienced in a physical space and progressive way.
@@ -25,7 +26,8 @@ We love typefaces - static and generated, still, interactive and in motion, flat
 
 
 
-###  Co.SubLETTERS WANTED
+###  Co.SubLETTERS WANTED
+
 Currently we are looking for likeminded fellows who share our passion for the well-dressed alphabet and don't mind having a beautiful renovated workspace together. We're looking for creatives who not just share a room with us but who are excited and passionate about this concept.
 
 This means you are addicted to type, design, new media -like us-, and want to push this theme in an extraordinary way. We like open minded people with a grounded feeling for work and life and appreciate working experience (not a must) and reliabilty for a long time relation.
