@@ -9,11 +9,11 @@ imported: "true"
 ---
 
 
-![](_RussianChristmas_FXsalad_1_0.png) 
+![](_RussianChristmas_FXsalad_1.png) 
 
-![](_RussianChristmas_FXsalad_2_0.png) 
+![](_RussianChristmas_FXsalad_2.png) 
 
-![](_RussianChristmas_FXsalad_3_0.png) 
+![](_RussianChristmas_FXsalad_3.png) 
 
 Please try {{< contribution "Russian Christmas FX salad" >}}
 And Merry Christmas again :))
