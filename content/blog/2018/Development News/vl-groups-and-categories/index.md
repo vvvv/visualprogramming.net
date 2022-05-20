@@ -26,12 +26,13 @@ But before we go on let's make sure we are on par regarding the term "Category":
 
 {{< box >}}
 Note:
-When we read TogEdge ~np~[](Control)~/np~, that means there is a node named "TogEdge" in the category "Control". Also categories are what we see in the NodeBrowser. They can be nested, like ~np~Animation.FrameBased and in general~/np~ they are our friends.
+When we read `TogEdge (Control)`, that means there is a node named "TogEdge" in the category "Control". Also categories are what we see in the NodeBrowser. They can be nested, like `Animation.FrameBased` and in general they are our friends.
 {{< /box >}}
 Obviously. (Yeah, just wanted to make sure)
 
 What we had so far was a not so clear mix of all three. Let's see what we have in [latest alpha](https://vvvv.org/downloads/previews):
-## Group
+## Group
+
 *Group* patches simply allow you to create more space in a patch by opening a new canvas. The groups name is merely used for human readability, vl doesn't care about it at all. Create a group by typing "group" in the nodebrowser. Groups is what you will be mostly using in your daily project-patching work.
 <!--{SPLIT()}-->
 ![](02_GroupInside.PNG)
@@ -41,7 +42,8 @@ What we had so far was a not so clear mix of all three. Let's see what we have i
 *Group patch from the outside*
 <!--{SPLIT}-->
 
-## Category
+## Category
+
 A *Category* patch looks quite similar to the group, only its name has a meaning: The name appends itself to the category of its parent patch. That way you can build up any category hierarchy, that you then see in the NodeBrowser. Multiple category levels are allowed with dot notation. e.g. *MyCat1.MyCat2*.
 <!--{SPLIT()}-->
 ![](04_CategoryInside.PNG)
@@ -50,7 +52,8 @@ A *Category* patch looks quite similar to the group, only its name has a meaning
 ![](03_CategoryOutside.PNG)
 *Category patch from the outside*
 <!--{SPLIT}-->
-## Full Category
+## Full Category
+
 A *Full Category* patch is similar to the Category patch, only that it doesn't add its category to the parent. By that you can place nodes in any category, regardless of the parent patch. It's considered bad practice to do that, but is useful to add nodes to an existing category like *Collections.Spread*, for example. Multiple category levels are allowed with dot notation. e.g. *MyParentCat.MySubCat*.
 <!--{SPLIT()}-->
 ![](06_FullCategoryInside.PNG)
@@ -64,12 +67,14 @@ Each vl document can directly start a category, which you can define in the angu
 ![](DocPatch.png)
 *"Voo" specified as a documents category*
 
-## Changing the Patch Type
+## Changing the Patch Type
+
 You can easily convert a group patch into a category patch and vice versa by the patch type enum. Note how the label changes and represents the actual category structure:
 ![](0XisxoR9G2.gif)
 *Converting a group into a category*
 
-## Setting Categories on Node-Definitions
+## Setting Categories on Node-Definitions
+
 As if the above didn't offer enough options already there is one more way to specify a category for an operation or a datatype definition:
 
 ![](callmenames-Stuff_2018.06.29-00.47.03.gif)

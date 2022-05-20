@@ -5,7 +5,7 @@ created: "1338827602"
 
 danks again for bugging us. here is the log:
 
-~np~
+```
 [](16:24:43) <elliotwoods_> 1) Texture + other DX resources on input (current state + roadmap)
 [](16:24:43) <elliotwoods_> 2) Image type (reflection on current options + community decision for future)
 [](16:24:43) <elliotwoods_> 3) Outputs from Renderer (e.g. Depth buffer)
@@ -353,4 +353,4 @@ danks again for bugging us. here is the log:
 [](18:10:10) <mrvux> it's a small fancy bit, but same as when i asked for it on renderer node
 [](18:10:17) <mrvux> since on long starting patch black background looks neater
 [](18:10:52) <iorec> on renderer this works, ja?
-~/np~
+```

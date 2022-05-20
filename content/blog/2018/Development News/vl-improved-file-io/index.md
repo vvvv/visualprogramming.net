@@ -58,16 +58,16 @@ Now what? Right, so the first thing you need to know: If an error occurs at runt
 
 In case you want to react to an error in your patch we again have to differentiate between the blocking and non-blocking case:
 
-!## Blocking
+## Blocking
 
-The solution for the blocking case involves using the *experimental* ~np~Try [](Control)~/np~ region and looks like this:
+The solution for the blocking case involves using the *experimental* `Try (Control)` region and looks like this:
 
 ![](SplitterTester-Root_2018.06.22-17.29.31.gif)
 *The experimental Try region catches the error that occured*
 
-!## Non-Blocking
+## Non-Blocking
 
-In a non-blocking scenario you can use the ~np~HoldLatestError [](Reactive)~/np~ node like this:
+In a non-blocking scenario you can use the `HoldLatestError (Reactive)` node like this:
 
 ![](SplitterTester-Root_2018.06.22-17.26.10.gif)
 *HoldLatestError bangs and returns an error message*

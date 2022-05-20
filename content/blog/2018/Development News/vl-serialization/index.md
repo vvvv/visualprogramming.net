@@ -29,12 +29,14 @@ Paired with the [new files nodes](/blog/2018/vl-improved-file-io) serialization 
 
 That's basically all there is to know from an end-user perspective. You can try these new nodes in the latest [alpha versions](https://vvvv.org/downloads/previews).
 
-##  Writing a custom serializer
+##  Writing a custom serializer
+
 Even though VL ships with serializers for the most common types the situation could still arise where a custom serializer has to be written - either because it's simply missing for the type in question or one is not satisfied with the output of the already existing serializer.
 
 Creating a custom serializer consists of two steps
-# Patching (or writing in C#) the serializer by implementing the **~np~ISerializer<T>~/np~** interface using the [advanced](/blog/2018/vl-corelib-cleanup) **Serialize** and **Deserialize** nodes working on the **SerializationContext**
-# Registering that serializer using the [advanced](/blog/2018/vl-corelib-cleanup) **RegisterSerializer** node inside the static **RegisterServices** operation (more on that in an upcoming blog post)
+- Patching (or writing in C#) the serializer by implementing the 
+**`ISerializer`** interface using the [advanced](/blog/2018/vl-corelib-cleanup) **Serialize** and **Deserialize** nodes working on the **SerializationContext**
+- Registering that serializer using the [advanced](/blog/2018/vl-corelib-cleanup) **RegisterSerializer** node inside the static **RegisterServices** operation (more on that in an upcoming blog post)
 
 Here are two screenshots of the above from an example implementation which can be found in the VL.CoreLib/help/Serialization.vl file:
 

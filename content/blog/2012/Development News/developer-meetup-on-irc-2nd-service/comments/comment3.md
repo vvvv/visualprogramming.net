@@ -5,7 +5,7 @@ created: "1338827682"
 
 continued:
 
-~np~
+```
 18:11:07 <mrvux> yeah, you added the feature some time ago
 18:11:15 <iorec> ok.
 18:11:18 <mrvux> so it takes bg color for window background
@@ -73,4 +73,4 @@ New messages since you scrolled up
 18:30:31  → azeno, iorec_ and gregsn joined  
 18:30:38 <thalm_> bye bye
 18:30:39 <seblllll> adieu
-~/np~
+```

@@ -5,7 +5,7 @@ created: "1341241055"
 
 ...and here is todays log:
 
-~np~
+```
 [](16:09:20) <iorec__> 1) supporting sprite sheets for Texture
 [](16:09:20) <iorec__> 2) test framework
 [](16:09:20) <iorec__> 3) depth rendering
@@ -137,4 +137,4 @@ created: "1341241055"
 [](16:55:22) <m4d> aye, same to all devvvvs!
 [](16:55:47) <woei> cu
 [](16:55:52) <mino_> sayonara!
-~/np~
+```

@@ -5,7 +5,7 @@ created: "1336430273"
 
 thanks everyone for the chitchat, here is the log for those elliots who didn't make it...due to great suxass to be continued next month, june 4th, same time, same room. 
 
-~np~
+```
 [](16:19:09) <iorec_> ok, so then lets see if someone else than elliot has something for the agenda. he started with some stuff here: [/forum-alpha/we-need-to-talk](/forum-alpha/we-need-to-talk)
 [](16:19:38) <iorec_> i'd suggest to start with getting an agenda straight, and then discussing individual topics one after the other
 [](16:19:43) <iorec_> shoot!
@@ -680,4 +680,4 @@ thanks everyone for the chitchat, here is the log for those elliots who didn't m
 [](19:56:34) <velcrome> bye
 [](19:56:38) <-- velcrome (~velcrome@p54B7E0EC.dip.t-dialin.net) hat das Netzwerk verlassen
 [](20:00:13) <seblllll> oh, bye
-~/np~
+```
