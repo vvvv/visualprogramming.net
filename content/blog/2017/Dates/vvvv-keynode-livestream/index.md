@@ -21,7 +21,7 @@ imported: "true"
 ---
 
 
-![](vvvv-keynode-audience-c-NODE-Nemanja-Kne%C5%BEevi%C4%87.jpg)
+![](vvvv-keynode-audience-c-NODE-Nemanja-Knezevic.jpg)
 
 We are streaming this years vvvv keynode event live.
 

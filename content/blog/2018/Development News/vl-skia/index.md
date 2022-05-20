@@ -16,7 +16,8 @@ You now can have the first glimpse on it. From the start, it comes with a nice s
 Here is a rough overview of what the key concepts are:
 ---
 <!--{SPLIT()}-->
-### Layers and Renderers
+### Layers and Renderers
+
 Just like known from vvvv the main idea is that layers can be grouped and can be connected to a renderer to draw them. Most Layers come with a {{< pin "Bounds" >}} input OR {{< pin "Position" >}} and {{< pin "Size" >}} and {{< pin "Anchor" >}}.
 
 We offer different renderers:
@@ -28,7 +29,8 @@ We offer different renderers:
 <!--{SPLIT}-->
 ---
 <!--{SPLIT()}-->
-### Paint
+### Paint
+
 Every layer comes with a {{< pin "Paint" >}} input. It describes how to draw the layer. This is very comparable to the render states in DX9/DX11. 
 
 You can stack the *Paint*-modifying nodes. Nodes like **SetColor** would take everything from the incoming paint and only adjust the color.
@@ -46,7 +48,8 @@ You can stack the *Paint*-modifying nodes. Nodes like **SetColor** would take ev
 <!--{SPLIT}-->
 ---
 <!--{SPLIT()}-->
-### Text
+### Text
+
 **Text** nodes are also just Layers. You can think of them as text boxes.
 
 Within that rectangular region you now can adjust horizontal and vertical alignment. This is done via properties of *Paint*. The **FontAndParagraph** node allows to conveniently adjust several text related paint properties in one go.
@@ -58,11 +61,12 @@ You can visualize the text box with the {{< pin "Show Helpers" >}} pin of **Font
 
 (See the examples\3_Text for how to do word wrapping etc.)
 <!--~~~-->
-![[](text)](text_0.png) 
+![](text.png) 
 <!--{SPLIT}-->
 ---
 <!--{SPLIT()}-->
-### Transforms
+### Transforms
+
 Layers can be transformed. This allows you to patch a Camera. You would then connect your scene to the Camera and the camera to the renderer. 
 {{< box >}}
 Note:
@@ -77,7 +81,8 @@ Scaling a Layer influences the stroke width. If this is unwanted specify the {{<
 <!--{SPLIT}-->
 ---
 <!--{SPLIT()}-->
-### Spaces
+### Spaces
+
 We designed the library in a way that it works for different scenarios. Sometimes you would like to think in a normalized space, like known from DX9/DX11. In other scenarios, you want to think pixel- or device-independent-pixel-based. 
 You can choose the space on the renderer. But you can also combine spaces: With the **WithinCommonSpace** node you can adjust the space for everything upstream. By that, you could have a game that adjusts its content depending on the size of the renderer and still draw some text top-left with a constant text size no matter how big the renderer is. (See examples\1_Basics\08_Spaces-Overview for more details)
 <!--~~~-->
@@ -85,7 +90,8 @@ You can choose the space on the renderer. But you can also combine spaces: With 
 <!--{SPLIT}-->
 ---
 <!--{SPLIT()}-->
-### Interaction
+### Interaction
+
 Layers in Skia can be interactive. The main idea here is: "*What you see is what you want to interact with*". So if the layer is interactive, connecting it to the renderer in one way or the other means that it will be drawn AND that you can interact with it. (See examples\5_Interaction)
 
 {{< box >}}
@@ -96,13 +102,16 @@ This part is under construction still.
 ![Button is just a experimental proof of concept node](button.gif) 
 <!--{SPLIT}-->
 ---
-## How to install
+## How to install
+
 In order to use this library with VL, you have to install the NuGet that is available via nuget.org. For information on how to use NuGets with VL, see Managing NuGets in the VL documentation. In short, navigate via document menu to *Dependencies -> Manage NuGets -> Commandline* and then type:
 {{< box >}}
-nuget install VL.Skia -prerelease -Source nuget.org{{< /box >}}
+nuget install VL.Skia -prerelease -Source nuget.org
+{{< /box >}}
 As long as we don't have an example browser here is how to get them via windows explorer:
 {{< box >}}
-VVVVDir\lib\packs\VL.Skia...\examples{{< /box >}}
+VVVVDir\lib\packs\VL.Skia...\examples
+{{< /box >}}
 Drag & drop an example patch onto vvvv or VL. For closing the example use the X on the renderer or hit Ctrl-F4 on the VL patch.
 
 Happy exploring!

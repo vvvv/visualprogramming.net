@@ -17,43 +17,53 @@ imported: "true"
 
 
 
-#  NODE13 — Open Call for Proposals
+#  NODE13 — Open Call for Proposals
+
 <!--break-->
 Dear Community!
 
-##  VVVV's userfestival is back again. We are happy to announce the 3rd edition of  NODE Forum for Digital Arts in February 2013.  Nominate projects! Open Call starts now!
+##  VVVV's userfestival is back again. We are happy to announce the 3rd edition of NODE Forum for Digital Arts in February 2013. Nominate projects! Open Call starts now!
+
 [](http://node13.vvvv.org/call/)
 _
-###  About NODE
+###  About NODE
+
 NODE13 is a festival for digital arts and culture based in Frankfurt, Germany. It’s is a week long rush of A/V performances, exhibitions by artists of the digital and analog media scene from all the world, workshops and talks.
 Within the NODE13 exhibition and symposium we are seeking to investigate the implications of current technology on our culture and society.
 
 Again NODE13 will be brimming with hands-on vvvv workshops and tons of chances to get together and talk about the tools that we use in our everyday creative coding life. Meet the devvvv's get the ideas behind vvvv. Just come.
 
 
-###  Date and venue
+###  Date and venue
+
 NODE13 takes place February 11th – 17th 2013 at [Frankfurter Kunstverein](http://www.fkv.de/frontend_en/startseite.php), [Steinernes Haus am Römerberg, Markt 44, 60311 Frankfurt am Main, Germany.](https://maps.google.de/maps?q=frankfurter+kunstverein&hl=de&oe=utf-8&client=firefox-a&hq=frankfurter+kunstverein&t=m&z=15) Deadlines see below!
 
-###  Keynote
+###  Keynote
+
 NODE13’s keynote is ‘THE RULES’, but the Open Call is not limited to this. We are seeking to investigate the correlation of working with the ‘rules’ of a computer and the transformative processes in our society. 
 We design in, through and with software, but we also design software itself: Computer code has become an autonomous medium. At the same time software changes the way we organise knowledge, the way we produce, interact and organise ourselves politically. New software creates new ways of behaviour, and it seems that the regularity of software bleeds into the ‘real world’, thus transforming everything it touches. 
 
-###  Format and type
+###  Format and type
+
 Submitted projects can be of any size and format. You can propose any project format e.g. performances, artworks for the exhibition or workshops. We love dynamic and static projects as well as virtual and physical projects. As NODE13 is an inter-media forum which facilitates a cross-border exchange between all disciplines of art, the Open Call addresses to works in the field of new media, performing arts, video and music, architecture as well as software.
 With this ‘Open Call for Proposals’ we wish to expand our awareness of relevant projects, and also open the possibility to show work that hasn’t been presented before. 
 
-###  Eligibility
+###  Eligibility
+
 You can submit your own projects – or project of others that you consider groundbreaking in the field of NODE. Eligible for submission are professional, amateur, independent, as well as commercial works.
 
-###  Schedule
+###  Schedule
+
 # **Submission of works: Deadlines are November 30th 2012 (exhibition) and January 31st 2013 (performances/workshops).** No previous registration needed!
 # Screening by the curational team and announcement of selected works: Until Dezember 2012 (exhibtion) and Januar/Februar 2013 (performances/workshops) 
 # Exhibition of selected works: February 11th – 17th, 2013
 
-###  How to enter
-Visit [](http://node13.vvvv.org/call/) and send us your proposal via contact form or email.  Please provide all information requested. If you have any questions, please let us know!
+###  How to enter
 
-###  Recidency
+Visit [](http://node13.vvvv.org/call/) and send us your proposal via contact form or email. Please provide all information requested. If you have any questions, please let us know!
+
+###  Recidency
+
 In the run-up to the festival NODE13 and [basis Frankfurt e.V.](http://www.basis-frankfurt.de/en) offer a residency for two digital artists in cooperation with [Motion Bank](http://www.motionbank.org). Creative coders and artists  {{< user "sugokuGENKI" "Elliot Woods" >}} (UK) und Kyle McDonald (US) are invited to research and create new work. For NODE13, the Deutsche Börse Residency Program at Frankfurter Kunstverein is given to video artists Patricia Kommerell and Gabriel Shalom, founders of [KS12 studio](http://www.ks12.net/) berlin. Kommerell and Shalom will work on a film that investigats the questions brought up by NODE13’s keynote ‘THE RULES’.  
 The results of the six weeks lasting residencies will be presented at NODE13. 
 
@@ -65,7 +75,8 @@ Your NODE team
 
 __
 
-##  This was NODE10
+##  This was NODE10
+
 ![NODE10](NODE10%20-%20Overview.png) 
 
 
@@ -85,5 +96,5 @@ NODE10 exhibition - Achilles by Brandon Morse
 NODE10 exhibition - Fat bonnasses by John Powers
 
 
-![NODE10 workshop – Digital Media in Performing Arts](NODE10%20workshop%20%E2%80%93%20Digital%20Media%20in%20Performing%20Arts%20%28copyright%20Woeishi%20Lean%29.jpg) 
+![NODE10 workshop – Digital Media in Performing Arts](NODE10%20workshop%20-%20Digital%20Media%20in%20Performing%20Arts%20%28copyright%20Woeishi%20Lean%29.jpg) 
 NODE10 workshop – Digital Media in Performing Arts

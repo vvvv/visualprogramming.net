@@ -38,7 +38,7 @@ Reservation from here.
 [](https://atnd.org/events/64394)
 
 
-![Dance x vvvv (Dancing PROTO)](%202015-04-02%200.43.37.png) 
+![Dance x vvvv (Dancing PROTO)](2015-04-02 0.43.37.png) 
 
 
 

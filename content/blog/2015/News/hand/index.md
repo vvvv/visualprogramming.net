@@ -10,9 +10,9 @@ originalType: "stuff"
 ---
 
 
-The different attitude![interact](2%EF%BC%881%EF%BC%89_0.jpg) ![shape1](1%20%282%29.png) 
+The different attitude![interact](2_1.jpg) ![shape1](1_2.png) 
 
-![shape2](1%20%2810%29.png) 
+![shape2](1_10.png) 
 
-![shape2](1%20%287%29.png) 
+![shape2](1_7.png) 
 

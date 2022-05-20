@@ -29,5 +29,5 @@ with the new release you'll
 * mess around with your own enum types
 
 <!--~~~-->
-![](_56.) 
+![](56.jpg) 
 <!--{SPLIT}-->
