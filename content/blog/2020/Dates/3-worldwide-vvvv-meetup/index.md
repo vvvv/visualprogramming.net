@@ -55,7 +55,7 @@ Location: Frankfurt / Offenbach
 
 Travelling to severals music festivals and building light sculptures for dance floors inspired us to develop this light control software. Many years of experiences in live performing helped us to create this modular interface optimised for generative visuals. 
 
-Next to texture based animation you can work with 3d geometry in virtual space to create visuals on LED light matrices. This technique is very efficient by adapting to new light set ups and is giving a great room perception. The live performance interface is based on the Runtime Model by dottore {{< contribution "model-runtime-editor-design-pattern" >}}. For the Show to luminale 2020 we integrated the timeline Tilda by nsynk <https://discourse.vvvv.org/t/vl-tilda/17644) and created the light show „Binärtransformation - digitized life“ [](https://www.luminale.de/projekte/digitales-leben>
+Next to texture based animation you can work with 3d geometry in virtual space to create visuals on LED light matrices. This technique is very efficient by adapting to new light set ups and is giving a great room perception. The live performance interface is based on the Runtime Model by dottore {{< contribution "model-runtime-editor-design-pattern" >}}. For the Show to luminale 2020 we integrated the timeline Tilda by nsynk <https://discourse.vvvv.org/t/vl-tilda/17644> and created the light show „Binärtransformation - digitized life“ <https://www.luminale.de/projekte/digitales-leben>
 
 Unfortunately we didn’t had any visitors at Luminale 2020 thanks to corona. So we are waiting for the next change to build it up again. 
 

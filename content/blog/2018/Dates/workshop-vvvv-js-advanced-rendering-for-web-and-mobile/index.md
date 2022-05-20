@@ -55,7 +55,7 @@ In detail we will look at the following topics:
 **Booking and Fees**
 
 Reserve your workshop seat now via 
-<mailto:vvvvorkshop@schnellebuntebilder.de>
+[](mailto:vvvvorkshop@schnellebuntebilder.de)
 
 There will be a fee of 50,00 € per attendee (recerving room + support for lecturer).
 If you consider yourself a professional or your company sends you here, we use T.R.U.S.T to encourage you to pay a professional fee, which is 200,00 €.

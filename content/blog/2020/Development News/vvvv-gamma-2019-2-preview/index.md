@@ -110,16 +110,16 @@ Here you go: **[vvvv gamma 2019.2 preview](http://teamcity.vvvv.org/guestAuth/ap
 - Fixed cast exception triggered by node browser when browsing through nodes from assemblies
 - Fixed various crashes when opening a completely broken document structure (missing assemblies, missing documents etc.)
 - Fixed file/string readers not eliminating BOM 
-- New nodes Loop <[Observable), Subscribe (Provider) []([Observable), Using (Provider) []([Observable> and moved PollData, PollResource from Resources to Observable category
-** New region Loop <[Observable> managing internal state as well as giving access to cancellation and observer to optionally push data
-** Subscribe <[Observable> returning a provider which manages the lifetime of the upstream observable sequence
+- New nodes Loop []([Observable), Subscribe (Provider) []([Observable), Using (Provider) []([Observable) and moved PollData, PollResource from Resources to Observable category
+** New region Loop []([Observable) managing internal state as well as giving access to cancellation and observer to optionally push data
+** Subscribe []([Observable) returning a provider which manages the lifetime of the upstream observable sequence
 ** PollData and PollResource now stateful internally thanks to making use of new Loop
-- Removed recently introduced TryOpen/Retry/RunOn <[Resources) nodes as they turned out as hard to use (deadlock> and not necessary
+- Removed recently introduced TryOpen/Retry/RunOn []([Resources) nodes as they turned out as hard to use (deadlock) and not necessary
 - Added new struct ArrayBuilder used by two new nodes:
-** StoreSequence <[Collections.MutableArray> to efficiently either grab an upstream array from a sequence or copy its content into an internal array which will then get exposed.
-** HoldLatestCopy <[Collections> to efficiently copy data pushed from a background thread into the main thread
+** StoreSequence []([Collections.MutableArray) to efficiently either grab an upstream array from a sequence or copy its content into an internal array which will then get exposed.
+** HoldLatestCopy []([Collections) to efficiently copy data pushed from a background thread into the main thread
 - Bunch of minor performance improvements to VL.Skia by making use of methods provided by the System.Runtime.CompilerServices.Unsafe class and calling SKCanvas.SetMatrix in Transform nodes, not rendering nodes
-- Fixed allocation issues of Points <[Skia.Layers> by exposing internally used DrawPoints via ReadOnlySpan
+- Fixed allocation issues of Points []([Skia.Layers) by exposing internally used DrawPoints via ReadOnlySpan
 - Fixed assignment of higher order regions not being carried over to expanded patch 
 - Ensure names of emitted assemblies are unique even after reloading a document 
 - Type Unification got even more robust and versatile. Better type renderings and type error messages.
@@ -131,7 +131,7 @@ Here you go: **[vvvv gamma 2019.2 preview](http://teamcity.vvvv.org/guestAuth/ap
 ** quite less emit problems due to more robust type unification
 * Added RemoveAll for Spread and SpreadBuilder
 * Fixed Random node not being thread safe 
-* Fixed ForEach <Parallel> crashing with input count of zero and modified it so it returns a spread builder instead of a spread to avoid allocations
+* Fixed ForEach [](Parallel) crashing with input count of zero and modified it so it returns a spread builder instead of a spread to avoid allocations
 
 **236** 18 02 20
 - added ShowOrigin setting 

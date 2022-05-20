@@ -47,7 +47,7 @@ So what we've just seen there? One of my packs called mp.dx (wrapping some rende
     CopyDir(
         Pack.TempDir,
         VVVV.Dir + "\\packs\\" + Pack.Name,
-        ignore: new string<> {"src", ".git*"}
+        ignore: new string[]() {"src", ".git*"}
     );
   </install>
 </vpack>

@@ -48,7 +48,7 @@ If you consider yourself a professional patcher or your company sends you here t
 
 Please sign up here: 
 
-<mailto:vvvvorkshop@schnellebuntebilder.de>
+[](mailto:vvvvorkshop@schnellebuntebilder.de)
 
 Your’s truly,
 schnellebuntebilder
@@ -56,4 +56,4 @@ schnellebuntebilder
 Follow Us
 @vvvvorkshop
 
-<www.schnellebuntebilder.de>
+[](www.schnellebuntebilder.de)

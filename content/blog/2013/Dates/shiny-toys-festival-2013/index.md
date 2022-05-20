@@ -201,7 +201,7 @@ sat. | 31. August 2013 | 19.00 p.m. |  advance booking 10,- | reduced fee 5,- ||
 
 weekend ticket | advance booking 18.- | reduced fee 12.- €
 
-get your tickets online <)()(HERE)http://shop.derticketservice.de/ringlokschuppen.html?cs=Shiny+Toys&tt=search[]()(>
+get your tickets online []()()(HERE)http://shop.derticketservice.de/ringlokschuppen.html?cs=Shiny+Toys&tt=search[]()()
 
 
 ##  Directions
@@ -210,7 +210,7 @@ Am Schloß Broich 38
 45479 Mülheim an der Ruhr
 
 
-get a bigger <)(SHINYTOYS*MAP)https://maps.google.de/maps/ms?msid=212586997136010524797.0004a5b2b69446b60f6d2&msa=0&ll=51.429692%2C6.877012&spn=0.013097%2C0.026071[]()(>
+get a bigger []()(SHINYTOYS*MAP)https://maps.google.de/maps/ms?msid=212586997136010524797.0004a5b2b69446b60f6d2&msa=0&ll=51.429692%2C6.877012&spn=0.013097%2C0.026071[]()()
 
 ##  
 Partners, Supporters & Sponsors:

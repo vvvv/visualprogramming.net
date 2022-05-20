@@ -16,7 +16,7 @@ it basically provides a method to create so called [IO containers](https://vvvv.
 
 say we want to create an ISpread<ISpread<T>> during runtime, we do something like this:
 ```
-<Import> 
+[](Import) 
 IIOFactory FIOFactory;
 ...
 var inputAttribute = new InputAttribute("Input Foo");

@@ -26,7 +26,7 @@ But before we go on let's make sure we are on par regarding the term "Category":
 
 {{< box >}}
 Note:
-When we read TogEdge ~np~<Control>~/np~, that means there is a node named "TogEdge" in the category "Control". Also categories are what we see in the NodeBrowser. They can be nested, like ~np~Animation.FrameBased and in general~/np~ they are our friends.
+When we read TogEdge ~np~[](Control)~/np~, that means there is a node named "TogEdge" in the category "Control". Also categories are what we see in the NodeBrowser. They can be nested, like ~np~Animation.FrameBased and in general~/np~ they are our friends.
 {{< /box >}}
 Obviously. (Yeah, just wanted to make sure)
 

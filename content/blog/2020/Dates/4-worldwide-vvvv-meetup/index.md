@@ -55,7 +55,7 @@ Constantine is a visual arts professional located in Athens. The technically ski
 location: Berlin
 {{< user "a_a_a_a" >}} & {{< user "mburk" >}}
 
-<https://andand.xyz/) and also part of [](https://schnellebuntebilder.de/>
+<https://andand.xyz/> and also part of <https://schnellebuntebilder.de/>
 
 They are interactive designers and media artists and a tag team when it comes to designing complex things. 
 We will be shown some insights to their process of developing a key visual for the upcoming NODE20 festival.

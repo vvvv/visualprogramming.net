@@ -31,7 +31,7 @@ Jared Tarbell: <http://flickr.com/photos/generated/1165678242/in/set-72157601083
 
 <strong>Call for participants</strong>
 
-We are looking for 15 artists, designers and architects who have an existing practice based on generative systems and custom software, and who are interested in investigating physical formats through digital fabrication. The workshop will be practical in nature, and will produce a selection of works that will be included in the exhibition at <DAM>. Participants will have access to an on-site laser cutter, and an introduction to this technology will be part of the workshop.
+We are looking for 15 artists, designers and architects who have an existing practice based on generative systems and custom software, and who are interested in investigating physical formats through digital fabrication. The workshop will be practical in nature, and will produce a selection of works that will be included in the exhibition at [](DAM). Participants will have access to an on-site laser cutter, and an introduction to this technology will be part of the workshop.
 
 The workshop is free of charge, but we will not be able to provide support for travel or accomodation. Participants are expected to have experience with programming software that will allow them to produce work suitable for production, such as Processing, VVVV or any other system capable of producing vector output. Previous experience with laser cutting or digital fabrication technologies is a bonus, but not a requirement.
 

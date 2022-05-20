@@ -10,6 +10,6 @@ I'm hitting issues which look like:
 
 ************** Exception Text **************
 System.Security.VerificationException: Method WebSocketSharp.Server.WebSocketServer.AddWebSocketService: type argument 'WebSocketSharp.Server.WebSocketBehavior' violates the constraint of type parameter 'TBehaviorWithNew'.
-   at System.RuntimeMethodHandle.GetStubIfNeeded(RuntimeMethodHandleInternal method, RuntimeType declaringType, RuntimeType<)() methodInstantiation>
-   at System.Reflection.RuntimeMethodInfo.MakeGenericMethod(Type<)() methodInstantiation>
+   at System.RuntimeMethodHandle.GetStubIfNeeded(RuntimeMethodHandleInternal method, RuntimeType declaringType, RuntimeType[]()() methodInstantiation)
+   at System.Reflection.RuntimeMethodInfo.MakeGenericMethod(Type[]()() methodInstantiation)
 ```

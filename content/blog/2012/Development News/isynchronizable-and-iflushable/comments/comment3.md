@@ -12,12 +12,12 @@ something like this should work...
 private readonly ConcurrentQueue<T> FResultQueue = new ConcurrentQueue<T>();
 ...
 public void Evaluate(int spreadMax) {
-  if (FEnabled<0)> {
+  if (FEnabled[](0)) {
     Parallel.Invoke(() => FResultQueue.Enqueue(default(T));
   }
   T result;
   if (FResultQueue.TryDequeue(out result)) {
-    FOutput<0> = result;
+    FOutput[](0) = result;
   }
 }
 ```

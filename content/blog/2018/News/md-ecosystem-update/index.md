@@ -20,12 +20,12 @@ So I found the simplest way to deal with this is patch the vvvv.exe.config file 
 
 ```
 <configuration>
-  <...>
+  [](...)
   <runtime>
-    <...>
+    [](...)
     <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
       <probing privatePath="lib\core;packs\md.core" />
-      <...>
+      [](...)
     </assemblyBinding>
   </runtime>
 </configuration>

@@ -22,7 +22,7 @@ anyway, now that you know that random is all fake, you might be interested in th
 
 another similar webservice is [hotbits](http://www.fourmilab.ch/hotbits/) which gets its numbers through [radioactive decay](http://www.fourmilab.ch/hotbits/how3.html). while the page isn't as sophisticated as random.org it should still be possible to retrieve their numbers as [demonstrated on this page](https://www.fourmilab.ch/hotbits/secure_generate.html) and there doesn't seem to be a quota...
 
-and finally if you don't want to rely on a webservice you can get your own random number generating pc-card from companies like [id quantique](http://www.idquantique.com/products/quantis.htm) or from <http://www.true-random.com/) (if you dare after having seen their...unique hardware design>.
+and finally if you don't want to rely on a webservice you can get your own random number generating pc-card from companies like [id quantique](http://www.idquantique.com/products/quantis.htm) or from <http://www.true-random.com/> (if you dare after having seen their...unique hardware design).
 
 
 

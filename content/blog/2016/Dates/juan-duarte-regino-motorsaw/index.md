@@ -28,7 +28,7 @@ On July 23rd I will perform my AV-performance, Deuterium at Spektrum in Berlin o
 
 Come early as the performances start already at 20:30 sharp.{{< /box >}}
 
-below is the description of the event from the event on Spektrums web: <http://spektrumberlin.de/events/detail/scope-presents-juan-duarte-regino-motorsaw.html) and on Facebook [](https://www.facebook.com/events/192062444530258/>
+below is the description of the event from the event on Spektrums web: <http://spektrumberlin.de/events/detail/scope-presents-juan-duarte-regino-motorsaw.html> and on Facebook <https://www.facebook.com/events/192062444530258/>
 
 SCOPE presents: Juan Duarte Regino & Motorsaw #179
 

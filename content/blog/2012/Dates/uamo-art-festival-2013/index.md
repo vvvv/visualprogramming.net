@@ -33,7 +33,7 @@ Die ausgestellten Arbeiten werden innerhalb eines Katalogs, der zum Festival ers
 
 Die Arbeiten werden während des Festivals in den Ausstellungsräumen und/oder innerhalb des Screenings gezeigt. 
 
-<www.uamo.info>
+[](www.uamo.info)
 
 
 -----------------------------------------------------------------------------------------
@@ -51,4 +51,4 @@ All exhibited work will be presented in a limited edition catalogue.
 
 Apply now at: 
 
-<www.uamo.info>
+[](www.uamo.info)

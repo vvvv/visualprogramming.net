@@ -30,7 +30,7 @@ In the case we want to have our file io non-blocking we learned that most likely
 *HoldLatest returns the last data pushed to it.*
 *On Data bangs when new data is available.*
 
-Instead of returning the actual data of a file, those readers return an *Observable<Data>* which allows you to do some further processing to the data before you get access to it in the patch using a HoldLatest node. For more information on working with observables see the chapter <Reactive)(https://vvvv.gitbooks.io/the-gray-book/content/en/reference/libraries/reactive.html>.
+Instead of returning the actual data of a file, those readers return an *Observable<Data>* which allows you to do some further processing to the data before you get access to it in the patch using a HoldLatest node. For more information on working with observables see the chapter [](Reactive)(https://vvvv.gitbooks.io/the-gray-book/content/en/reference/libraries/reactive.html).
 
 The writers in turn also take an Observable<Data> and write whenever new data is pushed through the observable. Like this you can e.g. write data received from an input via an observable directly to a file without ever touching the mainloop:
 
@@ -55,13 +55,13 @@ Now what? Right, so the first thing you need to know: If an error occurs at runt
 In case you want to react to an error in your patch we again have to differentiate between the blocking and non-blocking case:
 
 !## Blocking
-The solution for the blocking case involves using the *experimental* ~np~Try <Control>~/np~ region and looks like this:
+The solution for the blocking case involves using the *experimental* ~np~Try [](Control)~/np~ region and looks like this:
 
 ![](SplitterTester-Root_2018.06.22-17.29.31.gif)
 *The experimental Try region catches the error that occured*
 
 !## Non-Blocking
-In a non-blocking scenario you can use the ~np~HoldLatestError <Reactive>~/np~ node like this:
+In a non-blocking scenario you can use the ~np~HoldLatestError [](Reactive)~/np~ node like this:
 
 ![](SplitterTester-Root_2018.06.22-17.26.10.gif)
 *HoldLatestError bangs and returns an error message*

@@ -14,7 +14,7 @@ There's been a plugin programming feature request by VVIPP vux to get a custom n
 * All pins are now based upon the rather abstract node pins implementing different data interfaces.
 * You now can create an unspecific node input that just asks for different interfaces dynamically and by that can work with different types of data of the builtin pins.
 ```
-  <Input("X")>
+  [](Input("X"))
   public INodeIn FX; // unspecific regarding the expected data
 ```
 later on you then can ask for a handle on the data via:

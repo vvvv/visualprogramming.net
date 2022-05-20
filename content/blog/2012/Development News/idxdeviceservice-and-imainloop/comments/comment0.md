@@ -9,7 +9,7 @@ i.e. OnRender occurs after all textures are rendered? or before?
 To note (for others), the way to get these is to use:
 
 ```
-<Import>
+[](Import)
 IHDEHost FHDEHost;
 ```
 

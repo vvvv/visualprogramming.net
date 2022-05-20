@@ -49,4 +49,4 @@ Stay tuned for tickets!
 See you in Frankfurt soon!!
 
 {{< box >}}
-<node15.vvvv.org>{{< /box >}}
+[](node15.vvvv.org){{< /box >}}

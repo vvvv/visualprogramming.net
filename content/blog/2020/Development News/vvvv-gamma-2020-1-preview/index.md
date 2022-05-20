@@ -110,7 +110,7 @@ Compared to the [2019.2 series](/blog/2020/vvvv-gamma-2019.2-preview)
 * Args node now handles options without parameters
 * Added a bunch of new simple howto patches
 * Added clock to display call frequency of runtime value in tooltip
-* Added ToImage <[IReadOnlyList>
+* Added ToImage []([IReadOnlyList)
 * Removed culture specific resource assemblies and disabled pdb files in release build
 * Fixed a sync issue in UI when disabling manual signature and fixed pin synchronization when using "Connect to signature"
 * Visualize model synchronization step in progress bar

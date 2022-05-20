@@ -58,7 +58,7 @@ beautiful beautiful renderings from the pros:
 and some more fine stuff:
 * [De Volharding Augmented](/blog/de-volharding-augmented) by {{< user "lucidlien" >}}
 * [Constellations](/blog/constellations-studio-jl) by {{< user "Joanie_AntiVJ" >}}
-* [Θ Theta: Sensory Feedback System <montaje](/blog/θ-theta-sensory-feedback-system-montaje)> by {{< user "ventolinmono" >}}
+* [Θ Theta: Sensory Feedback System [](montaje](/blog/θ-theta-sensory-feedback-system-montaje)) by {{< user "ventolinmono" >}}
 
 ##  jobs
 

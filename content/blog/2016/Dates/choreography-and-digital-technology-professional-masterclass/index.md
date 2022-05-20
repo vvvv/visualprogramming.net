@@ -21,7 +21,7 @@ imported: "true"
 ---
 
 
-Rambert is running a masterclass for professional dance artists that will explore how digital technology can be used as a tool to develop choreography. The masterclass will be led by digital artists Andrej Boleslavský <http://id144.org) and Mária Júdová [](http://mariajudova.net> and dancer/choreographer Pierre Tappon.
+Rambert is running a masterclass for professional dance artists that will explore how digital technology can be used as a tool to develop choreography. The masterclass will be led by digital artists Andrej Boleslavský <http://id144.org> and Mária Júdová <http://mariajudova.net> and dancer/choreographer Pierre Tappon.
 The masterclass is aimed at dance artists who are interested in exploring new ways to approach generating movement material. Through using interactive installations that superimpose 3D captures with computer animated imagery in real-time, participants will be introduced to a range of digital tools and task-based movement studies. By introducing the interactive installations to the creative process, the course leaders will demonstrate different ways to generate and interpret movement material.
 
 

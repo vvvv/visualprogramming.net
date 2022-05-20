@@ -16,4 +16,4 @@ Videos should not exceed 12 minutes, maximum resolution is 1280×720 px, prefera
 
 Your patch will run inside this environment under beta 14, please make sure it’s compatible and dont forget to include all your media, models, shaders etc. and have them and your subpatches in one folder and as relative paths inside your patch plus a screenshot of how the output should look like (so we can see if everything works fine). Do test this before, because we won’t fix broken links inside your patch.
 
-The deadline is March 16th 2008. Please send your submission to: node08<at>vvvv.org
+The deadline is March 16th 2008. Please send your submission to: node08[](at)vvvv.org
