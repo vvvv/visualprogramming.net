@@ -15,7 +15,7 @@ imported: "true"
 I will show my exhibits "ZEN STATION" & "POST MORTEM" at the "TEMPS D´IMAGES"
 Festival in Düsseldorf !!
 
-[](http://www.tempsdimages.eu/#/germany/show/detail/663)
+<http://www.tempsdimages.eu/#/germany/show/detail/663>
 
 11.01.2011-15.01.2011
 I'd would be fun to meet you there.

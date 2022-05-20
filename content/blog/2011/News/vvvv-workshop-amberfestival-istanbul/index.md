@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-At the Amberfestival ([](amberfestival.org)) which takes place in Istanbul next week Ingolf Heinsch / milo and Jochen Leinberger / korriander will host a vvvv and physical computing related workshop. We are looking fordward to meet existing an new vvvv's in Istanbul. See you there!
+At the Amberfestival (<amberfestival.org)> which takes place in Istanbul next week Ingolf Heinsch / milo and Jochen Leinberger / korriander will host a vvvv and physical computing related workshop. We are looking fordward to meet existing an new vvvv's in Istanbul. See you there!
 
 **Workshop description:**
 

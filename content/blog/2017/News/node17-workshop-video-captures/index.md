@@ -28,87 +28,87 @@ schnellebuntebilder
 
 **3D basics & building interaction - Part 1**
 
-[](https://youtu.be/QJP6RlItm-4)
+<https://youtu.be/QJP6RlItm-4>
 
 **3D basics & building interaction - Part 2**
 
-[](https://youtu.be/7rlvPBT_-To)
+<https://youtu.be/7rlvPBT_-To>
 
 **Advanced DirectX11 shading  - Part 1**
 
-[](https://youtu.be/0Dr3YufNPDk)
+<https://youtu.be/0Dr3YufNPDk>
 
 **Advanced DirectX11 shading  - Part 2**
 
-[](https://youtu.be/uzcAI9YwN70)
+<https://youtu.be/uzcAI9YwN70>
 
 **Box 2D**
 
-[](https://youtu.be/8QVEwm-B14s)
+<https://youtu.be/8QVEwm-B14s>
 
 **Bullet Physics**
 
-[](https://youtu.be/G92Kv-ELmes)
+<https://youtu.be/G92Kv-ELmes>
 
 **DX11.particles**
 
-[](https://youtu.be/qhfZyZnKB7U)
+<https://youtu.be/qhfZyZnKB7U>
 
 **Compute shader**
 
-[](https://youtu.be/GEAAXZktl4g)
+<https://youtu.be/GEAAXZktl4g>
 
 **Cutting & Folding Paper**
 
-[](https://youtu.be/dIkF4oaa8QY)
+<https://youtu.be/dIkF4oaa8QY>
 
 **Forward+ or how to bring thousand of lights to VVVV**
 
-[](https://youtu.be/ny9j2_yBbZQ)
+<https://youtu.be/ny9j2_yBbZQ>
 
 **How to use a statemachine - Automata UI**
 
-[](https://youtu.be/I8CmERSoyPc)
+<https://youtu.be/I8CmERSoyPc>
 
 **Instance Noodles**
 
-[](https://youtu.be/ZZGdH8hKgQY)
+<https://youtu.be/ZZGdH8hKgQY>
 <!--~~~-->
 **Introduction to DX11 rendering**
 
-[](https://youtu.be/J1VyN-QbTzY)
+<https://youtu.be/J1VyN-QbTzY>
 
 **Introduction to VVVV message awesomeness**
 
-[](https://youtu.be/TQsoWRD8veg)
+<https://youtu.be/TQsoWRD8veg>
 
 **PBR Rendering**
 
-[](https://youtu.be/soopcp7p5YU)
+<https://youtu.be/soopcp7p5YU>
 
 **Procedural noise**
 
-[](https://youtu.be/_E8nGaU-fcU)
+<https://youtu.be/_E8nGaU-fcU>
 
 **Supershiny Motion Graphics with Superphong**
 
-[](https://youtu.be/6Oj1NiOKIo0)
+<https://youtu.be/6Oj1NiOKIo0>
 
 **Transformations**
 
-[](https://youtu.be/oKY-kUOGw_A)
+<https://youtu.be/oKY-kUOGw_A>
 
 **VAudio basics**
 
-[](https://youtu.be/v9A2ZClc7gM)
+<https://youtu.be/v9A2ZClc7gM>
 
 **VVVV.JS 2.0**
 
-[](https://youtu.be/C9Oy2NfmWcc)
+<https://youtu.be/C9Oy2NfmWcc>
 
 **VVVV.js Game Engine**
 
-[](https://youtu.be/0CGrbsP-DZY)
+<https://youtu.be/0CGrbsP-DZY>
 
 **Programming DMX and visualizing with grandMA2 - Part 1**
 

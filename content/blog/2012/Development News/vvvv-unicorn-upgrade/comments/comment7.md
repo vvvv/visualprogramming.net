@@ -10,6 +10,6 @@ BUT: just found a **bug**, I think. Reading in an XML file with encoding set to 
 So, UTF8 works great, but breaks the newly-introduced XML nodes. At least with UF8 without BOM.
 I made two patches, one in 28-2 and nearly the same in 28-3-unicorn, so see for yourself.
 
-[](http://dl.dropbox.com/u/36620736/WEB/VVVV/Encoding_XML_Bug.7z)
+<http://dl.dropbox.com/u/36620736/WEB/VVVV/Encoding_XML_Bug.7z>
 
 And a request: please show what encoding Reader thought the file was. Makes debugging easier, I think, as "auto" does not work for everything (e.g. no BOM, which is the official standard for utf8 as far as I know).

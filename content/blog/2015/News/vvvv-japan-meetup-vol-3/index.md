@@ -16,12 +16,12 @@ We have a workshop and information exchange.
 
 
 Japan Meetup vol.1
-[](https://atnd.org/events/59112)
-[](http://junky-inc.blogspot.jp/2014/11/vvvvvvvv.html)
+<https://atnd.org/events/59112>
+<http://junky-inc.blogspot.jp/2014/11/vvvvvvvv.html>
 
 Japan Meetup vol.2
-[](https://atnd.org/events/59754)
-[](http://qiita.com/yhy_jp/items/29102ebea94fba729b16)
+<https://atnd.org/events/59754>
+<http://qiita.com/yhy_jp/items/29102ebea94fba729b16>
 
 
 Contents:
@@ -33,7 +33,7 @@ Contents:
 ![Japan meet up vol.3](10957052_1545372259053924_35431743_o.jpg) 
 
 Spread Sample Patch is here.
-[](https://drive.google.com/open?id=0B-aWXftvAHSxMURuQ2twMkpjczg&authuser=0)
+<https://drive.google.com/open?id=0B-aWXftvAHSxMURuQ2twMkpjczg&authuser=0>
 
 
 Junki Yoshioka

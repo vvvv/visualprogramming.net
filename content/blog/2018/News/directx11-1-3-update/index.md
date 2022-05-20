@@ -43,14 +43,14 @@ For spreadable technique example, see: girlpower\misc\texturefx_technique_spread
 * Renderer (DX11) now outputs input device objects, as well as states, contributed by {{< user "tebjan" >}}
 * Several new convenience Bullet nodes
 * FrameDelays got a fix which was not releasing memory when deleting the node : Also they now block upstream evaluation when disabled (and have auto evaluate flag on)
-* New documentation pages in [](https://github.com/mrvux/dx11-vvvv/tree/master/Docs) . For now full semantics and annotations reference.
+* New documentation pages in <https://github.com/mrvux/dx11-vvvv/tree/master/Docs> . For now full semantics and annotations reference.
 
 #  Patreon and Supporting DirectX11 development
 I of course wanted to say thank you to people who did either a Patreon subscription, or by doing private yearly invoice.
 
 There is now an About (DX11) node, which has the names of all Contributors and Supporters.
 
-[](http://www.patreon.com/mrvux)
+<http://www.patreon.com/mrvux>
 
 #  Next
 For next release, the main aim is to upgrade to latest version of Assimp (and it's c# wrapper).

@@ -17,7 +17,7 @@ For the first time aircraft enthusiasts worldwide are able to directly monitor t
 
 for your world domination starter kit.
 
-[](http://www.kinetic-avionics.co.uk/)
+<http://www.kinetic-avionics.co.uk/>
 <!--~~~-->
 
 ![](_63.)

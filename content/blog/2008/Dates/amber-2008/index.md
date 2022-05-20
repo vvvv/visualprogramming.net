@@ -15,7 +15,7 @@ imported: "true"
 ---
 
 
-[](http://08.a-m-b-e-r.net)
+<http://08.a-m-b-e-r.net>
 
 who ever goes there. please report. i'd like to especially suggest to see palindromes new performance "Das Oklo Phänomen".
 Not sure if i can make it. but if so, i'll let you know.

@@ -30,14 +30,14 @@ Our first meetup was a blast. See the [protocol](https://vvvv.org/404) if you mi
 Lets keep it up.
 Here is the second one.
 
-This time we will have {{< user "lasal" >}} (see [](http://aristidesgarcia-blog.tumblr.com/)) exposing some insights of his latest project. Hopefully this gets us inspired, so that we can have spontaneous discussions/talks/showcases following.
+This time we will have {{< user "lasal" >}} (see <http://aristidesgarcia-blog.tumblr.com/)> exposing some insights of his latest project. Hopefully this gets us inspired, so that we can have spontaneous discussions/talks/showcases following.
 
 So, feel free to bring your project/notebook/questions or whatever you want to share with the community.
 
 There will be a bar serving us drinks.
 There will also be other people around as well.
 
-Thanks go to Lieke and Alfredo who are running the fantastic space [](https://spektrumberlin.de). 
+Thanks go to Lieke and Alfredo who are running the fantastic space <https://spektrumberlin.de>. 
 Thank you Lieke & Alfredo.
 
 RSVP & more info [here](https://www.meetup.com/de-DE/VVVV-Meetup-Berlin/events/252224148/).

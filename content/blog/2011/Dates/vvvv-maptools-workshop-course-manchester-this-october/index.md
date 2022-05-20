@@ -25,4 +25,4 @@ I'm humbly giving a 2-day workshop on VVVV and MapTools October 8,9th at MadLab 
 Expect a beginners 'by the seat of your pants' tour of the VVVV media garage of tools, + projection map your favourite real world dingbats from your very own laptop
 
 For full details and signup, check:
-[](http://omniversity.madlab.org.uk/booking/?regevent_action=register&event_id=24&name_of_event=VVVV+++MapTools+%3A+introduction+to+the+tools+of+projection+mapping)
+<http://omniversity.madlab.org.uk/booking/?regevent_action=register&event_id=24&name_of_event=VVVV+++MapTools+%3A+introduction+to+the+tools+of+projection+mapping>

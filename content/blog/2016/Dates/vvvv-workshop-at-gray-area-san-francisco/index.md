@@ -38,7 +38,7 @@ Enrollment for this workshop is $270 ($30 per hour x 9){{< /box >}}
 
 For complete schedule, requirements and enrollment please visit:
 
-** [](http://grayarea.org/event/vvvv-workshop) **
+** <http://grayarea.org/event/vvvv-workshop> **
 
 hope to see some of you there!
 

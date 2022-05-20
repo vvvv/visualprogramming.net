@@ -18,5 +18,5 @@ File name: 'mp.pddn, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'
    at VVVV.Hosting.Factories.DotNetPluginFactory.LoadNodeInfos(String filename)
    at VVVV.Hosting.Factories.AbstractFileFactory`1.ExtractNodeInfos(String filename, String arguments)
    at VVVV.Hosting.HDEHost.LoadNodeInfos(String filename, String arguments)
-   at VVVV.Hosting.HDEHost.ExtractNodeInfos(String filename, String arguments, INodeInfo[]()& result)
+   at VVVV.Hosting.HDEHost.ExtractNodeInfos(String filename, String arguments, INodeInfo<)& result>
 

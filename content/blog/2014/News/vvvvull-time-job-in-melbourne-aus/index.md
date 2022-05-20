@@ -20,7 +20,7 @@ imported: "true"
 ##  About the studio
 They have a great customer profile: They're doing almost no branding stuff, but educational and interpretive design. You'd be working for Zoos, Museums, Cultural Organisations, or kids' stuff. That implies that the budgets aren't always huge, but hey: no car trade shows!
 As the name "subtly" suggests, they do like marterials and haptic, analogue experiences. So very rarely there will be digital-only environments, and it's more about combining the physical with the digital. 
-Check out   [](http://arterialdesign.com.au) for recent projects.
+Check out   <http://arterialdesign.com.au> for recent projects.
 
 ##  Organizational things: 
 * Of course this is a paid position. You'll have to bring some confidence and be able to work on your own, so it's far from an internship.

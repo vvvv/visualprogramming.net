@@ -10,7 +10,7 @@ originalType: "stuff"
 ---
 
 
-Now that my trusty old Macromedia Freehand (oh, it was "Aldus Freehand", right?) is about to go the way of the Dodo thanks to Adobe Marketing assuming that we buy both Illustrator and Indesign instead, this one shall be my white knight *du jour*: [](http://www.creativedocs.net). 
+Now that my trusty old Macromedia Freehand (oh, it was "Aldus Freehand", right?) is about to go the way of the Dodo thanks to Adobe Marketing assuming that we buy both Illustrator and Indesign instead, this one shall be my white knight *du jour*: <http://www.creativedocs.net>. 
 
 er… it's not exactly finished yet, but already it seems superior to Inkscape or Xara or OpenOffice Draw, and IMHO it does a lot better in many respects than Illustrator CS3 does (Multi-pages!! Hellooo Illustrator??). 
 

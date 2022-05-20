@@ -28,8 +28,8 @@ I am pleased to invite you to the opening of our new VR project Camouflage at Pl
 
 The evening features Camouflage - our new mixed reality game which playfully explores the ways digital technologies enrich and/or suppress our senses. After an interactive VR experience, where the audience can be at the centre of the action, there will be also two new creations of live dance delicately crafted by Renaud and Patricia and performed by an extraordinary cast of international dance artists.
 
-Project website [](http://camouflage.org.uk/)
-FB event [](https://www.facebook.com/events/2085631808335165/)
+Project website <http://camouflage.org.uk/>
+FB event <https://www.facebook.com/events/2085631808335165/>
 
 Hope to see you there
 

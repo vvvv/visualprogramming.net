@@ -28,10 +28,10 @@ Dominik here, vvvv Academy
 As said at the keynode in Frankfurt, we're doing a vvvv Beginner's course in Berlin this summer! 
 
 Here's all the info:
-[](http://vvvv.academy)
+<http://vvvv.academy>
 
 And here's the part of the Keynode where I talk about vvvv Academy:
-[](http://www.youtube.com/watch?v=BKHbEWaHjcw&t=136m50s)
+<http://www.youtube.com/watch?v=BKHbEWaHjcw&t=136m50s>
 
 
 We are still looking for studios and companies who want to sponsor the places for a student/young enthusiast at the course! Please get in touch if you want to give someone the chance to learn vvvv:

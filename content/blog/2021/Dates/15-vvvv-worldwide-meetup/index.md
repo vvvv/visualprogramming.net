@@ -25,7 +25,7 @@ No sign-up, no line-up! We'll just have this an open call that anyone can join. 
 {{< box >}}
 To join the call please use your "name"+"vvvv" and click on the link below:
 
-[](https://us02web.zoom.us/j/89163736451?pwd=V0ZMNFpxVVBBaDl4c2dvc2xRK01mdz09)
+<https://us02web.zoom.us/j/89163736451?pwd=V0ZMNFpxVVBBaDl4c2dvc2xRK01mdz09>
 
 Or [watch the live stream](https://youtu.be/lxpaJjaJg_o)
 {{< /box >}}

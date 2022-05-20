@@ -17,4 +17,4 @@ Gott beschütze die Bundesrepublik Deutschland! (inferno #37)
 * Steve Reich 
 * Reste
 
-[](http://staubgold.podspot.de)
+<http://staubgold.podspot.de>

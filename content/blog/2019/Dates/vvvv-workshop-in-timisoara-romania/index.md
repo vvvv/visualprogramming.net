@@ -29,7 +29,7 @@ We're happy to visit the co(art) festival in romania!
 
 *The event will host workshops, bringing together a mixed team of developers and artists, and will culminate in a public exposition where participants can showcase their projects to a general audience.*
 
-[](https://coart.ro){{< /box >}}
+<https://coart.ro>{{< /box >}}
 
 Our workshop is titled: **Afraid of coding? Try visual programming with vvvv!**
 

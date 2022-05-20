@@ -24,7 +24,7 @@ imported: "true"
 #  Teheran annual digital art exhibition
 [TADAEX](http://www.tadaex.com/2014) has been established as an annual program with a mixture of fascination, curiosity and hope to the future of contemporary art and a commitment to share, introduce and promote digital and inter-disciplinary art with the help of international platforms. 
 
-With the support of the Goethe Institute Teheran, for the 2014 edition NODE - Forum for Digital Arts  [](http://node.vvvv.org) is one of these platforms and through this of course the vvvv world.
+With the support of the Goethe Institute Teheran, for the 2014 edition NODE - Forum for Digital Arts  <http://node.vvvv.org> is one of these platforms and through this of course the vvvv world.
  
 ---
 

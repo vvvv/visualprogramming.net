@@ -15,7 +15,7 @@ There are many changes around, so I'm not too sure where to start.
 
 First thing, versioning has been updated, no more alpha/beta, that joke about "software is always beta" made it's time, but as we say, shortest jokes are the best, and for many users that sounds pointless and confusing, so now build is adopting a more formal version naming eg : release, with beta and alpha being used for in between releases.
 
-Second thing, build system has been reworked and now uses a build server, which allows direct update to git releases, so users who want to try out early releases can do so much more conveniently via [](https://github.com/mrvux/dx11-vvvv/releases)
+Second thing, build system has been reworked and now uses a build server, which allows direct update to git releases, so users who want to try out early releases can do so much more conveniently via <https://github.com/mrvux/dx11-vvvv/releases>
 
 No more need to build the pre releases yourself.
 This also means that users can expect more frequent releases.
@@ -26,7 +26,7 @@ IDX11ResourceProvider and friends have been replaced by IDX11ResourceHost versio
 For this release ResourceProvider is working alongside Host (it is now marked as deprecated and will be removed from git version pretty much as soon as I finished this post.
 Sadly, LayerProvider could not be made to work alongside Host version, so those have been removed already. From what I know there's no custom plugins using it (or they already move to new interface), so on a user perspective there should be no transition issue.
 
-As usual, I think I should have a ready to paste version, and maybe an auto bot to  reply in forums, bugs are to be submitted here [](https://github.com/mrvux/dx11-vvvv/issues)
+As usual, I think I should have a ready to paste version, and maybe an auto bot to  reply in forums, bugs are to be submitted here <https://github.com/mrvux/dx11-vvvv/issues>
 
 
 Ok now let's go past those (boring) announcements details and go through what every user wants eg : What's new  (and download obviously)

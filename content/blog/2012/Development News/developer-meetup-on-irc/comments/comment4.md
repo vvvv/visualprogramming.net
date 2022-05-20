@@ -36,7 +36,7 @@ This idea tallies with 'not all addons belong in the vvvv-SDK'
 ###  Core nodes rewrite
 @gregsn : your proposal is exactly what we choose to go with for OpenCV.
 Please check a simple example at 
-[](https://github.com/smakhtin/VVVV.Nodes.Image/blob/master/OpenCV/src/Filters/S%2BH.cs)
+<https://github.com/smakhtin/VVVV.Nodes.Image/blob/master/OpenCV/src/Filters/S%2BH.cs>
 ( we're doing a lot more in the abstract base class to deal with threading, creation, destruction, etc)
 
 The addition of pin attributes / reflection would be magic so we don't have to pass in/out data manually

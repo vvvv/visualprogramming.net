@@ -28,7 +28,7 @@ The arts and culture program, spearheaded by this year’s curatorial team of Je
 
 Also: in order to be able to shape the program with the community’s needs in mind, we’d like to hear your thoughts about the subject from all of you! Please take a moment to fill out the Google form linked below and let us know if and how environmental concerns affect you.
 
-[](https://forms.gle/N9Xbxsnxj7aCPRPG6)
+<https://forms.gle/N9Xbxsnxj7aCPRPG6>
 
 
 #  What’s going to be different this time

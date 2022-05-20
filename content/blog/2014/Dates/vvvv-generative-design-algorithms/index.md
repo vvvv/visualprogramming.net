@@ -28,4 +28,4 @@ Price: 300 CZK
 
 The workshop will only be held if there are enough participants.
 
-[](http://www.signalfestival.com/2014/en/event/vvvv-generative-design-algorithms/)
+<http://www.signalfestival.com/2014/en/event/vvvv-generative-design-algorithms/>

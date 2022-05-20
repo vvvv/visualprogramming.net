@@ -28,4 +28,4 @@ plus it has an ascii webcam server. and, erm, it's "Rastasoftware".
 
 much Blessings in Jah.
 
-[](http://www.dynebolic.org/)
+<http://www.dynebolic.org/>

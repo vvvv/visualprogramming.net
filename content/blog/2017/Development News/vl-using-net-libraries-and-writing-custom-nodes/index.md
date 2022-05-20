@@ -20,7 +20,7 @@ For vl we came up with a new feature that now allows everyone to simply use oper
 
 Two common scenarios are:
 - you know of a functionality that comes with .NET standard library... simply go to your document > Dependencies > Files > Add .NET Framework Assembly, choose the assembly the functionality you're looking for is in and boom: you can now browser that assembly via the nodebrowser
-- you find a .NET library you want to use on the internet or [](https://nuget.org)... download it, go to your document > Dependencies > Files > Add Existing... choose the file and boom again: browsable via the nodebrowser
+- you find a .NET library you want to use on the internet or <https://nuget.org>... download it, go to your document > Dependencies > Files > Add Existing... choose the file and boom again: browsable via the nodebrowser
 
 As good as this sounds and actually works in many cases, there are cases where using thirdparty libraries directly like this has a few peculiarities, stemming mostly from the fact that those libraries are usually not made to be used in a dataflow scenario like VL. For details, see the gray book on [Using .NET Libraries](https://vvvv.gitbooks.io/the-gray-book/en/reference/libraries/using-net-libraries.html).
 

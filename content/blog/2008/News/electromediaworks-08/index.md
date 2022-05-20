@@ -15,7 +15,7 @@ Medea Electronique, CMCP (Center for Music Composition and Performance) and EPHM
 
 ElectroMediaWorks ’08 is hosted at a 1800-square meter industrial space down town Athens. A complete 16-channel diffusion system will be in place for the electroacoustic works and the live electronics and a 5.1 surround system for the video art installations.
 
-More info at: [](http://www.emw.gr)
+More info at: <http://www.emw.gr>
 
 We are participants with our first interactive intallation called "Skotomini" using VVVV.
-More info at: [](http://www.emw.gr/emw08.php?cat=6&id=is_0005)
+More info at: <http://www.emw.gr/emw08.php?cat=6&id=is_0005>

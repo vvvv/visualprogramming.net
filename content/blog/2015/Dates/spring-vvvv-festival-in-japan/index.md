@@ -35,7 +35,7 @@ Lightning Talk
 Exhibition of art work
 
 Reservation from here.
-[](https://atnd.org/events/64394)
+<https://atnd.org/events/64394>
 
 
 ![Dance x vvvv (Dancing PROTO)](2015-04-02 0.43.37.png) 

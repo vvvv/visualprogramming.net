@@ -24,26 +24,26 @@ imported: "true"
 
 ![](SebastianArnold_11Apr.jpg)
 
-[](https://www.facebook.com/events/445919078890297/)
+<https://www.facebook.com/events/445919078890297/>
 
 **SEBASTIAN ARNOLD (Berlin)** // Indietronica, Future-Jazz, Post-Rock
 The one-man band with Drums, Keyboards and Sequencers plays his new stuff.
 Very trivial vvvvisual support by {{< user "robotanton" >}}.
 
-[](http://www.sebastian-arnold.net),
+<http://www.sebastian-arnold.net>,
 
-[](http://www.facebook.com/sebastian.arnold.berlin)
+<http://www.facebook.com/sebastian.arnold.berlin>
 
 **TRIP AD LIB (Mainz)** // Organic House Music
 Three Instrumentalists and one VJ play minimalistic Realtime-Elektro.
 
-[](http://www.tripadlib.com),
+<http://www.tripadlib.com>,
 
-[](http://www.facebook.com/tripadlib)
+<http://www.facebook.com/tripadlib>
 
 Samstag 11.04.2015 // 21:00 Uhr
 ANTJE ØKLESUND
 Rigaer Straße 71 – 73
 10247 Berlin
 
-[](http://www.antjeoeklesund.de)
+<http://www.antjeoeklesund.de>

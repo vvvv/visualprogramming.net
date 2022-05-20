@@ -87,7 +87,7 @@ To accommodate for the fact that from now on we essentially have 2 products, we 
 The existing question, feature, bug, general sections were moved into vvvv beta, and the vvvv gamma section got its own question, feature, bug and general sub-sections. Note that by default the search is constrained to the category you're currently viewing. When you're using vl in beta, still feel free to ask questions in the beta forum. We'll handle that. 
 
 ## Tutorials
-Head over to this forum section to watch some video tutorials: [](https://discourse.vvvv.org/c/tutorials)
+Head over to this forum section to watch some video tutorials: <https://discourse.vvvv.org/c/tutorials>
 
 ## Pricing
 We've [previously announced](/blog/2019/vvvv-gamma-licensing) the upcoming pricing model for vvvv gamma, which we're currently refining and we'll update you on changes to it soon. 

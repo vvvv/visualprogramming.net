@@ -36,6 +36,6 @@ Registration fee is 300CZK, capacity is limited to 10 participants.
 
 
 For more details, follow the link
-[](http://id144.org/blog/vvvvorkshop-signal-festival-prague/)
+<http://id144.org/blog/vvvvorkshop-signal-festival-prague/>
 
-Lectured by Andrej Boleslavský [](http://id144.org)
+Lectured by Andrej Boleslavský <http://id144.org>

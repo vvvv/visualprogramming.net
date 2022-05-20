@@ -48,4 +48,4 @@ PER INFO E PRENOTAZIONI:
 
 info@slmc.it
 06/89571065
-[](http://www.slmc.it)
+<http://www.slmc.it>

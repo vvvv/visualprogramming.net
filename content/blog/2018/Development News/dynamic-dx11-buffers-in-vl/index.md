@@ -64,7 +64,7 @@ More info: https://developer.nvidia.com/content/understanding-structured-buffer-
 If you are a C# coder you can also define a struct in C# with attribute **StructLayout(LayoutKind.Sequential)** and the same byte layout, import it in VL and pass that directly into the buffer. Then you don't need the node with version *StrideSize* because the data type size already matches.
 
 ```
-[](StructLayout(LayoutKind.Sequential))
+<StructLayout(LayoutKind.Sequential)>
 public struct Circle
 {
     public Vector4 Position;

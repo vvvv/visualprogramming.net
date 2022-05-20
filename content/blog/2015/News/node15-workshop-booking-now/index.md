@@ -13,7 +13,7 @@ imported: "true"
 
 weeks of website buidling and [fighting drupal](http://cdn.sixrevisions.com/0372-02_cms_learning_curve.jpg) resulted in a great digital home for NODE15:
 
-[](http://node15.vvvv.org)
+<http://node15.vvvv.org>
 
 Hopefully you all know this site already, got lost in the program and promising workshop descriptions and are planning your trip to Frankfurt right now.
 

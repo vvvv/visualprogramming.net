@@ -20,7 +20,7 @@ imported: "true"
 ---
 
 
-Click here to book a free place at this event [](http://bit.ly/screenlab0x02).
+Click here to book a free place at this event <http://bit.ly/screenlab0x02>.
 
 ScreenLab in collaboration with the As Yet Impossible series of public lectures would like to invite you to an evening of artistic presentation and discussion at MediaCityUK. You will meet the ScreenLab 0x02 artists who will present the results of their residency at the 'Octave', the University of Salford's Virtual Reality suite, and its flagship facility at MediaCityUK. The evening includes talks from participating and guest artists, the opening of the ScreenLab exhibition, and a panel discussion to debate ‘favourable conditions for creating art of significance within contemporary digital environments’.
  

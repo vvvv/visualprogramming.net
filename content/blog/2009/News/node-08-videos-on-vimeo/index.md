@@ -11,6 +11,6 @@ imported: "true"
 
 finally something to see.
 
-[](http://vimeo.com/node08)
+<http://vimeo.com/node08>
 
 our dear fellow hrovac is maintaining the videos. there is more to come. cheers.

@@ -26,12 +26,12 @@ Digital fabrication (also known as “fabbing”) represents the next step in th
 For artists and designers working with generative systems, digital fabrication opens the door to a range of new expressions beyond the limits of virtual space. Parametric models apply computational strategies to the analysis and synthesis of space, producing structures and surfaces of great complexity. Through fabbing these forms may be rendered tangible, even tactile.
 
 ![](071127_gx20_jaredtarbell.jpg)
-Jared Tarbell: [](http://flickr.com/photos/generated/1165678242/in/set-72157601083923263/)Spheroids and cubes</a>
+Jared Tarbell: <http://flickr.com/photos/generated/1165678242/in/set-72157601083923263/>Spheroids and cubes</a>
 
 
 <strong>Call for participants</strong>
 
-We are looking for 15 artists, designers and architects who have an existing practice based on generative systems and custom software, and who are interested in investigating physical formats through digital fabrication. The workshop will be practical in nature, and will produce a selection of works that will be included in the exhibition at [](DAM). Participants will have access to an on-site laser cutter, and an introduction to this technology will be part of the workshop.
+We are looking for 15 artists, designers and architects who have an existing practice based on generative systems and custom software, and who are interested in investigating physical formats through digital fabrication. The workshop will be practical in nature, and will produce a selection of works that will be included in the exhibition at <DAM>. Participants will have access to an on-site laser cutter, and an introduction to this technology will be part of the workshop.
 
 The workshop is free of charge, but we will not be able to provide support for travel or accomodation. Participants are expected to have experience with programming software that will allow them to produce work suitable for production, such as Processing, VVVV or any other system capable of producing vector output. Previous experience with laser cutting or digital fabrication technologies is a bonus, but not a requirement.
 

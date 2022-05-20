@@ -22,8 +22,8 @@ X-FAB, Grenzstrasse 28, 01109 Dresden, Germany
 
 See ZEN STATION Video:
 
-[](http://www.youtube.com/watch?v=II-fcvc57Jk)
+<http://www.youtube.com/watch?v=II-fcvc57Jk>
 
 Artist Contact:
 
-[](http://www.DeineLieblingsgestalter.de)
+<http://www.DeineLieblingsgestalter.de>

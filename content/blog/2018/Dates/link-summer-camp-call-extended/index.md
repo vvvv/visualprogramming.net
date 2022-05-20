@@ -32,7 +32,7 @@ Only be quick to apply because if in doubt we might sort to a first-come first-s
 
 
 For all information and application, see:
-[](http://link-summercamp.de/)
+<http://link-summercamp.de/>
 for any questions, please don't hesitate to write us to post@link-summercamp.de
 
 Looking forward to your hot patches,

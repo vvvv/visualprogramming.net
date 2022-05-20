@@ -26,10 +26,10 @@ imported: "true"
 We go in the second round and as we have to stay on the move we also have a new Meet Up place that we contracted after todays Lock Picking Workshop:
 
 /dev/lol Developer Lab of Linz
- [](https://devlol.org/wiki/DevLoL/Location)
+ <https://devlol.org/wiki/DevLoL/Location>
 
 Topics:
-- Moritz Haberkorn (morast / [](morast.at)) and Gregor Woschitz (Grogi) will tell us something about past and ongoing projects and techniques. 
+- Moritz Haberkorn (morast / <morast.at)) and Gregor Woschitz (Grogi> will tell us something about past and ongoing projects and techniques. 
 
 - Open Discussion about interesting / new things in the field.
 

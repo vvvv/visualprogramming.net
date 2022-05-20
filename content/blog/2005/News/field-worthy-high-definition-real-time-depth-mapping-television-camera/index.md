@@ -18,5 +18,5 @@ M. Kawakita,  K. Iizuka,  H. Nakamura,  I. Mizuno,  T. Kurita,  T. Aida,  Y. Yam
 
 Short video clips demonstrate how depth information from the camera can be used to create a virtual image in actual television program production
 
-[](http://www.opticsexpress.org/abstract.cfm?URI=OPEX-12-12-2781)
+<http://www.opticsexpress.org/abstract.cfm?URI=OPEX-12-12-2781>
 

@@ -22,4 +22,4 @@ For the second year now, Incas Training und Projekte is holding their 3D Forum, 
 
 Joreg and Tebjan present vvvv in their session: vvvv - a multipurpose toolkit!
 
-Further details and registration: [](http://www.incas-training.de/3DForum)
+Further details and registration: <http://www.incas-training.de/3DForum>

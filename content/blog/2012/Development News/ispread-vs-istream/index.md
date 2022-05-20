@@ -47,7 +47,7 @@ in contrast to many other stream implementations where you'll find those read an
 
 with all this in mind here is an example how reading an entire stream looks like:
 ```
-var buffer = new T[](1024);
+var buffer = new T<1024>;
 using (var reader = stream.GetReader())
 {
   while (!reader.Eos)
@@ -55,7 +55,7 @@ using (var reader = stream.GetReader())
     var numSlicesRead = reader.Read(buffer, 0, buffer.Length);
     for (int i = 0; i < numSlicesRead; i++)
     {
-      var slice = buffer[](i);
+      var slice = buffer<i>;
       // Do something with the slice
     }
   }
@@ -79,7 +79,7 @@ let's write the previous example with a spread:
 ```
 for (int i = 0; i < spread.SliceCount; i++)
 {
-  var slice = spread[](i);
+  var slice = spread<i>;
   // Do something with the slice
 }
 ```
@@ -99,7 +99,7 @@ method calls using stream:
 
 method calls using spread:
   N x spread.SliceCount
-  N x spread[](i)
+  N x spread<i>
   N x i mod N
 
 if B > N it comes down to 4 method calls versus 2 * N method calls + N modulo ops
@@ -112,15 +112,15 @@ doing that with spreads is easy, instead of counting up to N we compute the maxi
 var maxN = spread1.CombineWith(spread2);
 for (int i = 0; i < maxN; i++)
 {
-  var slice1 = spread1[](i);
-  var slice2 = spread2[](i);
+  var slice1 = spread1<i>;
+  var slice2 = spread2<i>;
   // Do something with slice1 and slice2
 }
 ```
 
 method calls:
   1 x CombineWith
-  2 * maxN x spread[](i)
+  2 * maxN x spread<i>
   2 * maxN x i mod maxN
 
 now how do we achieve the same behaviour with streams?
@@ -130,8 +130,8 @@ therefor a call to Read will always return as many elements as requested. we the
 
 ```
 var maxN = stream1.CombineWith(stream2);
-var buffer1 = new T[](1024);
-var buffer2 = new T[](1024);
+var buffer1 = new T<1024>;
+var buffer2 = new T<1024>;
 var reader1 = stream1.GetCyclicReader();
 var reader2 = stream2.GetCyclicReader();
 try
@@ -144,8 +144,8 @@ try
     reader2.Read(buffer2, 0, blockSize);
     for (int i = 0; i < blockSize; i++)
     {
-      var slice1 = buffer1[](i);
-      var slice2 = buffer2[](i);
+      var slice1 = buffer1<i>;
+      var slice2 = buffer2<i>;
       // Do something with slice1 and slice2
     }
     numSlicesToRead -= blockSize;

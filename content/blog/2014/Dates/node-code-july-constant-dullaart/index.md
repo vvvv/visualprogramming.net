@@ -31,7 +31,7 @@ The Dutch artist Constant Dullaart work explores contemporary modes of access, v
 Constant Dullaart (NL 1979), former resident of the Rijksakademie in Amsterdam, lives and works in Berlin. Trained as a video artist, he recently focused his work on visualizing internet vernaculars and software dialects, a political approach critical to corporate systems influencing these contemporary semantics becomes clear through his minimal and sometimes bricolaged gestures. Editing online forms of representation, and the user's access to it, he creates installations and performances online and offline. His work has been shown internationally in places as the Centre Pompidou in Paris, the New Museum in New York, the ICA London, NIMK, de Appel, W139, MassMOCA, UMOCA, and the Stedelijk Museum in the Netherlands. In 2010, Constant Dullaart has been artist in resident of Transforming Freedom in the Museums Quartier, Vienna. One of the results was the first Public Interfacial Gesture Salon in Austria where new media artworks are uploaded online and premiered in a personal atmosphere.
 
 
-[](http://www.constantdullaart.com)
+<http://www.constantdullaart.com>
 
 ---
 

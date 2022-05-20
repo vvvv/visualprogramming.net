@@ -20,7 +20,7 @@ Gastvorträge und ein Workshop zur interdisziplinären Thematik
 Institut für experimentelle Architektur, ./studio 3
 Leopold-Franzens Universität Innsbruck
 
-[](http://www2.uibk.ac.at/gestaltung/studio3)
+<http://www2.uibk.ac.at/gestaltung/studio3>
 
 **Großer Lehrsaal / Technikgelände**  
 

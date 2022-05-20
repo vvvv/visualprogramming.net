@@ -30,6 +30,6 @@ Samstag 20. Mai 2006 | 13:00 Uhr | TYPOlab
  
 Benedikt Gross und Claudius Lazzeroni ermöglichen anhand eines praktischen raumstaben-beispiels den Einstieg in die Entwicklungsumgebung vvvv.
 
-[](http://www.typoberlin.de)
-[](http://www.lazze.de)
-[](http://www.looksgood.de)
+<http://www.typoberlin.de>
+<http://www.lazze.de>
+<http://www.looksgood.de>

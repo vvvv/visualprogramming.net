@@ -31,4 +31,4 @@ Medienexponate im Wandel der Zeit / a keynote by Studio Kreft
 <!--break-->
 Der „World Usability Day“ ist ein weltweit stattfindender Aktionstag zu den Themen Usability, User Experience und Barrierefreiheit. In Dresden lautet das Motto in diesem Jahr „Nutzen oder Lieben?“. In spannenden Vorträgen, Workshops und Podien mit Teilnehmern aus Wissenschaft und Wirtschaft wollen wir Wert und Bedeutung von Benutzerfreundlichkeit in verschiedensten Anwendungsfeldern anschaulich machen. Daneben möchten wir innovative Projekte und wissenschaftliche Hintergründe vorstellen und miteinander ins Gespräch kommen. 
 
-[](http://www.tu-dresden.de/die_tu_dresden/zentrale_einrichtungen/mz/veranstaltungen/konferenzen/2013/wud_in_dresden_2013)
+<http://www.tu-dresden.de/die_tu_dresden/zentrale_einrichtungen/mz/veranstaltungen/konferenzen/2013/wud_in_dresden_2013>

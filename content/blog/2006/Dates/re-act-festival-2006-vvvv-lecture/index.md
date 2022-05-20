@@ -27,7 +27,7 @@ Samstag, 8.April 2006, 18.00 Uhr, Mannheimer Schloss
 Vortrag von Sebastian Oschatz
 *Digitale Interiors mit VVVV*
 
-Ausführliche Informationen und das Programm unter [](http://www.react-festival.de).
+Ausführliche Informationen und das Programm unter <http://www.react-festival.de>.
 
 
 

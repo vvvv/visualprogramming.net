@@ -12,4 +12,4 @@ originalType: "stuff"
 
 The system is driven by 12 linux servers (2 monitors per server) using Distributed Multihead X (DMX) and Chromium. Chromium distributes the OpenGL rendering from the head node to all of the servers. The game runs fairly fast, though some lighting effects had to be turned off and Chromium is having some trouble with the mouse.
 
-[](http://plastk.net/blog/index.php?title=quake_3&more=1&c=1&tb=1&pb=1)
+<http://plastk.net/blog/index.php?title=quake_3&more=1&c=1&tb=1&pb=1>

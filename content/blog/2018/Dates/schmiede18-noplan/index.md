@@ -21,7 +21,7 @@ imported: "true"
 
 *Since 2003, every year, an abandoned industrial salt refinery on an island in Hallein, Austria, opens up, for ten days, to host around 300 Smiths and their ideas. We physically gather in order to get inspired, network, create, present and share. Schmiede provides a basic cooperative prototyping environment and an infrastructure full of impulses and passionate people.*
 
-For all details and application see: [](http://schmiede.ca/apply)
+For all details and application see: <http://schmiede.ca/apply>
 
 **Application closes: May 31st**
 (but i heard from an inside source that it will actually be open till **June 5**)

@@ -35,7 +35,7 @@ Here is the plan: We'll be using again a video-conferencing platform for moderat
 Location: Kyoto
 {{< user "takuma" >}}
 
-[](https://takumanakata.com/)
+<https://takumanakata.com/>
 
 Freelance computational (visual | spatial ) artist based in Kyoto/Japan. Grew up in Brazil, Senegal and in Indonesia, deeply passionate in converting virtual phenomena to a physical experience. Adobe Creative Residency 2019 - 2020. Well know for his growing set of really good vvvv tutorials.
 ![takuma](https://thenodeinstitute.org/wp-content/uploads/2020/07/Screenshot_2020-07-22-NODE_Webinar-pdf.png) 
@@ -46,7 +46,7 @@ Freelance computational (visual | spatial ) artist based in Kyoto/Japan. Grew up
 Location: Frankfurt
 {{< user "david" >}} {{< user "katzenfresser" >}}
 
-[](https://20.nodeforum.org/)
+<https://20.nodeforum.org/>
 
 This is not a project presentation, but David and Johannes will introduce you to this years NODE edition. 
 There's too much to say about it... in short it's about what and how will happen when and what is so special about it.

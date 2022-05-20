@@ -26,7 +26,7 @@ Note, that the OSCReceiver is generic, meaning it'll connect to whatever datatyp
 - f: Float32, d: Float64
 - s: String, c: Char
 - r: RGBA color
-- b: blob byte[]()
+- b: blob byte<>
 - T: true, F: false
 
 In case of multiple floats, you can also directly receive them as vectors. And this works on spreads of the above types and even on tuples, in case you're receiving a message consisting of multiple different types.

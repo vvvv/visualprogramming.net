@@ -46,7 +46,7 @@ two teasers:
 * [another](https://www.youtube.com/watch?v=jjKrE4LZIUI) by {{< user "domj" >}}
 
 and a reminder:
-the vl/xenko powered installation [](http://oceanofair.com) got extended once more and is still on show in london until may 5th!
+the vl/xenko powered installation <http://oceanofair.com> got extended once more and is still on show in london until may 5th!
 
 ## Jobs
 

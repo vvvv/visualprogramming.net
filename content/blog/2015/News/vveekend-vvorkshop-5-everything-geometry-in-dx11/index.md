@@ -17,6 +17,6 @@ The first of the vvisuals session will be about how to deal with DX11 geometry i
 
 NOTE this workshop will be streamed on Sunday instead of Saturday because of some personal reasons. So to summarize: stick your eyes on your interwebz viewer devices on
 
-**6. December, 4PM GMT / 5PM CET [](http://www.twitch.tv/vveekendvvorkshops)**
+**6. December, 4PM GMT / 5PM CET <http://www.twitch.tv/vveekendvvorkshops>**
 
 See you guys on vveekend!

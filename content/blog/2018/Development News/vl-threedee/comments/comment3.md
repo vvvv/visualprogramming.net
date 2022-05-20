@@ -9,7 +9,7 @@ Both options for implementations sound valid. In the Video it appears you create
 
 In this Demo you can create and Edit all the Scene Objects within the Editor ( Import, Position, Animation, Sound, Shader selection, Material editing ) 
 Does this mean that all Shaders, Html-Texture other Plugins would need to be developed for Xenko? Could VL also be the Source for Textures etc?
-This sounds like VL would become something like Bolt Visual-Scripting for Unity but with a lot more features it can access outside of the engines features.  ( [](https://assetstore.unity.com/packages/tools/visual-scripting/bolt-87491) ) 
+This sounds like VL would become something like Bolt Visual-Scripting for Unity but with a lot more features it can access outside of the engines features.  ( <https://assetstore.unity.com/packages/tools/visual-scripting/bolt-87491) > 
 
 
 Would an implementation like Skia ( VL Including Xenko the Rendering Engine ) make it harder to deploy Multiplatform applications from it?  Could this still allow opening "Scenefiles" from the Xenko Editor? Then both Options have the same benefit of Asset Management.

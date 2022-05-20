@@ -20,7 +20,7 @@ The [vvvv Academy website ](http://vvvv.academy)only shows the vvvv Course, as i
 If you are interested, let's get together a group, find dates, and meet once or twice a week for a introduction to VL! We can start with the basics and go into advanced topics as we see fit.
 
 If you haven't seen the vvvv Keynode in Frankfurt, here's the part where I talk about vvvv Academy:
-[](http://www.youtube.com/watch?v=BKHbEWaHjcw&t=136m50s)
+<http://www.youtube.com/watch?v=BKHbEWaHjcw&t=136m50s>
 
 
 Get in touch at NODE or at hello@vvvv.academy if you're interested!

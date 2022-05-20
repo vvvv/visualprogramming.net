@@ -27,7 +27,7 @@ this is where scripter might ease away the learning pain since it **takes care o
 now it is a little bit more true, that you can google some code snippets and just paste them in vvvv to see what it does:
 
 ![copy pasting super formula](0_2016.01.10-17.24.19.png)
-*copy pasted superformula from [](paulbourke.net)*
+*copy pasted superformula from <paulbourke.net>*
 
 ---
 ###  2) for the hacker

@@ -24,7 +24,7 @@ Dear Community!
 
 ##  VVVV's userfestival is back again. We are happy to announce the 3rd edition of NODE Forum for Digital Arts in February 2013. Nominate projects! Open Call starts now!
 
-[](http://node13.vvvv.org/call/)
+<http://node13.vvvv.org/call/>
 _
 ###  About NODE
 
@@ -60,7 +60,7 @@ You can submit your own projects – or project of others that you consider grou
 
 ###  How to enter
 
-Visit [](http://node13.vvvv.org/call/) and send us your proposal via contact form or email. Please provide all information requested. If you have any questions, please let us know!
+Visit <http://node13.vvvv.org/call/> and send us your proposal via contact form or email. Please provide all information requested. If you have any questions, please let us know!
 
 ###  Recidency
 

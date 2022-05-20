@@ -29,4 +29,4 @@ servo motors etc.
 
 Please visit our site for more information:
 
-[](http://www.bluemelon.org/index.php/Main_page/BlueSense)
+<http://www.bluemelon.org/index.php/Main_page/BlueSense>

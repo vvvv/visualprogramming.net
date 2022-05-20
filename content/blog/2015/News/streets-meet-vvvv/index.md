@@ -14,4 +14,4 @@ Street art powered by vvvv
 
 {{< vimeo "131461962" >}}
 
-Full video & info at [](http://suburbansignals.tilda.ws/)
+Full video & info at <http://suburbansignals.tilda.ws/>

@@ -14,4 +14,4 @@ Audio Retrieval by Rhythmic Similarity / Automatic Music Summarization via Simil
 
 ![](http://www.fxpal.com/people/foote/pix/matrix.png)
 
-[](http://www.fxpal.com/people/foote/musicseg)
+<http://www.fxpal.com/people/foote/musicseg>

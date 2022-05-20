@@ -18,7 +18,7 @@ You would rather get a day pass?
 They are coming soon, so stay tuned!
 
 
-[](https://nodeforum.org/journal/node17-tickets/)
+<https://nodeforum.org/journal/node17-tickets/>
 
 
 Looking forward to see you this summer in Frankfurt (Main),

@@ -13,4 +13,4 @@ imported: "true"
 
 ehrmehrgehrd I forgot to announce this! Which is shame because it will be mind blowing. Anyhow tomorrow {{< user "idwyr" >}} will keep a workshop about how to deal with pixel shaders in DX11 in vvvv on vveekend vvorkshops. Tune in at 4PM UTC, 5PM CET or 9PM MSK. See you on sunday!
 
-[](http://www.twitch.tv/vveekendvvorkshops)
+<http://www.twitch.tv/vveekendvvorkshops>

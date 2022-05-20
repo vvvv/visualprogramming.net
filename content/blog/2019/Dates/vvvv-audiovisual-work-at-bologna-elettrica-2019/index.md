@@ -25,7 +25,7 @@ imported: "true"
 
 Hi all,
 
-next Saturday I will be performing a generative work entirely done in vvvv, during an experimental electronic festival in Bologna [](http://www.ecn.org/xm24/evento/bologna-elettrica-2019/?instance_id=37718)
+next Saturday I will be performing a generative work entirely done in vvvv, during an experimental electronic festival in Bologna <http://www.ecn.org/xm24/evento/bologna-elettrica-2019/?instance_id=37718>
 
 The midi patches to external synths have been created with midi patches created in VL.
 The video part is created with the great Instance Noodles pack, playing with sprites and lines @60fps.

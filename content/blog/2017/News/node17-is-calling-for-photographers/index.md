@@ -29,7 +29,7 @@ Be part of our team and please send us an email with your previous work experien
 
 
 **Click here: **
-[](https://nodeforum.org/journal/node17-call-for-photographers/)
+<https://nodeforum.org/journal/node17-call-for-photographers/>
 
 
 

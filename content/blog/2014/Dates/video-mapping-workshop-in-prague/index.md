@@ -23,7 +23,7 @@ imported: "true"
 
 Hi, 
 we're gonna make a vvvv workshop, 28th November - 1st December.
-see [](http://www.recodenature.org/)
+see <http://www.recodenature.org/>
 We will focus on different ways of projection on geometry. We will show you the logic of projection on geometry, which in theory and in practice arise and gradually we will get from simple to complex solutions. 
 
 ![Workshop poster](posterA.jpg) 

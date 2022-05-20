@@ -21,10 +21,10 @@ imported: "true"
 
 
 # Video
-[](http://vimeo.com/35460703)
+<http://vimeo.com/35460703>
 
 # Details and booking__
-[](http://madlab.org.uk/content/vvvv-maptools-introduction-to-the-tools-of-projection-mapping2/)
+<http://madlab.org.uk/content/vvvv-maptools-introduction-to-the-tools-of-projection-mapping2/>
 
 # Overview
 VVVV is powerful toolkit of media technologies, boasting a glut of built in functionality, tools and examples. You can safely presume that you can get it to interface with almost anything you want, it can generate almost anything you want.

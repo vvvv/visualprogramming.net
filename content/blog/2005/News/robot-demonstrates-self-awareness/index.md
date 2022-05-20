@@ -25,6 +25,6 @@ The ground-breaking technology could eventually lead to robots able to express e
 
 Under development by Junichi Takeno and a team of researchers at Meiji University in Japan, the robot represents a big step toward developing self-aware robots and in understanding and modeling human self-consciousness. 
 
-[](http://dsc.discovery.com/news/briefs/20051219/awarerobot_tec.html?source=rss)
+<http://dsc.discovery.com/news/briefs/20051219/awarerobot_tec.html?source=rss>
 
 <!--{SPLIT}-->

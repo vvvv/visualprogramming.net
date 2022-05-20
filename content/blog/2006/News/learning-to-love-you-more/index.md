@@ -27,5 +27,5 @@ assignments include:
 44. Make a "LTLYM assignment".
 48. Make the saddest song.
 
-[](http://www.learningtoloveyoumore.com)
+<http://www.learningtoloveyoumore.com>
 <!--{SPLIT}-->

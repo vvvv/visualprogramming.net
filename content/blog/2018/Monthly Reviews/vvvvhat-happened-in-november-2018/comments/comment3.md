@@ -10,4 +10,4 @@ regarding "more transparency" i need to make sure everyone is aware of these, be
 * we have the [devvvv blog](/blog/23) where we share latests developments as they happen
 * we frequently prerelease to the [wip section](https://discourse.vvvv.org/c/wip) 
 * we have [instant alpha builds](downloads/alphas) where everyone can play with our latest bugs
-* we're available in a [](https://riot.im/app/#/room/#vvvv:matrix.org) basically 24/7 for everyone
+* we're available in a <https://riot.im/app/#/room/#vvvv:matrix.org> basically 24/7 for everyone

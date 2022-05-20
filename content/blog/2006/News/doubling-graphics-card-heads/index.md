@@ -21,8 +21,8 @@ The Image quality looks amazingly good to me.
 
 I think this is a nice and interesting little toy to make a "3 or even 4 head graphics-card" (4 head not tested) out of a normal DualHead graphics card with all the 3d and shader capabilities of the current nvidia or ati cards.
 
-[](http://www.matrox.com/graphics/offhome/dh2go/home.cfm)
-[](http://www.matrox.com/graphics/offhome/dh2go/DualHead2Go_datasheet.pdf)
-[](http://www.trustedreviews.com/article.aspx?page=4957&head=18)
+<http://www.matrox.com/graphics/offhome/dh2go/home.cfm>
+<http://www.matrox.com/graphics/offhome/dh2go/DualHead2Go_datasheet.pdf>
+<http://www.trustedreviews.com/article.aspx?page=4957&head=18>
 
 MSBERGER

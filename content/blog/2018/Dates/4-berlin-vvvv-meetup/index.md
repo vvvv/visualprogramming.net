@@ -35,4 +35,4 @@ As always, feel free to bring your project/notebook/questions or whatever you wa
 
 There will be a bar serving us drinks. There will also be other poeple around as well. This time we share the space with the openframeworks community.
 
-Thanks go to Lieke and Alfredo who are running the fantastic space [](https://spektrumberlin.de).
+Thanks go to Lieke and Alfredo who are running the fantastic space <https://spektrumberlin.de>.

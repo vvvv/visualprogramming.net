@@ -23,7 +23,7 @@ imported: "true"
 
 ¡Hola!
 
-As part of the Platoon - The Global Creative Alliance [](http://www.platoon.org/dates/platoon-mexico-city) we are giving a spontaneous VVVV-beginner-workshop coming Saturday in Mexico City.
+As part of the Platoon - The Global Creative Alliance <http://www.platoon.org/dates/platoon-mexico-city> we are giving a spontaneous VVVV-beginner-workshop coming Saturday in Mexico City.
 We will guide trough the sparkling univvvverse of spreads, transforms and packs and will do together some basic patching.
 
 If you want to take part, please:

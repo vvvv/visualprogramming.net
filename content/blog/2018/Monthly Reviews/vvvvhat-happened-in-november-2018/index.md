@@ -23,7 +23,7 @@ next up: we're going to evaluate where we are with vl-standalone and xenko after
 
 ## Jobs
 
-looking for a job at where it all once started? here are two opportunities at [](http://meso.design)
+looking for a job at where it all once started? here are two opportunities at <http://meso.design>
 * [Senior vvvv developer for media software](https://meso.design/en/articles/wanted-senior-vvvv-developer-for-media-software)
 * [Senior vvvv patcher for creative coding and design](https://meso.design/en/articles/wanted-senior-vvvv-patcher-for-creative-coding-and-design)
 

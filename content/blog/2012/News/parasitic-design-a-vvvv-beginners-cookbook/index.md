@@ -16,7 +16,7 @@ dear beginners,
 with the rise of [generative design](http://en.wikipedia.org/wiki/Generative_Design) (and a bit late) vvvv wants to get its share of the buzz. so in its long tradition of copying the best it gives to you:
 
 **Parasitic Design** a series of demo-patches with detailed explanations that closely resemble the output of their originals which are the processing-examples that come with the book
- [](http://www.generative-gestaltung.de) 
+ <http://www.generative-gestaltung.de> 
 which btw. is available in english and french now!
 
 over the course of the next few weeks we'll release most of the examples of their P chapter (>60) reimplemented as vvvv patches for your studying pleasure. they work nicer with the book at hand but also without the book you should be able to learn by just inspecting the patches.

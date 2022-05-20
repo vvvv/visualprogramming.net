@@ -27,7 +27,7 @@ Both beginners and experts will once more be invited to explore a variety of sub
 
 The **six workshops** will be spread over the two weeks of the festival, which is taking place from April 28 to May 8, 2016 in Geneva. 
 
-**The deadline for registration is April 1, 2016.** Check out our website  [](http://www.mappingfestival.com) for more information and register via the dedicated form!
+**The deadline for registration is April 1, 2016.** Check out our website  <http://www.mappingfestival.com> for more information and register via the dedicated form!
 
 ![Mapping Festival 2016 // 28.04-8.05 // Geneva](Mapping_NeoLogo_Vignette_023.jpg) 
 

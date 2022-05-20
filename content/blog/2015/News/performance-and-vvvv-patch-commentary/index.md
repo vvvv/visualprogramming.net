@@ -18,16 +18,16 @@ Extended version of Humanelectro + Σ(SIGMA) (sigmaproject.net/)
 Without Humanelectro, Takuma Nakata and his friends tried to evolve the Visual part and Interactive Part.
 
 vvvv people
-Director, Performer : Takuma Nakata ([](takumatn.com/))
-Leading Programmer : Hirano Yuki ([](youtube.com/channel/UC3xg6UbFoKFcWcNd7QvbUtw))
-Assistant Programmer : Junki Yoshioka( [](http://junky-inc.tumblr.com/) )
+Director, Performer : Takuma Nakata (<takumatn.com/)>
+Leading Programmer : Hirano Yuki (<youtube.com/channel/UC3xg6UbFoKFcWcNd7QvbUtw)>
+Assistant Programmer : Junki Yoshioka( <http://junky-inc.tumblr.com/) >
 
 Music : Humanelectro
 Concept Art : Sho Matsumoto
 
 Shooting : Shuga
 
-[](https://vimeo.com/124686120)
+<https://vimeo.com/124686120>
 
 -----------------------------------------------------------------------------------
 

@@ -52,5 +52,5 @@ AKUÉRY
 TESSELLA par CYBUNK
 CLINCH meets DIGITAL SLAVES
 
-[](http://www.visionsonic.net/en/index_en.html)Complete Visionsonic 09 Festival info</a>
+<http://www.visionsonic.net/en/index_en.html>Complete Visionsonic 09 Festival info</a>
 

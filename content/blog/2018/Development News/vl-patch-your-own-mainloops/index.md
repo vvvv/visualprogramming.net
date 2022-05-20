@@ -31,7 +31,7 @@ But why would you need your own timer at all if you have a good mainloop already
 ## General Node Design
 In VL the patch of a process node by default has a *Create* and an *Update* operation. *Create* gets called once an instance of the process is created and *Update* gets called periodically by the mainloop. In this process node patch you can place other process nodes that 'plug into' those two operations by placing their own *Create* on the *Create* of the surrounding patch and their *Update* on the *Update* of the surrounding patch.
 
-This is the same for stateful regions like **ForEach ~np~[](Reactive)~/np~**, only that the Update of the ForEach region doesn't get called automatically by the surrounding patch but gets called by the events of the incoming observable. More on that in this blog post: [VL: Reactive Programming](/blog/2017/vl-reactive-programming) 
+This is the same for stateful regions like **ForEach ~np~<Reactive)~/np~**, only that the Update of the ForEach region doesn't get called automatically by the surrounding patch but gets called by the events of the incoming observable. More on that in this blog post: [VL: Reactive Programming](/blog/2017/vl-reactive-programming> 
 
 There are many sources of observable events. For example Mouse, Keyboard and other input devices as well as AsyncTask or MidiIn. The timer nodes work in the same way. The output is an Observable that is on a new thread and either sends the frame number (for the system timer nodes) or a TimerClock (for the MultimediaTimer or BusyWaitTimer). A patch would look like this:
 ![](Timers00.PNG)

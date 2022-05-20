@@ -20,7 +20,7 @@ CYNETART is an international festival for computer-aided art in Dresden. The fes
 
 "Post Mortem" by Jannis Kilian Kreft was awarded with the Cynetart-price 2010 amongst three other great exhibits by artists such as Verena Friedrich, André und Michel Décosterd and Anke Eckhardt.
 
-[](http://t-m-a.de/cynetart/festival2010/winner?lang=en)
+<http://t-m-a.de/cynetart/festival2010/winner?lang=en>
 
 
 ![Post Mortem by Jannis Kreft](CIMG2972.jpg)  ![Post Mortem by Jannis Kreft](CIMG2920.jpg) ![](CIMG2922.jpg) ![](CIMG3061.jpg) ![](CIMG3082.jpg) ![Post Mortem by Jannis Kreft](CIMG3043.jpg)

@@ -39,7 +39,7 @@ Guarda un po’ di video qui e scopri qui tutte le magie di Elliot Woods e del s
 Iscrizioni a questo link.
 
 Details
-[](http://www.opendotlab.it/it/content/workshop-video-mapping-con-elliot-woods)
+<http://www.opendotlab.it/it/content/workshop-video-mapping-con-elliot-woods>
 
 Tickets
-[](http://opendot.fikket.com/event/opendot-workshop-video-mapping-con-elliot-woods)
+<http://opendot.fikket.com/event/opendot-workshop-video-mapping-con-elliot-woods>

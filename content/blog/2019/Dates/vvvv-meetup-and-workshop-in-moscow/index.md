@@ -19,7 +19,7 @@ imported: "true"
 
 привет Moscow!
 
-We're happy to announce a series of vvvv happenings in Moscow on November 8 and 9 in collaboration with [](http://migz.ru). Together with {{< user "elias" >}} I'll [be in town](/blog/2019/vvvv-at-dotnextconf-moscow) and here is what we have planned:
+We're happy to announce a series of vvvv happenings in Moscow on November 8 and 9 in collaboration with <http://migz.ru). Together with {{< user "elias" >}} I'll [be in town](/blog/2019/vvvv-at-dotnextconf-moscow> and here is what we have planned:
 
 ## November 8th
 ### Free Introductory vvvv gamma workshop

@@ -11,12 +11,12 @@ imported: "true"
 
 ![title](http://mint.strukt.com/images/mint-logo4.png)  
 
-UPDATE: Documentation and detailed info is now online [](http://mint.strukt.com/doku.html)
+UPDATE: Documentation and detailed info is now online <http://mint.strukt.com/doku.html>
 
 MINT is a framework for adding multi-touch support to your applications.
 MINT takes care of multi-touch inputs and provides you gestures so that you don`t have to deal with their logic in your application. MINT comes with a set of standard gestures, for special gestures you can make your own scripts using Python. Gesture Scripts can be used in all supported platforms and are interchangeable.
 
-[](http://mint.strukt.com/)
+<http://mint.strukt.com/>
 
 ![title](http://mint.strukt.com/images/m-guy-p-1.gif)
 <!--break-->

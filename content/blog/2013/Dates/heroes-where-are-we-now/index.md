@@ -27,7 +27,7 @@ This Saturday I perform with an extended verion of DMK, perhaps you remember it 
 
 {{< user "sunep" >}}
 
-more info at [](http://www.heroes-for-one-night.com/)
+more info at <http://www.heroes-for-one-night.com/>
 
 from the website:
 

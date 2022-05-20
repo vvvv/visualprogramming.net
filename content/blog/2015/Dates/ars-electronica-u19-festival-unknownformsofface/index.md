@@ -25,7 +25,7 @@ For all of you who are at the Ars Electronica Festival:
 
 A part of the Festival, called U19 Create Your World, will exhibit (among other cool things made by young creative people) the winners of the Prix Ars Electronica u19 category. 
 
-My work [](http://dominikkoller.net/UnknownFormsOfFace) will also be there! It's been awarded an honorary mention.
+My work <http://dominikkoller.net/UnknownFormsOfFace> will also be there! It's been awarded an honorary mention.
 You'll see it running live, right on the spot, patched in vvvv.
 
 See you there!

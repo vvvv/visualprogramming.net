@@ -53,7 +53,7 @@ werden in einer VJ – Performance am Abend präsentiert.
 **Vorherige Anmeldungen unter alex@grobkorn.de erbeten. **
 
 **Referenzen:**
-[](grobkorn) // intolight
+<grobkorn> // intolight
 www.grobkorn.de // www.leuchtkultur.de 
 http://art-on-wires.org/wp-content/uploads/2010/03/marko_ritter.png 
 http://blog.intolight.de

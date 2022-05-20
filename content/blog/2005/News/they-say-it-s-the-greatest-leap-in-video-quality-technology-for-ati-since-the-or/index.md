@@ -10,5 +10,5 @@ originalType: "stuff"
 ---
 
 
-[](http://www.firingsquad.com/hardware/ati_catalyst_5.13_video_quality/)
+<http://www.firingsquad.com/hardware/ati_catalyst_5.13_video_quality/>
 Best of all, Catalyst 5.13 will be a free upgrade scheduled to be released to the public next week.  (via slashdot)

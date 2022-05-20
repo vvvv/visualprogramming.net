@@ -25,7 +25,7 @@ here it is, the second edition of vvvv Academy!
 
 {{< youtube "tVy1y66iNMI" >}}
 
-Here's all the info: [](http://vvvv.academy/winter-course.html)
+Here's all the info: <http://vvvv.academy/winter-course.html>
 
 It will be more compact than the Summer Course - 6 full days, with lectures and patching sessions. Starting January 3rd.
 

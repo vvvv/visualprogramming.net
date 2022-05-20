@@ -19,7 +19,7 @@ After more than 7 years in research and development and a full year of public pr
 
 We believe vvvv gamma is a novel approach to visual programming that brings it to a level where it can be useful beyond its traditional niche. Like this, we hope to continuously grow the community and allow existing users to expand their expertise and allow them to realize more complex and stable programs. 
 
-Still not convinced? Please head over to our preliminary page on [](http://visualprogramming.net) where we've prepared a convenient list of selling points for you. And tell your friends and family!
+Still not convinced? Please head over to our preliminary page on <http://visualprogramming.net> where we've prepared a convenient list of selling points for you. And tell your friends and family!
 
 ## Buy vvvv gamma for commercial use
 

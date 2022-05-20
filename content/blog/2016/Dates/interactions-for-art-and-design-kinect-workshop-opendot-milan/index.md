@@ -34,6 +34,6 @@ During the workshop, recommended to designers, artists and developers, we will p
 (Please, bring your own laptop, ideally a PC or Mac with Bootcamp, and the Kinect sensor, install VVVV in advance if you can.)
 
 
-Workshop is led by Andrej Boleslavský [](http://id144.org)
+Workshop is led by Andrej Boleslavský <http://id144.org>
 
-Capacity is limited to 12 seats, book your ticket at [](http://opendot.fikket.com/event/opendot-workshop-kinect-with-andrej-bolevslasky)
+Capacity is limited to 12 seats, book your ticket at <http://opendot.fikket.com/event/opendot-workshop-kinect-with-andrej-bolevslasky>

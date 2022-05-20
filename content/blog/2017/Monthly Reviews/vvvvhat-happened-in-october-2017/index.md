@@ -52,7 +52,7 @@ also a large number of great projects this time. keep them coming!
 * [Falls the Shadow Dance Performance](/blog/falls-the-shadow-dance-performance) by {{< user "lasal" >}}
 * [Vilhelm week 33](/blog/vilhelm-week-33) by {{< user "sunep" >}}
 * [Captain Longbow’s recursive sexship](https://vimeo.com/236498085) by {{< user "evvvvil" >}}
-* [https://vimeo.com/228214734](https://vimeo.com/228214734) by [moovel lab](https://lab.moovel.com/) in cooperation with [](http://meso.net)
+* [https://vimeo.com/228214734](https://vimeo.com/228214734) by [moovel lab](https://lab.moovel.com/) in cooperation with <http://meso.net>
 
 and a new twitter user to follow: [vvvvmotions](https://twitter.com/vvvvmotions)
 

@@ -33,7 +33,7 @@ Here is the plan: We'll be using again a video-conferencing platform for moderat
 Location: currently Berlin
 {{< user "dottore" >}}
 
-[](http:/natansinigaglia.com)
+<http:/natansinigaglia.com>
 
 the well known doctor promoted to a heart surgent when it comes to developing libraries for VL. the sound and visual artist from Italy will take us on a tour through the latest developments of Elementa - the quasi standard for user interfaces in VL. expect this talk to cover high-level, low-level and awesome-level insights.
 ![natan](https://thenodeinstitute.org/wp-content/uploads/2020/04/Nathan_Sinigaglia.jpg) 
@@ -44,7 +44,7 @@ the well known doctor promoted to a heart surgent when it comes to developing li
 {{< user "nissidis" >}}
 location: Athens
 
-[](https://www.nisidis.com)
+<https://www.nisidis.com>
 
 Constantine is a visual arts professional located in Athens. The technically skilled vvvv long term user always has some hot plates on the oven that are worth a closer look. His latest experiments in VL-land is about interfacing VL and [Blender](https://www.blender.org/) which makes up awhole new world of possible workflows. We will get a sneak-peak to this amazing pipeline called VL.Ender
 
@@ -55,7 +55,7 @@ Constantine is a visual arts professional located in Athens. The technically ski
 location: Berlin
 {{< user "a_a_a_a" >}} & {{< user "mburk" >}}
 
-[](https://andand.xyz/) and also part of [](https://schnellebuntebilder.de/)
+<https://andand.xyz/) and also part of [](https://schnellebuntebilder.de/>
 
 They are interactive designers and media artists and a tag team when it comes to designing complex things. 
 We will be shown some insights to their process of developing a key visual for the upcoming NODE20 festival.

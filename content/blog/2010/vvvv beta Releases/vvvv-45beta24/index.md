@@ -47,7 +47,7 @@ with beta24 you can now edit and compile nodes within vvvvs new built in **CodeE
 
 but not only does beta24 offer the convenience of a built-in editor it also comes with the greatly simplified and improved **PluginInterfaces V2**. writing a node now takes typicall 40% less code and feels much more intuitive. the most important new feature being that inputs and outputs are now generically typed via ISpread<T> (which specifies a pin of type T). thus implementing a set of nodes that handles a custom datatype is now easy as working with primitive types like ISpread<double>. for those curious...yes it is also possible to create a pin like ISpread<ISpread<T>>...think BinSizes. 
  
-all the gory details are documented at: [](http://vvvv.org/pluginspecs).
+all the gory details are documented at: <http://vvvv.org/pluginspecs>.
 
 anyway it is probably best to start from the templates. so in order to code your own node what you do now is: doubleclick (in a patch to create a new node) type "template" to make all the templates show up, choose one and press CTRL+Enter or CTRL+Click. this brings up the clone dialog where you have to give your node a unique name. click the *Clone* button to copy the template (for now only to the \plugins directory) and create an instance of it. on the node you see the little code-icon telling you that with a right-click on that node you can modify its code. edit something and press CTRL+S to save and compile. you'll hardly notice the compilation took place and can immediately see your results if you didn't introduce an error in the code which you would be informed of. it is hard to put magic into words, please try for yourselves...
 

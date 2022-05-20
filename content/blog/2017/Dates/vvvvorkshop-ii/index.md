@@ -44,11 +44,11 @@ If you consider yourself a professional patcher or your company sends you here t
 **TIME**	12am - 6pm (resp. beer o’ clock)
 **LOCATION**	Berlin, Rudolfstraße 11 - Friedrichshain
 
-[](https://goo.gl/maps/9D9u36WihDJ2)
+<https://goo.gl/maps/9D9u36WihDJ2>
 
 Please sign up here: 
 
-[](mailto:vvvvorkshop@schnellebuntebilder.de)
+<mailto:vvvvorkshop@schnellebuntebilder.de>
 
 Your’s truly,
 schnellebuntebilder
@@ -56,4 +56,4 @@ schnellebuntebilder
 Follow Us
 @vvvvorkshop
 
-[](www.schnellebuntebilder.de)
+<www.schnellebuntebilder.de>

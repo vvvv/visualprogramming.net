@@ -32,21 +32,21 @@ Obviusly we'd love to see some vvvvolks there, let us know if you're coming!
 ![Impossible Object 2_01](Impossible%20Object%202_01.jpg) 
 ![Impossible Object 2_06](Impossible%20Object%202_06.jpg)
 
-[](http://www.flickr.com/photos/abstractbirds/)
+<http://www.flickr.com/photos/abstractbirds/>
 
-[](http://www.ensembleinter.com/fr/fiche-concert.php?IDconcert=373)
+<http://www.ensembleinter.com/fr/fiche-concert.php?IDconcert=373>
 
-[](http://www.kourl.ru/)
+<http://www.kourl.ru/>
 
-[](http://www.arcadi.fr/artistesetoeuvres/artisteoeuvre.php?id=935&recherche=les+objets+impossibles)
+<http://www.arcadi.fr/artistesetoeuvres/artisteoeuvre.php?id=935&recherche=les+objets+impossibles>
 
-[](http://www.ircam.fr/)
+<http://www.ircam.fr/>
 
-[](http://www.cite-musique.fr/anglais/evenement.aspx?id=10698)
+<http://www.cite-musique.fr/anglais/evenement.aspx?id=10698>
 
 ---
 
 Lovvvve,
 Abstract Birds
 
-[](http://www.abstractbirds.com/)
+<http://www.abstractbirds.com/>

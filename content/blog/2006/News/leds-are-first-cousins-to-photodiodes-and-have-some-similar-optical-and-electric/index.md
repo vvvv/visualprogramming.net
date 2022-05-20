@@ -11,7 +11,7 @@ originalType: "stuff"
 
 
 while going through the wonderful stuff from Jeff Han:
-[](http://mrl.nyu.edu/~jhan/)
+<http://mrl.nyu.edu/~jhan/>
 
 Helpful Hint #1: Using Inexpensive LEDs as Optical Detectors
-[](http://www.sensorsynergy.com/helpfulhints.htm)
+<http://www.sensorsynergy.com/helpfulhints.htm>

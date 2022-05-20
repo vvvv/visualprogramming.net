@@ -25,7 +25,7 @@ imported: "true"
 
 In July and August the regular NODE+CODE meetup is a guest of the DAM Gallery in Frankfurt.
 
-On August 27th NODE + CODE will virtually invite Matthew Epler, founder of the ReCode Project  [](http://recodeproject.com) , for a Skype talk to DAM Gallery Frankfurt. 
+On August 27th NODE + CODE will virtually invite Matthew Epler, founder of the ReCode Project  <http://recodeproject.com> , for a Skype talk to DAM Gallery Frankfurt. 
 
 https://www.facebook.com/events/440229669407744/
 
@@ -40,10 +40,10 @@ http://www.dam-gallery.de/
 
 NODE+CODE meetups are a monthly digital / art get together organised by basis Frankfurt and NODE Forum for Digital Arts.
 
-[](https://www.facebook.com/pvvvv.frankfurt)
+<https://www.facebook.com/pvvvv.frankfurt>
 
-[](https://twitter.com/p5v4ffm)
+<https://twitter.com/p5v4ffm>
 
-[](http://basis-frankfurt.de/)
+<http://basis-frankfurt.de/>
 
-[](http://node.vvvv.org/)
+<http://node.vvvv.org/>

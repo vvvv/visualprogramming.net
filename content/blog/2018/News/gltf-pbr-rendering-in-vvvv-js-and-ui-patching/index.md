@@ -29,13 +29,13 @@ Further Links:
 
 https://tekcor.github.io/vvvv.js-examples/
 
-[](http://000.graphics/tutorial/03_VVVV.js_Getting_Started.html)
+<http://000.graphics/tutorial/03_VVVV.js_Getting_Started.html>
 
-[](https://github.com/tekcor/vvvv.js)
+<https://github.com/tekcor/vvvv.js>
 
-[](https://github.com/tekcor/vvvv.js-examples)
+<https://github.com/tekcor/vvvv.js-examples>
 
-[](https://github.com/KhronosGroup/glTF)
+<https://github.com/KhronosGroup/glTF>
 
 for more discussion:
 

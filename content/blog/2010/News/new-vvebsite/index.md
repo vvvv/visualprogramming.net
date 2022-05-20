@@ -33,7 +33,7 @@ login is now possible via OpenID, search is improved and quite some more. we bas
 
 now please check your [personal-](https://vvvv.org/home/settings/personal) and [system-settings](https://vvvv.org/home/settings) and your [userpages](https://vvvv.org/users/list). we are aware of some problems that happened during the import of wiki-pages. if you have troubles fixing syntax yourself shout out and we'll give you a hand.  
  
-thanks a lot to all alpha and beta testers and our brave new vvvvebmaster that is David Scharf of [](http://huesforalice.com)
+thanks a lot to all alpha and beta testers and our brave new vvvvebmaster that is David Scharf of <http://huesforalice.com>
 
 it is now in your hands. 
 yours, vvvv group.

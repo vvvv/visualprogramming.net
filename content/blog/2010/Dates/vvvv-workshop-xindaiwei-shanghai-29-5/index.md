@@ -23,6 +23,6 @@ yet another upcoming v4 workshop:
 29th of may, 2pm
 4th floor, XinDaiWei, shanghai
 (4C，Bld 4 IIInShanghai Hub，No.727 Dingxi Road，Changning District，Shanghai, CHINA)
-[](http://xindanwei.com)
+<http://xindanwei.com>
 
 liquid and me are awaiting you there

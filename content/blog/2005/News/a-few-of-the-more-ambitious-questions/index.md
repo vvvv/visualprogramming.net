@@ -10,7 +10,7 @@ originalType: "stuff"
 ---
 
 
-To register for the NKS 2006 Wolfram Science Conference, visit: [](http://www.wolframscience.com/conference/2006/register.cgi)
+To register for the NKS 2006 Wolfram Science Conference, visit: <http://www.wolframscience.com/conference/2006/register.cgi>
 
 * Will algorithm mining revolutionize software development?
 * Is there a core computational architecture in biological cells?

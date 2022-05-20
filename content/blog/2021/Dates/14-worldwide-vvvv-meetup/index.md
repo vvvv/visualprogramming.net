@@ -28,7 +28,7 @@ You are more than welcome! Shortly before the meetup starts, we will share a lin
 {{< box >}}
 To join the call please use your "name"+"vvvv" and click on the link below:
 
-[](https://us02web.zoom.us/j/86374295289)
+<https://us02web.zoom.us/j/86374295289>
 
 Or [watch the live stream](https://youtu.be/L9zy-dJw-HQ)
 {{< /box >}}

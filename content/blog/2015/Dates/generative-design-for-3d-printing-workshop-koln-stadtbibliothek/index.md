@@ -25,10 +25,10 @@ A 3D Printer Workshop with VVVV, Blender and Meshlab.
 Note it is two dates and you have to sign up at the Homepage of the Stadtbibliothek for each one separately
 
 **7. April 16 - 20 Uhr**
-[](http://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/veranstaltungskalender/zentralbibliothek-makerspace-generative-3d-geometrie)
+<http://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/veranstaltungskalender/zentralbibliothek-makerspace-generative-3d-geometrie>
 
 **9. April 16 - 20 Uhr**
-[](http://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/veranstaltungskalender/zentralbibliothek-makerspace-generative-3d-geometrie-1)
+<http://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/veranstaltungskalender/zentralbibliothek-makerspace-generative-3d-geometrie-1>
 
 ![](voronoi%20monome.jpg) 
 

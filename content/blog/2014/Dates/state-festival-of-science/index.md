@@ -63,7 +63,7 @@ Where would film be without time – the fourth dimension that grants movement t
 **Ticket prices**
 6 / 8 / 15 € (Reduced / Regular / Supporter)
 
-[](http://www.statefestival.org/tickets)
+<http://www.statefestival.org/tickets>
 
 **Tuesday / Wednesday**
 **28. + 29. October 2014**
@@ -86,7 +86,7 @@ Imagine Science Films (USA) — Pfadfinderei (DE) — Julian Barbour (University
 
 **Tickets **
 18 / 24 / 45 € (Reduced / Regular / Supporter)
-Pre-sale: [](http://www.statefestival.org/tickets)
+Pre-sale: <http://www.statefestival.org/tickets>
 
 **Friday / Saturday**
 **31. October + 1. November 2014**
@@ -98,6 +98,6 @@ Pre-sale: [](http://www.statefestival.org/tickets)
 
 ---
 
-[](http://www.statefestival.org/)
+<http://www.statefestival.org/>
 
 ---

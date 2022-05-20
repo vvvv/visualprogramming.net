@@ -42,7 +42,7 @@ continued:
 18:23:34 <iorec> yep.
 18:23:37 <iorec> @10?
 18:24:12 <mrvux> ah, just a simple one, for the moment i think only some assemblies are registered for containers right?
-18:24:42 <mrvux> something like [](Import()) ILogger logger;
+18:24:42 <mrvux> something like <Import()> ILogger logger;
 18:25:01 ⇐ phleg (57ea3c62@gateway/web/freenode/ip.87.234.60.98) quit: Ping timeout: 245 seconds
 18:25:32 <thalm_> yes for performance reasons, as MEF is utterly slow
 18:25:57 <mrvux> so are most DI systems afaik

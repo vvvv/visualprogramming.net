@@ -36,7 +36,7 @@ Come in and get in touch if this sounds like you. Drop us a line about yourself 
 
 Spread the word or email us:
 
-[](http://www.lettersaremyfriends.com)
+<http://www.lettersaremyfriends.com>
 info@lettersaremyfriends.com
 
 Address:

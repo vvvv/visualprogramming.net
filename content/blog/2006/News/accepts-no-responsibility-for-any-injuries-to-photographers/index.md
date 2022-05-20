@@ -15,5 +15,5 @@ When art meets, um, sport, kind of (and the results look suspiciously like they 
 "**camera tossing** is a relatively new phenomenon ... so do what feels right for you and explore the photographic opportunities which present themselves"
 
 
-[](http://www.flickr.com/groups/cameratoss/pool/)
-[](http://cameratoss.blogspot.com/)
+<http://www.flickr.com/groups/cameratoss/pool/>
+<http://cameratoss.blogspot.com/>

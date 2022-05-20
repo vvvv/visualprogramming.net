@@ -26,6 +26,6 @@ The projection work, “On Things Off Things On”, is a case study in augmented
 Exhibition opening: 24 November 2007, 8 p.m.
 Duration: 25 November 2007– 13 January 2008
 
-[](http://journal03.staedelschule-onlinegroup.org)
-[](http://www.meso.net/Portikus07)
-[](http://www.portikus.de)
+<http://journal03.staedelschule-onlinegroup.org>
+<http://www.meso.net/Portikus07>
+<http://www.portikus.de>

@@ -27,4 +27,4 @@ How to vvvv and lasercut? How to combine sensors, motors and Arduinos in a funct
 
 **For details see: **
 
-[](http://www.createartandtechnology.de)
+<http://www.createartandtechnology.de>

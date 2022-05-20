@@ -16,7 +16,7 @@ the easiest way to write a plugin with a texture output was by extending the [DX
 
 well it's nearly as simple as that now. you can create a texture output by writing 
 ```
-[](Output("Texture"))
+<Output("Texture")>
 ISpread<TextureResource> FMyTextureOut;
 ```
 
@@ -35,7 +35,7 @@ the constructor of the TextureResource class takes up to four arguments:
 
 so in order to create a texture we need to do this:
 ```
-FMyTextureOut[](i) = TextureResource.Create(i, CreateTexture);
+FMyTextureOut<i) = TextureResource.Create(i, CreateTexture>;
 ...
 Texture CreateTexture(int slice, Device device) {
   return new Texture(device, ...);
@@ -49,7 +49,7 @@ the static TextureResource.Create method does nothing more than calling new Text
 
 if we want to update the texture when some input changes:
 ```
-FMyTextureOut[](i) = TextureResource.Create(i, CreateTexture, UpdateTexture);
+FMyTextureOut<i) = TextureResource.Create(i, CreateTexture, UpdateTexture>;
 ...
 void UpdateTexture(int slice, Texture texture) {
   // Do something with the texture
@@ -59,7 +59,7 @@ void UpdateTexture(int slice, Texture texture) {
 and if something special needs to be done when destroying the texture:
 
 ```
-FMyTextureOut[](i) = TextureResource.Create(i, CreateTexture, UpdateTexture, DestroyTexture);
+FMyTextureOut<i) = TextureResource.Create(i, CreateTexture, UpdateTexture, DestroyTexture>;
 ...
 void DestroyTexture(int slice, Texture texture) {
   // Destroy the texture

@@ -37,7 +37,7 @@ Instead of starting/stopping a recording with the CTRL+4 shortcut you can also t
 ## Sharing your recordings
 Unfortunately, due to the size of recordings, we cannot offer an automatic upload to vvvv.org for sharing your animations. What's new though is that you can now embed animated gifs in blogs, wiki-pages and the forum. 
 
-Also it seems to me that [](http://giphy.com) is a nice service to manage your (now quickly growing) library of gifs. Best feature: they allow anonymous uploads! One problem I found is that even if you tag an upload with 'vvvv' it won't show up in the respective search. When asked about the reason for this giphy answered thats for some privacy reason but they want to change that in the future. So still don't forget to tag your uploads already!
+Also it seems to me that <http://giphy.com) is a nice service to manage your (now quickly growing> library of gifs. Best feature: they allow anonymous uploads! One problem I found is that even if you tag an upload with 'vvvv' it won't show up in the respective search. When asked about the reason for this giphy answered thats for some privacy reason but they want to change that in the future. So still don't forget to tag your uploads already!
 
 And then share your account in the comments (for now). I found at least one celebrity user already: 
  https://giphy.com/channel/evvvvil 

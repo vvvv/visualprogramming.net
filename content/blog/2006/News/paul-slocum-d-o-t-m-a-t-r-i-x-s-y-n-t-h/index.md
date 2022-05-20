@@ -14,13 +14,13 @@ The original intent for the printer was just to create a mellotron-like instrume
 
 The printer mellotron runs off cassette tape. I recorded different notes from a synthesizer onto cassette tape on all four tracks. Afterwards, I pulled the tape out of the cassette and glued it to the paper roller on the printer, then wrote code for the printer to turn the paper roller at a constant speed. To "read" the tape on the roller, I use a modified walkman. I removed the play head from the walkman and remounted it on the outside, so pressing the head against the tape on the roller allows you to hear the tones. Placing the head against different pieces of tape allows you to selectively play different notes.
 
-[](http://qotile.net/dotmatrix1.html)
+<http://qotile.net/dotmatrix1.html>
 
 With version 2 of the software, I changed the direction of the project a bit. 
-[](http://qotile.net/dotmatrix2.html)
+<http://qotile.net/dotmatrix2.html>
 
 ---
 
-here's "Untangling MIDI", a MIDI edu-tisement video that covers everything you need to know to get started. My friend Robbie found it at the public library. Last checked out in '96. [](http://qotile.net/videos.html)
+here's "Untangling MIDI", a MIDI edu-tisement video that covers everything you need to know to get started. My friend Robbie found it at the public library. Last checked out in '96. <http://qotile.net/videos.html>
 
 

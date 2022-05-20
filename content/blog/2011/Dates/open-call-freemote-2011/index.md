@@ -26,4 +26,4 @@ FREEMOTE 11 is a gathering of electronic artists & a shared exposure event in a 
 To complete the program in october, we invite you to send in proposals and links for AV performances, lectures, workshops & masterclasses, installations, motion graphics and interactive works.
 
 More info:
-[](http://www.vimeo.com/28520531)
+<http://www.vimeo.com/28520531>

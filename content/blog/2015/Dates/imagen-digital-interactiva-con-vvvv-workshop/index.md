@@ -28,4 +28,4 @@ El objetivo del taller es iniciar a los asistentes en programación con *VVVV* y
 
 El taller va dirigido a artistas y/o diseñadores que les interesa el arte electrónico y quieren empezar a programar. No es necesario que tengan experiencia en programación, sólo conocimientos básicos de computación.
 
-Más información acá: [](http://www.localdearte.com/talleres03/vvvv-1)
+Más información acá: <http://www.localdearte.com/talleres03/vvvv-1>

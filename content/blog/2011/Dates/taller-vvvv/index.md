@@ -19,7 +19,7 @@ imported: "true"
 ---
 
 
-[](http://panoramica.cc/taller_vvvv_juguete.php)
+<http://panoramica.cc/taller_vvvv_juguete.php>
 
 Taller vvvv
 Entorno de programación gráfica

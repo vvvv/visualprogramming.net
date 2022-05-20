@@ -12,5 +12,5 @@ originalType: "stuff"
 
 ![VVVV Realtime Christmas Card](http://i.giphy.com/3o8doTXoQnFbhTbypO.gif) 
 
-Greetings from [](http://prefrontalcortex.de)
+Greetings from <http://prefrontalcortex.de>
 herbst, pk, FlippyFriday

@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-#  [](http://dada-acta.eu/)
+#  <http://dada-acta.eu/>
 ![title](http://dada-acta.eu/wp-content/uploads/2012/02/dadaACTa.png)
 
 ##  this is huge release of about 57 tracks and few visual works against ACTA!

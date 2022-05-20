@@ -41,7 +41,7 @@ Deadline for Applications is the 31st of July!
 **APPLY NOW!**
 
 Please download and fill out the Application Form:
-[](https://drive.google.com/open?id=1eRVMQ1Ku9IwMwMe9M52RsHUNYSb5L42Y)
+<https://drive.google.com/open?id=1eRVMQ1Ku9IwMwMe9M52RsHUNYSb5L42Y>
 
 Once you have completed your application, please ensure it is accompanied by the following:
 

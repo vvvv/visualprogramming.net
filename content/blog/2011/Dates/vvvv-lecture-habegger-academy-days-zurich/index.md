@@ -25,7 +25,7 @@ imported: "true"
 
 vvvv lecture at the Habegger Academy Days in Regensdorf (Zürich), Switzerland.
  
-[](http://www.habegger.ch/academy/weiterbildungfrfachpersonal/) 
+<http://www.habegger.ch/academy/weiterbildungfrfachpersonal/> 
 
 **Joreg (vvvv Group)** will host a vvvv lecture on tuesday the 6th of december. At the same day there is a "Pandoras Box" lecture too. So it will be a very interesting afternoon.
 Looking forward to see you there!
@@ -38,10 +38,10 @@ vvvv ist eine grafische Programmierumgebung zur Lösung von Medienproblemen. Gru
 Kostenfreiheit für nicht kommerzielle Nutzung und ein liberales Lizenzmodell für den ertragreichen Einsatz runden die Vorteile ab.
 Anmeldung:
 
-[](http://www.habegger.ch/academy/weiterbildungfrfachpersonal/)
+<http://www.habegger.ch/academy/weiterbildungfrfachpersonal/>
 
 Programmheft:
 
-[](http://www.habegger.ch/fileadmin/dateiablage/Academy/Habegger_AceademyDays11_Programmheft.pdf)
+<http://www.habegger.ch/fileadmin/dateiablage/Academy/Habegger_AceademyDays11_Programmheft.pdf>
 
 ![academydays2011](hag%20academyweek%202%202012.PNG) 

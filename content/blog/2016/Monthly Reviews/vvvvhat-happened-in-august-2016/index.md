@@ -53,7 +53,7 @@ aaaand we are grateful to {{< user "ravazquez" >}} who translated quite some wik
 {{< vimeo "165759910" >}}
 *Folding Patterns by Ann-Katrin Krenz*
 
-If Mrs. Krenz thinks she gets away with this, without doing a related workshop at node17 she has cut herself (traditional austrian saying). More beauty on [](http://frau-krenz.de/folding-patterns)
+If Mrs. Krenz thinks she gets away with this, without doing a related workshop at node17 she has cut herself (traditional austrian saying). More beauty on <http://frau-krenz.de/folding-patterns>
 
 {{< user "blausand" >}} demoes his [Oktoskop](https://vimeo.com/178024144).
 

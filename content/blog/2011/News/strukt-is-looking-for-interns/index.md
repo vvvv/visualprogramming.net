@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-Strukt Design Studio [](http://strukt.com), based in Vienna, Austria, is looking for an interns. We create interactive media installations and design concepts for corporate and cultural events.
+Strukt Design Studio <http://strukt.com>, based in Vienna, Austria, is looking for an interns. We create interactive media installations and design concepts for corporate and cultural events.
 
 As an intern you will work on projects as supporting staff member. You will almost never have to fix us coffee or pick up our food, no worries. We want you to be an essential part of the production. We will most likely challenge you, but in return we will award you with more and more responsibility during jobs.
 

@@ -22,7 +22,7 @@ imported: "true"
 
 
 BYOB is a celebration of the new world we live in and a glimpse of what computing could look like in the future. Today the internet is confined to screens. Tomorrow information will surround us, composing our surfaces, defining our spaces, enmeshing itself with the ether. A moving image is never an object, and when it is coupled with the increased flexibility of portable projection, the realm of experience quickly expands. 
-[](Rafaël%20Rozendaal,%20www.newrafael.com/83-byobs-so-far/)
+<Rafaël%20Rozendaal,%20www.newrafael.com/83-byobs-so-far/>
 
 If you got a projector and you are ready to share your art, pack your gear and come! for info, questions, hosting etc mail to sarchiapone@yahoo.com
 ![](VVVV.jpg) 

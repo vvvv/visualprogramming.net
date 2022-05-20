@@ -97,7 +97,7 @@ Call image file in this way:
 Image_name of author.jpg
 Make a compressed folder (.zip/.rar) with all file and call it in this way: Title of video_name of author.zip/.rar
 
-You must utilize a service for big files transfer like We Transfer  and sends all to info[](at)glowfestival.it with object:
+You must utilize a service for big files transfer like We Transfer  and sends all to info<at>glowfestival.it with object:
 glowfestival_2014_Title of video_name of author
 
 

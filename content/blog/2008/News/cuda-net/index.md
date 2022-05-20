@@ -15,4 +15,4 @@ The library currently provides .NET bindings for CUDA functions, allowing progra
 
 The provided file contains a .NET library that can be used from any .NET application and language, along with examples in C# and Python showing how to use the library. The API is very straight forward and compatible with CUDA API available for C applications with few modifications to ease development and align with .NET standards. 
 
-[](http://www.gass-ltd.co.il/products/cuda.net/)
+<http://www.gass-ltd.co.il/products/cuda.net/>

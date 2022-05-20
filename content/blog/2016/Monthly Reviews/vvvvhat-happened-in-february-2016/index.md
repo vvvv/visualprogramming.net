@@ -54,7 +54,7 @@ also {{< user "tekcor" >}} sent in his latest work, a hybrid system of vvvv and 
 
 {{< user "microdee" >}} organized another vveekend vvorkshop with {{< user "antokhio" >}} who gave an introduction to Raymarching. as usual you can watch them all in the [vveekend vvorkshops youtube channel](https://www.youtube.com/channel/UCa8Vqigdbq5Gam_6dcGdNBw).
 
-and if you're free between april 12-16th come to [](http://resonate.io) and join the 3 day intensive VL workshop with {{< user "gregsn" >}} and {{< user "elias" >}}.
+and if you're free between april 12-16th come to <http://resonate.io> and join the 3 day intensive VL workshop with {{< user "gregsn" >}} and {{< user "elias" >}}.
 
 ## what the [VL](https://betadocs.vvvv.org/using-vvvv/vl.html)?
 

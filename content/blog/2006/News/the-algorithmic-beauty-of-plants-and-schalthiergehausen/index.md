@@ -17,12 +17,12 @@ The Algorithmic Beauty of Plants by Przemyslaw Prusinkiewicz and Aristid Lindenm
 An electronic version has been produced using the original LaTeX files and digital illustrations.
  
 Download here
-[](http://algorithmicbotany.org/papers/abop/abop.pdf)
-[](http://algorithmicbotany.org/papers)
+<http://algorithmicbotany.org/papers/abop/abop.pdf>
+<http://algorithmicbotany.org/papers>
 
 Vorschmack einer vollständigen systematischen Geschichte der Schalthiergehäuse von Joachim Johann Nepomuk Anton Spalowsky, der freyen Künste und Weltweisheit, wie auch der Arzeneykunde Doctor, und erstem Stabsmedicus des löbl. bürgerlichen Regiments der K. K. Residentzstadt Wien, der K. böhm. Gesellschaft der Wissenschaften 
 1795
 
 herunterzuladen hier:
-[](http://www.sil.si.edu/DigitalCollections/NHRareBooks/Spalowsky/SIL6-1-_1Page115.html)
+<http://www.sil.si.edu/DigitalCollections/NHRareBooks/Spalowsky/SIL6-1-_1Page115.html>
 (via Bibliodyssey)

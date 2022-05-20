@@ -30,7 +30,7 @@ We have 5 main focuses but we'd love to hear about your projects even if you dou
 * Interactive Media
 
 We are also looking for participants from outside of Tehran who can present their work via Skype.
-Check out our website at [](http://re-shape.io/) for more details and click on register to join our presenters and sign up to our mailing list on the website for announcements and more information. 
+Check out our website at <http://re-shape.io/> for more details and click on register to join our presenters and sign up to our mailing list on the website for announcements and more information. 
 
 We look forward hearing from you with a submission.
 Re-Shape

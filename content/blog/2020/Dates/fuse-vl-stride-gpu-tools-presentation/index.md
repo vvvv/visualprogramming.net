@@ -45,7 +45,7 @@ We are presenting this project in greater detail on 14th Dec 2020 at 21:00 CET t
 Project Info: [vvvv.org/fuse-project](https://discourse.vvvv.org/t/fuse-project/19000)
 
 The event is kindly hosted by the NODE Institute.
-[](https://thenodeinstitute.org/event/the-fuse-project/)
+<https://thenodeinstitute.org/event/the-fuse-project/>
 
 Best regards,
 Natan & Kyle

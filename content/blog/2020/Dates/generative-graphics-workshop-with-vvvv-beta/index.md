@@ -47,4 +47,4 @@ Workshop Outline • Introduction to vvvv
 Online Workshop This 6 hours online workshop will be held as two 3 hours workshop over two days via video webinar. We will have an online community chat to share your questions during and beyond the workshop. Please contact us if you have any additional questions at creativedev@grayarea.org.
 
 
-[](https://grayarea.org/workshop/generative-graphics-workshop-with-vvvv/)
+<https://grayarea.org/workshop/generative-graphics-workshop-with-vvvv/>

@@ -10,7 +10,7 @@ originalType: "stuff"
 ---
 
 
-has the typical glossy vaporware look, but nice: [](http://www.sensacell.com)
+has the typical glossy vaporware look, but nice: <http://www.sensacell.com>
 
 ![](http://www.sensacell.com/Pix/Photos-movies-PIX/Sensa-Module-1-cropped.jpg)
 

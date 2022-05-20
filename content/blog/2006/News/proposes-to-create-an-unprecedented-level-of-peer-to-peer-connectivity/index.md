@@ -10,7 +10,7 @@ originalType: "stuff"
 ---
 
 
-[](http://hamachi.cc/howitworks)
+<http://hamachi.cc/howitworks>
 
 Hamachi is a zero-configuration virtual private networking application with an open security architecture and NAT-to-NAT traversal capabilities. 
 

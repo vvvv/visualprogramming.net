@@ -30,8 +30,8 @@ imported: "true"
 ''VVVV.js features many essential JavaScript and WebGL programming methods packed in a set of over 300 nodes. The browser-based patch editor enables you to get started right now on any platform and it is possible to quickly deploy your application to web and mobile.
 *\*\*Recently VVVV.js received a huge update which implements advanced rendering techniques like physical based rendering, instancing and depth-buffer based post effects.\*\**
 
-To jump right into action follow this link: [](https://tekcor.github.io/vvvv.js-examples/)
-There is also a very detailed overview in written form here: [](http://000.graphics/tutorial/02_VVVV.js_Introduction.html)
+To jump right into action follow this link: <https://tekcor.github.io/vvvv.js-examples/>
+There is also a very detailed overview in written form here: <http://000.graphics/tutorial/02_VVVV.js_Introduction.html>
 or watch the video:
 
 
@@ -55,7 +55,7 @@ In detail we will look at the following topics:
 **Booking and Fees**
 
 Reserve your workshop seat now via 
-[](mailto:vvvvorkshop@schnellebuntebilder.de)
+<mailto:vvvvorkshop@schnellebuntebilder.de>
 
 There will be a fee of 50,00 € per attendee (recerving room + support for lecturer).
 If you consider yourself a professional or your company sends you here, we use T.R.U.S.T to encourage you to pay a professional fee, which is 200,00 €.
@@ -64,7 +64,7 @@ If you consider yourself a professional or your company sends you here, we use T
 
 **If you can`t make it to berlin but want to learn it, **
 **consider joining my online course or receive direct mentoring by becomming a Patreon. Your support will accelerate the development of this amazing framework.**
-** [](https://www.patreon.com/davidgann)**
+** <https://www.patreon.com/davidgann>**
 
 
 

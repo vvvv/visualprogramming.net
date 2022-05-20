@@ -10,7 +10,7 @@ imported: "true"
 
 
 #  100+ Selected vvvv Projects!
-At [](http://vvvv.academy)
+At <http://vvvv.academy>
 {{< youtube "LpD-hbJOXBk" >}}
 
 If you want your own Project submitted, there's a big button where you can send us your proposal.

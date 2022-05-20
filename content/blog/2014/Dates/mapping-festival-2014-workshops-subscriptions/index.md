@@ -26,7 +26,7 @@ After its success in 2013, we repeat the formula discerning professional worksho
 
 Informations and subscriptions on our website:
 
-[](www.mappingfestival.com)
+<www.mappingfestival.com>
 
  
 {{< box >}}
@@ -39,7 +39,7 @@ Deadline: April 7th 2014!
  
 
 **NY MAPPATHON (May 28 to 30)** 
-[](http://www.mappingfestival.com/2014/en/workshops/ny-mappathon/)
+<http://www.mappingfestival.com/2014/en/workshops/ny-mappathon/>
 
 Conducted by CHiKA (US) with collaborators Anton Marini (US), Tom Butterworth (UK) and David Lublin (US).
 NY Mappathon, a workshop focused on learning projection mapping, aims to create a site specific installation through collaborative work.
@@ -47,7 +47,7 @@ NY Mappathon, a workshop focused on learning projection mapping, aims to create 
  
 
 **MAPPING 2.0 (May 24 to 28)** 
-[](http://www.mappingfestival.com/2014/en/workshops/mapping-2-0/)
+<http://www.mappingfestival.com/2014/en/workshops/mapping-2-0/>
 
 Conducted by Mike Latona (BE).
 Intended for video artists wishing to deepen their knowledge of actual mapping softwares, image creation and production of permanent installations.
@@ -55,7 +55,7 @@ Intended for video artists wishing to deepen their knowledge of actual mapping s
  
 
 **GENERATIVE PHYSICAL STRUCTURE (May 23 to 25)** 
-[](http://www.mappingfestival.com/2014/en/workshops/generative-physical-structure/)
+<http://www.mappingfestival.com/2014/en/workshops/generative-physical-structure/>
 
 Conducted by Laurent Novac (CH).
 An exploration in the field of generative art and the use of physical principles for the generation of objects, both 'implausible' and 'natural'.
@@ -63,7 +63,7 @@ An exploration in the field of generative art and the use of physical principles
  
 
 **3D LED FASHION (May 26 to 29)** 
-[](http://www.mappingfestival.com/2014/en/workshops/3d-led-fashion-and-some-video-mapping/)
+<http://www.mappingfestival.com/2014/en/workshops/3d-led-fashion-and-some-video-mapping/>
 
 Conducted by MadMapper creators Boris Edelstein (CH) & François Wunschel (FR).
 This workshop will offer a full range of practical applications on LEDs and video mapping using MadMapper, a software from GarageCube and 1024 architecture.
@@ -71,7 +71,7 @@ This workshop will offer a full range of practical applications on LEDs and vide
  
 
 **STAGE DESIGN (May 25 to 28)** 
-[](http://www.mappingfestival.com/2014/en/workshops/stage-design/)
+<http://www.mappingfestival.com/2014/en/workshops/stage-design/>
 
 Conducted by Adrien Boulanger (FR), Pierre Turlotte (FR) & Rochel Mancip (FR).
 How to set up a scenography in the Zoo Club (Geneva). Participants will go through all stages, designing, building and operating the scenography.
@@ -79,7 +79,7 @@ How to set up a scenography in the Zoo Club (Geneva). Participants will go throu
  
 
 **MODULE PROGRAMMING WITH MODUL8 (May 22 to 24)** 
-[](http://www.mappingfestival.com/2014/en/workshops/module-programming-with-modul8/)
+<http://www.mappingfestival.com/2014/en/workshops/module-programming-with-modul8/>
 
 
 Conducted by Andy Teasdale (UK) & Gaël Abbeg (aka LUPIN) (FR).

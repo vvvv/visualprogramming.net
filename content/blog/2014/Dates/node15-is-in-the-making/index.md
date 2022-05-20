@@ -35,7 +35,7 @@ We would be glad if you support the exhibition & lecture program by contributing
 support us here:
 
 {{< box >}}
-[](https://www.startnext.de/nodeforum15){{< /box >}}
+<https://www.startnext.de/nodeforum15>{{< /box >}}
 
 
 
@@ -49,4 +49,4 @@ Stay tuned for tickets!
 See you in Frankfurt soon!!
 
 {{< box >}}
-[](node15.vvvv.org){{< /box >}}
+<node15.vvvv.org>{{< /box >}}

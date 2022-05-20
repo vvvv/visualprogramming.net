@@ -23,15 +23,15 @@ you can disable the implicit call to Sync by setting the new property AutoValida
 
 here's an example code how a sample and hold could look like:
 ```
-[](Input("Input",%20AutoValidate%20=%20false))
+<Input("Input",%20AutoValidate%20=%20false)>
 ISpread<T> FInput;
-[](Input("Set"))
+<Input("Set")>
 ISpread<bool> FSetIn;
-[](Output("Output"))
+<Output("Output")>
 ISpread<T> FOutput;
 ...
 public void Evaluate(int spreadMax) {
-  if (FSetIn[](0)) {
+  if (FSetIn<0)> {
     FInput.Sync();
     FOutput.AssignFrom(FInput);
   }

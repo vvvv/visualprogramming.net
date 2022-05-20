@@ -18,7 +18,7 @@ right now, we're looking for volunteers to help in this process, to run this yea
 Volunteers are an integral part of NODE. What about you, your friends, colleagues, digital enthusiasts and others? Want to get involved? Be part of our team, get a look behind the scenes, discover your skills, contribute your energy and enjoy the festival!
 
 Click here for more information: 
-[](https://nodeforum.org/journal/node17-call-for-volunteers/)
+<https://nodeforum.org/journal/node17-call-for-volunteers/>
 
 
 Please send us an email with your area of interest or the duties that you would like to get involved with to

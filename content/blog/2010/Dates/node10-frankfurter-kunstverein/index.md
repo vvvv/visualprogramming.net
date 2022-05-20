@@ -32,7 +32,7 @@ In lectures followed by symposia, international artists, cultural workers and te
 Curators of the exhibition: [Eno Henze](http://www.enohenze.de),[ Marius Watz](http://www.unlekker.net)
 Curation of the workshops: [Joreg](http://joreg.ath.cx/) (vvvv group)
 Organizer: NODE e.V. (in Foundation) in cooperation with the Frankfurter Kunstverein and the vvvv group.
-[](http://node.vvvv.org)
+<http://node.vvvv.org>
 
 for latest updates join our[ facebook group](http://groups.to/nodeforum)!
 

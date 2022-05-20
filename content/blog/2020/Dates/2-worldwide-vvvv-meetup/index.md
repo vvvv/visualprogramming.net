@@ -34,7 +34,7 @@ We will have a little interview with user {{< user "domj" >}} who started our we
 ###  Davide di Franco 
 Location: Italy
 
-[](http://www.didif.it/)
+<http://www.didif.it/>
 {{< user "ddf" >}}
 
 Inspired by the Structuresynth he has recently programmed a tool to develop arrays of primitives in order to create instant shells that I will be printing in 3D. To do this he is using InstanceNoodles, Superphysical and VAudio engine. 
@@ -46,7 +46,7 @@ Inspired by the Structuresynth he has recently programmed a tool to develop arra
 ###  Alvaro Martin Treviño
 Location: Madrid, Spain
 
-[](https://www.instagram.com/artstrevinho/)
+<https://www.instagram.com/artstrevinho/>
 {{< user "AKa-visuals" >}}
 
 Álvaro Martín Treviño aka {{< user "AKa-visuals" >}}is a visual artist with extensive training in audiovisual production and postproduction and knowledge of realtime applications. A wide professional career endorses him both in audiovisual postproduction for television and in real-time events, carrying out advertising campaigns and live events. See (https://vimeo.com/90342955)
@@ -59,8 +59,8 @@ He will talk about his work on [VL.FastNoise](https://discourse.vvvv.org/t/vl-fa
 ###  Vadmin Epstein
 Location: Moskow, Russia
 
-personal  [](http://eps.here.ru)
-studio [](https://in-visible.ru)
+personal  <http://eps.here.ru>
+studio <https://in-visible.ru>
 {{< user "eps" >}}
 
 Vadim used vvvv+shaders as a weapon-of-choice for ~10 years, doing high profile VJing/videomapping/installations for living (teaming with {{< user "antokhio" >}}, {{< user "idwyr" >}}, {{< user "vux" >}}, etc. for studio projects. A few years ago he switched to the neural networks, using vvvv now mostly for integration and/or simple extra tasks. Vadim will show few examples of such usage (spout/osc integration, image pre/post-processing), as well as some key findings and achievements in general 

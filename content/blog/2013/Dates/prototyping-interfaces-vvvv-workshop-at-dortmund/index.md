@@ -20,7 +20,7 @@ imported: "true"
 
 
 ##  Hello VVVV users in Nordrhein-Westfalen Germany,
-We are invited the Prototyping Interfaces Team to present THE BOOK [](http://prototypinginterfaces.com) in combination with a little Workshop at the Bookstore [](http://www.transfer-dortmund.de) in Dortmund.
+We are invited the Prototyping Interfaces Team to present THE BOOK <http://prototypinginterfaces.com) in combination with a little Workshop at the Bookstore [](http://www.transfer-dortmund.de> in Dortmund.
 To make the evening a special event Jochen Grieving of Transfer Bookstore and Jochen Leinberger one of the authors (aka korriander at the forum) developed an exclusive Prototype which will go live on Saturday. Working Title is: "potentiometer-multiscreen-fiducial-installation"
 
 ![planning &quot;potentiometer-multiscreen-fiducial-installation&quot;](1379214_535876306488823_238216607_n.jpg) 

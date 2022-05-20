@@ -40,7 +40,7 @@ And team node has released a parutiful [documentation of NODE15](/blog/2016/this
 * {{< user "evvvvil" >}} added some to [his youtube channel](https://www.youtube.com/channel/UCy0lnGPDoNdaoXzHil68rXQ)
 * [schnellebuntebilder](https://vvvv.org/businesses/schnellebuntebilder) did [MTV Cave Rave](http://schnellebuntebilder.de/projects/mtv-cave-rave/)
 * Refik Anadol in cooperation with {{< user "everyoneishappy" >}} did [Art Of Intelligence](http://www.refikanadol.com/works/art-of-intelligence)
-* i stumbled on [](http://bouksi.com)
+* i stumbled on <http://bouksi.com>
 * {{< user "umanema" >}} shared his [kldt-interactive-art-installation](/blog/kldt-interactive-art-installation)
 
 ## Upcoming

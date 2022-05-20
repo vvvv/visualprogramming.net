@@ -15,4 +15,4 @@ On Friday, 22.10.2010, 1500h I will give a VJ workshop @ the UAMO Festival in Mu
 
 Greetz Jannis // DeinLieblingsgestalter
 
-[](http://www.uamo.info/cms/index.php?page=uamo-2010)
+<http://www.uamo.info/cms/index.php?page=uamo-2010>

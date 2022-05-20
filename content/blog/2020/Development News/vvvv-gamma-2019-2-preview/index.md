@@ -110,16 +110,16 @@ Here you go: **[vvvv gamma 2019.2 preview](http://teamcity.vvvv.org/guestAuth/ap
 - Fixed cast exception triggered by node browser when browsing through nodes from assemblies
 - Fixed various crashes when opening a completely broken document structure (missing assemblies, missing documents etc.)
 - Fixed file/string readers not eliminating BOM 
-- New nodes Loop []([Observable), Subscribe (Provider) []([Observable), Using (Provider) []([Observable) and moved PollData, PollResource from Resources to Observable category
-** New region Loop []([Observable) managing internal state as well as giving access to cancellation and observer to optionally push data
-** Subscribe []([Observable) returning a provider which manages the lifetime of the upstream observable sequence
+- New nodes Loop <[Observable), Subscribe (Provider) []([Observable), Using (Provider) []([Observable> and moved PollData, PollResource from Resources to Observable category
+** New region Loop <[Observable> managing internal state as well as giving access to cancellation and observer to optionally push data
+** Subscribe <[Observable> returning a provider which manages the lifetime of the upstream observable sequence
 ** PollData and PollResource now stateful internally thanks to making use of new Loop
-- Removed recently introduced TryOpen/Retry/RunOn []([Resources) nodes as they turned out as hard to use (deadlock) and not necessary
+- Removed recently introduced TryOpen/Retry/RunOn <[Resources) nodes as they turned out as hard to use (deadlock> and not necessary
 - Added new struct ArrayBuilder used by two new nodes:
-** StoreSequence []([Collections.MutableArray) to efficiently either grab an upstream array from a sequence or copy its content into an internal array which will then get exposed.
-** HoldLatestCopy []([Collections) to efficiently copy data pushed from a background thread into the main thread
+** StoreSequence <[Collections.MutableArray> to efficiently either grab an upstream array from a sequence or copy its content into an internal array which will then get exposed.
+** HoldLatestCopy <[Collections> to efficiently copy data pushed from a background thread into the main thread
 - Bunch of minor performance improvements to VL.Skia by making use of methods provided by the System.Runtime.CompilerServices.Unsafe class and calling SKCanvas.SetMatrix in Transform nodes, not rendering nodes
-- Fixed allocation issues of Points []([Skia.Layers) by exposing internally used DrawPoints via ReadOnlySpan
+- Fixed allocation issues of Points <[Skia.Layers> by exposing internally used DrawPoints via ReadOnlySpan
 - Fixed assignment of higher order regions not being carried over to expanded patch 
 - Ensure names of emitted assemblies are unique even after reloading a document 
 - Type Unification got even more robust and versatile. Better type renderings and type error messages.
@@ -131,7 +131,7 @@ Here you go: **[vvvv gamma 2019.2 preview](http://teamcity.vvvv.org/guestAuth/ap
 ** quite less emit problems due to more robust type unification
 * Added RemoveAll for Spread and SpreadBuilder
 * Fixed Random node not being thread safe 
-* Fixed ForEach [](Parallel) crashing with input count of zero and modified it so it returns a spread builder instead of a spread to avoid allocations
+* Fixed ForEach <Parallel> crashing with input count of zero and modified it so it returns a spread builder instead of a spread to avoid allocations
 
 **236** 18 02 20
 - added ShowOrigin setting 
@@ -161,7 +161,7 @@ Here you go: **[vvvv gamma 2019.2 preview](http://teamcity.vvvv.org/guestAuth/ap
 **0193** 31 01 20
 - fixed pin-reordering in signatures as reported here: https://discourse.vvvv.org/t/2019-2-0081-pin-reordering-buggy-behavior/18132
 - Removed private flags between our package dependencies as it caused msbuild to skip copying certain assemblies coming from VL.CoreLib as well as making our packages smaller.
-- Fixed parts of patches being grayed out and when traversing inside becoming all good - compiler was missing one iteration in recursive blobs - [](https://discourse.vvvv.org/t/lazy-type-inference/18066)
+- Fixed parts of patches being grayed out and when traversing inside becoming all good - compiler was missing one iteration in recursive blobs - <https://discourse.vvvv.org/t/lazy-type-inference/18066>
 - improved support for [helppatches](/blog/2020/vl-help-patches)
 - Reworked error handling of CreateDefault and RegisterServices operations 
 - Extended the general renaming code path to handle all cases and removed obsolete rename commands 
@@ -197,27 +197,27 @@ Here you go: **[vvvv gamma 2019.2 preview](http://teamcity.vvvv.org/guestAuth/ap
 - Fancied up the helpbrowser
 - Fixed problem scrolling in menu dropdowns: https://discourse.vvvv.org/t/main-menu-ui-scroll-with-mousewheel-within-dropdownmenu-lists/18083
 - Fixed a crash in UI when creating a frame https://discourse.vvvv.org/t/creating-frames-throws-exception/18067
-- Fixed crash in UI when trying to retrieve the default value of an imported generic type [](https://discourse.vvvv.org/t/2019-2-0026-cannot-create-iobox-tuple-t-t/18061)
+- Fixed crash in UI when trying to retrieve the default value of an imported generic type <https://discourse.vvvv.org/t/2019-2-0026-cannot-create-iobox-tuple-t-t/18061>
 - Fixed apply node lifting being applied to nodes which already had an apply pin (like Console.WriteLine)
-- Fixed crash when referencing an assembly like Bridge which tries to replace the whole mscorlib [](https://discourse.vvvv.org/t/gamma-x-2-nuget-import-error/18038)
+- Fixed crash when referencing an assembly like Bridge which tries to replace the whole mscorlib <https://discourse.vvvv.org/t/gamma-x-2-nuget-import-error/18038>
 - Fixed regression that the "valid pins are ..." warning wouldn't show up when implementing an interface 
 - Type annotations on pads which point to a field will now truly be ignored and also cleared - was reported in chat by björn
 - The version of the currently used package will now be written to disk. Allows to introduce converters for libraries at a later stage.
-- Fixed regression that the Serializable attribute wasn't set on emitted classes [](https://discourse.vvvv.org/t/issue-with-serialization/18064)
-- Fixed regression that source packages (provided through command line arg --package-repositories) wouldn't get higher priority than installed ones [](https://discourse.vvvv.org/t/2019-2-0026-weird-behavior-of-package-repositories-arg/18077)
+- Fixed regression that the Serializable attribute wasn't set on emitted classes <https://discourse.vvvv.org/t/issue-with-serialization/18064>
+- Fixed regression that source packages (provided through command line arg --package-repositories) wouldn't get higher priority than installed ones <https://discourse.vvvv.org/t/2019-2-0026-weird-behavior-of-package-repositories-arg/18077>
 
 **0026** 10 12 19
 - Fixed loading of VL.Devices.RealSense
 - Fixed empty error message on faulty type annotations
-- When generating a C# project, local source packages without a nuspec will not get included [](https://discourse.vvvv.org/t/exporting-fails-to-build-due-to-dependency-it-isnt-using/18043)
-- Fixed regression that nodes on auto-connect would show warning as well as their pins of unused fragments wouldn't connect to the default patch anymore [](https://discourse.vvvv.org/t/gamma-2019-2-connect-to-signature-does-not-work-in-this-region-even-outside-a-region/18048)
+- When generating a C# project, local source packages without a nuspec will not get included <https://discourse.vvvv.org/t/exporting-fails-to-build-due-to-dependency-it-isnt-using/18043>
+- Fixed regression that nodes on auto-connect would show warning as well as their pins of unused fragments wouldn't connect to the default patch anymore <https://discourse.vvvv.org/t/gamma-2019-2-connect-to-signature-does-not-work-in-this-region-even-outside-a-region/18048>
 
 **0015** 06 12 19
 - Patch drawing is antialiased and icons are showing again
 - Fix for drawing transparent PNGs
 - Fixed regression that delegate regions wouldn't create their pins anymore
 - Emit exception will show first error now as it's message
-- Fixed specialized operations not being marked as unused if there containing type was - see [](https://discourse.vvvv.org/t/gamma-x-2-breaking-not-opening-old-patches/18036)
+- Fixed specialized operations not being marked as unused if there containing type was - see <https://discourse.vvvv.org/t/gamma-x-2-breaking-not-opening-old-patches/18036>
 
 **Compared to the [2019.1 series](/blog/2019/vvvv-gamma-2019.1-preview)**
 #### Features

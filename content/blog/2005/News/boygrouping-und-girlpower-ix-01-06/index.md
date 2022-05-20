@@ -11,7 +11,7 @@ imported: "true"
 
 <!--{SPLIT()}-->
 ![](ix_logo_w.gif)
-[](http://www.heise.de/ix)
+<http://www.heise.de/ix>
 
 <!--~~~-->
 

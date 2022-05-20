@@ -28,7 +28,7 @@ The retune.13 - creative technology conference is a gathering of artists, scient
 
 retune.13 takes place from Sept 27 – 29 2013 in Berlin. It is a single-track conference of hand-picked workshops and talks, with limited participants, and generous time for discussing and connecting.
 
-[](http://retune.de/2013/)
+<http://retune.de/2013/>
 
 
 ## VVVV - REAL WORLD COMPUTING
@@ -53,4 +53,4 @@ you need:
 - if you like, some hardware you want to conenct to
 fee: 15€, max. 20 participants
 
-Please register here: [](http://retune.de/2013/#workshops)
+Please register here: <http://retune.de/2013/#workshops>

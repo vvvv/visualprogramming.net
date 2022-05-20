@@ -66,7 +66,7 @@ y = -radius * sin(angle)
 
 ## 3D
 
-To define a point in space by spherical coordinates the distance to the origin **O** as well as two angles are required. The confusion starts here since many conventions for the notation and the order of the angles exist. This page lists most of them: [](http://mathworld.wolfram.com/SphericalCoordinates.html)
+To define a point in space by spherical coordinates the distance to the origin **O** as well as two angles are required. The confusion starts here since many conventions for the notation and the order of the angles exist. This page lists most of them: <http://mathworld.wolfram.com/SphericalCoordinates.html>
 
 But let's step back and have a look at what we need to define spherical coordinates. We will see that regardless of the notation the actual formula for the calculation is the same:
 

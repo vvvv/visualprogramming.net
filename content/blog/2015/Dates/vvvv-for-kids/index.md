@@ -25,7 +25,7 @@ imported: "true"
 
 
 #  VVVV for KIDS 
-As part of Code Week Berlin 2015 [](http://www.codeweek.de/) we are offering a VVVV introductory workshop for teens from 12 years and older in collaboration with Letters Are My Friends - the concept store for typography and new technologies in Berlin. [](http://www.lettersaremyfriends.com/)
+As part of Code Week Berlin 2015 <http://www.codeweek.de/) we are offering a VVVV introductory workshop for teens from 12 years and older in collaboration with Letters Are My Friends - the concept store for typography and new technologies in Berlin. [](http://www.lettersaremyfriends.com/>
 
 In a 4 hour crash course we will learn an easy way into interactive programming with the multipurpose toolkit VVVV aka the fastest visual prototyping language that exists today. We will teach the computer something new and clever, let it draw a wallpaper for you or design your own wild animals that you can move with your own body. This workshop is *free* of charge and limited to 10 people.
 
@@ -48,7 +48,7 @@ Please write an email with your full name and age to **info(at)multitouchberlin.
 Please bring your own windows laptop and pre-install the latest VVVV version (beta).
 
 
-This workshop will be completely free of charge. Please consider a donation to our workshop partners Letters Are My Friends [](http://www.lettersaremyfriends.com/) who are providing the space and more workshop support.
+This workshop will be completely free of charge. Please consider a donation to our workshop partners Letters Are My Friends <http://www.lettersaremyfriends.com/> who are providing the space and more workshop support.
 
 
 

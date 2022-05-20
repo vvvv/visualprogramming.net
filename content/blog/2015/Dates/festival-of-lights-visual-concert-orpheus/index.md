@@ -41,15 +41,15 @@ Forum Factory
 Besselstrasse 13-14
 10969 Berlin-Mitte
 
-[](http://www.forum-factory.de/)
+<http://www.forum-factory.de/>
 
 #  we thank our sponsors
-[](http://www.facesvt.de/)
+<http://www.facesvt.de/>
 
 #  links
-[](https://www.facebook.com/events/1045887238775718/)
+<https://www.facebook.com/events/1045887238775718/>
 
-[](http://kopffarben.de/)
+<http://kopffarben.de/>
 
 
 #  video

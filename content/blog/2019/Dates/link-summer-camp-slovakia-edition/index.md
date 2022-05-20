@@ -25,7 +25,7 @@ imported: "true"
 Hi everybody!
 Since I missed meeting the best community this summer, I decided to organize Link summer camp in Slovakia!
 
-**Application form:**  [](https://docs.google.com/forms/d/1msDePnoVfAl9gCTMcZvBLj60c57-vGEv-Va9npP4pb0/)
+**Application form:**  <https://docs.google.com/forms/d/1msDePnoVfAl9gCTMcZvBLj60c57-vGEv-Va9npP4pb0/>
 
 I found great place for the camp, 1 hour of public transport from Bratislava.
 https://www.facebook.com/sisoretne/
@@ -51,4 +51,4 @@ Everybody gets a bed!
 
 
 
-Application form:  [](https://docs.google.com/forms/d/1msDePnoVfAl9gCTMcZvBLj60c57-vGEv-Va9npP4pb0/)
+Application form:  <https://docs.google.com/forms/d/1msDePnoVfAl9gCTMcZvBLj60c57-vGEv-Va9npP4pb0/>

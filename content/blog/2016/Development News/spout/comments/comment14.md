@@ -6,7 +6,7 @@ created: "1504137574"
 well something happened to the spout support because if I'm trying to register a spout sender it tells me this:
 ```
 System.NotSupportedException: Unable to expand length of this stream beyond its capacity.
-   at System.IO.UnmanagedMemoryStream.Write(Byte[]() buffer, Int32 offset, Int32 count)
+   at System.IO.UnmanagedMemoryStream.Write(Byte<) buffer, Int32 offset, Int32 count>
    at Spout.SpoutSender.WriteSenderNamesToMemoryMap(List`1 senders)
    at Spout.SpoutSender.RemoveNameFromSendersList(String name)
    at Spout.SpoutSender.Dispose()

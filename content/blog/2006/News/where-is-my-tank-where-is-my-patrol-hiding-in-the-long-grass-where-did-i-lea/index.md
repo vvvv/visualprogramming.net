@@ -16,7 +16,7 @@ originalType: "stuff"
 
 As the performance of readers and transponders improve, operating ranges increase giving one reader the ability to monitor larger areas meaning location information in addition to the identity information becomes very important. RFID-radar works with very low cost transponders and relatively cheap reader systems. 
 
-[](http://www.rfid-radar.com)
-[](http://www.rfid-radar.com/brochure.pdf)
+<http://www.rfid-radar.com>
+<http://www.rfid-radar.com/brochure.pdf>
 
 Selling price of the Prototype RFID-radar is < EURO 2560 plus freight

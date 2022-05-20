@@ -28,5 +28,5 @@ Check out the workshops and lectures - we have given all the best to create a fa
 
 So, you are very welcome to order your Tickets - NOW!
 
-[](http://node10.vvvv.org)
+<http://node10.vvvv.org>
 ![](NODE_flyerA6lang_back.jpg) 

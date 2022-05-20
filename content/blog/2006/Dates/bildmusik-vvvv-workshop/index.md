@@ -21,7 +21,7 @@ Im Rahmen des von Visomat Inc. organisierten Festivals &quot;Bildmusik&quot; fin
 
 VVVV / Everything you know is wrong
 
-[](http://www.visomat.com/bildmusik)
+<http://www.visomat.com/bildmusik>
 
 MESO aus Frankfurt a. M. arbeiten an der Schnittstelle technischen und grafischen Entwicklung von interaktiven und digitalen Anwendungen.  Der Kurs wird durchgeführt von Sebastian Oschatz (Mitbegründer von MESO und VVVV-Entwickler) und Thomas Hitthaler (MESO-Mitarbeiter und VJ www.ampop.org)
 

@@ -30,4 +30,4 @@ Workshop content:
 * mapping techniques / objekt mapping
 
 Registration via: vjworkshop@dave-dresden.net
-More information (german): [](http://www.dave-dresden.net/im-vorfeld-von-dave-vj-workshops-mit-intolight-und-laterne/)
+More information (german): <http://www.dave-dresden.net/im-vorfeld-von-dave-vj-workshops-mit-intolight-und-laterne/>

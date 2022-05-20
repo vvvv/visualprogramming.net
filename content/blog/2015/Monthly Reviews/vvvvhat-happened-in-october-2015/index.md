@@ -43,7 +43,7 @@ from the things that landed in our gallery in october i found this interactive g
 
 then i stumbled upon the [Apollochatter](http://ursbasteck.com/wordpress/151003) by Urs Basteck who apparently is using the {{< contribution "evvvvil-tweet-engine" >}} 
 
-if you haven't seen it yet, go watch: [Mirror (M2)](https://vimeo.com/140405048) by the always crazy [](http://schnellebuntebilder.de)
+if you haven't seen it yet, go watch: [Mirror (M2)](https://vimeo.com/140405048) by the always crazy <http://schnellebuntebilder.de>
 
 also, if you're among the unfortunate that use instagram you might as well follow these profiles for they are posting quite nice vvvv images from time to time: 
 * https://instagram.com/waltzbinaire/

@@ -27,11 +27,11 @@ imported: "true"
 ###  Pavilion Building & VVVV Coding
 **Festival Website MAB 2014**
 
-[](http://mab14.mediaarchitecture.org/)
+<http://mab14.mediaarchitecture.org/>
 
 **Workshop Link**
 
-[](http://mab14.mediaarchitecture.org/workshops/programming-natural-affect/)
+<http://mab14.mediaarchitecture.org/workshops/programming-natural-affect/>
 
 
 This workshop proposes a new way to look at the interweaving of the natural world and urban life through the use of new media and architecture. Rather than trying to fully control / manage the relationship between the natural and built environment with computation (and its metaphors) this proposal sets out to augment the natural world. Thus creating artificial environments that evokes the organic. An architecture that artificially amplifies the experiences of nature that is diminishing in the urban context.
@@ -92,11 +92,11 @@ The end product is a pavilion displaying various co-created visualizations and t
 ###  **Organisers**
 Anna Ulak (University of Toronto)
 
-[](http://www.openconstructs.ca/)
+<http://www.openconstructs.ca/>
 
 Philipp Rahlenbeck (Multitouch Berlin)
 
-[](http://multitouchberlin.com/)
+<http://multitouchberlin.com/>
 
 
 **FEE: 50,- €** (includes exhibition pass and free lunch on workshop day)
@@ -108,7 +108,7 @@ Philipp Rahlenbeck (Multitouch Berlin)
 
 ***PLEASE REGISTER HERE:***
 
-[](http://mab14.mediaarchitecture.org/registration/)
+<http://mab14.mediaarchitecture.org/registration/>
 
 
 #  **WORKSHOP**
@@ -124,13 +124,13 @@ Philipp Rahlenbeck (Multitouch Berlin)
 **DK-8000 Aarhus C**
 
 
-[](http://godsbanen.dk/english/)
+<http://godsbanen.dk/english/>
 
 
 
 **Media Architecture Biennale 2014**
 
-[](http://mab14.mediaarchitecture.org/workshops/programming-natural-affect/)
+<http://mab14.mediaarchitecture.org/workshops/programming-natural-affect/>
 
 
 

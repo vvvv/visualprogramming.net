@@ -69,4 +69,4 @@ Andrey Vrady, Anton Marchenko, Ran Ancor
 
 Berlin leuchtet e.V.: http://berlin-leuchtet.com/guide/forum-factory/
 Facebook Event: https://www.facebook.com/events/909308175901058/
-Kopffarben: [](http://kopffarben.de/lichtmalerei/)
+Kopffarben: <http://kopffarben.de/lichtmalerei/>
