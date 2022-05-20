@@ -18,10 +18,10 @@ created: "1341241055"
 [](16:11:46) <mino_> from new way to GPU rendering with actionscript
 [](16:11:59) <mino_> called "Starling".
 [](16:12:31) <mino_> it's only package of multi-images and xml.
-[](16:12:39) --> sebl_ (~quassel@kvm2.johannwimmer.at) hat ##vvvv-meetup betreten
-[](16:12:44) <-- sebl_ (~quassel@kvm2.johannwimmer.at) hat das Netzwerk verlassen (Client Quit)
+<http://16:12:39) --> sebl_ (~quassel@kvm2.johannwimmer.at> hat ##vvvv-meetup betreten
+<http://16:12:44) <-- sebl_ (~quassel@kvm2.johannwimmer.at> hat das Netzwerk verlassen (Client Quit)
 [](16:12:59) <iorec__> never heard of such a thing..
-[](16:13:22) --> sebl_ (~quassel@kvm2.johannwimmer.at) hat ##vvvv-meetup betreten
+<http://16:13:22) --> sebl_ (~quassel@kvm2.johannwimmer.at> hat ##vvvv-meetup betreten
 [](16:13:36) <mino_> it will save memory and faster than spreads.
 [](16:13:36) <iorec__> so you give it a bunch of images and it puts those on a large texture atlas and returns an .xml which describes the layout?
 [](16:14:59) <mino_> TexturePacker did that.
@@ -112,11 +112,11 @@ created: "1341241055"
 [](16:44:32) <iorec> would be great to receive fixing pullrequests for those
 [](16:44:50) <iorec> this obviously only did a quick check on the helppatches
 [](16:45:19) <iorec> a more general patch testing framework is underway..
-[](16:45:53) --> mrvux_ (~IceChat77@AAnnecy-158-1-29-65.w90-42.abo.wanadoo.fr) hat ##vvvv-meetup betreten
+<http://16:45:53) --> mrvux_ (~IceChat77@AAnnecy-158-1-29-65.w90-42.abo.wanadoo.fr> hat ##vvvv-meetup betreten
 [](16:46:02) <mrvux_> will check those
 [](16:46:18) <mrvux_> on latest alphas i noticed very often i have some red nodes first frame
 [](16:47:12) <iorec__> ja? if those are not cool and you could pinpoint two revisions that caused that change for you we'd be happy to check.
-[](16:48:18) <-- mrvux (~IceChat77@AAnnecy-158-1-23-44.w90-42.abo.wanadoo.fr) hat das Netzwerk verlassen (Ping timeout: 265 seconds)
+<http://16:48:18) <-- mrvux (~IceChat77@AAnnecy-158-1-23-44.w90-42.abo.wanadoo.fr> hat das Netzwerk verlassen (Ping timeout: 265 seconds)
 [](16:49:11) <iorec__> oui, which brings us to the last point for today: 5) testing kontrolleur on android 4
 [](16:49:25) <mrvux_> ok, seems mostly some renaming
 [](16:49:33) <mrvux_> just double checked

@@ -23,7 +23,7 @@ Or, for a free ticket contribute in a different way:
 * [Submit to the call for videos](/blog/2020/node20-call-for-video-submissions)
 * [Join tech support](/blog/2020/node20-workshops-call-for-tech-support)
 
-In other news: If you're interested in machine learning, you may want to test this new pack we just released: [VL.RunwayML](https://discourse.vvvv.org/t/vl-runwayml/18770) allows you to run any model provided by [](runwayml.com) directly as a node in vvvv!
+In other news: If you're interested in machine learning, you may want to test this new pack we just released: [VL.RunwayML](https://discourse.vvvv.org/t/vl-runwayml/18770) allows you to run any model provided by <http://runwayml.com> directly as a node in vvvv!
 
 ## Gallery
 

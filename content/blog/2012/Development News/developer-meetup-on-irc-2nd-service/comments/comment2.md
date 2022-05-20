@@ -300,12 +300,12 @@ danks again for bugging us. here is the log:
 [](17:56:09) <seblllll> for example, one could work with ati/nvidia tools like rendermonkey to build shaders...
 [](17:56:10) <seblllll> and often that would mean, that there are less passes necessary >> performance
 [](17:56:56) <iorec_> " passing vertzex-shader-data to a second pixelshader-pass"
-[](17:56:57) <-- mino (d2c2838e@gateway/web/freenode/ip.210.194.131.142) hat das Netzwerk verlassen (Ping timeout: 245 seconds)
+<http://17:56:57) <-- mino (d2c2838e@gateway/web/freenode/ip.210.194.131.142> hat das Netzwerk verlassen (Ping timeout: 245 seconds)
 [](17:56:59) <iorec_> whats that?
 [](17:57:11) <iorec_> you can use multiple passes in a technique
 [](17:59:00) <iorec_> regarding dx11 and/or opengl no comment at this time
 [](18:00:34) <iorec_> ping?
-[](18:02:20) --> iorec_ (~quassel@85.183.35.58) hat ##vvvv-meetup betreten
+<http://18:02:20) --> iorec_ (~quassel@85.183.35.58> hat ##vvvv-meetup betreten
 [](18:02:21) *** Modus ##vvvv-meetup +ns durch card.freenode.net
 [](18:02:21) * Chat ##vvvv-meetup wurde am Do 3. Mai 18:54:28 2012 erzeugt
 [](18:02:26) <thalm_> do you have idea you cant realize with the current pipeline?
@@ -322,16 +322,16 @@ danks again for bugging us. here is the log:
 [](18:02:55) <iorec> you'd probably need to be more specific with your vertex/pass problem?
 [](18:03:10) <mrvux> shader is the same, i only need to swap textures (rest of the shader data does not change)
 [](18:03:40) <mrvux> so i should not need to rebind quad + any shader inputs
-[](18:04:57) <-- azeno (~quassel@85.183.35.58) hat das Netzwerk verlassen (Client Quit)
+<http://18:04:57) <-- azeno (~quassel@85.183.35.58> hat das Netzwerk verlassen (Client Quit)
 [](18:04:58) <iorec> k, is this now a vux problem or the seblllll problem still?
 [](18:04:59) <iorec> (because vuxens is not on the agenda)
 [](18:04:59) <mrvux> i think in some ways it's an example of what seb means
 [](18:05:00) <seblllll> yes
 [](18:05:00) <mrvux> another example, you have a big post processor
 [](18:05:11) <seblllll> i'll make a compilation of shaders having those problems and will post them in the forums
-[](18:05:14) --> azeno (~quassel@85.183.35.58) hat ##vvvv-meetup betreten
-[](18:08:31) <-- azeno (~quassel@85.183.35.58) hat das Netzwerk verlassen (Client Quit)
-[](18:08:59) --> azeno (~quassel@85.183.35.58) hat ##vvvv-meetup betreten
+<http://18:05:14) --> azeno (~quassel@85.183.35.58> hat ##vvvv-meetup betreten
+<http://18:08:31) <-- azeno (~quassel@85.183.35.58> hat das Netzwerk verlassen (Client Quit)
+<http://18:08:59) --> azeno (~quassel@85.183.35.58> hat ##vvvv-meetup betreten
 [](18:09:36) <iorec> ok, can't comment, can we get a simple demo of this in the forum?
 [](18:09:37) <iorec> yes please.
 [](18:09:39) <thalm_> good

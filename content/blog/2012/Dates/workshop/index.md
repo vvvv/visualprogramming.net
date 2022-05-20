@@ -58,7 +58,7 @@ Server - Client
 
 kinect - interactivität via kinect
 osc - senden und empfangen von Daten
-write - [](speichern%20von%20sequences%20auf%20HDrive)
+write - speichern von sequences auf HDrive
 
 http://www.vvvv.org
 
