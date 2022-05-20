@@ -56,4 +56,4 @@ schnellebuntebilder
 Follow Us
 @vvvvorkshop
 
-[](www.schnellebuntebilder.de)
+<http://www.schnellebuntebilder.de>

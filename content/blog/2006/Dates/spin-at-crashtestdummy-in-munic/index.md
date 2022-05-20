@@ -19,7 +19,7 @@ imported: "true"
 
 
 <!--{SPLIT()}-->
-[](www.crashtestdummy.net) is opening tonite.
+<http://www.crashtestdummy.net> is opening tonite.
 
 come by until july 29th and take a strange ride in the [new worlds of spin](https://vvvv.org/404)
 <!--~~~-->

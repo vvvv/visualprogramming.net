@@ -26,7 +26,7 @@ After its success in 2013, we repeat the formula discerning professional worksho
 
 Informations and subscriptions on our website:
 
-[](www.mappingfestival.com)
+<http://www.mappingfestival.com>
 
  
 {{< box >}}

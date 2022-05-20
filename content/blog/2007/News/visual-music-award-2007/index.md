@@ -18,4 +18,4 @@ The 10 best out of the submitted music visualisations are honoured. Three winner
 
 The three winners achieve non-cash prices. And as a highlight all ten awardees and price winners are invited to the price ceremony in the cocoonclub in Frankfurt (Main) in the course of the 10th eDIT Filmmakers Festival 2007. Deadline will be September, 9th 2007
 
-See also [](www.visual-music-award.de)
+See also <http://www.visual-music-award.de>
