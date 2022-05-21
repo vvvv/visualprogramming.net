@@ -23,13 +23,12 @@ If you're a visual artist, looking for a way to get your patches out into the wo
 As an inspiration here is a list of artworks that your fellow patchers have made with vvvv and are available on the framed store at the moment:
 
 <!--{SPLIT()}-->
-[Gelim](https://frm.fm/a/arash_akbari/gelim) by Arash Akbari
-[Twilight](https://frm.fm/a/arash_akbari/twilight) by Arash Akbari
-[Emergence](https://frm.fm/a/arash_akbari/emergence) by Arash Akbari
-<!--~~~-->
-[dmh_kneidl_pattern_01](https://frm.fm/a/daniel_huber/dmh_kneidl_pattern_01) by Daniel Huber
-[Osmosis](https://frm.fm/a/schnellebuntebilder/osmosis) by schnellebuntebilder
-[Empty Set](https://frm.fm/a/stain/empty_set) by Stain
+- [Gelim](https://frm.fm/a/arash_akbari/gelim) by Arash Akbari
+- [Twilight](https://frm.fm/a/arash_akbari/twilight) by Arash Akbari
+- [Emergence](https://frm.fm/a/arash_akbari/emergence) by Arash Akbari
+- [dmh_kneidl_pattern_01](https://frm.fm/a/daniel_huber/dmh_kneidl_pattern_01) by Daniel Huber
+- [Osmosis](https://frm.fm/a/schnellebuntebilder/osmosis) by schnellebuntebilder
+- [Empty Set](https://frm.fm/a/stain/empty_set) by Stain
 <!--{SPLIT}-->
 
 From today you can upload your artworks in either 
@@ -42,7 +41,8 @@ How to: {{< contribution "framed-template" "Template and Hardware Specs" >}}
 Upload here: http://frm.fm
 User: NODE17
 Pwd: node17framed
-Deadline: 20th June 2017{{< /box >}}
+Deadline: 20th June 2017
+{{< /box >}}
 
 Let us know if you have any questions, in the comments. Also Filip, of FRAMED will be at the festival to answer your questions on the spot and you'll be able get your own account there. Looking forward to your submissions!
 

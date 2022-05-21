@@ -19,38 +19,29 @@ in latest [alphas](https://vvvv.org/downloads/previews) you can also already enj
 * new midi-file reader nodes: **MidiFile (Midi)** and **MidiTrack (Midi)** 
 
 and then there've been a range of interesting forum-threads that got nice solutions with VL:
-<!--{SPLIT()}-->
 * [ConnectAll](https://discourse.vvvv.org/t/vl-first-go-connect-all/14614)
 * [Differential Growth](https://discourse.vvvv.org/t/differential-growth-patched-in-vl/14603)
 * [Particles with Collision](https://discourse.vvvv.org/t/custom-datatypes-think-particlesystem/14580)
-<!--~~~-->
 * [Resample](https://discourse.vvvv.org/t/vl-resample/14622)
 * [Recording Midi Notes](https://discourse.vvvv.org/t/storing-midi-notes/14561)
 * [Recording Values](https://discourse.vvvv.org/t/scale-time-slow-motion/14641)
-<!--{SPLIT}-->
 
 ## Contributions
 
-<!--{SPLIT()}-->
 3 new:
-<!--~~~-->
-7 updates:
-<!--~~~-->
-<!--{SPLIT}-->
-<!--{SPLIT()}-->
 - {{< contribution "airdrawspline" "AirDrawSpline" >}}
 - {{< contribution "thetas-to-real-world" "ThetaS to real world" >}}
 - {{< contribution "microsoft-kinect-2.0-tools" "Microsoft Kinect 2.0 Tools" >}}
-<!--~~~-->
+
+7 updates:
+
 - {{< contribution "excel-reader" "Excel Reader" >}}
 - {{< contribution "pointeditorcs-(dx11.geometry)" "PointEditorCS (DX11.Geometry" >}})
 - {{< contribution "vvvv.openvr" "VVVV.OpenVR" >}}
-<!--~~~-->
 - {{< contribution "force-directed-graph" "Force Directed Graph" >}}
 - {{< contribution "d.o.p.e." >}}
 - {{< contribution "triangle" "Triangle" >}}
 - {{< contribution "tetgen" "TetGen" >}}
-<!--{SPLIT}-->
 
 and one documented:
 {{< user "microdee" >}} gave an update to his md.ecosystem in a new edition of the [vveekend vvorkshop videos](https://www.youtube.com/watch?v=OuSVka5fXJQ)

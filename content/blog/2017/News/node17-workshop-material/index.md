@@ -14,98 +14,103 @@ hola compañeros,
 here is the place to collect and find materials handed out during the [NODE17 workshops](https://17.nodeforum.org/projects/creative-coding-education/). Still more to come...
 
 <!--{SPLIT()}-->
-## Patching
-**VL for vvvv users** 
+## Patching
+
+- __VL for vvvv users__
 [Description](https://17.nodeforum.org/events/vl-for-vvvv-users/), {{< contribution "vl-for-vvvv-users-workshop-material" "Material" >}}
 
-**VL Concepts & Patterns I + II** 
+- __VL Concepts & Patterns I + II__ 
 [Description 1](https://17.nodeforum.org/events/vl-concepts-and-patterns-1/), [Description 2](https://17.nodeforum.org/events/vl-concepts-and-patterns-2/), {{< contribution "vl-concepts-patterns-i-+-ii-workshop-material" "Material" >}}
 
-**Developing nodes and libraries for VL** 
+- __Developing nodes and libraries for VL__ 
 [Description](https://17.nodeforum.org/events/developing-for-vl/), {{< contribution "developing-nodes-and-libraries-for-vl-workshop-material" "Material" >}}
 
-**VL Project**
+- __VL Project__
 [Description](https://17.nodeforum.org/events/vl-project/), [Material](https://github.com/vvvv/DCQB-Spline)
 
-**Structured Programs**
+- __Structured Programs__
 [Description](https://17.nodeforum.org/events/structured-programs/), {{< contribution "node-17-structured-programs-workshop-material" "Material" >}}
 
-**How to use a StateMachine: Automata UI**
+- __How to use a StateMachine: Automata UI__
 [Description](https://17.nodeforum.org/events/statemachine-automataui/), {{< contribution "automata-ui" "Contribution" >}}, [Video](https://youtu.be/I8CmERSoyPc)
 
-**Introduction to vvvv-Message Awesomeness**
+- __Introduction to vvvv-Message Awesomeness__
 [Description](https://17.nodeforum.org/events/vvvv-message-awesomeness/), {{< contribution "vvvv-message" "Contribution" >}}, [Video](https://youtu.be/TQsoWRD8veg)
 
-**vvvv.js 2.0 and how to use it as vvvv’s companion**
+- __vvvv.js 2.0 and how to use it as vvvv’s companion__
 [Description](https://17.nodeforum.org/events/vvvv-js-intro/), [Video](https://youtu.be/C9Oy2NfmWcc)
 
 <!--~~~-->
-## Animation & Graphics
-**Advanced Directx11 Shading**
+## Animation & Graphics
+
+- __Advanced Directx11 Shading__
 [Description](https://17.nodeforum.org/events/advanced-directx11-shading/), {{< contribution "node-17-advanced-shading-workshop-material" "Material" >}}, [Video P1](https://youtu.be/0Dr3YufNPDk), [Video P2](https://youtu.be/uzcAI9YwN70)
 
-**Compute Shader by Example** 
+- __Compute Shader by Example__ 
 [Description](https://17.nodeforum.org/events/compute-shader/), {{< contribution "node-17-compute-shader-workshop-material" "Material" >}}, [Video](https://youtu.be/GEAAXZktl4g)
 
-**DX11 Shaders upper-intermediate**
+- __DX11 Shaders upper-intermediate__
 [Description](https://17.nodeforum.org/events/dx11-shaders-upper-intermediate), {{< contribution "node17-dx11-shaders-upper-intermediate-workshop-material" "Material" >}}
 
-**DX11 Particles**
+- __DX11 Particles__
 [Description](https://17.nodeforum.org/events/dx11-particles/), [Video](https://youtu.be/qhfZyZnKB7U), {{< contribution "node-17-dx11.particles-workshop" "Material" >}}
 
-**Marching Rays amongst shit jokes**
+- __Marching Rays amongst shit jokes__
 [Description](https://17.nodeforum.org/events/marching-rays/), {{< contribution "izpi-ibiltzen-raymarching" "Contribution" >}}
 
-**Bullet Physics Intro**
+- __Bullet Physics Intro__
 [Description](https://17.nodeforum.org/events/bullet-physics/), {{< contribution "node17-bullet-physics" "Demo" >}}, [Video](https://youtu.be/G92Kv-ELmes)
 
-**3d Basics & Building Interaction**
+- __3d Basics & Building Interaction__
 [Description](https://17.nodeforum.org/events/3d-basics-building-interaction/), [Video P1](https://youtu.be/QJP6RlItm-4), [Video P2](https://youtu.be/7rlvPBT_-To)
 
-**Transformations**
+- __Transformations__
 [Description](https://17.nodeforum.org/events/transformations), {{< contribution "node17-transformations-workshop-material" "Material" >}}, [Video](https://youtu.be/oKY-kUOGw_A)
 
-**Box2d – Physics Based Animations**
+- __Box2d – Physics Based Animations__
 [Description](https://17.nodeforum.org/events/box2d-physics-based-animations/), [Video](https://youtu.be/8QVEwm-B14s)
 
-**Forward+ or how bring thousands of dynamic lights to VVVV**
+- __Forward+ or how bring thousands of dynamic lights to VVVV__
 [Description](https://17.nodeforum.org/events/forward-plus/), {{< contribution "forwardplus" "Contribution" >}}, [Video](https://youtu.be/ny9j2_yBbZQ)
 
-**Instance Noodles**
+- __Instance Noodles__
 [Description](https://17.nodeforum.org/events/instance-noodles/), {{< contribution "instance-noodles" "Contribution" >}}, [Video](https://youtu.be/ZZGdH8hKgQY)
 
-**Introduction to DX11 Rendering**
+- __Introduction to DX11 Rendering__
 [Description](https://17.nodeforum.org/events/introduction-to-dx11-rendering/), [Video](https://youtu.be/J1VyN-QbTzY)
 
-**PBR rendering in vvvv with mp.dx and FBX4V**
+- __PBR rendering in vvvv with mp.dx and FBX4V__
 [Description](https://17.nodeforum.org/events/physical-based-rendering/), {{< contribution "fbx4v" "Contribution" >}}, [Video](https://youtu.be/soopcp7p5YU)
 
-**Procedural Noise – Everything your parents didn’t tell you**
+- __Procedural Noise – Everything your parents didn’t tell you__
 [Description](https://17.nodeforum.org/events/procedural-noise/), [Video](https://youtu.be/_E8nGaU-fcU)
 
-**Supershiny Motion Graphics with Superphong**
+- __Supershiny Motion Graphics with Superphong__
 [Description](https://17.nodeforum.org/events/supershiny-motion-graphics-with-superphong/), {{< contribution "superphysical" "Contribution" >}}, [Video](https://youtu.be/6Oj1NiOKIo0)
 
-**The Ultimate Guide to Game Development with vvvv and vvvv.js**
+- __The Ultimate Guide to Game Development with vvvv and vvvv.js__
 [Description](https://17.nodeforum.org/events/game-development-with-vvvv-js/), [Video](https://youtu.be/0CGrbsP-DZY)
 <!--{SPLIT}-->
 
 <!--{SPLIT()}-->
-## Hardware & IO
-**Cutting and folding paper**
+## Hardware & IO
+
+- __Cutting and folding paper__
 [Description](https://17.nodeforum.org/events/cutting-and-folding-paper/), {{< contribution "paralib" "Contribution" >}}, [Video](https://youtu.be/dIkF4oaa8QY)
 
-**Light design – Programming DMX & Visualizing with GrandMa2**
+- __Light design – Programming DMX & Visualizing with GrandMa2__
 [Description](https://17.nodeforum.org/events/dmx-programming/), {{< contribution "node17-dmx-grandma2" "Material" >}}, [Video](https://www.youtube.com/watch?v=OhlAVPHD4P8)
 <!--~~~-->
-## Interaction
-**OpenVR Introduction**
+## Interaction
+
+- __OpenVR Introduction__
 [Description](https://17.nodeforum.org/events/open-vr-beginner/), {{< contribution "node17-openvr-beginner-material" "Material" >}}
 
 <!--{SPLIT}-->
 
-## Audio
-**VAudio Basics**
+## Audio
+
+- __VAudio Basics__
 [Description](https://17.nodeforum.org/events/vaudio-basics/), {{< contribution "node17-vaudio-workshop-material" "Material" >}}, [Video](https://youtu.be/v9A2ZClc7gM)
 
 ---
