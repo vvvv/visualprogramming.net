@@ -8,10 +8,7 @@ description: ""
 imported: "true"
 ---
 
-
 ![](dmesh19_1.jpg)
-
-
 
 ## Introduction
 
@@ -39,7 +36,8 @@ Then the conversion from a cartesian vector (x, y) of a position **P** to polar 
 ```
 radius = sqrt(x```2 + y{{< box >}}2)
 angle = atan2(y, x)
-{{< /box >}}
+```
+
 and the way around:
 
 ```
