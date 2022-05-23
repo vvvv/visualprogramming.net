@@ -1,0 +1,29 @@
+{{ with .Params.release }}
+
+<h2>Download </h1>
+<div class="meta mb-5">
+  <table class="download">
+    {{with .app_file}}
+    <tr>
+      <td><b>32bit</b></td>
+      <td><a href="https://www.vvvv.org/{{.}}">{{$.Title}}</a></td>
+    </tr>
+    {{end}}
+    {{with .app_file_64}}
+    <tr>
+      <td><b>64bit</b></td>
+      <td><a href="https://www.vvvv.org/{{.}}">{{$.Title}}</a></td>
+    </tr>
+    {{end}}
+    <tr>
+      <td></td>
+      {{ if in .app_file "vvvv"}}
+      <td><a href="https://betadocs.vvvv.org/changelog/core/change-log-vvvv{{.major}}beta{{replace .minor "." "-"}}{{with .sub}}-{{printf "%02d" (int .)}}{{end}}.html">Changelog</a></td>
+      {{else}}
+      <td><a href="https://betadocs.vvvv.org/changelog/addons/addons-change-log-{{.major}}beta{{replace .minor "." "-"}}{{with .sub}}-{{printf "%02d" (int .)}}{{end}}.html">Changelog</a></td>
+      {{end}}
+    </tr>
+  </table>
+</div>
+
+{{end}}

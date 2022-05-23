@@ -1,0 +1,63 @@
+{{ define "main" }}
+
+{{ $guest := not (in .Site.Params.Blog.Devvvvs (lower .Params.author)) }}
+
+<main id="Blog">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-8">
+                    <div class="post">
+                        <div class="header">
+                            
+                            {{ partial "blog/prev-next" . }}
+
+                            <h2 class="display-1">{{ .Title }}</h2>
+                            {{ with .Params.date }}
+                                <span class="date mr-3">{{ time.Format "January 2, 2006" .}}</span>
+                            {{ end }}
+
+                            {{ with .Params.author }}
+                                <span class="link mr-3">posted by: <a href="{{ printf "author/%s/" . | lower| relURL }}" >{{ . }}</a></span>
+                            {{ end }}
+
+                            {{ if $guest }}
+                                <span class="guestLabel ml-3">Guest Post</span>
+                            {{ end }}
+
+                        </div>
+                        <div class="content">
+
+                            {{ if eq .Params.categories "Dates"}}
+                                {{ partial "blog/block-date.html" . }}
+                            {{ end }}
+
+                            {{ .Content | markdownify }}
+
+                            {{ if in .Params.categories "Releases"}}
+                                {{ partial "blog/block-release.html" . }}
+                            {{ end }}
+
+                        </div>
+                        <div class="comments mt-5">
+                            <hr class="mt-5"/>
+                            <h2 class="display-1 mb-3">Comments:</h2>
+                            {{ if not .Params.imported}}
+                                {{ partial "blog/comments.html" . }}
+                            {{ else}}
+                                <p class="bold">{{ .Site.Params.Blog.CommentsDisabled}}</p>
+                                {{ with .Resources.Match "comments/*" }}
+                                    {{ partial "blog/comments-imported" . }}
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 mt-2 mt-0-md">
+                    <div class="sidebar sticky-top pl-1">
+                        {{ partial "blog/sidebar" . }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    {{ end }}

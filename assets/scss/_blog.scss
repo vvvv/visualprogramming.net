@@ -1,6 +1,16 @@
 $sans: "Open-Sans", sans-serif;
 $serif: "Roboto Slab", serif;
 
+.guestLabel
+{
+    background-color: #aaa;
+    border-radius: 1em;
+    border: none;
+    padding: 0.3em 0.8em;
+    color: #fff;
+    font-size: 0.75rem;
+}
+
 //Blog @ Home
 section#Blog
 {
@@ -20,9 +30,39 @@ section#Blog
     .sidebar
     {
         top: inherit;
+        min-height: 400px;
+
+        .list {
+
+            font-family: $sans;
+
+        }
         
         li {
-            padding: 1em 0em 1em 1em;
+            font-size: 0.9em;
+            color: #777;
+            border: none;
+            padding: 0.8em 0em;
+            margin-bottom: 0px;
+            border-bottom: 1px solid #ddd;
+
+            a
+            {
+                display: block;
+            }
+        }
+
+        li:hover
+        {
+            background-color: #ffffff !important;
+        }
+
+
+        h4
+        {
+            font-family: $serif;
+            font-weight: 700;
+            font-size: 1em;    
         }
     }
 
@@ -61,12 +101,28 @@ section#Blog
 #Blog
 {
 
+    .signpill
+    {
+        // vertical-align: super;
+        font-size: 0.7em;
+        background-color: #e6e6e6;
+        color: #666;
+        border: none;
+        padding: 2px 3px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 0.25em;
+        border-radius: 2px;
+        line-height: 1.1em;
+    }
+
     .post-thumb
     {
-        border: 5px solid #fff;
-        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-        width: 60px;
-        height: 60px;
+        // border: 5px solid #fff;
+        // box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        width: 90px;
+        height: 90px;
     }
 
     .pagination{
@@ -109,6 +165,7 @@ section#Blog
     .list
     {
         font-size: 1rel;
+
         .post-meta
         {
             color: #777;
@@ -138,6 +195,36 @@ section#Blog
 
     .post{
 
+        .prev-next
+        {
+            font-size: 0.85em;
+            color: #666;
+
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.9em;
+            margin-bottom: 2em;
+
+            font-family: $sans;
+
+            .btn
+            {
+                color: #fff;
+                font-size: 0.9em;
+                border: none;
+                border-radius: 5px;
+            }
+              
+            .disabled
+            {
+                pointer-events: none;
+                cursor: default;
+                color: #fff;
+                border-bottom: none;
+                background-color: #ccc;
+            }
+
+        }
+
         hr
         {
             border-color: #ddd;
@@ -149,40 +236,86 @@ section#Blog
         {
             color: #777;
             font-family: $sans;
+            margin-bottom: 0.5em;
         }
 
         h2
-            {
-                font-family: $serif;
-                font-weight: 700;
-                font-size: 2.3em;
-                line-height: 1.3em;
-                margin-bottom: 0.3em;
-            }
+        {
+            font-family: $serif;
+            font-weight: 700;
+            font-size: 2.3em;
+            line-height: 1.3em;
+            margin-bottom: 0.3em;
+        }
+
+
+        a{
+            text-decoration: none;
+            border-bottom: 1px solid #ccc;
+            color: inherit;
+        }
+
+        a:hover{
+            color: $orange-link-hover;
+        }
+
 
         .header
         {
-
-            .link
-            {
-                text-decoration: none;
-                padding-bottom: 0.1 em;
-                font-size: 0.9rem;
-
-                a
-                {
-                    border-bottom: 1px solid #ccc;
-                }
+            span {
+                font-size: 0.8rem;
             }
 
             .date
             {
                 color: #888;
-                font-size: 0.9rem;
             }
         } 
 
         .content{
+
+            margin-top: 2.5em;
+            font-family: $sans;
+            $base-font: 1em;
+
+            table{
+                width: 100%;
+                margin: 1.7em 0em;
+                font-size: 0.95em;
+                border-top: 1px solid #ddd;
+                border-bottom: 1px solid #ddd;
+
+                th
+                {
+                    padding: 0.5em 0em;
+                }
+
+                td
+                {
+                    padding-bottom: 0.3em;
+                }
+            }
+
+            .meta
+            {
+                background-color: #f6f6f6;
+                border-radius: 5px;
+                border: none;
+                padding: 1em;
+
+                table td
+                {
+                    padding-right: 1em;
+                }
+
+                .download
+                {
+                    td
+                    {
+                        padding: 0.5em;
+                    }
+                }
+            }
 
             h1{
                 font-family: $serif;
@@ -220,15 +353,6 @@ section#Blog
                 margin-bottom: 1em;
             }
 
-            margin-top: 3em;
-            font-family: $sans;
-
-            $base-font: 1em;
-
-            a{
-                color: $orange;
-            }
-
             ul{
                 padding-left: 2em;
             }
@@ -261,18 +385,52 @@ section#Blog
                     text-decoration: underline;
                 }
             }
-
-            a{
-                color: #777;
-                text-decoration: underline;
-            }
-
-            a:hover{
-                color: $orange;
-            }
         }
 
         .comments{
+
+            .comment{
+                .comment-avatar{
+                    box-sizing: border-box;
+                    display: flex;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    border-radius: 50%;
+                    margin: 0;
+                    background-color: #eee;
+                    flex: 0 0 2.5rem
+                }
+                .comment-content{
+                    .comment-header {
+                        .comment-user{
+                            font-weight: 700;
+                        }
+                        .comment-date{
+                            color: rgb(153, 153, 153);
+                        }
+                        display: flex;
+                        gap: 1em;
+                        flex-wrap: wrap;
+                    }
+                    
+                    .comment-body{
+                        p{   
+                            margin-bottom: 20px;
+                            line-height: 1.5;
+                        }
+                    }
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5em;
+                }
+               
+                display: flex;
+                flex-direction: row;
+                gap: 1em;
+                padding: 0.5em 0 1em;
+                border-block-end: 1px solid #ddd;
+            }
+
             font-family: $sans;
             --cactus-text-color--soft: #999;
             --cactus-border-radius: 0px;
@@ -305,8 +463,20 @@ section#Blog
     {
         top: 120px;
         z-index: 0;
-        overflow: auto;
+        min-height: 500px;
+
+        .dropdown-menu {
+            height: 200px;
+            overflow: auto;
+        }
         
+        .filter
+        {
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+            flex-wrap: wrap;
+        }
         hr{
             border: none;
             height: 1px;
@@ -336,7 +506,7 @@ section#Blog
                 font-size: 0.9em;
                 color: #777;
                 border: none;
-                padding: 1em 0em;
+                padding: 0.8em 0em;
                 margin-bottom: 0px;
                 border-bottom: 1px solid #ddd;
 
@@ -368,28 +538,3 @@ section#Blog
         }
     }
 }
-
-// .tagCloud {
-//     .tagCloud-tags {
-//         display: flex;
-//         flex-wrap: wrap;
-
-//         a {
-//             background: #cccccc;
-//             box-shadow: #000000;
-//             border-radius: 3px;
-//             padding: 8px 20px;
-
-//             color: var(--card-text-color-main);
-//             margin-bottom: 10px;
-//             margin-right: 5px;
-//             font-size: 0.8rem;
-//             text-transform: lowercase;
-//             transition: box-shadow 0.3s ease;
-
-//             &:hover {
-//                 box-shadow: var(--shadow-l2);
-//             }
-//         }
-//     }
-// }

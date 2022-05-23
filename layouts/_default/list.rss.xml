@@ -1,0 +1,68 @@
+{{- $pages := slice -}}
+{{- $pages = (where .Pages "Type" "blog").ByDate.Reverse -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+{{- $pages = $pages | first $limit -}}
+{{- end -}}
+
+{{- $siteRes := .Resources}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" 
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/" 
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:itunes="http://www.itunes.com/DTDs/Podcast-1.0.dtd" 
+xmlns:media="http://search.yahoo.com/mrss/">
+
+  <channel>
+    <title>vvvv &#8211; Blog</title>
+    <link>{{ .Permalink }}</link>
+    {{- with .OutputFormats.Get "RSS" -}}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{- end -}}
+    <image>
+			<title>vvvv &#8211; Blog</title>
+			<link>{{ .Site.Params.baseURL }}</link>
+			<url>{{ "img/ogVVVV.jpg" | absURL }}</url>
+		</image>
+    <itunes:image href="{{ "img/ogVVVV.jpg" | absURL }}" />
+    <description>A RSS news feed containing the latest vvvv news, dates and releases.</description>
+    <itunes:summary>{{.Site.Params.title}}</itunes:summary>
+		<itunes:category text="News"> </itunes:category>
+		<itunes:explicit>no</itunes:explicit>
+    <generator>Hugo -- gohugo.io</generator>
+    {{ with $.Site.LanguageCode }}
+    <language>{{.}}</language>
+    {{end}}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{ range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      {{ with .Params.author }}
+      <dc:creator>{{.}}</dc:creator>
+      <author>{{.}}</author>
+      {{end}}
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <shortDate>{{ .Date.Format "02.01.06" | safeHTML }}</shortDate>
+      <category>{{.CurrentSection}}</category>
+      {{ $thumb := resources.Get "img/grey-thumb.png"}}
+      {{ $pageRes := .Resources}}
+      {{ with .Params.thumb}}
+        {{ with $pageRes.GetMatch .}}
+            {{ $thumb = . }}
+        {{ end }}
+      {{ end }}
+      {{ $thumbSite := $thumb.Fill "50x50 jpeg"}}
+      <thumb>{{ $thumbSite.Permalink }}</thumb>
+      <guid isPermaLink="false">{{ printf "%s#%s" .Permalink (.Date.Format "02-01-06") }}</guid>
+      <description>{{- .Params.description | html -}}</description>
+      <content:encoded>{{ "<![CDATA[" | safeHTML }}{{ .Content | safeHTML }}{{ "]]>" | safeHTML }}</content:encoded>
+      {{ $thumbRSS := $thumb.Resize "600x jpeg"}}
+      {{ $sizeInBytes := len $thumbRSS.Content }}
+      <enclosure url="{{ $thumbRSS.Permalink }} " length="{{ $sizeInBytes }}" type="image/jpeg" />
+      <updated>{{ .Date | safeHTML }}</updated>
+    </item>
+    {{ end }}
+  </channel>
+</rss>

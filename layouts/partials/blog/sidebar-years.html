@@ -1,10 +1,28 @@
-<ul class="list-group list-group-flush">
-  {{ range (where .Site.RegularPages "Type" "blog").GroupByDate "2006"}}
-  {{ $key := .Key }}
-  {{ range first 1 .Pages}}
-    <li class="list-group-item"><a href="{{.CurrentSection.Permalink }}">{{ $key }}</a></li>
-    {{ end }}
-  {{ end }}
-</ul>
+{{ $years := (where .Site.RegularPages "Type" "blog").GroupByDate "2006" }}
 
+{{ $keys := slice }}
+{{ range $years }}
+{{ $keys = $keys | append .Key }}
+{{ end }}
+
+{{ $title := .Title }}
+
+{{ $found := in $keys $title }}
+
+<div class="dropdown">
+  <div class="btn-group">
+    <button id="dropdownMenuButton" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Year
+    </button>
+
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+      {{ range $years }}
+      {{ $key := .Key }}
+        {{ range first 1 .Pages}}
+          <a class="dropdown-item {{ if eq $key $title }} active {{ end }}" href="{{.Section | absURL}}/{{$key}}">{{$key}}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>
 

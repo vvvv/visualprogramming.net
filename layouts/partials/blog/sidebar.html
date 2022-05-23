@@ -3,18 +3,16 @@
     <a href="/blog/" class="btn btn-secondary btn-lg mb-5">{{ .Site.Params.Blog.ReadMore}}</a>
 {{ end }}
 <div class="list">
-    <h4>All Recent posts:</h4>
+    <h4>Recent posts:</h4>
     <ul class="list-group list-group-flush mb-2">
-        {{ range ( first 5 ( where .Site.RegularPages "Type" "blog").ByDate.Reverse ) }}
+        {{ range ( first 4 ( where .Site.RegularPages "Type" "blog").ByDate.Reverse ) }}
         <li class="list-group-item"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
         {{end}}
     </ul>
 </div>
 <div class="list mt-5">
-  <h4>Categories:</h4>
-  {{ partial "blog/sidebar-cat" . }}
-</div>
-<div class="list mt-5">
-  <h4>Years:</h4>
-  {{ partial "blog/sidebar-years" . }}
+  <h4>Filter :</h4>
+  <div class="filter">
+    {{ partial "blog/sidebar-cat-dropdown" . }} or {{ partial "blog/sidebar-years" . }}
+  </div>
 </div>

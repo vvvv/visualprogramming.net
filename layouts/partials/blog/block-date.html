@@ -1,0 +1,41 @@
+<div class="meta mb-5">
+    <table>
+  {{ with .Params.who }}
+      {{with .name}}
+      <tr><td><b>Who: </b></td><td>{{.}}</td></tr>
+      {{end}}
+      {{with .credits}}
+      <tr><td><b>Credits: </b></td><td>{{.}}</td></tr>
+      {{end}}
+  {{ end }}
+
+  {{ with .Params.where }}
+      {{with .location_name}}
+      <tr><td><b>Location: </b></td><td>{{.}}</td></tr>
+      {{end}}
+        <tr><td><b>Where: </b></td><td>{{with .street}}{{.}}, {{end}}{{with .additional}}{{.}}, {{end}}{{with .city}}{{.}}, {{end}}{{with .country_name}}{{.}}{{end}}</td></tr>
+      {{ if .lat}}
+        {{ if and (ne .lat "None") (ne .long "None")}}
+            <tr><td><b>Lat / Long: </b></td><td>{{.lat}} {{.long}}</td></tr>
+        {{end}}
+      {{end}}
+      {{ with .from_date }}
+        {{ $dateAndTime := time (int .) }}
+        {{ $date := $dateAndTime.Format "02 Jan 2006" }}
+        {{ $time := $dateAndTime.Format "15:04" }}
+        {{ if ne . "0" }}
+            <tr><td><b>{{ if ne $.Params.where.to_date . }}From:{{else}}When:{{end}} </b></td><td>{{$date}}{{ if ne $time "00:00"}} {{$time}}{{end}}</td></tr>
+        {{ end }}
+      {{end}}
+      {{with .to_date}}
+        {{ $dateAndTime := time (int .) }}
+        {{ $date := $dateAndTime.Format "02 Jan 2006" }}
+        {{ $time := $dateAndTime.Format "15:04" }}
+        {{ if and (ne . "0") (ne $.Params.where.from_date . ) }}
+            <tr><td><b>To: </b></td><td>{{$date}}{{ if ne $time "00:00"}} {{$time}}{{end}} </td></tr>
+        {{ end }}
+      {{end}}
+  {{ end }}
+    </table>
+
+</div>

@@ -1,0 +1,28 @@
+{{ $url := .Page.URL }}
+{{ $cat := .Page.Params.categories}}
+
+{{ $i := -1}}
+
+{{ $posts := (where $.Site.RegularPages ".Params.categories" $cat).ByDate.Reverse }}
+
+{{ range $index, $seq := $posts}}
+    {{ if eq $seq.URL $url }}
+        {{ $i = $index }}
+    {{ end }}
+{{ end }}
+
+{{ $prev := "" }}
+{{ $next := "" }}
+
+{{ range (first 1 (after (add $i 1) $posts)) }}
+    {{ $prev = .Permalink }}
+{{ end }}
+
+{{ if ne $i 0}}
+    {{ range (first 1 (after (sub $i 1) $posts)) }}
+        {{ $next = .Permalink }}
+    {{ end }}
+{{ end }}
+<div class="prev-next">
+    <a href="{{ $prev }}"><span alt="Previous" class="icon icon-prev{{if not $prev}} disabled{{end}}"></span></a>   <a href="{{ $next }}"><span alt="Previous" class="icon icon-next{{if not $next}} disabled{{end}}"></span></a> in category
+</div>

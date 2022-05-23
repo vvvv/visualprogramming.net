@@ -1,0 +1,10 @@
+---
+user: "poof"
+created: "1326415622"
+---
+
+Im relatively new to vvvv and graphical programming in general, but i am familiar with both the business side and the user side of media generation tools and am a bit shocked at how small your customer base is. From the content of your post i got that you are expecting people to use your beta toolset and pay you for it, thereby growing your business and your software. While bootstrapping might be the idealistic approach to growing a business, rarely does this ever work. It would be like a new car manufacturer selling a car that only runs on one cylinder, is prone to breaking down, and is really confusing to operate, and then saying to their customer "if you drive this to work, pay me and ill make you a better car next time". 
+
+Now it seems that you pride yourself on not taking investment, but how do you expect to develop this program enough to make it accessible to more than just the hardcore programmers it takes to operate it? Like on the topic of getting vvvv to use my full processor in the future event i want to run a complex visual, i got the response that its single threaded, only using 1/4 of my computing power, and to make it run off the gpu which is the only sane way of doing graphics processing i have to write shaders. Right there vvvv has already eliminated me as a paying customer, because if i had the ability to write shaders id probably be more comfortable programming my visuals in notepad.   
+
+vvvv just isnt accessible, and its such an incredible time-sink to use much less learn that even the slightest flaw, like the one above, is enough to send most people scurrying in the other direction. Now i'm probably going to keep on with it because its free to learn with and i can always transfer my knowledge to jitter, if there's any difference, but i can say for sure there's alot of room left in the node based world for creating an intuitive programming environment, and you're not going to get there humping cycling74's designs or asking for handouts. 
