@@ -10,8 +10,8 @@ vvvv is misusing strings as arrays of bytes. this was fine/convenient in betas<=
 now vvvv strings support unicode (internally with utf16 encoding). thats great when using strings for handling text (which is what strings are actually for) but makes it more tricky when using strings to handle binary data. 
 
 so now in vvvv we have to distinguish:
-# using strings for text -> all is great
-# using strings for binary -> beware of the encoding
+1. using strings for text -> all is great
+2. using strings for binary -> beware of the encoding
 
 ad 1)
 this is what reader and writer nodes got the {{< pin "Encoding" >}} for. they will default to UTF8 now, but loading old patches the setting will be "System Default" (just for backwards compatibility). nothing more to worry. 

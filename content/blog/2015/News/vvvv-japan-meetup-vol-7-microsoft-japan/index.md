@@ -8,8 +8,6 @@ description: ""
 imported: "true"
 ---
 
-
-#  
 **2015.6.8 vvvv Japan meetup vol.7**
 
 We held vvvv workshop for MSP(Microsoft Student Partners) at Microsoft Japan office. 
@@ -27,7 +25,6 @@ Support : Yusuke Murata
 ![vvvv_JP2](20150608-_DSC6711.jpg) 
 
 
-!#  
 **Everyone is crazy about vvvv!!!**
 
 ![vvvv_JP3](20150608-_DSC6726.jpg) 

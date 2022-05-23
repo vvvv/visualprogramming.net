@@ -54,9 +54,9 @@ You can submit your own projects – or project of others that you consider grou
 
 ###  Schedule
 
-# **Submission of works: Deadlines are November 30th 2012 (exhibition) and January 31st 2013 (performances/workshops).** No previous registration needed!
-# Screening by the curational team and announcement of selected works: Until Dezember 2012 (exhibtion) and Januar/Februar 2013 (performances/workshops) 
-# Exhibition of selected works: February 11th – 17th, 2013
+1. **Submission of works: Deadlines are November 30th 2012 (exhibition) and January 31st 2013 (performances/workshops).** No previous registration needed!
+2. Screening by the curational team and announcement of selected works: Until Dezember 2012 (exhibtion) and Januar/Februar 2013 (performances/workshops) 
+3. Exhibition of selected works: February 11th – 17th, 2013
 
 ###  How to enter
 

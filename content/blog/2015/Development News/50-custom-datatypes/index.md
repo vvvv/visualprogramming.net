@@ -13,10 +13,10 @@ helohelohelo,
 
 here is the fifth in a series of blogposts about our forthcoming nextbigthing that we still call vvvv50 (50). If you haven't already done so please first read the previous issues with the titles:
 
-# [50: That Next Big Thing. An Overview.](/blog/2014/50-that-next-big-thing.-an-overview.)
-# [50: Colors](/blog/2014/50-colors)
-# [50: Properties](/blog/2014/50-properties)
-# [50: Generics](/blog/2015/50-generics)
+1. [50: That Next Big Thing. An Overview.](/blog/2014/50-that-next-big-thing.-an-overview.)
+1. [50: Colors](/blog/2014/50-colors)
+1. [50: Properties](/blog/2014/50-properties)
+1. [50: Generics](/blog/2015/50-generics)
  
 {{< box >}}
 Note:All information given here is still preliminary and subject to change.{{< /box >}}
@@ -35,7 +35,8 @@ The demo scenario:
 
 In good old modular fashion here is how you could approach this: 
 
-# A patch in 45 is merely a visual clue for the user
+# A patch in 45 is merely a visual clue for the user
+
 Step 1) A single particle
 * Create a patch called *Particle* that has a "Start Position" (2d), a "Velocity" (2d) and an "Initialize" input
 * Create a node of this Particle-patch, attach it to Mouse and Renderer and voila: A single particle moves as you click in the renderer 
@@ -63,7 +64,8 @@ So while you see there are ways in 45 to tackle such (still rather simplified) s
 
 Well, here we go:
 
-# A patch in 50 defines a datatype
+# A patch in 50 defines a datatype
+
 What you really want to express when putting multiple properties in one patch is to wrap up all those properties into one entity that you can operate with. Which is exactly what happens in 50.
 
 So just to make sure we got our terms straight, a quick recap:
@@ -88,7 +90,8 @@ So here the "create" operation is used to set initial values for a particles Pos
 
 Next: How do we create an instance? 
 
-## Instantiating a custom datatype
+## Instantiating a custom datatype
+
 ad step 1)
 Lets again start with placing just a single particle in the patch:
 
@@ -98,7 +101,8 @@ By simply creating a "Particle" node in a patch, what actually happens in 50 is 
 
 Give it a velocity and it moves..done. 
 
-## Creating dynamic instances 
+## Creating dynamic instances 
+
 ad step 2) 
 The challenge now is to create multiple instances of Particles dynamically. But don't think 45 style {{< node "SetPatch (VVVV)" >}}, where you'd tell vvvv to actually create a Particle node and place it in a patch... no. This is where the 50 magic chimes in:
 

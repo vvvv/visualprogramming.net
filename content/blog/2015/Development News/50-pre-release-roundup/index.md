@@ -13,11 +13,11 @@ hola,
 
 here is the final in a series of blogposts about our forthcoming nextbigthing that we still call vvvv50 (50). If you haven't already done so please first read the previous issues with the titles:
 
-# [50: That-Next-Big-Thing.-An-Overview.](/blog/2014/50-that-next-big-thing.-an-overview.)
-# [50: Colors](/blog/2014/50-colors)
-# [50: Properties](/blog/2014/50-properties)
-# [50: Generics](/blog/2015/50-generics)
-# [50: Custom Datatypes](/blog/2015/50-custom-datatypes)
+1. [50: That-Next-Big-Thing.-An-Overview.](/blog/2014/50-that-next-big-thing.-an-overview.)
+2. [50: Colors](/blog/2014/50-colors)
+3. [50: Properties](/blog/2014/50-properties)
+4. [50: Generics](/blog/2015/50-generics)
+5. [50: Custom Datatypes](/blog/2015/50-custom-datatypes)
  
 {{< box >}}
 Note:All information given here is still preliminary and subject to change.{{< /box >}}
@@ -28,7 +28,8 @@ The past two weeks we got external testers support from {{< user "bjoern" >}} an
 
 So let's recap what you will get to play with on April 29th:
 
-## Language
+## Language
+
 With 50 we are giving the world a new programming language. Its name is "VL", which in good programming language trivia also denotes the file ending of documents written in the language. ie. you'll work with files like: callmenames.vl
 
 VL initially will allow you to:
@@ -42,7 +43,8 @@ VL initially will allow you to:
 
 We have a list of more language features still to come. Those are only the ones that made it to the first release. 
 
-## User Interface
+## User Interface
+
 Did you notice we haven't spoken about the UI at all yet? The reason being that a lot of the UI design depends on the language design and as we've pointed out repeatedly thats where our focus mostly was in the past months. Thats the part of the UI that is inside the patch.
 
 The other part of the UI is everything around the patch and is mostly related to document handling or navigating the structure of a project. Regarding this, here are some fresh news for you:
@@ -54,12 +56,14 @@ So how is that related to the UI? Well, navigating a projects documents and patc
 ![](navigation.png) 
 *Navigation Menu*
 
-## Library
+## Library
+
 Also not much library talk so far. And here you'll probably see your biggest disappointment with the initial release: There aren't many nodes yet. Certainly none that do any drawing or even a renderer of any kind yet. Instead we hope to get you covered with the basics for math, string, color and spread handling so you're able to get used to the new paradigms. 
 
 Still here some more library news: We created a tool that allows us to import datatypes and operations from any managed library out there and have them available as nodes in VL within just a few clicks. Thats quite crazy in theory. And yes, even in praxis. Only in praxis it also means that while we'll save years of time writing library-code we have to invest some time in curating libraries and make them work properly and intuitively within the VL world of thinking. Can you have that tool to import stuff for your self? Not now. Later? Of course!
 
-## Deployment
+## Deployment
+
 As we already demoed at node13 VL is a compiled language meaning that with any change you do to a patch, 50 in the background creates a new executable and instantly runs it. And really that should be none of your concern unless of course you're interested in running your creations standalone, ie. without the need for 50 being around. 
 
 Because thats what "compiled" also means: Create standalone executables from a project with a single click. And if one uses only dependencies to cross-platform libraries in a project, the executable will even run cross-platform. Only: Not with the initial release.

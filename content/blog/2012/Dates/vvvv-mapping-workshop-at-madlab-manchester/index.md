@@ -20,13 +20,16 @@ imported: "true"
 ---
 
 
-# Video
+# Video
+
 <http://vimeo.com/35460703>
 
-# Details and booking__
+# Details and booking
+
 <http://madlab.org.uk/content/vvvv-maptools-introduction-to-the-tools-of-projection-mapping2/>
 
-# Overview
+# Overview
+
 VVVV is powerful toolkit of media technologies, boasting a glut of built in functionality, tools and examples. You can safely presume that you can get it to interface with almost anything you want, it can generate almost anything you want.
 
 Elliot Woods is ½ of international interaction design studio Kimchi and Chips, with works featured in Wired, Engadget and the BBC. He is an international protagonist of the projection mapping scene, creating tools and techniques that have been employed in multi-million dollar marketing campaigns and niche art projects alike.

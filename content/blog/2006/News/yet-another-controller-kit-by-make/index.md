@@ -12,9 +12,9 @@ originalType: "stuff"
 
 <!--{SPLIT()}-->
 logically called the [&quot;MAKE CONTROLLER KIT&quot;](http://makezine.com/controller/)
-# It's by my favorite DIY mag, [MAKE](http://www.makezine.com)
-# It's quite a lot more expensive than arduino (ca 150 us$)
-# It's 32-bit, has an Ethernet interface, and runs freeRTOS.
+1. It's by my favorite DIY mag, [MAKE](http://www.makezine.com)
+1. It's quite a lot more expensive than arduino (ca 150 us$)
+1. It's 32-bit, has an Ethernet interface, and runs freeRTOS.
 
 = the next step in cheap microcontroller multipurpose platforms.
 

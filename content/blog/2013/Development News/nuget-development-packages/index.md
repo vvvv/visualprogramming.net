@@ -10,8 +10,8 @@ imported: "true"
 
 
 When writing a plugin for vvvv the developer needs to at least add a reference to the VVVV.PluginInterfaces assembly. In order to do so there've been two choices up till now:
-# Reference the assembly directly (e.g. from a vvvv-release)
-# Reference the VVVV.PluginInterfaces project from the vvvv-sdk
+1. Reference the assembly directly (e.g. from a vvvv-release)
+2. Reference the VVVV.PluginInterfaces project from the vvvv-sdk
 Both of these choices have drawbacks. Referencing directly requires the developer to update the assemblies manually with every new vvvv release, referencing the project enforced the inclusion of the whole vvvv-sdk which is quite large and sometimes tiresome to build.
 
 Thanks to [NuGet](http://nuget.org) (a package manager for the windows development platform) and [TeamCity](http://www.jetbrains.com/teamcity/) (a build and NuGet server) a third choice emerged without the drawbacks mentioned above: referencing the assembly via a NuGet package.
@@ -26,9 +26,10 @@ All packages prefixed with VVVV. are intended to be used for plugin development 
 {{< /box >}}
 
 Now in order to create a plugin for vvvv by using NuGet, the developer has to:
-# Ensure the project is targeting at least .NET Framework 4.6.1 and is configured with the platforms x86 and x64.
-# Add http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/ as a NuGet package source in the settings of the NuGet package manager shipped with either Visual Studio or Sharp Develop.
-# Select the VVVV.PluginInterfaces package and click install.
+1. Ensure the project is targeting at least .NET Framework 4.6.1 and is configured with the platforms x86 and x64.
+2. Add http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/ as a NuGet package source in the settings of the NuGet package manager shipped with either Visual Studio or Sharp Develop.
+3. Select the VVVV.PluginInterfaces package and click install.
+
 NuGet will now download and add all the necessary dependencies to the project file and whenever a new version of vvvv is available, the NuGet package manager will ask whether or not to update the installed packages.
 
 {{< box >}}

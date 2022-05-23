@@ -20,7 +20,9 @@ imported: "true"
 
 
 {{< user "motzi" >}} released his Machine Learning pack during NODE15 so if you want some refreshment about it join us in the next vvorkshop!
-#  Correction
+
+#  Correction
+
 We had a misunderstanding over the dates with motzi. the workshop will be on sunday.
 <!--break-->
 ![](IntroRenderer_2016.04.22-12.50.55.png) 

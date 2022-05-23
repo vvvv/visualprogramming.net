@@ -39,9 +39,10 @@ RESULTS
 The day of 12th April on the official website will be published the final list of selected works which will be screened during the events planned for 19th and 21th at Church of St. Vito Martire in Ostuni, Italy. On the evening of 19th April, the jury will select the three winners that will be announced the next evening. We have prizes for top 3 and critics prize:
  
 
-1# Resolume VJ Software / Arena Boxed Version - one license;
-2# Millumin - one license;
-3# Resolume VJ Software / Avenue Boxed Version - one license;
+1. Resolume VJ Software / Arena Boxed Version - one license;
+2. Millumin - one license;
+3. Resolume VJ Software / Avenue Boxed Version - one license;
+
 Critic's Prize: CoGe & Vezér - one license to software;
  
 JURY SELECTION

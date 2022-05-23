@@ -19,11 +19,11 @@ helohelo,
 this is beta26 speaking. first of all thanks to all my alphatesters who found some buggers that would have annoyed you quite a bit. so be grateful and if you still find a bug, blame it on them. see? i cannot be bothered... 
 
 apart from tons of bugfixes in all of my most dirty corners which you'll only feel subconciously (if you're too lazy to read my [Change Log](https://betadocs.vvvv.org/changelog/index.html)) there are a few things you should be aware of:
-# changes to ioboxes
-# relative paths into modules
-# realtime cubemap
-# new fx compiler
-# startup time
+1. changes to ioboxes
+2. relative paths into modules
+3. realtime cubemap
+4. new fx compiler
+5. startup time
 <!--break-->
 ad 1) 
 ![](callmenames_2011.08.15-18.02.48.png) 
