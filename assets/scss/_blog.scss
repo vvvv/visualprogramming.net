@@ -31,9 +31,38 @@ section#Blog
     {
         top: inherit;
         min-height: 400px;
+
+        .list {
+
+            font-family: $sans;
+
+        }
         
         li {
-            padding: 1em 0em 1em 1em;
+            font-size: 0.9em;
+            color: #777;
+            border: none;
+            padding: 0.8em 0em;
+            margin-bottom: 0px;
+            border-bottom: 1px solid #ddd;
+
+            a
+            {
+                display: block;
+            }
+        }
+
+        li:hover
+        {
+            background-color: #ffffff !important;
+        }
+
+
+        h4
+        {
+            font-family: $serif;
+            font-weight: 700;
+            font-size: 1em;    
         }
     }
 
@@ -136,6 +165,7 @@ section#Blog
     .list
     {
         font-size: 1rel;
+
         .post-meta
         {
             color: #777;
@@ -206,6 +236,7 @@ section#Blog
         {
             color: #777;
             font-family: $sans;
+            margin-bottom: 0.5em;
         }
 
         h2
@@ -475,7 +506,7 @@ section#Blog
                 font-size: 0.9em;
                 color: #777;
                 border: none;
-                padding: 1em 0em;
+                padding: 0.8em 0em;
                 margin-bottom: 0px;
                 border-bottom: 1px solid #ddd;
 
@@ -507,28 +538,3 @@ section#Blog
         }
     }
 }
-
-// .tagCloud {
-//     .tagCloud-tags {
-//         display: flex;
-//         flex-wrap: wrap;
-
-//         a {
-//             background: #cccccc;
-//             box-shadow: #000000;
-//             border-radius: 3px;
-//             padding: 8px 20px;
-
-//             color: var(--card-text-color-main);
-//             margin-bottom: 10px;
-//             margin-right: 5px;
-//             font-size: 0.8rem;
-//             text-transform: lowercase;
-//             transition: box-shadow 0.3s ease;
-
-//             &:hover {
-//                 box-shadow: var(--shadow-l2);
-//             }
-//         }
-//     }
-// }
