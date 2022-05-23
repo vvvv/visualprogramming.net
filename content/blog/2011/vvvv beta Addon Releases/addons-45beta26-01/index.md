@@ -26,7 +26,7 @@ also this time is a first for {{< user "unc" >}} who makes his debut with sharin
 this needs to go out to the world, so i prepared a little press-statment:
 
 {{< box >}}quote:vvvv:
-~np~#~/np~texturefx for #vvvv by unc is one of the most extensive GPU-based, opensource image-manipulation and -analysis packages available.  
+`#texturefx for #vvvv` by unc is one of the most extensive GPU-based, opensource image-manipulation and -analysis packages available.  
 {{< /box >}}
 
 see, i made this <140 characters for your tweeting pleasure. people interested herein were also interested in [unc's videos on vimeo](http://vimeo.com/unc/videos)
