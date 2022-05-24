@@ -70,12 +70,12 @@
   }
 }
 
-.tippy-box {
+.tippy-tooltip {
     background-color: #444;
     min-width: 380px;
   }
   
-.tippy-box[data-placement^='right'] > .tippy-arrow::before {
+.tippy-tooltip[data-placement^='right'] > .tippy-arrow{
     border-right-color: #444;
 }
   
