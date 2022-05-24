@@ -6,6 +6,7 @@ title: "book review: Generative Gestaltung"
 slug: "book-review-generative-gestaltung"
 description: ""
 imported: "true"
+thumb: "generativegestaltung.jpg"
 ---
 
 

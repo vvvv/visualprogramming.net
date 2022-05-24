@@ -7,6 +7,7 @@ slug: "vveekend-vvorkshops-11-lambdacube-3d"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "OnPaste.20160316-181628.jpg"
 ---
 
 

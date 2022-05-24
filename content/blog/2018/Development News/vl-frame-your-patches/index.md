@@ -6,6 +6,7 @@ title: "VL: Frame Your Patches"
 slug: "vl-frame-your-patches"
 description: ""
 imported: "true"
+thumb: "callmenames-Root_2018.06.26-21.29.23.gif"
 ---
 
 

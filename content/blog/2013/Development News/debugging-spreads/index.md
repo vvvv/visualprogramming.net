@@ -6,6 +6,7 @@ title: "debugging spreads"
 slug: "debugging-spreads"
 description: ""
 imported: "true"
+thumb: "screenshot1382456037.png"
 ---
 
 

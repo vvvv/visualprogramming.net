@@ -6,6 +6,7 @@ title: "vvvvhat happened in February 2017"
 slug: "vvvvhat-happened-in-february-2017"
 description: ""
 imported: "true"
+thumb: "supernoodles.png"
 ---
 
 

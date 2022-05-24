@@ -6,6 +6,7 @@ title: "LINK Summercamp - Presenting the Topics"
 slug: "link-summercamp-presenting-the-topics"
 description: ""
 imported: "true"
+thumb: "DSCF2433-3840x2550.jpg"
 ---
 
 

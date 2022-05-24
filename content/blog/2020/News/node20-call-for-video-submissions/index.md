@@ -6,6 +6,7 @@ title: "NODE20: Call for Video Submissions"
 slug: "node20-call-for-video-submissions"
 description: ""
 imported: "true"
+thumb: "vvvv_website_02.png"
 ---
 
 

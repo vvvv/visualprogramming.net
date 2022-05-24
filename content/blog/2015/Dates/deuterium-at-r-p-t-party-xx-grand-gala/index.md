@@ -18,6 +18,7 @@ where:
     lat: "55.707430"
     long: "12.553607"
 imported: "true"
+thumb: "DEUTERIUM_2015.06.01-13.17.03.png"
 ---
 
 

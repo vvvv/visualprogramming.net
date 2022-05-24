@@ -7,6 +7,7 @@ slug: "mre.mdmod.2-teaser-2"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "polygonoseyecandy.jpg"
 ---
 
 

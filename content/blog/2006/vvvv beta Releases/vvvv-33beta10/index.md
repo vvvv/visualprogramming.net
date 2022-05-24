@@ -11,6 +11,7 @@ release:
     date: "2006-05-30"
     app_file: "sites/default/files/vvvv_33beta10.zip"
 imported: "true"
+thumb: "56.jpg"
 ---
 
 

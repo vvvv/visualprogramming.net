@@ -6,6 +6,7 @@ title: "Parasitic Design - P4"
 slug: "parasitic-design-p4"
 description: ""
 imported: "true"
+thumb: "p4.png"
 ---
 
 

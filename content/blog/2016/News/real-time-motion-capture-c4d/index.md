@@ -7,6 +7,7 @@ slug: "real-time-motion-capture- -c4d"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "Realtime_capture.PNG"
 ---
 
 

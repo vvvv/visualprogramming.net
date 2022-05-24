@@ -18,6 +18,7 @@ where:
     lat: "45.486282"
     long: "9.190085"
 imported: "true"
+thumb: "_foo_2012.01.10-21.17.55.png"
 ---
 
 

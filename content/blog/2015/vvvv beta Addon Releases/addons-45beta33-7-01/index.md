@@ -13,6 +13,7 @@ release:
     app_file: "sites/default/files/addons_45beta33.7_x86.zip"
     app_file_64: "sites/default/files/addons_45beta33.7_x64.zip"
 imported: "true"
+thumb: "screenshot1416598937.png"
 ---
 
 

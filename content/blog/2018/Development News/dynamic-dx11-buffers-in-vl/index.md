@@ -6,6 +6,7 @@ title: "Dynamic DX11 Buffers in VL"
 slug: "dynamic-dx11-buffers-in-vl"
 description: ""
 imported: "true"
+thumb: "9HqhDcmkoU.gif"
 ---
 
 

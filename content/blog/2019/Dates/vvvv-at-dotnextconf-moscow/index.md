@@ -13,6 +13,7 @@ where:
     from_date: "1573027200"
     to_date: "1573142400"
 imported: "true"
+thumb: "dotnextconf.png"
 ---
 
 

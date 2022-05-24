@@ -7,6 +7,7 @@ slug: "our-old-friends-the-radiolarians-seem-to-be-invoked"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "spiral1.jpg"
 ---
 
 

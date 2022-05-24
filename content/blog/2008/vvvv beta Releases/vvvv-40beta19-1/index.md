@@ -11,6 +11,7 @@ release:
     date: "2008-11-14"
     app_file: "sites/default/files/vvvv_40beta19.1.zip"
 imported: "true"
+thumb: "grideditorex9helpdirectxrenderer_2008.11.1500.27.02.jpg"
 ---
 
 

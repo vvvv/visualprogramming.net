@@ -6,6 +6,7 @@ title: "50: Custom Datatypes"
 slug: "50-custom-datatypes"
 description: ""
 imported: "true"
+thumb: "Particle5.png"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Using HTC Vive Trackers without Headset"
 slug: "using-htc-vive-trackers-without-headset"
 description: ""
 imported: "true"
+thumb: "tracker-s01-min.png"
 ---
 
 

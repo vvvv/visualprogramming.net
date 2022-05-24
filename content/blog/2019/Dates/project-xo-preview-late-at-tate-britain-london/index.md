@@ -16,6 +16,7 @@ where:
     from_date: "1572624000"
     to_date: "1572636600"
 imported: "true"
+thumb: "web-teaser-tate-britain.png"
 ---
 
 

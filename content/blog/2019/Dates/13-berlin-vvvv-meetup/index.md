@@ -14,6 +14,7 @@ where:
     from_date: "1569340800"
     to_date: "1569340800"
 imported: "true"
+thumb: "women-telephone-operators-at-work-12.jpg"
 ---
 
 

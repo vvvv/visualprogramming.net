@@ -14,6 +14,7 @@ where:
     from_date: "1257448500"
     to_date: "0"
 imported: "true"
+thumb: "diedingeansich.jpg"
 ---
 
 

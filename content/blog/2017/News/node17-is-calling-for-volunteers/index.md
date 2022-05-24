@@ -6,6 +6,7 @@ title: "NODE17 is calling for volunteers"
 slug: "node17-is-calling-for-volunteers"
 description: ""
 imported: "true"
+thumb: "16667570804_1e6e063812_b.jpg"
 ---
 
 

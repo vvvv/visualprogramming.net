@@ -7,6 +7,7 @@ slug: "where-is-my-tank-where-is-my-patrol-hiding-in-the-long-grass-where-did-i-
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "radar4a.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Did you see the Users page?"
 slug: "did-you-see-the-users-page"
 description: ""
 imported: "true"
+thumb: "community.jpg"
 ---
 
 

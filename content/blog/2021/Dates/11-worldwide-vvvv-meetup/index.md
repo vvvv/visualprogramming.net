@@ -14,6 +14,7 @@ where:
     from_date: "1621958400"
     to_date: "1621963800"
 imported: "true"
+thumb: "vl.openai.png"
 ---
 
 

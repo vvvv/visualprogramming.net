@@ -12,6 +12,7 @@ where:
     from_date: "1144188000"
     to_date: "0"
 imported: "true"
+thumb: "camerasetupoverview3.jpg"
 ---
 
 

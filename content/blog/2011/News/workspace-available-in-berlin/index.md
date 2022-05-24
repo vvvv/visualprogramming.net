@@ -6,6 +6,7 @@ title: "Workspace available in Berlin"
 slug: "workspace-available-in-berlin"
 description: ""
 imported: "true"
+thumb: "LetterMpress-Logo-01.jpg"
 ---
 
 

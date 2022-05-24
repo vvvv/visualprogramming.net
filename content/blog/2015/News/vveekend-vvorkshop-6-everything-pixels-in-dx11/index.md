@@ -6,6 +6,7 @@ title: "vveekend vvorkshop 6: Everything Pixels in DX11"
 slug: "vveekend-vvorkshop-6-everything-pixels-in-dx11"
 description: ""
 imported: "true"
+thumb: "scr5.png"
 ---
 
 

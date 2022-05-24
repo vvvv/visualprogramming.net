@@ -6,6 +6,7 @@ title: "Parasitic Design - M2 out now"
 slug: "parasitic-design-m2-out-now"
 description: ""
 imported: "true"
+thumb: "M2.png"
 ---
 
 

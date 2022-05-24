@@ -6,6 +6,7 @@ title: "VL: New OSC and TUIO nodes"
 slug: "vl-new-osc-and-tuio-nodes"
 description: ""
 imported: "true"
+thumb: "oscreceiver.gif"
 ---
 
 

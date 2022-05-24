@@ -6,6 +6,7 @@ title: "Parasitic Design - M1"
 slug: "parasitic-design-m1"
 description: ""
 imported: "true"
+thumb: "landscape.png"
 ---
 
 

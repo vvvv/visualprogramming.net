@@ -7,6 +7,7 @@ slug: "richard-doc-bailey-(spore)-passed-away"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "fireinthehole800.jpg"
 ---
 
 

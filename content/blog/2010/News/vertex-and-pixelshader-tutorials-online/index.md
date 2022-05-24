@@ -6,6 +6,7 @@ title: "Vertex and Pixelshader tutorials online"
 slug: "vertex-and-pixelshader-tutorials-online"
 description: ""
 imported: "true"
+thumb: "edgedetect.png"
 ---
 
 

@@ -6,6 +6,7 @@ title: "vvvvhat happened in February 2016"
 slug: "vvvvhat-happened-in-february-2016"
 description: ""
 imported: "true"
+thumb: "screenshot1456265234.png"
 ---
 
 only 29 days,

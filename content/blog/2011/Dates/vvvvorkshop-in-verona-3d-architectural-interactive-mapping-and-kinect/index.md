@@ -18,6 +18,7 @@ where:
     lat: "45.353725"
     long: "10.731052"
 imported: "true"
+thumb: "byhbyt.png"
 ---
 
 

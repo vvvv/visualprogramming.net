@@ -18,6 +18,7 @@ where:
     lat: "52.540822"
     long: "13.438912"
 imported: "true"
+thumb: "lost-in-the-fearest_still_300dpi.jpg"
 ---
 
 

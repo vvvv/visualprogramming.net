@@ -7,6 +7,7 @@ slug: "one-fullscreenrenderer-8x1920x108050hz"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "8x1920x1080at50.png"
 ---
 
 

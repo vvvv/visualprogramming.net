@@ -6,6 +6,7 @@ title: "NuGet development packages"
 slug: "nuget-development-packages"
 description: ""
 imported: "true"
+thumb: "vvvv_nuget.png"
 ---
 
 

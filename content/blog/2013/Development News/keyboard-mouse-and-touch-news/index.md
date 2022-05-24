@@ -6,6 +6,7 @@ title: "Keyboard, Mouse and Touch news"
 slug: "keyboard-mouse-and-touch-news"
 description: ""
 imported: "true"
+thumb: "callmenames_2013.12.10-00.01.21.png"
 ---
 
 

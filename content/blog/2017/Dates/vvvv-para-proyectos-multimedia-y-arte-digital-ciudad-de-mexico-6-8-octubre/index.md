@@ -19,6 +19,7 @@ where:
     lat: "19.351789"
     long: "-99.297774"
 imported: "true"
+thumb: "taller_desax.png"
 ---
 
 

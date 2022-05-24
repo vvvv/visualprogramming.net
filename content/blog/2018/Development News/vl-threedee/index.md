@@ -6,6 +6,7 @@ title: "VL: ThreeDee"
 slug: "vl-threedee"
 description: ""
 imported: "true"
+thumb: "xenko.png"
 ---
 
 

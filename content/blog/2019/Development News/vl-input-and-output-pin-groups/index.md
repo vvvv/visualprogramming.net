@@ -6,6 +6,7 @@ title: "VL: Input and output pin groups"
 slug: "vl-input-and-output-pin-groups"
 description: ""
 imported: "true"
+thumb: "Cons.png"
 ---
 
 

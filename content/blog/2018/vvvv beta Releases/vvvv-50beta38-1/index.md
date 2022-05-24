@@ -12,6 +12,7 @@ release:
     app_file: "sites/default/files/vvvv_50beta38.1_x86_1.zip"
     app_file_64: "sites/default/files/vvvv_50beta38.1_x64_1.zip"
 imported: "true"
+thumb: "splash38.1.png"
 ---
 
 

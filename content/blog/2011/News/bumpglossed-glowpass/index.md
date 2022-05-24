@@ -7,6 +7,7 @@ slug: "bumpglossed-glowpass"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "GlowPass.jpg"
 ---
 
 

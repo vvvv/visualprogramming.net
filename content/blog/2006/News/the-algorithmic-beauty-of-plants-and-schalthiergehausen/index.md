@@ -7,6 +7,7 @@ slug: "the-algorithmic-beauty-of-plants-and-schalthiergehäusen"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "spalowsky20c201.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ title: "vvvv Academy on Tour"
 slug: "vvvv-academy-on-tour"
 description: ""
 imported: "true"
+thumb: "vvvv-academy_logo_quarter.png"
 ---
 
 

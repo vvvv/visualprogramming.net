@@ -6,6 +6,7 @@ title: "vvvvhat happened in Dezember 2015"
 slug: "vvvvhat-happened-in-dezember-2015"
 description: ""
 imported: "true"
+thumb: "Virtual-Depictions-011.jpg"
 ---
 
 happy new,

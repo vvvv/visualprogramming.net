@@ -15,6 +15,7 @@ where:
     from_date: "1301078700"
     to_date: "1301165100"
 imported: "true"
+thumb: "deltaAurigae.jpg"
 ---
 
 

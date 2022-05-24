@@ -6,6 +6,7 @@ title: "NODE15 Workshop Booking NOW"
 slug: "node15-workshop-booking-now"
 description: ""
 imported: "true"
+thumb: "tom.jpg"
 ---
 
 

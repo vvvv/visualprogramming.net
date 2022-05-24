@@ -6,6 +6,7 @@ title: "Spout"
 slug: "spout-0"
 description: ""
 imported: "true"
+thumb: "SpoutWithTitleWhite1-300x300.png"
 ---
 
 

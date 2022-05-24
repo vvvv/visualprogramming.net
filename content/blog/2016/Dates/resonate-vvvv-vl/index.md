@@ -16,6 +16,7 @@ where:
     lat: "44.800706"
     long: "20.447554"
 imported: "true"
+thumb: "1024px-Warp_Belgrade_Nightscene_April_2012spatial_subset.jpg"
 ---
 
 

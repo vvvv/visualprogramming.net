@@ -6,6 +6,7 @@ title: "VL: Xenko 3D Engine Update #1"
 slug: "vl-xenko-3d-engine-update-1"
 description: ""
 imported: "true"
+thumb: "10_RootScene.PNG"
 ---
 
 

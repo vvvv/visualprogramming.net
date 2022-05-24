@@ -7,6 +7,7 @@ slug: "i-♥-vvvv"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "plakat1.png"
 ---
 
 

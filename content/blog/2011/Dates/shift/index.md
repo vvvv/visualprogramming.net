@@ -17,6 +17,7 @@ where:
     from_date: "1298394000"
     to_date: "1298739600"
 imported: "true"
+thumb: "praguefly04.png"
 ---
 
 

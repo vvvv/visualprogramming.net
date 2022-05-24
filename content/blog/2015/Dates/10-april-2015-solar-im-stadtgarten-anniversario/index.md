@@ -18,6 +18,7 @@ where:
     lat: "50.942556"
     long: "6.934982"
 imported: "true"
+thumb: "oktoskop-live_jung-und-nutzlos_2014.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Talking about vvvv at SIGGRAPH"
 slug: "talking-about-vvvv-at-siggraph"
 description: ""
 imported: "true"
+thumb: "vvvv.png"
 ---
 
 

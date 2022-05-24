@@ -13,6 +13,7 @@ where:
     from_date: "1384898400"
     to_date: "1384984800"
 imported: "true"
+thumb: "1384350_747305785295975_91595551_n.jpg"
 ---
 
 

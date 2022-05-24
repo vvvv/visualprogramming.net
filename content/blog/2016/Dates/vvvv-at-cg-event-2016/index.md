@@ -18,6 +18,7 @@ where:
     lat: "54.670609"
     long: "25.260843"
 imported: "true"
+thumb: "CGEvent_2016_ProjectionMappingImage-vvvvWebsite.png"
 ---
 
 

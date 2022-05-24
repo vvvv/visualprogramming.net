@@ -16,6 +16,7 @@ where:
     from_date: "1395945000"
     to_date: "1395948600"
 imported: "true"
+thumb: "vlcsnap-2014-03-25-17h04m10s166.png"
 ---
 
 

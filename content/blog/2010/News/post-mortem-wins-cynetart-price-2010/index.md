@@ -6,6 +6,7 @@ title: "\"Post Mortem\" wins Cynetart-Price 2010"
 slug: "post-mortem-wins-cynetart-price-2010"
 description: ""
 imported: "true"
+thumb: "10_CY_1111_Preisverleihung_Kreft_03_RA.jpg"
 ---
 
 

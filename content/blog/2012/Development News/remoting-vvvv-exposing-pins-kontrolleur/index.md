@@ -6,6 +6,7 @@ title: "remoting vvvv / exposing pins / kontrolleur"
 slug: "remoting-vvvv-exposing-pins-kontrolleur"
 description: ""
 imported: "true"
+thumb: "0_2012.06.08-14.52.15.png"
 ---
 
 

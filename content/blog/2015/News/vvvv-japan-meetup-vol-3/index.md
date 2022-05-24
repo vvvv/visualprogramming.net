@@ -6,6 +6,7 @@ title: "vvvv Japan Meetup Vol.3"
 slug: "vvvv-japan-meetup-vol.3"
 description: ""
 imported: "true"
+thumb: "10957052_1545372259053924_35431743_o.jpg"
 ---
 
 

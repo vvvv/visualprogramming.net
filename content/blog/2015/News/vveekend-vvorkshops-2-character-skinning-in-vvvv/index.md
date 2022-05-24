@@ -6,6 +6,7 @@ title: "vveekend vvorkshops 2: Character Skinning in VVVV"
 slug: "vveekend-vvorkshops-2-character-skinning-in-vvvv"
 description: ""
 imported: "true"
+thumb: "ws2-announcement.png"
 ---
 
 

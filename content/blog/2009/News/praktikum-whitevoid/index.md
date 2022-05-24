@@ -6,6 +6,7 @@ title: "Praktikum @ WHITEvoid"
 slug: "praktikum-whitevoid"
 description: ""
 imported: "true"
+thumb: "praktikant.jpg"
 ---
 
 

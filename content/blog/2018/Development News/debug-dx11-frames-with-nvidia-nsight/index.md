@@ -6,6 +6,7 @@ title: "Debug DX11 Frames with Nvidia Nsight"
 slug: "debug-dx11-frames-with-nvidia-nsight"
 description: ""
 imported: "true"
+thumb: "01_QuickLaunch.PNG"
 ---
 
 

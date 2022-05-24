@@ -6,6 +6,7 @@ title: "»Prototyping Interfaces« X-Mas Contest"
 slug: "»prototyping-interfaces«-x-mas-contest"
 description: ""
 imported: "true"
+thumb: "Gewinnspiel_Items2-01.jpg"
 ---
 
 

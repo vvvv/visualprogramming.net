@@ -6,6 +6,7 @@ title: "50: Properties"
 slug: "50-properties"
 description: ""
 imported: "true"
+thumb: "framedelay.png"
 ---
 
 

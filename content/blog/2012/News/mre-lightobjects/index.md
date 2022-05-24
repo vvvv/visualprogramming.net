@@ -7,6 +7,7 @@ slug: "mre-lightobjects"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "lowerCut_stil_anim.jpg"
 ---
 
 

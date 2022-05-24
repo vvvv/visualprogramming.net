@@ -7,6 +7,7 @@ slug: "yet-another-google-beta-(yagb)-google-notebook"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "googlenotebook.png"
 ---
 
 

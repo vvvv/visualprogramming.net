@@ -6,6 +6,7 @@ title: "vvvv_45beta30.2 DirectX11 Pack"
 slug: "vvvv45beta30.2-directx11-pack"
 description: ""
 imported: "true"
+thumb: "Voxelizer-Renderer_2013.07.05-15.21.28.png"
 ---
 
 

@@ -11,6 +11,7 @@ release:
     date: "2005-12-22"
     app_file: "sites/default/files/vvvv_beta9.10.zip"
 imported: "true"
+thumb: "moveyourcamdirectxrenderer0.jpg"
 ---
 
 <!--{SPLIT()}-->

@@ -6,6 +6,7 @@ title: "POST MORTEM @ Contrast Festival, Metz, France // with Videodocu !!"
 slug: "post-mortem-contrast-festival-metz-france-with-videodocu"
 description: ""
 imported: "true"
+thumb: "CIMG4425.jpg"
 ---
 
 

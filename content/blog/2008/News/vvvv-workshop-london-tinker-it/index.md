@@ -6,6 +6,7 @@ title: "vvvv workshop London @ Tinker.it"
 slug: "vvvv-workshop-london-tinker.it"
 description: ""
 imported: "true"
+thumb: "h3_vvvv.jpg"
 ---
 
 

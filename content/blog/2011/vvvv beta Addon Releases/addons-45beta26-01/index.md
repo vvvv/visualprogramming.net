@@ -12,6 +12,7 @@ release:
     date: "2011-08-16"
     app_file: "sites/default/files/addons_45beta26_01.zip"
 imported: "true"
+thumb: "show1n.png"
 ---
 
 

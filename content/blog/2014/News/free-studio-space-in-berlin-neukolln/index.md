@@ -7,6 +7,7 @@ slug: "free-studio-space-in-berlin-neukölln"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "20140416_152512.jpg"
 ---
 
 

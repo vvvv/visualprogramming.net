@@ -18,6 +18,7 @@ where:
     lat: "52.504830"
     long: "13.393721"
 imported: "true"
+thumb: "FoL_Kopffarben.jpg"
 ---
 
 

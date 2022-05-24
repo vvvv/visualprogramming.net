@@ -18,6 +18,7 @@ where:
     lat: "28.466610"
     long: "-16.246484"
 imported: "true"
+thumb: "Equipo_LTP_Poster_HighRes_120dpi.png"
 ---
 
 

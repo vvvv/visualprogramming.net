@@ -6,6 +6,7 @@ title: "Boygrouping und Girlpower, iX 01.06"
 slug: "boygrouping-und-girlpower-ix-01.06"
 description: ""
 imported: "true"
+thumb: "ix_logo_w.gif"
 ---
 
 

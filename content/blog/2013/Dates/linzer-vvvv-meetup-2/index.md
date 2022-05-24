@@ -18,6 +18,7 @@ where:
     lat: "79.977303"
     long: "-99.536133"
 imported: "true"
+thumb: "wiki.png"
 ---
 
 

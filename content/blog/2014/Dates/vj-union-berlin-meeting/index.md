@@ -18,6 +18,7 @@ where:
     lat: "52.545045"
     long: "13.374174"
 imported: "true"
+thumb: "fbheader_blurb_left-02.png"
 ---
 
 

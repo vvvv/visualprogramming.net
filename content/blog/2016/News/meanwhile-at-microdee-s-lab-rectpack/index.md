@@ -6,6 +6,7 @@ title: "meanwhile at microdee's lab: RectPack"
 slug: "meanwhile-at-microdees-lab-rectpack"
 description: ""
 imported: "true"
+thumb: "RectPack-Renderer_2016.12.01-05.31.31.png"
 ---
 
 

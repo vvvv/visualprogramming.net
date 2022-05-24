@@ -6,6 +6,7 @@ title: "VL.Stride EarlyAccess Screenshots"
 slug: "vl.stride-earlyaccess-screenshots"
 description: ""
 imported: "true"
+thumb: "vl_stride_ea_shots_header2.gif"
 ---
 
 

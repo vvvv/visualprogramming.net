@@ -14,6 +14,7 @@ where:
     from_date: "1195930800"
     to_date: "0"
 imported: "true"
+thumb: "portikus_videoservertransformed_2007.11.2223.40.44.jpg"
 ---
 
 

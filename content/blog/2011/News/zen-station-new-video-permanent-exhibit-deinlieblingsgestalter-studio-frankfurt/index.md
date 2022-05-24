@@ -6,6 +6,7 @@ title: "ZEN STATION - New Video // permanent exhibit @ DeinLieblingsgestalter St
 slug: "zen-station-new-video-permanent-exhibit-deinlieblingsgestalter-studio-frankfurt"
 description: ""
 imported: "true"
+thumb: "JL271109019.jpg"
 ---
 
 

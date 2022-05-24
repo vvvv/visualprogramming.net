@@ -14,6 +14,7 @@ where:
     from_date: "1566921600"
     to_date: "1566934200"
 imported: "true"
+thumb: "workshp.png"
 ---
 
 

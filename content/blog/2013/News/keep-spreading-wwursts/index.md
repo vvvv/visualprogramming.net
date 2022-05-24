@@ -7,6 +7,7 @@ slug: "keep-spreading-wwursts-)"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "IMG_20130217_063235.jpg"
 ---
 
 

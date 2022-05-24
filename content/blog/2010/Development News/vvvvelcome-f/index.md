@@ -6,6 +6,7 @@ title: "VVVVelcome F#"
 slug: "vvvvelcome-f"
 description: ""
 imported: "true"
+thumb: "ifs2dhelpdirectxrenderer_2010.04.0919.01.09.jpg"
 ---
 
 

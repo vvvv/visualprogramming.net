@@ -11,6 +11,7 @@ where:
     lat: "None"
     long: "None"
 imported: "true"
+thumb: "imagine_create_2009.jpg"
 ---
 
 

@@ -11,6 +11,7 @@ release:
     date: "2012-05-07"
     app_file: "sites/default/files/vvvv_45beta27.2.zip"
 imported: "true"
+thumb: "anonvmous.png"
 ---
 
 

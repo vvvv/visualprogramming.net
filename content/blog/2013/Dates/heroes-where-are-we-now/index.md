@@ -18,6 +18,7 @@ where:
     lat: "52.494060"
     long: "13.429075"
 imported: "true"
+thumb: "HEROES---WHERE-ARE-WE-NOW-small.jpg"
 ---
 
 

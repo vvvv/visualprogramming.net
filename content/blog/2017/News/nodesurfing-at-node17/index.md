@@ -6,6 +6,7 @@ title: "NODESurfing at NODE17"
 slug: "nodesurfing-at-node17"
 description: ""
 imported: "true"
+thumb: "nodesurfing.png"
 ---
 
 

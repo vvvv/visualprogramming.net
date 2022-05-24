@@ -7,6 +7,7 @@ slug: "qobo-the-os-controller-for-media-artists"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "4661727.png"
 --- 
 
 Qobo is a cube that connects with your laptop and gives you the ability to interact with your media contents and any programming software for entertainment, multimidea and music in a totally unique way! It incorporates an inertial measurement unit, a programmable RGB led and a simple haptic feedback...each of them is easily programmable and accessible.

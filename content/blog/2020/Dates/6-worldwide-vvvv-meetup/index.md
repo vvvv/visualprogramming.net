@@ -12,6 +12,7 @@ where:
     from_date: "1606240800"
     to_date: "1606246200"
 imported: "true"
+thumb: "magentamoommakingof.png"
 ---
 
 

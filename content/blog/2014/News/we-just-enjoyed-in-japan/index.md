@@ -7,6 +7,7 @@ slug: "we-just-enjoyed-in-japan"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "image.jpg"
 ---
 
 

@@ -17,6 +17,7 @@ where:
     lat: "51.522696"
     long: "-0.134641"
 imported: "true"
+thumb: "VR-161120-55_crop.jpg"
 ---
 
 

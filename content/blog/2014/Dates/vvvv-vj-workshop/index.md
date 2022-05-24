@@ -17,6 +17,7 @@ where:
     from_date: "1413802800"
     to_date: "1413993600"
 imported: "true"
+thumb: "intolight-bearbeitet.jpg"
 ---
 
 

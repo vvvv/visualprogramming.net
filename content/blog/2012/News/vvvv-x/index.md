@@ -6,6 +6,7 @@ title: "vvvv X"
 slug: "vvvv-x"
 description: ""
 imported: "true"
+thumb: "vlagshipstore_600_color.png"
 ---
 
 

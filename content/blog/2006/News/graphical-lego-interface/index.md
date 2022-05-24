@@ -7,6 +7,7 @@ slug: "graphical-lego-interface"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "gaertner_detail2.jpg"
 ---
 
 

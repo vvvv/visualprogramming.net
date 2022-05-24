@@ -16,6 +16,7 @@ where:
     from_date: "1380916800"
     to_date: "1381089600"
 imported: "true"
+thumb: "Setup-Preview_2013.09.19-13.20.422.png"
 ---
 
 

@@ -6,6 +6,7 @@ title: "The Gray Book has moved"
 slug: "the-gray-book-has-moved"
 description: ""
 imported: "true"
+thumb: "graybook.jpg"
 ---
 
 

@@ -11,6 +11,7 @@ release:
     date: "2008-07-16"
     app_file: "sites/default/files/vvvv_40beta17.zip"
 imported: "true"
+thumb: "x.jpg"
 ---
 
 

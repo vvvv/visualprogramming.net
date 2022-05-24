@@ -6,6 +6,7 @@ title: "C#6 Compiler for Dynamic Plugins"
 slug: "c6-compiler-for-dynamic-plugins"
 description: ""
 imported: "true"
+thumb: "c-60-what-c-is-being-updated-10-638.jpg"
 ---
 
 

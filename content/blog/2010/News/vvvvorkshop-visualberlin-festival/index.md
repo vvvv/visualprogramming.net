@@ -6,6 +6,7 @@ title: "VVVVorkshop @ VisualBerlin Festival"
 slug: "vvvvorkshop-visualberlin-festival"
 description: ""
 imported: "true"
+thumb: "vbstickerslim1600x399.jpg"
 ---
 
 

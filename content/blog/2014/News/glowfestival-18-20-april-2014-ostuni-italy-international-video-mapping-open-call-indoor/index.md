@@ -6,6 +6,7 @@ title: "::: GLOWFestival 18-20 April 2014 / Ostuni - Italy / International video
 slug: "glowfestival-18-20-april-2014-ostuni-italy-international-video-mapping-open-call-indoor"
 description: ""
 imported: "true"
+thumb: "glowfestival_logo.jpg"
 ---
 
 

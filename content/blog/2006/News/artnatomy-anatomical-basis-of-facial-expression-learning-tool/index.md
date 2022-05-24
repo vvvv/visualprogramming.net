@@ -7,6 +7,7 @@ slug: "artnatomy-anatomical-basis-of-facial-expression-learning-tool"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "face.png"
 ---
 
 

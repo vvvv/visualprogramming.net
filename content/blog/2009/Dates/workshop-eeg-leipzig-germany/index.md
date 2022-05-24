@@ -12,6 +12,7 @@ where:
     from_date: "1256511600"
     to_date: "0"
 imported: "true"
+thumb: "eeg.png"
 ---
 
 

@@ -6,6 +6,7 @@ title: "vvvvhat happened in August 2017"
 slug: "vvvvhat-happened-in-august-2017"
 description: ""
 imported: "true"
+thumb: "july-august.PNG"
 ---
 
 

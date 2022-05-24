@@ -6,6 +6,7 @@ title: "vvvvhat happened in November 2020"
 slug: "vvvvhat-happened-in-november-2020"
 description: ""
 imported: "true"
+thumb: "Rings2.gif"
 ---
 
 

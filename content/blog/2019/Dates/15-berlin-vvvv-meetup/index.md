@@ -15,6 +15,7 @@ where:
     from_date: "1574791200"
     to_date: "1574802000"
 imported: "true"
+thumb: "lidar.png"
 ---
 
 

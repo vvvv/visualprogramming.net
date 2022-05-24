@@ -6,6 +6,7 @@ title: "Strukt is looking for interns"
 slug: "strukt-is-looking-for-interns-3"
 description: ""
 imported: "true"
+thumb: "Strukt_wird_4.jpg"
 ---
 
 

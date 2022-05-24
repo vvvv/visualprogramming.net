@@ -16,6 +16,7 @@ where:
     from_date: "1580234400"
     to_date: "1580234400"
 imported: "true"
+thumb: "_Root_HL-Geomar-Renderer-xl.png"
 ---
 
 

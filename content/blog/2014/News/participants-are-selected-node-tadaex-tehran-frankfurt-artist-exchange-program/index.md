@@ -6,6 +6,7 @@ title: "Participants are selected - NODE/TADAEX (Tehran-Frankfurt) Artist Exchan
 slug: "participants-are-selected-nodetadaex-(tehran-frankfurt)-artist-exchange-program"
 description: ""
 imported: "true"
+thumb: "Bastan-Scherlin.jpg"
 ---
 
 

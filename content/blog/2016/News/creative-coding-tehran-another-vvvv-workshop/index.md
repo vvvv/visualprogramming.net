@@ -6,6 +6,7 @@ title: "Creative Coding Tehran: another vvvv Workshop"
 slug: "creative-coding-tehran-another-vvvv-workshop"
 description: ""
 imported: "true"
+thumb: "BIGONEvvvv_AutumnTricks.jpg"
 ---
 
 

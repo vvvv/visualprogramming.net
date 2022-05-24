@@ -7,6 +7,7 @@ slug: "xml-parser-(string-xml)"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "xml_parser.jpg"
 ---
 
 

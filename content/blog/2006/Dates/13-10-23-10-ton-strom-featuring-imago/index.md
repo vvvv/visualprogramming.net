@@ -13,6 +13,7 @@ where:
     from_date: "1161036000"
     to_date: "0"
 imported: "true"
+thumb: "tonstrom.jpg"
 ---
 
 

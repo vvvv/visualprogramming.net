@@ -6,6 +6,7 @@ title: "50: Generics"
 slug: "50-generics"
 description: ""
 imported: "true"
+thumb: "old-zips.png"
 ---
 
 

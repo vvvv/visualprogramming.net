@@ -6,6 +6,7 @@ title: "Qfsm 0.52 released with vvvv automata code export"
 slug: "qfsm-0.52-released-with-vvvv-automata-code-export"
 description: ""
 imported: "true"
+thumb: "automataexport.png"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Aspect Ratio and Projection Space"
 slug: "aspect-ratio-and-projection-space"
 description: ""
 imported: "true"
+thumb: "aquad.gif"
 ---
 
 

@@ -6,6 +6,7 @@ title: "NODE20 - Educational discounts"
 slug: "node20-educational-discounts"
 description: ""
 imported: "true"
+thumb: "teaching.jpg"
 ---
 
 

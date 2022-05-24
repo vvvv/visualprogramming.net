@@ -6,6 +6,7 @@ title: "vvvvhat happened in July 2016"
 slug: "vvvvhat-happened-in-july-2016"
 description: ""
 imported: "true"
+thumb: "_31.07.2016-21.27.23.gif"
 ---
 
 hallihallo,

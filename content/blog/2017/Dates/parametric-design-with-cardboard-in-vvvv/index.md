@@ -18,6 +18,7 @@ where:
     lat: "52.492189"
     long: "13.435864"
 imported: "true"
+thumb: "ParaLib.png"
 ---
 
 

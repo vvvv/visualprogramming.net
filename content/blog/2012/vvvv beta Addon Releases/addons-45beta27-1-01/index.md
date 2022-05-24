@@ -12,6 +12,7 @@ release:
     date: "2012-02-18"
     app_file: "sites/default/files/addons_45beta27.1.zip"
 imported: "true"
+thumb: "TodoMap.png"
 ---
 
 

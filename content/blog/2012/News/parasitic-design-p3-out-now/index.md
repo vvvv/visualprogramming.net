@@ -6,6 +6,7 @@ title: "Parasitic Design - P3 out now"
 slug: "parasitic-design-p3-out-now"
 description: ""
 imported: "true"
+thumb: "P3.png"
 ---
 
 

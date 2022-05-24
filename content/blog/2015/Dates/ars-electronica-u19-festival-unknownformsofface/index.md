@@ -16,6 +16,7 @@ where:
     lat: "48.291643"
     long: "14.291686"
 imported: "true"
+thumb: "randomFace4.png"
 ---
 
 

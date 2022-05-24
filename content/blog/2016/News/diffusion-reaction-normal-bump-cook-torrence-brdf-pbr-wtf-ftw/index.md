@@ -7,6 +7,7 @@ slug: "diffusion-reaction-normal-bump-cook-torrence-brdf-pbr-wtf-ftw"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "_20.07.2016-03.27.51.gif"
 ---
 
 

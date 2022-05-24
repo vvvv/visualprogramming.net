@@ -6,6 +6,7 @@ title: "introducing Scripter"
 slug: "introducing-scripter"
 description: ""
 imported: "true"
+thumb: "0_2016.01.10-17.24.19.png"
 ---
 
 

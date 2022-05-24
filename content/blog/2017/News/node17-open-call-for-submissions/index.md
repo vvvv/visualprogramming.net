@@ -6,6 +6,7 @@ title: "NODE17 - Open Call for Submissions"
 slug: "node17-open-call-for-submissions"
 description: ""
 imported: "true"
+thumb: "OpenCallBanner.png"
 ---
 
 

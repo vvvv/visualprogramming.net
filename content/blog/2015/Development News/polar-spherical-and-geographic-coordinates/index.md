@@ -6,6 +6,7 @@ title: "Polar, Spherical and Geographic Coordinates"
 slug: "polar-spherical-and-geographic-coordinates"
 description: ""
 imported: "true"
+thumb: "dmesh19_1.jpg"
 ---
 
 ![](dmesh19_1.jpg)

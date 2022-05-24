@@ -18,6 +18,7 @@ where:
     lat: "45.430174"
     long: "12.326204"
 imported: "true"
+thumb: "Immagine-di-copertina.jpg"
 ---
 
 

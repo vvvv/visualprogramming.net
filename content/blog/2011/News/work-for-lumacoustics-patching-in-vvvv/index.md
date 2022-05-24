@@ -6,6 +6,7 @@ title: "Work for Lumacoustics patching in VVVV"
 slug: "work-for-lumacoustics-patching-in-vvvv"
 description: ""
 imported: "true"
+thumb: "lumalogo.png"
 ---
 
 

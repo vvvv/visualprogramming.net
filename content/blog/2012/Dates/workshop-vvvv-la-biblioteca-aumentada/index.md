@@ -17,6 +17,7 @@ where:
     lat: "40.416775"
     long: "-3.703790"
 imported: "true"
+thumb: "interfaz1_625-1.jpeg"
 ---
 
 

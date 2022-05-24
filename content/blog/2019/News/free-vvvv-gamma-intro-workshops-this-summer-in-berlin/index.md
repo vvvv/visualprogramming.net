@@ -6,6 +6,7 @@ title: "Free vvvv gamma intro workshops this summer in Berlin"
 slug: "free-vvvv-intro-workshops-this-summer-in-berlin"
 description: ""
 imported: "true"
+thumb: "giphy.gif"
 ---
 
 

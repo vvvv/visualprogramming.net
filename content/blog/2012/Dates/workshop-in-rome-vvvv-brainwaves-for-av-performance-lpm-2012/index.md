@@ -18,6 +18,7 @@ where:
     lat: "41.888477"
     long: "12.467508"
 imported: "true"
+thumb: "foto_workshop.png"
 ---
 
 

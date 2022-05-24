@@ -7,6 +7,7 @@ slug: "midi-to-transform"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "render_000003.jpg"
 ---
 
 

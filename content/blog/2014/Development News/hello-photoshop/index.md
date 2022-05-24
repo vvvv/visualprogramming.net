@@ -6,6 +6,7 @@ title: "Hello Photoshop"
 slug: "hello-photoshop-0"
 description: ""
 imported: "true"
+thumb: "PS-VVVV-Release.PNG"
 ---
 
 

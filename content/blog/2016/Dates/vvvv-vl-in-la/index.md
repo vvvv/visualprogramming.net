@@ -18,6 +18,7 @@ where:
     lat: "34.066081"
     long: "-118.238544"
 imported: "true"
+thumb: "vl-loop.PNG"
 ---
 
 

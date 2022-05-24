@@ -6,6 +6,7 @@ title: "The Road to Gamma"
 slug: "the-road-to-gamma"
 description: ""
 imported: "true"
+thumb: "gamma6.png"
 ---
 
 

@@ -6,6 +6,7 @@ title: "VL: Event based MIDI"
 slug: "vl-event-based-midi"
 description: ""
 imported: "true"
+thumb: "dennis_irwin_illustration_midi_birthday_party.jpg"
 ---
 
 

@@ -11,6 +11,7 @@ where:
     lat: "None"
     long: "None"
 imported: "true"
+thumb: "09.01.20probeaufbau014.jpg"
 ---
 
 

@@ -7,6 +7,7 @@ slug: "ggraf-meets-katsu"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "gGraf-meets-katsu.jpg"
 ---
 
 

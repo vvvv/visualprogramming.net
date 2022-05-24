@@ -19,6 +19,7 @@ where:
     lat: "52.908902"
     long: "37.089844"
 imported: "true"
+thumb: "program.jpg"
 ---
 
 

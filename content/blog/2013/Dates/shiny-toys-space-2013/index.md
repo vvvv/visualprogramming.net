@@ -16,6 +16,7 @@ where:
     from_date: "1381406400"
     to_date: "1381658400"
 imported: "true"
+thumb: "shinytoysspace2013.jpg"
 ---
 
 

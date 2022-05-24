@@ -6,6 +6,7 @@ title: "How TUIO do?"
 slug: "how-tuio-do"
 description: ""
 imported: "true"
+thumb: "tuio_logo.png"
 ---
 
 

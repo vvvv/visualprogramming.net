@@ -6,6 +6,7 @@ title: "OPEN CALL (Nocturne |  berlin leuchtet )"
 slug: "open-call-(nocturne-berlin-leuchtet-)"
 description: ""
 imported: "true"
+thumb: "NOCTURNE.jpg"
 ---
 
 

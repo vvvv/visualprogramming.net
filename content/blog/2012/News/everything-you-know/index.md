@@ -6,6 +6,7 @@ title: "Everything you know..."
 slug: "everything-you-know"
 description: ""
 imported: "true"
+thumb: "DX_org_2012.12.16-13.36.40.png"
 ---
 
 

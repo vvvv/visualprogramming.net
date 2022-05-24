@@ -6,6 +6,7 @@ title: "vvvvj workshop & visuals @ uamo festival"
 slug: "vvvvj-workshop-visuals-uamo-festival"
 description: ""
 imported: "true"
+thumb: "UAMO.jpg"
 ---
 
 

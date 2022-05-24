@@ -6,6 +6,7 @@ title: "NEW vvvv Showcase"
 slug: "new-vvvv-showcase"
 description: ""
 imported: "true"
+thumb: "vvvv-academy_logo_half.png"
 ---
 
 

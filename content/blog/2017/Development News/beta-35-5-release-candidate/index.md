@@ -6,6 +6,7 @@ title: "Beta 35.5 Release Candidate"
 slug: "beta-35.5-release-candidate"
 description: ""
 imported: "true"
+thumb: "gw3IWyGkC0rsazTi.gif"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Protektor ++"
 slug: "protektor-plusplus"
 description: ""
 imported: "true"
+thumb: "dongle.png"
 ---
 
 

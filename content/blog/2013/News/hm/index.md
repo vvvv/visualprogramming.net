@@ -7,6 +7,7 @@ slug: "hm"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "hm....jpg"
 ---
 
 

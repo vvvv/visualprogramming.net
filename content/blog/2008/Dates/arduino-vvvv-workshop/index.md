@@ -12,6 +12,7 @@ where:
     from_date: "1201906800"
     to_date: "0"
 imported: "true"
+thumb: "arduinoetvvvv.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Russian Christmas FX salad"
 slug: "russian-christmas-fx-salad"
 description: ""
 imported: "true"
+thumb: "_RussianChristmas_FXsalad_1.png"
 ---
 
 

@@ -18,6 +18,7 @@ where:
     lat: "52.504250"
     long: "13.452994"
 imported: "true"
+thumb: "_vvvv.js_share_img.jpg"
 ---
 
 

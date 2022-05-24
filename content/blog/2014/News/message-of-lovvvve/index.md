@@ -7,6 +7,7 @@ slug: "message-of-lovvvve"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "Untitled.png"
 ---
 
 

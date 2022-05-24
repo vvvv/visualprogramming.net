@@ -6,6 +6,7 @@ title: "VL: Many Paths Lead to Rome"
 slug: "vl-many-paths-lead-to-rome"
 description: ""
 imported: "true"
+thumb: "known.png"
 ---
 
 

@@ -7,6 +7,7 @@ slug: "diy-infrared-filter"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "fvqnajk8g3ez7bdy8l.medium.jpg"
 ---
 
 

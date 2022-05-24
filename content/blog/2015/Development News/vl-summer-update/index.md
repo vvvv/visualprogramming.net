@@ -6,6 +6,7 @@ title: "VL summer update"
 slug: "vl-summer-update"
 description: ""
 imported: "true"
+thumb: "eyetracking_small4.jpg"
 ---
 
 

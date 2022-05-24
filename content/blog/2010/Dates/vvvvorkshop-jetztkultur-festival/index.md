@@ -14,6 +14,7 @@ where:
     from_date: "1269039600"
     to_date: "0"
 imported: "true"
+thumb: "logo_de.png"
 ---
 
 

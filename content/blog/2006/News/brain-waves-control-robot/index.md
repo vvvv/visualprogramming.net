@@ -7,6 +7,7 @@ slug: "brain-waves-control-robot"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "honda.jpg"
 ---
 
 

@@ -19,6 +19,7 @@ where:
     lat: "50.110742"
     long: "8.682793"
 imported: "true"
+thumb: "NODE_flyerA6lang_back.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Prototyping Interfaces 45beta31.2 patch bundle"
 slug: "prototyping-interfaces-45beta31.2-patch-bundle"
 description: ""
 imported: "true"
+thumb: "1390759_559597257449526_208189520_n.png"
 ---
 
 

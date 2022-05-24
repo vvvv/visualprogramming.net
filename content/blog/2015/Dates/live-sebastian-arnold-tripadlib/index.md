@@ -19,6 +19,7 @@ where:
     lat: "52.516300"
     long: "13.466720"
 imported: "true"
+thumb: "SebastianArnold_11Apr.jpg"
 ---
 
 

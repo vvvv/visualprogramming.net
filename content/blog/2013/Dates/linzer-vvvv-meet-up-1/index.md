@@ -18,6 +18,7 @@ where:
     lat: "48.305695"
     long: "14.289456"
 imported: "true"
+thumb: "a_k-102_Lilo_bei_Dombach_St._Peuerbach_-_Linz_a._d._Donau_20.06.1986_ET_22.jpg"
 ---
 
 

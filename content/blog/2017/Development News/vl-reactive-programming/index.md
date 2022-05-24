@@ -6,6 +6,7 @@ title: "VL: Reactive Programming"
 slug: "vl-reactive-programming"
 description: ""
 imported: "true"
+thumb: "687474703a2f2f692e696d6775722e636f6d2f4149696d5138432e6a7067.jpg"
 ---
 
 

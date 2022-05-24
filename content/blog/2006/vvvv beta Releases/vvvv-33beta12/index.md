@@ -11,6 +11,7 @@ release:
     date: "2006-12-19"
     app_file: "sites/default/files/vvvv_33beta12.zip"
 imported: "true"
+thumb: "fluidynamicsphere.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ title: "VL Progress Report /3"
 slug: "vl-progress-report-3"
 description: ""
 imported: "true"
+thumb: "explorer.gif"
 ---
 
 

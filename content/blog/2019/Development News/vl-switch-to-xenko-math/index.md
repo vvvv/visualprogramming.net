@@ -6,6 +6,7 @@ title: "VL: Switch to Xenko Math"
 slug: "vl-switch-to-xenko-math"
 description: ""
 imported: "true"
+thumb: "SharpDX_to_Xenko.png"
 ---
 
 

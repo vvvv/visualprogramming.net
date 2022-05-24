@@ -18,6 +18,7 @@ where:
     lat: "37.191273"
     long: "-3.530677"
 imported: "true"
+thumb: "Imagen_4v-arduino-378x574.jpg"
 ---
 
 

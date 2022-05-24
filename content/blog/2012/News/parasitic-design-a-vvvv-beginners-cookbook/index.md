@@ -6,6 +6,7 @@ title: "Parasitic Design - a vvvv beginners cookbook"
 slug: "parasitic-design-a-vvvv-beginners-cookbook"
 description: ""
 imported: "true"
+thumb: "parasiticdesign.png"
 ---
 
 

@@ -6,6 +6,7 @@ title: "NODE15 weekpasses available"
 slug: "node15-weekpasses-available"
 description: ""
 imported: "true"
+thumb: "8470720984_60d9a9a41b_o.jpg"
 ---
 
 

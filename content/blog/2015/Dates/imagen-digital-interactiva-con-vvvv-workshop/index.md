@@ -18,6 +18,7 @@ where:
     lat: "19.398692"
     long: "-99.175513"
 imported: "true"
+thumb: "baner_taller_vvvv_local_grande.jpg"
 ---
 
 

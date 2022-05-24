@@ -7,6 +7,7 @@ slug: "i-love-cat"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "render_037.jpg"
 ---
 
 

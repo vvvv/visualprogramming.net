@@ -6,6 +6,7 @@ title: "50: That next big thing. An overview."
 slug: "50-that-next-big-thing.-an-overview."
 description: ""
 imported: "true"
+thumb: "45-patch.png"
 ---
 
 

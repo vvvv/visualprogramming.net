@@ -6,6 +6,7 @@ title: "Parasitic Design - second chapter now available"
 slug: "parasitic-design-second-chapter-now-available"
 description: ""
 imported: "true"
+thumb: "generativestuff.png"
 ---
 
 

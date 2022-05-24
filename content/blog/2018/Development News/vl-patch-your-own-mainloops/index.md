@@ -6,6 +6,7 @@ title: "VL: Patch Your Own Mainloops"
 slug: "vl-patch-your-own-mainloops"
 description: ""
 imported: "true"
+thumb: "6008359552_b4a187e8a7.jpg"
 ---
 
 

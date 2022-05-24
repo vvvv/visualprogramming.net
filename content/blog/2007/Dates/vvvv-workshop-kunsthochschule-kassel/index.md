@@ -14,6 +14,7 @@ where:
     from_date: "1168470000"
     to_date: "0"
 imported: "true"
+thumb: "ws.gif"
 ---
 
 

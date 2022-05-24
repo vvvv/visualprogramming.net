@@ -18,6 +18,7 @@ where:
     lat: "41.936387"
     long: "12.377661"
 imported: "true"
+thumb: "Motion_tracking.jpg"
 ---
 
 

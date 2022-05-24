@@ -7,6 +7,7 @@ slug: "chemical-formula"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "2.jpg"
 ---
 
 

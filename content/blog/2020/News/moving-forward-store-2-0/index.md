@@ -6,6 +6,7 @@ title: "Moving Forward: Store 2.0"
 slug: "moving-forward-store-2.0"
 description: ""
 imported: "true"
+thumb: "myorders.png"
 ---
 
 

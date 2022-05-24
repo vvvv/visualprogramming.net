@@ -6,6 +6,7 @@ title: "VVVV Workshop @ Amberfestival Istanbul"
 slug: "vvvv-workshop-amberfestival-istanbul"
 description: ""
 imported: "true"
+thumb: "amberfestival-workshop.png"
 ---
 
 

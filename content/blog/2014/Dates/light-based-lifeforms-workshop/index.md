@@ -19,6 +19,7 @@ where:
     lat: "47.495930"
     long: "19.069530"
 imported: "true"
+thumb: "Lightbsedlifeformsmuszi.jpg"
 ---
 
 

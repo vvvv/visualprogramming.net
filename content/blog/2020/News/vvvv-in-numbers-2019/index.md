@@ -6,6 +6,7 @@ title: "vvvv in numbers 2019"
 slug: "vvvv-in-numbers-2019"
 description: ""
 imported: "true"
+thumb: "daumau.png"
 ---
 
 

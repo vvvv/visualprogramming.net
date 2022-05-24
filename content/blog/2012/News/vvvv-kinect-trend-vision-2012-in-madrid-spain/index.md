@@ -7,6 +7,7 @@ slug: "vvvv- -kinect-trend-vision-2012-in-madrid-spain"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "2012-10-01_2021.png"
 ---
 
 

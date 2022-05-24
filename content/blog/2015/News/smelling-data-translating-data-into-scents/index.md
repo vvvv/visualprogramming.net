@@ -6,6 +6,7 @@ title: "Smelling Data – Translating data into scents"
 slug: "smelling-data-–-translating-data-into-scents"
 description: ""
 imported: "true"
+thumb: "SD_1_01.jpg"
 ---
 
 

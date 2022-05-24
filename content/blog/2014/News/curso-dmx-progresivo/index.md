@@ -6,6 +6,7 @@ title: "Curso DMX Progresivo"
 slug: "curso-dmx-progresivo"
 description: ""
 imported: "true"
+thumb: "DMX_Progresivo.png"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Businesswise"
 slug: "businesswise"
 description: ""
 imported: "true"
+thumb: "map.png"
 ---
 
 

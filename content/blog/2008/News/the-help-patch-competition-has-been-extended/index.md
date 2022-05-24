@@ -6,6 +6,7 @@ title: "The Help Patch Competition has been extended!"
 slug: "the-help-patch-competition-has-been-extended"
 description: ""
 imported: "true"
+thumb: "banner_node_hpa.png"
 ---
 
 

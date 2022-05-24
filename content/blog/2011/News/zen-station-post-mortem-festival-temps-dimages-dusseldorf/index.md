@@ -6,6 +6,7 @@ title: "\"ZEN STATION\" & \"POST MORTEM\" @ Festival TEMPS D´IMAGES / Düsseldo
 slug: "zen-station-post-mortem-festival-temps-d´images-düsseldorf"
 description: ""
 imported: "true"
+thumb: "JL271109019.jpg"
 ---
 
 

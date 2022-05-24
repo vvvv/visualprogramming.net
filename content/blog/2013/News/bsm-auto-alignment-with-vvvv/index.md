@@ -6,6 +6,7 @@ title: "BSM Auto Alignment with vvvv"
 slug: "bsm-auto-alignment-with-vvvv"
 description: ""
 imported: "true"
+thumb: "bsmautoalignment.png"
 ---
 
 

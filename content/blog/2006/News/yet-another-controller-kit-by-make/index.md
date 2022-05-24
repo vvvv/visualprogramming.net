@@ -7,6 +7,7 @@ slug: "yet-another-controller-kit-by-make"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "kit_controller_tn.jpg"
 ---
 
 

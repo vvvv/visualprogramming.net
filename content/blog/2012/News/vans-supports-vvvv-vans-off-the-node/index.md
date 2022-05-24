@@ -7,6 +7,7 @@ slug: "vans-supports-vvvv-(vans-off-the-node)"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "Foto.png"
 ---
 
 

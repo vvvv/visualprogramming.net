@@ -6,6 +6,7 @@ title: "Protektor - dongle protection for your vvvv projects"
 slug: "protektor-dongle-protection-for-your-vvvv-projects"
 description: ""
 imported: "true"
+thumb: "dongle.png"
 ---
 
 

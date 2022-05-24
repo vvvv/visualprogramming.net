@@ -6,6 +6,7 @@ title: "Ausschreibung Lehrauftrag Kunstuni Linz"
 slug: "ausschreibung-lehrauftrag-kunstuni-linz"
 description: ""
 imported: "true"
+thumb: "logo_ufg.gif"
 ---
 
 

@@ -6,6 +6,7 @@ title: "vvvv Academy Europe Tour"
 slug: "vvvv-academy-europe-tour"
 description: ""
 imported: "true"
+thumb: "EuropeTourMap.png"
 ---
 
 

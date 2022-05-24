@@ -6,6 +6,7 @@ title: "flattr on vvvv.org"
 slug: "flattr-on-vvvv.org"
 description: ""
 imported: "true"
+thumb: "fltr_user1.png"
 ---
 
 

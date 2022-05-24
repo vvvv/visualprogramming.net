@@ -6,6 +6,7 @@ title: "vvvvhat happened in June 2019"
 slug: "vvvvhat-happened-in-june-2019"
 description: ""
 imported: "true"
+thumb: "sEwQaPsaUwFcfuetJiftmhAG.png"
 ---
 
 

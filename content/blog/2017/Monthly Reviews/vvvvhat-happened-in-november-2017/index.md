@@ -6,6 +6,7 @@ title: "vvvvhat happened in November 2017"
 slug: "vvvvhat-happened-in-november-2017"
 description: ""
 imported: "true"
+thumb: "vvvv-academy_logo.jpg"
 ---
 
 

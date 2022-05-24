@@ -6,6 +6,7 @@ title: "Beta 35.7 Release Canditate"
 slug: "beta-35.7-release-canditate"
 description: ""
 imported: "true"
+thumb: "gw3IWyGkC0rsazTi.gif"
 ---
 
 

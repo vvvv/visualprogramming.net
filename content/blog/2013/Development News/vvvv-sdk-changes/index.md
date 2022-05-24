@@ -6,6 +6,7 @@ title: "vvvv-sdk changes"
 slug: "vvvv-sdk-changes"
 description: ""
 imported: "true"
+thumb: "vvvv_sdk_git_hooks.png"
 ---
 
 

@@ -11,6 +11,7 @@ release:
     date: "2011-08-16"
     app_file: "sites/default/files/vvvv_45beta26.zip"
 imported: "true"
+thumb: "callmenames_2011.08.15-18.02.48.png"
 ---
 
 

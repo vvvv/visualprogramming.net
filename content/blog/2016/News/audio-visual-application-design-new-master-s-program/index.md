@@ -5,6 +5,7 @@ title: "Audio-Visual Application Design - New Master's Program"
 slug: "audio-visual-application-design-new-masters-program"
 description: ""
 imported: "true"
+thumb: "avad_postcard.jpg"
 ---
 
 

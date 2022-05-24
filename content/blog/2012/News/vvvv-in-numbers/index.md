@@ -6,6 +6,7 @@ title: "vvvv in numbers"
 slug: "vvvv-in-numbers"
 description: ""
 imported: "true"
+thumb: "vvvvisitors.png"
 ---
 
 users!

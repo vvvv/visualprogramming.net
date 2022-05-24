@@ -6,6 +6,7 @@ title: "vvvvhat happened in September 2016"
 slug: "vvvvhat-happened-in-september-2016"
 description: ""
 imported: "true"
+thumb: "screenshot1475352860.png"
 ---
 
 helo again,

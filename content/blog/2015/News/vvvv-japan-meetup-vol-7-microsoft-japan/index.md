@@ -6,6 +6,7 @@ title: "vvvv Japan meetup vol.7 @Microsoft Japan"
 slug: "vvvv-japan-meetup-vol.7-microsoft-japan"
 description: ""
 imported: "true"
+thumb: "20150608-_DSC6708.jpg"
 ---
 
 **2015.6.8 vvvv Japan meetup vol.7**

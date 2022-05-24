@@ -6,6 +6,7 @@ title: "vvvv gamma 2021.3 release"
 slug: "vvvv-gamma-2021.3-release"
 description: ""
 imported: "true"
+thumb: "bunchofprimitives-850.png"
 ---
 
 ![](bunchofprimitives-850.png)

@@ -6,6 +6,7 @@ title: "vvvv Training at the Source"
 slug: "vvvv-training-at-the-source"
 description: ""
 imported: "true"
+thumb: "yourdesk4.jpg"
 ---
 
 

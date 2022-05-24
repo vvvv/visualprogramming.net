@@ -13,6 +13,7 @@ where:
     from_date: "1571378400"
     to_date: "1576232100"
 imported: "true"
+thumb: "PhysicalComputing.png"
 ---
 
 

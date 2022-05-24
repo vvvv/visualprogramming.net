@@ -7,6 +7,7 @@ slug: "three-dimensional-images-in-the-air"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "fig1.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ title: "vvvvertigo starts residency 2019"
 slug: "vvvvertigo-starts-residency-2019"
 description: ""
 imported: "true"
+thumb: "starts-vertigo.png"
 ---
 
 

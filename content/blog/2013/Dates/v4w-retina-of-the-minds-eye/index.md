@@ -18,6 +18,7 @@ where:
     lat: "51.525653"
     long: "-0.074622"
 imported: "true"
+thumb: "V4W-Temmplate---Civic-TV.jpg"
 ---
 
 

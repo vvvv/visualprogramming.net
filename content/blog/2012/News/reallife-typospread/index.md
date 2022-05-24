@@ -7,6 +7,7 @@ slug: "reallife-typospread"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "typospread.jpg"
 ---
 
 

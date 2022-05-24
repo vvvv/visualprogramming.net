@@ -18,6 +18,7 @@ where:
     lat: "51.506113"
     long: "-0.113572"
 imported: "true"
+thumb: "postcard5-1600x900.jpg"
 ---
 
 

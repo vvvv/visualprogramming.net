@@ -6,6 +6,7 @@ title: "vvvv in numbers 2013"
 slug: "vvvv-in-numbers-2013"
 description: ""
 imported: "true"
+thumb: "access.png"
 ---
 
 

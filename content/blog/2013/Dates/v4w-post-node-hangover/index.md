@@ -18,6 +18,7 @@ where:
     lat: "51.521068"
     long: "-0.078149"
 imported: "true"
+thumb: "February-27th---Post-Node.jpg"
 ---
 
 

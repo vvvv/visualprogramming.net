@@ -18,6 +18,7 @@ where:
     lat: "51.542972"
     long: "-0.024723"
 imported: "true"
+thumb: "June-29th---Sune.jpg"
 ---
 
 

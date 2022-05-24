@@ -16,6 +16,7 @@ where:
     from_date: "1514962800"
     to_date: "1515607200"
 imported: "true"
+thumb: "vvvv-academy_logo_quarter.png"
 ---
 
 

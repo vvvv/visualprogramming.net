@@ -7,6 +7,7 @@ slug: "thanks-to-the-rekorder-(windows)"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "pasted_image_at_2016_11_16_07_39_pm.png"
 ---
 
 

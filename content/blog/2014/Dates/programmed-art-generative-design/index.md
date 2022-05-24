@@ -16,6 +16,7 @@ where:
     from_date: "1389718800"
     to_date: "1389724200"
 imported: "true"
+thumb: "flyer_muthesius_kiel.jpg"
 ---
 
 

@@ -7,6 +7,7 @@ slug: "just-cube"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "render_012.jpg"
 ---
 
 

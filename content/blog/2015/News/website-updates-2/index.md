@@ -6,6 +6,7 @@ title: "Website Updates /2"
 slug: "website-updates-2"
 description: ""
 imported: "true"
+thumb: "logo_wayback_210x77.png"
 ---
 
 

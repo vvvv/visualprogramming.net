@@ -6,6 +6,7 @@ title: "ich²"
 slug: "ich²"
 description: ""
 imported: "true"
+thumb: "ich2_mailbanner_s.jpg"
 ---
 
 

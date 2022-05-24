@@ -6,6 +6,7 @@ title: "NODE17 call for workshops"
 slug: "node17-call-for-workshops"
 description: ""
 imported: "true"
+thumb: "17106473737_14b2c0b1c6_k.jpg"
 ---
 
 

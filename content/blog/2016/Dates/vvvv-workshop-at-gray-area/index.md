@@ -19,6 +19,7 @@ where:
     lat: "37.754392"
     long: "-122.418503"
 imported: "true"
+thumb: "bayarea.png"
 ---
 
 

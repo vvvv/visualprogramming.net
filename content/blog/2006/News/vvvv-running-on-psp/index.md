@@ -7,6 +7,7 @@ slug: "vvvv-running-on-psp"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "vvvvpsp.jpg"
 ---
 
 

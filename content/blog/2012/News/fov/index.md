@@ -7,6 +7,7 @@ slug: "fov"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "wideFOV.png"
 ---
 
 

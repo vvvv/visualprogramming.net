@@ -6,6 +6,7 @@ title: "Publishing your VL nugets with Github Actions"
 slug: "publishing-your-vl-nugets-with-github-actions"
 description: ""
 imported: "true"
+thumb: "vs_icon.png"
 ---
 
 

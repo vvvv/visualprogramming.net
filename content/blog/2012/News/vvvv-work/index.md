@@ -7,6 +7,7 @@ slug: "vvvv-work"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "vvvv.jpg"
 ---
 
 

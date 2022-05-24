@@ -6,6 +6,7 @@ title: "vvvv Gamma Presentation"
 slug: "vvvv-gamma-presentation"
 description: ""
 imported: "true"
+thumb: "bildchen.JPG"
 ---
 
 

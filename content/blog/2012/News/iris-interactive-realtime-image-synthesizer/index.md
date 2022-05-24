@@ -6,6 +6,7 @@ title: "IRIS - Interactive Realtime Image Synthesizer"
 slug: "iris-interactive-realtime-image-synthesizer"
 description: ""
 imported: "true"
+thumb: "Iris_pc.jpg"
 ---
 
 

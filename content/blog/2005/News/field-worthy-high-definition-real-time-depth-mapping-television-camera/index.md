@@ -7,6 +7,7 @@ slug: "field-worthy-high-definition-real-time-depth-mapping-television-camera"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "rd0212-2.gif"
 ---
 
 

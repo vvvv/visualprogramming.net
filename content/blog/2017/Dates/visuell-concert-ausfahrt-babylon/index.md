@@ -18,6 +18,7 @@ where:
     lat: "52.504836"
     long: "13.393927"
 imported: "true"
+thumb: "1-Flyer-Kopffarben-vorne.jpg"
 ---
 
 

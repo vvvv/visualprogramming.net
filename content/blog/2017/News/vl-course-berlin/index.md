@@ -6,6 +6,7 @@ title: "VL Course, Berlin"
 slug: "vl-course-berlin"
 description: ""
 imported: "true"
+thumb: "vvvvaca.jpg"
 ---
 
 

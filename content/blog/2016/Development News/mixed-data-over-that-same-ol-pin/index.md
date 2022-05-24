@@ -6,6 +6,7 @@ title: "Mixed Data over that same Ol Pin"
 slug: "mixed-data-over-that-same-ol-pin"
 description: ""
 imported: "true"
+thumb: "VariantTests_2016.12.11-21.31.38.png"
 ---
 
 

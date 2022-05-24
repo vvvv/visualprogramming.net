@@ -7,6 +7,7 @@ slug: "vveekend-vvorkshops-12-dx11-plugins"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "IntroRenderer_2016.04.02-00.35.50.png"
 ---
 
 

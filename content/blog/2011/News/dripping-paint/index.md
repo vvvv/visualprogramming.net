@@ -7,6 +7,7 @@ slug: "dripping-paint"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "gDrip-screenshot.jpg"
 ---
 
 

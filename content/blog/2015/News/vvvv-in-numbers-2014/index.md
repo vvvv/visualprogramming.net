@@ -6,6 +6,7 @@ title: "vvvv in numbers 2014"
 slug: "vvvv-in-numbers-2014"
 description: ""
 imported: "true"
+thumb: "sessions2014.png"
 ---
 
 

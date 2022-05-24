@@ -7,6 +7,7 @@ slug: "instance-noodles-update-alpha-0.3-tonkotsu"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "VoronoiClamped.gif"
 ---
 
 

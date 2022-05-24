@@ -14,6 +14,7 @@ where:
     from_date: "1143756000"
     to_date: "0"
 imported: "true"
+thumb: "bildmusik_scale.png"
 ---
 
 

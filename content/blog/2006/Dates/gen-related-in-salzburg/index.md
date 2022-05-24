@@ -13,6 +13,7 @@ where:
     from_date: "1161208800"
     to_date: "0"
 imported: "true"
+thumb: "typotrianglesdirectxrenderer6.jpg"
 ---
 
 

@@ -7,6 +7,7 @@ slug: "software-shader"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "swiftshader_logo_220px.jpg"
 ---
 
 

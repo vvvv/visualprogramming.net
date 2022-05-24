@@ -6,6 +6,7 @@ title: "VL: Help Patches"
 slug: "vl-help-patches"
 description: ""
 imported: "true"
+thumb: "helpfound.png"
 ---
 
 

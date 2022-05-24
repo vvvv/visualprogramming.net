@@ -16,6 +16,7 @@ where:
     lat: "53.470691"
     long: "-2.295392"
 imported: "true"
+thumb: "ThreeSoundSculptures_Image_v2_960x600.jpg"
 ---
 
 

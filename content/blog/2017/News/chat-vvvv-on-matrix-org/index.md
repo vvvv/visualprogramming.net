@@ -6,6 +6,7 @@ title: "Chat: #vvvv on matrix.org"
 slug: "chat-vvvv-on-matrix.org"
 description: ""
 imported: "true"
+thumb: "matrix.png"
 ---
 
 

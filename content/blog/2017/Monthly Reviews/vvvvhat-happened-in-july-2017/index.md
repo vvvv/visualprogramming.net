@@ -6,6 +6,7 @@ title: "vvvvhat happened in July 2017"
 slug: "vvvvhat-happened-in-july-2017"
 description: ""
 imported: "true"
+thumb: "maxresdefault.jpg"
 ---
 
 

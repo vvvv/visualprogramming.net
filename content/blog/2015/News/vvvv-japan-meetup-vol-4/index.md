@@ -7,6 +7,7 @@ slug: "vvvv-japan-meetup-vol.4"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "sDSC05041.jpg"
 ---
 
 

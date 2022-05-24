@@ -6,6 +6,7 @@ title: "The 2019 Survvvvey - Results"
 slug: "the-2019-survvvvey-results"
 description: ""
 imported: "true"
+thumb: "Survey2019_block0_2.png"
 ---
 
 

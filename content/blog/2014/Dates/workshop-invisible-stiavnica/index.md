@@ -15,6 +15,7 @@ where:
     lat: "48.449618"
     long: "18.909818"
 imported: "true"
+thumb: "wrkshp.png"
 ---
 
 

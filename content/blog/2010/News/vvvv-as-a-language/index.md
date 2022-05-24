@@ -7,6 +7,7 @@ slug: "vvvv-as-a-language"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "4vAsALanguage.jpg"
 ---
 
 

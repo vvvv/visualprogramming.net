@@ -18,6 +18,7 @@ where:
     lat: "50.119187"
     long: "8.698779"
 imported: "true"
+thumb: "vvvv-keynode-audience-c-NODE-Nemanja-Knezevic.jpg"
 ---
 
 

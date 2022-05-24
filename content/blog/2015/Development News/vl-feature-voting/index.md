@@ -6,6 +6,7 @@ title: "VL Feature Voting"
 slug: "vl-feature-voting"
 description: ""
 imported: "true"
+thumb: "Quote.jpg"
 ---
 
 

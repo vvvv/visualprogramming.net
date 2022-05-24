@@ -6,6 +6,7 @@ title: "Arduino Second Service"
 slug: "arduino-second-service"
 description: ""
 imported: "true"
+thumb: "vvvv-Firmata-Arduino.gif"
 ---
 
 

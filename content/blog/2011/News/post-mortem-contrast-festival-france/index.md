@@ -6,6 +6,7 @@ title: "'POST MORTEM' @ Contrast Festival France"
 slug: "post-mortem-contrast-festival-france"
 description: ""
 imported: "true"
+thumb: "contrast.jpg"
 ---
 
 

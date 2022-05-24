@@ -11,6 +11,7 @@ release:
     date: "2011-02-17"
     app_file: "sites/default/files/vvvv_45beta25.1.zip"
 imported: "true"
+thumb: "crack_vvvv.png"
 ---
 
 

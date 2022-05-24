@@ -6,6 +6,7 @@ title: "VL: Serialization"
 slug: "vl-serialization"
 description: ""
 imported: "true"
+thumb: "Serialization_ADSR.PNG"
 ---
 
 

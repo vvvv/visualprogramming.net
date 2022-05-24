@@ -6,6 +6,7 @@ title: "VL Type Browser now in alpha builds"
 slug: "vl-type-browser-now-in-alpha-builds"
 description: ""
 imported: "true"
+thumb: "TypeBrowserAlpha.png"
 ---
 
 

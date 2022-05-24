@@ -6,6 +6,7 @@ title: "50: Pre-Release Roundup"
 slug: "50-pre-release-roundup"
 description: ""
 imported: "true"
+thumb: "navigation.png"
 ---
 
 

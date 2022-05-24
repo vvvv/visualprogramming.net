@@ -19,6 +19,7 @@ where:
     lat: "37.983917"
     long: "23.729360"
 imported: "true"
+thumb: "vvvv_WORKSHOP_BANNER.jpg"
 ---
 
 

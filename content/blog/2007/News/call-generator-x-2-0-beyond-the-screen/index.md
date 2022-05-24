@@ -6,6 +6,7 @@ title: "Call - Generator.x 2.0: Beyond the Screen"
 slug: "call-generator.x-2.0-beyond-the-screen"
 description: ""
 imported: "true"
+thumb: "071127_gx20_lennyjpg.jpg"
 ---
 
 

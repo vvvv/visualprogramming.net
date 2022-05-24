@@ -6,6 +6,7 @@ title: "Revvvvamped support for Depth Cameras"
 slug: "revvvvamped-support-for-depth-cameras"
 description: ""
 imported: "true"
+thumb: "Kameras-withoutWall-bright3.png"
 ---
 
 

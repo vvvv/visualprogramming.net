@@ -6,6 +6,7 @@ title: "VL.OpenCV meets Stride"
 slug: "vl.opencv-meets-stride"
 description: ""
 imported: "true"
+thumb: "FindCameraPoseFromAruco.gif"
 ---
 
 

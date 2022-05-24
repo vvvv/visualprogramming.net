@@ -18,6 +18,7 @@ where:
     lat: "41.896556"
     long: "12.515300"
 imported: "true"
+thumb: "_root-NABLA_2014.02.09-21.32.01.png"
 ---
 
 

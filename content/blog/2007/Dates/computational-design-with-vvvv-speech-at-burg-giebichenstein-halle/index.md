@@ -15,6 +15,7 @@ where:
     from_date: "1276610400"
     to_date: "0"
 imported: "true"
+thumb: "line_art_jannis.jpg"
 ---
 
 

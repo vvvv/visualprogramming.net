@@ -7,6 +7,7 @@ slug: "robot-demonstrates-self-awareness"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "awarerobot_goto.jpg"
 ---
 
 

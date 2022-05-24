@@ -16,6 +16,7 @@ where:
     lat: "46.818188"
     long: "8.227512"
 imported: "true"
+thumb: "Mapping_Header_01-2.png"
 ---
 
 

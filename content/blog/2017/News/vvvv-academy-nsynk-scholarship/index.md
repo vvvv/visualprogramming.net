@@ -6,6 +6,7 @@ title: "vvvv Academy NSYNK scholarship"
 slug: "vvvv-academy-nsynk-scholarship"
 description: ""
 imported: "true"
+thumb: "nsynk.png"
 ---
 
 

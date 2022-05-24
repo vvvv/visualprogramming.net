@@ -6,6 +6,7 @@ title: "NODE17 Workshop Schedule"
 slug: "node17-workshop-schedule"
 description: ""
 imported: "true"
+thumb: "node17-workshop-timetable-02062017.png"
 ---
 
 

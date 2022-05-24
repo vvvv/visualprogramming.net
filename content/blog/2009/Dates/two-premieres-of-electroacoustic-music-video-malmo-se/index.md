@@ -12,6 +12,7 @@ where:
     from_date: "1257980400"
     to_date: "0"
 imported: "true"
+thumb: "scimmiainchiostro03spline_subiancodirectxrenderer_2009.09.0717.57.00.jpg"
 ---
 
 

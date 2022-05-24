@@ -14,6 +14,7 @@ where:
     from_date: "1368104400"
     to_date: "1368216000"
 imported: "true"
+thumb: "Flyer_web-1.jpg"
 ---
 
 

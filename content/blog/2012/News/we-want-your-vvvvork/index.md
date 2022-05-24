@@ -6,6 +6,7 @@ title: "We want your vvvvork"
 slug: "we-want-your-vvvvork"
 description: ""
 imported: "true"
+thumb: "NODE13-Open-Call-2.png"
 ---
 
 

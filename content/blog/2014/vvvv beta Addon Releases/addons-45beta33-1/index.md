@@ -13,6 +13,7 @@ release:
     app_file: "sites/default/files/addons_45beta33_x86.zip"
     app_file_64: "sites/default/files/addons_45beta33_x64.zip"
 imported: "true"
+thumb: "polygoneditor.png"
 ---
 
 

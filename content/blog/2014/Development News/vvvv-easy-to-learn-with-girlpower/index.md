@@ -6,6 +6,7 @@ title: "vvvv - easy to learn with girlpower"
 slug: "vvvv-easy-to-learn-with-girlpower"
 description: ""
 imported: "true"
+thumb: "girlpower.png"
 ---
 
 

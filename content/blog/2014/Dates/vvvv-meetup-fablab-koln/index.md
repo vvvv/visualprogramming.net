@@ -16,6 +16,7 @@ where:
     lat: "50.966838"
     long: "6.951862"
 imported: "true"
+thumb: "MonomeAppHost.jpg"
 ---
 
 

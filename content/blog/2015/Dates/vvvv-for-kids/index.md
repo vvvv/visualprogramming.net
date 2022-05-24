@@ -18,6 +18,7 @@ where:
     lat: "52.490829"
     long: "13.421549"
 imported: "true"
+thumb: "Flyer-Workshop-02-vvvv.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Firmata Updates and Fixes"
 slug: "firmata-updates-and-fixes"
 description: ""
 imported: "true"
+thumb: "Firmata-BasicTutorial-AnalogRead_3.png"
 ---
 
 

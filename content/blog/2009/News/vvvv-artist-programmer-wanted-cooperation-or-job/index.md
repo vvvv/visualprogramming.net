@@ -6,6 +6,7 @@ title: "vvvv-artist/programmer wanted! (cooperation or job)"
 slug: "vvvv-artistprogrammer-wanted-(cooperation-or-job)"
 description: ""
 imported: "true"
+thumb: "unterfuehrung_wuerfel_009.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Corzotech Store"
 slug: "corzotech-store"
 description: ""
 imported: "true"
+thumb: "CorzotechBannernoText.gif"
 ---
 
 

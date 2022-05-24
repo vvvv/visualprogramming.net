@@ -18,6 +18,7 @@ where:
     lat: "40.783001"
     long: "-73.958882"
 imported: "true"
+thumb: "gen-event-performance-rotunda-project-works-process-simkins.jpg"
 ---
 
 

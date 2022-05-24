@@ -14,6 +14,7 @@ where:
     from_date: "1598014800"
     to_date: "1598025600"
 imported: "true"
+thumb: "takumas.png"
 ---
 
 

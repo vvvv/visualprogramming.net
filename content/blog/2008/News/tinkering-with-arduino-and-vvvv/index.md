@@ -6,6 +6,7 @@ title: "Tinkering with Arduino and vvvv"
 slug: "tinkering-with-arduino-and-vvvv"
 description: ""
 imported: "true"
+thumb: "awesome.jpg"
 ---
 
 

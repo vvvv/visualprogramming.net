@@ -15,6 +15,7 @@ where:
     from_date: "1236898800"
     to_date: "0"
 imported: "true"
+thumb: "stickerhk2_mto.jpg"
 ---
 
 

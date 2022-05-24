@@ -16,6 +16,7 @@ where:
     from_date: "1417280400"
     to_date: "1417280400"
 imported: "true"
+thumb: "SHINYTOYS-Web-Front.png"
 ---
 
 

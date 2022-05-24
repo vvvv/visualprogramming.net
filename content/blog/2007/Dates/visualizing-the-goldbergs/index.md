@@ -15,6 +15,7 @@ where:
     from_date: "1193504400"
     to_date: "0"
 imported: "true"
+thumb: "goldberg_keyboard_small.jpg"
 ---
 
 

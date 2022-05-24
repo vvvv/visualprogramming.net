@@ -6,6 +6,7 @@ title: "zip and unzip"
 slug: "zip-and-unzip"
 description: ""
 imported: "true"
+thumb: "zip.png"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Welcome Gizmo"
 slug: "welcome-gizmo"
 description: ""
 imported: "true"
+thumb: "GizmoBlog_20fps.gif"
 ---
 
 

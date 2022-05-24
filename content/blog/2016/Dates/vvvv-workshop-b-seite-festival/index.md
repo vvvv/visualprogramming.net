@@ -16,6 +16,7 @@ where:
     lat: "49.495463"
     long: "8.457523"
 imported: "true"
+thumb: "bg_head_new2.png"
 ---
 
 

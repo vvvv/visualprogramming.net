@@ -6,6 +6,7 @@ title: "Nevvvv Year Party 2016!! in Japan"
 slug: "nevvvv-year-party-2016-in-japan"
 description: ""
 imported: "true"
+thumb: "12565578_818309351610856_4440939895789292352_n.jpg"
 ---
 
 

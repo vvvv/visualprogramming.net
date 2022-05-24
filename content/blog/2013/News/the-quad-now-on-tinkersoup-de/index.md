@@ -6,6 +6,7 @@ title: "The Quad - Now on Tinkersoup.de"
 slug: "the-return-of-the-quad-now-available-on-tinkersoup.de"
 description: ""
 imported: "true"
+thumb: "tinkersoup.png"
 ---
 
 

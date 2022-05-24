@@ -12,6 +12,7 @@ where:
     from_date: "1271541600"
     to_date: "0"
 imported: "true"
+thumb: "fggzurichinauguration08scaled.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ title: "VL: Stride 3D Engine Update #4"
 slug: "vl-stride-3d-engine-update-4"
 description: ""
 imported: "true"
+thumb: "Header2.png"
 ---
 
 

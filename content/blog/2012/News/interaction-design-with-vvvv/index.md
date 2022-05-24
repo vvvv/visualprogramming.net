@@ -6,6 +6,7 @@ title: "Interaction Design with vvvv"
 slug: "interaction-design-with-vvvv"
 description: ""
 imported: "true"
+thumb: "TallerVVVV_Gr.jpg"
 ---
 
 

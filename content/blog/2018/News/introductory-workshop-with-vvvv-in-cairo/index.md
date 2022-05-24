@@ -6,6 +6,7 @@ title: "Introductory Workshop with VVVV in Cairo !"
 slug: "introductory-workshop-with-vvvv-in-cairo"
 description: ""
 imported: "true"
+thumb: "23434836_372953903118699_4329251771051591570_n.jpg"
 ---
 
 

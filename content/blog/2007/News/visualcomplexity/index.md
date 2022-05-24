@@ -7,6 +7,7 @@ slug: "visualcomplexity"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "new_vc_logo.png"
 ---
 
 

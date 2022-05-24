@@ -6,6 +6,7 @@ title: "Know your Patches!"
 slug: "know-your-patches"
 description: ""
 imported: "true"
+thumb: "SubPatches-Concept2.png"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Binary Search for your Keyframes"
 slug: "binary-search-for-your-keyframes"
 description: ""
 imported: "true"
+thumb: "5ffcbaa004b00ec23abfb71025ebc8a80e2b87e8.gif"
 ---
 
 

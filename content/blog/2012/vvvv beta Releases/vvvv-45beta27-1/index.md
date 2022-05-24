@@ -11,6 +11,7 @@ release:
     date: "2012-02-19"
     app_file: "sites/default/files/vvvv_45beta27.1.zip"
 imported: "true"
+thumb: "svvvvg-Renderer_2012.02.20-22.57.40.png"
 ---
 
 

@@ -13,6 +13,7 @@ where:
     from_date: "1197912600"
     to_date: "0"
 imported: "true"
+thumb: "ds_lightup.jpg"
 ---
 
 

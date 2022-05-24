@@ -14,6 +14,7 @@ where:
     from_date: "1256248800"
     to_date: "0"
 imported: "true"
+thumb: "elevate2009_sujet.gif"
 ---
 
 

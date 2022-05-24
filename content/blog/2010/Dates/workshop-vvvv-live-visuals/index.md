@@ -18,6 +18,7 @@ where:
     lat: "51.342712"
     long: "12.373099"
 imported: "true"
+thumb: "webbanner-sz_magazin-designers_open-04.gif"
 ---
 
 

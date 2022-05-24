@@ -14,6 +14,7 @@ where:
     from_date: "1400770800"
     to_date: "1400785200"
 imported: "true"
+thumb: "nodecode-facebook-veranstaltung.jpg"
 ---
 
 

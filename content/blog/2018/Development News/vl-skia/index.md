@@ -6,6 +6,7 @@ title: "VL.Skia"
 slug: "vl.skia"
 description: ""
 imported: "true"
+thumb: "renderer.png"
 ---
 
 

@@ -15,6 +15,7 @@ where:
     from_date: "1566540000"
     to_date: "1569416400"
 imported: "true"
+thumb: "ComputerVision.png"
 ---
 
 

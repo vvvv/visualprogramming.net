@@ -15,6 +15,7 @@ where:
     lat: "45.440847"
     long: "12.315515"
 imported: "true"
+thumb: "otolab.jpg"
 ---
 
 

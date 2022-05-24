@@ -6,6 +6,7 @@ title: "Need a vvvv specialist?"
 slug: "need-a-vvvv-specialist"
 description: ""
 imported: "true"
+thumb: "specialist.png"
 ---
 
 

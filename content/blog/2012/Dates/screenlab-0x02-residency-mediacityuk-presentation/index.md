@@ -17,6 +17,7 @@ where:
     lat: "53.472824"
     long: "-2.297494"
 imported: "true"
+thumb: "faceshift01.jpg"
 ---
 
 

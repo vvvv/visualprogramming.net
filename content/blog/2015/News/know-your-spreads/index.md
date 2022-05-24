@@ -6,6 +6,7 @@ title: "Know your Spreads!"
 slug: "know-your-spreads"
 description: ""
 imported: "true"
+thumb: "Zip.png"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Integer and Primitive Types in VL"
 slug: "integer-and-primitive-types-in-vl"
 description: ""
 imported: "true"
+thumb: "01_primitive_category.png"
 ---
 
 

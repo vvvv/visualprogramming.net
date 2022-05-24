@@ -6,6 +6,7 @@ title: "Upcoming Intro Workshops, Meetups and Patching Circles"
 slug: "upcoming-intro-workshops-meetups-and-patching-circles"
 description: ""
 imported: "true"
+thumb: "workshp.png"
 ---
 
 

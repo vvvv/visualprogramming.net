@@ -6,6 +6,7 @@ title: "vveekend vvorkshop 5: Everything Geometry in DX11"
 slug: "vveekend-vvorkshop-5-everything-geometry-in-dx11"
 description: ""
 imported: "true"
+thumb: "scr6.png"
 ---
 
 

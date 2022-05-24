@@ -6,6 +6,7 @@ title: "Prototype Fund - Funds for Public Interest Tech"
 slug: "prototype-fund-funds-for-public-interest-tech"
 description: ""
 imported: "true"
+thumb: "prototypefund.png"
 ---
 
 

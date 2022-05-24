@@ -6,6 +6,7 @@ title: "VL: Skia Update"
 slug: "vl-skia-update"
 description: ""
 imported: "true"
+thumb: "Mask5-compressed.gif"
 ---
 
 

@@ -7,6 +7,7 @@ slug: "i-am-from-yo-ho-ho"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "yo.png"
 ---
 
 

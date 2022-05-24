@@ -14,6 +14,7 @@ where:
     from_date: "1288260600"
     to_date: "1288544400"
 imported: "true"
+thumb: "Utrechts_Archief_Born_Digital_640.jpg"
 ---
 
 

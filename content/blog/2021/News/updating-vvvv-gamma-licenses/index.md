@@ -6,6 +6,7 @@ title: "Updating vvvv gamma licenses"
 slug: "updating-vvvv-gamma-licenses"
 description: ""
 imported: "true"
+thumb: "vvvv-Licenses2.png"
 ---
 
 

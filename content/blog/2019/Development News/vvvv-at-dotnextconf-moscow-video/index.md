@@ -6,6 +6,7 @@ title: "vvvv at DotNextConf Moscow - Video"
 slug: "vvvv-at-dotnextconf-moscow-video"
 description: ""
 imported: "true"
+thumb: "dotnext2.png"
 ---
 
 

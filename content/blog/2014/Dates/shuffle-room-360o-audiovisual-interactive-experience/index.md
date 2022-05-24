@@ -19,6 +19,7 @@ where:
     lat: "47.495931"
     long: "19.069521"
 imported: "true"
+thumb: "Shuffleroompostermuszi-1.jpg"
 ---
 
 

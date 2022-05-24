@@ -6,6 +6,7 @@ title: "vvvvhat happened in June 2016"
 slug: "vvvvhat-happened-in-june-2016"
 description: ""
 imported: "true"
+thumb: "ynews-spike.png"
 ---
 
 summer is icumen in and another month has past. many of you are apparently on holiday as we notice the usual sommerloch. but apparently on june 6th someone found it necessary to post [vvvv on hackernews](https://news.ycombinator.com/item?id=11842176) which resulted in the following website access peak (and for a while maxed out our server): 

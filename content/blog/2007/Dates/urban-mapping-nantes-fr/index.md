@@ -12,6 +12,7 @@ where:
     from_date: "1189202400"
     to_date: "0"
 imported: "true"
+thumb: "Or3-UrbanMapping.jpg"
 ---
 
 

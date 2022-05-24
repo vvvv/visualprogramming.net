@@ -6,6 +6,7 @@ title: "VL.OpenCV Release Candidate"
 slug: "vl.opencv-release-candidate"
 description: ""
 imported: "true"
+thumb: "CvImage.gif"
 ---
 
 

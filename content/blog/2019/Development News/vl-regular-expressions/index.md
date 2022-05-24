@@ -6,6 +6,7 @@ title: "VL: Regular Expressions"
 slug: "vl-regular-expressions"
 description: ""
 imported: "true"
+thumb: "ismatch.png"
 ---
 
 

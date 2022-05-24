@@ -16,6 +16,7 @@ where:
     from_date: "1416466800"
     to_date: "1416513600"
 imported: "true"
+thumb: "Poster-Workshop-Web-VVVV.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ title: "vvvvook"
 slug: "vvvvook"
 description: ""
 imported: "true"
+thumb: "vvvv_cover_0117_sample.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Editing Framework update"
 slug: "editing-framework-update"
 description: ""
 imported: "true"
+thumb: "BezierEditorUpdates_15fps.gif"
 ---
 
 

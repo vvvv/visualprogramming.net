@@ -7,6 +7,7 @@ slug: "internship-at-schnellebuntebilder"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "intern_kleiner.jpg"
 ---
 
 

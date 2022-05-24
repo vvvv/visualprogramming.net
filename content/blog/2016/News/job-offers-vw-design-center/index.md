@@ -6,6 +6,7 @@ title: "Job Offers / VW Design Center"
 slug: "job-offers-vw-design-center"
 description: ""
 imported: "true"
+thumb: "vw_jobOffer.png"
 ---
 
 

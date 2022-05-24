@@ -6,6 +6,7 @@ title: "Small changes regarding enums in vvvv"
 slug: "small-changes-regarding-enums-in-vvvv"
 description: ""
 imported: "true"
+thumb: "_26.01.2018-16.43.10.gif"
 ---
 
 

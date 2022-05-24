@@ -7,6 +7,7 @@ slug: "30-gb"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "31gbraaaaam.png"
 ---
 
 

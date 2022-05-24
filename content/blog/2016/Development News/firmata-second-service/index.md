@@ -6,6 +6,7 @@ title: "Firmata Second Service"
 slug: "firmata-second-service"
 description: ""
 imported: "true"
+thumb: "vvvv-ArduinoSecondService_10fps.gif"
 ---
 
 

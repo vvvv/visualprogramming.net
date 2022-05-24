@@ -6,6 +6,7 @@ title: "VL Spring Update"
 slug: "vl-spring-update"
 description: ""
 imported: "true"
+thumb: "documentpatch2.png"
 ---
 
 

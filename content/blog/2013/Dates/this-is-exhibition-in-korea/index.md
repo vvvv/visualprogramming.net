@@ -19,6 +19,7 @@ where:
     lat: "37.576970"
     long: "127.002033"
 imported: "true"
+thumb: "Poster_VVVV_C_Small.jpg"
 ---
 
 
