@@ -14,11 +14,11 @@ where:
     from_date: "1195930800"
     to_date: "0"
 imported: "true"
-thumb: "portikus_videoservertransformed_2007.11.2223.40.44.jpg"
+thumb: "portikus.jpg"
 ---
 
 
-![](portikus_videoservertransformed_2007.11.2223.40.44.jpg)
+![](portikus.jpg)
 
 The architectural installation, entitled “The Thing”, is designed by Städelschule professor for architecture Ben van Berkel together with Prof. Johan Bettum and Luis Etchegorry. The Frankfurt-based design-groups MESO Web Scapes and MESO Digital Interiors have developed a projection work that elaborates on the installation by dynamically embellishing it with moving images and thereby activating its surfaces.
 
