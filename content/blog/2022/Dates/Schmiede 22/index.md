@@ -5,6 +5,7 @@ date: "2022-05-30"
 title: "Schmiede22: Sündenbock"
 slug: "schmiede22"
 description: "Playground of Ideas"
+thumb: 2022-05-30-12-19-29.png
 who: 
     name: "you"
 where: 
