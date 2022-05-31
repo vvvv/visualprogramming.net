@@ -19,6 +19,6 @@ here you go...some more parasitic design patches: 12 examples (ie. all but one b
 P3 is the chapter about doing stuff with typography. so there is a lot of use of {{< node "GlyphInfo (String)" >}} and {{< node "TextMetrics (String)" >}} and {{< node "Text (EX9)" >}} in the examples. some of them use pixel-based text rendering, others treat characters just like quads for scaling and positioning them. 
 
 get the latest pack from:
-{{< contribution "parasitic-design-a-vvvv-beginners-cookbook" >}}
+{{< contribution "parasitic-design-a-vvvv-beginners" >}}
 
 still more to come..

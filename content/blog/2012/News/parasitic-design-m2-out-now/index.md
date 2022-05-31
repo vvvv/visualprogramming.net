@@ -19,4 +19,4 @@ as promised..
 with personal favorite: M_2_6_01
 
 get the latest pack from:
-{{< contribution "parasitic-design-a-vvvv-beginners-cookbook" >}}
+{{< contribution "parasitic-design-a-vvvv-beginners" >}}

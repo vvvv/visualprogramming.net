@@ -26,7 +26,7 @@ this is to announce the 45beta30.2 maintainance release. mostly fixes, nothing r
 
 **girlpower\The Next Generation**
 
-so about 10 years late we're starting a documentation offensive. in the style of the {{< contribution "parasitic-design-a-vvvv-beginners-cookbook" >}} we're working through the [topics](https://betadocs.vvvv.org/topics/index.html) and create easily digestible and documented examples for your learning pleasure. we're lucky to have {{< user "robotanton" >}} on board for doing all the detailed patchwork. 
+so about 10 years late we're starting a documentation offensive. in the style of the {{< contribution "parasitic-design-a-vvvv-beginners" >}} we're working through the [topics](https://betadocs.vvvv.org/topics/index.html) and create easily digestible and documented examples for your learning pleasure. we're lucky to have {{< user "robotanton" >}} on board for doing all the detailed patchwork. 
 
 we've started with providing an overview of vvvvs audio capabilities which are quite sparse, agreed, but finally you have a chance to see at a glance whats there and how it works. among other things there are patches that demonstrate the four ways to playback audiofiles with vvvv:
 * {{< node "FileStream (DShow9)" >}}

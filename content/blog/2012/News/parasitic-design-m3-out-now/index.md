@@ -16,4 +16,4 @@ here is one more drop in the series of parasitic design patches. this includes a
 you'll notice that some of the M3 examples run very slow. thats not very good advertising. we are aware of those problems and embarrassed by them. still the examples are there to show you how you go about realizing stuff not about how to get the best performance out of everything. so we still hope that the examples help you understand the working with meshes in vvvv a bit better. and comes time, comes speed. thats how it works. 
 
 get the latest pack from:
-{{< contribution "parasitic-design-a-vvvv-beginners-cookbook" >}}
+{{< contribution "parasitic-design-a-vvvv-beginners" >}}

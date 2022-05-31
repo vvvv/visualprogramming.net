@@ -16,7 +16,7 @@ more than a month now since the release of b36 and we are happy with it. but are
 one of the more often requested features for vvvv was the ability to run different parts of a project in different mainloops. since b36 this is conveniently possible using vl and the article [Patch Your Own Mainloops](/blog/2018/vl-patch-your-own-mainloops) explains how. no more excuses...
 
 still more on the beginner end of things?
-- make sure not to miss these recently refurbished patches {{< contribution "parasitic-design-a-vvvv-beginners-cookbook" "Parasitic Design - a vvvv beginners cookbook" >}}
+- make sure not to miss these recently refurbished patches {{< contribution "parasitic-design-a-vvvv-beginners" "Parasitic Design - a vvvv beginners cookbook" >}}
 - and consider joining the [vvvv Academy Europe Tour](/blog/2018/vvvv-academy-europe-tour) in a city near you
 
 and in case you missed the annoucement: [/blog/2018/link-the-vvvv-summer-camp-2018 - the vvvv summercamp](/blog/2018/link-the-vvvv-summer-camp-2018) application will open soon and selected participants will then be informed by june 8th, leaving you with 2 months to arrange your travels.

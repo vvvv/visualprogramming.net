@@ -21,4 +21,4 @@ you may notice that some of the newest examples run quite slowly. this is due to
 the total count of examples is now at 80. still more to come..phew..
 
 get the latest pack from:
-{{< contribution "parasitic-design-a-vvvv-beginners-cookbook" >}}
+{{< contribution "parasitic-design-a-vvvv-beginners" >}}
