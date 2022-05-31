@@ -276,22 +276,43 @@ section#Blog
             font-family: $sans;
             $base-font: 1em;
 
-            table{
+            table {
                 width: 100%;
                 margin: 1.7em 0em;
-                font-size: 0.95em;
+                font-size: 0.8em;
                 border-top: 1px solid #ddd;
                 border-bottom: 1px solid #ddd;
 
                 th
                 {
-                    padding: 0.5em 0em;
+                    padding: 0.5em 0.5em;
+                    border-left: 1px solid #ddd;
+
+                    &:first-child{
+                        border-left: none;
+                    }
                 }
 
                 td
                 {
                     padding-bottom: 0.3em;
+                    border-left: 1px solid #ddd;
+                    padding: 0em 0.5em;
+
+                    &:first-child
+                    {
+                        border-left: none;
+                    }
                 }
+
+                tr:last-child
+                {
+                    td{
+                        padding-bottom: 0.5em;
+                    }
+                }
+
+
             }
 
             .meta
@@ -301,9 +322,18 @@ section#Blog
                 border: none;
                 padding: 1em;
 
+                table{
+                    margin: 0em;
+                    font-size: 1em;
+                    border-top: none;
+                    border-bottom: none;
+                }
+
                 table td
                 {
                     padding-right: 1em;
+                    padding-bottom: 0em;
+                    border-left: none;
                 }
 
                 .download
