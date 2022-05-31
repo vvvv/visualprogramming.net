@@ -29,7 +29,7 @@ Schmiede is the playground of ideas, a cooperative prototyping environment, focu
 Since 2003, once a year, for ten days we come together in Hallein to network create and present. We are the Smiths, SchmiedeParticipants and extended family.
 {{< /box >}}
 
-**[Apply here](https://schmiedehallein.com/apply)** – Deadline May 31st
+**[Apply here](https://schmiedehallein.com/apply)** – (Application will be taken offline on June 5th!)
 
 To get some impressions of what to expect, watch some of these:
 * [Schmiede in 5:20](https://vimeo.com/64489715)
