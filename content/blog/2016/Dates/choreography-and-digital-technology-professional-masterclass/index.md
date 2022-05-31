@@ -18,7 +18,7 @@ where:
     lat: "51.506113"
     long: "-0.113572"
 imported: "true"
-thumb: "postcard5-1600x900.jpg"
+thumb: "postcard5-1600x_r.jpg"
 ---
 
 
@@ -31,7 +31,7 @@ The masterclass is free to join and to apply; artists should provide the informa
 • Information (300 words max) outlining why you are interested in taking part in this masterclass
 Applications should be sent to learning@rambert.org.uk
 
-![](postcard5-1600x900.jpg) 
+![](postcard5-1600x_r.jpg) 
 
 
 

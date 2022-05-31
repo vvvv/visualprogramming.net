@@ -58,7 +58,7 @@ If you don't run the calibration process, the first found vive lighthouse base s
 If you have the vive controllers you can run the room setup normally (no need for the HMD to be connected if you use the null driver).
 
 You can also use the tracker as a controller for calibration, but you need to connect a simple circuit to the pogo pins to be able to activate the 'trigger' button during the calibration process.
-![](8266751503881043597.png)
+![](826675150388104_r.png)
 More detailed developer info on the pogo pins can be found here: [Vive Tracker For Developers](https://developer.vive.com/us/vive-tracker-for-developer)
 
 You can download the new OpenVR pack here: {{< contribution "vvvv.openvr" "VVVV.OpenVR" >}}

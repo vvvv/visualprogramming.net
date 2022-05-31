@@ -16,7 +16,7 @@ where:
     from_date: "1410408000"
     to_date: "1411286400"
 imported: "true"
-thumb: "Schmiede14_Application_2.jpg"
+thumb: "Schmiede14_Appl_r.jpg"
 ---
 
 
@@ -35,7 +35,7 @@ Application confirmation:
 Age limit:
     18+
 <!--break-->
-![](Schmiede14_Application_2.jpg) 
+![](Schmiede14_Appl_r.jpg) 
 
 
 **WHAT?**

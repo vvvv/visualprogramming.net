@@ -18,11 +18,11 @@ where:
     lat: "52.494060"
     long: "13.429075"
 imported: "true"
-thumb: "HEROES---WHERE-ARE-WE-NOW-small.jpg"
+thumb: "HEROES---WHERE-_r.jpg"
 ---
 
 
-![HEROES](HEROES---WHERE-ARE-WE-NOW-small.jpg) 
+![HEROES](HEROES---WHERE-_r.jpg) 
 
 This Saturday I perform with an extended verion of DMK, perhaps you remember it from the Pathcer Kucha at NODE13. It is as a part of HEROES... where are we now at Umspannwerk Kreuzberg.
 

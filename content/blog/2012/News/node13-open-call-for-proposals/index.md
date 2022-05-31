@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![NODE13 – Forum for Digital Arts | February 11th - 17th, 2013 | Frankfurter Kunstverein, Germany](NODE13%20Open%20Call%202.png) 
+![NODE13 – Forum for Digital Arts | February 11th - 17th, 2013 | Frankfurter Kunstverein, Germany](NODE13%20Open%20Cal_r.png) 
 
 ![NODE13 – Forum for Digital Arts | February 11th - 17th, 2013 | Frankfurter Kunstverein, Germany](NODE13%20Open%20Call%203.png) 
 
@@ -77,14 +77,14 @@ __
 
 ##  This was NODE10
 
-![NODE10](NODE10%20-%20Overview.png) 
+![NODE10](NODE10%20-%20Overvi_r.png) 
 
 
-![NODE13 Venue - Frankfurter Kunstverein Germany (exterior view)](NODE13%20Venue%20-%20Frankfurter%20Kunstverein%20Germany%20%28exterior%20view%29.jpg) 
+![NODE13 Venue - Frankfurter Kunstverein Germany (exterior view)](NODE13%20Venue%20-%20_r.jpg) 
 NODE13 Venue - Frankfurter Kunstverein Germany (exterior view)
 
 
-![NODE10 exhibition - (n)arcissus by SoftLAB](NODE10%20exhibition%20-%20%28n%29arcissus%20by%20SoftLAB%20%28copyright%20SoftLAB%29.jpg) 
+![NODE10 exhibition - (n)arcissus by SoftLAB](NODE10%20exhibiti_r.jpg) 
 NODE10 exhibition - (n)arcissus by SoftLAB
 
 
@@ -96,5 +96,5 @@ NODE10 exhibition - Achilles by Brandon Morse
 NODE10 exhibition - Fat bonnasses by John Powers
 
 
-![NODE10 workshop – Digital Media in Performing Arts](NODE10%20workshop%20-%20Digital%20Media%20in%20Performing%20Arts%20%28copyright%20Woeishi%20Lean%29.jpg) 
+![NODE10 workshop – Digital Media in Performing Arts](NODE10%20workshop_r.jpg) 
 NODE10 workshop – Digital Media in Performing Arts

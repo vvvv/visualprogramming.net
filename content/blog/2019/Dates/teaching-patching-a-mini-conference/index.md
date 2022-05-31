@@ -14,11 +14,11 @@ where:
     from_date: "1572073200"
     to_date: "1572192000"
 imported: "true"
-thumb: "TeachingPatching3.png"
+thumb: "TeachingPatchin_r.png"
 ---
 
 
-![](TeachingPatching3.png)
+![](TeachingPatchin_r.png)
 
 Are you teaching vvvv or otherwise using vvvv in education, or are you planning to? Please join us for this 2 day mini conference where we want to talk about teaching methodologies and strategies of getting vvvv established in more diverse fields. The two main areas of discussions we anticipate:
 

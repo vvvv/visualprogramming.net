@@ -14,11 +14,11 @@ where:
     from_date: "1569340800"
     to_date: "1569340800"
 imported: "true"
-thumb: "women-telephone-operators-at-work-12.jpg"
+thumb: "women-telephone_r.jpg"
 ---
 
 
-![](women-telephone-operators-at-work-12.jpg)
+![](women-telephone_r.jpg)
 *Unrelated: How patching looked like in the olden days...*
 
 It is the **4th tuesday of the month** again. Tomorrow!

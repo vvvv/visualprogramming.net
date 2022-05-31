@@ -27,7 +27,7 @@ Everything. Including the full MIT-licensed VL.Stride sources. You get access to
 
 While like this everything is accessible for you down to the bones of the Stride source-code, not everything is yet conveniently usable out-of-the-box. For now, we've concentrated on the high-level workflow. So what you get is:
 
-![](VL.Stride%20-%20Cornell.png)
+![](VL.Stride%20-%20Cor_r.png)
 *VL Cornell*
 
 

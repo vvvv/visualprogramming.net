@@ -18,11 +18,11 @@ where:
     lat: "45.430174"
     long: "12.326204"
 imported: "true"
-thumb: "Immagine-di-copertina.jpg"
+thumb: "Immagine-di-cop_r.jpg"
 ---
 
 
-![Sound Production Sound](Immagine-di-copertina.jpg) 
+![Sound Production Sound](Immagine-di-cop_r.jpg) 
 
 
 Since 2011 Toolkit Festival has been organizing meetings with international artists who move in the field of experimentation with new art forms related to interactive technology.

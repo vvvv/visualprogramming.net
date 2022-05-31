@@ -13,7 +13,7 @@ Patcher People!
 
 It's been a while since the b38.1 release. But finally we're getting ready to release an update to vvvv beta. Here is the release-candidate, meaning it has all we wanted to add for beta39. We only want to give you a chance to test this with your current projects so we have a last chance to squash any new bugs, you may encounter.
 
-![](PBRTextured%20%28DX11.Effect%29%20help-Renderer_2019.10.02-21.37.39.png)
+![](PBRTextured%20(DX_r.png)
 *Fancy shading with the new PBR effect contributed by {{< user "flux" >}}*
 
 Here are the highlights of the upcoming release:

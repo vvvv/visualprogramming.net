@@ -6,11 +6,11 @@ title: "Beta 35.7 Release Canditate"
 slug: "beta-35.7-release-canditate"
 description: ""
 imported: "true"
-thumb: "gw3IWyGkC0rsazTi.gif"
+thumb: "gw3IWyGkC0rsazT_r.gif"
 ---
 
 
-![](gw3IWyGkC0rsazTi.gif)
+![](gw3IWyGkC0rsazT_r.gif)
 
 My dear vvvv users,
 

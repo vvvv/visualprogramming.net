@@ -6,14 +6,14 @@ title: "vvvv Japan meetup vol.7 @Microsoft Japan"
 slug: "vvvv-japan-meetup-vol.7-microsoft-japan"
 description: ""
 imported: "true"
-thumb: "20150608-_DSC6708.jpg"
+thumb: "20150608-_DSC67_r.jpg"
 ---
 
 **2015.6.8 vvvv Japan meetup vol.7**
 
 We held vvvv workshop for MSP(Microsoft Student Partners) at Microsoft Japan office. 
 
-![vvvv_JP1](20150608-_DSC6708.jpg) 
+![vvvv_JP1](20150608-_DSC67_r.jpg) 
 
 
 

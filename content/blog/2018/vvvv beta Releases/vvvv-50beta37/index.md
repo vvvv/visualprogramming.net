@@ -12,11 +12,11 @@ release:
     app_file: "sites/default/files/vvvv_50beta37_x86_0.zip"
     app_file_64: "sites/default/files/vvvv_50beta37_x64_0.zip"
 imported: "true"
-thumb: "callmenames-Root-Emotion.png"
+thumb: "callmenames-Roo_r.png"
 ---
 
 
-![excited!](callmenames-Root-Emotion.png)
+![excited!](callmenames-Roo_r.png)
 
 ## Release Highlights
 

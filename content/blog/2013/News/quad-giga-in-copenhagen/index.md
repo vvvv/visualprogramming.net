@@ -10,6 +10,6 @@ originalType: "stuff"
 ---
 
 
-![Quad Giga in Copenhagen](2013-03-06%2018.11.20.jpg) 
+![Quad Giga in Copenhagen](2013-03-06%2018.1_r.jpg) 
 
 Spotted new product development in Copenhagen. Anonymous sources suggest the naming Quad Giga to supplement Classic, nano, mega and mini.

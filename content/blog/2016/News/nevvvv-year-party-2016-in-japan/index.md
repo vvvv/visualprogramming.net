@@ -6,7 +6,7 @@ title: "Nevvvv Year Party 2016!! in Japan"
 slug: "nevvvv-year-party-2016-in-japan"
 description: ""
 imported: "true"
-thumb: "12565578_818309351610856_4440939895789292352_n.jpg"
+thumb: "12565578_818309_r.jpg"
 ---
 
 
@@ -14,16 +14,16 @@ thumb: "12565578_818309351610856_4440939895789292352_n.jpg"
 2016.1.23 Nevvvv Year Party 2016.
 Thank you for a lot of people participating .
 
-![Nevvvv Year Party 2016](12565578_818309351610856_4440939895789292352_n.jpg) 
+![Nevvvv Year Party 2016](12565578_818309_r.jpg) 
 
 ##  Workshop
 Audio visualize workshop for Nevvvvies.
 
-![Nevvvv Year Party 2016 Workshop](tumblr_inline_o1luzixxvT1tq1crd_540.jpg) 
+![Nevvvv Year Party 2016 Workshop](tumblr_inline_o_r.jpg) 
 
 ##  Exhibition
 Movie and Interaction.
-![Exhibition](11182001_818310941610697_4097265371543671939_n.jpg) 
+![Exhibition](11182001_818310_r.jpg) 
 
 
 ■About vvvvJP All of vvvv Japan Community

@@ -16,7 +16,7 @@ where:
     from_date: "1417280400"
     to_date: "1417280400"
 imported: "true"
-thumb: "SHINYTOYS-Web-Front.png"
+thumb: "SHINYTOYS-Web-F_r.png"
 ---
 
 
@@ -28,7 +28,7 @@ Aus den physischen Überresten, dem psychoaktiven Abfall und den noch glimmenden
 
 Audiovisuelle Experimente zwischen Labor und Bühne die verblüffen, irritieren – und am Ende vertraute Seh- und Hörgewohnheiten zur Disposition stellen.
 
-![SHINY TOYS FESTIVAL 2014](SHINYTOYS-Web-Front.png)
+![SHINY TOYS FESTIVAL 2014](SHINYTOYS-Web-F_r.png)
 <!--break-->
 ////////////////
 SHINY TOYS 2014 - Festival für audiovisuelle Experimente #5
@@ -59,7 +59,7 @@ http://www.tintinpatrone.com/
 ▲ KNU!
 http://kuhzunft.com/knu.html
 
-![SHINY TOYS FESTIVAL 2014 - line up](SHINYTOYS-Web-Back.png) 
+![SHINY TOYS FESTIVAL 2014 - line up](SHINYTOYS-Web-B_r.png) 
 
 
 

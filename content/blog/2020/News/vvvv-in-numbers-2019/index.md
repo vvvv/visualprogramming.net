@@ -46,7 +46,7 @@ addons | 10.700 | 14.400 | 18.800 | 29.000 | 28.500 | 25.200| 19.400 | 21.400 | 
 What can we say? Only 1 release was really lame. But was it? Ok, yes, it was, but the way I'd like to whitewash these numbers a bit is that they are only reflecting vvvv beta, when obviously most of our work (to some of your's concern) went into VL and vvvv gamma. And inconveniently we don't have any numbers for vvvv gamma downloads at all. But then again those wouldn't be high numbers also because as you know we're still keeping a rather low profile with vvvv gamma, mostly advertising it to you as long as it is still in preview. So anyway, nothing to be particularly proud of here. Moving on...
 
 ## Licenses
-![](LicensesAndDongles2019.png)
+![](LicensesAndDong_r.png)
 *vvvv.org income through licenses and dongles sold*
 
 Phew, not as bad as the declining number of downloads would have suggested. Certainly not an upwards trend but still the 4th best result so far. So let's see what this number is composed of:

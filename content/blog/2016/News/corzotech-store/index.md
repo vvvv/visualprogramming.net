@@ -6,11 +6,11 @@ title: "Corzotech Store"
 slug: "corzotech-store"
 description: ""
 imported: "true"
-thumb: "CorzotechBannernoText.gif"
+thumb: "CorzotechBanner_r.gif"
 ---
 
 
-![corzotechbanner](CorzotechBannernoText.gif) 
+![corzotechbanner](CorzotechBanner_r.gif) 
 
 
 #### Hello Dear v4 fellows,

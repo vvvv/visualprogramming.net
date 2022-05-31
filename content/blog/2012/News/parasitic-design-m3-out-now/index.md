@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![](M_3_4_01_TOOL-DirectX%20Renderer.png)
+![](M_3_4_01_TOOL-D_r.png)
 
 here is one more drop in the series of parasitic design patches. this includes all examples of the chapter M3 (formulated bodies) of the [Generative Gestaltung](http://generativegestaltung.de/) book (also available in [english](http://www.amazon.com/Generative-Design-Visualize-Program-Processing/dp/1616890770/ref=sr_1_1?s=books&ie=UTF8&qid=1345550558&sr=1-1&keywords=generative+design) and [français](http://www.amazon.fr/Design-g%C3%A9n%C3%A9ratif-Concevoir-programmer-visualiser/dp/2350172155/ref=sr_1_2?ie=UTF8&qid=1345550741&sr=8-2) s'il vous plaît). 
 

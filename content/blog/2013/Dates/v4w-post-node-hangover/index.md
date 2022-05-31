@@ -18,11 +18,11 @@ where:
     lat: "51.521068"
     long: "-0.078149"
 imported: "true"
-thumb: "February-27th---Post-Node.jpg"
+thumb: "February-27th--_r.jpg"
 ---
 
 
-![](February-27th---Post-Node.jpg) 
+![](February-27th--_r.jpg) 
 
 If you made it to Node, come down for a drink and a natter. If you didn't, come down for a quick drink and a natter. If you have no idea what Node was and you're completely new to vvvv, come and have a drink and a natter. If you... just come join us next week, in a nice pub, where you can talk shop to your heart's content.
 

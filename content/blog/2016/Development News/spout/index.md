@@ -6,11 +6,11 @@ title: "Spout"
 slug: "spout-0"
 description: ""
 imported: "true"
-thumb: "SpoutWithTitleWhite1-300x300.png"
+thumb: "SpoutWithTitleW_r.png"
 ---
 
 
-![](SpoutWithTitleWhite1-300x300.png)
+![](SpoutWithTitleW_r.png)
 
 
 This is to announce proper [Spout](http://spout.zeal.co/) support for vvvv (finally).

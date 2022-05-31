@@ -7,11 +7,11 @@ slug: "mre-lightobjects"
 description: ""
 imported: "true"
 originalType: "stuff"
-thumb: "lowerCut_stil_anim.jpg"
+thumb: "lowerCut_stil_a_r.jpg"
 ---
 
 
-![LowerCut going MRE](lowerCut_stil_anim.jpg) 
+![LowerCut going MRE](lowerCut_stil_a_r.jpg) 
 
 just a bad GPU...
 

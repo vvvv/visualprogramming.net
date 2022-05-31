@@ -6,7 +6,7 @@ title: "vvvvhat happened in July 2016"
 slug: "vvvvhat-happened-in-july-2016"
 description: ""
 imported: "true"
-thumb: "_31.07.2016-21.27.23.gif"
+thumb: "_31.07.2016-21._r.gif"
 ---
 
 hallihallo,
@@ -26,7 +26,7 @@ then just last week {{< user "digitalwannabe" >}} went on a rampage releasing tw
 * {{< contribution "Triangle" >}} - a 2d Quality Mesh Generator and Delaunay Triangulator
 and immediately {{< user "microdee" >}} jumped at it and teased us with [taking this to the next dimension](/blog/triangledx11-renderer).
 
-![](_31.07.2016-21.27.23.gif) 
+![](_31.07.2016-21._r.gif) 
 *Triangle in a 1 minute help-patch action*
 
 but not to oversee in that tumult {{< user "RobertQue" >}} shared his first contribution, a module to control the {{< contribution "pioneer-pro-dj-link-rekordbox-only" "Pioneer PRO DJ LINK" >}}. 

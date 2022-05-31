@@ -18,11 +18,11 @@ where:
     lat: "45.447864"
     long: "9.221955"
 imported: "true"
-thumb: "57db34f8-164e-454b-8e00-cbb98d0dea7a.jpg"
+thumb: "57db34f8-164e-4_r.jpg"
 ---
 
 
-![](57db34f8-164e-454b-8e00-cbb98d0dea7a.jpg) 
+![](57db34f8-164e-4_r.jpg) 
 
 
 During the workshop we will investigate the potential of Kinect’s sensors used by artists and designers. These sensors allow us to develop a whole range of unexpected, contactless interaction solutions, both for public and private spaces. 

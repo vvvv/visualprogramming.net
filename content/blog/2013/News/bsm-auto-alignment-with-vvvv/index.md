@@ -6,7 +6,7 @@ title: "BSM Auto Alignment with vvvv"
 slug: "bsm-auto-alignment-with-vvvv"
 description: ""
 imported: "true"
-thumb: "bsmautoalignment.png"
+thumb: "bsmautoalignmen_r.png"
 ---
 
 
@@ -14,7 +14,7 @@ One of vvvvs main strengths is interactive 3d graphics projected seamlessly via 
 
 Nodes like {{< node "Homography (Transform 2d)" >}}, {{< node "MultiScreen (EX9)" >}}, {{< node "GridEditor (EX9)" >}}, ... are available in vvvv for dealing with custom projection setups but they have to be tweaked manually. Considering scenarios with complex screens, large number of projectors or longterm installations where screens or projectors can subtly move over time this causes additional headache.
 
-![](bsmautoalignment.png)
+![](bsmautoalignmen_r.png)
 
 Enter **BSM Auto Alignment** provided to you by the inventor of {{< node "Trautner (Freeframe DShow9)" >}}. This standalone software only needs:
 * a 3d model of your screen-architecture 

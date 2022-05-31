@@ -7,9 +7,9 @@ slug: "ggraf-meets-katsu"
 description: ""
 imported: "true"
 originalType: "stuff"
-thumb: "gGraf-meets-katsu.jpg"
+thumb: "gGraf-meets-kat_r.jpg"
 ---
 
 
-![gGraf meets Katsu](gGraf-meets-katsu.jpg) 
+![gGraf meets Katsu](gGraf-meets-kat_r.jpg) 
 Graffiti capture to GML and reading in 100% pure VVVV.

@@ -17,7 +17,7 @@ where:
     lat: "55.632211"
     long: "12.082042"
 imported: "true"
-thumb: "5745A15C-B45B-4801-A671-B0D5C42F7144.jpeg"
+thumb: "5745A15C-B45B-4_r.jpeg"
 ---
 
 
@@ -28,9 +28,9 @@ If you are from hhhhere, don’t hesitate to say hi, ggml will be scriptkid for 
 
 https://www.roskilde-festival.dk/music/2018/adda-kaleh-aka-alexandra-pirici-w-andrei-dinu-ion-cotenescu-jared-marks-maria-mora?view=poster
 
-![](5745A15C-B45B-4801-A671-B0D5C42F7144.jpeg) 
+![](5745A15C-B45B-4_r.jpeg) 
 
-![](73FB2892-A7D3-4C30-A056-7E17AAE49503.jpeg) 
+![](73FB2892-A7D3-4_r.jpeg) 
 
 
 

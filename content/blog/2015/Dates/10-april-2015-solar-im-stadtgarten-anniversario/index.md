@@ -18,11 +18,11 @@ where:
     lat: "50.942556"
     long: "6.934982"
 imported: "true"
-thumb: "oktoskop-live_jung-und-nutzlos_2014.jpg"
+thumb: "oktoskop-live_j_r.jpg"
 ---
 
 
-![oktoskop live @druckluft Oberhausen](oktoskop-live_jung-und-nutzlos_2014.jpg) 
+![oktoskop live @druckluft Oberhausen](oktoskop-live_j_r.jpg) 
 
 Heyho,
 wessen Raumschiff nächstes Wochenende in der Nähe der Erde ist, der sei herzlich eingeladen, im **Kölner Stadtgarten** das nächste **oktoskop** zu erleben.

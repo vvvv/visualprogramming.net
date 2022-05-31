@@ -12,10 +12,10 @@ where:
     from_date: "1271541600"
     to_date: "0"
 imported: "true"
-thumb: "fggzurichinauguration08scaled.jpg"
+thumb: "fggzurichinaugu_r.jpg"
 ---
 
 
 All globe light programming and media terminals were done using vvvv.
 
-![](fggzurichinauguration08scaled.jpg)![](fggzurich_02scaled.jpg)
+![](fggzurichinaugu_r.jpg)![](fggzurich_02sca_r.jpg)

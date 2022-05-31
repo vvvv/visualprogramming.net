@@ -6,7 +6,7 @@ title: "VVVVorkshop @ VisualBerlin Festival"
 slug: "vvvvorkshop-visualberlin-festival"
 description: ""
 imported: "true"
-thumb: "vbstickerslim1600x399.jpg"
+thumb: "vbstickerslim16_r.jpg"
 ---
 
 
@@ -14,4 +14,4 @@ Any one near Berlin on 10-11-12th june? then come by and visit the [VisualBerlin
 
 We have a workshop there too. See the [Day Program](http://festival.visualberlin.org/day-program/).
 
-![](vbstickerslim1600x399.jpg)
+![](vbstickerslim16_r.jpg)

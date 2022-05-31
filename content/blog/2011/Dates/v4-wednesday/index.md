@@ -18,11 +18,11 @@ where:
     lat: "51.542972"
     long: "-0.024723"
 imported: "true"
-thumb: "June-29th---Sune.jpg"
+thumb: "June-29th---Sun_r.jpg"
 ---
 
 
-![V4W-June29th](June-29th---Sune.jpg) 
+![V4W-June29th](June-29th---Sun_r.jpg) 
 
 V4Wednesday: a master class with Sune of Motorsaw.
 

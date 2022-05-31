@@ -18,11 +18,11 @@ where:
     lat: "52.493198"
     long: "13.423040"
 imported: "true"
-thumb: "highres_474183749.jpg"
+thumb: "highres_4741837_r.jpg"
 ---
 
 
-![](highres_474183749.jpg) 
+![](highres_4741837_r.jpg) 
 
 Berlin Patchers.
 

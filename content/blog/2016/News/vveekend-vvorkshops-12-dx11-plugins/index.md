@@ -7,11 +7,11 @@ slug: "vveekend-vvorkshops-12-dx11-plugins"
 description: ""
 imported: "true"
 originalType: "stuff"
-thumb: "IntroRenderer_2016.04.02-00.35.50.png"
+thumb: "IntroRenderer_2_r.png"
 ---
 
 
-![](IntroRenderer_2016.04.02-00.35.50.png) 
+![](IntroRenderer_2_r.png) 
 
 This sunday vvvv godfather {{< user "vux" >}} will teach us how to create DX11 plugins in C# so you don't have to bother him if you want to see a specific feature in DX11 pack, you will be able to do it by yourself ;)
 

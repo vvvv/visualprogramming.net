@@ -6,7 +6,7 @@ title: "Creative Coding Tehran: another vvvv Workshop"
 slug: "creative-coding-tehran-another-vvvv-workshop"
 description: ""
 imported: "true"
-thumb: "BIGONEvvvv_AutumnTricks.jpg"
+thumb: "BIGONEvvvv_Autu_r.jpg"
 ---
 
 
@@ -15,7 +15,7 @@ After a row of many great vvvv workshops in Tehran in the last years which were 
 This one is part of the freshly founded group **CREATIVE CODING TEHRAN** and hosted by one of the fastest middle-mouse clickers of Iran so far - {{< user "miro" >}}. This time he will cover **input- and output methods, 2D textures, spreads, basics of generative algorithms and types of file writers**.
 
 Read along below if you want to come!
-![vvvv autumn tricks](BIGONEvvvv_AutumnTricks.jpg) 
+![vvvv autumn tricks](BIGONEvvvv_Autu_r.jpg) 
 
 سالانه هنر دیجیتال تهران با همکاری پلتفرم دیگر برگزار می‌کند
 

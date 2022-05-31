@@ -14,11 +14,11 @@ where:
     from_date: "1622196000"
     to_date: "1622206800"
 imported: "true"
-thumb: "Webinar-TitleImage2.jpg"
+thumb: "Webinar-TitleIm_r.jpg"
 ---
 
 
-![Shiny generative graphics with vvvv and VL.Stride](Webinar-TitleImage2.jpg) 
+![Shiny generative graphics with vvvv and VL.Stride](Webinar-TitleIm_r.jpg) 
 
 Another one:
 

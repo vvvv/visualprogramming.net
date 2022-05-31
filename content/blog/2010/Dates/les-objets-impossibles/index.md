@@ -28,7 +28,7 @@ Each musician of the Ensemble will be analyzed separately in Max-MSP, thanks to 
 Here some images and links, there are more images on our flickr.
 Obviusly we'd love to see some vvvvolks there, let us know if you're coming!
 
-![Impossible Object 1_06](Impossible%20Object%201_06.jpg) 
+![Impossible Object 1_06](Impossible%20Obje_r.jpg) 
 ![Impossible Object 2_01](Impossible%20Object%202_01.jpg) 
 ![Impossible Object 2_06](Impossible%20Object%202_06.jpg)
 

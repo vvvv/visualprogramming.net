@@ -7,7 +7,7 @@ slug: "yet-another-controller-kit-by-make"
 description: ""
 imported: "true"
 originalType: "stuff"
-thumb: "kit_controller_tn.jpg"
+thumb: "kit_controller__r.jpg"
 ---
 
 
@@ -22,5 +22,5 @@ logically called the [&quot;MAKE CONTROLLER KIT&quot;](http://makezine.com/contr
 I can't wait for the VVVV-to-Artmel compiler. (iiiiifffff....)
 <!--~~~-->
 
-![](kit_controller_tn.jpg)
+![](kit_controller__r.jpg)
 <!--{SPLIT}-->

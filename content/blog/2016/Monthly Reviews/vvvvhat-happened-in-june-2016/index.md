@@ -21,7 +21,7 @@ from the usual just above 2k simultaneous sessions to nearly 9k!
 * proper modules for the {{< contribution "logitechplaystation-buzzer-module" "Logitech/Playstation Buzzer Module" >}} by {{< user "motzi" >}}
 * a simple patch for using the {{< contribution "akai-midimix" "AKAI Midimix" >}} device by {{< user "graphicuserinterface" >}}
 
-not yet a contribution, but {{< user "u7angel" >}} keeps teasing us with his latest work which looks verymuch like a visual automata-patching tool: ![](screenshot1466621139.png) 
+not yet a contribution, but {{< user "u7angel" >}} keeps teasing us with his latest work which looks verymuch like a visual automata-patching tool: ![](screenshot14666_r.png) 
 
 i think it would only be fair if everyone interested in using this goes to u7's userpage and sends him an email bugging him to [RERO](https://en.wikipedia.org/wiki/Release_early%2C_release_often).
 

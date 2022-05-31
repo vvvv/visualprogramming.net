@@ -16,7 +16,7 @@ imported: "true"
 ---
 
 
-![Leap mounted on a Rift DK2](Person%20oculus%20leap.jpg) 
+![Leap mounted on a Rift DK2](Person%20oculus%20l_r.jpg) 
 
 On the 18th, we're hosting a free entry development night for Motion Controls and Virtual Reality at Game Science Center in Berlin. We'd love to have developers over who want to show their projects or ideas. We're also going to give away Leap motion hardware.
 

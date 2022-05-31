@@ -18,14 +18,14 @@ where:
     lat: "41.896556"
     long: "12.515300"
 imported: "true"
-thumb: "_root-NABLA_2014.02.09-21.32.01.png"
+thumb: "_root-NABLA_201_r.png"
 ---
 
 
 What
 http://livecinemafestival.com/2015-rome/artists/Didif/performances/balanced/
 {{< vimeo "89328840" >}}
-![BALANCED A/V](_root-NABLA_2014.02.09-21.32.01.png) 
+![BALANCED A/V](_root-NABLA_201_r.png) 
 
 http://didifstudio.com
 http://www.severalreasons.net/

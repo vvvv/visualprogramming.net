@@ -17,7 +17,7 @@ imported: "true"
 ---
 
 
-![](steppp101%20zacusca%20de%20tigro%20slower%20faster-DirectX%20Renderer_2016.12.10-22.56.18.png) 
+![](steppp101%20zacus_r.png) 
 
 last minute commission for two concert visualizations at Berlin Atonal 2017
 

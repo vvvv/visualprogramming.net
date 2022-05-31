@@ -15,7 +15,7 @@ imported: "true"
 ---
 
 
-![](screen-DirectX%20Renderer.png) 
+![](screen-DirectX%20_r.png) 
 rendering by {{< user "unc" >}}
 
 this is the first **beta28** addonpack. 

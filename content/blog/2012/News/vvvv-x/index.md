@@ -6,11 +6,11 @@ title: "vvvv X"
 slug: "vvvv-x"
 description: ""
 imported: "true"
-thumb: "vlagshipstore_600_color.png"
+thumb: "vlagshipstore_6_r.png"
 ---
 
 
-![](vlagshipstore_600_color.png)
+![](vlagshipstore_6_r.png)
 
 for immediate release:
 

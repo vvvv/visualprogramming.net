@@ -11,11 +11,11 @@ where:
     lat: "None"
     long: "None"
 imported: "true"
-thumb: "09.01.20probeaufbau014.jpg"
+thumb: "09.01.20probeau_r.jpg"
 ---
 
 
-![](09.01.20probeaufbau014.jpg)
+![](09.01.20probeau_r.jpg)
 
 G'day evvvveryone,
 

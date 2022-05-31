@@ -19,10 +19,10 @@ where:
     lat: "31.212982"
     long: "121.454906"
 imported: "true"
-thumb: "362863060367855264.jpg"
+thumb: "362863060367855_r.jpg"
 ---
 
 
 Meet the local scene in a very nice venue. 
-![](362863060367855264.jpg) 
+![](362863060367855_r.jpg) 
 

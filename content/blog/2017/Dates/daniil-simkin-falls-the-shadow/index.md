@@ -18,11 +18,11 @@ where:
     lat: "40.783001"
     long: "-73.958882"
 imported: "true"
-thumb: "gen-event-performance-rotunda-project-works-process-simkins.jpg"
+thumb: "gen-event-perfo_r.jpg"
 ---
 
 
-![](gen-event-performance-rotunda-project-works-process-simkins.jpg) 
+![](gen-event-perfo_r.jpg) 
 
 ###  Commissioned by Works & Process and created by American Ballet Theatre (ABT) principal Daniil Simkin.
 **Falls the Shadow** is a new production featuring Simkin, ABT soloist Cassandra Trenary, Ana Lopez, and Brett Conway. 

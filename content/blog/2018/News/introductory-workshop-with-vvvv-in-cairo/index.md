@@ -6,12 +6,12 @@ title: "Introductory Workshop with VVVV in Cairo !"
 slug: "introductory-workshop-with-vvvv-in-cairo"
 description: ""
 imported: "true"
-thumb: "23434836_372953903118699_4329251771051591570_n.jpg"
+thumb: "23434836_372953_r.jpg"
 ---
 
 
  
-![VVVV Workshops by Creative Coding Cairo ](23434836_372953903118699_4329251771051591570_n.jpg) 
+![VVVV Workshops by Creative Coding Cairo ](23434836_372953_r.jpg) 
 
 Hello from Cairo !
 I am happy to announce that i had the first introductory workshop in Cairo - Egypt  at  Creative Coding Cairo .

@@ -18,11 +18,11 @@ where:
     lat: "52.545045"
     long: "13.374174"
 imported: "true"
-thumb: "fbheader_blurb_left-02.png"
+thumb: "fbheader_blurb__r.png"
 ---
 
 
-![banner_large](fbheader_blurb_left-02.png)
+![banner_large](fbheader_blurb__r.png)
 
 VJ Union is a global networking platform for practising multimedia artists with aims to promote projects, discuss standars, educate each other, and expose works on an international stage.
 VJ Union's Berlin event will be a freeform open visual jam session. Bring your beamer (if you can), toys controllers, software, friends and ideas.

@@ -66,7 +66,7 @@ When making a connection between nodes that belong to different operations VL no
 ### UI related improvements
 The explorer in the top-left corner of a patch got an update: You can now conveniently add, remove and rename fields and operations there. Also name and category of the patch can now be changed in that same on-patch menu. 
 
-![](_02.08.2016-15.14.23.gif)
+![](_02.08.2016-15._r.gif)
 *The one-stop-shop patch explorer*
 
 The two quick-navigation dropdowns formerly labeled "P" (Patches) and "C" (Categories) now provide direct access to all nodes in the active document (instead of only patches). Therefore the first label changed from "P" to "N" for *Nodes*.

@@ -6,7 +6,7 @@ title: "vvvv-artist/programmer wanted! (cooperation or job)"
 slug: "vvvv-artistprogrammer-wanted-(cooperation-or-job)"
 description: ""
 imported: "true"
-thumb: "unterfuehrung_wuerfel_009.jpg"
+thumb: "unterfuehrung_w_r.jpg"
 ---
 
 
@@ -21,4 +21,4 @@ The production will take part between mid august and end of September (should pr
 Budget is available, meaning your expenses and some payment will be covered. As well as a technical equipment will be available.
 
 Contact me via [mail](http://blog.benju.net/contact/) or +43-699-81105810 for more information
-![](unterfuehrung_wuerfel_009.jpg)
+![](unterfuehrung_w_r.jpg)

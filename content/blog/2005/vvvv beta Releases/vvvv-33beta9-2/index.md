@@ -11,7 +11,7 @@ release:
     date: "2005-11-15"
     app_file: "sites/default/files/vvvv_33beta9.2.zip"
 imported: "true"
-thumb: "rendererdirectxrenderer1.jpg"
+thumb: "rendererdirectx_r.jpg"
 ---
 
 
@@ -26,7 +26,7 @@ da crevv.
  
 <!--~~~-->
 
-![](rendererdirectxrenderer1.jpg)
+![](rendererdirectx_r.jpg)
 
 <!--{SPLIT}-->
 

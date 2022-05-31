@@ -6,7 +6,7 @@ title: "vvvv Japan Meetup Vol.3"
 slug: "vvvv-japan-meetup-vol.3"
 description: ""
 imported: "true"
-thumb: "10957052_1545372259053924_35431743_o.jpg"
+thumb: "10957052_154537_r.jpg"
 ---
 
 
@@ -31,7 +31,7 @@ Contents:
 3.vvvv and difference in another language(Max/msp/jitter, Pd, Touch Designer...and so on)
 4.Lightning Talk
 
-![Japan meet up vol.3](10957052_1545372259053924_35431743_o.jpg) 
+![Japan meet up vol.3](10957052_154537_r.jpg) 
 
 Spread Sample Patch is here.
 <https://drive.google.com/open?id=0B-aWXftvAHSxMURuQ2twMkpjczg&authuser=0>

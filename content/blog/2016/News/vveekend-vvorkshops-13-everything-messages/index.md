@@ -7,11 +7,11 @@ slug: "vveekend-vvorkshops-13-everything-messages"
 description: ""
 imported: "true"
 originalType: "stuff"
-thumb: "IntroRenderer_2016.04.06-21.43.39.png"
+thumb: "IntroRenderer_2_r.png"
 ---
 
 
-![](IntroRenderer_2016.04.06-21.43.39.png) 
+![](IntroRenderer_2_r.png) 
 
 This Sunday {{< user "velcrome" >}} will show us his powerful Messages for creating tidier patches and packing data. So if your projects usually look like a bunch of cobwebs attached to each-other with more cobwebs tune in for this workshop at https://www.youtube.com/watch?v=WtftcO13rEw
 

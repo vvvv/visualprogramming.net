@@ -6,7 +6,7 @@ title: "vvvvhat happened in September 2016"
 slug: "vvvvhat-happened-in-september-2016"
 description: ""
 imported: "true"
-thumb: "screenshot1475352860.png"
+thumb: "screenshot14753_r.png"
 ---
 
 helo again,
@@ -23,7 +23,7 @@ other updates:
 - {{< user "ravazquez" >}} updated his {{< contribution "reactiondiffusion-(ex9.texture-filter)-and-(dx11.texturefx)" "ReactionDiffusion effect" >}}
 
 there are new contributions for DX11:
-![](screenshot1475352860.png) 
+![](screenshot14753_r.png) 
 *Volumetric Spot Light by mburk*
 - {{< contribution "volumetric-spot-light-(deferred)" "Volumetric Spot Light" >}} by {{< user "mburk" >}}
 - {{< contribution "multiscreen-lvt-(dx11)" "Multiscreen LVT" >}} by {{< user "lby" >}}

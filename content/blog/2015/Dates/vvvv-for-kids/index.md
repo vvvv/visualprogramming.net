@@ -18,11 +18,11 @@ where:
     lat: "52.490829"
     long: "13.421549"
 imported: "true"
-thumb: "Flyer-Workshop-02-vvvv.jpg"
+thumb: "Flyer-Workshop-_r.jpg"
 ---
 
 
-![VVVV-for-KIDS](Flyer-Workshop-02-vvvv.jpg)
+![VVVV-for-KIDS](Flyer-Workshop-_r.jpg)
 
 
 #  VVVV for KIDS 

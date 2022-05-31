@@ -6,11 +6,11 @@ title: "debugging spreads"
 slug: "debugging-spreads"
 description: ""
 imported: "true"
-thumb: "screenshot1382456037.png"
+thumb: "screenshot13824_r.png"
 ---
 
 
-![](screenshot1382456037.png)
+![](screenshot13824_r.png)
 Announcing a random new feature: ctrl+F10 to toggle debugging spreadcounts
 
 A link can have any of 4 styles:

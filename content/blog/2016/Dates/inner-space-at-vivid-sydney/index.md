@@ -16,11 +16,11 @@ where:
     lat: "-33.872295"
     long: "151.207892"
 imported: "true"
-thumb: "13087271_915316041928096_1659000353165580810_o.jpg"
+thumb: "13087271_915316_r.jpg"
 ---
 
 
-![](13087271_915316041928096_1659000353165580810_o.jpg) 
+![](13087271_915316_r.jpg) 
 
 SASH & Mantra Collective present Inner Space audiovisual immersion as part of Vivid Sydney festival.
 

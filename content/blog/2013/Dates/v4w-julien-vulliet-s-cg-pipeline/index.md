@@ -18,11 +18,11 @@ where:
     lat: "51.525653"
     long: "-0.074622"
 imported: "true"
-thumb: "Jan-15th-2013_Web.jpg"
+thumb: "Jan-15th-2013_W_r.jpg"
 ---
 
 
-![V4Wednesday Shader Night 15/01/15](Jan-15th-2013_Web.jpg) 
+![V4Wednesday Shader Night 15/01/15](Jan-15th-2013_W_r.jpg) 
 
 Most people reading this will know who Julien Vulliet is. For those who don't, run vvvv, open the node browser and type 'Vux.'
 

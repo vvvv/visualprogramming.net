@@ -17,7 +17,7 @@ imported: "true"
 ---
 
 
-![](worldcities-DirectX%20Renderer_2020.03.19-21.59.54.png)
+![](worldcities-Dir_r.png)
 
 Helo vvvvorld,
 

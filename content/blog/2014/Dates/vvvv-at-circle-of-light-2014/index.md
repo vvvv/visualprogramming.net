@@ -16,7 +16,7 @@ where:
     from_date: "1412971200"
     to_date: "1413057600"
 imported: "true"
-thumb: "screenshot1412616957.png"
+thumb: "screenshot14126_r.png"
 ---
 
 
@@ -35,7 +35,7 @@ I know you're only interested in vvvv but you should have a look at all the othe
 * October 11th: 16h30: Small Hall: Talk: [Update on vvvv50](http://lightfest.ru/en/educational-program/11th-october/digital-october/small-hall/vvvv-next-joreg-voprosy-i-otvety/)
 * October 12th: 11h30: Auditorium 2: Workshop: [Synthesis of Realtime Graphics](http://lightfest.ru/en/educational-program/12th-october/digital-october/auditorium-3/sintez-grafiki-v-realnom-vremeni-na-platforme-vvvv-s-primeneniem-avtorskih-dx11-shejderov-joreg-x-stain/) with {{< user "ain" >}} and {{< user "joreg" >}}
 
-![](screenshot1412616957.png)
+![](screenshot14126_r.png)
 *Goal of the Workshop: Ripp off [20hz by semiconductor](http://semiconductorfilms.com/art/20hz)*
 
 Know of some more vvvv during Circle of Light? Let us all know in the comments. Looking forward to see you there. 

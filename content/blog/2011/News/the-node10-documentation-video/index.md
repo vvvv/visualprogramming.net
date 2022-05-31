@@ -14,7 +14,7 @@ NODE10 - Forum for Digital Arts, November 2010, Frankfurt, Germany
 http://vimeo.com/nodeforum/node10
 
 
-![NODE10 Forum for Digital Arts](node%20header%20grab1.jpg) 
+![NODE10 Forum for Digital Arts](node%20header%20gra_r.jpg) 
 
 The second edition was held in November 2010 in cooperation with the Frankfurter Kunstverein (fkv.de). Through the exhibition and lecture panel 'abstrakt Abstrakt - the systematized world' (curated by Marius Watz & Eno Henze) we seeked to analyze the nature and effect of abstraction systems. 
 

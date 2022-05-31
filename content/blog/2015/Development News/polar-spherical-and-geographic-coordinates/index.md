@@ -30,7 +30,7 @@ In 2d the definition is straightforward. A position is defined by the distance t
  * a reference direction where the angle is 0
 
 For practical reasons mathematicians place the origin at the same position as it is in the cartesian system and the reference direction is the positive x-axis:
-![](283px-Polar_coordinate_components.png) 
+![](283px-Polar_coo_r.png) 
 
 Then the conversion from a cartesian vector (x, y) of a position **P** to polar coordinates (radius, angle) is:
 
@@ -47,7 +47,7 @@ y = radius * sin(angle)
 ```
 
 Here a positive angular velocity moves the position counter-clockwise on a circle:
-![](Ebene_polarkoordinaten.PNG) 
+![](Ebene_polarkoor_r.PNG) 
 Note that many 2d computer graphics coordinate systems have the y-axis pointing downwards so that everything is flipped upside down. In that case, using the same calculations as above, a positive angular velocity moves the position clockwise.
 
 To get the same behavior in a 2d cartesian system with y-axis down the calculations would be:
@@ -106,9 +106,9 @@ The definition of the spherical coordinates has two drawbacks. First the polar a
 In order to match the spherical angles to latitude and longitude the polar angle needs to have a value of 90°. Then the position vector points towards the positive x-axis in the equatorial plane which matches a latitude of 0° and a longitude of 0°.
 
 <!--{SPLIT()}-->
-![](geocentric_-coordinate-system-diagram.png)
+![](geocentric_-coo_r.png)
 <!--~~~-->
-![](Latitude_and_longitude_graticule_on_a_sphere.png) 
+![](Latitude_and_lo_r.png) 
 <!--{SPLIT}-->
 
 The angular directions of latitude and longitude are the same. So the conversion is quite simple:
@@ -210,7 +210,7 @@ ToGeographic, FromGeographic
 ```
 
 Since the Angle (3D) node already calculates the spherical angles and the radius, the VL implementation for the spherical coordinates looks like this:
-![](VL_Implementation.png)
+![](VL_Implementati_r.png)
 You can find it along with the other conversion nodes in Basics.vl in the patch Utils3D.
 
 ### Relation to VVVV nodes
@@ -224,7 +224,7 @@ The 2d nodes do match exactly.
 
 A natural extension of the 2d polar coordinates are cylindrical coordinates, since they just add a height value out of the xy-plane. For completeness here they are:
 
-![](Cylindrical_coordinate_system.png) 
+![](Cylindrical_coo_r.png) 
 
 The formula is exactly the same as 2d polar corrdinates with the extension of the height:
 

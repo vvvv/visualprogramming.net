@@ -19,7 +19,7 @@ imported: "true"
 ---
 
 
-![](TOOLKIT%20FESTIVAL%202014%2C%203Workshop.png) 
+![](TOOLKIT%20FESTIVA_r.png) 
 
 **TOOLKIT FESTIVAL 2014 - COMPOSITIONAL PHASES**
 **WORKSHOP**
@@ -63,7 +63,7 @@ http://www.martinromeo.com
 
 
 
-![](Label_interactive%20dance_400x300%20cm_2011_photography%20by%20Emanuele%20Girotti.jpg) 
+![](Label_interacti_r.jpg) 
 Martin Romeo, Label (2011), interactive dance (photography by Emanuele Girotti)
 
 
@@ -94,7 +94,7 @@ geographical, political and linguistic borders. The importance of the less intui
 Amoung the most recent solo exhibitions are W.O.G.U. Pennsylvania-Italy 1983/2009 in 2009 and U-DRAWINGS in 2010 (at Galleria Federico Luger, Milan); A.E.W.O.M. Le Strabisme du Dragon in 2010 (at Museo Marino Marini, Florence)
 http://www.lucapozzi.com
 
-![](Luca%20Pozzi%2C%20L%C3%A0puta%20Pyramid%2C%202010.jpg) 
+![](Luca%20Pozzi,%20L%c3%a0p_r.jpg) 
 Luca Pozzi, Làputa Pyramid (2010), electromagnetic levitation field, caucciù, green marble, wood pedestals, 100x43x42 cm
 
 
@@ -125,7 +125,7 @@ Andrea is co-founder and technical director of creative research group UBIKteatr
 of Contemporary Music (Belfast, UK 2012), Salone del Mobile (Milan, IT 2013), Tokyo Experimental Festival (Tokyo, JP, 2013), Earzoom Festival (Ljubljana, SI, 2013), Victoria & Albert Museum (London, UK, 2014).
 http://www.ubikteatro.com
 
-![](Andrea%20Santini%2C%20Quadrifonia%2C%202013.jpeg) 
+![](Andrea%20Santini,_r.jpeg) 
 Andrea Santini, Quadrifonia (2013)
 
 

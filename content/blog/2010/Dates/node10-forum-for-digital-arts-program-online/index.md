@@ -19,7 +19,7 @@ where:
     lat: "50.110742"
     long: "8.682793"
 imported: "true"
-thumb: "NODE_flyerA6lang_back.jpg"
+thumb: "NODE_flyerA6lan_r.jpg"
 ---
 
 
@@ -30,4 +30,4 @@ Check out the workshops and lectures - we have given all the best to create a fa
 So, you are very welcome to order your Tickets - NOW!
 
 <http://node10.vvvv.org>
-![](NODE_flyerA6lang_back.jpg) 
+![](NODE_flyerA6lan_r.jpg) 

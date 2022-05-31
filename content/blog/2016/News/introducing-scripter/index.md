@@ -6,7 +6,7 @@ title: "introducing Scripter"
 slug: "introducing-scripter"
 description: ""
 imported: "true"
-thumb: "0_2016.01.10-17.24.19.png"
+thumb: "0_2016.01.10-17_r.png"
 ---
 
 
@@ -29,7 +29,7 @@ this is where scripter might ease away the learning pain since it **takes care o
 
 now it is a little bit more true, that you can google some code snippets and just paste them in vvvv to see what it does:
 
-![copy pasting super formula](0_2016.01.10-17.24.19.png)
+![copy pasting super formula](0_2016.01.10-17_r.png)
 *copy pasted superformula from <http://paulbourke.net>*
 
 ---
@@ -41,7 +41,7 @@ the first public static method is parsed for IO. you can of course have as many 
 
 and the config pin solution brings another advantage: scripter works **per instance**
 
-![multi instance binsize whatever](1_2016.01.10-18.32.19.png) 
+![multi instance binsize whatever](1_2016.01.10-18_r.png) 
 *multi instance binsize stuff accessing loop index*
 
 ---

@@ -18,11 +18,11 @@ where:
     lat: "19.398692"
     long: "-99.175513"
 imported: "true"
-thumb: "baner_taller_vvvv_local_grande.jpg"
+thumb: "baner_taller_vv_r.jpg"
 ---
 
 
-![Imagen Digital Interactiva con VVVV](baner_taller_vvvv_local_grande.jpg) 
+![Imagen Digital Interactiva con VVVV](baner_taller_vv_r.jpg) 
 
 
 El objetivo del taller es iniciar a los asistentes en programación con *VVVV* y demostrar sus posibilidades creativas. El taller hará énfasis en la experimentación con imágenes digitales y la interacción con estas imágenes en tiempo real.

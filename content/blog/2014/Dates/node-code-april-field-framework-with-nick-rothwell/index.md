@@ -16,11 +16,11 @@ where:
     from_date: "1398434400"
     to_date: "1398448800"
 imported: "true"
-thumb: "1782443_677658102278159_1672352693_o.jpg"
+thumb: "1782443_6776581_r.jpg"
 ---
 
 
-![Choreographic Language Agent tool](1782443_677658102278159_1672352693_o.jpg) 
+![Choreographic Language Agent tool](1782443_6776581_r.jpg) 
 
 We are entering a new series of NODE+CODE meetups in Frankfurt that revolve around the theme of "embodiment" as it relates to technology, code, digital art and the other things we do.
 

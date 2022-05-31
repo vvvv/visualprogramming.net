@@ -6,7 +6,7 @@ title: "vvvv-sdk changes"
 slug: "vvvv-sdk-changes"
 description: ""
 imported: "true"
-thumb: "vvvv_sdk_git_hooks.png"
+thumb: "vvvv_sdk_git_ho_r.png"
 ---
 
 
@@ -19,7 +19,7 @@ The init script was used in the past to install post merge/checkout hooks to you
 
 Now in order to get everything running again you'll first need to delete those broken post merge/checkout hooks installed in your local .git folder.
 Navigate to vvvv-sdk\.git\hooks and delete all non-sample files like this:
-![](vvvv_sdk_git_hooks.png) 
+![](vvvv_sdk_git_ho_r.png) 
 
 You can now do the usual
  git pull upstream develop

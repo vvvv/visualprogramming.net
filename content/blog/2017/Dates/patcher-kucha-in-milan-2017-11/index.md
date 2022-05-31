@@ -22,7 +22,7 @@ imported: "true"
 ---
 
 
-![flyer](Patcher%20Kucha%20Milan%202017_2017.10.16-21.15.08.png) 
+![flyer](Patcher%20Kucha%20M_r.png) 
 
 #  Patcher Kucha Milan 2017
 *Yet another Patcher Kucha vvvvolks. If you are around Milan, please join(t).*

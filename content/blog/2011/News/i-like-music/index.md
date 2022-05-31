@@ -7,9 +7,9 @@ slug: "i-like-music"
 description: ""
 imported: "true"
 originalType: "stuff"
-thumb: "014_music_analyzer_2011.12.29-23.47.18.png"
+thumb: "014_music_analy_r.png"
 ---
 
 
-![but who don't](014_music_analyzer_2011.12.29-23.47.18.png) 
+![but who don't](014_music_analy_r.png) 
 

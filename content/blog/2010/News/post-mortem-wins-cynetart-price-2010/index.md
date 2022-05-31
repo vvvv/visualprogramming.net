@@ -6,11 +6,11 @@ title: "\"Post Mortem\" wins Cynetart-Price 2010"
 slug: "post-mortem-wins-cynetart-price-2010"
 description: ""
 imported: "true"
-thumb: "10_CY_1111_Preisverleihung_Kreft_03_RA.jpg"
+thumb: "10_CY_1111_Prei_r.jpg"
 ---
 
 
-![Post Mortem by Jannis Kreft](10_CY_1111_Preisverleihung_Kreft_03_RA.jpg)
+![Post Mortem by Jannis Kreft](10_CY_1111_Prei_r.jpg)
 
 [watch on youtube I](http://www.youtube.com/watch?v=D3jQ2MghNuo&feature=related)
 [watch on youtube II](http://www.youtube.com/watch?v=x2JDlW48x8I)

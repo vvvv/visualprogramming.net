@@ -6,11 +6,11 @@ title: "vveekend vvorkshops 2: Character Skinning in VVVV"
 slug: "vveekend-vvorkshops-2-character-skinning-in-vvvv"
 description: ""
 imported: "true"
-thumb: "ws2-announcement.png"
+thumb: "ws2-announcemen_r.png"
 ---
 
 
-![](ws2-announcement.png) 
+![](ws2-announcemen_r.png) 
 
 ####  on [twitch.tv/vveekendvvorkshops](http://www.twitch.tv/vveekendvvorkshops)
 ###  on 14/11/2015 4PM UTC/GMT or 5PM CET

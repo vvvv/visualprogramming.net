@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![](About%20%28VVVV%29%20help_2016.11.30-19.30.50.png)
+![](About%20(VVVV)%20he_r.png)
 
 Let me introduce you to the new About patch: Spiced up with some usefulness here is what Alt+A can now do for you:
 

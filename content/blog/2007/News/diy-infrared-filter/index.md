@@ -7,7 +7,7 @@ slug: "diy-infrared-filter"
 description: ""
 imported: "true"
 originalType: "stuff"
-thumb: "fvqnajk8g3ez7bdy8l.medium.jpg"
+thumb: "fvqnajk8g3ez7bd_r.jpg"
 ---
 
 
@@ -25,5 +25,5 @@ IR-Filter for your digital camera. [link](http://www.instructables.com/id/E7OGJG
 <!--~~~-->
 
 
-![](fvqnajk8g3ez7bdy8l.medium.jpg)
+![](fvqnajk8g3ez7bd_r.jpg)
 <!--{SPLIT}-->

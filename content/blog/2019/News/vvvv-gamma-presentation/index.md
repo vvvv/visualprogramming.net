@@ -26,4 +26,4 @@ When ? Thursday 18th of april, starting 7pm
 
 See you there
 
-![](Die-Muthesius-Kunsthochschule-Kiel-e1432289818168.jpg) 
+![](Die-Muthesius-K_r.jpg) 

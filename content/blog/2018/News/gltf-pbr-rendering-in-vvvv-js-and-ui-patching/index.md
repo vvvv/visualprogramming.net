@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![VVVV.js glTF implementation](glTF%20VVVVJS%20Implementation.JPG) 
+![VVVV.js glTF implementation](glTF%20VVVVJS%20Imp_r.JPG) 
 
 In the past couple of months I implemented almost the full spec of the glTF 3d file format into VVVV.js.
 It comes together with a core shader and resamples basically a ready to go rendering engine for the web.

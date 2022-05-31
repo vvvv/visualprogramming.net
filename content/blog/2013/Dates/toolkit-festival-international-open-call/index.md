@@ -14,11 +14,11 @@ where:
     from_date: "1358719200"
     to_date: "1358719200"
 imported: "true"
-thumb: "flyer_2_Pagina_1.jpg"
+thumb: "flyer_2_Pagina__r.jpg"
 ---
 
 
-![Karina Smigla Bobinski](flyer_2_Pagina_1.jpg) 
+![Karina Smigla Bobinski](flyer_2_Pagina__r.jpg) 
 
 
 TOOLKIT FESTIVAL | CONTEMPLATIVE PATHWAYS
@@ -40,7 +40,7 @@ Please visit www.toolkitfestival.com
 
 ![Toolkit Festival 2](IMG_6942.jpg) 
 ![Toolkit Festival 2](P5049438.jpg) 
-![Toolkit Festival 2](People_JessicaTedesco.jpg) 
+![Toolkit Festival 2](People_JessicaT_r.jpg) 
 
 
 

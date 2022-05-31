@@ -7,12 +7,12 @@ slug: "richard-doc-bailey-(spore)-passed-away"
 description: ""
 imported: "true"
 originalType: "stuff"
-thumb: "fireinthehole800.jpg"
+thumb: "fireinthehole80_r.jpg"
 ---
 
 
 <!--{SPLIT()}-->
-![](fireinthehole800.jpg)
+![](fireinthehole80_r.jpg)
 <!--~~~-->
 
 It was brought my attention this morning that Richard &quot;Doc&quot; Bailey passed away. 

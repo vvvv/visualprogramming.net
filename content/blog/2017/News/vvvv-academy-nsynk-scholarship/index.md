@@ -26,7 +26,7 @@ We support the academy because we need more talented storytellers with coding an
 
 Please help us spread the word and tell a friend!
 
-![](vvvv-academy_logo_quarter.png) 
+![](vvvv-academy_lo_r.png) 
 
 At this point we'd also like to say thanks again to [m box](http://www.m-box.de/) who sponsored a scholarship for our [first edition](http://vvvv.academy/summer-course.html).
 

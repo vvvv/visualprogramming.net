@@ -18,7 +18,7 @@ imported: "true"
 ---
 
 
-![](Renderer-DirectX%20Renderer_2014.09.28-16.26.01.png) 
+![](Renderer-Direct_r.png) 
 
 While years ago abstract computer images were considered op-art or simply computer-graphics, the recent rising of coding-frameworks, interfaces for third-party plug-ins and accessibility of graphics card power has simplified the application of algorithms as design strategy. Hence algorithmic elements have emerged within ‘classic’ design fields like graphic design, architecture, and animation. This workshop will explore the common styles and methods of generative design while explaining the algorithms -from applying simple tricks, to directing complex systems- and present the ways to implement those in VVVV (the basic knowledge of which is mandatory).
 

@@ -7,10 +7,10 @@ slug: "svvvvitcher-texture-preload-fix"
 description: ""
 imported: "true"
 originalType: "stuff"
-thumb: "svvvvitcher-selector-preload-fix.jpg"
+thumb: "svvvvitcher-sel_r.jpg"
 ---
 
 
-![](svvvvitcher-selector-preload-fix.jpg) 
+![](svvvvitcher-sel_r.jpg) 
 
 Svvvvitcher doesn't preload textures in 25.1. To fix, add an OnOpen node to selector.v4p.

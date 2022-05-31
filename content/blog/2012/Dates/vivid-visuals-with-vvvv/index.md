@@ -24,7 +24,7 @@ thumb: "workshop.jpg"
 
 
 ![](workshop.jpg) 
-![](vvvv%202012-03-23%2007-56-50-46.avi_snapshot_00.11_%5B2012.03.23_08.05.49%5D.jpg) 
+![](vvvv%202012-03-23_r.jpg) 
 
 CIANT invites you for intensive workshop of BORIS VITÁZEK in VVVV usage for interacitve video design. Three afternoons, in perfect space of CIANT lab, with enthusisastic lector and the people creative and flaming for design just as you are... (The series is of course free of charge.)
 

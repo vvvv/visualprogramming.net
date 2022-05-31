@@ -6,7 +6,7 @@ title: "NODE17 festival passes finally on sale!"
 slug: "node17-festival-passes-finally-on-sale"
 description: ""
 imported: "true"
-thumb: "8d62282a-aefc-4818-9ccd-6dbf129d5842.jpg"
+thumb: "8d62282a-aefc-4_r.jpg"
 ---
 
 
@@ -26,7 +26,7 @@ Looking forward to see you this summer in Frankfurt (Main),
 
 your NODE team
 
-![NODE17 festival passes finally on sale!](8d62282a-aefc-4818-9ccd-6dbf129d5842.jpg) 
+![NODE17 festival passes finally on sale!](8d62282a-aefc-4_r.jpg) 
 
 
 

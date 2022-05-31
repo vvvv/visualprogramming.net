@@ -18,11 +18,11 @@ where:
     lat: "18.984176"
     long: "-99.236440"
 imported: "true"
-thumb: "cartel_taller_vvvv_uaem_anon.png"
+thumb: "cartel_taller_v_r.png"
 ---
 
 
-![taller_uaem](cartel_taller_vvvv_uaem_anon.png)
+![taller_uaem](cartel_taller_v_r.png)
 
 
 

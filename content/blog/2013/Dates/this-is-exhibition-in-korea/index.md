@@ -19,11 +19,11 @@ where:
     lat: "37.576970"
     long: "127.002033"
 imported: "true"
-thumb: "Poster_VVVV_C_Small.jpg"
+thumb: "Poster_VVVV_C_S_r.jpg"
 ---
 
 
-![](Poster_VVVV_C_Small.jpg) 
+![](Poster_VVVV_C_S_r.jpg) 
 
 hello vvvv user!
 we are prepared first vvvv exhibition in korea, we want to announce interactive art and vvvv, as i know many people use vvvv in europe but in korea very few people know it, we are not try just introduce program ,we like to meet many  people who care interactive art

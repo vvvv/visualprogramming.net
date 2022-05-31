@@ -19,11 +19,11 @@ where:
     lat: "51.328061"
     long: "12.327649"
 imported: "true"
-thumb: "14714856_10210678261572272_8741670378204986736_o.jpg"
+thumb: "14714856_102106_r.jpg"
 ---
 
 
-![Wisp Festival for Arts, Technology &amp; Communication](14714856_10210678261572272_8741670378204986736_o.jpg) 
+![Wisp Festival for Arts, Technology &amp; Communication](14714856_102106_r.jpg) 
 
 ENGLISH
 ----------------------------------

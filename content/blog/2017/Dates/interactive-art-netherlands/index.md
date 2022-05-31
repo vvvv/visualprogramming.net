@@ -20,7 +20,7 @@ imported: "true"
 ---
 
 
-![](Label_interactive%20dance_400x300%20cm_2011_photography%20by%20Emanuele%20Girotti_.jpg) 
+![](Label_interacti_r.jpg) 
 
 DATES
 11th-12th of February 2017

@@ -6,11 +6,11 @@ title: "::: GLOWFestival 18-20 April 2014 / Ostuni - Italy / International video
 slug: "glowfestival-18-20-april-2014-ostuni-italy-international-video-mapping-open-call-indoor"
 description: ""
 imported: "true"
-thumb: "glowfestival_logo.jpg"
+thumb: "glowfestival_lo_r.jpg"
 ---
 
 
-![glowfestival_logo](glowfestival_logo.jpg) 
+![glowfestival_logo](glowfestival_lo_r.jpg) 
 
 
 ''''**www.glowfestival.it**
@@ -58,9 +58,9 @@ gloWArp
 SURFACE PROJECTION
 Altar of the Church of San Vito Martire in Ostuni, Italy.
 
-![glowfestival_Altar](GLOWFestival_altare.png) 
+![glowfestival_Altar](GLOWFestival_al_r.png) 
 
-![glowfestival_Altar2](GLOWFestival_indoor.jpg) 
+![glowfestival_Altar2](GLOWFestival_in_r.jpg) 
 
 
 

@@ -18,11 +18,11 @@ where:
     lat: "52.029578"
     long: "8.534403"
 imported: "true"
-thumb: "12790958_10207935409416947_689617083543616664_n.jpg"
+thumb: "12790958_102079_r.jpg"
 ---
 
 
-![](12790958_10207935409416947_689617083543616664_n.jpg) 
+![](12790958_102079_r.jpg) 
 
 This event is in deutsch. Dieser Webmontag findet an einem Dienstag im Literatur Café Bielefeld statt und es gibt zwei Vorträge:
 

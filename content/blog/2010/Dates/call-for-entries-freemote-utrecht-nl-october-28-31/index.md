@@ -14,11 +14,11 @@ where:
     from_date: "1288260600"
     to_date: "1288544400"
 imported: "true"
-thumb: "Utrechts_Archief_Born_Digital_640.jpg"
+thumb: "Utrechts_Archie_r.jpg"
 ---
 
 
-![](Utrechts_Archief_Born_Digital_640.jpg) 
+![](Utrechts_Archie_r.jpg) 
 
 Born Digital calls for you – creating artist in the field of motion graphics, video mapping, music visualization, audio visual installations and the like – to contribute to the public event ‘Freemote’ taking place October 28-31 in Utrecht (NL): 
 

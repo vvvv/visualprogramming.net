@@ -54,7 +54,7 @@ thumb: "ParaLib.png"
 - Polygon Extrusion, 
 - Surface & Polygon Triangulation...
 
-![](vvvv%202017-06-21%2016-03-07-94.png) 
+![](vvvv%202017-06-21_r.png) 
 
 #  Day3:
 - OBJ export, to be used on other software.

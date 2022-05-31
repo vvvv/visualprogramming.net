@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![ZEN STATION in Dresden by Studio Kreft](zen%20station%20flyer.jpg) 
+![ZEN STATION in Dresden by Studio Kreft](zen%20station%20fly_r.jpg) 
 
 Many hundred players enjoyed the ZEN STATION on longterm exhibit from January till May in the "Städtische Galerie ADA Meiningen" in Meiningen. Now the ZEN STATION is part of the 10. Dresdner Lange Nacht der Wissenschaften 2012.
 (Long Night of Sciences in Dresden)

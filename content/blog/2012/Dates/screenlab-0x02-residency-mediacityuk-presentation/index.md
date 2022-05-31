@@ -35,7 +35,7 @@ The three resident artists participating in ScreenLab 0x02 Residency MediaCityUK
 Kyle McDonald (USA) is a Brooklyn-based artist working with ‘sounds and codes’, exploring translation, contextualisation and similarity. With a background in philosophy and computer science, his works integrate intricate processes and structures with accessible, playful realisations that often have a ‘do-it-yourself’, open-source aesthetic. Kyle is a regular contributor to open-source arts-engineering initiatives such as OpenFrameworks, having developed a number of extensions which provide connectivity to powerful image processing and computer vision libraries. In recent years, Kyle has applied these techniques to problems in 3D scene capture, first using structured light techniques and later with the Microsoft Kinect sensor.
  
 
-![](6430842219_739ced5b5a_b.jpg) 
+![](6430842219_739c_r.jpg) 
 Joanie Lemercier (France) is a visual artist based in Bristol and runs the visual label AntiVJ. The focus of Joanie’s work is the use of projected light in the real world, and its influence on our perception. Joanie uses architectural projections, installations, stage design and audiovisual performances on stage. He has presented his work at electronic music festivals, public outdoor spaces and in galleries across Europe, South America, Canada, the USA and Asia, including The Armoury (New York), New Songdo city (South Korea), Nuit Blanche Bruxelles (Belgium), Breda cathedral (Netherlands) and Onedotzero at the British Film Institute London.
  
 

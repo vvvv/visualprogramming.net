@@ -6,11 +6,11 @@ title: "Workspace available in Berlin"
 slug: "workspace-available-in-berlin"
 description: ""
 imported: "true"
-thumb: "LetterMpress-Logo-01.jpg"
+thumb: "LetterMpress-Lo_r.jpg"
 ---
 
 
-![lrmf-logo](LetterMpress-Logo-01.jpg) 
+![lrmf-logo](LetterMpress-Lo_r.jpg) 
 
 #  What is 'Letters Are My Friends'?
 'Letters Are My Friends' is a **concept store** for typography right in the heart of Berlin Kreuzberg. A place where analogue and digital type meet with emerging technologies. The first of its kind in Berlin.

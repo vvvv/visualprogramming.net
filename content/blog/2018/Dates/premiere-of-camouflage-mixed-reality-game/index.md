@@ -20,7 +20,7 @@ imported: "true"
 ---
 
 
-![](WerksCentral_5_dancers%20Anna%20Borini%20and%20Robin%20Gladwin.jpg) 
+![](WerksCentral_5__r.jpg) 
 
 I am pleased to invite you to the opening of our new VR project Camouflage at Platform Theatre in London, on Friday 1 June.
 

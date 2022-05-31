@@ -15,7 +15,7 @@ where:
     from_date: "1538071200"
     to_date: "1538503200"
 imported: "true"
-thumb: "IMG_20180926_204612397.jpg"
+thumb: "IMG_20180926_20_r.jpg"
 ---
 
 
@@ -23,5 +23,5 @@ Walt Disney Concert Hall,
 
 tonight! 
 
-![bamm!](IMG_20180926_204612397.jpg) 
+![bamm!](IMG_20180926_20_r.jpg) 
 

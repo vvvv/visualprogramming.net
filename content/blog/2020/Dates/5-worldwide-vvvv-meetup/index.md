@@ -62,6 +62,6 @@ Location: Berlin
 {{< user "tonfilm" >}}
 
 Tebjan will give us a first glimpse into the reworked version of the upcoming **VL.Stride** 3d library. He will patch some nicely shaded objects in the new system and demonstrate the ease of use. After that we'll have a  physics simulation and more advanced gpu topics on the screens.
-![stride](InstancedPhysics2.gif) 
+![stride](InstancedPhysic_r.gif) 
 
 

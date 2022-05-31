@@ -6,7 +6,7 @@ title: "vvvvook"
 slug: "vvvvook"
 description: ""
 imported: "true"
-thumb: "vvvv_cover_0117_sample.jpg"
+thumb: "vvvv_cover_0117_r.jpg"
 ---
 
 
@@ -16,7 +16,7 @@ I'm happy to introducing the 2nd vvvv book in the world will be released in Japa
 
 ## vvvvook
 #### A GUIDE TO VISUAL PROGRAMMING FOR PROTOTYPING
-![](vvvv_cover_0117_sample.jpg)
+![](vvvv_cover_0117_r.jpg)
 <!--break-->
 ---
  

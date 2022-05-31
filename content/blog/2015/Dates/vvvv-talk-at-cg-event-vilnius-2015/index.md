@@ -18,11 +18,11 @@ where:
     lat: "54.670609"
     long: "25.260843"
 imported: "true"
-thumb: "CGEvent_2015_Vilnus_vvvv_3.png"
+thumb: "CGEvent_2015_Vi_r.png"
 ---
 
 
-![](CGEvent_2015_Vilnus_vvvv_3.png) 
+![](CGEvent_2015_Vi_r.png) 
 
 The talk at [CG Event](http://www.cgevent.eu/) will be about "Building Interactive Installations with vvvv". I'll start with a short overview of projects realized with vvvv and will then move on to show how to build an interactive demo from scratch.
 

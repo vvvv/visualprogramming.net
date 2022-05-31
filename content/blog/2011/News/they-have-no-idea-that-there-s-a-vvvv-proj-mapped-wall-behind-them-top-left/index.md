@@ -7,9 +7,9 @@ slug: "they-have-no-idea-that-theres-a-vvvv-proj-mapped-wall-behind-them-(top-le
 description: ""
 imported: "true"
 originalType: "stuff"
-thumb: "220933_221180331225409_129541123722664_1012783_271985_o.jpg"
+thumb: "220933_22118033_r.jpg"
 ---
 
 
-![](220933_221180331225409_129541123722664_1012783_271985_o.jpg) 
+![](220933_22118033_r.jpg) 
 

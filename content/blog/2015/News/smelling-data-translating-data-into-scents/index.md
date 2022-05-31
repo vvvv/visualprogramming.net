@@ -47,7 +47,7 @@ Twitter: http://www.twitter.com/smellingdata
 
 ![](SD_5_00.jpg) 
 
-![](00_Smelling_Data_01.jpg) 
+![](00_Smelling_Dat_r.jpg) 
 
 
 

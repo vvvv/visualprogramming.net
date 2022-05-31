@@ -6,7 +6,7 @@ title: "Prototyping Interfaces 45beta31.2 patch bundle"
 slug: "prototyping-interfaces-45beta31.2-patch-bundle"
 description: ""
 imported: "true"
-thumb: "1390759_559597257449526_208189520_n.png"
+thumb: "1390759_5595972_r.png"
 ---
 
 
@@ -19,5 +19,5 @@ As a reference you can still download the patch bundle for vvvv_45beta29.2, whic
 Merry X-Mas
 Jan, Roman, Jochen, Mark, Markus
 
-![](1390759_559597257449526_208189520_n.png) 
+![](1390759_5595972_r.png) 
 

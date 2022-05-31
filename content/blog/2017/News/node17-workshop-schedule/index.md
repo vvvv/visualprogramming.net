@@ -6,11 +6,11 @@ title: "NODE17 Workshop Schedule"
 slug: "node17-workshop-schedule"
 description: ""
 imported: "true"
-thumb: "node17-workshop-timetable-02062017.png"
+thumb: "node17-workshop_r.png"
 ---
 
 
-![](node17-workshop-timetable-02062017.png) 
+![](node17-workshop_r.png) 
 *Voilà - the NODE17 workshop schedule.*
 *(Click to enlarge or download below)*
 

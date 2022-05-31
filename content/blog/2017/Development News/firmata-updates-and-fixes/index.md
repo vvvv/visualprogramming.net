@@ -6,7 +6,7 @@ title: "Firmata Updates and Fixes"
 slug: "firmata-updates-and-fixes"
 description: ""
 imported: "true"
-thumb: "Firmata-BasicTutorial-AnalogRead_3.png"
+thumb: "Firmata-BasicTu_r.png"
 ---
 
 
@@ -17,7 +17,7 @@ Now it is also easy to get started if you are completely new in the field.
 Check these basics tutorials in your vvvv folder:
  girlpower\VL\IO\Firmata\00_Basics\
 
-![Getting data from an analog sensor. As easy as that.](Firmata-BasicTutorial-AnalogRead_3.png) 
+![Getting data from an analog sensor. As easy as that.](Firmata-BasicTu_r.png) 
 Getting data from an analog sensor. As easy as that.
 
 ##  Fixes

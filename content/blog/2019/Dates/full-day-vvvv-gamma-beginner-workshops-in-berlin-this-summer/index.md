@@ -47,7 +47,7 @@ This workshop is for creative coders, professionals, students, designers and sci
 **Hosts**: joreg (vvvv group co-founder and developer), David Brüll (Studio David Brüll and NODE Director)
 **[Tickets](https://nodeforum.org/announcements/workshop-getting-started-with-computer-vision/)** for Getting started with Computer Vision{{< /box >}}
 
-![](GenerativeDesign.png) 
+![](GenerativeDesig_r.png) 
 
 ## Getting started with Generative Design Alogrithms
 Compose your own generative graphics without writing a single line of code and let your computer do what it is good at: randomness and repetition. After you set up your data flow program with the visual programming environment vvvv, lean back and see how your visuals grow in real time. Export these 2D generative graphics as vector files.
@@ -68,7 +68,7 @@ This workshop is for creative coders, students, media artists and designers, who
 **Hosts**: joreg (vvvv group co-founder and developer), David Brüll (Studio David Brüll and NODE Director)
 **[Tickets](https://nodeforum.org/announcements/workshop-getting-started-with-generative-design/)** for Getting started with Generative Design Alogrithms{{< /box >}}
 
-![](PhysicalComputing.png) 
+![](PhysicalComputi_r.png) 
 
 ## Getting started with Physical Computing 
 Reading data from sensors to control lights and motors connected to a computer via an Arduino, is a breeze if you know how to. The same is true for working with data transfer protocols like OSC, MIDI, MQTT and DMX/ArtNet. Learn all this without the need to write any code, by using the visual programming environment vvvv.
@@ -90,7 +90,7 @@ This workshop is for creative coders, students, media artists and makers who wan
 **Hosts**: Anton Mezhiborskiy (vvvv developer), David Brüll (Studio David Brüll and NODE Director)
 **[Tickets](https://nodeforum.org/announcements/workshop-getting-started-with-physical-computing/)** for Getting started with Physical Computing{{< /box >}}
 
-![](InteractionDesign.png) 
+![](InteractionDesi_r.png) 
 
 ## Getting started with Interaction Design
 Learn how to track human motion using devices like the Kinect, RealSense or Leap Motion and use the acquired data as input for your interactive installations. Build quick user interfaces to easily tweak parameters and use protocols like OSC, MIDI, DMX to control external devices. All this using the visual programming environment vvvv, which does not require you to write any code. A few mouse clicks are enough to get your interactive prototypes running.

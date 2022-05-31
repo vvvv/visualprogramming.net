@@ -23,4 +23,4 @@ In any way the host will ask you to decide upon the current frame's time, just r
 See girlpower\VVVV Plugin API\Time for an example how to tweak time with the API.
 
 you now can even freeze animations:
-![this animation is frozen in time](superstring-DirectX%20Renderer_2016.12.11-20.21.13.png) 
+![this animation is frozen in time](superstring-Dir_r.png) 

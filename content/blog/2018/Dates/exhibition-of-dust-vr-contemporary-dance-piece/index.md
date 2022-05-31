@@ -19,7 +19,7 @@ imported: "true"
 ---
 
 
-![Dust ](30117268427_01adb91bdb_h%20%281%29.jpg) 
+![Dust ](30117268427_01a_r.jpg) 
 
 [Me](http://mariajudova.net) and [Andrej Boleslavský](http://id144.org) are happy to invite you to experience our VR project [DUST](http://vrdust.org.uk/) at Perte de Signal in Montreal soon. 
 

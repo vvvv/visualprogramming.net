@@ -16,11 +16,11 @@ where:
     lat: "46.818188"
     long: "8.227512"
 imported: "true"
-thumb: "Mapping_Header_01-2.png"
+thumb: "Mapping_Header__r.png"
 ---
 
 
-![Mapping Festival 2016 // 28.04-8.05 // Geneva](Mapping_Header_01-2.png) 
+![Mapping Festival 2016 // 28.04-8.05 // Geneva](Mapping_Header__r.png) 
 
 True to its spirit of community and experimentation, the Mapping Festival returns with a unique range of workshops for its **12th edition**. 
 
@@ -30,7 +30,7 @@ The **six workshops** will be spread over the two weeks of the festival, which i
 
 **The deadline for registration is April 1, 2016.** Check out our website  <http://www.mappingfestival.com> for more information and register via the dedicated form!
 
-![Mapping Festival 2016 // 28.04-8.05 // Geneva](Mapping_NeoLogo_Vignette_023.jpg) 
+![Mapping Festival 2016 // 28.04-8.05 // Geneva](Mapping_NeoLogo_r.jpg) 
 
 
 **Sound Spatialisation in Immersive VR Environments** /// 4-6.05 /// 

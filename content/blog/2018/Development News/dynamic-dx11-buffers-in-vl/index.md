@@ -20,7 +20,7 @@ On the VL side the nodes are called *ToBufferDescription* and we have them for t
 ### Primitive Data Types
 Primitive types work out of the box and don't need any special treatment. Just make sure you define the correct Buffer type in the shader. This works for Integers, Floats, Vectors and so on, everything that is available in the shader as primitive type. Here is an example for Float32:
 
-![](ShaderDefineFloat.PNG)
+![](ShaderDefineFlo_r.PNG)
 
 The only exception is Matrix it needs to be transposed in order to work like a normal transformation input. If you send a large amount of individual matrices to the shader the most efficient way is to do the transpose in the shader directly:
 ![](ShaderTranspose.PNG)

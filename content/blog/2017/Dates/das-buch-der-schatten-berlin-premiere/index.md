@@ -18,11 +18,11 @@ where:
     lat: "52.540822"
     long: "13.438912"
 imported: "true"
-thumb: "lost-in-the-fearest_still_300dpi.jpg"
+thumb: "lost-in-the-fea_r.jpg"
 ---
 
 
-![Buch der Schatten](lost-in-the-fearest_still_300dpi.jpg) 
+![Buch der Schatten](lost-in-the-fea_r.jpg) 
 
 
 - (DE // see english version below) -

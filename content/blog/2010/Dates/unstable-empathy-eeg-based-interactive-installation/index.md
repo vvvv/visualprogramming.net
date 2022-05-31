@@ -35,4 +35,4 @@ For reservation and infos > http://www.imal.org/en/activity/mff-2010-unstable-em
 Softwarized by VVVV
 EEG headsets provided by Emotiv inc.
 
-![Unstable Empathy](UNEMP2010_double.jpg) 
+![Unstable Empathy](UNEMP2010_doubl_r.jpg) 

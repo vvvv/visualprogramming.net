@@ -13,7 +13,7 @@ where:
     from_date: "1571378400"
     to_date: "1576232100"
 imported: "true"
-thumb: "PhysicalComputing.png"
+thumb: "PhysicalComputi_r.png"
 ---
 
 
@@ -23,7 +23,7 @@ after a successful [first round of vvvvv gamma workshops](/blog/2019/vvvv-gamma-
 
 As you know, the all-new vvvv gamma is [getting into shape](/blog/2019/vvvv-gamma-2019.1-preview) and can already give you an incredible boost in productivity. Therefore in addition to our [free introductory workshops](/blog/2019/upcoming-free-vvvv-gamma-workshops-in-berlin), we're also offering the following series of workshops to get you going proper:
     
-![](PhysicalComputing.png) 
+![](PhysicalComputi_r.png) 
 
 ## Getting started with Physical Computing 
 Reading data from sensors to control lights and motors connected to a computer via an Arduino, is a breeze if you know how to. The same is true for working with data transfer protocols like OSC, MIDI, MQTT and DMX/ArtNet. Learn all this without the need to write any code, by using the visual programming environment vvvv.
@@ -68,7 +68,7 @@ This workshop is for creative coders, professionals, students, designers and sci
 **Hosts**: joreg (vvvv developer)
 **[Tickets](https://nodeforum.org/announcements/workshop-getting-started-with-computer-vision/)** for Getting started with Computer Vision{{< /box >}}
 
-![](InteractionDesign2.png) 
+![](InteractionDesi_r.png) 
 
 ## Getting started with Interaction Design
 Learn how to track human motion using devices like the Kinect, RealSense or Leap Motion and use the acquired data as input for your interactive installations. Build quick user interfaces to easily tweak parameters and use protocols like OSC, MIDI, DMX to control external devices. All this using the visual programming environment vvvv, which does not require you to write any code. A few mouse clicks are enough to get your interactive prototypes running.

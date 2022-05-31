@@ -15,7 +15,7 @@ where:
     from_date: "1556119800"
     to_date: "1556132400"
 imported: "true"
-thumb: "XCRuWrSUYrYgtQWZqqQDxiyI.png"
+thumb: "XCRuWrSUYrYgtQW_r.png"
 ---
 
 
@@ -26,7 +26,7 @@ Spektrum Berlin [sadly is no more](https://www.gofundme.com/spektrum-exspektrum-
 
 Meanwhile the fine people of [Retune Studio](http://retune.de) offered us their space, which we'll gladly occupy next week.
 
-![](XCRuWrSUYrYgtQWZqqQDxiyI.png)
+![](XCRuWrSUYrYgtQW_r.png)
 *Ocean Of Air: A multiplayer VR installation by marshmellowlaserfeaset*
 
 We'll have {{< user "tonfilm" >}} giving us a making-off presentation of [Ocean Of Air](http://oceanofair.com/), the first ever project realized with [vvvv gamma](/blog/2019/vvvv-gamma-2019.1-preview) and the upcoming Xenko 3d engine integration. 

@@ -18,7 +18,7 @@ where:
     lat: "51.347827"
     long: "12.420665"
 imported: "true"
-thumb: "42286820_1867795706589458_5235303042034696192_o_crop.jpg"
+thumb: "42286820_186779_r.jpg"
 ---
 
 
@@ -51,4 +51,4 @@ If you have any questions please do not hesitate to contact us!
 We are happy to hear from you!
 Your Wisp-Team
 
-![](42286820_1867795706589458_5235303042034696192_o_crop.jpg) 
+![](42286820_186779_r.jpg) 

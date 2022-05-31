@@ -6,22 +6,22 @@ title: "VL: Patch Your Own Mainloops"
 slug: "vl-patch-your-own-mainloops"
 description: ""
 imported: "true"
-thumb: "6008359552_b4a187e8a7.jpg"
+thumb: "6008359552_b4a1_r.jpg"
 ---
 
 
-![](6008359552_b4a187e8a7.jpg)
+![](6008359552_b4a1_r.jpg)
 
 Welcome dear patchers to a new episode of devvvvs giving you control over your PC mainboard.
 
 When you work in vvvv or VL the evaluation of your patch is automatically driven by a mainloop. It executes the nodes in your patch (usually) 60 times per second and by this allows changes to happen in your patch over time.
 
 If you have a look at the PerfMeter in a renderer with a mainloop timer without any tweaks you will see lots of flickering like this:
-![](ezgif-4-ab24972a94.gif)
+![](ezgif-4-ab24972_r.gif)
 Those flickers indicate that the time between two frames of the mainloop is changing a bit every frame. In an ideal world those flickers would not be there and the time between two frames would always be the same. An unstable mainloop like this creates jitter in animations, drops video frames and lets the visual output of your patch look less smooth.
 
 It's quite a difficult task to get high-precision timer events on a modern computer architecture. Timers and me go way back to the early vvvv days at MESO when i worked on the vvvv mainloop and the Filtered time mode. Since then we could improve the vvvv mainloop time stability quite a bit by doing tricks like changing the windows system timer resolution and introducing a short busy wait phase at the end of the mainloop. The result of this work looks like this:
-![](ezgif-4-9a43913155.gif) 
+![](ezgif-4-9a43913_r.gif) 
 The experience gathered from the vvvv mainloop improvements is now available in the VL library, so you can build your own sub-mainloops.
 
 But why would you need your own timer at all if you have a good mainloop already? There are a few reasons:

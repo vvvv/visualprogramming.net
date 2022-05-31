@@ -18,11 +18,11 @@ where:
     lat: "52.504250"
     long: "13.452994"
 imported: "true"
-thumb: "_vvvv.js_share_img.jpg"
+thumb: "_vvvv.js_share__r.jpg"
 ---
 
 
-![](_vvvv.js_share_img.jpg) 
+![](_vvvv.js_share__r.jpg) 
 
 
 

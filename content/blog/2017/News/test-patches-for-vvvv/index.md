@@ -16,7 +16,7 @@ We've been meaning to share this with you for a while now. It bugs me that it to
 ## Test Patches
 In order to prevent certain bugs from resurfacing again after they've been fixed, vvvv has a test framework. The framework consists of a couple of nodes and a simple template that test-patches have to follow to test for a specific known bug. Everytime the vvvv build-server creates a new alpha-vvvversion it also runs all available test-patches. If any of the test-patches fails, the build is not being released and the devvvvs are being informed about the problem.
 
-![](Template2%20%28Test%20%29_2017.03.14-18.34.04.png)
+![](Template2%20(Test_r.png)
 *The template for test-patches*
 *to be found in \lib\nodes\Template test.v4p*
 *in latest alphas and betas >= 35.4*

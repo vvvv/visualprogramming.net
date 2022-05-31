@@ -17,7 +17,7 @@ where:
     lat: "51.522696"
     long: "-0.134641"
 imported: "true"
-thumb: "VR-161120-55_crop.jpg"
+thumb: "VR-161120-55_cr_r.jpg"
 ---
 
 
@@ -34,4 +34,4 @@ PIxLS public lecture together with Memo Akten, Patricia Okenwa from New Movement
 
 [28 JAN 2017](https://www.vam.ac.uk/shop/whatson/index/view/id/4092/event/Digital-Design-Drop-in-/dt/2017-01-28/free/1) 1:00-04:00 PM @ Victoria and Albert Museum, London
 
-![DUST](VR-161120-55_crop.jpg) 
+![DUST](VR-161120-55_cr_r.jpg) 

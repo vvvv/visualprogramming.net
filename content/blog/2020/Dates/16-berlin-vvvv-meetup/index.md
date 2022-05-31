@@ -16,11 +16,11 @@ where:
     from_date: "1580234400"
     to_date: "1580234400"
 imported: "true"
-thumb: "_Root_HL-Geomar-Renderer-xl.png"
+thumb: "_Root_HL-Geomar_r.png"
 ---
 
 
-![](_Root_HL-Geomar-Renderer-xl.png) 
+![](_Root_HL-Geomar_r.png) 
 Image Copyright: Luna Nane
 
 

@@ -6,13 +6,13 @@ title: "Know your Patches!"
 slug: "know-your-patches"
 description: ""
 imported: "true"
-thumb: "SubPatches-Concept2.png"
+thumb: "SubPatches-Conc_r.png"
 ---
 
 
 After [Spreads](/blog/know-your-spreads!) we now bring to you an update to the documentation on all things [Patching](https://betadocs.vvvv.org/using-vvvv/patching/index.html). It shouldn't have too much new info for the pro but is meant to be a complete reference to all we know about vvvv ourselves. and we added a lot of patch-selfies for your viewing pleasure, like this:
 
-![](SubPatches-Concept2.png)
+![](SubPatches-Conc_r.png)
 *patch selfie*
  
 Please make sure to point to these pages when running a workshop. Speficically the [Patching Concepts](https://betadocs.vvvv.org/using-vvvv/patching/patching-concepts.html) should give every noob an idea of how to work with vvvv. 

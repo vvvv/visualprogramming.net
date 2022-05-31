@@ -18,7 +18,7 @@ imported: "true"
 ---
 
 
-![](Screenshot-2017-10-20%20KIKK%20Festival%20-%20About.png) 
+![](Screenshot-2017_r.png) 
 
 The [KIKK festival](https://www.kikk.be/2017/en/home) is hosting a [series of workshops](https://www.kikk.be/2017/en/program/workshops) around the topics of “Design and technology, creative coding and machine learning, scanning, 3D printing, etc.”
 

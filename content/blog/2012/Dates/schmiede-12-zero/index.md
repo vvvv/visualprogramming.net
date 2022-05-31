@@ -18,7 +18,7 @@ imported: "true"
 ---
 
 
-![](Schmiede12%20ZERO%20Aplication%20flyer.png)
+![](Schmiede12%20ZERO_r.png)
 
 **Application deadline: May 31st.**
 http://schmiede.ca/application

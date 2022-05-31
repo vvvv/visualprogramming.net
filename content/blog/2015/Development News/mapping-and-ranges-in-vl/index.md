@@ -13,7 +13,7 @@ As a vvvv user you are most probably familiar with the node {{< node "Map (Value
 
 For example you want to use a hardware sensor input in the range 0..1000 to control the vertical position of a visual element on the screen in -1..1 range. And since you want to make sure that the visual element never leaves the screen you set the {{< pin "Mapping" >}} to 'Clamp':
 
-![Mapping in vvvv](Mapping%20Example_2015.12.11-13.29.42.png) 
+![Mapping in vvvv](Mapping%20Example_r.png) 
 
 So far, so easy. 
 
@@ -36,7 +36,7 @@ We introduced the concept of a Range. Its a simple generic data type that works 
 
 If the datatype has the operators +, - and * (Scale) defined, which is the case for numbers and vectors in VL, there are Center/Width nodes that you can use with it:
 
-![Range Type Nodes](Range%20Type%20Utils.png) 
+![Range Type Nodes](Range%20Type%20Util_r.png) 
 
 ### Range Handling
 

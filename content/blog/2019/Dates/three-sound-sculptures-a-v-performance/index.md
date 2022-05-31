@@ -16,11 +16,11 @@ where:
     lat: "53.470691"
     long: "-2.295392"
 imported: "true"
-thumb: "ThreeSoundSculptures_Image_v2_960x600.jpg"
+thumb: "ThreeSoundSculp_r.jpg"
 ---
 
 
-![Three Sound Sculptures](ThreeSoundSculptures_Image_v2_960x600.jpg) 
+![Three Sound Sculptures](ThreeSoundSculp_r.jpg) 
 
 
 **Brand new audiovisual performance on the way from me and Damien Schneider. Featuring body movement by Sean Murray**

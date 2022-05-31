@@ -6,11 +6,11 @@ title: "ich²"
 slug: "ich²"
 description: ""
 imported: "true"
-thumb: "ich2_mailbanner_s.jpg"
+thumb: "ich2_mailbanner_r.jpg"
 ---
 
 
-![](ich2_mailbanner_s.jpg)
+![](ich2_mailbanner_r.jpg)
 
 **ich²** is a dance performance combined with a **360°** projected stage. the venue we use is a tiny planetarium in Kiel where we implemented vvvv to enable us to do cool realtime visuals and play pre-rendered videos. 
 

@@ -19,7 +19,7 @@ where:
     lat: "52.384172"
     long: "4.905786"
 imported: "true"
-thumb: "16179456_1223821614403075_6198677555112753210_o.jpg"
+thumb: "16179456_122382_r.jpg"
 ---
 
 
@@ -29,4 +29,4 @@ Sabrina Verhage and Carolien Teunisse will teach the basics of vvvv in a sunday 
 
 https://www.facebook.com/events/366263613742516/
 
-![](16179456_1223821614403075_6198677555112753210_o.jpg) 
+![](16179456_122382_r.jpg) 

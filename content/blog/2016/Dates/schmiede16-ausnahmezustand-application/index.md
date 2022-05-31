@@ -18,11 +18,11 @@ where:
     lat: "47.684719"
     long: "13.092957"
 imported: "true"
-thumb: "IMG-20140912-WA0009.jpeg"
+thumb: "IMG-20140912-WA_r.jpeg"
 ---
 
 
-![](IMG-20140912-WA0009.jpeg) 
+![](IMG-20140912-WA_r.jpeg) 
 
 Every year in late September an [abandoned industrial salt refinery](http://schmiede.ca/location/) on an island in Hallein, Austria opens up to around 300 Smiths and their ideas. We physically gather in order to get inspired, network, create, present and share. Schmiede provides a basic cooperative prototyping environment and an infrastructure full of impulses and passionate people.
 

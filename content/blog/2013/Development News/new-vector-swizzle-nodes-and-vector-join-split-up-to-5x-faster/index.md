@@ -18,4 +18,4 @@ Try it out in the [latest alpha build](https://vvvv.org/downloads/previews) and 
 best,
 dvevvsv
 
-![](xy%20%282d%29%20help_2013.10.31-20.43.14.png) 
+![](xy%20(2d)%20help_20_r.png) 

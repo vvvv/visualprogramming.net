@@ -17,11 +17,11 @@ where:
     lat: "52.544565"
     long: "13.372605"
 imported: "true"
-thumb: "vlcsnap-2016-08-30-22h41m29s492.png"
+thumb: "vlcsnap-2016-08_r.png"
 ---
 
 
-![](vlcsnap-2016-08-30-22h41m29s492.png) 
+![](vlcsnap-2016-08_r.png) 
 
 Video Release Party with two bands, live visuals and DJs
 

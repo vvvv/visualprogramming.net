@@ -19,11 +19,11 @@ where:
     lat: "22.340074"
     long: "114.168940"
 imported: "true"
-thumb: "DEUTERIUM_2015.06.01-13.24.22.png"
+thumb: "DEUTERIUM_2015._r.png"
 ---
 
 
-![](DEUTERIUM_2015.06.01-13.24.22.png) 
+![](DEUTERIUM_2015._r.png) 
 
 MOTORSAW aka Sune Petersen ({{< user "sunep)" >}} DEUTERIUM audiovisual live performance.
 

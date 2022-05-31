@@ -6,7 +6,7 @@ title: "VL: Frame Your Patches"
 slug: "vl-frame-your-patches"
 description: ""
 imported: "true"
-thumb: "callmenames-Root_2018.06.26-21.29.23.gif"
+thumb: "callmenames-Roo_r.gif"
 ---
 
 
@@ -16,7 +16,7 @@ Planned since vvvv pre-beta1 we're happy to finally bring you:
 ## Frames
 Patches tend to do different things all at once and when looking at them it is often not clear at first sight which part of a patch does what. We have comments to add a few words at certain spots but those fail when we'd like to point at a group of nodes that do a certain thing. So the idea is to have a visual element we can place in a patch to frame a group of nodes and mark them with a color and label. This will help us to better structure and document large patches.
 
-![](callmenames-Root_2018.06.26-21.29.23.gif)
+![](callmenames-Roo_r.gif)
 *Press \*\*ALT\*\* while making a selction to create a frame and optionally give it a title*
 
 ![](callmenames-Root_2018.06.15-21.55.28.gif)

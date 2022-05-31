@@ -11,11 +11,11 @@ where:
     lat: "None"
     long: "None"
 imported: "true"
-thumb: "imagine_create_2009.jpg"
+thumb: "imagine_create__r.jpg"
 ---
 
 
-![](imagine_create_2009.jpg)
+![](imagine_create__r.jpg)
 [**Create Imagine 2009**](http://www.creativetechnologies.info) is a three-day festival (2 - 4 April) which will focus on the creative applications of technology; specifically in the areas of audio, image, games design, web media and digital interactivity.
 <!--break-->
 The festival will be organised by the University of Ulster’s School of Creative Arts at Magee, in partnership with the School of Computing & Intelligent Systems and with other regional partners including Derry City Council, Skillset Media Academy, North West Regional College, Nerve Centre and the Void Gallery, and will take place at various venues around the city.

@@ -6,11 +6,11 @@ title: "Everything you know..."
 slug: "everything-you-know"
 description: ""
 imported: "true"
-thumb: "DX_org_2012.12.16-13.36.40.png"
+thumb: "DX_org_2012.12._r.png"
 ---
 
 
-![Happy birthday](DX_org_2012.12.16-13.36.40.png) 
+![Happy birthday](DX_org_2012.12._r.png) 
 
 So where to start...
 

@@ -45,7 +45,7 @@ the spam-attack also destroyed the session-overview of the whole year. what you 
 ![](sessions2014.png) 
 you had even less interest in vvvv.org during the summer than last year but then made a strong finish towards the end of the year. see the strange spike (marked) end of november? that was when the combined tags of #vvvv and #photoshop in a [facebook posting](https://www.facebook.com/vvvv.org/posts/10152391972556097) attracted >13.000 people to have a look at vvvv.org according to the click-stats of facebook. speaking of which: na, couldn't care less..
 
-![](Diagrams-DirectX%20Renderer_2015.01.11-00.09.15.png) 
+![](Diagrams-Direct_r.png) 
 this diagram shows we had a sharp decline in questions asked in the forum. and also all other numbers regarding using features on the website (blog, screenshots, shouts) went down (i'll omit the depressing shot of those stats). the only numbers that went up were new and edited wiki-pages, ie. we put quite some effort in our [Documentation](https://betadocs.vvvv.org) and also the translators, most notably {{< user "h99" >}} (italian) and {{< user "sebescudie" >}} (french), were quite active. grazie mille et merci beaucoup for that indeed. 
 
 and apart from the wiki-documentation {{< user "robotanton" >}} has continued his дотошный work on the \girlpower demo patches shipping with vvvv. i can only hope that those efforts have at least contributed to the diminishing numbers of questions asked in the forum. 

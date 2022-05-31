@@ -74,7 +74,7 @@ easy right?
 the result of the nodes inside the loop is pushed back to the main patch and you can collect a (possibly empty) spread of results on the output. it's a spread since we have no idea how many times the loop has been running while vvvv had one regular frame.
 
 and the same principle is applied if you want to pipe things into that async running loop: data running into the data input of the region are queued and available inside the region asap. 
-![AsyncLoop in TCP Client](AsyncLoopWithInput.png)
+![AsyncLoop in TCP Client](AsyncLoopWithIn_r.png)
 *AsyncLoop with data input as used in TCP Client*
 -----
 {{< box >}}

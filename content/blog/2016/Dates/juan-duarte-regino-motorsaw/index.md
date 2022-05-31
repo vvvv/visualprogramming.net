@@ -18,11 +18,11 @@ where:
     lat: "52.493181"
     long: "13.423128"
 imported: "true"
-thumb: "2016.04.01-16.07-web.jpg"
+thumb: "2016.04.01-16.0_r.jpg"
 ---
 
 
-![Deuterium Screenshot](2016.04.01-16.07-web.jpg) 
+![Deuterium Screenshot](2016.04.01-16.0_r.jpg) 
 
 {{< box >}}quote:sunep:
 On July 23rd I will perform my AV-performance, Deuterium at Spektrum in Berlin on the same night as Juan Duarte Regino will make his performance, I use vvvv to generate Visuals and sounds all in one go.

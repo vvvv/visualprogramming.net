@@ -12,7 +12,7 @@ where:
     from_date: "1606240800"
     to_date: "1606246200"
 imported: "true"
-thumb: "magentamoommakingof.png"
+thumb: "magentamoommaki_r.png"
 ---
 
 
@@ -39,7 +39,7 @@ Location: Hamburg
 
 wirmachenbunt is a studio for interactive and immersive shows and exhibits. The team will present the Magenta Moon Garden software, the system behind a 360° interactive space, incorporating 16 projectors, 9 Radartouch sensors, 6 channel surround sound, 4 games and lots of pixels. While the visual output is rendered with vvvv beta, they used VL and vvvv gamma heavily for the backend and surround sound engine, marking a transition of the studio workflow. While going into the patch details, they reveal the process, from simulation to the live setup. 
 
-![](magentamoommakingof.png) 
+![](magentamoommaki_r.png) 
 
 ## Christian Riekoff
 {{< user "texone" >}}
@@ -61,5 +61,5 @@ Location: Linz, Austria
 New media artist with a background in fine arts and philosophy, Amir realizes his works by designing narratives through real-time processes.
 Amir is based in Linz/AT where he is persuing his PhD. He is a researcher at Creative Robotics Department at the university for arts and design in Linz he is also teaching Coding and computational thinking at the Fashion and Technology department in the mentioned university. 
 
-![](Screenshot%202020-11-19%20225336.png) 
+![](Screenshot%202020_r.png) 
 

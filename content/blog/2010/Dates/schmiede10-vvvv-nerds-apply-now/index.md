@@ -13,11 +13,11 @@ where:
     from_date: "1284588000"
     to_date: "0"
 imported: "true"
-thumb: "s10applicationflyerfrontsmall.png"
+thumb: "s10applicationf_r.png"
 ---
 
 
-![](s10applicationflyerfrontsmall.png)
+![](s10applicationf_r.png)
 
 helo vvvvolks,
 

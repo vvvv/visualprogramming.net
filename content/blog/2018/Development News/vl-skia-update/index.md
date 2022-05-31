@@ -6,7 +6,7 @@ title: "VL: Skia Update"
 slug: "vl-skia-update"
 description: ""
 imported: "true"
-thumb: "Mask5-compressed.gif"
+thumb: "Mask5-compresse_r.gif"
 ---
 
 
@@ -26,7 +26,7 @@ Read on.
 ##  Masking
 You already were able to clip layers by rectangles or paths (ClipRect, ClipPath), now you can use **any layer** as a mask (as you know it from Photoshop), be it an image or very complicated layer pipeline. Welcome the **Mask**. It comes in two flavors: one uses a layer as a mask, another one just an image. The node has useful helpers which allow you to see how the mask looks like and where it is applied.
 
-![](Mask5-compressed.gif) 
+![](Mask5-compresse_r.gif) 
 
 
 
@@ -56,7 +56,7 @@ In the **Paint** category:
 * nodes with an empty box are for getting properties
 * Processnodes without Set (like Stroke, Fill or FontAndParagraph) are convenient nodes setting several properties at once. 
 
-![](Paint-Nodebrowser.gif) 
+![](Paint-Nodebrows_r.gif) 
 
 
 ##  Examples and Demos

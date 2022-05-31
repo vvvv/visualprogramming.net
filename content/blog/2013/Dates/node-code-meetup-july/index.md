@@ -21,7 +21,7 @@ imported: "true"
 ---
 
 
-![](NTTF_Adaptation_01%20%2808452%29.jpg) 
+![](NTTF_Adaptation_r.jpg) 
 
 In July and August the NODE+CODE meetup is a guest of the DAM gallery in Frankfurt. In this context we are putting more focus on the arts in relation to the digital.
 

@@ -21,7 +21,7 @@ imported: "true"
 ---
 
 
-![](60__ROOT-Preview_2019_04_15-20_14_31%20copy.jpg) 
+![](60__ROOT-Previe_r.jpg) 
 
 Hi all,
 

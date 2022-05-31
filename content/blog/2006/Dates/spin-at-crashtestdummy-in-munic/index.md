@@ -15,7 +15,7 @@ where:
     from_date: "1279663200"
     to_date: "0"
 imported: "true"
-thumb: "camerasetupoverview41.jpg"
+thumb: "camerasetupover_r.jpg"
 ---
 
 
@@ -25,5 +25,5 @@ thumb: "camerasetupoverview41.jpg"
 come by until july 29th and take a strange ride in the [new worlds of spin](https://vvvv.org/404)
 <!--~~~-->
 
-![](camerasetupoverview41.jpg)
+![](camerasetupover_r.jpg)
 <!--{SPLIT}-->

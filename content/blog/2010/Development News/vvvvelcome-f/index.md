@@ -6,11 +6,11 @@ title: "VVVVelcome F#"
 slug: "vvvvelcome-f"
 description: ""
 imported: "true"
-thumb: "ifs2dhelpdirectxrenderer_2010.04.0919.01.09.jpg"
+thumb: "ifs2dhelpdirect_r.jpg"
 ---
 
 
-![](ifs2dhelpdirectxrenderer_2010.04.0919.01.09.jpg)
+![](ifs2dhelpdirect_r.jpg)
 
 yes, yes we know, all you ever wanted was to write vvvv plugins with a functional programming language. and since microsoft officially added F# to the main .NET languages you can do that right away. thanks to [Don Syme](http://research.microsoft.com/en-us/people/dsyme/), who is the leading developer of F#.
 <!--break-->

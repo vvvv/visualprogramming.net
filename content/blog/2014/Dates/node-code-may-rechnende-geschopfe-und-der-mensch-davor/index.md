@@ -14,7 +14,7 @@ where:
     from_date: "1400770800"
     to_date: "1400785200"
 imported: "true"
-thumb: "nodecode-facebook-veranstaltung.jpg"
+thumb: "nodecode-facebo_r.jpg"
 ---
 
 
@@ -22,7 +22,7 @@ von Menschen, Kalkülen, Mustern und Objekten, vom Flow des Programmierens, und 
 
 https://www.facebook.com/events/819658788053038/
 
-![](nodecode-facebook-veranstaltung.jpg) 
+![](nodecode-facebo_r.jpg) 
 
 ![](cover.png) 
 

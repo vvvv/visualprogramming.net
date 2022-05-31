@@ -19,12 +19,12 @@ where:
     lat: "47.495931"
     long: "19.069521"
 imported: "true"
-thumb: "Shuffleroompostermuszi-1.jpg"
+thumb: "Shuffleroompost_r.jpg"
 ---
 
 
 
-![shuffle room](Shuffleroompostermuszi-1.jpg) 
+![shuffle room](Shuffleroompost_r.jpg) 
 
 Shuffle Room is an interactive audiovisual installation designed to completely submerge the audience in a rich 360º navigable sonic environment.
 The piece uses a quadrophonic audio engine and an edge-blending multichannel projection transforming the room into an immersive audiovisual experience where converged mashups of abstract geometric objects and micro sound textures are emitted at high intensity and frequency, while they are also constantly seamlessly coordinated in a coherent whole.

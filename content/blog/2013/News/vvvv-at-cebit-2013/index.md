@@ -26,7 +26,7 @@ realized by [m-box](http://m-box.de) with {{< user "ceeyaa" >}} and {{< user "la
 Telekom, hall 4
 
 ### Videochat
-![](IMG_20130304_140255.jpg) 
+![](IMG_20130304_14_r.jpg) 
 A mega video chat for two speakers demonstrating interactive collaboration.
 2 synchronized setups with each:
 * 3840x1080 output on a 8 screen video wall with 5m length.

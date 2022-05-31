@@ -18,11 +18,11 @@ where:
     lat: "54.670609"
     long: "25.260843"
 imported: "true"
-thumb: "CGEvent_2016_ProjectionMappingImage-vvvvWebsite.png"
+thumb: "CGEvent_2016_Pr_r.png"
 ---
 
 
-![](CGEvent_2016_ProjectionMappingImage-vvvvWebsite.png) 
+![](CGEvent_2016_Pr_r.png) 
 
 Sveiki,
 

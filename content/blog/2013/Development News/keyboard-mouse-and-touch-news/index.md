@@ -6,11 +6,11 @@ title: "Keyboard, Mouse and Touch news"
 slug: "keyboard-mouse-and-touch-news"
 description: ""
 imported: "true"
-thumb: "callmenames_2013.12.10-00.01.21.png"
+thumb: "callmenames_201_r.png"
 ---
 
 
-![](callmenames_2013.12.10-00.01.21.png) 
+![](callmenames_201_r.png) 
 
 There's been [another update to the mouse and keyboard nodes](/blog/2013/update-to-mouse-keyboard-nodes) before but that turned out to still cause troubles:
 * key presses could still be missed (think: typing too fast on typewriter)

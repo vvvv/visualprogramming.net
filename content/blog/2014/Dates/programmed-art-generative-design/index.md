@@ -16,11 +16,11 @@ where:
     from_date: "1389718800"
     to_date: "1389724200"
 imported: "true"
-thumb: "flyer_muthesius_kiel.jpg"
+thumb: "flyer_muthesius_r.jpg"
 ---
 
 
-![Muthesius Studio Kreft](flyer_muthesius_kiel.jpg)
+![Muthesius Studio Kreft](flyer_muthesius_r.jpg)
 
 I will give a speech @ Muthesius Kunsthochschule Kiel about my work as a media artist and designer with heavy vvvv use since beta 13 ! 
 

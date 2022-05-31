@@ -29,5 +29,5 @@ http://vvvv.academy/
 
 
 
-![Logo](vvvv-academy_logo_quarter.png) 
+![Logo](vvvv-academy_lo_r.png) 
 

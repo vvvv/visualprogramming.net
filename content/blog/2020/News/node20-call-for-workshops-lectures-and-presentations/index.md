@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![](NODE2020%20Preview-wide.png) 
+![](NODE2020%20Previe_r.png) 
 
 Dear all,
 

@@ -10,5 +10,5 @@ originalType: "stuff"
 ---
 
 
-![machine v4 ](vvvv%202012-07-24%2000-59-33-96.jpg) 
+![machine v4 ](vvvv%202012-07-24_r.jpg) 
 

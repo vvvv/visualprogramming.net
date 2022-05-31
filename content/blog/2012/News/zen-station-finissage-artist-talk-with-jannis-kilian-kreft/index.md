@@ -9,6 +9,6 @@ imported: "true"
 ---
 
 
-![ZENSTATION](finissage_zen%20station.jpg) 
+![ZENSTATION](finissage_zen%20s_r.jpg) 
 
 

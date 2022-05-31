@@ -12,7 +12,7 @@ where:
     from_date: "1257980400"
     to_date: "0"
 imported: "true"
-thumb: "scimmiainchiostro03spline_subiancodirectxrenderer_2009.09.0717.57.00.jpg"
+thumb: "scimmiainchiost_r.jpg"
 ---
 
 
@@ -34,4 +34,4 @@ Festival website: [http://connectfestival.se/](http://connectfestival.se/)
 Author's website: [http://www.alessandroperini.com](http://www.alessandroperini.com)
 
 
-![](scimmiainchiostro03spline_subiancodirectxrenderer_2009.09.0717.57.00.jpg)
+![](scimmiainchiost_r.jpg)

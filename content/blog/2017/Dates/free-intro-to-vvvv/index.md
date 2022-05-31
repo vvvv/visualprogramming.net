@@ -44,5 +44,5 @@ See you there!
 Dominik
 
 .
-![](vvvv-academy_favicon.jpg) 
+![](vvvv-academy_fa_r.jpg) 
 

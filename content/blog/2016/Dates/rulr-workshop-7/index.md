@@ -21,7 +21,7 @@ imported: "true"
 ---
 
 
-![](rulr%20-%20functions.png) 
+![](rulr%20-%20function_r.png) 
 
 A workshop on spatial calibration using Rulr, an open source standalone tool for offline calibration task, created to work with realtime graphic environments such as VVVV (and shared many ideas with VVVV!).
 

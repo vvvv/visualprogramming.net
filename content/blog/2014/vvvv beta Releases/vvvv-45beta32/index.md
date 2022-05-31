@@ -15,7 +15,7 @@ imported: "true"
 ---
 
 
-![](08_TTY_ASCII_Art-Renderer-TTY%20Renderer_2014.05.02-17.19.12.png)
+![](08_TTY_ASCII_Ar_r.png)
 *ascii donut*
 
 helo patcherpeople,

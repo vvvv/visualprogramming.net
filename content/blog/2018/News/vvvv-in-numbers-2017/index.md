@@ -53,7 +53,7 @@ addons | 10.700 | 14.400 | 18.800 | 29.000 | 28.500 | 25.200| 19.400 | 21.400
 significantly more releases but not significantly more downloads than in the year before...whats going on here? lets have a look at the 
 
 # licenses
-![](licensesanddongles.png) 
+![](licensesanddong_r.png) 
 
 oha...this is setting us back to figures of 2013. ahm, lets have a closer look at the numbers that tell us how many different countries and companies licenses have been bought from:
 

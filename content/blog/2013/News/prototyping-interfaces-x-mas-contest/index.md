@@ -6,11 +6,11 @@ title: "»Prototyping Interfaces« X-Mas Contest"
 slug: "»prototyping-interfaces«-x-mas-contest"
 description: ""
 imported: "true"
-thumb: "Gewinnspiel_Items2-01.jpg"
+thumb: "Gewinnspiel_Ite_r.jpg"
 ---
 
 
-![»Prototyping Interfaces« X-Mas Contest](Gewinnspiel_Items2-01.jpg) 
+![»Prototyping Interfaces« X-Mas Contest](Gewinnspiel_Ite_r.jpg) 
 
 Just in time for the holiday season: The »Prototyping Interfaces« X-Mas Contest! We have two copies of the book to give away, so we challenge you to show us why you should get one of them. 
 

@@ -6,7 +6,7 @@ title: "VVVV Workshop @ Amberfestival Istanbul"
 slug: "vvvv-workshop-amberfestival-istanbul"
 description: ""
 imported: "true"
-thumb: "amberfestival-workshop.png"
+thumb: "amberfestival-w_r.png"
 ---
 
 
@@ -14,7 +14,7 @@ At the Amberfestival (<http://amberfestival.org>) which takes place in Istanbul 
 
 **Workshop description:**
 
-![amber festival - the human transmitter](amberfestival-workshop.png) 
+![amber festival - the human transmitter](amberfestival-w_r.png) 
 
 No matter whether analog or digital, whether synthetic or organic - the recording, processing and transmission of information plays a key role in the formation and development of complex systems or organisms.
 In a very playful examination, participants learn the construction and use of simple analog sensors as well as the use of digital-boxed versions. Thereafter the data obtained will be aesthetically represented using the graphical programming language vvvv. Afterwards this visual, sonic or physical representation will be transmitted to the next node.

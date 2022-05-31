@@ -6,7 +6,7 @@ title: "vvvvhat happened in Dezember 2015"
 slug: "vvvvhat-happened-in-dezember-2015"
 description: ""
 imported: "true"
-thumb: "Virtual-Depictions-011.jpg"
+thumb: "Virtual-Depicti_r.jpg"
 ---
 
 happy new,
@@ -40,15 +40,15 @@ always good for a surprise this {{< user "tekcor" >}} guy. if i am not mistaken 
 {{< vimeo "149366172" >}}
 
 also worth mentioning this latest work by [refik anadol](http://www.refikanadol.com) which features some vvvv: [Virtual Depictions: San Francisco](https://vvvv.org/blog/virtual-depictions-san-francisco-public-art-project) comes with some more details in [this article on creativeapplications](http://www.creativeapplications.net/vvvv/virtual-depictions-san-francisco-cinematic-data-driven-sculpture/).
-![](Virtual-Depictions-011.jpg) 
+![](Virtual-Depicti_r.jpg) 
 
 and while on that site i spotted at least three projects among the [10 most memorable projects of 2015](http://www.creativeapplications.net/featured/10-most-memorable-projects-of-2015/) realized with vvvv:
 
 [Satelliten](http://www.creativeapplications.net/arduino-2/satelliten-a-machine-tracking-activities-in-lower-earth-orbit/):
-![](IMGP7999_bear2_small.jpg) 
+![](IMGP7999_bear2__r.jpg) 
 
 [In the Eyes of the Animal – Marshmallow Laser Feast](http://www.creativeapplications.net/maxmsp/in-the-eyes-of-the-animal-mlf-virtualise-a-forest-through-the-eyes-of-its-creatures/):
-![](In-the-Eyes-of-the-Animal-Screens_08-1600x1000.jpg) 
+![](In-the-Eyes-of-_r.jpg) 
 
 [483 Lines – Projecting analogue video picture on 483 nylon threads](http://www.creativeapplications.net/openframeworks/483-lines-projecting-analogue-video-picture-on-483-nylon-threads/):
 ![](483lines2.jpg) 
