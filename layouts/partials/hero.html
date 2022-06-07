@@ -4,7 +4,7 @@
         <div class="header-quad">
           <div class="container-fluid">
           <div class="row mt-0 pt-0 md-0 pd-0">
-            <img src="/img/vvvv.svg" alt="vvvv" class="vvvv">
+            <img src="{{ "img/vvvv.svg" | relURL }}" alt="vvvv" class="vvvv">
             <p>
               {{.Site.Params.Hero.subtitle | markdownify}}
             </p>
@@ -15,9 +15,11 @@
             </div>
             <div class="tags mt-0 mb-0 pt-0">
               <p>{{ .Site.Params.Hero.tagsHeadline }}</p>
-              {{ range (split .Site.Params.Hero.tags ",")}}
-                <div class="tag">{{ . }}</div>
-              {{ end }}
+              <div class="d-flex flex-wrap">
+                {{ range (split .Site.Params.Hero.tags ",")}}
+                  <div class="tag">{{ . }}</div>
+                {{ end }}
+              </div>
             </div>
           </div>
         </div>

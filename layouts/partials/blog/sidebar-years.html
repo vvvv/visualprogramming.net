@@ -19,7 +19,7 @@
       {{ range $years }}
       {{ $key := .Key }}
         {{ range first 1 .Pages}}
-          <a class="dropdown-item {{ if eq $key $title }} active {{ end }}" href="{{.Section | absURL}}/{{$key}}">{{$key}}</a>
+          <a class="dropdown-item {{ if eq $key $title }} active {{ end }}" href="{{.Section | relURL}}/{{$key}}">{{$key}}</a>
         {{ end }}
       {{ end }}
     </div>

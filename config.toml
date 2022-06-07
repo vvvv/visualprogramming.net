@@ -4,6 +4,7 @@ paginate = 20
 paginatePath = "page"
 summaryLength = 20
 title = "vvvv - visual live-progamming for .NET"
+relativeURLs = "true"
 
 [Services.RSS]
   limit = 10
