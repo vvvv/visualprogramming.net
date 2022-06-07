@@ -7,6 +7,7 @@ slug: "poster"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "TouchPoint001.png"
 ---
 
 

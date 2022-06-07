@@ -10,5 +10,5 @@ originalType: "stuff"
 ---
 
 
-![](Rope_4_FFT-DirectX%20Renderer_2013.06.20-11.33.11.png) 
+![](Rope_4_FFT-Dire_r.png) 
 

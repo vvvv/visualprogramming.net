@@ -1,3 +1,4 @@
+{{ if or .Params.who .Params.where }}
 <div class="meta mb-5">
     <table>
   {{ with .Params.who }}
@@ -37,5 +38,5 @@
       {{end}}
   {{ end }}
     </table>
-
 </div>
+{{ end }}

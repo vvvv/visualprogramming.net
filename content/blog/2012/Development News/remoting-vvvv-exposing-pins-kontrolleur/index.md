@@ -6,6 +6,7 @@ title: "remoting vvvv / exposing pins / kontrolleur"
 slug: "remoting-vvvv-exposing-pins-kontrolleur"
 description: ""
 imported: "true"
+thumb: "0_2012.06.08-14_r.png"
 ---
 
 
@@ -21,7 +22,7 @@ sending the above osc-message to the vvvv-servers port will set the {{< pin "Y I
  2.6
 see? should allow you to quite mess around..
 
-![what the ... green ioboxes?](0_2012.06.08-14.52.15.png)
+![what the ... green ioboxes?](0_2012.06.08-14_r.png)
 
 now of course you don't want to do this all random and find out about the target-addresses manually. as mentioned in a previous posting [refactor-to-subpatch](/blog/2012/refactor-to-subpatch) there is one primary shortcut left on vvvvs keyboard cheat-sheet which we saved for this moment: **ctrl+k** (read "kontroll") allows you to expose selected IOBoxes for being controlled from the outside. first exposing only turns IOBoxes green, but inside this sets a flag on the node that can be accessed via the plugininterface which e.g. allows a node like the afformentioned Server (VVVV) to return a list of all exposed pins' osc addresses...
 

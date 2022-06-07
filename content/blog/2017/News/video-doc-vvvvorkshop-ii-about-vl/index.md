@@ -6,6 +6,7 @@ title: "Video Doc: VVVVORKSHOP II about VL"
 slug: "video-doc-vvvvorkshop-ii-about-vl"
 description: ""
 imported: "true"
+thumb: "vvvvorkshop2.png"
 ---
 
 

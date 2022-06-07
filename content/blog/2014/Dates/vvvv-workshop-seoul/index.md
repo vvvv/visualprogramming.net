@@ -19,7 +19,7 @@ imported: "true"
 
 
 #  VVVV : Creative coding without code
-![Photo from Johannes Scherg, NODE 13](image%20credit%20to%20Johannes%20Scherg%2C%20NODE%20Forum%202.jpg) 
+![Photo from Johannes Scherg, NODE 13](image%20credit%20to_r.jpg) 
 
 Introducing VVVV, a toolkit for working with new media canvases, you can learn how to work with projectors, 3D scanners, generative animation and interaction using this rapid development tool. No prior VVVV experience is required, but any prior experience will be helpful.
 

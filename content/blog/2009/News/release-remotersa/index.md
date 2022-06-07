@@ -6,6 +6,7 @@ title: "release: RemoterSA"
 slug: "release-remotersa"
 description: ""
 imported: "true"
+thumb: "remotersa.jpg"
 ---
 
 

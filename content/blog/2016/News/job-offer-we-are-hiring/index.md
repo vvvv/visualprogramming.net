@@ -6,6 +6,7 @@ title: "Job offer / We are hiring !"
 slug: "job-offer-we-are-hiring"
 description: ""
 imported: "true"
+thumb: "focus4.jpg"
 ---
 
 

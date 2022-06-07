@@ -7,6 +7,7 @@ slug: "test-25"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "DelaunayPerlin.png"
 ---
 
 

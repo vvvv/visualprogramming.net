@@ -6,6 +6,7 @@ title: "vvvv gamma 2020.1.1 release"
 slug: "vvvv-gamma-2020.1.1-release"
 description: "Release notes"
 imported: "true"
+thumb: "helpbrowser.jpg"
 ---
 
 Here is!

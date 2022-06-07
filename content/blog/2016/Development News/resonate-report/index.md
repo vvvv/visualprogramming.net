@@ -18,7 +18,7 @@ Our problem we named VLOsmos, after the game that we wanted to clone: Osmos.
 http://www.osmos-game.com/
 The goal of the game is to get to be the biggest bubble. You get bigger by eating smaller bubbles. But beware of getting eaten by a bigger one. To prevent this you sometimes need to flee, by accelerating into a direction. But alas by accelerating you loose mass, very much the same way a rocket does. You emit small bubbles... So you get smaller by changing direction, but you have the initiative which helps you get bigger earlier than others...
 
-![VLorkshop](composition%20Kopie.jpg) 
+![VLorkshop](composition%20Kop_r.jpg) 
 
 So our idea was that we actually want to work, and not do frontal teaching so much of the time. So we split up into three teams. 
 Every team had a helping hand (there were Elias, Dominik and me) and each team got one VL document to work on. We split up the work like this:

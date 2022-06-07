@@ -18,6 +18,7 @@ where:
     lat: "52.504141"
     long: "13.453354"
 imported: "true"
+thumb: "VVVV.png"
 ---
 
 

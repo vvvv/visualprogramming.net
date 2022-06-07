@@ -6,6 +6,7 @@ title: "NODE08 Festival Webpage online"
 slug: "node08-festival-webpage-online"
 description: ""
 imported: "true"
+thumb: "nodebanner.png"
 ---
 
 

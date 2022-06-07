@@ -6,6 +6,7 @@ title: "vvvv50 & VL pack alpha"
 slug: "vvvv50-vl-pack-alpha"
 description: ""
 imported: "true"
+thumb: "vl-integration3.png"
 ---
 
 

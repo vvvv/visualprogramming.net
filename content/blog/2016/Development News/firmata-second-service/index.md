@@ -6,10 +6,11 @@ title: "Firmata Second Service"
 slug: "firmata-second-service"
 description: ""
 imported: "true"
+thumb: "vvvv-ArduinoSec_r.gif"
 ---
 
 
-![](vvvv-ArduinoSecondService_10fps.gif) 
+![](vvvv-ArduinoSec_r.gif) 
 
 Good news everyone, from now on you're getting a brand new node able to talk to your loaded-with-firmata Microcontroller Boards (like Arduino, Teensy, Particle.io, ...):
 
@@ -17,7 +18,7 @@ Good news everyone, from now on you're getting a brand new node able to talk to 
 
 Together with {{< user "jens.a.e" >}} (author of the original {{< node "Arduino (Devices StandardFirmata 2.x)" >}} ) we've looked for a more convenient, easier and faster way to patch microcontroller related ahhmm... patches.
 
-![](vvvv-FirmataSecondService.png) 
+![](vvvv-FirmataSec_r.png) 
 
 #### With this implementation:
 * Just plug a **DigitalWrite (Firmata)**, **AnalogWrite (Firmata)** or **ServoWrite (Firmata)** node to the FirmataBoard node (or concatenate them together) to set the pins of the Board.

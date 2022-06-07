@@ -12,10 +12,11 @@ release:
     app_file: "sites/default/files/vvvv_50beta36_x86.zip"
     app_file_64: "sites/default/files/vvvv_50beta36_x64.zip"
 imported: "true"
+thumb: "AsyncTaskDemo_2_r.png"
 ---
 
 
-![](AsyncTaskDemo_2018.02.19-19.02.37.png)
+![](AsyncTaskDemo_2_r.png)
 *Symbiosis: VL handling the heavy load for VVVV*
 
 this is a big one!

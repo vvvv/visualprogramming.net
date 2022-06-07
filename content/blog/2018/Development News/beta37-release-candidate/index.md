@@ -6,10 +6,11 @@ title: "Beta37 Release Candidate"
 slug: "beta37-release-candidate"
 description: ""
 imported: "true"
+thumb: "gw3IWyGkC0rsazT_r.gif"
 ---
 
 
-![](gw3IWyGkC0rsazTi.gif)
+![](gw3IWyGkC0rsazT_r.gif)
 
 hi there,
 

@@ -19,10 +19,11 @@ where:
     lat: "47.495930"
     long: "19.069530"
 imported: "true"
+thumb: "Lightbsedlifefo_r.jpg"
 ---
 
 
-![](Lightbsedlifeformsmuszi.jpg) 
+![](Lightbsedlifefo_r.jpg) 
 
 Light Based Lifeforms Workshop
 This Workshop focuses on the development of interactive animations

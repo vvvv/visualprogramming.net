@@ -13,6 +13,7 @@ where:
     from_date: "0"
     to_date: "0"
 imported: "true"
+thumb: "panamscanflyer1.jpg"
 ---
 
 

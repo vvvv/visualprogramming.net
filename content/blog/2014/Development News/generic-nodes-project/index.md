@@ -6,6 +6,7 @@ title: "Generic Nodes Project"
 slug: "generic-nodes-project"
 description: ""
 imported: "true"
+thumb: "cupt.jpg"
 ---
 
 

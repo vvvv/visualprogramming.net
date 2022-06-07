@@ -6,6 +6,7 @@ title: "vvvv in numbers 2012"
 slug: "vvvv-in-numbers-2012"
 description: ""
 imported: "true"
+thumb: "unique.png"
 ---
 
 
@@ -53,7 +54,7 @@ the diagram shows that 2012 (blue) had a good start but then you took a big summ
 
 our web-{{< user "dave" >}} has extracted some more figures for us. the following shows your activity on the site: 
 
-![](Diagram-DirectX%20Renderer_2013.01.06-22.45.00.png) 
+![](Diagram-DirectX_r.png) 
 
 that peak in 2008 marked 1457 questions asked and with 145 in 2009 we had the largest number of questions that did not get a single answer. over the years that leaves a little less than 10% of questions unanswered which is not too bad, is it?
 

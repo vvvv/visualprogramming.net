@@ -13,7 +13,8 @@ the upcoming vvvv release (beta28) will contain a new way of accessing pin data 
 
 if you don't mind writing much more complicated code in order to squeeze out every last bit of performance, read on, otherwise you can safely skip this blog post.
 <!--break-->
-## the reason behind IStream
+## the reason behind IStream
+
 to answer the question why this new IStream interface was introduced and what it's for, let's have a look at the history of vvvv's plugin interface.
 
 the first step to open up vvvv's internas to the managed world of c# plugins was the introduction of the IPluginIO interface. this interface merley gives access to the most used pin types: values, strings, colors, transforms and the generic node datatype. it provides methods to get and set the slice count of a pin and reading and writing data to it.
@@ -24,15 +25,16 @@ this way one could write very fast plugins but the code one had to write in orde
 to solve these issues we introduced the ISpread interface. it is a generic interface, meaning it can deal with any datatype there is, the access to the data is done with simple indexers and dealing with multi dimensional spreads was nothing more than writing ISpread<ISpread<T>>.
 
 but this ease of use comes with a drawback: an additional layer between the raw data and the plugin, which can cost quite some performance in cases where data only needs to be accessed sequentially. in order to understand this let's see how the ISpread layer works:
-# to avoid many conversions between the raw data type in vvvv and the actual data type used by the plugin (for example in a plugin one wants to use int whereas vvvv only understand double) and to support multi dimensional spreads an array is created on the managed side and each frame all the raw data from vvvv is converted and copied into this array.
-# each data access is done via the indexers which need to do a modulo on the index due to the nature of ISpread. index out of bounce exceptions are unkown to any vvvv user, right? :) more importantly the modulo is necessary to support the way all nodes of vvvv work.
+1. to avoid many conversions between the raw data type in vvvv and the actual data type used by the plugin (for example in a plugin one wants to use int whereas vvvv only understand double) and to support multi dimensional spreads an array is created on the managed side and each frame all the raw data from vvvv is converted and copied into this array.
+2. each data access is done via the indexers which need to do a modulo on the index due to the nature of ISpread. index out of bounce exceptions are unkown to any vvvv user, right? :) more importantly the modulo is necessary to support the way all nodes of vvvv work.
 
-point 1) is perfectly fine if the access of your plugin to the data is randomly but what if you know up ahead that your plugin will only read the data once, one slice after another or so to speak sequentially? in that case you pay for a higher memory usage as the conversion of the data will be all you need.
-point 2) is fine too if the access is randomly but again if you know you'll access the data sequentially isn't there a way to avoid all these modulos if some sort of mechanism would be clever enough to look ahead and see that for the next n accesses there's no modulo needed as there's still enough data left to read?
+**point 1)** is perfectly fine if the access of your plugin to the data is randomly but what if you know up ahead that your plugin will only read the data once, one slice after another or so to speak sequentially? in that case you pay for a higher memory usage as the conversion of the data will be all you need.  
+**point 2)** is fine too if the access is randomly but again if you know you'll access the data sequentially isn't there a way to avoid all these modulos if some sort of mechanism would be clever enough to look ahead and see that for the next n accesses there's no modulo needed as there's still enough data left to read?
 
 this is where IStream comes in. the methods it exposes are designed for a sequential data access.
 
-## how does it work
+## how does it work
+
 the concept of streams is an old one, you can find it in nearly every language. the basic idea is to operate on chunks of data instead of operating on slices of data therefor saving lots of method calls. we could also say that the ISpread interface is chatty whereas the IStream interface is chunky.
 
 **reading** from a stream is done by creating a small buffer and reading a chunk of data into it.
@@ -62,7 +64,8 @@ using (var reader = stream.GetReader())
 }
 ```
 
-## stream vs spread
+## stream vs spread
+
 first of all, streams are **not** a replacement for spreads. they simply provide a different access pattern to the underlying data.
 
 ISpread is perfect to access data randomly, IStream is perfect to access data sequentially.
@@ -74,7 +77,8 @@ so up till now the implementation of the plugin interface looked like this:
 now it's like this:
   IPluginIO <- IStream <- ISpread
 
-### running time
+### running time
+
 let's write the previous example with a spread:
 ```
 for (int i = 0; i < spread.SliceCount; i++)
@@ -168,7 +172,8 @@ method calls:
 
 so comparing the second example we see that the numbers for the stream implementation in terms of method calls and modulo operations increased, but still only by a factor of maxN / B which is normally much less than maxN.
 
-### memory consumption
+### memory consumption
+
 there's one last issue to sort out. in the beginning of this blog post i promised a lower memory consumption for streams in comparison to spreads, as spreads will always copy the whole raw pin data into an internal managed array before the evaluate method gets called. streams don't do that, but what about those new array calls in order to create our buffers? doing that every frame seems like quite an overhead. 
 
 a simple solution would be to move those buffers to the plugin class (private fields) but in that case the memory consumption would be much higher for small slice counts, as each plugin would allocate 1024 slices for each input, no matter what.
@@ -178,7 +183,8 @@ the idea of a memory pool is to request some memory from it, use it for some tim
 so instead of creating a new buffer every time we enter the evaluate method we simply do a call to MemoryPool<T>.GetArray() and once we're done with it do a call to MemoryPool<T>.PutArray(). as the evaluate methods are called sequentially (vvvv is single threaded) there'll only be one evaluate method at work at a time and therefor all plugins can share the same buffers. say the maximum amount of pins used on a plugin is N, and each used buffer has a size of B we come to an overall memory consumption of N * B slices.
 for example we have 50 plugins with an average pin count of 4, an average slice count of 100 and our buffer size is 1000 we come to an estimated memory footprint of 50 * 4 * 100 = 20k slices in case of spreads and 4 * 1000 = 4k slices in case of streams.
 
-## conclusion
+## conclusion
+
 as i said in the beginning, if you feel the need to squeeze out every last bit of performance in your plugin, be my guest and have a look at streams. the results can be quite suprising ... in both ways, i told you about that sequential thing, right? ;)
 but in all other cases stick with spreads. they're much easier to use, the code is cleaner and will therefor probably contain much less of those nasty little buggers.
 

@@ -14,10 +14,11 @@ where:
     from_date: "1256248800"
     to_date: "0"
 imported: "true"
+thumb: "elevate2009_suj_r.gif"
 ---
 
 
-![](elevate2009_sujet.gif)
+![](elevate2009_suj_r.gif)
 
 2 days of vvvv workshop with focus on vjing/live performances
 23rd and 24th of october during the annual elevate festival in graz (austria).

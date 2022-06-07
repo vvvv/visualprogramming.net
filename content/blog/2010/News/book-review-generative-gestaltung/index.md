@@ -6,11 +6,12 @@ title: "book review: Generative Gestaltung"
 slug: "book-review-generative-gestaltung"
 description: ""
 imported: "true"
+thumb: "generativegesta_r.jpg"
 ---
 
 
 <!--{SPLIT()}-->
-![](generativegestaltung.jpg)
+![](generativegesta_r.jpg)
 <!--~~~-->
 **Generative Gestaltung**
 Bohnacker, Groß, Laub, Lazzeroni

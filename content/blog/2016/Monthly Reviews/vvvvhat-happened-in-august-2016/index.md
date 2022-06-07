@@ -6,6 +6,7 @@ title: "vvvvhat happened in August 2016"
 slug: "vvvvhat-happened-in-august-2016"
 description: ""
 imported: "true"
+thumb: "automataHeart.jpg"
 ---
 
 Patchers worldwide,

@@ -6,6 +6,7 @@ title: "50: The Humble Quad Bundle"
 slug: "50-the-humble-quad-bundle"
 description: ""
 imported: "true"
+thumb: "games.png"
 ---
 
 

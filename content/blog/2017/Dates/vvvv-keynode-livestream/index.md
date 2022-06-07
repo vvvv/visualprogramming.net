@@ -18,10 +18,11 @@ where:
     lat: "50.119187"
     long: "8.698779"
 imported: "true"
+thumb: "vvvv-keynode-au_r.jpg"
 ---
 
 
-![](vvvv-keynode-audience-c-NODE-Nemanja-Knezevic.jpg)
+![](vvvv-keynode-au_r.jpg)
 
 We are streaming this years vvvv keynode event live.
 

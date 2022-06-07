@@ -6,6 +6,7 @@ title: "Video playback news"
 slug: "video-playback-news"
 description: ""
 imported: "true"
+thumb: "video.jpg"
 ---
 
 

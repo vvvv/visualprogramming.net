@@ -18,12 +18,13 @@ where:
     lat: "51.347608"
     long: "12.420996"
 imported: "true"
+thumb: "20280234_139457_r.jpg"
 ---
 
 
 **Open Call | Wisp Laboratory ‘18**
 
-![](20280234_1394579100577790_3575782143021264709_o-1920x1280.jpg) 
+![](20280234_139457_r.jpg) 
 
 We’re pleased to announce the international Open Call for the second edition of Wisp Laboratory at Kontor80 in Leipzig, which will happen from 10th to 16th of September.
 After last year’s successful week of building a 3D speaker setup and realising a 360° visualisation setup together with the participants, Wisp Laboratory is back for its second year.

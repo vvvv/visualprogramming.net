@@ -18,6 +18,7 @@ where:
     lat: "55.707430"
     long: "12.553607"
 imported: "true"
+thumb: "DEUTERIUM_2015._r.png"
 ---
 
 
@@ -31,5 +32,5 @@ It is done purely in vvvv, with video feedback (as usual, I am me after all) and
 Please come by if you are in copenhagen, entrance fee is DKK 50. for those DKK 50 you get 20 noise concerts besides my performance!
 
 {{< user "sunep" >}}
-![](DEUTERIUM_2015.06.01-13.17.03.png) 
+![](DEUTERIUM_2015._r.png) 
 

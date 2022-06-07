@@ -16,10 +16,11 @@ where:
     from_date: "1381406400"
     to_date: "1381658400"
 imported: "true"
+thumb: "shinytoysspace2_r.jpg"
 ---
 
 
-![shiny toys space](shinytoysspace2013.jpg) 
+![shiny toys space](shinytoysspace2_r.jpg) 
 
 SPACE is an international meeting-point for artists who share a passion for experimenting with communication mediums, who create synchronized image and sound and, thus, address auditory and visual senses. Visualizers, sound artists and all others interested are warmly invited to participate.
 

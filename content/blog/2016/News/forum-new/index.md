@@ -6,6 +6,7 @@ title: "Forum. New!"
 slug: "forum.-new"
 description: ""
 imported: "true"
+thumb: "categories.PNG"
 ---
 
 

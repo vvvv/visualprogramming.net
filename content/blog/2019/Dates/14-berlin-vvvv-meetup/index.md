@@ -13,6 +13,7 @@ where:
     from_date: "1571760000"
     to_date: "1571770800"
 imported: "true"
+thumb: "takuma1.jpg"
 ---
 
 

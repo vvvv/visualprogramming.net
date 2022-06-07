@@ -6,6 +6,7 @@ title: "new vvebsite"
 slug: "new-vvebsite"
 description: ""
 imported: "true"
+thumb: "vvvveb.png"
 ---
 
 

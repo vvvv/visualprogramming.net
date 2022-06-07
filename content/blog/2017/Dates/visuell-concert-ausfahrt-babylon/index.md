@@ -18,10 +18,11 @@ where:
     lat: "52.504836"
     long: "13.393927"
 imported: "true"
+thumb: "1-Flyer-Kopffar_r.jpg"
 ---
 
 
-![AUSFAHRT BABYLON](1-Flyer-Kopffarben-vorne.jpg) 
+![AUSFAHRT BABYLON](1-Flyer-Kopffar_r.jpg) 
 
 
 This Weekend we will perform our newst production, on the occasion of "BERLIN leuchtet", "AUSFAHRT BABYLON".
@@ -37,7 +38,7 @@ Date: 14 and 15 October 2017
 Start: 19:30 hrs (duration 50 minutes)
 Location: Forum Factory, Besselstrasse 14,10969 Berlin
 
-![AUSFAHRT BABYLON ](3-Flyer-Kopffarben-hinten.jpg) 
+![AUSFAHRT BABYLON ](3-Flyer-Kopffar_r.jpg) 
 
 Am Wochenende ist es endlich soweit: anlässlich "BERLIN leuchtet" zeigen wir unsere jüngste Produktion "AUSFAHRT BABYLON".
 Mit live Musik und Lichtmalerei begeben wir uns auf eine Reise durch den Makrokosmos Stadt.

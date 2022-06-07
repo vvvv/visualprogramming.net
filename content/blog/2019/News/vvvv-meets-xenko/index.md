@@ -6,10 +6,11 @@ title: "vvvv meets Xenko"
 slug: "vvvv-meets-xenko"
 description: ""
 imported: "true"
+thumb: "vvvv_meets_xenk_r.png"
 ---
 
 
-![](vvvv_meets_xenko_2.png) 
+![](vvvv_meets_xenk_r.png) 
 
 For immediate release:
 

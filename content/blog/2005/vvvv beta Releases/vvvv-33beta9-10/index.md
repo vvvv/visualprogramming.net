@@ -11,6 +11,7 @@ release:
     date: "2005-12-22"
     app_file: "sites/default/files/vvvv_beta9.10.zip"
 imported: "true"
+thumb: "moveyourcamdire_r.jpg"
 ---
 
 <!--{SPLIT()}-->
@@ -29,7 +30,7 @@ santa boys.
  
 <!--~~~-->
 
-![](moveyourcamdirectxrenderer0.jpg)
+![](moveyourcamdire_r.jpg)
 
 <!--{SPLIT}-->
 

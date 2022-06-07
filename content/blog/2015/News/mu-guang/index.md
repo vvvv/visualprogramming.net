@@ -7,10 +7,11 @@ slug: "暮光"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "-Renderer_2015._r.png"
 ---
 
 
-![](-Renderer_2015.09.04-15.18.28.png) 
+![](-Renderer_2015._r.png) 
 
 ![](-Renderer_2015.09.04-15.44.51.png) 
 

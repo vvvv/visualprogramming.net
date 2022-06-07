@@ -7,6 +7,7 @@ slug: "two-dimensional-interactivity-in-the-air"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "heliodisplay.jpg"
 ---
 
 

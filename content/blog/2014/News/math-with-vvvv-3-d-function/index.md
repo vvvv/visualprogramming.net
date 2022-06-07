@@ -7,6 +7,7 @@ slug: "math-with-vvvv-3-d-function"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "3dfunction.png"
 ---
 
 

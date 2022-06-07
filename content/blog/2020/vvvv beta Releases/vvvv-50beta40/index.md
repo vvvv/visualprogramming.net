@@ -12,6 +12,7 @@ release:
     app_file: "sites/default/files/vvvv_beta_40.1_x86_setup_0.exe"
     app_file_64: "sites/default/files/vvvv_beta_40.1_x64_setup.exe"
 imported: "true"
+thumb: "beta40-0.png"
 ---
 
 

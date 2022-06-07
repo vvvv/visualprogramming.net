@@ -6,13 +6,14 @@ title: "meanwhile at microdee's lab: RectPack"
 slug: "meanwhile-at-microdees-lab-rectpack"
 description: ""
 imported: "true"
+thumb: "RectPack-Render_r.png"
 ---
 
 
 Yo vvvvellas!
 I decided to write a little devblog here for stuff I'm adding to my packs, because as you could notice I'm not too good with keeping you guys updated about what's going on around my contribs, not anymore! so for start:
 
-![](RectPack-Renderer_2016.12.01-05.31.31.png)
+![](RectPack-Render_r.png)
 
 newest addition to mp.essentials is 2 rectangle packing nodes most obviously used for texture packing to an atlas with 2 different algorithms. RectPack (2d Czachurski) and RectPack (2d ChevyRay). Versions are actually carrying the name of the guys whom I ripped of.
 

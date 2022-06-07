@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![No more trade shows!](Screen%20Shot%202014-03-21%20at%2011.02.36.png) 
+![No more trade shows!](Screen%20Shot%20201_r.png) 
 
 **G'day!** The lovely people at Arterial Design approached me, asking if I can find someone with skills "like mine" who wants to live and work in Melbourne. I did that for a while, and it's a charming place and employer there. The small exhibition and interpretation design studio is looking for someone who:
 

@@ -6,10 +6,11 @@ title: "Binary Search for your Keyframes"
 slug: "binary-search-for-your-keyframes"
 description: ""
 imported: "true"
+thumb: "5ffcbaa004b00ec_r.gif"
 ---
 
 
-![](5ffcbaa004b00ec23abfb71025ebc8a80e2b87e8.gif) 
+![](5ffcbaa004b00ec_r.gif) 
 
 When we talk with our trusted VL pioneers we often find them implementing timeline like applications, which come with the main problem to find the keyframe that is the closest to a given time, often even finding the two closest keyframes and interpolate between them weighted by the position of the current time.
 

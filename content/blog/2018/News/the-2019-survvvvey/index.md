@@ -6,6 +6,7 @@ title: "The 2019 Survvvvey"
 slug: "the-2019-survvvvey"
 description: ""
 imported: "true"
+thumb: "vvvv_3.png"
 ---
 
 

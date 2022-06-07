@@ -17,10 +17,11 @@ where:
     from_date: "1413802800"
     to_date: "1413993600"
 imported: "true"
+thumb: "intolight-bearb_r.jpg"
 ---
 
 
-![](intolight-bearbeitet.jpg) 
+![](intolight-bearb_r.jpg) 
 
 We offer a two day beginner and advanced vvvv based VJ workshop
 Workshop content:

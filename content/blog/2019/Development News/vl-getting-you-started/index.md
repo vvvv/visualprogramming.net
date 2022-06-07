@@ -6,6 +6,7 @@ title: "VL: Getting you started"
 slug: "vl-getting-you-started"
 description: ""
 imported: "true"
+thumb: "gettingstarted.png"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Small changes regarding enums in vvvv"
 slug: "small-changes-regarding-enums-in-vvvv"
 description: ""
 imported: "true"
+thumb: "_26.01.2018-16._r.gif"
 ---
 
 
@@ -33,7 +34,7 @@ The system has less to infer over links (less magic = less unwanted side effects
 Side note:
 
 As the enum encoding changed (in vvvv50beta35.7) and now works with strings, you now are allowed to connect a source of one enum to a sink of another enum:
-![Bingo](_26.01.2018-16.43.10.gif) 
+![Bingo](_26.01.2018-16._r.gif) 
 There just might be cases where this makes sense.
 
 ---

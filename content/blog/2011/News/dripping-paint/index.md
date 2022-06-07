@@ -7,10 +7,11 @@ slug: "dripping-paint"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "gDrip-screensho_r.jpg"
 ---
 
 
-![](gDrip-screenshot.jpg)
+![](gDrip-screensho_r.jpg)
 
 
 Using pixel shader 3.0.

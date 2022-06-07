@@ -6,6 +6,7 @@ title: "vvvv gamma licensing /2"
 slug: "vvvv-gamma-licensing-2"
 description: ""
 imported: "true"
+thumb: "pricing14.png"
 ---
 
 

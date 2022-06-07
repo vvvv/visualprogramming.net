@@ -6,6 +6,7 @@ title: "Last call: Support NODE15"
 slug: "last-call-support-node15"
 description: ""
 imported: "true"
+thumb: "nodecrowd.jpg"
 ---
 
 

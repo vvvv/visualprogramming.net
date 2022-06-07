@@ -7,6 +7,7 @@ slug: "detectfaces"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "GCA.PNG"
 ---
 
 

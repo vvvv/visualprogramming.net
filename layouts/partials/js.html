@@ -8,9 +8,9 @@
 <script src="https://unpkg.com/tippy.js@5"></script>
 
 {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
-<script src="{{ "/js/bootstrap.min.js" | absURL }}"></script>
+<script src="{{"/js/bootstrap.min.js" | relURL}}"></script>
 {{ "<!-- Plugin JavaScript -->" | safeHTML }}
-<script src="{{ "/js/jquery.easing.min.js" | absURL }}"></script>
+<script src="{{"/js/jquery.easing.min.js" | relURL}}"></script>
 
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 {{ $build := resources.Get "js/creative.js" | js.Build "js/creative.js" | minify}}

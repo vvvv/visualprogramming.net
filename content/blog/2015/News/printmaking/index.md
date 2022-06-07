@@ -7,6 +7,7 @@ slug: "printmaking"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "1_10.png"
 ---
 
 

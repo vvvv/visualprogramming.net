@@ -14,7 +14,7 @@ imported: "true"
 ---
 
 
-![](_root_stereogram-DirectX%20Renderer_2010.03.13-00.16.56.jpg)
+![](_root_stereogra_r.jpg)
 
 it is true: on a date without any religious connotation we count up to 23, which is just a prime like any other really.
 

@@ -16,6 +16,7 @@ where:
     from_date: "1582653600"
     to_date: "1582664400"
 imported: "true"
+thumb: "wdr_stage01.jpg"
 ---
 
 

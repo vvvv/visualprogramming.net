@@ -6,6 +6,7 @@ title: "Parasitic Design - M2 out now"
 slug: "parasitic-design-m2-out-now"
 description: ""
 imported: "true"
+thumb: "M2.png"
 ---
 
 
@@ -18,4 +19,4 @@ as promised..
 with personal favorite: M_2_6_01
 
 get the latest pack from:
-{{< contribution "parasitic-design-a-vvvv-beginners-cookbook" >}}
+{{< contribution "parasitic-design-a-vvvv-beginners" >}}

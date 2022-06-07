@@ -16,10 +16,11 @@ where:
     lat: "37.754392"
     long: "-122.418503"
 imported: "true"
+thumb: "grayareafestiva_r.jpg"
 ---
 
 
-![](grayareafestival.jpg)
+![](grayareafestiva_r.jpg)
 
 helo bay area again,
 

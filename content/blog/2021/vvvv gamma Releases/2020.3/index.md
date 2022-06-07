@@ -6,9 +6,10 @@ title: "vvvv gamma 2021.3 release"
 slug: "vvvv-gamma-2021.3-release"
 description: ""
 imported: "true"
+thumb: "bunchofprimitiv_r.png"
 ---
 
-![](bunchofprimitives-850.png)
+![](bunchofprimitiv_r.png)
 
 This is the big one!
 
@@ -46,7 +47,7 @@ What you get with this release is only the beginning: For now we've focused on a
 * **Windowing**: Easy handling of multiple windows (and cameras)
 * **Misc**: Render Skia and HTML content directly onto the screen (ie. no texture-pass needed)
 
-![](patchpreviews840.png) 
+![](patchpreviews84_r.png) 
 *Previewing Materials, Models and Textures right in the patch*
 
 ## Experimental

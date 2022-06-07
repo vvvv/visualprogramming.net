@@ -6,6 +6,7 @@ title: "node13 workshops I"
 slug: "node13-workshops-i"
 description: ""
 imported: "true"
+thumb: "workshops.png"
 ---
 
 

@@ -6,6 +6,7 @@ title: "VL Midsummer Night's Dream"
 slug: "vl-midsummer-nights-dream"
 description: ""
 imported: "true"
+thumb: "signature1.gif"
 ---
 
 

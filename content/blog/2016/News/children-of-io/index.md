@@ -6,6 +6,7 @@ title: "Children of IO"
 slug: "children-of-io"
 description: ""
 imported: "true"
+thumb: "lightbarrier1.jpg"
 ---
 
 

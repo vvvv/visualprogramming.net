@@ -6,6 +6,7 @@ title: "Nomadix2"
 slug: "nomadix2"
 description: ""
 imported: "true"
+thumb: "nomade.jpg"
 ---
 
 

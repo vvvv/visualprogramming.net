@@ -6,6 +6,7 @@ title: "Debug DX11 Frames with RenderDoc"
 slug: "debug-dx11-frames-with-renderdoc"
 description: ""
 imported: "true"
+thumb: "01_Launch.PNG"
 ---
 
 

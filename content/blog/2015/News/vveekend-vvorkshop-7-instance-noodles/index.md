@@ -6,6 +6,7 @@ title: "vveekend vvorkshop 7: Instance Noodles"
 slug: "vveekend-vvorkshop-7-instance-noodles"
 description: ""
 imported: "true"
+thumb: "instancenoodles.png"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Performance and vvvv Patch Commentary"
 slug: "performance-and-vvvv-patch-commentary"
 description: ""
 imported: "true"
+thumb: "ImagineCup.001.jpg"
 ---
 
 

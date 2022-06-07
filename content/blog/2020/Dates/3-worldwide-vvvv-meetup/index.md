@@ -12,6 +12,7 @@ where:
     from_date: "1590508800"
     to_date: "1590508800"
 imported: "true"
+thumb: "Unbenannt.PNG"
 ---
 
 
@@ -59,7 +60,7 @@ Next to texture based animation you can work with 3d geometry in virtual space t
 
 Unfortunately we didn’t had any visitors at Luminale 2020 thanks to corona. So we are waiting for the next change to build it up again. 
 
-![](Binaertransformation.jpg) 
+![](Binaertransform_r.jpg) 
 
 
 
@@ -75,4 +76,4 @@ Location: Argentina
 Andres  is a vvvv user since beta23. Rather than an artist he defines himself as a Maker. With a background in graphic design and electronics, he uses vvvv as a tool for all kind of hardware interactions, VJing, and professional work.  He will show us a few of his projects and experiments made with vvvv,  from fun electronics projects, dmx and pixel mapping, drones + shaders, vjing, and interactive lasers.
 
 
-![](98979186_3393001927395933_4044966651383250944_n.jpg) 
+![](98979186_339300_r.jpg) 

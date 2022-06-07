@@ -6,6 +6,7 @@ title: "Integer and Primitive Types in VL"
 slug: "integer-and-primitive-types-in-vl"
 description: ""
 imported: "true"
+thumb: "01_primitive_ca_r.png"
 ---
 
 
@@ -19,7 +20,7 @@ There are:
 - Char and String for text
 - A few system types like Exception and Object
 
-![](01_primitive_category.png) 
+![](01_primitive_ca_r.png) 
 
 In this article we will focus on the numeric types and which operations VL ships for them.
 
@@ -105,7 +106,7 @@ Checked conversions throw an error if the value to convert exceeds the range of 
 
 The naming scheme of the nodes is To*TargetType* and they are located in the category of the source type. For example a conversion from Integer32 to Byte is called ToByte (Integer32). Unsigned types are abbreviated with an 'U', so a conversion from Float32 to Integer32 (Unsigned) is called ToUInt32 (Float32).
 
-![](03_checked_conversions.png) 
+![](03_checked_conv_r.png) 
 
 
 ###  Unchecked
@@ -114,7 +115,7 @@ Unchecked conversions do not throw errors and just copy appropriate bits from th
 
 Because they directly copy the bits, the naming scheme of the nodes is BitsTo*TargetType* in the category of the source type. For example a conversion from Integer32 to Integer64 (Unsigned) is called BitsToUint64 (Integer32) or a Byte to Char BitsToChar (Byte).
 
-![](03_un_checked_conversions.png) 
+![](03_un_checked_c_r.png) 
 
 
 ##  Type -> String
@@ -137,7 +138,7 @@ Quite helpful when working with low level device protocols and other bitwise ope
 
 Hexadecimal is a compact representation of the bits where one digit can represent 16 values from '0' to 'F' which is 4 bits. You know this probably from html colors. Medium nerdy.
 
-![](03_to_string_conversions.png) 
+![](03_to_string_co_r.png) 
 
 ##  String -> Type
 
@@ -151,7 +152,7 @@ Version to parse hexadecimal strings into a numeric type.
 
 My personal favorite, parsing binary strings. (Didn't you ever want to just type ones and zeroes into your computer?). 
 
-![](03_try_parse_conversions.png) 
+![](03_try_parse_co_r.png) 
 
 # Conclusion
 

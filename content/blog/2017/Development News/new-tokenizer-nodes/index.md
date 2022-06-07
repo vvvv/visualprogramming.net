@@ -6,6 +6,7 @@ title: "New Tokenizer Nodes"
 slug: "new-tokenizer-nodes"
 description: ""
 imported: "true"
+thumb: "tokenizer.png"
 ---
 
 

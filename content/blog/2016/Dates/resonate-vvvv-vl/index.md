@@ -16,6 +16,7 @@ where:
     lat: "44.800706"
     long: "20.447554"
 imported: "true"
+thumb: "1024px-Warp_Bel_r.jpg"
 ---
 
 
@@ -31,6 +32,6 @@ Elliot Woods doing a 1day workshop:
 This workshop will introduce methods for projecting onto dancers, actors, or your audience. 
 (Kinoteka, 14th April, 10AM-6PM) 
 
-![Belgrade](1024px-Warp_Belgrade_Nightscene_April_2012spatial_subset.jpg) 
+![Belgrade](1024px-Warp_Bel_r.jpg) 
 
 EDIT: "Manipulating Light to Transform Reality" is not happening this year.

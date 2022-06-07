@@ -7,6 +7,7 @@ slug: "glitzi"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "_MG_8580.jpg"
 ---
 
 

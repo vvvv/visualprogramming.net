@@ -6,6 +6,7 @@ title: "vvvv at CeBIT 2013"
 slug: "vvvv-at-cebit-2013"
 description: ""
 imported: "true"
+thumb: "20130305_153334.jpg"
 ---
 
 
@@ -25,7 +26,7 @@ realized by [m-box](http://m-box.de) with {{< user "ceeyaa" >}} and {{< user "la
 Telekom, hall 4
 
 ### Videochat
-![](IMG_20130304_140255.jpg) 
+![](IMG_20130304_14_r.jpg) 
 A mega video chat for two speakers demonstrating interactive collaboration.
 2 synchronized setups with each:
 * 3840x1080 output on a 8 screen video wall with 5m length.

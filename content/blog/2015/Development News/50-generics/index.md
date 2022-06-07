@@ -6,6 +6,7 @@ title: "50: Generics"
 slug: "50-generics"
 description: ""
 imported: "true"
+thumb: "old-zips.png"
 ---
 
 
@@ -13,16 +14,17 @@ helo patchers,
 
 here is the fourth in a series of blogposts about our forthcoming nextbigthing that we still call vvvv50 (50). If you haven't already done so please first read the previous issues with the titles:
 
-# [50: That-Next-Big-Thing.-An-Overview.](/blog/2014/50-that-next-big-thing.-an-overview.)
-# [50: Colors](/blog/2014/50-colors)
-# [50: Properties](/blog/2014/50-properties)
+1. [50: That-Next-Big-Thing.-An-Overview.](/blog/2014/50-that-next-big-thing.-an-overview.)
+2. [50: Colors](/blog/2014/50-colors)
+3. [50: Properties](/blog/2014/50-properties)
  
 {{< box >}}
 Note:All information given here is still preliminary and subject to change.{{< /box >}}
 
 So "Generics", uff, sounds so serious, I know. Still we have to mention them now because it will help you understand things further down the road. And you'll be surprised how easy the concept is to grasp. Promised.
 
-## No generics in 45
+## No generics in 45
+
 In vvvv45 (45) we don't have generic nodes. What we have instead is a lot of identical nodes like eg. "Zip" available for different datatypes. There is a Zip (Value), a Zip (String), a Zip (Color)... and the nodebrowser is full of such duplicates for a lot of nodes, like GetSlice, Select, Queue,... all of which are nodes where the operation they do for us is actually independent of the datatype they handle. We can call such operations "generic" in the sense that if for example you think of the functionality of a Zip it is not really important to know whether it zips slices of a spread of strings or a spread of colors. Easy? Yep.
 
 ![](old-zips.png) 
@@ -30,15 +32,18 @@ In vvvv45 (45) we don't have generic nodes. What we have instead is a lot of ide
 
 Only recently we've introduced a way for plugin developers to easily create duplicates of those generic nodes for their own datatypes but that is really only a workaround to the fact that we don't have support for generics built right into 45. Still better than nothing, see: [generic-nodes](https://betadocs.vvvv.org/devvvveloping/plugins/advanced-topics/generic-nodes.html).
 
-## Generics in 50
+## Generics in 50
+
 Now when we say 50 has support for generics we can advertise that in two ways:
 
-### For the casual patcher
+### For the casual patcher
+
 First, the nodebrowser will have less nodes to choose from because it can leave out many duplicates (well, it will have many more other nodes but at least no datatype-duplicates). If you want a Zip you don't have to decide for which type you want it. Just place it in the patch, connect anything to it and you're done. 50 will figure out what you mean. 
 ![](zips50.png)
 *In a 50 patch a zip is a zip is a zip and you can connect any datatype to it. So in this example the left zip is forced to operate on values and the right zip is forced to operate on colors only.*
 
-### For the pro patcher
+### For the pro patcher
+
 Secondly (and this is probably a bit more abstract to wrap your head around, but please try:) when you patch an operation you can be unspecific about the datatypes of its inputs and outputs. Sounds exciting? Here is an example: Consider someone patched the functionality of a Queue. This is what it could look like in 45 and 50:
 
 ![](generica.png) 

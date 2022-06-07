@@ -6,6 +6,7 @@ title: "VL: The big IOBox update"
 slug: "vl-the-big-iobox-update"
 description: ""
 imported: "true"
+thumb: "outboxes.png"
 ---
 
 

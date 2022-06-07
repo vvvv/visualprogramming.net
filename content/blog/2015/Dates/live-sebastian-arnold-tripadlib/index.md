@@ -19,10 +19,11 @@ where:
     lat: "52.516300"
     long: "13.466720"
 imported: "true"
+thumb: "SebastianArnold_r.jpg"
 ---
 
 
-![](SebastianArnold_11Apr.jpg)
+![](SebastianArnold_r.jpg)
 
 <https://www.facebook.com/events/445919078890297/>
 

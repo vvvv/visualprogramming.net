@@ -17,6 +17,7 @@ where:
     from_date: "1394226000"
     to_date: "1394251200"
 imported: "true"
+thumb: "CMflyCM31.jpg"
 ---
 
 

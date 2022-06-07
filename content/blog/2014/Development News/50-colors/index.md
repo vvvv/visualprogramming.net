@@ -6,6 +6,7 @@ title: "50: Colors"
 slug: "50-colors"
 description: ""
 imported: "true"
+thumb: "45.png"
 ---
 
 

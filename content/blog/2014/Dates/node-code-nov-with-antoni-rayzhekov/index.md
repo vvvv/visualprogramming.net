@@ -14,6 +14,7 @@ where:
     from_date: "1415898000"
     to_date: "1415898000"
 imported: "true"
+thumb: "Nodecode6-web-6_r.jpg"
 ---
 
 
@@ -21,7 +22,7 @@ imported: "true"
 {{< box >}}
 Next NODE+CODE talk in Frankfurt with artist and new media hacker and Choreographic Coding Lab  participant (http://www.choreographiccoding.org) Antoni Rayzhekov about biometric sonification, motion tracking and digital scenography.{{< /box >}}
 
-![](Nodecode6-web-640px-426px-v2.jpg) 
+![](Nodecode6-web-6_r.jpg) 
 
 
 {{< box >}}quote:Antoni:
@@ -32,7 +33,7 @@ Antoni Rayzhekov is a Bulgarian theater maker, composer and new media hacker –
 {{< box >}}quote:Antoni:
 My work is focused on exploring synergies between generative music, contemporary performance and participatory art by designing reactive audio visual platforms that amplify different aspects of the performer and the performance itself as an attempt to communicate the invisible.{{< /box >}}
 
-![](10VE-Sequence_for_two-Work_In_Progress-ATALAIA_Artes-Antony_Raijekov-Katharina_Koeller-201408.jpg) 
+![](10VE-Sequence_f_r.jpg) 
 
 ---
 Free entrance, be on time! See you in Frankfurt. We hope you can make it.

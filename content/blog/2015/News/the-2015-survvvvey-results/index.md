@@ -6,6 +6,7 @@ title: "The 2015 Survvvvey - Results"
 slug: "the-2015-survvvvey-results"
 description: ""
 imported: "true"
+thumb: "TheVVVVUser.png"
 ---
 
 

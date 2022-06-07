@@ -18,10 +18,11 @@ where:
     lat: "48.305695"
     long: "14.289456"
 imported: "true"
+thumb: "a_k-102_Lilo_be_r.jpg"
 ---
 
 
-![](a_k-102_Lilo_bei_Dombach_St._Peuerbach_-_Linz_a._d._Donau_20.06.1986_ET_22.jpg) 
+![](a_k-102_Lilo_be_r.jpg) 
 
 We are kindly inviting everybody interested in VVVV to our regular patcher meet up in Linz. Our plan is to meet every two weeks and discuss more or less advanced topics of VVVV. Most likely a little bit of beer will be involved, too.
 

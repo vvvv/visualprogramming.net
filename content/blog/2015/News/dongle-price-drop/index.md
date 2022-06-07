@@ -6,6 +6,7 @@ title: "Dongle Price Drop"
 slug: "dongle-price-drop"
 description: ""
 imported: "true"
+thumb: "dongle.png"
 ---
 
 

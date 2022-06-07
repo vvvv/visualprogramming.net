@@ -15,7 +15,7 @@ imported: "true"
 ---
 
 
-![](Screenshot%202021-03-01%20164309%20cropped.png) 
+![](Screenshot%202021_r.png) 
 
 When it comes to timelines and tools to create data narratives vvvv never offered many options. Kairos is not only a tool to finally address this need. It also introduces a vast range of possibilities for managing live data and controlling your applications.
 Starting from the comprehension of the very essence of kairos principles, we’ll then familiarize with the library node set and patch together some use case scenarios.

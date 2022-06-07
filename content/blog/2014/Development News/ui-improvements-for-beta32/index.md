@@ -6,6 +6,7 @@ title: "UI improvements for beta32"
 slug: "ui-improvements-for-beta32"
 description: ""
 imported: "true"
+thumb: "inlets.png"
 ---
 
 

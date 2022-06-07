@@ -6,6 +6,7 @@ title: "VL: The Application Side of Things"
 slug: "vl-the-application-side-of-things"
 description: ""
 imported: "true"
+thumb: "Ape_defintions.jpg"
 ---
 
 

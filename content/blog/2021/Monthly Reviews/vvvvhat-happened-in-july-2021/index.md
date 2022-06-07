@@ -6,6 +6,7 @@ title: "vvvvhat happened in July 2021"
 slug: "vvvvhat-happened-in-july-2021"
 description: ""
 imported: "true"
+thumb: "fuse2.jpg"
 ---
 
 So where are we?

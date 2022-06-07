@@ -6,6 +6,7 @@ title: "The 2019 Survvvvey - Results"
 slug: "the-2019-survvvvey-results"
 description: ""
 imported: "true"
+thumb: "Survey2019_bloc_r.png"
 ---
 
 
@@ -13,7 +14,7 @@ Thanks everyone,
 
 for filling out this years survvvvey! Judging from the responses it looks like some of you even did twice or thrice! What can we say... Anyway, since we've [done this before](/blog/2015/the-2015-survvvvey-results) this time we can compare to the previous results and in general we can say you're pretty stable. As you'll see, answers are in most cases roughly the same as last time, which i think adds to the credibility of the numbers overall. So here are your results with added attempts of interpretation and a few comments.
 
-![](Survey2019_block0_2.png)
+![](Survey2019_bloc_r.png)
 
 ## Who you are
 Most likely you're a german speaking male, living in germany, in your early thirties and labeling yourself an artist, rather than a developer or designer. You're considering yourself an intermediate user and are using vvvv every week.

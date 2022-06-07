@@ -17,6 +17,7 @@ where:
     from_date: "1305784800"
     to_date: "1306072800"
 imported: "true"
+thumb: "3971040005_0741_r.jpg"
 ---
 
 
@@ -35,6 +36,6 @@ Please spread the word and hope to see you there!
 Lovvvve,
 Defetto
 
-![Untitled](3971040005_07413f22a9.jpg) 
+![Untitled](3971040005_0741_r.jpg) 
 
 

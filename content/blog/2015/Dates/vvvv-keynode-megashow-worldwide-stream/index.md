@@ -14,10 +14,11 @@ where:
     lat: "52.520007"
     long: "13.404954"
 imported: "true"
+thumb: "8469627557_8447_r.jpg"
 ---
 
 
-![](8469627557_84477ef7e8_c.jpg) 
+![](8469627557_8447_r.jpg) 
 
 The megashow of the latest and greates vvvv developments is streaming into the world!
 

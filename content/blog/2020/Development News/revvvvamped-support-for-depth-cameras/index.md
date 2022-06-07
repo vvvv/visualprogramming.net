@@ -6,17 +6,18 @@ title: "Revvvvamped support for Depth Cameras"
 slug: "revvvvamped-support-for-depth-cameras"
 description: ""
 imported: "true"
+thumb: "Kameras-without_r.png"
 ---
 
 
-![](Kameras-withoutWall-bright3.png)
+![](Kameras-without_r.png)
 *Still life with cactus*
 
 In a quest to get more basic things working out of the box with VL (ie. using vvvv beta>=40 or the all-new [vvvv gamma](http://visualprogramming.net)), we took on to support your favorite depth cameras. Most of the cameras and their APIs share basically the same features as a baseline and then some of them have a few extra features. This means that using them in vvvv works mostly the same for all of them. 
 
 You have the main device node that you connect ColorImage, DepthImage, PointCloud, Skeleton,... nodes to, to get the desired info out of them. See the help patches coming with the packs for details.
 
-![](kinect2-nodesjpg.jpg)
+![](kinect2-nodesjp_r.jpg)
 
 Here is a list and comparison of all available depth cameras with links to the respective packs on nuget.org. To learn how to use nuget packs with vvvv please watch [HowTo use Nugets](https://youtu.be/-U_kUQ3VDog).
 

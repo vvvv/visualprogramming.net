@@ -6,6 +6,7 @@ title: "NODE17 - Book your workshops"
 slug: "node17-book-your-workshops"
 description: ""
 imported: "true"
+thumb: "book.png"
 ---
 
 

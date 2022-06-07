@@ -6,6 +6,7 @@ title: "vvvvhat happened in February 2016"
 slug: "vvvvhat-happened-in-february-2016"
 description: ""
 imported: "true"
+thumb: "screenshot14562_r.png"
 ---
 
 only 29 days,
@@ -30,7 +31,7 @@ and if i'm interpreting [these](/blog/strong-typing-made-easy) [latest](/blog/ge
 ## Oldies but goldies
 
 already more than 3 years old the {{< contribution "vvvv.packs.image" "CV.Image pack" >}} by {{< user "elliotwoods" >}} is still the one to choose when doing anything computer-vision. and it seems {{< user "sebl" >}} has a great addition to it in the making: looks like a spreadable input for uEye cameras..
-![](screenshot1456265234.png) 
+![](screenshot14562_r.png) 
 
 
 ## Gallery
@@ -47,7 +48,7 @@ and some people apparently are simply to lazy to post their stuff and i have to 
 
 also {{< user "tekcor" >}} sent in his latest work, a hybrid system of vvvv and vvvv.js. he writes: [MixBot](http://www.symbioticcube.com/MixBot) is a Web Audio API DJ mixer with advanced effects and logarithmic waveforms where vvvv on the server does the CMS creates the waveforms via VAudio and vvvv.js does the UI client-side.
 
-![](MixBotBeta_fb_meta.jpg)
+![](MixBotBeta_fb_m_r.jpg)
 *MixBot*
 
 ## Education

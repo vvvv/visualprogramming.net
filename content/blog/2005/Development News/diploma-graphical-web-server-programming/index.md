@@ -6,6 +6,7 @@ title: "diploma: graphical web server programming"
 slug: "diploma-graphical-web-server-programming"
 description: ""
 imported: "true"
+thumb: "imgforwiki.gif"
 ---
 
 

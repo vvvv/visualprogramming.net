@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![16th](Screenshot%202022-01-24%20113611.png) 
+![16th](Screenshot%202022_r.png) 
 
 We're meeting up on **January 25th, 8pm CET** to catch up and get insights into what everyone is patching on. How will this work? Something like [the ususal :)](https://www.youtube.com/playlist?list=PL2KeRstDQVRQUgSEa604MaS3HtA8UgPUt). So please fill up your bucket of popcorn and invite all your vvvvriends and vvvvamily to join us!
 

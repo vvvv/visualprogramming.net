@@ -6,6 +6,7 @@ title: "vvvv in numbers 2015"
 slug: "vvvv-in-numbers-2015"
 description: ""
 imported: "true"
+thumb: "countries.png"
 ---
 
 

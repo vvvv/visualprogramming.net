@@ -6,6 +6,7 @@ title: "vvvv gamma 2019.2 - preview"
 slug: "vvvv-gamma-2019.2-preview"
 description: ""
 imported: "true"
+thumb: "vvvv2019-2.png"
 ---
 
 

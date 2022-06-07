@@ -6,10 +6,11 @@ title: "DirectX 11 Beta 31.2 Update"
 slug: "directx-11-beta-31.2-update"
 description: ""
 imported: "true"
+thumb: "LineBatch-Rende_r.png"
 ---
 
 
-![](LineBatch-Renderer_2013.12.02-14.45.05.png) 
+![](LineBatch-Rende_r.png) 
 
 Latest build for DirectX11 and beta31.2
 

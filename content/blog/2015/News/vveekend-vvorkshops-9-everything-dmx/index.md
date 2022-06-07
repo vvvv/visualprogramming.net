@@ -7,6 +7,7 @@ slug: "vveekend-vvorkshops-9-everything-dmx"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "everythingdmx.jpg"
 ---
 
 

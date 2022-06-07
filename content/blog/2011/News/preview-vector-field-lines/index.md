@@ -9,5 +9,5 @@ originalType: "stuff"
 ---
 
 
-![](i%20am%20from%20still%20beta2.png) 
+![](i%20am%20from%20still_r.png) 
 i am from still beta

@@ -6,6 +6,7 @@ title: "vvvvhat happened in October 2021"
 slug: "vvvvhat-happened-in-october-2021"
 description: ""
 imported: "true"
+thumb: "gk.jpg"
 ---
 
 So, 

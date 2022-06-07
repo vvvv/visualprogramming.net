@@ -26,7 +26,7 @@ In October 2018 I was diagnosed with Leukemia (B-ALL) han have been through trea
 In Denmark you can access all your medical data and is automatically collected on the common "sundhedsplatform" that all citizens have access to, where they can see their own data.
 
 Seeing as a Patient in this treatment, the quite often daily blood tests are very important. After a while I could see some possibilities in using these data, it became obvious when I looked at the graph view of several of the blood parameters, here you can see Heamoglobin.
-![Heamoglobin levels over time](Haemoglobin%202021-11-18%20134723.png)
+![Heamoglobin levels over time](Haemoglobin%20202_r.png)
 
 The workshop will take a subset of my blood data as starting point to see how it can be visualized/Sonified or whatever. It is of course also possible to use you own data if you have some interesting phenomenon you would like to explore.
 

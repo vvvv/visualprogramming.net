@@ -12,10 +12,11 @@ release:
     app_file: "sites/default/files/vvvv_45beta33.7_x86.zip"
     app_file_64: "sites/default/files/vvvv_45beta33.7_x64.zip"
 imported: "true"
+thumb: "screenshot14203_r.png"
 ---
 
 
-![](screenshot1420321186.png)
+![](screenshot14203_r.png)
 *ALT+T*
 
 helohelo,

@@ -16,6 +16,7 @@ where:
     lat: "52.500170"
     long: "13.561710"
 imported: "true"
+thumb: "quasonus.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ title: "vvvvhat happened in November 2017"
 slug: "vvvvhat-happened-in-november-2017"
 description: ""
 imported: "true"
+thumb: "vvvv-academy_lo_r.jpg"
 ---
 
 
@@ -23,7 +24,7 @@ looking for a vvvv job in london? have a look at this fine [offer by YR](https:/
 
 ## vvvv Academy
 
-![](vvvv-academy_logo.jpg) 
+![](vvvv-academy_lo_r.jpg) 
 
 {{< user "dominikKoller" >}} is doing it again! coming january there'll be another vvvv beginners course at our office in berlin. please help us promoting the course by spreading the following two blog-posts that include all the necessary informations:
 * [vvvv Academy Winter Course 2018](/blog/2017/vvvv-academy-winter-course-2018)

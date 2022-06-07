@@ -6,10 +6,11 @@ title: "VL Type Browser now in alpha builds"
 slug: "vl-type-browser-now-in-alpha-builds"
 description: ""
 imported: "true"
+thumb: "TypeBrowserAlph_r.png"
 ---
 
 
-![](TypeBrowserAlpha.png) 
+![](TypeBrowserAlph_r.png) 
 
 The winner of the [VL feature voting](/blog/2015/vl-feature-voting) is now available in the [alpha builds](https://vvvv.org/downloads/previews).
 

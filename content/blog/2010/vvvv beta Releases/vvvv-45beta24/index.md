@@ -11,6 +11,7 @@ release:
     date: "2010-09-15"
     app_file: "sites/default/files/vvvv_45beta24.zip"
 imported: "true"
+thumb: "45beta24.png"
 ---
 
 

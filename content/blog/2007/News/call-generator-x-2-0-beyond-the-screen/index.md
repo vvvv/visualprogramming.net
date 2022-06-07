@@ -6,6 +6,7 @@ title: "Call - Generator.x 2.0: Beyond the Screen"
 slug: "call-generator.x-2.0-beyond-the-screen"
 description: ""
 imported: "true"
+thumb: "071127_gx20_len_r.jpg"
 ---
 
 
@@ -16,7 +17,7 @@ imported: "true"
 **24 Jan -­ 2 Feb 2008, Ballhaus Naunynstrasse / [DAM Berlin](http://www.dam-berlin.de/)**
 **Workshop / Exhibition / Performance**
 
-![](071127_gx20_lennyjpg.jpg)
+![](071127_gx20_len_r.jpg)
 Leander Herzog: [thePhysicalVertexBuffer](http://flickr.com/photos/lennyjpg/sets/72157600959814957/)
 
 <strong>Generator.x in collaboration with [Club Transmediale](http://clubtransmediale.de) and [DAM Berlin](http://www.dam-berlin.de/) presents Generator.x 2.0: Beyond the screen, a workshop and exhibition about digital fabrication and generative systems.</strong>
@@ -25,7 +26,7 @@ Digital fabrication (also known as “fabbing”) represents the next step in th
 
 For artists and designers working with generative systems, digital fabrication opens the door to a range of new expressions beyond the limits of virtual space. Parametric models apply computational strategies to the analysis and synthesis of space, producing structures and surfaces of great complexity. Through fabbing these forms may be rendered tangible, even tactile.
 
-![](071127_gx20_jaredtarbell.jpg)
+![](071127_gx20_jar_r.jpg)
 Jared Tarbell: <http://flickr.com/photos/generated/1165678242/in/set-72157601083923263/>Spheroids and cubes</a>
 
 

@@ -14,7 +14,7 @@ imported: "true"
 ---
 
 
-![](_NODE10-DirectX%20Renderer.png) 
+![](_NODE10-DirectX_r.png) 
 
 bug.
 fix.

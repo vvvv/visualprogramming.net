@@ -6,6 +6,7 @@ title: "vvvv gamma webinars in June"
 slug: "vvvv-gamma-webinars-in-june"
 description: ""
 imported: "true"
+thumb: "webinars.png"
 ---
 
 

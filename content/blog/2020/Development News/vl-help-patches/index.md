@@ -6,6 +6,7 @@ title: "VL: Help Patches"
 slug: "vl-help-patches"
 description: ""
 imported: "true"
+thumb: "helpfound.png"
 ---
 
 
@@ -34,7 +35,7 @@ Shows some info about the node plus 3 lists of how-to patches this node is used 
 - still relevant
 - list of other patches using this node (automatically generated)
 
-![](findinghelp-dd8fd.png) 
+![](findinghelp-dd8_r.png) 
 
 This should increase the chance of finding good info about how a node can be used in different scenarios.
 

@@ -16,6 +16,7 @@ where:
     lat: "51.507033"
     long: "-0.112610"
 imported: "true"
+thumb: "1236529_6359103_r.jpg"
 ---
 
 
@@ -23,4 +24,4 @@ Finally the long preparation for this project will result in the actual event: w
 
 http://www.youtube.com/watch?v=zy2FfMp_tSQ
 
-![title](1236529_635910393108647_829524964_n.jpg) 
+![title](1236529_6359103_r.jpg) 

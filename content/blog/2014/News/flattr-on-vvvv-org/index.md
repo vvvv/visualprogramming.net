@@ -6,6 +6,7 @@ title: "flattr on vvvv.org"
 slug: "flattr-on-vvvv.org"
 description: ""
 imported: "true"
+thumb: "fltr_user1.png"
 ---
 
 
@@ -29,7 +30,7 @@ hola. you may already have seen the little flattr icon next to a user in the for
 <!--{SPLIT()}-->
 * **contributions** by hovering their uploader with the mouse and then pressing the green flattr button
 <!--~~~-->
-![](fltr_contribution2.png)  
+![](fltr_contributi_r.png)  
 <!--{SPLIT}-->
 
 <!--{SPLIT()}-->

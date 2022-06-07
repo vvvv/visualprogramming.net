@@ -7,6 +7,7 @@ slug: "looki-what-i-found-lurking-on-an-old-hd"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "box2.jpg"
 ---
 
 

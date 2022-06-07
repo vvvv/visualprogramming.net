@@ -7,6 +7,7 @@ slug: "audioreactive-patching"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "StarMayhem1.jpg"
 ---
 
 

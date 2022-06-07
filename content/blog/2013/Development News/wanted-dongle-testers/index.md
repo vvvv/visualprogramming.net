@@ -6,6 +6,7 @@ title: "wanted: dongle testers"
 slug: "wanted-dongle-testers"
 description: ""
 imported: "true"
+thumb: "dongle.png"
 ---
 
 

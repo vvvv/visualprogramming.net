@@ -10,4 +10,4 @@ originalType: "stuff"
 ---
 
 
-![dofplay](vvvv%202012-04-12%2010-51-39-37.jpg) 
+![dofplay](vvvv%202012-04-12_r.jpg) 

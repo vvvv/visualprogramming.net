@@ -6,6 +6,7 @@ title: "vvvv in numbers 2013"
 slug: "vvvv-in-numbers-2013"
 description: ""
 imported: "true"
+thumb: "access.png"
 ---
 
 
@@ -87,7 +88,7 @@ note to self: consider disabling vvvv.org for ips from the usa. their webaccess:
 
 but most importantly the blue line has an upward trend again which is not least because of [the Quad](http://www.tinkersoup.de/?ActionCall=WebActionArticleSearch&Params%5bproducer%5d=28) sales. 
 
-![](Diagrams-DirectX%20Renderer_2014.01.02-00.23.53.png) 
+![](Diagrams-Direct_r.png) 
 so we bow to the contributors of this trend and want to challenge everyone to keep it that way. in this regard simply only more is more. and also don't just buy all your licenses at the end of the year when you have money left or get an email from us. just make sure your licenses are paid the day your project launches. kids..
 
 so weit. thanks for listening. thanks for your contributions. thanks for reporting bugs. thanks for using vvvv. and if everything goes according to our non-existing plan this year we should see some strange developments for vvvv. more soon™. 

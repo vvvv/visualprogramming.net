@@ -6,6 +6,7 @@ title: "vvvvhat happened in August 2019"
 slug: "vvvvhat-happened-in-august-2019"
 description: ""
 imported: "true"
+thumb: "texturefx.gif"
 ---
 
 

@@ -6,6 +6,7 @@ title: "VL: XML and JSON nodes"
 slug: "vl-xml-and-json-nodes"
 description: ""
 imported: "true"
+thumb: "xml-json2.png"
 ---
 
 

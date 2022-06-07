@@ -6,6 +6,7 @@ title: "Request a vvvv demo!"
 slug: "request-a-vvvv-demo"
 description: ""
 imported: "true"
+thumb: "vvvv-tour.png"
 ---
 
 

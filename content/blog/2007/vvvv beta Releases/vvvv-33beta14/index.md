@@ -11,6 +11,7 @@ release:
     date: "2007-12-13"
     app_file: "sites/default/files/vvvv_33beta14.zip"
 imported: "true"
+thumb: "timeliner.jpg"
 ---
 
 

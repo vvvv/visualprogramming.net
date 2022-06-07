@@ -6,6 +6,7 @@ title: "VL: Xenko 3D Engine Update #1"
 slug: "vl-xenko-3d-engine-update-1"
 description: ""
 imported: "true"
+thumb: "10_RootScene.PNG"
 ---
 
 
@@ -49,7 +50,7 @@ Now let's finish our little scene by adding a floor plane and a box:
 ![](40_MiniScene.PNG)
 
 There you have it, doesn't it look nice?
-![](50_MiniSceneOutput2.PNG) 
+![](50_MiniSceneOut_r.PNG) 
 
 ###  Next Demo
 If you want to see more vl/xenko in action, join us at the next vvvv meetup where we will give a bit more insight into the current state of the library: [vvvv meetup #5](/blog/2018/5-berlin-vvvv-meetup)

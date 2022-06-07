@@ -6,6 +6,7 @@ title: "Introducing: The Store"
 slug: "introducing-the-store"
 description: ""
 imported: "true"
+thumb: "vvvv-store3-3.png"
 ---
 
 

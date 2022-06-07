@@ -19,6 +19,7 @@ where:
     lat: "51.344600"
     long: "12.379875"
 imported: "true"
+thumb: "Image00002.jpg"
 ---
 
 
@@ -51,7 +52,7 @@ David Gann studied biology and interface art and is working as a artist, develop
 
 
 
-![FBM Noise](fBm_domainDistortion.jpg) 
+![FBM Noise](fBm_domainDisto_r.jpg) 
 
 
 

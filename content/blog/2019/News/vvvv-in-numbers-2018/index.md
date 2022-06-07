@@ -6,6 +6,7 @@ title: "vvvv in numbers 2018"
 slug: "vvvv-in-numbers-2018"
 description: ""
 imported: "true"
+thumb: "dailynewtopics2_r.jpg"
 ---
 
 
@@ -21,7 +22,7 @@ did you fall asleep yet? how about instead we offer you a peek at your favorite 
 kinect, dx11, kinect2, particles, shader, line, integer value, leap, camera, arduino, multiscreen, spout, artnet, arduino rs, timeline, fbx, superphysical, dmx, unity, midi, boygroup, leap motion, fieldtrip, opencv, linux, video, box2d, hap, ndi, ggx, sli, osc, tuio, girlpower, pipet, tracking{{< /box >}}
 note: terms are listed in order of frequency, where "kinect" is curiously about 3 times ahead of the follow-up "dx11". the rest is rather evenly distributed. i'm only a bit concerned about that "integer value"...
 
-![](dailynewtopics2018-1.jpg) 
+![](dailynewtopics2_r.jpg) 
 *daily new forum topics between jannuary 1st and december 31st 2018*
 
 overall it seems 2018 was a rather stagnant year for vvvv.org as we can also see from the graph above depicting the number of new daily topics on the forum. nothing we'll be able to impress our investors with... but can you blame yourself? the same old website for over 10 years now. wish i could tell you about what's brewing, but i'm afraid, we've signed an NDA with ourselves...
@@ -38,7 +39,7 @@ addons | 10.700 | 14.400 | 18.800 | 29.000 | 28.500 | 25.200| 19.400 | 21.400 | 
 don't be fooled by the spike: certainly the high download-counts can mostly be attributed to the fact that we also had the highest number of relases this year. but then if you take the ratio addons/core you'll see that the number of serious users (those with addons) keeps slightly decreasing...
 
 # licenses
-![](licensesanddongles2018-1.png)
+![](licensesanddong_r.png)
 
 boom. and still. despite the rather modest numbers shown above, arguably one of the more important numbers went up again. 2018 brought us the 3rd best result in terms of licenses and dongles sold. so let's see who contributed to this:
 

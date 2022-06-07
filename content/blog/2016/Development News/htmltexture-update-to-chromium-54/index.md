@@ -6,6 +6,7 @@ title: "HTMLTexture update to Chromium 54"
 slug: "htmltexture-update-to-chromium-54"
 description: ""
 imported: "true"
+thumb: "Chromium54.png"
 ---
 
 

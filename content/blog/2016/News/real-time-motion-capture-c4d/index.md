@@ -7,10 +7,11 @@ slug: "real-time-motion-capture- -c4d"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "Realtime_captur_r.PNG"
 ---
 
 
-![i am from Japan](Realtime_capture.PNG) 
+![i am from Japan](Realtime_captur_r.PNG) 
 
 Sending Kinect real-time motion capturing data from vvvv to Cinema4D, using fOSC.
 Things on vvvv are going well, but playing around with skinning and bone animation on C4d was quite stressing.

@@ -15,7 +15,7 @@ Here is to inform you about an update to general File input/output in VL availab
 
 We noticed that even though obviously you'll often want file io to be non-blocking, there are cases where blocking makes sense. So we now give you the following:
 
-![](callmenames-Root-Blocking%20Reader.png)
+![](callmenames-Roo_r.png)
 *FileReader, FileReader (String), JSONReader, XMLReader*
 
 ![](callmenames-Root-Blocking%20Writer.png)
@@ -62,7 +62,7 @@ In case you want to react to an error in your patch we again have to differentia
 
 The solution for the blocking case involves using the *experimental* `Try (Control)` region and looks like this:
 
-![](SplitterTester-Root_2018.06.22-17.29.31.gif)
+![](SplitterTester-_r.gif)
 *The experimental Try region catches the error that occured*
 
 ## Non-Blocking

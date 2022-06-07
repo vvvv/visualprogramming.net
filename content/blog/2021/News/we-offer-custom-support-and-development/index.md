@@ -6,10 +6,11 @@ title: "We Offer Custom Support and Development"
 slug: "we-offer-custom-support-and-development"
 description: ""
 imported: "true"
+thumb: "vvvv-CustomSupp_r.jpg"
 ---
 
 
-![](vvvv-CustomSupport.jpg) 
+![](vvvv-CustomSupp_r.jpg) 
 
 {{< box >}}
 **You're using vvvv in a commercial project and need a hand?**

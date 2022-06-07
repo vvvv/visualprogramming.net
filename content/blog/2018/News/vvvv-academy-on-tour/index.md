@@ -6,6 +6,7 @@ title: "vvvv Academy on Tour"
 slug: "vvvv-academy-on-tour"
 description: ""
 imported: "true"
+thumb: "vvvv-academy_lo_r.png"
 ---
 
 
@@ -29,5 +30,5 @@ What's in it for you?
 
 Please let us know your thoughts and questions. If you're interested please get in touch via [dominik@vvvv.academy](mailto:dominik@vvvv.academy)
 
-![vvvvAcademyLogo](vvvv-academy_logo_quarter.png) 
+![vvvvAcademyLogo](vvvv-academy_lo_r.png) 
 

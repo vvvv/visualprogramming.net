@@ -6,6 +6,7 @@ title: "VL Winter Update"
 slug: "vl-winter-update"
 description: ""
 imported: "true"
+thumb: "canvas.png"
 ---
 
 

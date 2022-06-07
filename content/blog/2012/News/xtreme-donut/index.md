@@ -7,6 +7,7 @@ slug: "xtreme-donut"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "vamp01.jpg"
 ---
 
 

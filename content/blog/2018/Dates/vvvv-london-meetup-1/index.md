@@ -15,10 +15,11 @@ where:
     from_date: "1541700000"
     to_date: "1541710800"
 imported: "true"
+thumb: "0_2018.11.06-13_r.png"
 ---
 
 
-![](0_2018.11.06-13.18.04.png)
+![](0_2018.11.06-13_r.png)
 
 London peeps!
 

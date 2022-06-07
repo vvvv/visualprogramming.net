@@ -6,6 +6,7 @@ title: "Start learning programming with vvvv"
 slug: "start-learning-programming-with-vvvv"
 description: ""
 imported: "true"
+thumb: "node13.jpg"
 ---
 
 

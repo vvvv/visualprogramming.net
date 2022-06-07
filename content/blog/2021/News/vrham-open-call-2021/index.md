@@ -6,6 +6,7 @@ title: "VRHAM! Open Call 2021"
 slug: "vrham-open-call-2021"
 description: ""
 imported: "true"
+thumb: "vrham.jpg"
 ---
 
 

@@ -7,6 +7,7 @@ slug: "ars-cluster"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "really.png"
 ---
 
 

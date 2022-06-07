@@ -6,6 +6,7 @@ title: "Arduino Second Service"
 slug: "arduino-second-service"
 description: ""
 imported: "true"
+thumb: "vvvv-Firmata-Ar_r.gif"
 ---
 
 
@@ -13,7 +14,7 @@ imported: "true"
 From now on: **[Firmata Second Service](/blog/2016/firmata-second-service).**
 
 #  
-![](vvvv-Firmata-Arduino.gif) 
+![](vvvv-Firmata-Ar_r.gif) 
 
 
 Good news everyone, from now on you're getting a brand new set of nodes able to talk to your loaded-with-firmata Arduino Boards:
@@ -27,7 +28,7 @@ Good news everyone, from now on you're getting a brand new set of nodes able to 
 
 Together with {{< user "jens.a.e" >}} (author of the original {{< node "Arduino (Devices StandardFirmata 2.x)" >}} ) we've looked for a more convenient, easier and faster way to patch Arduino related ahhmm... patches.
 
-![](vvvv-Firmata-Arduino3.png) 
+![](vvvv-Firmata-Ar_r.png) 
 
 #### With this implementation:
 * Just plug a **DigitalWrite (Firmata)**, **AnalogWrite (Firmata)** or **ServoWrite (Firmata)** node to the Arduino node (or concatenate them together) to set the pins of the Board.

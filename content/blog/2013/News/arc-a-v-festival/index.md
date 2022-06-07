@@ -10,7 +10,7 @@ originalType: "stuff"
 ---
 
 
-![](Arc%20Monochrome%20Logos.png) 
+![](Arc%20Monochrome%20_r.png) 
 
 <http://www.arcfestival.co.uk/>
 

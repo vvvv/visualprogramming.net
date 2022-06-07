@@ -6,10 +6,11 @@ title: "VL: Switch to Xenko Math"
 slug: "vl-switch-to-xenko-math"
 description: ""
 imported: "true"
+thumb: "SharpDX_to_Xenk_r.png"
 ---
 
 
-![](SharpDX_to_Xenko.png)
+![](SharpDX_to_Xenk_r.png)
 
 In preparation for the [Xenko game engine integration](/blog/2018/vl-xenko-3d-engine-update-2) we decided to change the default math library of VL from SharpDX to Xenko. The decision was particularly easy since both math libraries have the same origin and most types and methods are identical. And thanks to the VL import layer it's easy to switch out the types, without any noticeable changes for the VL user.
 

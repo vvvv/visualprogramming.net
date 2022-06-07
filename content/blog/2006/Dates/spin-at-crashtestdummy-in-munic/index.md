@@ -15,6 +15,7 @@ where:
     from_date: "1279663200"
     to_date: "0"
 imported: "true"
+thumb: "camerasetupover_r.jpg"
 ---
 
 
@@ -24,5 +25,5 @@ imported: "true"
 come by until july 29th and take a strange ride in the [new worlds of spin](https://vvvv.org/404)
 <!--~~~-->
 
-![](camerasetupoverview41.jpg)
+![](camerasetupover_r.jpg)
 <!--{SPLIT}-->

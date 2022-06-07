@@ -6,6 +6,7 @@ title: "vvvvhat happened in February 2020"
 slug: "vvvvhat-happened-in-february-2020"
 description: ""
 imported: "true"
+thumb: "still.png"
 ---
 
 

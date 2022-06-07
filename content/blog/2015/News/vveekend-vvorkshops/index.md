@@ -6,6 +6,7 @@ title: "vveekend vvorkshops"
 slug: "vveekend-vvorkshops"
 description: ""
 imported: "true"
+thumb: "logo.png"
 ---
 
 

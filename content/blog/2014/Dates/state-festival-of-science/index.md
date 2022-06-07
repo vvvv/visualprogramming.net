@@ -18,6 +18,7 @@ where:
     lat: "52.516831"
     long: "13.409249"
 imported: "true"
+thumb: "State-Festival.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ title: "Two cool SVG nodes"
 slug: "two-cool-svg-nodes"
 description: ""
 imported: "true"
+thumb: "svg_textures.png"
 ---
 
 

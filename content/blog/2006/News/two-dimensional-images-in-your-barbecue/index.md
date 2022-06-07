@@ -7,6 +7,7 @@ slug: "two-dimensional-images-in-your-barbecue"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "headerfeat1.jpg"
 ---
 
 

@@ -18,6 +18,7 @@ where:
     lat: "52.493200"
     long: "13.423040"
 imported: "true"
+thumb: "vvvvhbaoplus.png"
 ---
 
 
@@ -32,9 +33,9 @@ The meetup is for vvvv and VL interested open minds in Berlin. It is a place to 
 Thankfully we will be hosted by Lieke and Alfredo who are running the fantastic space <https://spektrumberlin.de>. It's a nice exhibition, performance and community building space. There will be a bar serving us drinks and some people around. Thank you Lieke & Alfredo. 
 
 Next steps: 
-# Drop us a mail, comment or forum post if you like to show something. We will announce some line-up soon.
-# If you like: make yourself a member of our brand new meetup group on meetup.com <https://www.meetup.com/VVVV-Meetup-Berlin>
-# And check yourself in for the first meetup <https://www.meetup.com/de-DE/VVVV-Meetup-Berlin/events/251273271>
+1. Drop us a mail, comment or forum post if you like to show something. We will announce some line-up soon.
+2. If you like: make yourself a member of our brand new meetup group on meetup.com <https://www.meetup.com/VVVV-Meetup-Berlin>
+3. And check yourself in for the first meetup <https://www.meetup.com/de-DE/VVVV-Meetup-Berlin/events/251273271>
 
 Looking forward to meet you!
 

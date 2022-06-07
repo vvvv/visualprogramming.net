@@ -13,7 +13,7 @@ helohelo,
 
 here is a supasmall thing. But it can be supausefull. So i thought you should know rightaway: We're all familiar with noisy signals coming from sensors and the simplest thing in vvvv to do to calm such a signal always was to use a {{< node "Damper (Animation)" >}}. But of course that introduces a lag, which is sometimes unwanted. 
 
-::![](OneEuroFilter%20%28Animation%29%20help-DirectX%20Renderer_2014.12.05-19.33.10.png) 
+::![](OneEuroFilter%20(_r.png) 
 ::
 
 Enter the [1€ Filter](http://www.lifl.fr/~casiez/1euro/): A Simple Speed-based Low-pass Filter for Noisy Input in Interactive Systems

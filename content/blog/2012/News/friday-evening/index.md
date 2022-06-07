@@ -7,6 +7,7 @@ slug: "friday-evening"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "nicotine.png"
 ---
 
 

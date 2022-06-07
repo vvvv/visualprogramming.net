@@ -6,6 +6,7 @@ title: "unicorn in alpha builds"
 slug: "unicorn-in-alpha-builds"
 description: ""
 imported: "true"
+thumb: "unicorn.png"
 ---
 
 

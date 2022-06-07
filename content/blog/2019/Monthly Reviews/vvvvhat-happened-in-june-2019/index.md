@@ -6,6 +6,7 @@ title: "vvvvhat happened in June 2019"
 slug: "vvvvhat-happened-in-june-2019"
 description: ""
 imported: "true"
+thumb: "sEwQaPsaUwFcfue_r.png"
 ---
 
 
@@ -13,7 +14,7 @@ so here we are,
 
 in the middle of the summer hole and bad news first, we still haven't come to terms with a proper update on the 2 last remaining features for vvvv gamma 2019.1 that are (as mentioned before) better tooltips and executable export. good news, there is progress:
 
-![](sEwQaPsaUwFcfuetJiftmhAG.png)
+![](sEwQaPsaUwFcfue_r.png)
 *big deal: .vl files compiled to .dlls*
 
 besides, our work on the node-library is doing well. currently in the works and already available for testing are: 

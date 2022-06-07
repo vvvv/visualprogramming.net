@@ -21,7 +21,7 @@ imported: "true"
 ---
 
 
-![](kinect_workshop_signal%20%28Custom%29.png) 
+![](kinect_workshop_r.png) 
 
 Kinect: Interaction for design and art
 workshop is part of [Signal festival Prague](http://www.signalfestival.com/2014/en/event/kinect-interaction-for-art-and-design/)

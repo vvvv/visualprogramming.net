@@ -6,10 +6,11 @@ title: "Beta 35.5 Release Candidate"
 slug: "beta-35.5-release-candidate"
 description: ""
 imported: "true"
+thumb: "gw3IWyGkC0rsazT_r.gif"
 ---
 
 
-![](gw3IWyGkC0rsazTi.gif)
+![](gw3IWyGkC0rsazT_r.gif)
 
 As you may have noticed, we are back in our every 2 month release cycle and a new beta is up on the horizon.
 

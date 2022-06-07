@@ -10,10 +10,10 @@ imported: "true"
 
 
 vvvv contained two RS232 nodes, both with different pros and cons:
-# {{< node "RS232 (Devices)" >}} shipped with the core package
+1. {{< node "RS232 (Devices)" >}} shipped with the core package
 ** + used the [new datatype RAW](/blog/2012/new-datatype-raw)
 ** - not spreadable
-# {{< node "RS232 (Devices Spreadable)" >}} shipped with the addonpack
+2. {{< node "RS232 (Devices Spreadable)" >}} shipped with the addonpack
 ** + spreadable
 ** - used datatype String
 

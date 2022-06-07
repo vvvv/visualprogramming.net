@@ -7,6 +7,7 @@ slug: "grassi-patches"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "grassi_patches.png"
 ---
 
 

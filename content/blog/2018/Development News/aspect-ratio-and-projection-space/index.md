@@ -6,6 +6,7 @@ title: "Aspect Ratio and Projection Space"
 slug: "aspect-ratio-and-projection-space"
 description: ""
 imported: "true"
+thumb: "aquad.gif"
 ---
 
 
@@ -31,7 +32,7 @@ So from now on we have
 * you can disable {{< pin "Auto Aspect Ratio" >}} and still feed your own for the more complex cases
 * mouse, touch, gesture nodes are now reporting positions in our notion of **projection space***, an undistorted space that didn't get treated by the aspect-ratio transformation*. These postions are just easy to work with as you saw above.
 
-![Projection Space vs. Distorted Normalized Projection Space](spaces_2018.01.30-23.28.38.png) 
+![Projection Space vs. Distorted Normalized Projection Space](spaces_2018.01._r.png) 
 
 The main output of the mouse is the {{< pin "Position (Projection) XY" >}} pin, values in the case above go from (-1.78, -1) to (+1.78, +1), reflecting that the renderer is not quadratic.
 

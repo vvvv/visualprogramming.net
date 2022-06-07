@@ -6,6 +6,7 @@ title: "One-off Holiday Dongle Discount"
 slug: "one-off-holiday-dongle-discount"
 description: ""
 imported: "true"
+thumb: "dongle.png"
 ---
 
 

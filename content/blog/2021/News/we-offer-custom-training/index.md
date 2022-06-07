@@ -6,6 +6,7 @@ title: "We Offer Custom Training"
 slug: "we-offer-custom-training"
 description: ""
 imported: "true"
+thumb: "workshp_0.png"
 ---
 
 

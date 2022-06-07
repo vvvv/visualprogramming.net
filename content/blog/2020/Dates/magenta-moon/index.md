@@ -18,6 +18,7 @@ where:
     lat: "52.510374"
     long: "13.376186"
 imported: "true"
+thumb: "magentamoon.jpg"
 ---
 
 

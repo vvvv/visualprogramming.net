@@ -18,7 +18,7 @@ imported: "true"
 ---
 
 
-![](Schmiede11%20Application%20Flyer%20Front.png)
+![](Schmiede11%20Appl_r.png)
 
 it is schmiede time again:
 

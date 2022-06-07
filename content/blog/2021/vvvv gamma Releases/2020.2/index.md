@@ -6,6 +6,7 @@ title: "vvvv gamma 2020.2 release"
 slug: "vvvv2020.2-gammabeta0"
 description: ""
 imported: "true"
+thumb: "2020.2.png"
 ---
 
 Hello everyone!

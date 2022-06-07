@@ -18,6 +18,7 @@ where:
     lat: "52.492189"
     long: "13.435864"
 imported: "true"
+thumb: "ParaLib.png"
 ---
 
 
@@ -53,7 +54,7 @@ imported: "true"
 - Polygon Extrusion, 
 - Surface & Polygon Triangulation...
 
-![](vvvv%202017-06-21%2016-03-07-94.png) 
+![](vvvv%202017-06-21_r.png) 
 
 #  Day3:
 - OBJ export, to be used on other software.

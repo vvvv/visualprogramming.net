@@ -6,6 +6,7 @@ title: "vvvvhat happened in Jannuary 2017"
 slug: "vvvvhat-happened-in-jannuary-2017"
 description: ""
 imported: "true"
+thumb: "dragon.jpg"
 ---
 
 

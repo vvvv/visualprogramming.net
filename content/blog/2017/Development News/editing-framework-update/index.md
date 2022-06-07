@@ -6,10 +6,11 @@ title: "Editing Framework update"
 slug: "editing-framework-update"
 description: ""
 imported: "true"
+thumb: "BezierEditorUpd_r.gif"
 ---
 
 
-![](BezierEditorUpdates_15fps.gif) 
+![](BezierEditorUpd_r.gif) 
 
 
 Pointmovers of vvvv!

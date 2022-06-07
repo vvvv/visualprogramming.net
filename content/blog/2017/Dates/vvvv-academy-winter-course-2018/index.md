@@ -16,6 +16,7 @@ where:
     from_date: "1514962800"
     to_date: "1515607200"
 imported: "true"
+thumb: "vvvv-academy_lo_r.png"
 ---
 
 
@@ -39,6 +40,6 @@ hello@vvvv.academy
 Best from the rainy UK
 Dominik
 
-![vvvvAcaLogo](vvvv-academy_logo_quarter.png) 
+![vvvvAcaLogo](vvvv-academy_lo_r.png) 
 
 

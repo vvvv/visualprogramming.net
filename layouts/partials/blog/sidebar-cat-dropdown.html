@@ -36,10 +36,10 @@
 
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
       {{ range $sorted}}
-        <a class="dropdown-item {{ if eq .Page.Title $title }} active {{ end }}" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+        <a class="dropdown-item {{ if eq .Page.Title $title }} active {{ end }}" href="{{ .Page.RelPermalink | relURL}}">{{ .Page.Title }}</a>
       {{ end }}
       {{ range $leftover}}
-        <a class="dropdown-item {{ if eq .Page.Title $title }} active {{ end }}" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+        <a class="dropdown-item {{ if eq .Page.Title $title }} active {{ end }}" href="{{ .Page.RelPermalink | relURL}}">{{ .Page.Title }}</a>
       {{ end }}
     </div>
   </div>

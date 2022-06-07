@@ -6,6 +6,7 @@ title: "NEW vvvv Showcase"
 slug: "new-vvvv-showcase"
 description: ""
 imported: "true"
+thumb: "vvvv-academy_lo_r.png"
 ---
 
 
@@ -22,5 +23,5 @@ Feedback welcome, as always!
 Best,
 vvvv Academy
 .
-![vvvv Academy](vvvv-academy_logo_half.png) 
+![vvvv Academy](vvvv-academy_lo_r.png) 
 

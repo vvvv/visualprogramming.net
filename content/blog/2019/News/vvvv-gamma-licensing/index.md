@@ -6,6 +6,7 @@ title: "vvvv gamma licensing"
 slug: "vvvv-gamma-licensing"
 description: ""
 imported: "true"
+thumb: "typesoflicenses_r.png"
 ---
 
 
@@ -54,7 +55,7 @@ So bottom line up front: vvvv gamma is more and therefore requires a more define
 ## Types of vvvv gamma licenses
 Having said all this, we want you to declare your use of vvvv gamma using the following licenses:
 
-![](typesoflicenses3.png) 
+![](typesoflicenses_r.png) 
 
 In other words: the idea is that every commercial devvvveloper will have an Editor Plus license and that is it. With it you can work on and export as many projects as you please. For cases where you want to run the vvvv development environment also on a device in, say an exhibition, to use the advantage that you can e.g. remotely maintain the program while it is running, you need additional Editor licenses for each device. This is comparable to how you'd buy a full license for each PC running vvvv beta so far. Obviously you can still use your developer seat license also in an installation/show, as long as you're running only one instance of vvvv and don't need the license to work on another project at the same time. 
 

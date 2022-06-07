@@ -18,6 +18,7 @@ where:
     lat: "57.044469"
     long: "9.933791"
 imported: "true"
+thumb: "deuterium.png"
 ---
 
 

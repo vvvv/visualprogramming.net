@@ -6,6 +6,7 @@ title: "MediaFutures Open Call"
 slug: "mediafutures-open-call"
 description: ""
 imported: "true"
+thumb: "MediaFutures.jpg"
 ---
 
 

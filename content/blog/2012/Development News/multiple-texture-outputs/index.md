@@ -10,9 +10,9 @@ imported: "true"
 
 
 the easiest way to write a plugin with a texture output was by extending the [DXTextureOutPluginBase](https://vvvv.org/pluginspecs/T_VVVV_PluginInterfaces_V2_EX9_DXTextureOutPluginBase.htm) class and overriding the CreateTexture and UpdateTexture methods. this approach lead to several issues though:
-# the plugin was limited to one texture output. if there was the necessity to have more than one texture output one had to go the long route by implementing IPluginDXTexture2 and doing the resource management manually.
-# it wasn't possible to reinitialize the textures on a slicewise basis. for example if the size of one texture changed all textures had to be recreated.
-# dealing with a pin of type texture was completely different than all the other data types. wouldn't it be nice to simply write ISpread<Texture> and be done with it?
+1. the plugin was limited to one texture output. if there was the necessity to have more than one texture output one had to go the long route by implementing IPluginDXTexture2 and doing the resource management manually.
+1. it wasn't possible to reinitialize the textures on a slicewise basis. for example if the size of one texture changed all textures had to be recreated.
+1. dealing with a pin of type texture was completely different than all the other data types. wouldn't it be nice to simply write ISpread<Texture> and be done with it?
 
 well it's nearly as simple as that now. you can create a texture output by writing 
 ```
@@ -28,10 +28,10 @@ the resource management is the reason why we can't simply write ISpread<Texture>
 {{< /box >}}
 
 the constructor of the TextureResource class takes up to four arguments:
-# some arbitrary user data which will be supplied as the first argument to the following functions
-# a function which creates the texture, taking as first argument the user data, as second the device for which a texture was requested and returning the newly created texture.
-# a function which updates the texture (optional), taking as first argument the user data and as second argument the texture to be updated.
-# a function which destroys the texture (optional), taking as first argument the user data and as second argument the texture to be destroyed.
+1. some arbitrary user data which will be supplied as the first argument to the following functions
+2. a function which creates the texture, taking as first argument the user data, as second the device for which a texture was requested and returning the newly created texture.
+3. a function which updates the texture (optional), taking as first argument the user data and as second argument the texture to be updated.
+4. a function which destroys the texture (optional), taking as first argument the user data and as second argument the texture to be destroyed.
 
 so in order to create a texture we need to do this:
 ```

@@ -7,6 +7,7 @@ slug: "somehow-related-to-vvvv-analog-somebody"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "analog.jpg"
 ---
 
 

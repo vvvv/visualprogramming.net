@@ -19,6 +19,7 @@ where:
     lat: "52.544635"
     long: "13.373233"
 imported: "true"
+thumb: "50.png"
 ---
 
 

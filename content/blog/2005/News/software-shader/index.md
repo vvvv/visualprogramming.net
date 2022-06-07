@@ -7,6 +7,7 @@ slug: "software-shader"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "swiftshader_log_r.jpg"
 ---
 
 
@@ -17,5 +18,5 @@ no idea what one would really use this for. so just for the memo:
 
 basically seems to work with vvvv.
 <!--~~~-->
-![](swiftshader_logo_220px.jpg)
+![](swiftshader_log_r.jpg)
 <!--{SPLIT}-->

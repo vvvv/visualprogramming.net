@@ -14,6 +14,7 @@ where:
     from_date: "1300467600"
     to_date: "1300467600"
 imported: "true"
+thumb: "DonauFenster01.jpg"
 ---
 
 

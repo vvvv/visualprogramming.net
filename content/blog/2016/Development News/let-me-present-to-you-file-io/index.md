@@ -6,6 +6,7 @@ title: "Let me present to you: File IO"
 slug: "let-me-present-to-you-file-io"
 description: ""
 imported: "true"
+thumb: "ReaderWriter.png"
 ---
 
 

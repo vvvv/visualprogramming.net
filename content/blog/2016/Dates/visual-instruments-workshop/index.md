@@ -18,6 +18,7 @@ where:
     lat: "56.945595"
     long: "24.094795"
 imported: "true"
+thumb: "Strobe02.png"
 ---
 
 

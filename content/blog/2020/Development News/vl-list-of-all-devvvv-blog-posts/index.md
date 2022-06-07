@@ -6,6 +6,7 @@ title: "VL: List of all devvvv blog posts"
 slug: "vl-list-of-all-devvvv-blog-posts"
 description: ""
 imported: "true"
+thumb: "vvvv2019-2.png"
 ---
 
 

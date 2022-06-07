@@ -6,6 +6,7 @@ title: "15. vvvv worldwide meetup"
 slug: "15.-vvvv-worldwide-meetup"
 description: ""
 imported: "true"
+thumb: "15thmeetup-I.jpg"
 ---
 
 

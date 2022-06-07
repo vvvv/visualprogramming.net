@@ -29,10 +29,10 @@
     {{ end }}
 
     {{ range $sorted}}
-      <li class="list-group-item"><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+      <li class="list-group-item"><a href="{{ .Page.RelPermalink | relURL}}">{{ .Page.Title }}</a></li>
     {{ end }}
     {{ range $leftover}}
-      <li class="list-group-item"><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+      <li class="list-group-item"><a href="{{ .Page.RelPermalink | relURL}}">{{ .Page.Title }}</a></li>
     {{ end }}
 
 

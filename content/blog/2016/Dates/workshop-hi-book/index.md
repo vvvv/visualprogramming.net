@@ -21,7 +21,7 @@ imported: "true"
 ---
 
 
-![](workshop%20hi-book%20eng%20%281%29.png) 
+![](workshop%20hi-boo_r.png) 
 
 Since 2011 Toolkit Festival (https://www.facebook.com/toolkitfestival) has been organizing meetings with international artists who move in the field of experimentation with new art forms related to interactive technology.
 

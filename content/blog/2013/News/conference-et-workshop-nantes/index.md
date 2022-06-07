@@ -6,6 +6,7 @@ title: "Conférence et Workshop, Nantes."
 slug: "conférence-et-workshop-nantes."
 description: ""
 imported: "true"
+thumb: "stereolux-ext.jpg"
 ---
 
 

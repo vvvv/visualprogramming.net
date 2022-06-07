@@ -7,6 +7,7 @@ slug: "mre.mdmod.2-teaser"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "mremdmoddx11.png"
 ---
 
 

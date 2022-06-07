@@ -6,10 +6,11 @@ title: "VL: Event based MIDI"
 slug: "vl-event-based-midi"
 description: ""
 imported: "true"
+thumb: "dennis_irwin_il_r.jpg"
 ---
 
 
-![](dennis_irwin_illustration_midi_birthday_party.jpg)
+![](dennis_irwin_il_r.jpg)
 
 Midi was [released in 1982](https://en.wikipedia.org/wiki/MIDI#Early_development) and is one of the most successful hardware communication protocols in the world. The simple nature of the protocol makes it easy to implement and even more important, easy to understand for humans.
 
@@ -33,13 +34,13 @@ MidiIn has one observable output for all midi messages received on the given dev
 #### Message Filtering
 Following the midi message structure, there are filters that allow you to select only the messages you are interested in. For example only midi clock messages, or messages on a specific midi channel:
 
-![](020_InOutChannelFilter.PNG)
+![](020_InOutChanne_r.PNG)
 *Only let messages on midi channel 0 thru*
 
 #### Message Handling
 For all midi message types there are specific nodes to read the message content or construct new messages. These are mostly the native methods of the MidiToolkit library.
 
-![](030_MessageHandling.PNG)
+![](030_MessageHand_r.PNG)
 *Create a channel message and read its content*
 
 ### Event Based Processing

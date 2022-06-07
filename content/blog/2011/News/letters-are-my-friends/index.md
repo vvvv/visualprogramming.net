@@ -6,6 +6,7 @@ title: "Letters Are My Friends"
 slug: "letters-are-my-friends"
 description: ""
 imported: "true"
+thumb: "vvvv-news.jpg"
 ---
 
 

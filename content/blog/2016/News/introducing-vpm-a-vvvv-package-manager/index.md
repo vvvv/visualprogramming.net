@@ -6,6 +6,7 @@ title: "Introducing vpm: A vvvv package manager"
 slug: "introducing-vpm-a-vvvv-package-manager"
 description: ""
 imported: "true"
+thumb: "box-01.png"
 ---
 
 

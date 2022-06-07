@@ -7,6 +7,7 @@ slug: "visionstation"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "visionstation.jpg"
 ---
 
 

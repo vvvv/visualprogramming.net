@@ -14,10 +14,11 @@ where:
     from_date: "1586376000"
     to_date: "1588190400"
 imported: "true"
+thumb: "gammaintroscree_r.png"
 ---
 
 
-![](gammaintroscreenshot.png) 
+![](gammaintroscree_r.png) 
 
 Dear all. I hope everybody is fine and healthy wherever you are on the globe. 
 

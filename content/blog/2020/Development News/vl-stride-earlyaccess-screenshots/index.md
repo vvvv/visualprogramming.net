@@ -6,12 +6,13 @@ title: "VL.Stride EarlyAccess Screenshots"
 slug: "vl.stride-earlyaccess-screenshots"
 description: ""
 imported: "true"
+thumb: "vl_stride_ea_sh_r.gif"
 ---
 
 
 Did you ever wonder what the first things were, that the cool kids in the [VL.Stride EarlyAccess program](/blog/2020/vl.stride-earlyaccess-available-now) created with the new 3d rendering engine for vvvv gamma?
 
-![](vl_stride_ea_shots_header2.gif)
+![](vl_stride_ea_sh_r.gif)
 
 It's been only a few weeks, but stunning pixel combinations got posted into our early access chat room.
 

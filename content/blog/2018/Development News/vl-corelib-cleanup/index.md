@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-![](cleanup_crop%20%5B50%25%5D.png)
+![](cleanup_crop%20[5_r.png)
 
 Growing a consistent library of nodes and presenting it in a clear way in the NodeBrowser is one of the great challenges we are facing. For the upcoming release we made this our focus: Clean up the core library vl offers and add new features to the NodeBrowser for easier browsing. So here is what you get:
 

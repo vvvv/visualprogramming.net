@@ -7,6 +7,7 @@ slug: "fake-cubemap-for-dx11"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "cubemap.jpg"
 ---
 
 

@@ -11,6 +11,7 @@ release:
     date: "2012-08-13"
     app_file: "sites/default/files/vvvv_45beta28.zip"
 imported: "true"
+thumb: "b28.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ title: "vvvv gamma - The Road Ahead"
 slug: "vvvv-gamma-the-road-ahead"
 description: ""
 imported: "true"
+thumb: "roadmap.png"
 ---
 
 

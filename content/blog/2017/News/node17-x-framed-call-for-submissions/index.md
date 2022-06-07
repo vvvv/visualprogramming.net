@@ -6,6 +6,7 @@ title: "NODE17 x FRAMED: Call for submissions!"
 slug: "node17-x-framed-call-for-submissions"
 description: ""
 imported: "true"
+thumb: "framed17.png"
 ---
 
 

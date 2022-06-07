@@ -6,6 +6,7 @@ title: "Mixed Data over that same Ol Pin"
 slug: "mixed-data-over-that-same-ol-pin"
 description: ""
 imported: "true"
+thumb: "VariantTests_20_r.png"
 ---
 
 
@@ -27,6 +28,6 @@ As a side node: Making all pins compatible might help users at times. All data c
 
 See "girlpower\VVVV Plugin API\VariantPins" for an example for a Switch that is connected to colors, strings, values and whatnot at the same time.
 
-![various data over one connection](VariantTests_2016.12.11-21.31.38.png) 
+![various data over one connection](VariantTests_20_r.png) 
 
 original request: https://discourse.vvvv.org/t/plugin-interface-feature-request/12639

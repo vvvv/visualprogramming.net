@@ -18,6 +18,7 @@ where:
     lat: "52.500141"
     long: "13.424111"
 imported: "true"
+thumb: "smallGrid_min.gif"
 ---
 
 
@@ -43,5 +44,5 @@ See you there!
 Dominik
 
 .
-![](vvvv-academy_favicon.jpg) 
+![](vvvv-academy_fa_r.jpg) 
 

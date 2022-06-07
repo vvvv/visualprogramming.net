@@ -17,5 +17,5 @@ Leap will ship another 10k dev devices in the next week, you might be lucky. app
 
 Otherwise this is just a public announcement that the Leap SDK found its way into our code base.
 
-![](_leap_tester-DirectX%20Renderer_2012.12.18-23.27.22.png) 
+![](_leap_tester-Di_r.png) 
 

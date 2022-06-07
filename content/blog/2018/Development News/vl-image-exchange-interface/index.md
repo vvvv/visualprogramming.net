@@ -6,6 +6,7 @@ title: "VL: Image exchange interface"
 slug: "vl-image-exchange-interface"
 description: ""
 imported: "true"
+thumb: "gol_vl.PNG"
 ---
 
 

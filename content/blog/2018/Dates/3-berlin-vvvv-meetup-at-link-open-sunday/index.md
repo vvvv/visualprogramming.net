@@ -16,10 +16,11 @@ where:
     lat: "53.183869"
     long: "12.809312"
 imported: "true"
+thumb: "IMG_20180808_13_r.jpg"
 ---
 
 
-![](IMG_20180808_132115_321_resized_20180808_013121466.jpg) 
+![](IMG_20180808_13_r.jpg) 
 
 Invitation! Come and spend a day at LINK - the vvvv summercamp.
 

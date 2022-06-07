@@ -6,6 +6,7 @@ title: "C#6 Compiler for Dynamic Plugins"
 slug: "c6-compiler-for-dynamic-plugins"
 description: ""
 imported: "true"
+thumb: "c-60-what-c-is-_r.jpg"
 ---
 
 
@@ -18,8 +19,8 @@ The C# language is evolving all the time with nifty features. In order to be abl
 {{< box >}}
 Latest alphas suppport all [features new in C# 6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6).{{< /box >}}
 
-![](c-60-what-c-is-being-updated-10-638.jpg)
-*image grabbed off [the internet](http://image.slidesharecdn.com/filipekberg-dddbrisbane-csharp6-141207042920-conversion-gate01/95/c-60-what-c-is-being-updated-10-638.jpg?cb=1417927109)*
+![](c-60-what-c-is-_r.jpg)
+*image grabbed off [the internet](http://image.slidesharecdn.com/filipekberg-dddbrisbane-csharp6-141207042920-conversion-gate01/95/c-60-what-c-is-_r.jpg?cb=1417927109)*
 
 Caveats: 
 * You need to have either Visual Studio 2015 or [MSBuild Tools 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48159) installed

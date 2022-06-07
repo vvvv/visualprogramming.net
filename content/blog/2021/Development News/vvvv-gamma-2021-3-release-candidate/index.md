@@ -6,6 +6,7 @@ title: "vvvv gamma 2021.3 release candidate"
 slug: "vvvv-gamma-2021.3-release-candidate"
 description: ""
 imported: "true"
+thumb: "primitives.jpg"
 ---
 
 

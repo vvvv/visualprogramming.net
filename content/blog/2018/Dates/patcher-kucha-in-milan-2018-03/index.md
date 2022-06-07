@@ -18,11 +18,12 @@ where:
     lat: "45.520430"
     long: "9.167083"
 imported: "true"
+thumb: "28378709_952251_r.jpg"
 ---
 
 
 
-![rimake flyer](28378709_952251474948271_7318034301074266335_n.jpg) 
+![rimake flyer](28378709_952251_r.jpg) 
 
 
 We are happy to be hosted by Ri-Make, that is a sort of squat in a dismissed  bank, for few installations and a free vvvv workshop!

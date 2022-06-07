@@ -13,6 +13,7 @@ where:
     from_date: "1295650800"
     to_date: "1295737200"
 imported: "true"
+thumb: "ualuba.png"
 ---
 
 

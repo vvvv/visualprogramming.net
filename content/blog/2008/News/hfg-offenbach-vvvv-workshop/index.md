@@ -6,6 +6,7 @@ title: "HfG Offenbach vvvv workshop"
 slug: "hfg-offenbach-vvvv-workshop"
 description: ""
 imported: "true"
+thumb: "hfg_workshop_1.jpg"
 ---
 
 

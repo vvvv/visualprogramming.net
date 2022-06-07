@@ -19,10 +19,11 @@ where:
     lat: "41.433676"
     long: "2.191512"
 imported: "true"
+thumb: "screenshot14775_r.png"
 ---
 
 
-![](screenshot1477570844.png) 
+![](screenshot14775_r.png) 
 
 Two full packed days of vvvv based Immersion will empower you to have a basic grasp for the fulldome medium. 
 

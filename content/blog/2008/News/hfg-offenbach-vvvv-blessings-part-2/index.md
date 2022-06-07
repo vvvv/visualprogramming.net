@@ -6,6 +6,7 @@ title: "HfG Offenbach vvvv blessings part 2"
 slug: "hfg-offenbach-vvvv-blessings-part-2"
 description: ""
 imported: "true"
+thumb: "jannis_nikon.jpg"
 ---
 
 

@@ -14,6 +14,7 @@ where:
     from_date: "1152568800"
     to_date: "0"
 imported: "true"
+thumb: "vvvvorkshop.gif"
 ---
 
 

@@ -6,6 +6,7 @@ title: "NODE20 Workshop Recordings Online & Survey"
 slug: "node20-workshop-recordings-online-survey"
 description: ""
 imported: "true"
+thumb: "Key_web2.png"
 ---
 
 

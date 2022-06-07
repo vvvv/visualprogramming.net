@@ -6,6 +6,7 @@ title: "VL Progress Report /1"
 slug: "vl-progress-report-1"
 description: ""
 imported: "true"
+thumb: "processexplorer.gif"
 ---
 
 

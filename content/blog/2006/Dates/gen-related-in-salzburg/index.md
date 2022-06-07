@@ -13,11 +13,12 @@ where:
     from_date: "1161208800"
     to_date: "0"
 imported: "true"
+thumb: "typotrianglesdi_r.jpg"
 ---
 
 
 <!--{SPLIT()}-->
-![](typotrianglesdirectxrenderer6.jpg)
+![](typotrianglesdi_r.jpg)
 <!--~~~-->
 
 Media Art exhibition in Salzburg at *[Galerie 5020](http://galerie5020.at)* from 19th October until 04th November 2006, featuring a vvvv installation. There is an vernissage on 18th October, starting at 7 pm.

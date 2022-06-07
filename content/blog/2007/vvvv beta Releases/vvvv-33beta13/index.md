@@ -11,6 +11,7 @@ release:
     date: "2008-06-18"
     app_file: "sites/default/files/vvvv_33beta13.zip"
 imported: "true"
+thumb: "treebackdirectx_r.jpg"
 ---
 
 
@@ -28,5 +29,5 @@ vvvv.org
 
 <!--~~~-->
 
-![](treebackdirectxrenderer_2007.06.1900.26.47.jpg)
+![](treebackdirectx_r.jpg)
 <!--{SPLIT}-->

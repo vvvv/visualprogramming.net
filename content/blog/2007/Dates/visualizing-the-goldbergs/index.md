@@ -15,10 +15,11 @@ where:
     from_date: "1193504400"
     to_date: "0"
 imported: "true"
+thumb: "goldberg_keyboa_r.jpg"
 ---
 
 
-![](goldberg_keyboard_small.jpg)
+![](goldberg_keyboa_r.jpg)
 
 *Clavier Ubung bestehend in einer Aria mit verschiedenen Veraenderungen. Denen Liebhabern zur Gemuth‘s Ergetzung verfertigt von Johann Sebastian Bach.* Bach Werkeverzeichnis 988, better known as *The Goldberg Variations*.
 

@@ -6,6 +6,7 @@ title: "VL.OpenCV meets Stride"
 slug: "vl.opencv-meets-stride"
 description: ""
 imported: "true"
+thumb: "FindCameraPoseF_r.gif"
 ---
 
 
@@ -17,7 +18,7 @@ I am happy to announce that as of version 1.2.0 of VL.OpenCV, you can effortless
 Need to know where your camera is and what it's looking at based on an Aruco marker or a chessboard calibration pattern? 
 
 Say no more:
-![Find camera position and rotation based on Aruco marker 2](FindCameraPoseFromAruco.gif) 
+![Find camera position and rotation based on Aruco marker 2](FindCameraPoseF_r.gif) 
 
 And now from the outside:
 ![Find camera position and rotation based on Aruco marker 2](FindCameraPoseFromAruco2.gif) 
@@ -30,7 +31,7 @@ Bring 3D objects and animations into your image using Aruco markers to create au
 ##  Calibrate a projector
 Remember this beauty? It helps you figure out the position and characteristics of your projector in your 3D scene.
 
-![Calibrate projector](CalibrateAProjector.jpg) 
+![Calibrate projector](CalibrateAProje_r.jpg) 
 
 
 

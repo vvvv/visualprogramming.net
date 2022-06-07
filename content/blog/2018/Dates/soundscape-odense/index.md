@@ -18,10 +18,11 @@ where:
     lat: "55.392911"
     long: "10.380996"
 imported: "true"
+thumb: "42720562_102158_r.jpg"
 ---
 
 
-![](42720562_10215811293567563_5402160494259732480_o.jpg) 
+![](42720562_102158_r.jpg) 
 
 SoundScape Ocense is filling up the cinema at Momentum with ambient, noise and spectacular visuals for this double AV concert
 

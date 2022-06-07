@@ -6,6 +6,7 @@ title: "VL summer update"
 slug: "vl-summer-update"
 description: ""
 imported: "true"
+thumb: "eyetracking_sma_r.jpg"
 ---
 
 
@@ -40,7 +41,7 @@ So what's missing is mostly:
 * Databases
 Those are arguably the big chunks indeed, but since we have plenty of those in vvvv already it should not be that big of a dealbreaker for a start. And anyway we're moving..
 
-![](eyetracking_small4.jpg) 
+![](eyetracking_sma_r.jpg) 
 
 Specifically we're in the process of importing a bit larger .net libraries to learn how we can work with them. The first tests resulted in a patched node for the [EyeTribe eyetracking](https://discourse.vvvv.org/t/theeyetribe-eyetracking-vl-plugin/13201) and the [3dConnexion spacemouse](https://discourse.vvvv.org/t/spacemouse-vl-plugin/13207) devices, all open for you to inspect. This is how in the future you will integrate any device. More to come..
 

@@ -10,6 +10,6 @@ originalType: "stuff"
 ---
 
 
-![](0-DirectX%20Renderer_2012.04.11-20.13.19.png) 
+![](0-DirectX%20Rende_r.png) 
 
 3d working out of the box via driver... didn't know that

@@ -6,6 +6,7 @@ title: "VL: One frame at a time"
 slug: "vl-one-frame-at-a-time"
 description: ""
 imported: "true"
+thumb: "stepbystep.gif"
 ---
 
 

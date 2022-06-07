@@ -7,6 +7,7 @@ slug: "md.vis"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "md.vis_.prev_.jpg"
 ---
 
 

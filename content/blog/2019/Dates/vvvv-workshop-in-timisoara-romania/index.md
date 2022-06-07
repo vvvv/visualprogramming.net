@@ -17,6 +17,7 @@ where:
     from_date: "1570685400"
     to_date: "1570982400"
 imported: "true"
+thumb: "2.png"
 ---
 
 

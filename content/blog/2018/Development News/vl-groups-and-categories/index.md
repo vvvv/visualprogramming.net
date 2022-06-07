@@ -6,6 +6,7 @@ title: "VL: Groups and Categories"
 slug: "vl-groups-and-categories"
 description: ""
 imported: "true"
+thumb: "02_GroupInside.PNG"
 ---
 
 
@@ -46,20 +47,20 @@ What we had so far was a not so clear mix of all three. Let's see what we have i
 
 A *Category* patch looks quite similar to the group, only its name has a meaning: The name appends itself to the category of its parent patch. That way you can build up any category hierarchy, that you then see in the NodeBrowser. Multiple category levels are allowed with dot notation. e.g. *MyCat1.MyCat2*.
 <!--{SPLIT()}-->
-![](04_CategoryInside.PNG)
+![](04_CategoryInsi_r.PNG)
 *Inside a category patch*
 <!--~~~-->
-![](03_CategoryOutside.PNG)
+![](03_CategoryOuts_r.PNG)
 *Category patch from the outside*
 <!--{SPLIT}-->
 ## Full Category
 
 A *Full Category* patch is similar to the Category patch, only that it doesn't add its category to the parent. By that you can place nodes in any category, regardless of the parent patch. It's considered bad practice to do that, but is useful to add nodes to an existing category like *Collections.Spread*, for example. Multiple category levels are allowed with dot notation. e.g. *MyParentCat.MySubCat*.
 <!--{SPLIT()}-->
-![](06_FullCategoryInside.PNG)
+![](06_FullCategory_r.PNG)
 *Inside a full category patch*
 <!--~~~-->
-![](05_FullCategoryOutside.PNG)
+![](05_FullCategory_r.PNG)
 *Full category patch from the outside*
 <!--{SPLIT}-->
 Each vl document can directly start a category, which you can define in the angular brackets in the top left corner of the document patch. 
@@ -77,7 +78,7 @@ You can easily convert a group patch into a category patch and vice versa by the
 
 As if the above didn't offer enough options already there is one more way to specify a category for an operation or a datatype definition:
 
-![](callmenames-Stuff_2018.06.29-00.47.03.gif)
+![](callmenames-Stu_r.gif)
 *Setting a Category on an datatype or operation-definition*
 
 Happy node sorting!

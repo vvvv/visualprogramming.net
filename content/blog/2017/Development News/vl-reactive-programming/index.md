@@ -6,10 +6,11 @@ title: "VL: Reactive Programming"
 slug: "vl-reactive-programming"
 description: ""
 imported: "true"
+thumb: "687474703a2f2f6_r.jpg"
 ---
 
 
-![](687474703a2f2f692e696d6775722e636f6d2f4149696d5138432e6a7067.jpg)
+![](687474703a2f2f6_r.jpg)
 
 Here is something really great. The new *Reactive* category gives you tools to handle asynchronous events, background calculations and even enables you to build your own mainloop that runs on a different CPU core. But let's start with a pragmatic explanation of what it is:
 
@@ -24,7 +25,7 @@ Since a while VVVV and VL use these so called [Observables](http://reactivex.io/
 ### Processing events
 The go to node for handling events is definitely **ForEach** *Region* (was *Region (Stateful)* in earlier versions) in the category *Reactive*. This region allows you to place any node inside and can also remember any data between two events. There is also one with version *Keep* that can filter out events using a boolean output. This region is very similar to the ForEach region for spreads, only that its input and output is event values in time instead of slices of a spread.
 
-![](010_EasyObservables.PNG)
+![](010_EasyObserva_r.PNG)
 *Refresh web data every 30 seconds in the background and pass the result on to the mainloop.*
 
 You can switch or merge event sources:
@@ -40,12 +41,12 @@ Other nodes include Skip, Delay, Delay (Selector), Scan, Switch, ...
 ### Receiving events
 If you want to leave the observable world and pass event values to the mainloop use one of the 3 nodes **HoldLatest**, **Sampler** or **S+H** which all behave a little bit different. Depends on what you need:
 
-![](035_ReceivingEvents2.PNG)
+![](035_ReceivingEv_r.PNG)
 *Three ways to get event values to the mainloop.*
 
 ### Creating events
 It's also pretty easy to generate event sources of your own:
-![](040_CreatingEvents.PNG)
+![](040_CreatingEve_r.PNG)
 *Different ways to create observable event sources.*
 
 As a general advice, only send values of type *Record* as event data because they are thread safe. If you send values of any *Class* type be sure that you know exactly what you are doing.

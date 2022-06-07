@@ -11,10 +11,11 @@ release:
     date: "2009-04-14"
     app_file: "sites/default/files/vvvv_40beta21.zip"
 imported: "true"
+thumb: "_root_shwopsdir_r.jpg"
 ---
 
 
-![](_root_shwopsdirectxrenderer_2009.04.1501.38.21.jpg)
+![](_root_shwopsdir_r.jpg)
 
 Easter is such a real shwopsy mopsy thing, if you know what we mean.
 

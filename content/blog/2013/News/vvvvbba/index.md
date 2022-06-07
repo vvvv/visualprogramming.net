@@ -7,6 +7,7 @@ slug: "vvvv빠"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "DSC01975.JPG"
 ---
 
 

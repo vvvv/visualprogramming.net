@@ -7,6 +7,7 @@ slug: "circlepath-realtime-av-band-says-hi"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "rp_cp.jpg"
 ---
 
 

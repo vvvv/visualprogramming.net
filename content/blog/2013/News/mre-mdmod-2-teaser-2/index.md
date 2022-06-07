@@ -7,8 +7,9 @@ slug: "mre.mdmod.2-teaser-2"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "polygonoseyecan_r.jpg"
 ---
 
 
-![wakawaka](polygonoseyecandy.jpg)
-high resolution: https://dl.dropboxusercontent.com/u/1218206/polygonoseyecandy.jpg
+![wakawaka](polygonoseyecan_r.jpg)
+high resolution: https://dl.dropboxusercontent.com/u/1218206/polygonoseyecan_r.jpg

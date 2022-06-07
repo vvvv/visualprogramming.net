@@ -6,6 +6,7 @@ title: "Find a Bug, win a Panda (Latte)"
 slug: "find-a-bug-win-a-panda-(latte)"
 description: ""
 imported: "true"
+thumb: "lattepanda.jpg"
 ---
 
 

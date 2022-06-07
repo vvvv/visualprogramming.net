@@ -21,7 +21,7 @@ imported: "true"
 ---
 
 
-![V4W OCT12th](October%2012th%20-%20Mike%20Wilson%20Master%20Class.jpg) 
+![V4W OCT12th](October%2012th%20-%20_r.jpg) 
 
 Hi folks,
 

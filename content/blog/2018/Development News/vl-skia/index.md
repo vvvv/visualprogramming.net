@@ -6,6 +6,7 @@ title: "VL.Skia"
 slug: "vl.skia"
 description: ""
 imported: "true"
+thumb: "renderer.png"
 ---
 
 
@@ -44,7 +45,7 @@ You can stack the *Paint*-modifying nodes. Nodes like **SetColor** would take ev
 
 *Shaders*, *Filters*, and *PathEffects* are all properties of *Paint*. 1000 words wouldn't be enough to describe what you can do with them. You probably just need to play with them a bit. 
 <!--~~~-->
-![What can I say](blurredWithShadow.png) 
+![What can I say](blurredWithShad_r.png) 
 <!--{SPLIT}-->
 ---
 <!--{SPLIT()}-->

@@ -17,7 +17,7 @@ imported: "true"
 ---
 
 
-![10th](Screenshot%202021-04-20%20175722.png) 
+![10th](Screenshot%202021_r.png) 
 
 We're meeting up on **April 27th, 8pm CET **to catch up and get insights into what everyone is patching on. How will this work? Something like [the last time](https://www.youtube.com/watch?v=RcQNe8iuFUU&ab_channel=TheNODEInstitute). So please fill up your bucket of popcorn and invite all your vvvvriends and vvvvamily to join us!
 

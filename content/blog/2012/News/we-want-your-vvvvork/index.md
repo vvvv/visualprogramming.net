@@ -6,10 +6,11 @@ title: "We want your vvvvork"
 slug: "we-want-your-vvvvork"
 description: ""
 imported: "true"
+thumb: "NODE13-Open-Cal_r.png"
 ---
 
 
-![](NODE13-Open-Call-2.png) 
+![](NODE13-Open-Cal_r.png) 
 
 As you already know NODE is happening again in February next year. 
 

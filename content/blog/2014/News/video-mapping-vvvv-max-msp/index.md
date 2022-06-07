@@ -7,6 +7,7 @@ slug: "video-mapping-(vvvv-maxmsp)"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "controllo_lati.png"
 ---
 
 

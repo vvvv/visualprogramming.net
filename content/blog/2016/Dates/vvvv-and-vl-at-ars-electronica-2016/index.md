@@ -17,6 +17,7 @@ where:
     lat: "48.306940"
     long: "14.285830"
 imported: "true"
+thumb: "splicer.gif"
 ---
 
 

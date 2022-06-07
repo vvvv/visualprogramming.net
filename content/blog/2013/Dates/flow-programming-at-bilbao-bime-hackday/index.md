@@ -13,6 +13,7 @@ where:
     from_date: "1384898400"
     to_date: "1384984800"
 imported: "true"
+thumb: "1384350_7473057_r.jpg"
 ---
 
 
@@ -31,7 +32,7 @@ hack all together!!
 http://www.bimehackday.net/#/conferencias
 
 
-![http://www.bimehackday.net/#/conferencias](1384350_747305785295975_91595551_n.jpg) 
+![http://www.bimehackday.net/#/conferencias](1384350_7473057_r.jpg) 
 
 
 

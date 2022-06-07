@@ -6,6 +6,7 @@ title: "This was NODE20"
 slug: "this-was-node20"
 description: ""
 imported: "true"
+thumb: "Keyvisual.jpg"
 ---
 
 

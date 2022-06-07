@@ -6,6 +6,7 @@ title: "vvvv unicorn upgrade"
 slug: "vvvv-unicorn-upgrade"
 description: ""
 imported: "true"
+thumb: "unicorn.png"
 ---
 
 

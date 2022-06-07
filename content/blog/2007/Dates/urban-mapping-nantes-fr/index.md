@@ -12,10 +12,11 @@ where:
     from_date: "1189202400"
     to_date: "0"
 imported: "true"
+thumb: "Or3-UrbanMappin_r.jpg"
 ---
 
 
-![](Or3-UrbanMapping.jpg) 
+![](Or3-UrbanMappin_r.jpg) 
 
 Come to see us on **8**, **14** and **15th** of **September** for a urban mapping in [Nantes](http://maps.google.fr/?ie=UTF8&ll=47.201989,-1.574403&spn=0.003069,0.006888&t=k&z=17&om=1) ( Fr ).
 A 45 meters picture using our favorite software **VVVV**.

@@ -6,6 +6,7 @@ title: "Want to learn vvvv? Don't miss NODE17"
 slug: "want-to-learn-vvvv-dont-miss-node17"
 description: ""
 imported: "true"
+thumb: "book.png"
 ---
 
 

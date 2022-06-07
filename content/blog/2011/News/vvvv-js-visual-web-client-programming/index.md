@@ -6,6 +6,7 @@ title: "VVVV.js - visual web client programming"
 slug: "vvvv.js-visual-web-client-programming"
 description: ""
 imported: "true"
+thumb: "vvvv_js_thing.png"
 ---
 
 

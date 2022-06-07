@@ -6,15 +6,16 @@ title: "VL: Serialization"
 slug: "vl-serialization"
 description: ""
 imported: "true"
+thumb: "Serialization_A_r.PNG"
 ---
 
 
 Serialization in VL has drastically been simplified by introducing two new nodes called **Serialize** and **Deserialize** in the category System.Serialization.
 Let's first have a look at two basic examples:
 
-![](Serialization_ADSR.PNG) 
+![](Serialization_A_r.PNG) 
 
-![](Serialization_Spread.PNG) 
+![](Serialization_S_r.PNG) 
 
 Serialize takes any value and serializes it into a [XElement](https://msdn.microsoft.com/en-us/library/system.xml.linq.xelement(v=vs.110).aspx) while Deserialize does the exact opposite, it takes a [XElement](https://msdn.microsoft.com/en-us/library/system.xml.linq.xelement(v=vs.110).aspx) and turns it into a value of the requested output type.
 
@@ -25,7 +26,7 @@ When deserializing the system will try to apply the serialized content on the in
 Serializers are provided for all primtive types (Boolean, Integer32, Float32, etc.), collection types (Array, Spread, Dictionary, etc.), commonly used imported types (Vector2/3/4, Matrix, Color, etc.) and most importantly **all patched types**. If a serializer should be missing for a certain type either report it to us or keep on reading to the next section where you learn how to patch (or write) your own serializer.
 
 Paired with the [new files nodes](/blog/2018/vl-improved-file-io) serialization to disk is straight forward:
-![](Serialization_ToDisk.PNG) 
+![](Serialization_T_r.PNG) 
 
 That's basically all there is to know from an end-user perspective. You can try these new nodes in the latest [alpha versions](https://vvvv.org/downloads/previews).
 
@@ -40,7 +41,7 @@ Creating a custom serializer consists of two steps
 
 Here are two screenshots of the above from an example implementation which can be found in the VL.CoreLib/help/Serialization.vl file:
 
-![](Serialization_CustomImplementation.PNG) 
+![](Serialization_C_r.PNG) 
 
 ![](Serialization_CustomRegistration.PNG) 
 

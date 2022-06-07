@@ -6,6 +6,7 @@ title: "vvvv in numbers 2016"
 slug: "vvvv-in-numbers-2016"
 description: ""
 imported: "true"
+thumb: "newtopics.png"
 ---
 
 
@@ -63,7 +64,7 @@ still thanks though everyone who did support us via this way!
 # licenses
 i didn't think this would be possible, but see for yourself: the overall income curve clearly went up. in a non-NODE festival year! we couldn't be more happy about this...
 
-![](Diagrams-DirectX%20Renderer_2017.01.12-20.23.02.png) 
+![](Diagrams-Direct_r.png) 
 
 ..if not at the same time the number of individual companies who bought licenses, went down. and with it the number of different countries licenses were bought from. so that would mean more projects were realized by less companies. 
 

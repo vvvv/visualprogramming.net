@@ -7,6 +7,7 @@ slug: "stx- -somaticae-a.live-festival"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "26.jpg"
 ---
 
 

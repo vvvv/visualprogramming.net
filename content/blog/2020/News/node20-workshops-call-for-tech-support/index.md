@@ -6,6 +6,7 @@ title: "NODE20: Workshops: Call for Tech Support"
 slug: "node20-workshops-call-for-tech-support"
 description: ""
 imported: "true"
+thumb: "call-workshop.jpg"
 ---
 
 

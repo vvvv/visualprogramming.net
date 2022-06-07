@@ -7,6 +7,7 @@ slug: "kinect-0"
 description: ""
 imported: "true"
 originalType: "stuff"
+thumb: "IMG_1067.PNG"
 ---
 
 

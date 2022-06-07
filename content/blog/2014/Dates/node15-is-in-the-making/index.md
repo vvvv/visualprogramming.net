@@ -28,7 +28,7 @@ Right now, we are working hard on curating an exhibition, lectures and workshops
 ##  Support NODE and get your NODE-Shirt already now
 ###  Companies attention!!! 
 ###  Watch out for the early bird company passes
-![](T-shirt-NODE15-rot-kleinesqua-red.jpg)
+![](T-shirt-NODE15-_r.jpg)
 
 We would be glad if you support the exhibition & lecture program by contributing to our first crowdfunding campain. The more contributers the better the chance for additional support by the [ Kulturmut Project by the Aventis Foundation](https://www.startnext.de/pages/kulturMut).
 

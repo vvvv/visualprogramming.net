@@ -6,6 +6,7 @@ title: "vvvvhat happened in October 2017"
 slug: "vvvvhat-happened-in-october-2017"
 description: ""
 imported: "true"
+thumb: "pinEditor.gif"
 ---
 
 

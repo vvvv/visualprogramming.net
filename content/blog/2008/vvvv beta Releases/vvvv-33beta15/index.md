@@ -11,6 +11,7 @@ release:
     date: "2008-03-25"
     app_file: "sites/default/files/vvvv_33beta15_0.zip"
 imported: "true"
+thumb: "plants.jpg"
 ---
 
 

@@ -17,30 +17,29 @@
 {{ end -}}
 
 {{ "<!-- Favicon -->" | safeHTML }}
-<link rel="shortcut icon" href="{{ .Site.Params.favicon | absURL }}">
+<link rel="shortcut icon" href="{{ .Site.Params.favicon | relURL }}">
 {{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
-<link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}" type="text/css">
+
+<link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}" type="text/css">
 {{ "<!-- Custom Fonts -->" | safeHTML }}
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300;500&family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet"> 
-
-<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 {{ "<!-- Custom CSS -->" | safeHTML }}
 {{ $style := resources.Get "css/creative.css" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" type="text/css">
+<link rel="stylesheet" href="{{ $style.Permalink | relURL }}" type="text/css">
 {{ "<!-- Custom SASS -->" | safeHTML }}
 {{ $style := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" type="text/css">
+<link rel="stylesheet" href="{{ $style.Permalink | relURL }}" type="text/css">
 
 {{ "<!-- Swiper -->" | safeHTML }}
 {{ $style := resources.Get "css/swiper-bundle.min.css" }}
-<link rel="stylesheet" href="{{ $style.Permalink }}"/>
+<link rel="stylesheet" href="{{ $style.Permalink | relURL}}"/>
 {{ $js := resources.Get "js/swiper-bundle.min.js" }}
-<script src="{{ $js.Permalink }}"></script>
+<script src="{{ $js.Permalink | relURL}}"></script>
 
 
 {{ "<!-- Newsletter CSS -->" | safeHTML }}

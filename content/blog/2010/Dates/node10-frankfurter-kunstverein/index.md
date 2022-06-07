@@ -13,10 +13,11 @@ where:
     from_date: "1289775600"
     to_date: "1289775600"
 imported: "true"
+thumb: "24591_103062996_r.jpg"
 ---
 
 
-![](24591_103062996394363_100000719905130_83148_7260799_n.jpg)
+![](24591_103062996_r.jpg)
 
 Dear vvvvriends. We are happy to welcome you again in Frankfurt this year from November 15th to 20th. We are happy to annouce the cooperation with the [Frankfurter Kunstverein](http://www.fkv.de) who will host our second edtition of NODE - Forum for Digital Arts in their wonderful location in the heart of Frankfurt. Please stay tuned for details on tickets and program.
 <!--break-->

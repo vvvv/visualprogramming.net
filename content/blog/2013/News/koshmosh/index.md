@@ -10,5 +10,5 @@ originalType: "stuff"
 ---
 
 
-![](vvvv%202013-03-04%2002-07-07-07.png) 
+![](vvvv%202013-03-04_r.png) 
 I am from Russia with my_first_patch.v4p

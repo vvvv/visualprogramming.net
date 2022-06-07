@@ -6,6 +6,7 @@ title: "vvvv Academy Europe Tour"
 slug: "vvvv-academy-europe-tour"
 description: ""
 imported: "true"
+thumb: "EuropeTourMap.png"
 ---
 
 
@@ -28,5 +29,5 @@ http://vvvv.academy/
 
 
 
-![Logo](vvvv-academy_logo_quarter.png) 
+![Logo](vvvv-academy_lo_r.png) 
 

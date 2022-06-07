@@ -6,6 +6,7 @@ title: "first prize: egosoccer"
 slug: "first-prize-egosoccer"
 description: ""
 imported: "true"
+thumb: "enterpage.gif"
 ---
 
 

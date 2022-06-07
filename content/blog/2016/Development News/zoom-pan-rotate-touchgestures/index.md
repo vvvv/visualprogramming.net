@@ -6,6 +6,7 @@ title: "Zoom, Pan, Rotate TouchGestures"
 slug: "zoom-pan-rotate-touchgestures"
 description: ""
 imported: "true"
+thumb: "vvvvGestures.png"
 ---
 
 

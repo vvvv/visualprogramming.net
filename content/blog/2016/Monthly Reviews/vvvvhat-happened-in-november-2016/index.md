@@ -6,6 +6,7 @@ title: "vvvvhat happened in November 2016"
 slug: "vvvvhat-happened-in-november-2016"
 description: ""
 imported: "true"
+thumb: "superphong.png"
 ---
 
 

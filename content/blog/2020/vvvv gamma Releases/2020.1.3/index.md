@@ -6,6 +6,7 @@ title: "vvvv gamma 2020.1.3 release"
 slug: "vvvv-gamma-2020.1.3-release"
 description: "Release notes"
 imported: "true"
+thumb: "vvvv-2020.1.3.png"
 ---
 
 Because we care,

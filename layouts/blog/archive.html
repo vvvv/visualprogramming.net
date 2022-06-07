@@ -2,7 +2,7 @@
 <main id="Blog">
     <div class="container list">
         <div class="row justify-content-between">
-            <div class="col-11 col-md-8">
+            <div class="col-12 col-md-8">
                 <h1 class="mb-5">{{ .Title }}</h1>
                     <div class="content">
                         {{ $paginator := .Paginate (where .Site.RegularPages "Type" "blog")}}

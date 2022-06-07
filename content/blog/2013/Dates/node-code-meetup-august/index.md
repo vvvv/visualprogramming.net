@@ -18,6 +18,7 @@ where:
     lat: "50.107300"
     long: "8.671162"
 imported: "true"
+thumb: "mohr05.png"
 ---
 
 
