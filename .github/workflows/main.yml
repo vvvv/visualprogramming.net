@@ -8,19 +8,11 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-18.04
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: false  # don't fetch Hugo themes
-          fetch-depth: 1    # don't fetch all history to save time
-          lfs: true
-
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-      
+    steps:      
       - name: build on target
         uses: garygrossgarten/github-action-ssh@release
         with:
           command: ./build.sh
-          host: 'https://visualprogramming.net'
+          host: 'visualprogramming.net'
           username: vvvv
           privateKey: ${{ secrets.SSH_PRIVATE_KEY}}
