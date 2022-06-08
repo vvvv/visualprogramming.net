@@ -34,7 +34,7 @@ aaand [remony](https://vvvv.org/users/remony) created a [vvvv tutorial](https://
 
 ## Gallery
 {{< vimeo 713883462 >}}
-EVOLVER - by Marshmellow Laser Feast, in collaboration with Natan Sinigaglia and Imaginary Friends, et al. See it [live at the Tribeca Film Festival](https://tribecafilm.com/films/evolver-2022) in New York.
+EVOLVER - by [Marshmellow Laser Feast](https://www.marshmallowlaserfeast.com/), in collaboration with [Natan Sinigaglia](https://natansinigaglia.com/) and Imaginary Friends, et al. See it [live at the Tribeca Film Festival](https://tribecafilm.com/films/evolver-2022) in New York.
 
 * [HUMA - FLEX](https://vimeo.com/710686383) by [Juan Hurle](https://vvvv.org/users/juanhurle)
 * [Space Shooter Game](https://discourse.vvvv.org/t/space-shooter-game/20578) by [Juan Espinoza](https://vvvv.org/users/jrespinozah)
