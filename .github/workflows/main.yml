@@ -8,33 +8,11 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-18.04
-    steps:
-      - uses: actions/checkout@v2
+    steps:      
+      - name: build on target
+        uses: garygrossgarten/github-action-ssh@release
         with:
-          submodules: false  # don't fetch Hugo themes
-          fetch-depth: 1    # don't fetch all history to save time
-          lfs: true
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.89.4'
-          extended: true
-
-      - name: Build
-        run: hugo --minify
-
-      - name: SFTP Deploy
-        uses: wlixcc/SFTP-Deploy-Action@v1.0
-        with:
-          username: root
-          server: 78.47.109.137
-          #port: # default is 22
-          # you can copy private_key from your *.pem file, keep format
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          # will put all file under this path
-          local_path: ./public/* # default is ./*
-          # files will copy to under remote_path
-          remote_path: /var/www-visualprogramming.net # default is /
-          # sftp args
-          # args: # optional
+          command: ./build.sh
+          host: 'visualprogramming.net'
+          username: vvvv
+          privateKey: ${{ secrets.SSH_PRIVATE_KEY}}
