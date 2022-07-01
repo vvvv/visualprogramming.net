@@ -2,9 +2,9 @@
 categories: "Dates"
 author: "david"
 date: "2022-07-01"
-title: "18. vvvv woldwide meetup"
-slug: "18.-vvvv-woldwide-meetup"
-description: ""
+title: "18. vvvv worldwide meetup"
+slug: "18.-vvvv-worldwide-meetup"
+description: "Realworld and realtime!"
 where: 
     city: "Wipperstrasse 13, 12055 Berlin"
     country: "de"
@@ -13,7 +13,6 @@ where:
     to_date: "1657224000"
 thumb: "18.png"
 ---
-
 
 ![](18.png) 
 
