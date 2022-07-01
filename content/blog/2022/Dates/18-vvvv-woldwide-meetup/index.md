@@ -9,8 +9,8 @@ where:
     city: "Berlin"
     country: "de"
     country_name: "Germany"
-    from_date: "1645552800"
-    to_date: "1645560000"
+    from_date: "1657216800"
+    to_date: "1657216800"
 thumb: "18.png"
 ---
 
@@ -50,6 +50,6 @@ Please write your name + vvvv so we can let you in the call.
 
 ## Watching only
 
-{{ < youtube "nwSZ-OFDoC0" > }}
+{{< youtube "nwSZ-OFDoC0" >}}
 
 Any questions? Get in touch via meetup@vvvv.org. See you there!
