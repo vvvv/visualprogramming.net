@@ -6,11 +6,11 @@ title: "18. vvvv woldwide meetup"
 slug: "18.-vvvv-woldwide-meetup"
 description: ""
 where: 
-    city: "Berlin"
+    city: "Wipperstrasse 13, 12055 Berlin"
     country: "de"
     country_name: "Germany"
     from_date: "1657216800"
-    to_date: "1657216800"
+    to_date: "1657224000"
 thumb: "18.png"
 ---
 
@@ -40,12 +40,12 @@ You come, grab a drink and listen. You grab the next drink and talk. We have one
 
 ## Attending in Berlin
 
-To secure your spot in the studio in Berlin, please get a free ticket! Ticket sale starts soon. Tickets are limited to 25 attendants.
+To secure your spot in the [NODE Institute](https://thenodeinstitute.org) in Berlin, please get a free ticket! Ticket sale starts soon. Tickets are limited to 25 attendants.
 
 
 ## Attending remotely
 
-[Join Zoom Meeting](https://us02web.zoom.us/j/84254091493)
+[Join the Zoom Meeting](https://us02web.zoom.us/j/84254091493)  
 Please write your name + vvvv so we can let you in the call.
 
 ## Watching only
