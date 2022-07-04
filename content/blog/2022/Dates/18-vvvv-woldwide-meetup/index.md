@@ -6,6 +6,7 @@ title: "18. vvvv worldwide meetup"
 slug: "18.-vvvv-worldwide-meetup"
 description: "Realworld and realtime!"
 where: 
+    location_name: "NODE Institute"
     city: "Wipperstrasse 13, 12055 Berlin"
     country: "de"
     country_name: "Germany"
