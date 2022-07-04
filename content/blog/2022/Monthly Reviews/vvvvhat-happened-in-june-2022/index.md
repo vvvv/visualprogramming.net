@@ -8,7 +8,7 @@ author: joreg
 
 Save the date:
 
-We have a **meetup on July 7th**, see [18th worldwide meetup](../../Dates/18-vvvv-woldwide-meetup).
+We have a **meetup on July 7th**, see [18th worldwide meetup](../../2022/18.-vvvv-woldwide-meetup).
 
 And then you want to know what's happening under the hood? Quite a lot these days. Here is an incomplete list:
 
