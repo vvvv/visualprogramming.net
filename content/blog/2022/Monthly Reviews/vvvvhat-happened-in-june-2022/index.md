@@ -1,5 +1,5 @@
 ---
-date: "2022-07-01"
+date: "2022-07-04"
 title: "vvvvhat happened in June 2022"
 description: "Last month in review"
 categories: Monthly Reviews
