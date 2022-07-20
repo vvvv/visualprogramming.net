@@ -15,12 +15,13 @@ This has been a long time coming!
 We've hoped to have this one out earlier, but finally, we can release it into your caring hands: The best vvvv gamma ever (so far). With tons of bug fixes, improvements, and new features. And without further ado, you can divvvve right into it:
 
 {{< box >}}
-__[Download vvvv gamma 2021.4.9](http://visualprogramming.net/#Download|)__
+__[Download vvvv gamma 2021.4.10](http://visualprogramming.net/#Download|)__
 
 [Get started](https://thegraybook.vvvv.org/reference/getting-started/overview.html)  
 [Buy a license](https://store.vvvv.org)
 
 __Bugfix releases__
+* 2021.4.10 on July 20, 2022
 * 2021.4.9 on May 27, 2022
 * 2021.4.8 on March 29, 2022
 * 2021.4.7 on February 26, 2022
