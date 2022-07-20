@@ -1,11 +1,10 @@
 ---
 categories: "Development News"
 author: "joreg"
-date: "2022-07-19"
+date: "2022-07-20"
 title: "Introducing: VIOSO Projector Warping and Blending"
 description: "A projector auto-alignment system"
 thumb: v.jpg
-draft: false
 ---
 
 
@@ -27,7 +26,12 @@ With [VL.VIOSOWarpBlend](https://nuget.org/vl.VIOSOWarpBlend) we provide a libra
 
 ![](demopatch.png)
 
-And you can test it yourself right away by downloading a [trial version of VIOSO Integrate](https://vioso.com/downloads/#integrate). All you need is at least one projector (it is more fun with multiple of course) and a camera (even a webcam is sufficient for testing).
+And you can test it yourself right away:
+* Downloade the [trial version of VIOSO Integrate](https://vioso.com/downloads/#integrate)
+* Get latest [vvvv gamma 2021.4.10](https://visualprogramming.net/#Download)
+* [Install](https://thegraybook.vvvv.org/reference/hde/managing-nugets.html) the VL.VIOSOWarpBlend NuGet
+
+All you then need is at least one projector (it is more fun with multiple of course) and a camera (even a webcam is sufficient for testing). 
 
 For simply mapping textures onto a screen, a [2d calibration](https://helpdesk.vioso.com/documentation/core-video-tutorial/) as demonstrated in the following video, is sufficient:
 {{< youtube 2yOslfdEm8c >}}
