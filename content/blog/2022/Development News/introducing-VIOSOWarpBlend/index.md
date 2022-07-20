@@ -22,7 +22,7 @@ As part of our larger [projection mapping](https://thegraybook.vvvv.org/referenc
 
 Our partner [VIOSO](https://vioso.com) is a pioneer in the field of autocalibration and thanks to their great support it was a breeze for us to implement their solution for you. 
 
-With [VL.VIOSOWarpBlend](https://nuget.org/vl.VIOSOWarpBlend) we provide a library that let's you apply calibrations created using [VIOSO Integrate](https://vioso.com/vioso-integrate/) with just a few clicks. 
+With [VL.VIOSOWarpBlend](https://www.nuget.org/packages/VL.VIOSOWarpBlend) we provide a library that let's you apply calibrations created using [VIOSO Integrate](https://vioso.com/vioso-integrate/) with just a few clicks. 
 
 ![](demopatch.png)
 
@@ -31,7 +31,7 @@ And you can test it yourself right away:
 * Get latest [vvvv gamma 2021.4.10](https://visualprogramming.net/#Download)
 * [Install](https://thegraybook.vvvv.org/reference/hde/managing-nugets.html) the VL.VIOSOWarpBlend NuGet
 
-All you then need is at least one projector (it is more fun with multiple of course) and a camera (even a webcam is sufficient for testing). 
+All you then need is at least one projector (it is more fun with multiple of course) and a camera (even a webcam is enough for testing). 
 
 For simply mapping textures onto a screen, a [2d calibration](https://helpdesk.vioso.com/documentation/core-video-tutorial/) as demonstrated in the following video, is sufficient:
 {{< youtube 2yOslfdEm8c >}}
