@@ -27,7 +27,7 @@ With [VL.VIOSOWarpBlend](https://www.nuget.org/packages/VL.VIOSOWarpBlend) we pr
 ![](demopatch.png)
 
 And you can test it yourself right away:
-* Downloade the [trial version of VIOSO Integrate](https://vioso.com/downloads/#integrate)
+* Download the [trial version of VIOSO Integrate](https://vioso.com/downloads/#integrate)
 * Get latest [vvvv gamma 2021.4.10](https://visualprogramming.net/#Download)
 * [Install](https://thegraybook.vvvv.org/reference/hde/managing-nugets.html) the VL.VIOSOWarpBlend NuGet
 
