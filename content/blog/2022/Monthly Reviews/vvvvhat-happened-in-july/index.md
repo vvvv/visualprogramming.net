@@ -41,7 +41,7 @@ Still cooking are these two pull requests for VL.Stride:
 * [Geometry Primitives](https://github.com/vvvv/VL.Stride/pull/561)
 
 ## Gallery
-{{< vimeo 723790165 >}}
+{{< youtube 1gJv7KA3heg >}}
 Polytope 2022 - by [ExperiensS](https://experienss.com)
 
 ## Jobs
