@@ -1,11 +1,10 @@
 ---
 categories: "Development News"
 author: "joreg"
-date: "2022-08-29"
+date: "2022-08-31"
 title: "Introducing: Lottie"
 description: "vvvv now plays back Lottie animation files"
 thumb: lottie.png
-draft: true
 ---
 
 Dear animators!
@@ -18,11 +17,11 @@ Watch this brief demo from our last meetup:
 
 ## Create your own
 
-Initially created for exporting Adobe AfterFX animations using the [Bodymovin](https://aescripts.com/bodymovin/) plugin, the lottie format can meanwhile also be exported by a few other tools, like e.g. [Framer](https://www.framer.com/plugins/lottie/). For a full list of supporting applications, see [Lottie Plugins](https://github.com/LottieFiles/awesome-lottie#plugins).
+Initially created for exporting Adobe After Effects animations using the [Bodymovin](https://aescripts.com/bodymovin/) plugin, the Lottie format can meanwhile also be exported by a few other tools, like e.g. [Framer](https://www.framer.com/plugins/lottie/). For a full list of supporting applications, see [Lottie Creation Tools](https://github.com/LottieFiles/awesome-lottie#Creation-Tools).
 
 ## Marketplace 
 
-For certain usecases it may even be suitable to just get some stock animations. If this sounds interesting, have a look at the  [marketplace for Lottie files](https://lottiefiles.com/marketplace) where you can buy and sell ready to use lotties. 
+For certain usecases it may even be suitable to just get some stock animations. If this sounds interesting, have a look at the  [marketplace for Lottie files](https://lottiefiles.com/marketplace) where you can buy and sell ready to use Lotties. 
 
 --- 
 Interested? You can test-drive this right away by downloading the latest available [vvvv gamma preview](https://visualprogramming.net/#Download).
