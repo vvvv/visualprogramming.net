@@ -14,12 +14,12 @@ a month that saw quite some holiday action on our end. Still we found time for a
 - Also in latest previews is a new commandline `--nuget-path` as discussed in [this forum post](https://discourse.vvvv.org/t/vvvv-projects-self-contained-vs-global-package-repositories/20754/12)
 - After identifying the issue, work has started to mitigate framedrops as mentioned in [this forum post](https://discourse.vvvv.org/t/total-frame-drop-out-including-audio-dropout-glitching/20701)
 - We're about to finish work on the [Geometry Primitives](https://github.com/vvvv/VL.Stride/pull/561) pullrequest and hope to soon have it merged into latest previews
-- We further continued work on wrapping [ImGui](https://github.com/ocornut/imgui) and onour projection mapping library [VL.Badmapper](https://www.nuget.org/packages/VL.Badmapper)
+- We further continued work on wrapping [ImGui](https://github.com/ocornut/imgui) and on our projection mapping library [VL.Badmapper](https://www.nuget.org/packages/VL.Badmapper)
 - Work is well under way moving [Contributions](https://vvvv.org/contributions) into a new home...
 - We sat with the [FUSE](https://www.thefuselab.io/) team to figure out best practices for their next steps 
   
 Next up: We're looking forward to the **[Kairos development camp 1.0
-](https://discourse.vvvv.org/t/vl-kairos/15506)** mid of August. Looking forward to see you there!
+](https://discourse.vvvv.org/t/vl-kairos/15506)** mid of September. Looking forward to see you there!
 
 ## Contributions
 We received updates to the following:
