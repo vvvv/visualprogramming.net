@@ -24,20 +24,24 @@ And beware that when strolling around you may stumble upon quite some vvvv unwit
 ## ECOLALIA
 ![](2022-09-05-10-13-46.png)
 To be found at KEPLER'S GARDENS, Science Park 4, First Floor  
-[Program Details about ECOLALIA](https://ars.electronica.art/planetb/en/ecolalia/)
+[Program Details for ECOLALIA](https://ars.electronica.art/planetb/en/ecolalia/)
 
 ## un ctrl
 ![](2022-09-05-10-23-23.png)
 To be found at Ars Electronica Center, Deep Space 8K  
-[Program Details about un ctrl](https://ars.electronica.art/planetb/en/un-ctrl/)
+[Program Details for un ctrl](https://ars.electronica.art/planetb/en/un-ctrl/)
 
 ## Ver-Hand-lung versus? Ver-Hand-eln
 ![](2022-09-05-10-20-41.png)
 To be found at KEPLER'S GARDENS, Keplergebäude  
-[Program Details about Ver-Hand-lung versus? Ver-Hand-eln](https://ars.electronica.art/planetb/en/ver-hand-lung-ver-hand-eln/)
+[Program Details for Ver-Hand-lung versus? Ver-Hand-eln](https://ars.electronica.art/planetb/en/ver-hand-lung-ver-hand-eln/)
 
 ## FadingColors
 ![](2022-09-05-10-16-00.png)
 To be found as part of the [University of Art and Design Linz Exhibition](https://ars.electronica.art/planetb/en/exhibition-projects/) at the JKU Campus in front of the confrence room.
+
+## Re-wasted
+![](2022-09-05-12-42-53.png)
+[Program Details for Re-wasted](https://ars.electronica.art/planetb/en/re-wasted/)
 
 If you know of any other projects utilising vvvv at Ars Electronica 2022, please let us know in the comments!
