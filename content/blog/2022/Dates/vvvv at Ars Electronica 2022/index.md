@@ -44,4 +44,9 @@ To be found as part of the [University of Art and Design Linz Exhibition](https:
 ![](2022-09-05-12-42-53.png)
 [Program Details for Re-wasted](https://ars.electronica.art/planetb/en/re-wasted/)
 
+## Contact
+![](2022-09-05-13-29-16.png)
+To be found at the Ars Electronica Center  
+[Artwork Info](https://www.emanuelgollob.com/contact)
+
 If you know of any other projects utilising vvvv at Ars Electronica 2022, please let us know in the comments!
