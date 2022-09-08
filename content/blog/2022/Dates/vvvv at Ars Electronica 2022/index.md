@@ -30,14 +30,14 @@ Live on September 9th, 11:15CET
 [Watch on Youtube](https://youtu.be/17acejfj5Ik)
 
 ## ECOLALIA
-with vvvv expertise by Boris Vitazek (StiX).  
 ![](2022-09-05-10-13-46.png)
+With vvvv expertise by Boris Vitazek (StiX).  
 To be found at KEPLER'S GARDENS, Science Park 4, First Floor  
 [Program Details for ECOLALIA](https://ars.electronica.art/planetb/en/ecolalia/)
 
 ## un ctrl
-with vvvv expertise by Martin Retschitzegger (tin).  
 ![](2022-09-05-10-23-23.png)
+With vvvv expertise by Martin Retschitzegger (tin).  
 To be found at Ars Electronica Center, Deep Space 8K  
 [Program Details for un ctrl](https://ars.electronica.art/planetb/en/un-ctrl/)
 
