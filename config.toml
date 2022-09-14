@@ -109,7 +109,11 @@ blog = '/blog/:sections[1]/:slug/'
 		PreviewLink = "PreviewDownloads"
 		PreviewVersion = "Unstable, daily preview builds"
 		# Preview Branch, note %2F instead of '/'
-		PreviewBranch = "%3Cdefault%3E"
+		CurrentPreviewTitle = "Current Major"
+		NextPreviewTitle = "Upcomming Major"
+		CurrentPreviewBranch = "%3Cdefault%3E"
+		NextPreviewBranch = "preview%2F2022.5"
+
 
 		LibrariesText  = "Additional Libraries"
 		LibrariesLink = "https://thegraybook.vvvv.org/reference/libraries/overview.html"

@@ -3,8 +3,8 @@ function getTeamcity()
     var teamcity = "https://teamcity.vvvv.org";
     var proxy = "https://api.codetabs.com/v1/proxy?quest=";
     
-    //return proxy + teamcity;
-    return teamcity;
+    return proxy + teamcity;
+    //return teamcity;
 }
 
 function getBuildsLink(branch)
@@ -30,14 +30,39 @@ var tip = tippy('#previewButton', {
     onShow(instance) {
         if (!instance._isLoaded)
         {
-            getLatestBuild(instance.reference.getAttribute('branch'))
-            .then (content => {
+            const currentPreviewBranch = instance.reference.getAttribute("data-currentPreviewBranch");
+            const currentPreviewTitle = instance.reference.getAttribute("data-currentPreviewTitle");
+            const nextPreviewBranch = instance.reference.getAttribute("data-nextPreviewBranch");
+            const nextPreviewTitle = instance.reference.getAttribute("data-nextPreviewTitle");
+            
+            Promise.allSettled([getLatestBuild(currentPreviewBranch), getLatestBuild(nextPreviewBranch)])
+            .then((result) => {
+                
+                console.log (result[1].value);
+
+                var div=`
+                <div class="row">
+                    <div class="col mx-0 mb-4">
+                        <h3>${currentPreviewTitle}</h3> 
+                        ${result[0].value}
+                    </div>
+                    <div class="col mx-0">
+                        <h3>${nextPreviewTitle}</h3> 
+                        ${result[1].value}
+                    </div>
+                </div>
+                `;
+                
+                document.getElementById('gammaPreviews').innerHTML = div;
+                var content = document.getElementById('previewDownloadTemplate').innerHTML;
+
                 instance.setContent(content);
                 instance._isLoaded = true;
                 var closeButton = instance.popper.getElementsByClassName('close')[0];
                 closeButton.onclick = function() {
                     instance.hide();
                 }
+                
             });
         }
       },
@@ -56,9 +81,8 @@ async function getLatestBuild(branch)
         for (var preview of previews)
         {
             div +=`<tr>  
-                <td><a href="${getTeamcity()}${preview.link}" class="btn btn-secondary previewButton" onclick="plausible('downloadPreview')">Preview ${preview.buildNumber}</a></td>
-                <td class="date">${preview.date}</td>
-                <td><a href="${preview.changesLink}" target="_blank" class="changes">Changes</a></td>
+                <td><a href="${getTeamcity()}${preview.link}" class="btn btn-secondary previewButton" onclick="plausible('downloadPreview')">${preview.buildNumber}</a></td>
+                <td class="date">${preview.date}<br><a href="${preview.changesLink}" target="_blank" class="changes">Changes</a></td>
             </tr>`; 
         }
     }
@@ -69,10 +93,7 @@ async function getLatestBuild(branch)
 
     div+="</table>";
 
-    document.getElementById('gammaPreviews').innerHTML = div;
-    var template = document.getElementById('previewDownloadTemplate').innerHTML;
-
-    return template;
+    return div;
 }
 
 async function fetchData(link)
