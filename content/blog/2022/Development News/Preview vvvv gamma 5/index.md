@@ -42,3 +42,6 @@ Faster startup...
 One of the bigger things the update to .NET6 allows us to do, is exporting executables not only for Windows, but also other platforms. At this point this is still rather limited as we cannot export GUI applications yet, but what we've tested to work, is e.g. export to a Raspberry Pi running Linux. See this demo from our last meetup:
 
 {{< youtube nwSZ-OFDoC0 4833 >}}
+
+## Breaking changes
+?
