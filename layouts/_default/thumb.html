@@ -1,7 +1,7 @@
 {{ $thumb := ""}}
 {{ with .Params.thumb}}
   {{ with $.Resources.GetMatch .}}
-      {{ $thumb = .Fill "80x80 jpeg"}}
+      {{ $thumb = .Fill "80x80 jpg q99"}}
       {{ with $thumb}}
         <div class="post-thumb"><img src="{{ $thumb.Permalink }}" class="img-fluid"/></div>
       {{ end }}

@@ -102,8 +102,8 @@ blog = '/blog/:sections[1]/:slug/'
 		Copy = "First released in April 2020, vvvv gamma is the next generation of vvvv, entirely rewritten from scratch."
 
 		StableText  = "Download: Stable"
-		StableLink = "https://teamcity.vvvv.org/guestAuth/app/rest/builds/id:35641/artifacts/content/vvvv_gamma_2021.4.9_setup.exe"
-		StableVersion = "Version: 2021.4.9"
+		StableLink = "https://teamcity.vvvv.org/guestAuth/app/rest/builds/id:36032/artifacts/content/vvvv_gamma_2021.4.10_setup.exe"
+		StableVersion = "Version: 2021.4.10"
 
 		PreviewText = "Download: Preview"
 		PreviewLink = "PreviewDownloads"
