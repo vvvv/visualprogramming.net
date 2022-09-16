@@ -6,22 +6,39 @@
     padding-right: 0;
     }
 
+    h3
+    {
+        font-size: 1.1em;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 0;
+    }
+
+    hr {
+        max-width: 100%;
+        border-color: #999;
+        border-width: 1px;
+        margin-bottom: 1.5em;
+    }
+    
     a
     {
-    border-width: 1px;
-    text-decoration: underline;
+        border-width: 1px;
+        text-decoration: none;
     }
 
     td
     {
-    padding: 0.5em 1.5em 0 0;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-size: 0.8em;
-    }
+        padding: 1em 1em 0 0;
+        font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 
-    .date
-    {
-    color: #aaa;
+        font-size: 1em;
+
+        &.date
+        {
+            font-size: 0.8em;
+            color: #aaa;
+        }
     }
 
     .changes
@@ -43,7 +60,7 @@
         text-decoration: none;
         font-weight: normal;
         font-size: 1em;
-        padding: 0.3em 1em;
+        padding: 0.6em 1em;
     }
 
     .modal-dialog a
@@ -72,7 +89,7 @@
 
 .tippy-tooltip {
     background-color: #444;
-    min-width: 380px;
+    min-width: 600px;
   }
   
 .tippy-tooltip[data-placement^='right'] > .tippy-arrow{

@@ -7,9 +7,9 @@ function getTeamcity()
     return teamcity;
 }
 
-function getBuildsLink(branch)
+function getBuildsLink(buildType)
 {
-    return getTeamcity() + `/guestAuth/app/rest/builds?locator=branch:name:${branch},buildType:vvvv_gamma_Build,status:SUCCESS,state:finished&count=3`;
+    return getTeamcity() + `/guestAuth/app/rest/builds?locator=branch:name:%3Cdefault%3E,buildType:${buildType},status:SUCCESS,state:finished&count=3`;
 }
 
 var tip = tippy('#previewButton', {
@@ -30,24 +30,47 @@ var tip = tippy('#previewButton', {
     onShow(instance) {
         if (!instance._isLoaded)
         {
-            getLatestBuild(instance.reference.getAttribute('branch'))
-            .then (content => {
+            const currentPreviewBuildType = instance.reference.getAttribute("data-currentPreviewBuildType");
+            const currentPreviewTitle = instance.reference.getAttribute("data-currentPreviewTitle");
+            const nextPreviewbuildType = instance.reference.getAttribute("data-nextPreviewBuildType");
+            const nextPreviewTitle = instance.reference.getAttribute("data-nextPreviewTitle");
+            
+            Promise.allSettled([getLatestBuild(currentPreviewBuildType), getLatestBuild(nextPreviewbuildType)])
+            .then((result) => {
+                
+                var div=`
+                <div class="row">
+                    <div class="col mx-0 mb-4">
+                        <h3>${currentPreviewTitle}</h3> 
+                        ${result[0].value}
+                    </div>
+                    <div class="col mx-0">
+                        <h3>${nextPreviewTitle}</h3> 
+                        ${result[1].value}
+                    </div>
+                </div>
+                `;
+                
+                document.getElementById('gammaPreviews').innerHTML = div;
+                var content = document.getElementById('previewDownloadTemplate').innerHTML;
+
                 instance.setContent(content);
                 instance._isLoaded = true;
                 var closeButton = instance.popper.getElementsByClassName('close')[0];
                 closeButton.onclick = function() {
                     instance.hide();
                 }
+                
             });
         }
       },
   });
 
-async function getLatestBuild(branch)
+async function getLatestBuild(buildType)
 {
     var previews = [];
 
-    var previews = await fetchData(getBuildsLink(branch));
+    var previews = await fetchData(getBuildsLink(buildType));
 
     var div="<table>";
 
@@ -56,9 +79,8 @@ async function getLatestBuild(branch)
         for (var preview of previews)
         {
             div +=`<tr>  
-                <td><a href="${getTeamcity()}${preview.link}" class="btn btn-secondary previewButton" onclick="plausible('downloadPreview')">Preview ${preview.buildNumber}</a></td>
-                <td class="date">${preview.date}</td>
-                <td><a href="${preview.changesLink}" target="_blank" class="changes">Changes</a></td>
+                <td><a href="${getTeamcity()}${preview.link}" class="btn btn-secondary previewButton" onclick="plausible('downloadPreview')">${preview.buildNumber}</a></td>
+                <td class="date">${preview.date}<br><a href="${preview.changesLink}" target="_blank" class="changes">Changes</a></td>
             </tr>`; 
         }
     }
@@ -69,10 +91,7 @@ async function getLatestBuild(branch)
 
     div+="</table>";
 
-    document.getElementById('gammaPreviews').innerHTML = div;
-    var template = document.getElementById('previewDownloadTemplate').innerHTML;
-
-    return template;
+    return div;
 }
 
 async function fetchData(link)

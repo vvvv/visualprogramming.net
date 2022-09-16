@@ -26,7 +26,12 @@
                         <a href="{{ .StableLink }}" class="btn btn-primary btn-xl mb-2" target="{{ .Target }}" onclick="plausible('download')">{{ .StableText }}<span class="WindowsIcon"></span></a>
                         <div class="version text">&nbsp;&nbsp;{{ .StableVersion | markdownify }}</div>
                         
-                        <a branch="{{ .PreviewBranch }}" id="previewButton" class="btn btn-secondary btn-xl mb-2 mt-4">{{ .PreviewText }}<span class="WindowsIcon"></span></a>
+                        <a data-currentPreviewBuildType="{{ .CurrentPreviewBuildType }}" data-nextPreviewBuildType="{{ .NextPreviewBuildType }}" 
+                           data-currentPreviewTitle="{{ .CurrentPreviewTitle }}" data-nextPreviewTitle="{{ .NextPreviewTitle }}" 
+                           id="previewButton" 
+                           class="btn btn-secondary btn-xl mb-2 mt-4">
+                           {{ .PreviewText }}<span class="WindowsIcon"></span>
+                        </a>
                         <div class="version text">&nbsp;&nbsp;{{ .PreviewVersion | markdownify }}</div>
 
                     </div>
