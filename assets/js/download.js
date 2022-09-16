@@ -3,13 +3,13 @@ function getTeamcity()
     var teamcity = "https://teamcity.vvvv.org";
     var proxy = "https://api.codetabs.com/v1/proxy?quest=";
     
-    return proxy + teamcity;
-    //return teamcity;
+    //return proxy + teamcity;
+    return teamcity;
 }
 
-function getBuildsLink(branch)
+function getBuildsLink(buildType)
 {
-    return getTeamcity() + `/guestAuth/app/rest/builds?locator=branch:name:${branch},buildType:vvvv_gamma_Build,status:SUCCESS,state:finished&count=3`;
+    return getTeamcity() + `/guestAuth/app/rest/builds?locator=branch:name:%3Cdefault%3E,buildType:${buildType},status:SUCCESS,state:finished&count=3`;
 }
 
 var tip = tippy('#previewButton', {
@@ -30,16 +30,14 @@ var tip = tippy('#previewButton', {
     onShow(instance) {
         if (!instance._isLoaded)
         {
-            const currentPreviewBranch = instance.reference.getAttribute("data-currentPreviewBranch");
+            const currentPreviewBuildType = instance.reference.getAttribute("data-currentPreviewBuildType");
             const currentPreviewTitle = instance.reference.getAttribute("data-currentPreviewTitle");
-            const nextPreviewBranch = instance.reference.getAttribute("data-nextPreviewBranch");
+            const nextPreviewbuildType = instance.reference.getAttribute("data-nextPreviewBuildType");
             const nextPreviewTitle = instance.reference.getAttribute("data-nextPreviewTitle");
             
-            Promise.allSettled([getLatestBuild(currentPreviewBranch), getLatestBuild(nextPreviewBranch)])
+            Promise.allSettled([getLatestBuild(currentPreviewBuildType), getLatestBuild(nextPreviewbuildType)])
             .then((result) => {
                 
-                console.log (result[1].value);
-
                 var div=`
                 <div class="row">
                     <div class="col mx-0 mb-4">
@@ -68,11 +66,11 @@ var tip = tippy('#previewButton', {
       },
   });
 
-async function getLatestBuild(branch)
+async function getLatestBuild(buildType)
 {
     var previews = [];
 
-    var previews = await fetchData(getBuildsLink(branch));
+    var previews = await fetchData(getBuildsLink(buildType));
 
     var div="<table>";
 
