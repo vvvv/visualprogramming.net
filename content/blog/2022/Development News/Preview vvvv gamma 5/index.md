@@ -1,11 +1,11 @@
 ---
 categories: "Development News"
 author: "joreg"
-date: "2022-09-15"
+date: "2022-09-25"
 title: "vvvv gamma 5 - Previews available now"
 description: "The big .NET6 update"
 thumb: 
-draft: true
+draft: false
 ---
 
 Dear patcher people!
@@ -49,7 +49,7 @@ What this also means though - and this shouldn't bother the default user too muc
 More advanced users who may have reasons to opt-out of this new default behavior at times, see [Commandline Arguments](https://thegraybook.vvvv.org/reference/hde/commandline-arguments.html).
 
 ## Export
-![](2022-09-16-11-03-40.png)
+![](2022-09-16-11-00-21.png)
 
 ### Cross platform console apps
 One of the bigger things the update to .NET6 allows us to do, is exporting executables not only for Windows, but also other platforms. At this point this is still rather limited as we cannot export GUI applications but only Console Apps for other platforms. But it is a start. What we've tested to work, is e.g. export to a Raspberry Pi running Linux. See this demo from our last meetup:
