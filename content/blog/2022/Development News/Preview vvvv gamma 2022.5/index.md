@@ -3,7 +3,7 @@ categories: "Development News"
 author: "joreg"
 date: "2022-09-28"
 title: "vvvv gamma 2022.5 - Previews available now"
-description: "The big .NET6 update"
+description: "The future is near!"
 thumb: 
 draft: false
 ---
@@ -20,7 +20,7 @@ and then some more...
 ## Effortless creation of user interfaces
 Building UI's has been a topic in vvvv since its early years. Here is another fresh take at a library for quickly building UI's. 
 
-**screenshot**
+![](2022-10-04-14-35-32.png)
 
 Based on the popular [Dear ImGui](https://github.com/ocornut/imgui) library, we experimented a lot with different ways to wrap this for convenient use in our visual language and are quite happy with the results. It is certainly not the right library for all usecases,  but it should cover a wide range still. Read what the original creators have to say about it:
 
@@ -32,16 +32,16 @@ Have a look at the helpbrowser for tons of examples to get you started.
 ## Cross platform application export
 vvvv can now export executables not only for Windows, but also other platforms, see the updated export dialog:
 
-![](2022-09-16-11-00-21.png)
+![](2022-10-04-12-27-57.png)
 
-Arguably, at this point this is still rather limited as for other platforms, we cannot export GUI applications but only console apps at this point. But it is a start. What we've tested to work, is e.g. export to a Raspberry Pi running Linux. See this demo from our last meetup:
+Arguably, at this point this is still rather limited as for other platforms, we cannot export GUI applications but only console apps. But it is a start. What we've tested to work, is e.g. export to a Raspberry Pi running Linux. See this demo from our last meetup:
 
 {{< youtube nwSZ-OFDoC0 4833 >}}
 
 ## Hybrid visual/text coding
 vvvv beta used to be a truly hybrid (visual and textual) development environment. You'd use visual coding for high-level stuff but still have the opportunity to throw in some text code whenever you feel like. 
 
-This version brings back the "hybrid" in the sense that instead of having to compile a .dll separately and restart vvvv everytime you make a change (which was possible already), you can now simply reference a .csproj file with any of your .vl files. 
+This version brings back the "hybrid" in the sense that instead of having to compile a .dll separately and restart vvvv everytime you make a change (which was possible already), you can now simply reference a .csproj file from any of your .vl documents. 
 
 ![](2022-09-16-11-41-53.png)
 
@@ -53,7 +53,7 @@ For more details on this, see [Writing Nodes](https://thegraybook.vvvv.org/refer
 ### Channels
 You'll most likely love these. They are the simplest yet way for controling values in a patch from different spots. You'll first encounter them when working with ImGui widgets where they e.g. allow you to easily change a value either via an on-screen UI widget or from an IOBox in the patch. But you'll soon notice that they are a general game-changer for bi-directional data-binding!
 
-**screenshot**
+![](2022-10-04-14-42-04.png)
 
 ### Precompiled libraries
 May sound cryptic, but has two very practical implications: 
