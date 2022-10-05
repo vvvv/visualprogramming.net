@@ -95,4 +95,8 @@ The change to .NET6 also allows us to use the [latest version of Stride](https:/
 We tried hard to avoid breaking changes, but couldn't avoid some. At the point of writing this, you may encounter some NuGets that won't work. If you stumble about one such, please let us know in the comments or forum. Most often those will just need to be rebuilt for .NET6...
 
 ## Download
-So if you're brave enough to give the above a spin, get a fresh vvvv gamma 5 preview from [the PREVIEW download section](https://visualprogramming.net/#Download).
+![](2022-10-05-11-38-19.png)
+
+So if you're brave enough to give the above a spin, get a fresh vvvv gamma 5 preview from [the PREVIEW download section](https://visualprogramming.net/#Download). Remember, this is a preview release. This means it should still only be used for testing and reporting any oddities you find to [the forum](https://discourse.vvvv.org/c/vvvv-gamma/28).
+
+For a more detailed changelog, see [Changelog 2022.5](https://thegraybook.vvvv.org/changelog/2022.5.html).
