@@ -51,7 +51,7 @@ For more details on this, see [Writing Nodes](https://thegraybook.vvvv.org/refer
 
 ## And some more goodies
 ### Channels
-You'll most likely love these. They are the simplest yet way for controling values in a patch from different spots. You'll first encounter them when working with ImGui widgets where they e.g. allow you to easily change a value either via an on-screen UI widget or from an IOBox in the patch. But you'll soon notice that they are a general game-changer for bi-directional data-binding!
+You'll most likely love these. They are the simplest yet way for controlling values in a patch from different spots. You'll first encounter them when working with ImGui widgets where they e.g. allow you to easily change a value either via an on-screen UI widget or from an IOBox in the patch. But you'll soon notice that they are a general game-changer for bi-directional data-binding!
 
 ### Precompiled libraries
 May sound cryptic, but has two very practical implications: 
@@ -81,11 +81,11 @@ In more human readable terms, for us this means:
 - When [writing your own nodes](https://thegraybook.vvvv.org/reference/extending/writing-nodes.html) for vvvv you can now use [C#10 features](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10)
 
 ### Advanced build configuration
-Apart from the more options you now have in the export dialog, you can also completely fine-tune your build process and e.g. add post-build tasks. For details, see: [Advanced build configuration](https://thegraybook.vvvv.org/reference/hde/exporting.html#advanced-build-configuration).
+Apart from the new options you now have in the export dialog, you can also completely fine-tune your build process and e.g. add post-build tasks. For details, see: [Advanced build configuration](https://thegraybook.vvvv.org/reference/hde/exporting.html#advanced-build-configuration).
 
 ### Stride update
 The change to .NET6 also allows us to use the [latest version of Stride](https://www.stride3d.net/blog/release-stride-4-1/), which fixes the following two issues:
-- [Transparency only works after toggeling "Is Shadow Caster"](https://github.com/vvvv/VL.Stride/issues/493)
+- [Transparency only works after toggling "Is Shadow Caster"](https://github.com/vvvv/VL.Stride/issues/493)
 - [Depth of Field - Quality Setting not working](https://github.com/vvvv/VL.Stride/issues/333)
 
 ## Breaking changes
@@ -94,6 +94,6 @@ We tried hard to avoid breaking changes, but couldn't avoid some. At the point o
 ## Download
 ![](2022-10-05-11-38-19.png)
 
-So if you're brave enough to give the above a spin, get a fresh vvvv gamma 2022.5 preview from [the PREVIEW download section](https://visualprogramming.net/#Download). Remember, this is a preview release. It comes with fresh bugs and things may still changes. So don't rely on it for production just yet. Please use it for testing and reporting any oddities you find to [the forum](https://discourse.vvvv.org/c/vvvv-gamma/28).
+So if you're brave enough to give the above a spin, get a fresh vvvv gamma 2022.5 preview from [the PREVIEW download section](https://visualprogramming.net/#Download). Remember, this is a preview release. It comes with fresh bugs and things may still change. So don't rely on it for production just yet. Please use it for testing and reporting any oddities you find to [the forum](https://discourse.vvvv.org/c/vvvv-gamma/28).
 
 For a more detailed changelog, see [Changelog 2022.5](https://thegraybook.vvvv.org/changelog/2022.5.html).
