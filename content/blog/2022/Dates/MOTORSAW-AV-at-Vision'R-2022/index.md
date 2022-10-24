@@ -3,6 +3,7 @@ categories: "Dates"
 author: "sunep"
 date: "2022-10-29"
 title: "MOTORSAW AV at Vision'R"
+slug: "MOTORSAW AV at Vision'R"
 description: "Deuterium Live AV performance"
 where: 
     location_name: "Le Sample"
