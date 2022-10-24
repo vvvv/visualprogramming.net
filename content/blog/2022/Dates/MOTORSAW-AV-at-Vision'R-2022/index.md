@@ -6,12 +6,14 @@ title: "MOTORSAW AV at Vision'R"
 description: "Deuterium Live AV performance"
 where: 
     location_name: "Le Sample"
-    city: "18 Av. de la République, 93170 Bagnolet, France"
+    street: "18 Av. de la République"
+    additional: "93170 Bagnolet"
+    city: "Paris"
     country: "fr"
     country_name: "France"
     from_date: "1667070000"
     to_date: "1667037600"
-thumb: "VisionR.jpg"
+thumb: "13okt2022MOTORSAW_Hans_Kristian_Hannibal-Bach_PA130068.jpg"
 ---
 
 ![](VisionR.jpg) 
