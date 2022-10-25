@@ -1,66 +1,74 @@
 ---
 categories: "Dates"
-author: "sunep"
-date: "2022-10-24"
-title: "MOTORSAW AV at Vision'R"
-description: "Deuterium Live AV performance"
+author: "sebllll"
+date: "2022-10-25"
+title: "CHOM5KY vs CHOMSKY"
+description: "a mixed reality VR installation"
 where: 
-    location_name: "Le Sample"
-    street: "18 Av. de la République"
-    additional: "93170 Bagnolet"
-    city: "Paris"
-    country: "fr"
-    country_name: "France"
-    from_date: "1667070000"
-    to_date: "1667037600"
-thumb: "13okt2022MOTORSAW_Hans_Kristian_Hannibal-Bach_PA130068.jpg"
+    location_name: "KINDL - Centre for Contemporary Art"
+    street: "Am Sudhaus 3"
+    additional: "12053 Berlin"
+    city: "Berlin"
+    country: "de"
+    country_name: "Germany"
+    from_date: "1667584800"
+    to_date: "1668963600"
+thumb: "monolith.png"
 ---
 
 ![](VisionR.jpg) 
 
-## What?
-The Deuterium performance that was cancelled four years ago is now happening. I am stoked to be invited to perform Deuterium at Vision'R in Paris.
+## CHOM5KY vs CHOMSKY
 
-### Deuterium
-Is a performance where I transform the live generated video image into sound, a very powerful way of making noise music.
+#### World Premiere November 4 – 20, 2022
 
-Teaser for the evening:
-{{< vimeo 762723802 >}}
+##### _Artificial intelligence is omnipresent: from image editing programs in smartphones to self-parking cars and a virtual assistant in the kitchen. The attempt to transfer human learning and thinking to computers and give them intelligence is a prominent phenomenon of our time. But what exactly is AI?_
 
-## More Info
-For more info visit [Vision'R](http://vision-r.org/)
-or if you are on the [weird book of faces](https://www.facebook.com/events/414056340695691/414056360695689/)
 
-## Who
-If you like noisy experimental AV, you might find it interesting
+{{< video src="https://schnellebuntebilder.de/wp-content/uploads/2022/10/CHOM5KY_Trailer-1080p.mp4" controls="yes" >}}
 
-Come by, it will be awesome!
+[Get your Ticket](https://www.eventim-light.com/de/a/632b38fc52067d67e8f25343/)
+Part of the [Berlin Science Week 2022](https://berlinscienceweek.com/)
 
-## Warning
-Stroboscopic flickering video and loud sound will be used. It will be intense.
+In November 2022, the German-Canadian co-production CHOM5KY vs CHOMSKY will celebrate its world premiere in Berlin. When machine intelligence is praised as an inevitable and necessary technology of the present and future, one should ask: What are we hoping for? And what price are we willing to pay?
 
-[sunep](https://vvvv.org/users/sunep)
+#### If we know so little about the human mind, what exactly are we trying to replicate with AI? _To what end?_ And what are we leaving behind?
 
-## Event Description
 
-29 Octobre au SAMPLE : 21h-00h  
-Soirée DJ – VJs + Performance Audiovisuelle :  
-Première soirée de Vision’R dans le vif du sujet avec de nombreu.ses.x VJs invité.e.s (guests, résident.e.s du Sample, VJs de Vision’R…) pour partager leurs univers et rythmer visuellement le Sample métamorphosé en vaisseau-usine audiovisuel par de multiples projections pour voyages immobiles ou dansés. Les photons catalyseront les transformations ondulatoires et illumineront corps et murs pour une soirée live à crû !
+![](person.jpg) 
+**CHOM5KY vs CHOMSKY** is a mixed reality installation that invites visitors to have a _thought-provoking encounter_ with Artificial Intelligence, guided by a virtual host inspired and built on the digital traces of renowned linguist Noam Chomsky. Putting the user front and centre, CHOM5KY serves as a mirror, reflecting back what people discover about themselves during the experience.
 
-Pour la musique :
 
-Senacra  
-Explorations électroniques techno hybrides avec live hard electro punk et set vinyle oldschool, Performance sonore expérimentale entre bruit et musique, haute en couleur et en saturation. Les vinyles sont noirs, ils créent un bloc dense irrespirable où les corps se retrouvent enveloppés dans la chaleur des rythmes granuleux aux rails circulaires.
+This interactive, multi-user, playful and collaborative experience allows users to examine the promises and pitfalls of AI in a fun and engaging way, while posing the questions of what we’re hoping to achieve, to recreate and at what cost.
 
-MOTORSAW (Sune Petersen) – Danemark  
-DEUTERIUM est une performance audiovisuelle improvisée où la vidéo est traduite en audio.
-Ceci renverse le rapport habituel entre le son et les visuels. Le sonore y est une expression direct des images.
 
-[sunep.net](https://sunep.net)
+![](tree.png) 
+Various activities are designed to highlight three essential traits of our human intelligence: creativity, inquiry and collaboration. Through these different forms of play, visitors learn about the limitations and possibilities of machines and in particular, they learn about each other as human beings. 
 
-Le Sample :  
-18 avenue de la République 93170 Bagnolet  
-M° Porte de Bagnolet ou Galliéni  
-[Le Sample](https://lesample.fr)  
-Entrée : 29/10 : Soirée : 8 euros
+## Credits
+**CHOM5KY vs CHOMSKY** created by Sandra Rodriguez. A co-production of the [National Film Board of Canada](https://www.nfb.ca/) and [SCHNELLE BUNTE BILDER](https://schnellebuntebilder.de), with support from Medienboard Berlin-Brandenburg.
 
+#### Design, Code and Scenography:
+Sebastian Huber
+Johannes Lemke
+Max Seeger
+Johannes Timpernagel
+Felix Worseck
+Michael Burk
+
+#### Back-End Architect
+Cindy Sherman Bishop
+
+#### AI Lead
+Moov AI
+
+#### Composition and Immersive Audio
+kling klang klong 
+
+#### Producer
+Uschi Feldges
+Carl-Johannes Schulze
+
+## Further questions?
+Get in touch [chomsky@schnellebuntebilder.de](chomsky@schnellebuntebilder.de)
+[Further Info](https://schnellebuntebilder.de/chom5ky/)
