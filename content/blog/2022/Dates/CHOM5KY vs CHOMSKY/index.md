@@ -15,9 +15,6 @@ where:
     to_date: "1668963600"
 thumb: "monolith.png"
 ---
-
-![](VisionR.jpg) 
-
 ## CHOM5KY vs CHOMSKY
 
 #### World Premiere November 4 – 20, 2022
