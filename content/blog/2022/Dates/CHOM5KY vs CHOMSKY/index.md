@@ -23,7 +23,7 @@ thumb: "monolith.png"
 
 {{< vimeo 761078720 >}}
 
-[Get your Ticket](https://www.eventim-light.com/de/a/632b38fc52067d67e8f25343/)
+[Get your Ticket](https://www.eventim-light.com/de/a/632b38fc52067d67e8f25343/)  
 Part of the [Berlin Science Week 2022](https://berlinscienceweek.com/)
 
 In November 2022, the German-Canadian co-production CHOM5KY vs CHOMSKY will celebrate its world premiere in Berlin. When machine intelligence is praised as an inevitable and necessary technology of the present and future, one should ask: What are we hoping for? And what price are we willing to pay?
