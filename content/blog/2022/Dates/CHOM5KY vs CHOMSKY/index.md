@@ -3,7 +3,7 @@ categories: "Dates"
 author: "sebllll"
 date: "2022-10-25"
 title: "CHOM5KY vs CHOMSKY"
-description: "a mixed reality VR installation"
+description: "A mixed reality VR installation"
 where: 
     location_name: "KINDL - Centre for Contemporary Art"
     street: "Am Sudhaus 3"
@@ -25,7 +25,7 @@ thumb: "monolith.png"
 ##### _Artificial intelligence is omnipresent: from image editing programs in smartphones to self-parking cars and a virtual assistant in the kitchen. The attempt to transfer human learning and thinking to computers and give them intelligence is a prominent phenomenon of our time. But what exactly is AI?_
 
 
-{{< video src="https://schnellebuntebilder.de/wp-content/uploads/2022/10/CHOM5KY_Trailer-1080p.mp4" controls="yes" >}}
+{{<video src="https://schnellebuntebilder.de/wp-content/uploads/2022/10/CHOM5KY_Trailer-1080p.mp4" controls="yes">}}
 
 [Get your Ticket](https://www.eventim-light.com/de/a/632b38fc52067d67e8f25343/)
 Part of the [Berlin Science Week 2022](https://berlinscienceweek.com/)
@@ -43,7 +43,11 @@ This interactive, multi-user, playful and collaborative experience allows users 
 
 
 ![](tree.png) 
-Various activities are designed to highlight three essential traits of our human intelligence: creativity, inquiry and collaboration. Through these different forms of play, visitors learn about the limitations and possibilities of machines and in particular, they learn about each other as human beings. 
+Various activities are designed to highlight three essential traits of our human intelligence: creativity, inquiry and collaboration. Through these different forms of play, visitors learn about the limitations and possibilities of machines and in particular, they learn about each other as human beings. ## Mor
+
+## More than glue
+You might ask, why does this appear in this blog? 
+Good question! From a technological point of view we have 3 main components: rendering, backend and logic. While the rendering is done in the unreal engine and the backend runs on webservers, we used vvvv to orchestrate these systems. Also the human language interface (speech to text and text to speech) is done in vvvv. That workflow helped us to keep development cycles for logical parts short and test early.
 
 ## Credits
 **CHOM5KY vs CHOMSKY** created by Sandra Rodriguez. A co-production of the [National Film Board of Canada](https://www.nfb.ca/) and [SCHNELLE BUNTE BILDER](https://schnellebuntebilder.de), with support from Medienboard Berlin-Brandenburg.
