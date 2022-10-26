@@ -1,7 +1,7 @@
 ---
 categories: "Dates"
 author: "sebllll"
-date: "2022-10-25"
+date: "2022-10-26"
 title: "CHOM5KY vs CHOMSKY"
 description: "A mixed reality VR installation"
 where: 
