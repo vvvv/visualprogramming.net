@@ -7,7 +7,7 @@ description: "A mixed reality VR installation"
 where: 
     location_name: "KINDL - Centre for Contemporary Art"
     street: "Am Sudhaus 3"
-    additional: "12053 Berlin"
+    additional: "12053"
     city: "Berlin"
     country: "de"
     country_name: "Germany"
@@ -39,7 +39,7 @@ In November 2022, the German-Canadian co-production CHOM5KY vs CHOMSKY will cele
 This interactive, multi-user, playful and collaborative experience allows users to examine the promises and pitfalls of AI in a fun and engaging way, while posing the questions of what we’re hoping to achieve, to recreate and at what cost.
 
 ![](tree.png) 
-Various activities are designed to highlight three essential traits of our human intelligence: creativity, inquiry and collaboration. Through these different forms of play, visitors learn about the limitations and possibilities of machines and in particular, they learn about each other as human beings. ## Mor
+Various activities are designed to highlight three essential traits of our human intelligence: creativity, inquiry and collaboration. Through these different forms of play, visitors learn about the limitations and possibilities of machines and in particular, they learn about each other as human beings.
 
 ## More than glue
 You might ask, why does this appear in this blog? 
@@ -49,11 +49,11 @@ Good question! From a technological point of view we have 3 main components: ren
 **CHOM5KY vs CHOMSKY** created by Sandra Rodriguez. A co-production of the [National Film Board of Canada](https://www.nfb.ca/) and [SCHNELLE BUNTE BILDER](https://schnellebuntebilder.de), with support from Medienboard Berlin-Brandenburg.
 
 #### Design, Code and Scenography:
-Sebastian Huber
-Johannes Lemke
-Max Seeger
-Johannes Timpernagel
-Felix Worseck
+Sebastian Huber  
+Johannes Lemke  
+Max Seeger  
+Johannes Timpernagel  
+Felix Worseck  
 Michael Burk
 
 #### Back-End Architect
@@ -66,9 +66,9 @@ Moov AI
 kling klang klong 
 
 #### Producer
-Uschi Feldges
+Uschi Feldges  
 Carl-Johannes Schulze
 
 ## Further questions?
-Get in touch [chomsky@schnellebuntebilder.de](chomsky@schnellebuntebilder.de)
+Get in touch [chomsky@schnellebuntebilder.de](mailto:chomsky@schnellebuntebilder.de)
 [Further Info](https://schnellebuntebilder.de/chom5ky/)
