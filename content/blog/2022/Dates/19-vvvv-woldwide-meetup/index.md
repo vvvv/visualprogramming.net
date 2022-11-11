@@ -40,7 +40,7 @@ To secure your spot in the [NODE Institute](https://thenodeinstitute.org) in Ber
 
 ## Attending remotely
 
-[Join the Zoom Meeting](https://us02web.zoom.us/j/826816550823)  
+[Join the Zoom Meeting](https://us02web.zoom.us/j/82681655082)  
 Please write your name + vvvv so we can let you in the call.
 
 ## Watching only
