@@ -110,7 +110,7 @@ blog = '/blog/:sections[1]/:slug/'
 		PreviewVersion = "Unstable, daily preview builds"
 		
 		CurrentPreviewTitle = "Current Major"
-		NextPreviewTitle = "Upcomming Major"
+		NextPreviewTitle = "Upcoming Major"
 		CurrentPreviewBuildType = "vvvv_gamma_Build"
 		NextPreviewBuildType = "vvvv_gamma_Build20225"
 
