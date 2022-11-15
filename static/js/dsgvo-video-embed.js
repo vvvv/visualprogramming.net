@@ -8,26 +8,29 @@
  (function () {
     // Config
     var text = {
-        youtube: `<strong>Embedded YouTube Video</strong>
-                    <div>
-                        <p>
-                            <b>Hinweis:</b> Dieses eingebettete Video wird von YouTube, LLC, 901 Cherry Ave., San Bruno, CA 94066, USA bereitgestellt.<br>Beim Abspielen wird eine Verbindung zu den Servern von YouTube hergestellt. Dabei wird YouTube mitgeteilt, welche Seiten Sie besuchen. Wenn Sie in Ihrem YouTube-Account eingeloggt sind, kann YouTube Ihr Surfverhalten Ihnen persönlich zuzuordnen. Dies verhindern Sie, indem Sie sich vorher aus Ihrem YouTube-Account ausloggen.</p><p>Wird ein YouTube-Video gestartet, setzt der Anbieter Cookies ein, die Hinweise über das Nutzerverhalten sammeln.</p><p>Wer das Speichern von Cookies für das Google-Ads-Programm deaktiviert hat, wird auch beim Anschauen von YouTube-Videos mit keinen solchen Cookies rechnen müssen. YouTube legt aber auch in anderen Cookies nicht-personenbezogene Nutzungsinformationen ab. Möchten Sie dies verhindern, so müssen Sie das Speichern von Cookies im Browser blockieren.</p><p>Weitere Informationen zum Datenschutz bei „YouTube“ finden Sie in der Datenschutzerklärung des Anbieters unter: 
-                            <a href="https://www.google.de/intl/de/policies/privacy/" rel="noopener" target="_blank">https://www.google.de/intl/de/policies/privacy/</a>
-                        </p>
+        youtube: `<h1>Embedded YouTube Video</h1>
+                Allow external video?
+
+                    <div class="buttons">
+                        <a class="btn btn-secondary allow btn-sm">Allow</a>
+                        <a class="btn btn-success always btn-sm">Always</a>
+                    </div>
+
+                    <div class="video-link">
+                        <a href="https://youtu.be/%id%" rel="noopener" target="_blank" title="Open YouTube">https://youtu.be/%id%</a>
+                    </div>
+                    `,
+        vimeo: `<h1>Embedded Vimeo Video</h1>
+                Allow external video?
+
+                        <div class="buttons">
+                            <a class="btn btn-secondary allow btn-sm">Allow</a>
+                            <a class="btn btn-success always btn-sm">Always</a>
                         </div>
-                        <a class="video-link" href="https://youtu.be/%id%" rel="noopener" target="_blank" title="Video auf YouTube ansehen">Link zum Video: https://youtu.be/%id%</a>
-                        <input type="checkbox" name="rememberchoice" value="false"><label for="rememberchoice">Remember my choice and apply for all.</label>
-                        <button title="Video auf dieser Seite ansehen">Play Video</button>`,
-        vimeo: `<strong>Embedded Vimeo Video</strong>
-                    <div>
-                        <p>
-                            <b>Hinweis:</b> Dieses eingebettete Video wird von Vimeo, Inc., 555 West 18th Street, New York, New York 10011, USA bereitgestellt.<br>Beim Abspielen wird eine Verbindung zu den Servern von Vimeo hergestellt. Dabei wird Vimeo mitgeteilt, welche Seiten Sie besuchen. Wenn Sie in Ihrem Vimeo-Account eingeloggt sind, kann Vimeo Ihr Surfverhalten Ihnen persönlich zuzuordnen. Dies verhindern Sie, indem Sie sich vorher aus Ihrem Vimeo-Account ausloggen.</p><p>Wird ein Vimeo-Video gestartet, setzt der Anbieter Cookies ein, die Hinweise über das Nutzerverhalten sammeln.</p><p>Weitere Informationen zum Datenschutz bei „Vimeo“ finden Sie in der Datenschutzerklärung des Anbieters unter: 
-                            <a href="https://vimeo.com/privacy" rel="noopener" target="_blank">https://vimeo.com/privacy</a>
-                        </p>
+                        <div class="video-link">
+                            <a href="https://vimeo.com/%id%" rel="noopener" target="_blank" title="Open vimeo">https://vimeo.com/%id%</a>
                         </div>
-                        <a class="video-link" href="https://vimeo.com/%id%" rel="noopener" target="_blank" title="Video auf Vimeo ansehen">Link zum Video: https://vimeo.com/%id%</a>
-                        <input type="checkbox" name="rememberchoice" value="false"><label for="rememberchoice">Remember my choice and apply for all.</label>
-                        <button title="Video auf dieser Seite ansehen">Play Video</button>`
+                     `
     };
 
 
@@ -46,7 +49,7 @@
             return;
         }
 
-        var video_frame, wall, video_platform, video_src, video_id, video_w, video_h;
+        var video_frame, wall, video_platform, video_src, video_id;
         for (var i = 0, max = window.frames.length - 1; i <= max; i += 1) {
             video_frame = document.getElementsByTagName('iframe')[0];
             video_src = video_frame.src || video_frame.dataset.src;
@@ -56,8 +59,6 @@
             }
 
             video_iframes.push(video_frame);
-            video_w = video_frame.getAttribute('width');
-            video_h = video_frame.getAttribute('height');
             wall = document.createElement('article');
 
             // Prevent iframes from loading remote content
@@ -76,21 +77,15 @@
             video_id = video_src.match(/(embed|video)\/([^?\s]*)/)[2];
             wall.setAttribute('class', 'video-wall embed-responsive-item');
             wall.setAttribute('data-index', i);
-            if (video_w && video_h) {
-                wall.setAttribute('style', 'width:' + video_w + 'px;height:' + video_h + 'px');
-            }
+
             wall.innerHTML = text[video_platform].replace(/\%id\%/g, video_id);
             video_frame.parentNode.replaceChild(wall, video_frame);
-            document.querySelectorAll('.video-wall button')[i].addEventListener('click', function () {
-                if (this.parentNode.querySelector('input[name="rememberchoice"]').checked)
-                {
-                    localStorage.setItem('videosEnabled', 'true');
-                    playAllVideos();
-                }
-                else
-                {
-                    playVideo(this.parentNode);
-                }
+            document.querySelectorAll('.video-wall a.allow')[i].addEventListener('click', function () {
+                playVideo(this.parentNode.parentNode);
+            }, false);
+            document.querySelectorAll('.video-wall a.always')[i].addEventListener('click', function () {
+                localStorage.setItem('videosEnabled', 'true');
+                playAllVideos();
             }, false);
         }
 
@@ -107,8 +102,8 @@
 
         function playAllVideos()
         {
-            document.querySelectorAll('.video-wall button').forEach (el =>{
-                playVideo(el.parentNode);
+            document.querySelectorAll('.video-wall a.always').forEach (el =>{
+                playVideo(el.parentNode.parentNode);
             })
         }
     });
