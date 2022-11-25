@@ -9,27 +9,26 @@
     // Config
     var text = {
         youtube: `<h1>Embedded YouTube Video</h1>
-                Allow external video?
-
+                    Play external video?
+                            
                     <div class="buttons">
-                        <a class="btn btn-secondary allow btn-sm">Allow</a>
-                        <a class="btn btn-success always btn-sm">Always</a>
+                        <div class="playButton text-center"></div>
+                        <input type="checkbox" name="rememberchoice" value="true" checked="checked"><label for="rememberchoice">Always</label>
                     </div>
-
                     <div class="video-link">
                         <a href="https://youtu.be/%id%" rel="noopener" target="_blank" title="Open YouTube">https://youtu.be/%id%</a>
                     </div>
                     `,
         vimeo: `<h1>Embedded Vimeo Video</h1>
-                Allow external video?
-
-                        <div class="buttons">
-                            <a class="btn btn-secondary allow btn-sm">Allow</a>
-                            <a class="btn btn-success always btn-sm">Always</a>
-                        </div>
-                        <div class="video-link">
-                            <a href="https://vimeo.com/%id%" rel="noopener" target="_blank" title="Open vimeo">https://vimeo.com/%id%</a>
-                        </div>
+                Play external video?
+                
+                    <div class="buttons">
+                        <div class="playButton text-center"></div>
+                        <input type="checkbox" name="rememberchoice" value="true" checked="checked"><label for="rememberchoice">Always</label>
+                    </div>
+                    <div class="video-link">
+                        <a href="https://vimeo.com/%id%" rel="noopener" target="_blank" title="Open vimeo">https://vimeo.com/%id%</a>
+                    </div>
                      `
     };
 
@@ -75,17 +74,21 @@
             }
             video_platform = video_src.match(/vimeo/) == null ? 'youtube' : 'vimeo';
             video_id = video_src.match(/(embed|video)\/([^?\s]*)/)[2];
-            wall.setAttribute('class', 'video-wall embed-responsive-item');
+            wall.setAttribute('class', 'video-wall embed-responsive-item text-center');
             wall.setAttribute('data-index', i);
 
             wall.innerHTML = text[video_platform].replace(/\%id\%/g, video_id);
             video_frame.parentNode.replaceChild(wall, video_frame);
-            document.querySelectorAll('.video-wall a.allow')[i].addEventListener('click', function () {
-                playVideo(this.parentNode.parentNode);
-            }, false);
-            document.querySelectorAll('.video-wall a.always')[i].addEventListener('click', function () {
-                localStorage.setItem('videosEnabled', 'true');
-                playAllVideos();
+            document.querySelectorAll('.video-wall .playButton')[i].addEventListener('click', function () {
+                if (this.parentNode.querySelector('input[name="rememberchoice"]').checked)
+                {
+                    localStorage.setItem('videosEnabled', 'true');
+                    playAllVideos();
+                }
+                else
+                {
+                    playVideo(this.parentNode.parentNode);
+                }    
             }, false);
         }
 
@@ -102,7 +105,7 @@
 
         function playAllVideos()
         {
-            document.querySelectorAll('.video-wall a.always').forEach (el =>{
+            document.querySelectorAll('.video-wall .playButton').forEach (el =>{
                 playVideo(el.parentNode.parentNode);
             })
         }
