@@ -12,7 +12,8 @@
                     Play external video?
                             
                     <div class="buttons">
-                        <div class="playButton text-center"></div>
+                        <div class="playButton text-center">
+                        </div>
                         <input type="checkbox" name="rememberchoice" value="true" checked="checked"><label for="rememberchoice">Always</label>
                     </div>
                     <div class="video-link">
@@ -23,7 +24,8 @@
                 Play external video?
                 
                     <div class="buttons">
-                        <div class="playButton text-center"></div>
+                        <div class="playButton text-center">
+                        </div>
                         <input type="checkbox" name="rememberchoice" value="true" checked="checked"><label for="rememberchoice">Always</label>
                     </div>
                     <div class="video-link">
