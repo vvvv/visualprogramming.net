@@ -7,31 +7,13 @@
 
  (function () {
     // Config
+
+    const youtube = document.getElementById('youtubeBlocker').innerHTML;
+    const vimeo = document.getElementById('vimeoBlocker').innerHTML;
+
     var text = {
-        youtube: `<h1>Embedded YouTube Video</h1>
-                    Play external video?
-                            
-                    <div class="buttons">
-                        <div class="playButton text-center">
-                        </div>
-                        <input type="checkbox" name="rememberchoice" value="true" checked="checked"><label for="rememberchoice">Always</label>
-                    </div>
-                    <div class="video-link">
-                        <a href="https://youtu.be/%id%" rel="noopener" target="_blank" title="Open YouTube">https://youtu.be/%id%</a>
-                    </div>
-                    `,
-        vimeo: `<h1>Embedded Vimeo Video</h1>
-                Play external video?
-                
-                    <div class="buttons">
-                        <div class="playButton text-center">
-                        </div>
-                        <input type="checkbox" name="rememberchoice" value="true" checked="checked"><label for="rememberchoice">Always</label>
-                    </div>
-                    <div class="video-link">
-                        <a href="https://vimeo.com/%id%" rel="noopener" target="_blank" title="Open vimeo">https://vimeo.com/%id%</a>
-                    </div>
-                     `
+        youtube: youtube,
+        vimeo: vimeo
     };
 
 

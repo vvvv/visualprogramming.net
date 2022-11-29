@@ -14,10 +14,14 @@ iframe {
   color: #aaa;
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 0.5em;
   border: 1px solid #444 !important;
   align-content: space-between;
   align-items: center;
+
+  label {
+    margin-bottom: 0em;
+  }
 
     .video-link
     {
@@ -44,13 +48,14 @@ iframe {
     .buttons
     {
         display: block;
-        color: #fff;
-
+        color: #888;
         
         input{
             margin-top: 1em;
             margin-right: 0.5em;
-            accent-color: #fff;
+            background-color: #fff;
+            color: #000;
+            accent-color: #666;
         };
 
         .playButton
@@ -71,15 +76,28 @@ iframe {
             }
         }
     }
+
+    @media only screen and (min-width: 800px)
+    {
+        gap: 1em;
+        label 
+        {
+            margin-bottom: 1em;
+        }
+
+    }
 }
 
 #Blog .video-wall{
     color: #888;
     border: 1px solid #ccc !important;
+    gap: 0.5em;
 
     h1
     {
         color: #888;
+        margin-top: 0em !important;
+        margin-bottom: 0em !important;
     }
 
     .video-link
@@ -100,11 +118,22 @@ iframe {
             accent-color: #888;
         };
 
-        .playButton
+        @media only screen and (min-width: 800px)
         {
-            width: 80px;
-            height: 80px;
-            margin: 1em;
+            
+            .playButton
+            {
+                width: 80px;
+                height: 80px;
+                margin: 1em;
+            }
+
+            h1
+            {
+                color: #888;
+                margin: 1em !important;
+            }
+
         }
 
     }

@@ -11,6 +11,9 @@
 {{ $build := resources.Get "js/download.js" | js.Build "js/download.js" | minify}}
 <script type="text/javascript" src="{{ $build.RelPermalink }}" defer></script>
 
+{{ "<!-- DSGVO Video Blocker -->" | safeHTML }}
+<script src="{{"/js/dsgvo-video-embed.js" | relURL}}"></script>
+
 {{ "<!-- Newsletter -->" | safeHTML }}
 <script>
     window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';

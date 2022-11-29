@@ -1,0 +1,30 @@
+{{ "<!-- VideoBlocker -->" | safeHTML }}
+<div id="videoBlocker" hidden>
+  <div id="youtubeBlocker">
+    <h1>{{ .Site.Params.youtubeBlocker.headline }}</h1>
+    {{ .Site.Params.youtubeBlocker.text }}
+            
+    <div class="buttons">
+        <div class="playButton text-center">
+        </div>
+        <input type="checkbox" name="rememberchoice" value="true" checked="checked"><label for="rememberchoice">{{ .Site.Params.youtubeBlocker.checkbox }}</label>
+    </div>
+    <div class="video-link">
+        <a href="https://youtu.be/%id%" rel="noopener" target="_blank" title="Open YouTube">https://youtu.be/%id%</a>
+    </div>
+  </div>
+
+  <div id="vimeoBlocker">
+    <h1>{{ .Site.Params.vimeoBlocker.headline }}</h1>
+    {{ .Site.Params.vimeoBlocker.text }}
+            
+    <div class="buttons">
+      <div class="playButton text-center">
+      </div>
+      <input type="checkbox" name="rememberchoice" value="true" checked="checked"><label for="rememberchoice">{{ .Site.Params.vimeoBlocker.checkbox }}</label>
+    </div>
+    <div class="video-link">
+        <a href="https://vimeo.com/%id%" rel="noopener" target="_blank" title="Open vimeo">https://vimeo.com/%id%</a>
+    </div>
+  </div>
+</div>
