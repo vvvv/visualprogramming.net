@@ -12,11 +12,11 @@ we have the new bug-fix [release 2021.4.12](https://thegraybook.vvvv.org/changel
 
 Most prominently work this month has happened on the following:
 * Adding Audio support for [VL.IO.NDI](https://www.nuget.org/packages/VL.IO.NDI/), which we should be able to share soon for the 2022.5 previews
-* "Create New... " Shader, C# Project... extensions [as demoed](https://youtu.be/m-tnhcX-n0k) are improving
+* "Create New... " Shader, C# Project... extensions [as demoed](https://youtu.be/m-tnhcX-n0k?t=2416) are improving
 * Supporting the [Kairos Research Lab](https://opencollective.com/kairos-research-lab) to help them towards an initial release
 * The long awaited node Inspektor is taking shape...
 
-Oh and we had a meetup which you should watch if you haven't already: [19th vvvv worldwide meetup](https://visualprogramming.net/blog/2022/19.-vvvv-worldwide-meetup/)
+Oh and we had a meetup which you should watch if you haven't already: [19th vvvv worldwide meetup](https://youtu.be/m-tnhcX-n0k)
 
 ## Contributions
 Many thanks to those of you who help complete vvvv with countless additions!
