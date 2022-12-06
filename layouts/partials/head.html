@@ -18,9 +18,16 @@
 
 {{ "<!-- Favicon -->" | safeHTML }}
 <link rel="shortcut icon" href="{{ .Site.Params.favicon | relURL }}">
-{{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
 
 <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}" type="text/css">
+<link rel="stylesheet" href="{{ "css/swiper-bundle.min.css" | relURL }}" type="text/css">
+
+{{ "<!-- Newsletter CSS -->" | safeHTML }}
+<link rel="stylesheet" href="https://assets.sendinblue.com/component/form/2ef8d8058c0694a305b0.css">
+<link rel="stylesheet" href="https://assets.sendinblue.com/component/clickable/b056d6397f4ba3108595.css">
+<link rel="stylesheet" href="https://assets.sendinblue.com/component/progress-indicator/f86d65a4a9331c5e2851.css">
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+
 {{ "<!-- Custom Fonts -->" | safeHTML }}
 {{ $style := resources.Get "css/fonts.css" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" type="text/css">
@@ -30,20 +37,6 @@
 {{ "<!-- Custom SASS -->" | safeHTML }}
 {{ $style := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" type="text/css">
-
-{{ "<!-- Swiper -->" | safeHTML }}
-{{ $style := resources.Get "css/swiper-bundle.min.css" }}
-<link rel="stylesheet" href="{{ $style.Permalink | relURL}}"/>
-{{ $js := resources.Get "js/swiper-bundle.min.js" }}
-<script src="{{ $js.Permalink | relURL}}"></script>
-
-
-{{ "<!-- Newsletter CSS -->" | safeHTML }}
-<link rel="stylesheet" href="https://assets.sendinblue.com/component/form/2ef8d8058c0694a305b0.css">
-<link rel="stylesheet" href="https://assets.sendinblue.com/component/clickable/b056d6397f4ba3108595.css">
-<link rel="stylesheet" href="https://assets.sendinblue.com/component/progress-indicator/f86d65a4a9331c5e2851.css">
-<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
-
 
 {{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
 {{ "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->" | safeHTML }}

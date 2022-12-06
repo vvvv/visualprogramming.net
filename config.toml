@@ -200,3 +200,17 @@ blog = '/blog/:sections[1]/:slug/'
 		[params.footer]
 		hugoText = "Thanks to <a href=\"https://gohugo.io\" target=\"_blank\">Hugo</a> for building this website."
 		plausibleText = "Analytics by <a href=\"https://plausible.io\" target=\"_blank\">Plausible</a>."
+
+	# Video blocker
+		[params.vimeoBlocker]
+		headline="Embedded Vimeo Video"
+		text="When playing the video, you accept the [Vimeo privacy policy](https://vimeo.com/privacy)."
+		checkbox="Always"
+		watchOn="Watch on Vimeo"
+
+		[params.youtubeBlocker]
+		headline="Embedded YouTube Video"
+		text="When playing the video, you accept the [YouTube privacy policy](https://www.youtube.com/privacy)."
+		checkbox="Always"
+		watchOn="Watch on YouTube"
+

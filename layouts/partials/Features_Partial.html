@@ -10,11 +10,10 @@
             {{ with .Params.VimeoVideo}}
               <div class="mediaShadow">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe src="https://player.vimeo.com/video/{{ . }}?autoplay=0&loop=1&title=0&byline=0&portrait=0" class="embed-responsive-item mediaShadow" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+                  <iframe data-src="https://player.vimeo.com/video/{{ . }}?autoplay=0&loop=1&title=0&byline=0&portrait=0&dnt=1" class="embed-responsive-item mediaShadow" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
                   </iframe>
                 </div>    
               </div>
-              <script src="https://player.vimeo.com/api/player.js"></script>
             {{ end }}
           </div>
           <div class="col-12">

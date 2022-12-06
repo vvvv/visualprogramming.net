@@ -16,6 +16,8 @@
         
         {{ block "main" . }}{{ end }}
 
+        {{ partial "videoBlocker.html" . }}
+
         {{ partial "contact" . }}
         
         {{ partial "footer" . }}
