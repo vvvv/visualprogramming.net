@@ -14,10 +14,8 @@ iframe {
   color: #aaa;
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
   border: 1px solid #444 !important;
-  align-content: space-between;
-  align-items: center;
+  justify-content: space-between;
 
   label {
     margin-bottom: 0em;
@@ -40,9 +38,13 @@ iframe {
         color: #fff;
     }
 
-    a
+    .text
     {
-    margin-right: 1em;
+        margin: 0em 0em;
+
+        a{
+            white-space: nowrap;
+        }
     }
 
     .buttons
@@ -77,21 +79,12 @@ iframe {
         }
     }
 
-    @media only screen and (min-width: 800px)
-    {
-        gap: 1em;
-        label 
-        {
-            margin-bottom: 1em;
-        }
-
-    }
 }
 
 #Blog .video-wall{
     color: #888;
     border: 1px solid #ccc !important;
-    gap: 0.5em;
+    align-items: center;
 
     h1
     {
@@ -118,7 +111,7 @@ iframe {
             accent-color: #888;
         };
 
-        @media only screen and (min-width: 800px)
+        @media only screen and (min-width: 700px)
         {
             
             .playButton

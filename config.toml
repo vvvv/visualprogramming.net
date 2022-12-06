@@ -204,11 +204,13 @@ blog = '/blog/:sections[1]/:slug/'
 	# Video blocker
 		[params.vimeoBlocker]
 		headline="Embedded Vimeo Video"
-		text="Play external video?"
+		text="When playing the video, you accept the [VIMEO privacy policy](https://vimeo.com/privacy)."
 		checkbox="Always"
+		watchOn="Watch on Vimeo"
 
 		[params.youtubeBlocker]
 		headline="Embedded Youtube Video"
-		text="Play external video?"
+		text="When playing the video, you accept the [YouTube privacy policy](https://www.youtube.com/privacy)."
 		checkbox="Always"
+		watchOn="Watch on YouTube"
 
