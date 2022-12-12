@@ -27,7 +27,8 @@
                         <div class="version text">&nbsp;&nbsp;{{ .StableVersion | markdownify }}</div>
                         
                         <a data-currentPreviewBuildType="{{ .CurrentPreviewBuildType }}" data-nextPreviewBuildType="{{ .NextPreviewBuildType }}" 
-                           data-currentPreviewTitle="{{ .CurrentPreviewTitle }}" data-nextPreviewTitle="{{ .NextPreviewTitle }}" 
+                           data-currentPreviewTitle="{{ .CurrentPreviewTitle }}" data-nextPreviewTitle="{{ .NextPreviewTitle }}"
+                           data-nextPreviewOpenXRBranch="{{ .NextPreviewOpenXRBranch }}" data-nextPreviewOpenXRTitle="{{ .NextPreviewOpenXRTitle }}"  
                            id="previewButton" 
                            class="btn btn-secondary btn-xl mb-2 mt-4">
                            {{ .PreviewText }}<span class="WindowsIcon"></span>

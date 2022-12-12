@@ -1,15 +1,24 @@
 function getTeamcity()
 {
     var teamcity = "https://teamcity.vvvv.org";
-    var proxy = "https://api.codetabs.com/v1/proxy?quest=";
+    var proxy = "https://api.codetabs.com/v1/proxy/?quest=";
     
     //return proxy + teamcity;
     return teamcity;
 }
 
-function getBuildsLink(buildType)
+function getBuildsLink(buildType, branch)
 {
-    return getTeamcity() + `/guestAuth/app/rest/builds?locator=branch:name:%3Cdefault%3E,buildType:${buildType},status:SUCCESS,state:finished&count=3`;
+    if (branch != "")
+    {
+        _b = branch;
+    }
+    else
+    {
+        _b = '%3Cdefault%3E';
+    }
+
+    return getTeamcity() + `/guestAuth/app/rest/builds?locator=branch:name:${_b},buildType:${buildType},status:SUCCESS,state:finished&count=3`;
 }
 
 var tip = tippy('#previewButton', {
@@ -34,8 +43,12 @@ var tip = tippy('#previewButton', {
             const currentPreviewTitle = instance.reference.getAttribute("data-currentPreviewTitle");
             const nextPreviewbuildType = instance.reference.getAttribute("data-nextPreviewBuildType");
             const nextPreviewTitle = instance.reference.getAttribute("data-nextPreviewTitle");
+            const nextPreviewOpenXRBranch = instance.reference.getAttribute("data-nextPreviewOpenXRBranch");
+            const nextPreviewOpenXRTitle = instance.reference.getAttribute("data-nextPreviewOpenXRTitle");
             
-            Promise.allSettled([getLatestBuild(currentPreviewBuildType), getLatestBuild(nextPreviewbuildType)])
+            Promise.allSettled([getLatestBuild(currentPreviewBuildType, ""), 
+                                getLatestBuild(nextPreviewbuildType, ""),
+                                getLatestBuild(nextPreviewbuildType, nextPreviewOpenXRBranch)])
             .then((result) => {
                 
                 var div=`
@@ -47,6 +60,10 @@ var tip = tippy('#previewButton', {
                     <div class="col mx-0">
                         <h3>${nextPreviewTitle}</h3> 
                         ${result[1].value}
+                    </div>
+                    <div class="col mx-0">
+                        <h3>${nextPreviewOpenXRTitle}</h3> 
+                        ${result[2].value}
                     </div>
                 </div>
                 `;
@@ -66,11 +83,11 @@ var tip = tippy('#previewButton', {
       },
   });
 
-async function getLatestBuild(buildType)
+async function getLatestBuild(buildType, branch)
 {
     var previews = [];
 
-    var previews = await fetchData(getBuildsLink(buildType));
+    var previews = await fetchData(getBuildsLink(buildType, branch));
 
     var div="<table>";
 

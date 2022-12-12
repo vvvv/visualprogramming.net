@@ -29,7 +29,7 @@
 
     td
     {
-        padding: 1em 1em 0 0;
+        padding: 1em 0.5em 0 0;
         font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 
         font-size: 1em;
@@ -38,6 +38,7 @@
         {
             font-size: 0.8em;
             color: #aaa;
+            padding: 0;
         }
     }
 
@@ -60,7 +61,7 @@
         text-decoration: none;
         font-weight: normal;
         font-size: 1em;
-        padding: 0.6em 1em;
+        padding: 0.6em 0.6em;
     }
 
     .modal-dialog a
@@ -89,7 +90,7 @@
 
 .tippy-tooltip {
     background-color: #444;
-    min-width: 600px;
+    min-width: 750px;
   }
   
 .tippy-tooltip[data-placement^='right'] > .tippy-arrow{

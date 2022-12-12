@@ -113,6 +113,8 @@ blog = '/blog/:sections[1]/:slug/'
 		NextPreviewTitle = "Upcoming Major"
 		CurrentPreviewBuildType = "vvvv_gamma_Build"
 		NextPreviewBuildType = "vvvv_gamma_Build20225"
+		NextPreviewOpenXRBranch = "preview%2F2022.5-OpenXR"
+		NextPreviewOpenXRTitle = "OpenXR builds"
 
 
 		LibrariesText  = "Additional Libraries"
