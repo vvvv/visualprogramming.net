@@ -1,4 +1,4 @@
-{{ $height := .Get "height" | default "333"}}
+{{ $height := .Get 1 | default "550"}}
 
 <div class="col-12 mt-3 mb-4 px-0">
     <iframe  
@@ -6,7 +6,7 @@
         title="Mastodon"
         frameborder="0"
         class="embed-responsive-item"
-        height="{{$height}}"
-        width="100%">
+        width="100%"
+        height="{{$height}}">
     </iframe>
 </div>
