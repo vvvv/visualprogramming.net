@@ -27,7 +27,7 @@
             const frames = document.getElementsByTagName('iframe');
             for (const f of frames)
             {
-               f.src=f.dataset.src;
+               f.src = f.src || f.dataset.src;
                f.removeAttribute('data-src');
             }
             return;
