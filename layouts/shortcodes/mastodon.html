@@ -1,12 +1,13 @@
-{{ $height := .Get 1 | default "550"}}
+{{ $height := .Get 1 | default "550" }}
 
-<div class="col-12 mt-3 mb-4 px-0">
-    <iframe  
-        src="https://{{- .Get 0 -}}/embed"
-        title="Mastodon"
-        frameborder="0"
-        class="embed-responsive-item"
-        width="100%"
-        height="{{$height}}">
-    </iframe>
+<div class="row justify-content-center">
+    <div class="col-sm-8">
+        <div class="embed-responsive embed-responsive-1by1">
+            <iframe  
+                src="https://{{- .Get 0 -}}/embed"
+                title="Mastodon"
+                class="embed-responsive-item">
+            </iframe>
+        </div>
+    </div>
 </div>
