@@ -38,7 +38,7 @@ Plus two new entries in the forum's work-in-progress section:
 ## Gallery
 A quick reminder that we recently added a feature to quickly share screenshots with the world, called [Show & Tell](https://visualprogramming.net/blog/2022/introducing-show-tell/). Big shout out to [ceeyaa](https://pixelfed.social/ceeyaa) and [texone](https://mastodon.social/@texone) for being the first ones to regularly post to the fediverse! Here two examples in case you missed them: 
 
-{{< mastodon "mastodon.social/@texone/109518563511709979" >}}
+{{< mastodon "mastodon.social/@texone/109518563511709979" >}}  
 {{< pixelfed "pixelfed.social/p/CeeYaa/517855963957406653" >}} 
 
 Please keep them coming. And everyone else: Be the next to join them and share your doodles...
