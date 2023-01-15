@@ -38,4 +38,4 @@ Zoom link will be announced shortly before the meetup starts.
 
 A Youtube link will be announced shortly before the meetup starts.
 
-Any questions? Get in touch via meetup@vvvv.org. See you there!
+Any questions? Get in touch via meetup@vvvv.org. See you there!!
