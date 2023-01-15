@@ -28,7 +28,7 @@ Please do! Anything more or less related to vvvv, yourself and your projects. Sh
 
 ## Do I need to know vvvv or VL to join this meetup?
 
-No, absolutely not. The presentations will be about projects, patches, plugins, contributions made with or for vvvv, but you do not need to know it to enjoy the meetup.
+No, absolutely not. The presentations will be about projects, patches, plugins or contributions made with or for vvvv, but you do not need to know it to enjoy the meetup.
 
 ## Attending remotely
 
