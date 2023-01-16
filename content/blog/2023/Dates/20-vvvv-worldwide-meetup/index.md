@@ -9,12 +9,14 @@ where:
     city: "Wipperstrasse 13, 12055 Berlin"
     country: "de"
     country_name: "Germany"
-    from_date: "1668193200"
-    to_date: "1668204000"
+    from_date: "1674154800"
+    to_date: "1674162000"
 thumb: "20wwm.png"
 ---
 
 ![](20wwm.png) 
+
+The 20th edition of our worldwide meetups is almost aligned with the 20th birthday of our beloved vvvv! So, if you did not have a chance yet to celebrate, that's your call! ;)
 
 We’re meeting on **Thursday, January 19th 8pm CET**! The meetup will take place live in Berlin. However, participants can also take part remotely from anywhere in the world.
 
