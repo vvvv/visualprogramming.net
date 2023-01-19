@@ -34,10 +34,11 @@ No, absolutely not. The presentations will be about projects, patches, plugins o
 
 ## Attending remotely
 
-Zoom link will be announced shortly before the meetup starts.
+Join the [Zoom call](https://us02web.zoom.us/j/82307545669)
+Please write your name + vvvv so we can let you in the call.
 
 ## Watching only
 
-A Youtube link will be announced shortly before the meetup starts.
+{{< youtube "vwFicgEUoxA" >}}
 
 Any questions? Get in touch via meetup@vvvv.org. See you there!!
