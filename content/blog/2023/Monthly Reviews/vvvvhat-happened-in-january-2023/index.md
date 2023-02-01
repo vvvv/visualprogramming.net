@@ -25,8 +25,8 @@ We got some new ones:
 - [VL.GameAudioPlayer](https://www.nuget.org/packages/VL.GameAudioPlayer)
 
 We received updates to the following:
+- [VL.Kairos](https://www.nuget.org/packages/VL.Kairos) plus **[demo video](https://youtu.be/Po6B0d_yhAQ)**
 - [VL.Fuse](https://www.nuget.org/packages/VL.Fuse)
-- [VL.Kairos](https://www.nuget.org/packages/VL.Kairos)
 - [VL.Touchy](https://www.nuget.org/packages/VL.Touchy)
 - [VL.LayerX](https://www.nuget.org/packages/VL.LayerX)
 - [VL.AlchemX](https://www.nuget.org/packages/VL.AlchemX)
