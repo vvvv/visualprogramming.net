@@ -9,7 +9,7 @@ thumb: "ico.png"
 
 Bonjour bonjour,
 
-A new GammaLauncher has just landed! This version was almost entirely rewritten from sratch, and makes use of the tasty VL.ImGUI library and its `Channel` based approach.
+A new GammaLauncher has just landed! This version was almost entirely rewritten from scratch, and makes use of the tasty VL.ImGUI library and its `Channel` based approach.
 
 ![The launcher](launcher.png)
 
@@ -37,9 +37,9 @@ Configuring the launcher was also rather tedious. You'd have to locate the XML c
 
 ## Updating
 
-The previous version of the launcher could not display preview builds for the `5.0` branch of vvvv. This is fixed, and you can now also open the changelog of recent versions in your browser with just one click.
+The previous version of the launcher could not display preview builds for the `5.0` branch of vvvv. This is fixed, and you can now also open the change log of recent versions in your browser with just one click.
 
-Regarding updates of the Launcher itself, you'll be able to simply run the installer of its future verions to update it.
+Regarding updates of the Launcher itself, you'll be able to simply run the installer of its future versions to update it.
 
 ## Other little things
 
@@ -59,5 +59,3 @@ As we saw earlier, this version focused on having a clean base, making the app r
 Those are the two I have in mind right now, but please don't hesitate to submit your ideas and wishes either in the chat or in the [repo's issues](https://github.com/sebescudie/GammaLauncher/issues)!
 
 And hey, thanks everyone for using the launcher! I'm super happy people find it useful and use it in their daily patching adventures.
-
-Thankssss and au revoir!
