@@ -17,7 +17,11 @@ You'll feel right at home : this release actually does more or less the same thi
 
 Under the hood, things were also starting to be a bit cluttered. The launcher is now three years old (phew!) and some patches in there had never changed ever since. In the past months, I had the chance to experiment and learn lots of cool things about structuring an application, which makes this version way cleaner inside, and gives a solid foundation for new features and updates.
 
-So without further ado, let's have a look at the highlights of this release!
+{{< box >}}
+Grab it [here](https://github.com/sebescudie/GammaLauncher/releases) and enjoy!
+{{< /box >}}
+
+Without further ado, let's have a look at the highlights of this release!
 
 ## Installing
 
@@ -26,8 +30,6 @@ It was super boring to unzip and copy new versions of the launcher to your favor
 ![The installer](installer.png)
 
 Which means you can let the launcher live in `Program Files` and forget about it. It'll even show up in your start menu, how cool is that!
-
-Grab it [here](https://github.com/sebescudie/GammaLauncher/releases/tag/5.0.0) and enjoy!
 
 ## Configuring
 
