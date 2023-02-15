@@ -28,6 +28,11 @@
 <link rel="stylesheet" href="https://assets.sendinblue.com/component/progress-indicator/f86d65a4a9331c5e2851.css">
 <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
 
+{{ "<!-- DocSearch CSS -->" | safeHTML }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"/>
+{{ $style := resources.Get "css/customDocSearch.css" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink | relURL }}" type="text/css">
+
 {{ "<!-- Custom Fonts -->" | safeHTML }}
 {{ $style := resources.Get "css/fonts.css" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" type="text/css">

@@ -1,0 +1,67 @@
+:root {
+--docsearch-primary-color: #505050;
+--docsearch-logo-color: #505050;
+--docsearch-container-background: rgba(33, 33, 33, 0.4);
+--docsearch-modal-height: 500px;
+--docsearch-searchbox-shadow: inset 0 0 0 2px #eee;
+}
+
+.ds-search
+{
+
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
+
+}
+
+.DocSearch-Hits
+{
+    font-size: 0.9em;
+}
+
+.DocSearch-SearchBar
+{
+    position: relative;
+    background: none;
+}
+
+.DocSearch section
+{
+    padding: inherit;
+}
+
+.DocSearch header
+{
+    min-height: inherit;
+}
+
+.DocSearch-Modal
+{
+    margin: 100px auto auto;
+    border-radius: 3px;
+}
+
+.DocSearch-Button
+{
+    margin-left: 0px;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.DocSearch-Button:hover
+{
+    box-shadow: inherit;
+    background: #e5e5e5;
+}
+
+.DocSearch-Button-Placeholder {
+    padding: 0 60px 0 6px;
+}
+
+.DocSearch-Logo svg {
+    color: var(--docsearch-logo-color);
+}
+
+.DocSearch-Logo .cls-1, .DocSearch-Logo .cls-2 {
+    color: var(--docsearch-logo-color);
+}
