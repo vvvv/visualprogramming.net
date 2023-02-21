@@ -24,6 +24,8 @@ So the main advantage with this is really that it facilitates much closer collab
 
 Also, this probably makes vvvv the most accessible and extensible of comparable tools.
 
+In particular: the VL.Stride repo is now archived and part of VL.StandardLibs.
+
 Additional benefits:
 - different release cycle for standardlib
 - detangled libraries
