@@ -6,6 +6,12 @@ summaryLength = 20
 title = "vvvv - visual live-progamming for .NET"
 relativeURLs = "true"
 
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = -1 # priority omitted from rendered sitemap
+
+
 [Services.RSS]
   limit = 10
 
