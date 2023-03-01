@@ -15,6 +15,28 @@
     border-bottom: 1px solid #eee;
 }
 
+section#Blog .ds-search
+{
+    margin-bottom: 1em;
+}
+
+section#Blog .DocSearch-Button
+{
+    background-color: #e9e9e9;
+}
+
+section#Blog .DocSearch-Button:hover
+{
+    background-color: #e0e0e0;
+    border-color: #e0e0e0;
+    box-shadow: inset 0 0 0 2px #e0e0e0;
+}
+
+.DocSearch-Container
+{
+    z-index: 1000;
+}
+
 .DocSearch-Hits
 {
     font-size: 0.9em;
