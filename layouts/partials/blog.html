@@ -15,6 +15,7 @@
             {{ end }}
             </div>
             <div class="sidebar col-12 col-md-3 no-gutters">
+                {{ partial "blog/docsearch" . }}
                 <a href="{{ "/blog/" | relURL }}" class="btn btn-secondary btn-lg mb-5">{{ .Site.Params.Blog.ReadMore}}</a>
                 <div class="list mt-3">
                     <h4>Filter:</h4>
