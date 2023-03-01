@@ -178,16 +178,16 @@ blog = '/blog/:sections[1]/:slug/'
 		imgAlt = "vvvv on Matrix"
 		title = "Chat"
 		description = "Join us for a chat: Get help 24/7 or just hang out with your fellow patchers."
-		link = "https://app.element.io/#/room/#vvvv:matrix.org"
-		text = "Open Element"
+		link = "https://matrix.to/#/#vvvv:matrix.org"
+		text = "Open Chat"
 
 		[[params.Community.list]]
-		img = "img/icons/gettogether_logo_w_32x32_gray.png"
-		imgAlt = "vvvv GetTogehter"
+		img = "img/icons/logo-mbz-gray.png"
+		imgAlt = "vvvv Mobilizon"
 		title = "Meetups"
 		description = "Join us for a meetup: real-world, in-person drinks and presentations around vvvv."
-		link = "https://gettogether.community/vvvv/events/"
-		text = "Open Gettogether"
+		link = "https://mobilize.berlin/@vvvvmeetups"
+		text = "Open Meetups"
 
 	# Learn section
 		[params.Learn]

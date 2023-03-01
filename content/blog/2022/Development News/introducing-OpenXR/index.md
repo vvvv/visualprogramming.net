@@ -25,8 +25,7 @@ It is important to understand though, that OpenXR is quite an extensive API and 
 Many more features can now be added, one by one, depending on your requirements. Here is a full list of possible [OpenXR Extensions](https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#extension-appendices-list). So if you have a commercial project requiring a specific extension, don't hesitate to [get in touch](mailto:devvvvs@vvvv.org).
 
 ## Testing
-For now, OpenXR support is only available in a separate line of previews:
-* Get the latest **vvvv gamma 2022.5 OpenXR build** from the [Preview Downloads](/#Download)
+* Get the latest **vvvv gamma 2022.5 build** from the [Preview Downloads](/#Download)
 * For handtracking support
   * Install the preview [VL.Stride.OpenXRExtensions](https://www.nuget.org/packages/VL.Stride.OpenXRExtensions) NuGet
   * We've tested this with the Oculus Quest 2, workflows for other devices may differ:
