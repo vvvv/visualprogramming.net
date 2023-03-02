@@ -4,15 +4,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  {{ range $pages }}
+  <url>
+    <loc>{{- .Site.BaseURL -}}</loc>
+    <changefreq>daily</changefreq>
+  </url>
 
-    {{- if .Permalink -}}
+  {{ range $pages }}
+  {{- if .Permalink -}}
   <url>
     <loc>{{- .Permalink -}}</loc>{{ if not .Lastmod.IsZero }}
     <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02" ) }}</lastmod>{{ end }}
-    <changefreq>{{ if lt ( int ( (.Lastmod.Format "2006") ) ) 2023 }}never{{ else }}{{ with .Sitemap.ChangeFreq }}{{ . }}{{ end }}{{ end }}</changefreq>{{ if ge .Sitemap.Priority 0.0 }}
+    <changefreq>never</changefreq>{{ if ge .Sitemap.Priority 0.0 }}
     <priority>{{ .Sitemap.Priority }}</priority>{{ end }}
   </url>
-    {{- end -}}
+  {{- end -}}
   {{ end }}
 </urlset>
