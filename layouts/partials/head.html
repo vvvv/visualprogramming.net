@@ -9,9 +9,8 @@
 <meta property="og:site_name" content="{{ .Site.Params.title }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://visualprogramming.net/" />
-<meta property="og:title" content="{{ .Site.Params.ogTitle }}" />
+<meta property="og:title" content="{{ .Title }}" />
 <meta property="og:description" content="{{ .Site.Params.ogDescription }}" />
-<meta property="og:image" content="{{ "img/ogVVVV.jpg" | absURL }}" />
 <meta property="og:image" content="{{ "img/ogVVVV.jpg" | absURL }}" />
 <meta property="og:image:alt" content="Frontpage" />
 <meta property="og:image:type" content="image/jpg" />
@@ -20,7 +19,7 @@
 <meta itemprop="name" content="{{ .Site.Params.title }}" />
 {{ partial "noindex" . }}
 
-<title>{{ .Site.Params.title }}</title>
+<title>{{ .Title }}</title>
 
 {{ partial "structuredData/structuredData" . }}
 
