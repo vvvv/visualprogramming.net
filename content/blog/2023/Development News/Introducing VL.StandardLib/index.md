@@ -28,7 +28,7 @@ So is vvvv now open-source? No. The VL compiler and vvvv editor are still privat
 
 So the main advantage with this is really that it facilitates much closer collaboration between us core developers and external open-source contributors. How important this is, became apparent in projects like [VL.Kairos](https://github.com/KairosResearchLab/Kairos) and [VL.FUSE](https://github.com/TheFuseLab/VL.Fuse/) that are lead by community members but still happen in close interaction with the core team and also have implications on core libraries. So with providing VL.StandardLibs as a public repository, we're hoping to make collaboration with open-source contributors much more frictionless.
 
-In order to be able to realease VL.StandardLibs, we finally did the long-needed detanglement of some core libraries, which has some more benefits:
+In order to be able to release VL.StandardLibs, we finally did the long-needed detanglement of some core libraries, which has some more benefits:
 - Exports are now typically smaller, because the dependency graph of actually needed libraries is smaller
 - You can now use custom commandline arguments with your .exe (commandline args of vvvv.exe used to be part of all exports)
 - We're potentially free to have a different release cycle for VL.StandardLibs than the main application
