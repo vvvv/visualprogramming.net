@@ -1,5 +1,5 @@
 ---
-date: "2023-02-28"
+date: "2023-03-02"
 title: "Introducing: VL.StandardLibs"
 description: "All VL libraries are now open-source"
 categories: "Development News"
@@ -35,3 +35,5 @@ In order to be able to realease VL.StandardLibs, we finally did the long-needed 
 - We're potentially free to have a different release cycle for VL.StandardLibs than the main application
   
 Apart from the above, this probably also makes vvvv the most accessible and extensible of comparable tools (Just in case you needed an other argument to use it for your next project).
+
+And if you even see yourself contributing to this repository, please join us in the [VL.StandardLibs](https://matrix.to/#/#VL.StandardLibs:matrix.org) room on matrix for a chat.
