@@ -5,7 +5,6 @@ description: "All VL libraries are now open-source"
 categories: "Development News"
 author: "joreg"
 thumb: "open-source.png"
-draft: true
 ---
 
 Free at last!
@@ -36,4 +35,4 @@ In order to be able to realease VL.StandardLibs, we finally did the long-needed 
   
 Apart from the above, this probably also makes vvvv the most accessible and extensible of comparable tools (Just in case you needed an other argument to use it for your next project).
 
-And if you even see yourself contributing to this repository, please join us in the [VL.StandardLibs](https://matrix.to/#/#VL.StandardLibs:matrix.org) room on matrix for a chat.
+And if you even see yourself contributing to this repository, please join us for a chat in the [VL.StandardLibs room](https://matrix.to/#/#VL.StandardLibs:matrix.org) on matrix.
