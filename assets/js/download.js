@@ -43,12 +43,9 @@ var tip = tippy('#previewButton', {
             const currentPreviewTitle = instance.reference.getAttribute("data-currentPreviewTitle");
             const nextPreviewbuildType = instance.reference.getAttribute("data-nextPreviewBuildType");
             const nextPreviewTitle = instance.reference.getAttribute("data-nextPreviewTitle");
-            const nextPreviewOpenXRBranch = instance.reference.getAttribute("data-nextPreviewOpenXRBranch");
-            const nextPreviewOpenXRTitle = instance.reference.getAttribute("data-nextPreviewOpenXRTitle");
             
             Promise.allSettled([getLatestBuild(currentPreviewBuildType, ""), 
-                                getLatestBuild(nextPreviewbuildType, ""),
-                                getLatestBuild(nextPreviewbuildType, nextPreviewOpenXRBranch)])
+                                getLatestBuild(nextPreviewbuildType, "")])
             .then((result) => {
                 
                 var div=`
@@ -60,10 +57,6 @@ var tip = tippy('#previewButton', {
                     <div class="col mx-0">
                         <h3>${nextPreviewTitle}</h3> 
                         ${result[1].value}
-                    </div>
-                    <div class="col mx-0">
-                        <h3>${nextPreviewOpenXRTitle}</h3> 
-                        ${result[2].value}
                     </div>
                 </div>
                 `;
