@@ -1,6 +1,11 @@
 $sans: "Open-Sans", sans-serif;
 $serif: "Roboto Slab", serif;
 
+.scroll-padding
+{
+    scroll-padding-top: 140px;
+}
+
 .guestLabel
 {
     background-color: #aaa;
@@ -189,19 +194,40 @@ section#Blog
     max-width: 100%;
     flex-grow: 1;
     overflow: initial;
-    margin-top: 3em;
+    // margin-top: 3em;
     margin-bottom: 5em;
 
-    .post{
+    a
+    {
+        text-decoration: none;
+        border-bottom: 1px solid #ccc;
+        color: inherit;
+
+        &:hover
+        {
+            color: $orange-link-hover;
+        }
+    }
+
+    .border-below
+    {
+        border-bottom: 1px solid #eee;
+    }
+
+    .prev-next-search
+    {
+        background-color: #fff;
+        padding: 1em 0em;
+        top: 60px;
+        z-index: 1;
 
         .prev-next
         {
             font-size: 0.85em;
             color: #666;
 
-            border-bottom: 1px solid #eee;
-            padding-bottom: 0.9em;
-            margin-bottom: 2em;
+            padding-bottom: 1.3em;
+            padding-top: 0.9em;
 
             font-family: $sans;
 
@@ -224,6 +250,31 @@ section#Blog
 
         }
 
+    }
+
+    .post{
+
+        .header
+        {
+            span {
+                font-size: 0.8rem;
+            }
+
+            .date
+            {
+                color: #888;
+            }
+        } 
+
+        h2
+        {
+            font-family: $serif;
+            font-weight: 700;
+            font-size: 2.3em;
+            line-height: 1.3em;
+            margin-bottom: 0.3em;
+        }
+
         hr
         {
             border-color: #ddd;
@@ -237,39 +288,6 @@ section#Blog
             font-family: $sans;
             margin-bottom: 0.5em;
         }
-
-        h2
-        {
-            font-family: $serif;
-            font-weight: 700;
-            font-size: 2.3em;
-            line-height: 1.3em;
-            margin-bottom: 0.3em;
-        }
-
-
-        a{
-            text-decoration: none;
-            border-bottom: 1px solid #ccc;
-            color: inherit;
-        }
-
-        a:hover{
-            color: $orange-link-hover;
-        }
-
-
-        .header
-        {
-            span {
-                font-size: 0.8rem;
-            }
-
-            .date
-            {
-                color: #888;
-            }
-        } 
 
         .content{
 
@@ -490,7 +508,24 @@ section#Blog
 
     .sidebar
     {
-        top: 120px;
+
+        a
+        {
+            text-decoration: none;
+            border: none;
+    
+            &:hover
+            {
+                color: $orange-link-hover;
+            }
+
+            &.btn
+            {
+                color: #fff;
+            }
+        }
+
+        top: 165px;
         z-index: 0;
         min-height: 500px;
 

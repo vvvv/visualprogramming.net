@@ -1,0 +1,14 @@
+{{ $return := ""}}
+{{ $thumb := "" }}
+{{ with .Params.thumb}}
+  {{ with $.Resources.GetMatch .}}
+      {{ $thumb = .Fill "256x256 jpg q99"}}
+      {{ with $thumb}}
+        {{ $return = $thumb.Permalink }}
+      {{ end }}
+  {{ end }}
+{{ end }}
+{{ if eq $thumb ""}}
+  {{ $return = "/img/blog/grey-thumb.png" }}
+{{ end }}
+{{ return $return }}

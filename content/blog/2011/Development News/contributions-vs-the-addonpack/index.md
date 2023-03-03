@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-on [optical-flow](/blog/optical-flow) elliotwoods commented:
+on `optical-flow` elliotwoods commented:
 "i think the AddonPack is a bit of a failed concept. It works for some users but I personally hate the idea of dumping all available addons into my vvvv folder." 
 
 just to clarify: we are aware that the situation with contributions and the addonpack is not perfect. the ideal solution would of course be a fullblown package-managing-system that handles:

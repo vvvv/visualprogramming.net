@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "{{ .Title }}",
+      "image": "{
+        "@type": "ImageObject",
+        "url": "{{ partial "structuredData/structuredData-thumb" . | safeJS }}",
+        "width": "256",
+        "height": "256"
+      },
+       {{ with .Params.date }}
+            "datePublished": "{{.Format "2006-01-02" | safeJS }}",
+       {{ end }}
+       {{ with .Params.author }}
+            "author": {
+                "@type": "Person",
+                "name": "{{ . | safeJS }}" 
+            }   
+       {{ end }}
+    }
+    </script>
