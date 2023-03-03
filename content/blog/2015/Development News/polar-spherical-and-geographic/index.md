@@ -35,7 +35,7 @@ For practical reasons mathematicians place the origin at the same position as it
 Then the conversion from a cartesian vector (x, y) of a position **P** to polar coordinates (radius, angle) is:
 
 ```
-radius = sqrt(x```2 + y{{< box >}}2)
+radius = sqrt(x^2 + y^2)
 angle = atan2(y, x)
 ```
 
@@ -53,9 +53,10 @@ Note that many 2d computer graphics coordinate systems have the y-axis pointing 
 To get the same behavior in a 2d cartesian system with y-axis down the calculations would be:
 
 ```
-radius = sqrt(x```2 + y{{< box >}}2)
+radius = sqrt(x^2 + y^2)
 angle = atan2(-y, x)
-{{< /box >}}
+
+```
 and:
 
 ```
@@ -79,10 +80,10 @@ The origin is also the same as the one of the cartesian system. Traditionally ma
 The conversion formulas are then:
 
 ```
-radius = sqrt(x```2 + y{{< box >}}2 + z^2)
+radius = sqrt(x^2 + y^2 + z^2)
 polar = arccos(z/radius)
 azimuthal = atan2(y, x)
-{{< /box >}}
+```
 
 and:
 
@@ -128,10 +129,10 @@ azimuthal = longitude
 With trigonometric substitutions a direct conversion between geographic and cartesian coordinates can be derived:
 
 ```
-radius = sqrt(x```2 + y{{< box >}}2 + z^2)
+radius = sqrt(x^2 + y^2 + z^2)
 latitude = arcsin(z/radius)
 longitude = atan2(y, x)
-{{< /box >}}
+```
 
 and:
 
@@ -166,10 +167,10 @@ zL = -xR
 The simplest solution would be to convert the vector before or after the calculation, but we can also apply the conversion to the formulas. Then we get for the spherical coordinates:
 
 ```
-radius = sqrt(x```2 + y{{< box >}}2 + z^2)
+radius = sqrt(x^2 + y^2 + z^2)
 polar = arccos(y/radius)
 azimuthal = atan2(x, -z)
-{{< /box >}}
+```
 
 and:
 
@@ -182,10 +183,10 @@ z = -radius * sin(polar) * cos(azimuthal)
 For geographic coordinates:
 
 ```
-radius = sqrt(x```2 + y{{< box >}}2 + z^2)
+radius = sqrt(x^2 + y^2 + z^2)
 latitude = arcsin(y/radius)
 longitude = atan2(x, -z)
-{{< /box >}}
+```
 
 and:
 
@@ -229,10 +230,10 @@ A natural extension of the 2d polar coordinates are cylindrical coordinates, sin
 The formula is exactly the same as 2d polar corrdinates with the extension of the height:
 
 ```
-radius = sqrt(x```2 + y{{< box >}}2)
+radius = sqrt(x^2 + y^2)
 angle = atan2(y, x)
 height = z
-{{< /box >}}
+```
 and the way around:
 
 ```
@@ -244,10 +245,10 @@ z = height
 Converting that to left-handed system with y-axis up gives:
 
 ```
-radius = sqrt(x```2 + z{{< box >}}2)
+radius = sqrt(x^2 + z^2)
 angle = atan2(x, -z)
 height = y
-{{< /box >}}
+```
 and the way around:
 
 ```
