@@ -12,7 +12,9 @@ The upcoming stable release of vvvv gamma is taking ever better shape. Most rece
 
 Also, after quite some iterations, we're finally happy with the new C# and Shader Wizards. They will save you a lot of clicks going forward. To try them, get the most recent [preview](https://visualprogramming.net/#Download) and see: `Quad Menu > New > ..`
 
-And finally a big shout out to [chk](https://mastodon.xyz/@chkworks) for releasing his [VL.ThePatchersGuide](https://github.com/chkworks/VL.ThePatchersGuide), a series of tutorial patches for beginners. This is massive and deserves [your support](https://ko-fi.com/chkworks)!
+To combat the frustration of "which version of a NuGet to use with which version of vvvv", we're now maintaining a [NuGet Compatibility Chart](https://thegraybook.vvvv.org/changelog/nuget-compatibility-chart.html). Please help us keep this up-to-date. And yes, the package manager UI is still to come...
+
+Finally a big shout out to [chk](https://mastodon.xyz/@chkworks) for releasing his [VL.ThePatchersGuide](https://github.com/chkworks/VL.ThePatchersGuide), a series of tutorial patches for beginners. This is massive and deserves [your support](https://ko-fi.com/chkworks)!
 
 ## Contributions
 Many thanks to those of you who help complete vvvv with countless additions! For an overview of libraries available for vvvv [start here](https://thegraybook.vvvv.org/reference/libraries/overview.html).
