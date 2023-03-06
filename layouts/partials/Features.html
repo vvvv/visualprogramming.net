@@ -25,15 +25,15 @@
           {{ .Scratch.Set "sections" (.Site.GetPage "Features")}}
           <div class="tab-pane fade show active" id="v-pills-0" role="tabpanel" aria-labelledby="pills-topfeatures-tab">
             {{ .Scratch.Set "sectionTitle" "Top Features"}}
-            {{ partial "Features_Partial" .}}
+            {{ partial "features_section" .}}
           </div>
           <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="pills-languages-tab">
             {{ .Scratch.Set "sectionTitle" "Language"}}
-            {{ partial "Features_Partial" .}}
+            {{ partial "features_section" .}}
           </div>
           <div class="tab-pane fade" id="v-pills-1" role="tabpanel" aria-labelledby="pills-libraries-tab">
             {{ .Scratch.Set "sectionTitle" "Libraries"}}
-            {{ partial "Features_Partial" .}}
+            {{ partial "features_section" .}}
           </div>
         </div>
     </div>

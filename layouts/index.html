@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}" prefix="og: http://ogp.me/ns#">
     <head>
-        {{ partial "head.html" . }}
+        {{ partial "head" . }}
     </head>
     <body id="page-top">
       <div class="main">
           {{ partial "nav" . }}
           {{ if .Site.Params.hero }}
-              {{ partial "hero.html" . }}
+              {{ partial "hero" . }}
           {{ end }}
 
           {{ if .Site.Params.Features }}
-            {{ partial "Features.html" . }}
+            {{ partial "features" . }}
           {{ end }}
 
           {{ if .Site.Params.Blog }}
@@ -19,39 +19,39 @@
           {{ end }}
 
           {{ if .Site.Params.Showcase }}
-            {{ partial "showcase.html" . }}
+            {{ partial "showcase" . }}
           {{ end }}
 
           {{ if .Site.Params.Learn }}
-              {{ partial "learn.html" . }}
+              {{ partial "learn" . }}
           {{ end }}
 
           {{ if .Site.Params.Community }}
-              {{ partial "community.html" . }}
+              {{ partial "community" . }}
           {{ end }}
 
           {{ if (.Site.GetPage "Licensing")}}
-              {{ partial "licensing.html" .}}
+              {{ partial "licensing" .}}
           {{ end }}
 
           {{ if (.Site.GetPage "Support")}}
-              {{ partial "support.html" .}}
+              {{ partial "support" .}}
           {{ end }}
 
           {{ if .Site.Params.Download }}
               {{ partial "download.html" . }}
-              {{ partial "PreviewDownloads.html" . }}
+              {{ partial "PreviewDownloads" . }}
           {{ end }}
 
           {{ if .Site.Params.contact }}
-              {{ partial "contact.html" . }}
+              {{ partial "contact" . }}
           {{ end }}
 
           {{ if .Site.Params.footer}}
-            {{ partial "footer.html" . }}
+            {{ partial "footer" . }}
           {{ end }}
         </div>
-        {{ partial "videoBlocker.html" . }}
-        {{ partial "js.html" . }}
+        {{ partial "videoBlocker" . }}
+        {{ partial "js" . }}
     </body>
 </html>
