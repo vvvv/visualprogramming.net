@@ -8,7 +8,39 @@
     <loc>{{- .Site.BaseURL -}}</loc>
     <changefreq>daily</changefreq>
   </url>
-
+  <url>
+    <loc>{{- .Site.BaseURL -}}features/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>{{- .Site.BaseURL -}}blog/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>{{- .Site.BaseURL -}}showcase/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>{{- .Site.BaseURL -}}learn/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>{{- .Site.BaseURL -}}community/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>{{- .Site.BaseURL -}}licensing/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>{{- .Site.BaseURL -}}support/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>{{- .Site.BaseURL -}}download/</loc>
+    <changefreq>weekly</changefreq>
+  </url>     
+  
   {{ range $pages }}
   {{- if .Permalink -}}
   <url>
