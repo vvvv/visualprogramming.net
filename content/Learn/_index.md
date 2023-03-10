@@ -34,4 +34,5 @@ secondColumn:
       image:
 image: /img/Learning_Helpbrowser.png
 type: learn
+description: Documentation, Tutorials, HowTo's, ...
 ---
