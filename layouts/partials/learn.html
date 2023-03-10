@@ -15,7 +15,7 @@
         <div class="row">
             <div class="col-sm-12 col-lg-6 col-xl-4">
                 <ul class="list-group list-group-flush mr-3">
-                {{ range (.Site.GetPage "Learning").Params.firstColumn}}
+                {{ range (.Site.GetPage "Learn").Params.firstColumn}}
                     <li class="list-group-item py-3">{{with .item.image }} <img src="{{ . }}" class="mr-3 icon"> {{ end }} {{ .item.text | safeHTML }}</li>
                 {{ end }}
                 </ul>
@@ -23,14 +23,14 @@
 
             <div class="col-sm-12 col-lg-6 col-xl-4">
                 <ul class="list-group list-group-flush mr-3">
-                {{ range (.Site.GetPage "Learning").Params.secondColumn}}
+                {{ range (.Site.GetPage "Learn").Params.secondColumn}}
                     <li class="list-group-item py-3">{{with .item.image }} <img src="{{ . }}" class="mr-3 icon"> {{ end }} {{ .item.text | safeHTML }}</li>
                 {{ end }}
                 </ul>
             </div>
 
             <div class="col-sm-12 col-lg-6 col-xl-4">
-                {{ $img := (.Site.GetPage "Learning").Params.image }}
+                {{ $img := (.Site.GetPage "Learn").Params.image }}
                 <img src="{{ $img }}" alt="Integrated Help Browser"/>
             </div>
         

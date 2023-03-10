@@ -5,7 +5,7 @@
         <div class="row g-0 d-flex align-items-start position-relative">
           <div class="col-12 mb-3" style="color: #fff">
             {{ with .Params.img}}
-              <img src="{{ . }}" class="img-fluid mediaShadow">
+              <img src="{{ . | relURL }}" class="img-fluid mediaShadow">
             {{ end }}
             {{ with .Params.VimeoVideo}}
               <div class="mediaShadow">

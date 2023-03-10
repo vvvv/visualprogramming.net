@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html class="scroll-padding">
+    <head>
+        {{ partial "head" . }}     
+   </head>
+<body>
+    <div class="main">
+        {{ partial "nav-licensing" . }}
+        
+        {{ partial "licensing" .}}
+
+        {{ partial "videoBlocker" . }}
+
+        {{ partial "contact" . }}
+        
+        {{ partial "footer" . }}
+
+        {{ partial "js" . }}
+    </div>
+</body>
+</html>

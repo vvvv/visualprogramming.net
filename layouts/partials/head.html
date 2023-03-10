@@ -2,7 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="{{ .Site.Params.author }}">
-<meta name="description" content="{{ .Site.Params.description }}">
+<meta name="description" content="{{if isset .Params "description"}}{{.Params.description}}{{else}}{{.Site.Params.description}}{{end}}">
 <link rel="image_src" href="{{ "img/ogVVVV.jpg" | absURL }}" />
 <link rel="canonical" href="{{ .Permalink }}" />
 <link rel="shortlink" href="{{ .Permalink }}" />
@@ -10,7 +10,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content=" {{ .Permalink }}" />
 <meta property="og:title" content="{{ .Title }}" />
-<meta property="og:description" content="{{ .Site.Params.ogDescription }}" />
+<meta property="og:description" content="{{if isset .Params "description"}}{{.Params.description}}{{else}}{{.Site.Params.ogDescription}}{{end}}" />
 <meta property="og:image" content="{{ "img/ogVVVV.jpg" | absURL }}" />
 <meta property="og:image:alt" content="Frontpage" />
 <meta property="og:image:type" content="image/jpg" />
