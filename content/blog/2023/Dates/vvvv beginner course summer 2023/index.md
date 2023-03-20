@@ -5,7 +5,7 @@ date: "2023-03-20"
 title: "vvvv Beginner Class Summer 2023"
 description: "12 online sessions in the upcoming summer semester to get you started with vvvv"
 where: 
-    country_name: "The Node Institute (online)"
+    country_name: "The NODE Institute (online)"
     from_date: "1681747200"
 thumb: "vvvvbeginnerthumb23.png"
 ---
