@@ -5,7 +5,7 @@ date: "2023-03-20"
 title: "vvvv Beginner Class Summer 2023"
 description: "12 online sessions in the upcoming summer semester to get you started with vvvv"
 where: 
-    country_name: "The Node Institute (online)"
+    country_name: "The NODE Institute (online)"
     from_date: "1681747200"
 thumb: "vvvvbeginnerthumb23.png"
 ---
@@ -25,7 +25,7 @@ This semester-long live class is designed as a weekly add-on to your studies or 
 
 ## About the Instructor
 
-Christoph Ignaz Kirmaier aka chk is a multimedia artist, musician, educator and co-founder of the Vienna and Berlin based Studio 3e8. In the past years he has worked all across large-scale corporate multimedia installations, sound design, generative graphics, electronics, animation, music videos, user experience and robotic prototypes in several companies, bands and collectives.
+Christoph Ignaz Kirmaier aka chk is a multimedia artist, musician, educator and co-founder of the Vienna and Berlin based [Studio 3e8](https://www.3e8.studio/). In the past years he has worked all across large-scale corporate multimedia installations, sound design, generative graphics, electronics, animation, music videos, user experience and robotic prototypes in several companies, bands and collectives.
 
 ## Schedule
 
