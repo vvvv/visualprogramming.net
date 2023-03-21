@@ -25,7 +25,7 @@ This semester-long live class is designed as a weekly add-on to your studies or 
 
 ## About the Instructor
 
-Christoph Ignaz Kirmaier aka chk is a multimedia artist, musician, educator and co-founder of the Vienna and Berlin based Studio 3e8. In the past years he has worked all across large-scale corporate multimedia installations, sound design, generative graphics, electronics, animation, music videos, user experience and robotic prototypes in several companies, bands and collectives.
+Christoph Ignaz Kirmaier aka chk is a multimedia artist, musician, educator and co-founder of the Vienna and Berlin based [Studio 3e8](https://www.3e8.studio/). In the past years he has worked all across large-scale corporate multimedia installations, sound design, generative graphics, electronics, animation, music videos, user experience and robotic prototypes in several companies, bands and collectives.
 
 ## Schedule
 
