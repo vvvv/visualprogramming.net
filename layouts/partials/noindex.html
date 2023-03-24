@@ -1,0 +1,3 @@
+{{ if and (or (eq .Kind "term") (eq .Kind "section")) (ne .Title "Blog") }}
+<meta name="robots" content="noindex" />
+{{ end }}

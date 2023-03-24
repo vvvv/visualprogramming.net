@@ -22,7 +22,7 @@ xmlns:media="http://search.yahoo.com/mrss/">
     {{- end -}}
     <image>
 			<title>vvvv &#8211; Blog</title>
-			<link>{{ .Site.Params.baseURL }}</link>
+			<link>{{.Site.BaseURL}}</link>
 			<url>{{ "img/ogVVVV.jpg" | absURL }}</url>
 		</image>
     <itunes:image href="{{ "img/ogVVVV.jpg" | absURL }}" />

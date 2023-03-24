@@ -6,6 +6,12 @@ summaryLength = 20
 title = "vvvv - visual live-progamming for .NET"
 relativeURLs = "true"
 
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = -1 # priority omitted from rendered sitemap
+
+
 [Services.RSS]
   limit = 10
 
@@ -160,7 +166,7 @@ blog = '/blog/:sections[1]/:slug/'
 		headline = "Community"
 
 		[[params.Community.list]]
-		img = "img/icons/Discourse-32x32_gray.png"
+		img = "/img/icons/Discourse-32x32_gray.png"
 		imgAlt = "vvvv Forum"
 		title = "Forum"
 		description = "Get answers to your questions or find them in existing discussions in the vvvv forum."
@@ -168,20 +174,20 @@ blog = '/blog/:sections[1]/:slug/'
 		text = "Open Forum"
 
 		[[params.Community.list]]
-		img = "img/icons/element-32x32-black.png"
+		img = "/img/icons/element-32x32-black.png"
 		imgAlt = "vvvv on Matrix"
 		title = "Chat"
 		description = "Join us for a chat: Get help 24/7 or just hang out with your fellow patchers."
-		link = "https://app.element.io/#/room/#vvvv:matrix.org"
-		text = "Open Element"
+		link = "https://matrix.to/#/#vvvv:matrix.org"
+		text = "Open Chat"
 
 		[[params.Community.list]]
-		img = "img/icons/gettogether_logo_w_32x32_gray.png"
-		imgAlt = "vvvv GetTogehter"
+		img = "/img/icons/logo-mbz-gray.png"
+		imgAlt = "vvvv Mobilizon"
 		title = "Meetups"
 		description = "Join us for a meetup: real-world, in-person drinks and presentations around vvvv."
-		link = "https://gettogether.community/vvvv/events/"
-		text = "Open Gettogether"
+		link = "https://mobilize.berlin/@vvvvmeetups"
+		text = "Open Meetups"
 
 	# Learn section
 		[params.Learn]

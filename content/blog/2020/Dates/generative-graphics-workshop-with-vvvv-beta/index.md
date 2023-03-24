@@ -3,7 +3,7 @@ categories: "Dates"
 author: "Takuma"
 date: "2020-09-03"
 title: "Generative Graphics Workshop with vvvv beta"
-slug: "generative-graphics-workshop-with-vvvv"
+slug: "generative-graphics-workshop-with-vvvv-beta"
 description: ""
 who: 
     name: "Takuma Nakata"

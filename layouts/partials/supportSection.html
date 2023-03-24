@@ -1,7 +1,7 @@
 <div class="col mb-5">
     <div class="card text-light shadow">
         {{ with .Params.img}}
-            <img src="{{ . }}" class="card-img-top">
+            <img src="{{ . | relURL }}" class="card-img-top">
         {{ end }}
         <div class="card-body">
             <h3 class="card-title font-weight-bold">{{ .Params.title }}</h3>

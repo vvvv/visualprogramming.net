@@ -1,29 +1,38 @@
 {{ define "main" }}
 
 {{ $guest := not (in .Site.Params.Blog.Devvvvs (lower .Params.author)) }}
-
 <main id="Blog">
+        <div class="prev-next-search sticky-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9 col-md-8 col-lg-9 border-below">
+                        {{ partial "blog/prev-next" . }}
+                    </div>
+                    <div class="col-sm-3 col-md-4 col-lg-3 pl-3 pt-3 pt-sm-0 mt-md-0">
+                        <div class="docsearch ds-search"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-12 col-lg-8">
                     <div class="post">
-                        <div class="header">
-                            
-                            {{ partial "blog/prev-next" . }}
-
+                        <div class="header">  
+                  
                             <h2 class="display-1">{{ .Title }}</h2>
                             {{ with .Params.date }}
                                 <span class="date mr-3">{{ time.Format "January 2, 2006" .}}</span>
                             {{ end }}
-
+                    
                             {{ with .Params.author }}
                                 <span class="link mr-3">posted by: <a href="{{ printf "author/%s/" . | lower| relURL }}" >{{ . }}</a></span>
                             {{ end }}
-
+                    
                             {{ if $guest }}
                                 <span class="guestLabel">Guest Post</span>
                             {{ end }}
-
+                    
                         </div>
                         <div class="content">
 
