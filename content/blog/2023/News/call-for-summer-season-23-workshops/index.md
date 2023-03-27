@@ -4,7 +4,6 @@ author: "joreg"
 date: "2023-03-27"
 title: "The NODE Institute Summer Season 23"
 description: "Call for workshops"
-imported: "true"
 thumb: "TNI_Course_Cover_Template_VVVV_2023.png"
 ---
 
