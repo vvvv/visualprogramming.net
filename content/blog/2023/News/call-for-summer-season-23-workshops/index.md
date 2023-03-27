@@ -13,7 +13,7 @@ thumb: "TNI_Course_Cover_Template_VVVV_2023.png"
 
 Hello Summer Season!
 
-We are excited to announce that the [NODE Institute](https://thenodeinstitute.org/summer-season-23/) is running a [vvvv beginners course](https://thenodeinstitute.org/courses/vvvv-beginner-class-summer-2023/) as well as a range of intermediate/advanced sessions. We welcome members of the community to join us by proposing or requesting specific workshops. Now we would löike to hear from you!
+We are excited to announce that the [NODE Institute](https://thenodeinstitute.org/summer-season-23/) is running a [vvvv beginners course](https://thenodeinstitute.org/courses/vvvv-beginner-class-summer-2023/) as well as a range of intermediate/advanced sessions. We welcome members of the community to join us by proposing or requesting specific workshops. Now we would like to hear from you!
 
 * **What workshops do you want to attend?**
 * **What workshops can you offer to host?**
