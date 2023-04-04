@@ -19,7 +19,7 @@ firstColumn:
 secondColumn:
   - item: 
       text: > 
-            <a href="https://thenodeinstitute.org/" target="_blank">Courses</a>
+            <a href="https://thenodeinstitute.org/courses/vvvv-beginner-class-summer-2023/" target="_blank">Beginner Course starting April 17th 2023</a>
       image: /img/icons/mortarboard-fill.svg
   - item:
       text: >
