@@ -12,7 +12,7 @@ We still missed to release our latest and greatest (vvvv gamma 5.0) this month. 
 
 In the meantime, we ask for your input on workshops for [The Node Institute Summer Season 23](https://visualprogramming.net/blog/2023/the-node-institute-summer-season-23/). Please join the conversations on the forum and let us know about [your requests and proposals](https://discourse.vvvv.org/c/node-workshops-23/43)!
 
-If you're only getting started with vvvv, consider taking this **[vvvv beginner class](https://thenodeinstitute.org/courses/vvvv-beginner-class-summer-2023/)** online course starting April 17th, run by chk of [3e8](https://3e8.studio).
+If you're only getting started with vvvv, consider taking this **[vvvv beginner class](https://thenodeinstitute.org/courses/vvvv-beginner-class-summer-2023/)** online course starting May 8th, run by chk of [3e8](https://3e8.studio).
 
 As a teaser for the course, watch this great [playlist of video tutorials](https://www.youtube.com/playlist?list=PL2KeRstDQVRRVnzCHEambwAI4yWmpIF-p) introducing vvvv, starting with this gem:
 

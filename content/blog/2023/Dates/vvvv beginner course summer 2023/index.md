@@ -6,7 +6,7 @@ title: "vvvv Beginner Class Summer 2023"
 description: "12 online sessions in the upcoming summer semester to get you started with vvvv"
 where: 
     country_name: "The NODE Institute (online)"
-    from_date: "1681747200"
+    from_date: "1683561600"
 thumb: "vvvvbeginnerthumb23.png"
 ---
 
@@ -29,7 +29,7 @@ Christoph Ignaz Kirmaier aka chk is a multimedia artist, musician, educator and 
 
 ## Schedule
 
-The course **starts on April 17th**, comprises of **12 sessions** that take place **every Monday at 18:00 CET** and last 3 hours each. 
+The course **starts on May 8th**, comprises of **12 sessions** that take place **every Monday at 18:00 CET** and last 3 hours each. 
 
 {{< box >}}
 Interested? Check out [full details and registration](https://thenodeinstitute.org/courses/vvvv-beginner-class-summer-2023/).
