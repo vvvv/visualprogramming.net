@@ -1,6 +1,5 @@
 ---
-draft: false
-date: "2022-04-01"
+date: "2023-04-13"
 title: "vvvv gamma 5.0 release"
 description: Release notes
 categories: "vvvv gamma Releases"
@@ -8,19 +7,16 @@ author: joreg
 thumb: filters.jpg
 ---
 
-![vvvv gamma 5.0 release](filters.jpg "")
+![vvvv gamma 5.0 release](vvvv5.png "")
 
-Tadaa!
-
-We're happy to introdce **vvvv gamma 5.0**, the best vvvv ever (so far)!.
+We're happy to introdce **vvvv gamma 5.0**, the best vvvv ever! (so far...)
 
 {{< box >}}
-__[Download vvvv gamma 5.0](http://visualprogramming.net/#Download|)__
+__[Download vvvv gamma 5.0](http://visualprogramming.net/#Download)__  
 [Full Change Log](https://thegraybook.vvvv.org/changelog/5.x.html)
 
 [Get started](https://thegraybook.vvvv.org/reference/getting-started/overview.html)  
 [Buy a license](https://store.vvvv.org)
-
 {{< /box >}}
 
 Let's dive right into what you get with this release:
@@ -32,31 +28,43 @@ We were not sure how exactly to put this, but this testimonial from our chat sou
 
 How come you ask? Well, as you know, one of the reasons vvvv is running so fast, is that it compiles every change you make on-the-fly. For this release we looked very closely again at the compiler and made sure it always only really compiles what it needs to. 
 
-So far, on every startup vvvv compiled all of its own libraries and those you had referenced in addition, even though they have not changed. Now the default for vvvv core libraries and even those you reference is that they are compiled once, and from then on their precompiled artifacts are loaded, thus saving a lot of precious CPU cycles. But also, like this vvvv is using much less memory, leaving more RAM for your actual projects!
+So far, on every startup vvvv compiled all of its own libraries and those you had referenced in addition, even though they have not changed. Now the default for vvvv core libraries and even the packages you reference is that they are compiled once, and from then on are read-only, thus saving a lot of precious CPU cycles. But also, like this vvvv is using much less memory, leaving more RAM for your actual projects!
+
+Read all about read-only packages and how you can opt-out of this default for individual packages on the new documentation of [Compilation](https://thegraybook.vvvv.org/reference/language/compilation.html).
 
 ## Improved Extensibility
 
 One of vvvv's outstanding features has always been its extensibilty. With our recent [open-sourcing of all vvvv libraries](https://visualprogramming.net/blog/2023/introducing-vl.standardlibs/) we took this a step further. 
 
-And now this release simplifies extending vvvv with code even more by providing two new wizards for adding C# and shader code:
+And now this release simplifies extending vvvv with code even more by providing a new wizward for adding C# nodes: 
 
-**images**
+![](csharpwizard.png)
+launch via Quad > New...
 
-At the click of a button those generate working templates which you simply have to modify to your needs. You can edit code in your preferred editor and every time you save your changes, your code is immediately compiled and included in your running patch. When using Visual Studio 2022 as your editor you can even set break-points and debug your code line by line.
+Choose a template, click "Create" and the C# file opens in your preferred editor where you can change it to your needs. Everytime you save your changes, your code is immediately compiled and nodes in your running patch are being updated accordingly. When using Visual Studio 2022 as your editor you can even set break-points and debug your code line by line. Read more about this in [Writing nodes](https://thegraybook.vvvv.org/reference/extending/writing-nodes.html).
+
+A very similar improvement comes with the new shader wizard:
+
+![](shaderwizard.png)
+launch via Quad > New...
+
+Read more about this in [Shader foo]().
 
 ## Cross-platform export
 
 vvvv can now export executables not only for Windows, but also other platforms, see the updated export dialog:
 
-**image**
+![](exportdialog.png)
 
-Arguably, at this point this is still rather limited as for other platforms, we cannot export GUI applications but only console apps. But it is a start. What we’ve tested to work, is e.g. export to a Raspberry Pi running Linux. 
+Arguably, at this point this is still rather limited as for other platforms we cannot export GUI applications but only console apps. But it is a start. What we’ve tested to work, is e.g. export to a Raspberry Pi running Linux. 
 
 ## Graphics Library improvements
 
 ### Effortless creation of user interfaces
 
 For 2d graphics, we've added support for the popular [Dear ImGui](https://github.com/ocornut/imgui) library which offers the quickest way yet to set up user interfaces in vvvv. With just a few clicks you can now create elaborate UI's to control your patches. 
+
+**image**
 
 It is certainly not the final way to create UI's for all usecases, but it should cover a wide range still. Read what the original creators of ImGUI have to say about it:
 
@@ -66,7 +74,7 @@ Have a look at the helpbrowser for tons of examples to get you started.
 
 ### Improved ImagePlayer performance
 
-Ever felt the ImagePlayer options in vvvv beta were superior? Fret no more, we found the issue and ImagePlayers in vvvv gamma are now reaching your HDD's read rates. 
+Ever felt the ImagePlayer options in vvvv beta were superior? Fret no more, we found the issue and ImagePlayers in vvvv gamma are now reaching your HDD's read rates. This allows you to achieve butter-smooth high-resolution (thin 8k++, limited only by your HDD capabilities) playback even [synchronized over multiple PCs](https://thegraybook.vvvv.org/reference/best-practice/video-synchronization.html).
 
 ### Support for OpenXR
 ![OpenXR](OpenXR_170px_Feb17.png)
@@ -75,25 +83,34 @@ Ever felt the ImagePlayer options in vvvv beta were superior? Fret no more, we f
 
 Many more features can now be added, one by one, depending on your requirements. Here is a full list of possible [OpenXR Extensions](https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#extension-appendices-list). So if you have a commercial project requiring a specific extension, don’t hesitate to [get in touch](mailto:devvvvs@vvvv.org).
 
-### Support for latest VL.Fuse previews
-[FUSE](https://www.thefuselab.io) is an independently developed library that allows you to use your GPU for things that typically require writing shaders. It gives you access to procedural noise, signed distance field rendering, customizable particle systems, vector fields, fluid simulations and more. Created by [dottore](https://vvvv.org/users/dottore), [everyoneishappy](https://vvvv.org/users/everyoneishappy) and [texone](https://vvvv.org/users/texone) it is currently on its way to its second major release, which will make use of latest features in this realease. Curious to test? Check the preview builds of [VL.Fuse 1.0.0](https://www.nuget.org/packages/VL.Fuse).
+### Support for latest VL.Fuse
+[FUSE](https://www.thefuselab.io) is an independently developed library that allows you to use your GPU for things that typically require writing shaders. It gives you access to procedural noise, signed distance field rendering, customizable particle systems, vector fields, fluid simulations and more. 
+
+![](fuse.png)
+
+Created by [dottore](https://vvvv.org/users/dottore), [everyoneishappy](https://vvvv.org/users/everyoneishappy) and [texone](https://vvvv.org/users/texone) it is currently on its way to its second major release, which makes extensive use of latest changes to our [Custom Regions API](https://thegraybook.vvvv.org/reference/extending/custom-regions.html) that allows anyone to develop their own regions! Curious to test? Check the preview builds of [VL.Fuse 1.0.0](https://www.nuget.org/packages/VL.Fuse).
+
+### Tesselation
+Thanks to a [pull-request by kopffarben](https://github.com/vvvv/VL.Stride/pull/589) the MaterialExtension node now has a Tesselation Feature.
+
+**???**
 
 ### Update to latest version of Stride
-By updating to the [latest version of Stride](https://www.stride3d.net/blog/release-stride-4-1/) you now have access to all the latest features and fixes that come with it. Not all of Stride's features are wrapped for convenient use in vvvv, but nothing stops anyone from using them.
-
-### Kopffarben PR
+We're now using the [Stride 4.1](https://www.stride3d.net/blog/release-stride-4-1/) which gives you access to all the latest features and fixes that come with it. While not all of Stride's features are wrapped for convenient use in vvvv, nothing stops anyone from using them.
 
 ## And some more goodies
 
-### Support for latest VL.Kairos previews
+### Support for latest VL.Kairos
 [Kairos](https://github.com/KairosResearchLab/Kairos) is a complete framework for data control and composition. It comes with a timeline and compositor, support for a large variety of datatypes, custom datatypes and advanced interpolation, blending and compositing techniques. 
 
 ![](kairos.png)
 
-Kairos makes use of latest features in this release and you can test-drive it by checking the preview builds of [VL.Kairos 1.0.0](https://www.nuget.org/packages/VL.Kairos/). It is independently created and thus counts on your support for further development via the [Kairos Research Lab OpenCollective](https://opencollective.com/kairos-research-lab). 
+Kairos makes use of a new features in this release which allows instances of generic types using adaptive nodes to be created dynamically. Say what? One of those things we don't have to understand to benefit from them. Test-drive Kairos by checking the preview builds of [VL.Kairos 1.0.0](https://www.nuget.org/packages/VL.Kairos/). It is independently created and thus counts on your support for further development via the [Kairos Research Lab OpenCollective](https://opencollective.com/kairos-research-lab). 
 
-### Channels
-You'll most likely love these. They are the simplest yet way for controlling values in a patch from different spots. You'll first encounter them when working with ImGui widgets where they e.g. allow you to easily change a value either via an on-screen UI widget or from an IOBox in the patch. But you'll soon notice that they are a general game-changer for bi-directional data-binding!
+### Quick Data-binding using Channels
+You'll most likely love Channels. They are the simplest way yet for controlling values in a patch from different spots. You'll first encounter them when working with ImGui widgets where they e.g. allow you to easily change a value either via an on-screen UI widget or from an IOBox in the patch. But you'll soon notice that they are a general game-changer for bi-directional data-binding!
+
+**image**
 
 ### Advanced build configuration
 Apart from the new options you now have in the export dialog, you can also completely fine-tune your build process and e.g. add post-build tasks. For details, see: [Advanced build configuration](https://thegraybook.vvvv.org/reference/hde/exporting.html#advanced-build-configuration).
@@ -119,6 +136,9 @@ In case, you simply [buy a license](https://store.vvvv.org/) the moment you star
 
 ---
 
-What next? Expect the occasional 5.x bug-fix release while we're starting work on the 6 branch as per the updated [roadmap](https://thegraybook.vvvv.org/roadmap/planned.html).
+What next? Apart from regular 5.x bug-fix releases we'll also add a few more features in the 5.x branch. Check our updated [roadmap](https://thegraybook.vvvv.org/roadmap/planned.html) for some details.
 
-Good patch!
+We hope this release suits you well and would love to hear your thoughts on it in the comments. 
+
+Good patch,
+your devvvvs!
