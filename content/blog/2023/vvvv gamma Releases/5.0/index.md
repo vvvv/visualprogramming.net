@@ -103,7 +103,7 @@ We're now using the [Stride 4.1](https://www.stride3d.net/blog/release-stride-4-
 ### Quick Data-binding using Channels
 You'll most likely love Channels. They are the simplest way yet for controlling values in a patch from different spots. You'll first encounter them when working with ImGui widgets where they e.g. allow you to easily change a value either via an on-screen UI widget or from an IOBox in the patch. But you'll soon notice that they are a general game-changer for bi-directional data-binding!
 
-**image**
+![channels](https://user-images.githubusercontent.com/575557/232101156-efd0238b-31ec-4584-bd29-ae96cebb68aa.png)
 
 ### Support for latest VL.Kairos
 [Kairos](https://github.com/KairosResearchLab/Kairos) is a complete framework for data control and composition. It comes with a timeline and compositor, support for a large variety of datatypes, custom datatypes and advanced interpolation, blending and compositing techniques. 
