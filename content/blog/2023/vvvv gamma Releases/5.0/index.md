@@ -39,16 +39,16 @@ One of vvvv's outstanding features has always been its extensibilty. With our re
 And now this release simplifies extending vvvv with code even more by providing a new wizward for adding C# nodes: 
 
 ![](csharpwizard.png)
-launch via Quad > New...
+*Launch the wizard via `Quad` > `New` > `C# File`*
 
 Choose a template, click "Create" and the C# file opens in your preferred editor where you can change it to your needs. Everytime you save your changes, your code is immediately compiled and nodes in your running patch are being updated accordingly. When using Visual Studio 2022 as your editor you can even set break-points and debug your code line by line. Read more about this in [Writing nodes](https://thegraybook.vvvv.org/reference/extending/writing-nodes.html).
 
 A very similar improvement comes with the new shader wizard:
 
 ![](shaderwizard.png)
-launch via Quad > New...
+*Launch the wizard via `Quad` > `New` > `Shader`*
 
-Read more about this in [Shader foo]().
+This greatly simplifies the process of working with shaders in your projects. For more details, please refer to the documentation on [Shaders](https://thegraybook.vvvv.org/reference/libraries/3d/shaders.html).
 
 ## Cross-platform export
 
@@ -62,11 +62,11 @@ Arguably, at this point this is still rather limited as for other platforms we c
 
 ### Effortless creation of user interfaces
 
-For 2d graphics, we've added support for the popular [Dear ImGui](https://github.com/ocornut/imgui) library which offers the quickest way yet to set up user interfaces in vvvv. With just a few clicks you can now create elaborate UI's to control your patches. 
+We've added support for the popular [Dear ImGui](https://github.com/ocornut/imgui) library which offers the quickest way yet to set up user interfaces in vvvv. With just a few clicks you can now create elaborate UI's to control your patches. 
 
-**image**
+![](helloImGui.png)
 
-It is certainly not the final way to create UI's for all usecases, but it should cover a wide range still. Read what the original creators of ImGUI have to say about it:
+This is certainly not the final way to create UI's for all usecases, but it should cover a wide range still. Read what the original creators of ImGUI have to say about it:
 
 *Dear ImGui is designed to enable fast iterations and to empower programmers to create content creation tools and visualization / debug tools (as opposed to UI for the average end-user). It favors simplicity and productivity toward this goal and lacks certain features commonly found in more high-level libraries.* From the [Dear ImGui pitch](https://github.com/ocornut/imgui#the-pitch).
 
@@ -100,17 +100,17 @@ We're now using the [Stride 4.1](https://www.stride3d.net/blog/release-stride-4-
 
 ## And some more goodies
 
+### Quick Data-binding using Channels
+You'll most likely love Channels. They are the simplest way yet for controlling values in a patch from different spots. You'll first encounter them when working with ImGui widgets where they e.g. allow you to easily change a value either via an on-screen UI widget or from an IOBox in the patch. But you'll soon notice that they are a general game-changer for bi-directional data-binding!
+
+**image**
+
 ### Support for latest VL.Kairos
 [Kairos](https://github.com/KairosResearchLab/Kairos) is a complete framework for data control and composition. It comes with a timeline and compositor, support for a large variety of datatypes, custom datatypes and advanced interpolation, blending and compositing techniques. 
 
 ![](kairos.png)
 
 Kairos makes use of a new features in this release which allows instances of generic types using adaptive nodes to be created dynamically. Say what? One of those things we don't have to understand to benefit from them. Test-drive Kairos by checking the preview builds of [VL.Kairos 1.0.0](https://www.nuget.org/packages/VL.Kairos/). It is independently created and thus counts on your support for further development via the [Kairos Research Lab OpenCollective](https://opencollective.com/kairos-research-lab). 
-
-### Quick Data-binding using Channels
-You'll most likely love Channels. They are the simplest way yet for controlling values in a patch from different spots. You'll first encounter them when working with ImGui widgets where they e.g. allow you to easily change a value either via an on-screen UI widget or from an IOBox in the patch. But you'll soon notice that they are a general game-changer for bi-directional data-binding!
-
-**image**
 
 ### Advanced build configuration
 Apart from the new options you now have in the export dialog, you can also completely fine-tune your build process and e.g. add post-build tasks. For details, see: [Advanced build configuration](https://thegraybook.vvvv.org/reference/hde/exporting.html#advanced-build-configuration).
