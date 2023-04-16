@@ -24,8 +24,7 @@ Let's dive right into what you get with this release:
 ## Improved startup time
 We were not sure how exactly to put this, but this testimonial from our chat sounds quite technically accurate:
 
-![](vvvv-holycow.png)
-
+![Holy cow 5.0 loads fast](vvvv-holycow.png)
 
 How come you ask? Well, as you know, one of the reasons vvvv is running so fast, is that it compiles every change you make on-the-fly. For this release, we looked very closely again at the compiler and made sure it always only really compiles what it needs to. 
 
@@ -39,14 +38,14 @@ One of vvvv's outstanding features has always been its extensibilty. With our re
 
 And now this release simplifies extending vvvv with code even more by providing a new wizward for adding C# nodes: 
 
-![](vvvv-csharpwizard.png)
+![C# Wizard](vvvv-csharpwizard.png)
 *Launch the wizard via `Quad` > `New` > `C# File`*
 
 Choose a template, click "Create" and the C# file opens in your preferred editor where you can change it to your needs. Every time you save your changes, your code is immediately compiled and nodes in your running patch are being updated accordingly. When using Visual Studio 2022 as your editor, you can even set break-points and debug your code line by line. Read more about this in [Writing nodes](https://thegraybook.vvvv.org/reference/extending/writing-nodes.html).
 
 A very similar improvement comes with the new shader wizard:
 
-![](vvvv-shaderwizard.png)
+![Shader Wizard](vvvv-shaderwizard.png)
 *Launch the wizard via `Quad` > `New` > `Shader`*
 
 This greatly simplifies the process of working with shaders in your projects. For more details, please refer to the documentation on [Shaders](https://thegraybook.vvvv.org/reference/libraries/3d/shaders.html).
@@ -55,7 +54,7 @@ This greatly simplifies the process of working with shaders in your projects. Fo
 
 vvvv can now export executables not only for Windows, but also other platforms, see the updated export dialog:
 
-![](vvvv-exportdialog.png)
+![The Export dialog](vvvv-exportdialog.png)
 
 Arguably, at this point this is still rather limited as for other platforms we cannot export GUI applications but only console apps. But it is a start. What we’ve tested to work, is e.g. export to a Raspberry Pi running Linux. 
 
@@ -65,7 +64,7 @@ Arguably, at this point this is still rather limited as for other platforms we c
 
 We've added support for the popular [Dear ImGui](https://github.com/ocornut/imgui) library, which offers the quickest way yet to set up user interfaces in vvvv. With just a few clicks, you can now create elaborate UI's to control your patches. 
 
-![](vvvv-helloImGui.png)
+![Hello ImGui](vvvv-helloImGui.png)
 
 This is certainly not the final way to create UI's for all use cases, but it should cover a wide range still. Read what the original creators of ImGUI have to say about it:
 
@@ -85,9 +84,9 @@ Ever felt the ImagePlayer options in vvvv beta were superior? Fret no more, we f
 Many more features can now be added, one by one, depending on your requirements. Here is a full list of possible [OpenXR Extensions](https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#extension-appendices-list). So if you have a commercial project requiring a specific extension, don’t hesitate to [get in touch](mailto:devvvvs@vvvv.org).
 
 ### Support for latest VL.Fuse
-[FUSE](https://www.thefuselab.io) is an independently developed library that allows you to use your GPU for things that typically require writing shaders. It gives you access to procedural noise, signed distance field rendering, customizable particle systems, vector fields, fluid simulations and more. 
+[Fuse](https://www.thefuselab.io) is an independently developed library that allows you to use your GPU for things that typically require writing shaders. It gives you access to procedural noise, signed distance field rendering, customizable particle systems, vector fields, fluid simulations and more. 
 
-![](vvvv-fuse.png)
+![Fuse](vvvv-fuse.png)
 
 Created by [dottore](https://vvvv.org/users/dottore), [everyoneishappy](https://vvvv.org/users/everyoneishappy) and [texone](https://vvvv.org/users/texone) it is currently on its way to its second major release, which makes extensive use of latest changes to our [Custom Regions API](https://thegraybook.vvvv.org/reference/extending/custom-regions.html) that allows anyone to develop their own regions! Curious to test? Check the preview builds of [VL.Fuse 1.0.0](https://www.nuget.org/packages/VL.Fuse).
 
@@ -106,16 +105,16 @@ We're now using [Stride 4.1](https://www.stride3d.net/blog/release-stride-4-1/) 
 ### Quick Data-binding using Channels
 You'll most likely love Channels. They are the simplest way yet for controlling values in a patch from different spots. 
 
-You'll first encounter them when working with ImGui widgets where they e.g. allow you to easily change a value either via an on-screen UI widget or from an IOBox in the patch through the very same Channel. But you'll soon notice that they are a general game-changer for bidirectional data-binding!
+![Channels](vvvv-channels.png)
 
-![channels](vvvv-channels.png)
+You'll first encounter them when working with ImGui widgets where they e.g. allow you to easily change a value either via an on-screen UI widget or from an IOBox in the patch through the very same Channel. But you'll soon notice that they are a general game-changer for bidirectional data-binding!
 
 In the Helpbrowser look for the term "channels" to find a range of help patches introducing the topic. 
 
 ### Support for latest VL.Kairos
 [Kairos](https://github.com/KairosResearchLab/Kairos) is a complete framework for data control and composition. It comes with a timeline and compositor, support for a large variety of datatypes, custom datatypes and advanced interpolation, blending and compositing techniques. 
 
-![](vvvv-kairos.png)
+![Kairos](vvvv-kairos.png)
 
 Kairos makes use of a new feature in this release which allows instances of generic types using adaptive nodes to be created dynamically. Say what? WEll, this is just another of those things we don't have to understand to benefit from it. 
 
@@ -125,7 +124,7 @@ Test-drive Kairos by checking the preview builds of [VL.Kairos 1.0.0](https://ww
 Apart from the new options you now have in the export dialog, you can also completely fine-tune your build process and e.g. add post-build tasks. For details, see: [Advanced build configuration](https://thegraybook.vvvv.org/reference/hde/exporting.html#advanced-build-configuration).
 
 ### .NET6 
-![](dotnet-logo.png)
+![.NET](dotnet-logo.png)
 
 Under the hood, vvvv gamma was sitting on .NET472, by now a rather old version of [.NET](https://en.wikipedia.org/wiki/.NET). With this release, we're upgrading to .NET6. If this means anything to you, you may want to read about [What's new in .NET6](https://docs.microsoft.com/en-us/dotnet/core/whats-new/dotnet-6).
 
