@@ -116,7 +116,7 @@ In the Helpbrowser look for the term "channels" to find a range of help patches 
 
 ![Kairos](vvvv-kairos.png)
 
-Kairos makes use of a new feature in this release which allows instances of generic types using adaptive nodes to be created dynamically. Say what? WEll, this is just another of those things we don't have to understand to benefit from it. 
+Kairos makes use of a new feature in this release which allows instances of generic types using adaptive nodes to be created dynamically. Say what? Well, this is just another of those things we don't have to understand to benefit from it. 
 
 Test-drive Kairos by checking the preview builds of [VL.Kairos 1.0.0](https://www.nuget.org/packages/VL.Kairos/). It is independently created and thus counts on your support for further development via the [Kairos Research Lab OpenCollective](https://opencollective.com/kairos-research-lab). 
 
