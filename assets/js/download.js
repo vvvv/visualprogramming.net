@@ -1,15 +1,22 @@
 function getTeamcity()
 {
     var teamcity = "https://teamcity.vvvv.org";
-    var proxy = "https://api.codetabs.com/v1/proxy?quest=";
     
-    //return proxy + teamcity;
     return teamcity;
 }
 
-function getBuildsLink(buildType)
+function getBuildsLink(buildType, branch)
 {
-    return getTeamcity() + `/guestAuth/app/rest/builds?locator=branch:name:%3Cdefault%3E,buildType:${buildType},status:SUCCESS,state:finished&count=3`;
+    if (branch != "")
+    {
+        _b = branch;
+    }
+    else
+    {
+        _b = '%3Cdefault%3E';
+    }
+
+    return getTeamcity() + `/guestAuth/app/rest/builds?locator=branch:name:${_b},buildType:${buildType},status:SUCCESS,state:finished&count=3`;
 }
 
 var tip = tippy('#previewButton', {
@@ -31,22 +38,14 @@ var tip = tippy('#previewButton', {
         if (!instance._isLoaded)
         {
             const currentPreviewBuildType = instance.reference.getAttribute("data-currentPreviewBuildType");
-            const currentPreviewTitle = instance.reference.getAttribute("data-currentPreviewTitle");
-            const nextPreviewbuildType = instance.reference.getAttribute("data-nextPreviewBuildType");
-            const nextPreviewTitle = instance.reference.getAttribute("data-nextPreviewTitle");
             
-            Promise.allSettled([getLatestBuild(currentPreviewBuildType), getLatestBuild(nextPreviewbuildType)])
+            Promise.allSettled([getLatestBuild(currentPreviewBuildType, "")])
             .then((result) => {
                 
                 var div=`
                 <div class="row">
                     <div class="col mx-0 mb-4">
-                        <h3>${currentPreviewTitle}</h3> 
                         ${result[0].value}
-                    </div>
-                    <div class="col mx-0">
-                        <h3>${nextPreviewTitle}</h3> 
-                        ${result[1].value}
                     </div>
                 </div>
                 `;
@@ -66,11 +65,11 @@ var tip = tippy('#previewButton', {
       },
   });
 
-async function getLatestBuild(buildType)
+async function getLatestBuild(buildType, branch)
 {
     var previews = [];
 
-    var previews = await fetchData(getBuildsLink(buildType));
+    var previews = await fetchData(getBuildsLink(buildType, branch));
 
     var div="<table>";
 
@@ -97,7 +96,7 @@ async function getLatestBuild(buildType)
 async function fetchData(link)
 {
     var previews = []
-    var versionPattern = /(.*?)\+/;
+    var versionPattern = /vvvv_gamma_(.*)\-.*$/;
 
     var builds = await fetch(link)
     .then(response => response.text())
@@ -127,7 +126,7 @@ async function fetchData(link)
 
                     if (exeLink != null)
                     {
-                        var shortNumber = buildNumber.match(versionPattern)[1];
+                        var shortNumber = exeLink.match(versionPattern)[1];
                         var changes = getTeamcity()+`/viewLog.html?buildId=${id}&tab=buildChangesDiv&user=guest`;
                         previews.push ({link: exeLink, buildNumber: shortNumber, changesLink: changes, date: getDate(stamp)});
                     }

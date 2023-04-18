@@ -3,7 +3,7 @@
 {{ with .context}}
 <div class="swiper-slide py-4 px-3">
     <div class="card text-white card-has-bg click-col h-100">
-        <img class="card-img swiper-lazy" data-src="{{.Params.img}}" alt="{{ .Params.Title }}">
+        <img class="card-img swiper-lazy" data-src="{{.Params.img | relURL}}" alt="{{ .Params.Title }}">
         <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         <div class="card-img-overlay d-flex">
             <div class="card-body mx-2 mb-sm-3 align-self-end flex-grow-0 d-flex flex-column">

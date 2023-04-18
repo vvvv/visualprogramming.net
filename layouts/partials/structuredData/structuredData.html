@@ -1,0 +1,3 @@
+{{ if and (eq .Type "blog") (and (ne .Kind "term") (ne .Kind "section")) }}
+  {{ partial "structuredData/blogarticle" . }}
+{{ end }}

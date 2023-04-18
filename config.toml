@@ -6,6 +6,12 @@ summaryLength = 20
 title = "vvvv - visual live-progamming for .NET"
 relativeURLs = "true"
 
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = -1 # priority omitted from rendered sitemap
+
+
 [Services.RSS]
   limit = 10
 
@@ -102,18 +108,14 @@ blog = '/blog/:sections[1]/:slug/'
 		Copy = "First released in April 2020, vvvv gamma is the next generation of vvvv, entirely rewritten from scratch."
 
 		StableText  = "Download: Stable"
-		StableLink = "https://teamcity.vvvv.org/guestAuth/app/rest/builds/id:36032/artifacts/content/vvvv_gamma_2021.4.10_setup.exe"
-		StableVersion = "Version: 2021.4.10"
+		StableLink = "https://teamcity.vvvv.org/guestAuth/app/rest/builds/id:36679/artifacts/content/vvvv_gamma_2021.4.12_setup.exe"
+		StableVersion = "Version: 5.0"
 
 		PreviewText = "Download: Preview"
 		PreviewLink = "PreviewDownloads"
 		PreviewVersion = "Unstable, daily preview builds"
 		
-		CurrentPreviewTitle = "Current Major"
-		NextPreviewTitle = "Upcomming Major"
 		CurrentPreviewBuildType = "vvvv_gamma_Build"
-		NextPreviewBuildType = "vvvv_gamma_Build20225"
-
 
 		LibrariesText  = "Additional Libraries"
 		LibrariesLink = "https://thegraybook.vvvv.org/reference/libraries/overview.html"
@@ -158,7 +160,7 @@ blog = '/blog/:sections[1]/:slug/'
 		headline = "Community"
 
 		[[params.Community.list]]
-		img = "img/icons/Discourse-32x32_gray.png"
+		img = "/img/icons/Discourse-32x32_gray.png"
 		imgAlt = "vvvv Forum"
 		title = "Forum"
 		description = "Get answers to your questions or find them in existing discussions in the vvvv forum."
@@ -166,20 +168,20 @@ blog = '/blog/:sections[1]/:slug/'
 		text = "Open Forum"
 
 		[[params.Community.list]]
-		img = "img/icons/element-32x32-black.png"
+		img = "/img/icons/element-32x32-black.png"
 		imgAlt = "vvvv on Matrix"
 		title = "Chat"
 		description = "Join us for a chat: Get help 24/7 or just hang out with your fellow patchers."
-		link = "https://app.element.io/#/room/#vvvv:matrix.org"
-		text = "Open Element"
+		link = "https://matrix.to/#/#vvvv:matrix.org"
+		text = "Open Chat"
 
 		[[params.Community.list]]
-		img = "img/icons/gettogether_logo_w_32x32_gray.png"
-		imgAlt = "vvvv GetTogehter"
+		img = "/img/icons/logo-mbz-gray.png"
+		imgAlt = "vvvv Mobilizon"
 		title = "Meetups"
 		description = "Join us for a meetup: real-world, in-person drinks and presentations around vvvv."
-		link = "https://gettogether.community/vvvv/events/"
-		text = "Open Gettogether"
+		link = "https://mobilize.berlin/@vvvvmeetups"
+		text = "Open Meetups"
 
 	# Learn section
 		[params.Learn]
@@ -200,3 +202,17 @@ blog = '/blog/:sections[1]/:slug/'
 		[params.footer]
 		hugoText = "Thanks to <a href=\"https://gohugo.io\" target=\"_blank\">Hugo</a> for building this website."
 		plausibleText = "Analytics by <a href=\"https://plausible.io\" target=\"_blank\">Plausible</a>."
+
+	# Video blocker
+		[params.vimeoBlocker]
+		headline="Embedded Vimeo Video"
+		text="When playing the video, you accept the [Vimeo privacy policy](https://vimeo.com/privacy)."
+		checkbox="Always"
+		watchOn="Watch on Vimeo"
+
+		[params.youtubeBlocker]
+		headline="Embedded YouTube Video"
+		text="When playing the video, you accept the [YouTube privacy policy](https://www.youtube.com/privacy)."
+		checkbox="Always"
+		watchOn="Watch on YouTube"
+

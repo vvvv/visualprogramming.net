@@ -1,16 +1,26 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<meta property="og:title" content="{{ .Site.Params.ogTitle }}" />
-<meta property="og:description" content="{{ .Site.Params.ogDescription }}" />
-<meta property="og:url"content="https://visualprogramming.net/" />
-<meta property="og:image" content="{{ "img/ogVVVV.jpg" | absURL }}" />
-
 <meta name="author" content="{{ .Site.Params.author }}">
-<meta name="description" content="{{ .Site.Params.description }}">
+<meta name="description" content="{{if isset .Params "description"}}{{.Params.description}}{{else}}{{.Site.Params.description}}{{end}}">
+<link rel="image_src" href="{{ "img/ogVVVV.jpg" | absURL }}" />
+<link rel="canonical" href="{{ .Permalink }}" />
+<link rel="shortlink" href="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ .Site.Params.title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content=" {{ .Permalink }}" />
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{if isset .Params "description"}}{{.Params.description}}{{else}}{{.Site.Params.ogDescription}}{{end}}" />
+<meta property="og:image" content="{{ "img/ogVVVV.jpg" | absURL }}" />
+<meta property="og:image:alt" content="Frontpage" />
+<meta property="og:image:type" content="image/jpg" />
+<meta property="og:image:width" content="256" />
+<meta property="og:image:height" content="256" />
+<meta itemprop="name" content="{{ .Site.Params.title }}" />
 
-<title>{{ .Site.Params.title }}</title>
+<title>{{ .Title }}</title>
+
+{{ partial "structuredData/structuredData" . }}
 
 {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
@@ -22,6 +32,17 @@
 <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}" type="text/css">
 <link rel="stylesheet" href="{{ "css/swiper-bundle.min.css" | relURL }}" type="text/css">
 
+{{ "<!-- Newsletter CSS -->" | safeHTML }}
+<link rel="stylesheet" href="https://assets.sendinblue.com/component/form/2ef8d8058c0694a305b0.css">
+<link rel="stylesheet" href="https://assets.sendinblue.com/component/clickable/b056d6397f4ba3108595.css">
+<link rel="stylesheet" href="https://assets.sendinblue.com/component/progress-indicator/f86d65a4a9331c5e2851.css">
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+
+{{ "<!-- DocSearch CSS -->" | safeHTML }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"/>
+{{ $style := resources.Get "css/customDocSearch.css" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink | relURL }}" type="text/css">
+
 {{ "<!-- Custom Fonts -->" | safeHTML }}
 {{ $style := resources.Get "css/fonts.css" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" type="text/css">
@@ -31,14 +52,6 @@
 {{ "<!-- Custom SASS -->" | safeHTML }}
 {{ $style := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" type="text/css">
-
-
-{{ "<!-- Newsletter CSS -->" | safeHTML }}
-<link rel="stylesheet" href="https://assets.sendinblue.com/component/form/2ef8d8058c0694a305b0.css">
-<link rel="stylesheet" href="https://assets.sendinblue.com/component/clickable/b056d6397f4ba3108595.css">
-<link rel="stylesheet" href="https://assets.sendinblue.com/component/progress-indicator/f86d65a4a9331c5e2851.css">
-<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
-
 
 {{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
 {{ "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->" | safeHTML }}
