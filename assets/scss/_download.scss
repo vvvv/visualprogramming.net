@@ -2,8 +2,14 @@
 {
     .modal-header
     {
-    padding-left: 0;
-    padding-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+    }
+
+    p
+    {
+        color: #ddd;
     }
 
     h3
@@ -23,13 +29,12 @@
     
     a
     {
-        border-width: 1px;
-        text-decoration: none;
+        border-bottom: 1px solid #bbb;
     }
 
     td
     {
-        padding: 1em 0.5em 0 0;
+        padding: 0 0.5em 1.5em 0;
         font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 
         font-size: 1em;
@@ -39,6 +44,7 @@
             font-size: 0.8em;
             color: #aaa;
             padding: 0;
+            vertical-align: top;
         }
     }
 
