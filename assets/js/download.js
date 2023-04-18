@@ -1,9 +1,7 @@
 function getTeamcity()
 {
     var teamcity = "https://teamcity.vvvv.org";
-    var proxy = "https://api.codetabs.com/v1/proxy/?quest=";
     
-    //return proxy + teamcity;
     return teamcity;
 }
 
@@ -40,23 +38,14 @@ var tip = tippy('#previewButton', {
         if (!instance._isLoaded)
         {
             const currentPreviewBuildType = instance.reference.getAttribute("data-currentPreviewBuildType");
-            const currentPreviewTitle = instance.reference.getAttribute("data-currentPreviewTitle");
-            const nextPreviewbuildType = instance.reference.getAttribute("data-nextPreviewBuildType");
-            const nextPreviewTitle = instance.reference.getAttribute("data-nextPreviewTitle");
             
-            Promise.allSettled([getLatestBuild(currentPreviewBuildType, ""), 
-                                getLatestBuild(nextPreviewbuildType, "")])
+            Promise.allSettled([getLatestBuild(currentPreviewBuildType, "")])
             .then((result) => {
                 
                 var div=`
                 <div class="row">
                     <div class="col mx-0 mb-4">
-                        <h3>${currentPreviewTitle}</h3> 
                         ${result[0].value}
-                    </div>
-                    <div class="col mx-0">
-                        <h3>${nextPreviewTitle}</h3> 
-                        ${result[1].value}
                     </div>
                 </div>
                 `;
@@ -107,7 +96,7 @@ async function getLatestBuild(buildType, branch)
 async function fetchData(link)
 {
     var previews = []
-    var versionPattern = /(.*?)\+/;
+    var versionPattern = /vvvv_gamma_(.*)\-.*$/;
 
     var builds = await fetch(link)
     .then(response => response.text())
@@ -137,7 +126,7 @@ async function fetchData(link)
 
                     if (exeLink != null)
                     {
-                        var shortNumber = buildNumber.match(versionPattern)[1];
+                        var shortNumber = exeLink.match(versionPattern)[1];
                         var changes = getTeamcity()+`/viewLog.html?buildId=${id}&tab=buildChangesDiv&user=guest`;
                         previews.push ({link: exeLink, buildNumber: shortNumber, changesLink: changes, date: getDate(stamp)});
                     }

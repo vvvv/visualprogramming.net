@@ -109,19 +109,13 @@ blog = '/blog/:sections[1]/:slug/'
 
 		StableText  = "Download: Stable"
 		StableLink = "https://teamcity.vvvv.org/guestAuth/app/rest/builds/id:36679/artifacts/content/vvvv_gamma_2021.4.12_setup.exe"
-		StableVersion = "Version: 2021.4.12"
+		StableVersion = "Version: 5.0"
 
 		PreviewText = "Download: Preview"
 		PreviewLink = "PreviewDownloads"
 		PreviewVersion = "Unstable, daily preview builds"
 		
-		CurrentPreviewTitle = "Current Major"
-		NextPreviewTitle = "Upcoming Major"
 		CurrentPreviewBuildType = "vvvv_gamma_Build"
-		NextPreviewBuildType = "vvvv_gamma_Build20225"
-		NextPreviewOpenXRBranch = "preview%2F2022.5-OpenXR"
-		NextPreviewOpenXRTitle = "OpenXR builds"
-
 
 		LibrariesText  = "Additional Libraries"
 		LibrariesLink = "https://thegraybook.vvvv.org/reference/libraries/overview.html"
