@@ -1,8 +1,10 @@
 function getTeamcity()
 {
     var teamcity = "https://teamcity.vvvv.org";
+    var proxy = "https://api.codetabs.com/v1/proxy/?quest=";
     
-    return teamcity;
+    return proxy + teamcity;
+    //return teamcity;
 }
 
 function getBuildsLink(buildType, branch)
@@ -96,7 +98,7 @@ async function getLatestBuild(buildType, branch)
 async function fetchData(link)
 {
     var previews = []
-    var versionPattern = /vvvv_gamma_(.*)\-.*$/;
+    var versionPattern = /\d{4}\.(.*?)\+/;
 
     var builds = await fetch(link)
     .then(response => response.text())
@@ -126,7 +128,7 @@ async function fetchData(link)
 
                     if (exeLink != null)
                     {
-                        var shortNumber = exeLink.match(versionPattern)[1];
+                        var shortNumber = buildNumber.match(versionPattern)[1];
                         var changes = getTeamcity()+`/viewLog.html?buildId=${id}&tab=buildChangesDiv&user=guest`;
                         previews.push ({link: exeLink, buildNumber: shortNumber, changesLink: changes, date: getDate(stamp)});
                     }

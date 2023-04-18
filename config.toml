@@ -115,7 +115,7 @@ blog = '/blog/:sections[1]/:slug/'
 		PreviewLink = "PreviewDownloads"
 		PreviewVersion = "Unstable, daily preview builds"
 		
-		CurrentPreviewBuildType = "vvvv_gamma_Build"
+		CurrentPreviewBuildType = "vvvv_gamma_Build20225" # or "vvvv_gamma_Build"?
 
 		LibrariesText  = "Additional Libraries"
 		LibrariesLink = "https://thegraybook.vvvv.org/reference/libraries/overview.html"
