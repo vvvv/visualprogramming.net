@@ -1,10 +1,10 @@
 ---
-date: "2023-04-13"
+date: "2023-04-18"
 title: "vvvv gamma 5.0 release"
 description: Release notes
 categories: "vvvv gamma Releases"
 author: joreg
-thumb: filters.jpg
+thumb: vvvv5.png
 ---
 
 ![vvvv gamma 5.0 release](vvvv5.png "")
