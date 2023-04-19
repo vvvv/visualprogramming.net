@@ -16,7 +16,7 @@ function getBuildsLink(buildType, branch)
         _b = '%3Cdefault%3E';
     }
 
-    return getTeamcity() + `/guestAuth/app/rest/builds?locator=branch:name:${_b},buildType:${buildType},status:SUCCESS,state:finished&count=3`;
+    return getTeamcity() + `/guestAuth/app/rest/builds?locator=branch:name:${_b},buildType:${buildType},status:SUCCESS,state:finished&count=4`;
 }
 
 var tip = tippy('#previewButton', {
