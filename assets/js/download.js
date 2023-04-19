@@ -1,10 +1,8 @@
 function getTeamcity()
 {
     var teamcity = "https://teamcity.vvvv.org";
-    var proxy = "https://api.codetabs.com/v1/proxy/?quest=";
     
-    return proxy + teamcity;
-    //return teamcity;
+    return teamcity;
 }
 
 function getBuildsLink(buildType, branch)
