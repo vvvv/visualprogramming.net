@@ -1,5 +1,5 @@
 ---
-date: "2023-04-18"
+date: "2023-04-19"
 title: "vvvv gamma 5.0 release"
 description: Release notes
 categories: "vvvv gamma Releases"
