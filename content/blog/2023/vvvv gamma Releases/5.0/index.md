@@ -8,8 +8,8 @@ thumb: vvvv5.png
 ---
 
 ![vvvv gamma 5.0 release](vvvv5.png "")
-
-We're happy to introdce **vvvv gamma 5.0**, the best vvvv ever! (so far...)
+ 
+We're happy to introduce **vvvv gamma 5.0**, the best vvvv ever! (so far...)
 
 {{< box >}}
 __[Download vvvv gamma 5.0](http://visualprogramming.net/#Download)__  
