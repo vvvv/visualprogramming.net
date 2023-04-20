@@ -1,0 +1,8 @@
+{{ $image := "img/ogVVVV_gray.jpg" | absURL}}
+{{ with .Params.thumb}}
+  {{ with $.Resources.GetMatch .}}
+      {{ $image = .Fill "610x320 jpg q90" }}
+      {{ $image = $image.Permalink }}
+  {{ end }}
+{{ end }}
+{{ return $image }}
