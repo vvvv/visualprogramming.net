@@ -1,4 +1,4 @@
-{{ $image := "img/ogVVVV.png" | absURL}}
+{{ $image := "img/ogVVVV_gray.jpg" | absURL}}
 {{ with .Params.thumb}}
   {{ with $.Resources.GetMatch .}}
       {{ $image = .Fill "610x320 jpg q90" }}
