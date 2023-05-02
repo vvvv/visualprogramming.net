@@ -9,42 +9,42 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>{{- .Site.BaseURL -}}features/</loc>
+    <loc>{{- .Site.BaseURL -}}features</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>{{- .Site.BaseURL -}}blog/</loc>
+    <loc>{{- .Site.BaseURL -}}blog</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>{{- .Site.BaseURL -}}showcase/</loc>
+    <loc>{{- .Site.BaseURL -}}showcase</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>{{- .Site.BaseURL -}}learn/</loc>
+    <loc>{{- .Site.BaseURL -}}learn</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>{{- .Site.BaseURL -}}community/</loc>
+    <loc>{{- .Site.BaseURL -}}community</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>{{- .Site.BaseURL -}}licensing/</loc>
+    <loc>{{- .Site.BaseURL -}}licensing</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>{{- .Site.BaseURL -}}support/</loc>
+    <loc>{{- .Site.BaseURL -}}support</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>{{- .Site.BaseURL -}}download/</loc>
+    <loc>{{- .Site.BaseURL -}}download</loc>
     <changefreq>weekly</changefreq>
   </url>     
   
   {{ range $pages }}
   {{- if .Permalink -}}
   <url>
-    <loc>{{- .Permalink -}}</loc>{{ if not .Lastmod.IsZero }}
+    <loc>{{- .Permalink -}}index.html</loc>{{ if not .Lastmod.IsZero }}
     <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02" ) }}</lastmod>{{ end }}
     <changefreq>never</changefreq>{{ if ge .Sitemap.Priority 0.0 }}
     <priority>{{ .Sitemap.Priority }}</priority>{{ end }}
