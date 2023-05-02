@@ -34,6 +34,23 @@
                             <a class="nav-link noUnderline" href="{{ "/" | relLangURL }}#{{ .Site.Params.navigation.links.download }}">{{ .Site.Params.navigation.links.download }}</a>
                         </li>
                     </ul>
+                    <hr class="thin"/>
+                    <div class="prev-next-search pt-0 mt-0 mb-0 mx-4 col-12 d-block d-lg-none">
+                        {{ if isset .Params "categories"}}
+                        <p class="bold mb-1">Navigate Blog</p>
+                        <div class="row">                          
+                            <div class="col-12 col-md-8">
+                                {{ partial "blog/prev-next" . }}
+                            </div>
+
+                            <div class="col-12 col-md-4">
+                                <div class="docsearchBottom ds-search"></div>
+                            </div>
+                        </div>
+                        {{else}}
+                        <div class="docsearchBottom ds-search"></div>
+                        {{end}}
+                    </div>
                 </div>
     </nav>
 </div>

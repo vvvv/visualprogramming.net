@@ -1,6 +1,68 @@
 $sans: "Open-Sans", sans-serif;
 $serif: "Roboto Slab", serif;
 
+.prev-next-top
+{
+    top: 60px;
+}
+
+hr.thin{
+    border: none;
+    height: 1px;
+    color: #ccc;
+    background-color: #ccc;
+    max-width: none;    
+}
+
+.prev-next-search
+{
+    background-color: #fff;
+    padding: 1em 0em;
+    z-index: 1;
+
+    a
+    {
+        text-decoration: none;
+        border-bottom: 1px solid #ccc;
+        color: inherit;
+
+        &:hover
+        {
+            color: $orange-link-hover;
+        }
+    }
+
+    .prev-next
+    {
+        font-size: 0.85em;
+        color: #666;
+
+        padding-bottom: 1.3em;
+        padding-top: 0.9em;
+
+        font-family: $sans;
+
+        .btn
+        {
+            color: #fff !important;
+            font-size: 0.9em;
+            border: none;
+            border-radius: 5px;
+        }
+            
+        .disabled
+        {
+            pointer-events: none;
+            cursor: default;
+            color: #fff;
+            border-bottom: none;
+            background-color: #ccc;
+        }
+
+    }
+
+}
+
 .scroll-padding
 {
     scroll-padding-top: 140px;
@@ -160,13 +222,6 @@ section#Blog
             color: #aaa;
         }
     }
-    hr.thin{
-        border: none;
-        height: 1px;
-        color: #ccc;
-        background-color: #ccc;
-        max-width: none;    
-    }
 
     .list
     {
@@ -212,44 +267,6 @@ section#Blog
     .border-below
     {
         border-bottom: 1px solid #eee;
-    }
-
-    .prev-next-search
-    {
-        background-color: #fff;
-        padding: 1em 0em;
-        top: 60px;
-        z-index: 1;
-
-        .prev-next
-        {
-            font-size: 0.85em;
-            color: #666;
-
-            padding-bottom: 1.3em;
-            padding-top: 0.9em;
-
-            font-family: $sans;
-
-            .btn
-            {
-                color: #fff;
-                font-size: 0.9em;
-                border: none;
-                border-radius: 5px;
-            }
-              
-            .disabled
-            {
-                pointer-events: none;
-                cursor: default;
-                color: #fff;
-                border-bottom: none;
-                background-color: #ccc;
-            }
-
-        }
-
     }
 
     .post{

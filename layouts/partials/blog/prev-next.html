@@ -17,7 +17,12 @@
     {{ end }}
 {{ end }}
 
-<div class="prev-next">
+<div class="prev-next d-none d-lg-block">
     <a href="{{ $prev }}" class="mr-2 btn btn-secondary btn-sm {{if not $prev}} disabled{{end}}">Previous</a>
     /<a href="{{ $next }}" class="mx-2 btn btn-secondary btn-sm {{if not $next}} disabled{{end}}">Next</a> in category <a href="{{ $currentCatLink }}">{{ .Params.categories }}</a>
+</div>
+
+<div class="prev-next d-block d-lg-none">
+    <a href="{{ $prev }}" class="mr-2 btn btn-secondary btn-sm {{if not $prev}} disabled{{end}}">Previous</a>
+    /<a href="{{ $next }}" class="mx-2 btn btn-secondary btn-sm {{if not $next}} disabled{{end}}">Next</a> in <a href="{{ $currentCatLink }}">{{ .Params.categories }}</a>
 </div>

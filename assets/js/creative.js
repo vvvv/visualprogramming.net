@@ -6,21 +6,29 @@
 
 (function($) {
     "use strict"; // Start of use strict
-    var topOffset = 60;
+    var topOffset = 0;
 
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        if (target.length) {
-          $('html, body').animate({
-            scrollTop: (target.offset().top - topOffset) 
-          }, 1000, "easeInOutExpo");
-          return false;
-        }
-      }
+      animateScroll (this);
     });
+
+    function animateScroll(element)
+    {
+        if (location.pathname.replace(/^\//, '') == element.pathname.replace(/^\//, '') && location.hostname == element.hostname) {
+
+          var target = $(element.hash);
+
+          var navbarMenuHeight = $('#navbar-links').height();
+          target = target.length ? target : $('[name=' + element.hash.slice(1) + ']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: (target.offset().top - navbarMenuHeight - topOffset) 
+            }, 1000, "easeInOutExpo");
+            return false;
+          }
+        }
+    }
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
@@ -29,8 +37,12 @@
     })
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function() {
-        $('.navbar-toggle:visible').click();
+    $('#navbar-links ul li a').click(function() {
+      $('#navbar-links').collapse('hide')
+    });
+
+    $('.docsearchBottom').click(function() {
+      $('#navbar-links').collapse('hide')
     });
 
     // // Fit Text Plugin for Main Header
