@@ -3,6 +3,19 @@ title: Learn
 firstColumn:
   - item: 
       text: > 
+            <a href="https://thenodeinstitute.org/courses/vvvv-beginner-class-summer-2023/" target="_blank">Beginner Course, May 2023</a>
+      image: /img/icons/mortarboard-fill.svg
+  - item: 
+      text: > 
+            <a href="https://thenodeinstitute.org/vvvv-intermediates-summer-2023/" target="_blank">Topical Workshops, Summer 2023</a>
+      image: /img/icons/mortarboard-fill.svg
+  
+  - item:
+      text:
+      image:
+secondColumn:
+  - item: 
+      text: > 
             <a href="https://thegraybook.vvvv.org/reference/getting-started/overview.html" target="_blank">Getting started</a>
       image: /img/icons/brightness-alt-high-fill.svg
   - item:
@@ -13,14 +26,6 @@ firstColumn:
       text: > 
             <a href="https://thegraybook.vvvv.org/" target="_blank">Documentation</a> (The Gray Book)
       image: /img/icons/body-text.svg
-  - item:
-      text:
-      image:
-secondColumn:
-  - item: 
-      text: > 
-            <a href="https://thenodeinstitute.org/courses/vvvv-beginner-class-summer-2023/" target="_blank">Beginner Course, April 2023</a>
-      image: /img/icons/mortarboard-fill.svg
   - item:
       text: >
             Integrated <a href="https://thegraybook.vvvv.org/reference/hde/findinghelp.html" target="_blank">Help Browser</a>
