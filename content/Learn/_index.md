@@ -1,13 +1,9 @@
 ---
 title: Learn
 firstColumn:
-  - item: 
+    - item: 
       text: > 
-            <a href="https://thenodeinstitute.org/courses/vvvv-beginner-class-summer-2023/" target="_blank">Beginner Course, May 2023</a>
-      image: /img/icons/mortarboard-fill.svg
-  - item: 
-      text: > 
-            <a href="https://thenodeinstitute.org/vvvv-intermediates-summer-2023/" target="_blank">Topical Workshops, Summer 2023</a>
+            <a href="https://thenodeinstitute.org/vvvv-intermediates-summer-2023/" target="_blank">Online Workshops, Summer 2023</a>
       image: /img/icons/mortarboard-fill.svg
   
   - item:
