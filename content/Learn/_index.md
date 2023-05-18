@@ -1,14 +1,10 @@
 ---
 title: Learn
 firstColumn:
-    - item: 
+  - item: 
       text: > 
             <a href="https://thenodeinstitute.org/vvvv-intermediates-summer-2023/" target="_blank">Online Workshops, Summer 2023</a>
       image: /img/icons/mortarboard-fill.svg
-  
-  - item:
-      text:
-      image:
 secondColumn:
   - item: 
       text: > 
