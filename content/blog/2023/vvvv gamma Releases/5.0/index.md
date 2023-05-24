@@ -12,11 +12,16 @@ thumb: vvvv5.png
 We're happy to introduce **vvvv gamma 5.0**, the best vvvv ever! (so far...)
 
 {{< box >}}
-__[Download vvvv gamma 5.0](http://visualprogramming.net/#Download)__  
+__[Download vvvv gamma 5.1](http://visualprogramming.net/#Download)__  
 [Full Change Log](https://thegraybook.vvvv.org/changelog/5.x.html)
+
+https://teamcity.vvvv.org/guestAuth/app/rest/builds/id:37324/artifacts/content/vvvv_gamma_5.1_setup.exe
 
 [Get started](https://thegraybook.vvvv.org/reference/getting-started/overview.html)  
 [Buy a license](https://store.vvvv.org)
+
+__Bugfix releases__
+* 5.1 on May 24, 2023
 {{< /box >}}
 
 Let's dive right into what you get with this release:
