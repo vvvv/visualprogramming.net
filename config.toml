@@ -41,7 +41,7 @@ author = 'author'
 
 [permalinks]
 #blog-archive = '/archive/:sections[1]/:slug/'
-blog = '/blog/:sections[1]/:slug/'
+blog = '/blog/:sections[1]/:slug'
 
 
 [outputFormats]
