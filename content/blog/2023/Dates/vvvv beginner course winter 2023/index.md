@@ -16,7 +16,7 @@ Hello vvvvorld!
 
 We are happy to announce the dates for the next beginner class at The NODE Institute in the upcoming winter semester! This live class is designed as a weekly add-on to your studies or work, fully remote and scheduled every Monday evening starting on October 16th. If all you ever wanted is to learn vvvv from scratch, connect with other patching enthusiasts and benefit from some project support to kickstart your ideas, then this course is for you.
 
-Super important to mention: **Early Birds take advantage of a discount of 15% until July 16th.** 
+Super important to mention: **Early Birds take advantage of a 15% discount until July 16th.** 
 
 Sign up here:
 https://thenodeinstitute.org/courses/ws23-vvvv-beginner-class/
@@ -32,7 +32,7 @@ The course covers all you need to know to start your vvvv career and entering sp
 - Architects and designers who want to learn new ways of visualising their ideas
 - Developers who are annoyed by coding and want to try visual programming instead
 
-## About the Instructor
+## About the Instructors
 
 **Christoph Ignaz Kirmaier** aka *chk* is a multimedia artist, musician, educator and co-founder of the Vienna and Berlin based studio [3e8](https://www.3e8.studio/). In the past years he has worked all across large-scale corporate multimedia installations, sound design, generative graphics, electronics, animation, music videos, user experience and robotic prototypes in several companies, bands and collectives.
 
