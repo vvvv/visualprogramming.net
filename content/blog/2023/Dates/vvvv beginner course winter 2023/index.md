@@ -1,7 +1,7 @@
 ---
 categories: "Dates"
 author: "chk"
-date: "2023-06-10"
+date: "2023-06-12"
 title: "vvvv Beginner Class Winter 23/24"
 description: "Early bird discout until July 16th!"
 where: 
