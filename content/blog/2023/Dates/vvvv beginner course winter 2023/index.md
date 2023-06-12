@@ -23,7 +23,7 @@ https://thenodeinstitute.org/courses/ws23-vvvv-beginner-class/
 
 ## What will I learn?
 
-The course covers all you need to know to start your vvvv career and entering specific intermediate or advanced topics. In 12 sessions you will learn the basics of programming in vvvv and creating real time renderings, audio and data visualizations, creative coding algorithms, best practices in structuring your applications, building interfaces and object-oriented patching in VL.
+The course covers all you need to know to start your vvvv career and enter specific intermediate or advanced topics. In 12 sessions you will learn the basics of programming in vvvv and creating real time renderings, audio and data visualizations, creative coding algorithms, best practices in structuring your applications, building user interfaces and object-oriented patching in VL.
 
 ## Who is it for?
 
