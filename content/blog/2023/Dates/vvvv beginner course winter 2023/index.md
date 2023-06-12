@@ -16,7 +16,7 @@ Hello vvvvorld!
 
 We are happy to announce the dates for the next beginner class at The NODE Institute in the upcoming winter semester! This live class is designed as a weekly add-on to your studies or work, fully remote and scheduled every Monday evening starting on October 16th. If all you ever wanted is to learn vvvv from scratch, connect with other patching enthusiasts and benefit from some project support to kickstart your ideas, then this course is for you.
 
-Super important to mention: **Early Birds take advantage of a 15% discount until July 16th.** 
+Super important to mention: **Early Birds take advantage of a 20% discount until July 16th.** 
 
 Sign up here:
 https://thenodeinstitute.org/courses/ws23-vvvv-beginner-class/
