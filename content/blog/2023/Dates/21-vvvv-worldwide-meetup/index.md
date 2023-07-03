@@ -9,8 +9,8 @@ where:
     city: "Wipperstrasse 13, 12055 Berlin"
     country: "de"
     country_name: "Germany"
-    from_date: "1689019200"
-    to_date: "1689026400"
+    from_date: "1689012000"
+    to_date: "1689019200"
 thumb: "21.png"
 ---
 
