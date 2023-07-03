@@ -1,7 +1,7 @@
 ---
 categories: "Dates"
 author: "joreg"
-date: "2023-07-10"
+date: "2023-07-03"
 title: "21. vvvv worldwide meetup"
 description: "Realworld and realtime!"
 where: 
