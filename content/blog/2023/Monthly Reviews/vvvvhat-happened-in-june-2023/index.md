@@ -6,35 +6,33 @@ categories: Monthly Reviews
 author: joreg
 ---
 
-///
-Sugestions:
+Where were we?
 
-* [5.2 release](https://thegraybook.vvvv.org/changelog/5.x.html)
+Right, we've released another stable this month! If you haven't already, please read all about **vvvv gamma 5.2** in [the changelog](https://thegraybook.vvvv.org/changelog/5.x.html).
 
- **[21. vvvv worldwide meetup](https://visualprogramming.net/blog/2023/21.-vvvv-worldwide-meetup/)** 
+Then: If you're an avid follower of the preview builds you've noticed that we're currently going through some turbulances. The cause of those is a good one though: After 5.2 stable we merged back a bigger branch where work has been going on towards... drumrolls... the long awaited Inspektor! So thanks for reporting all the buggers in recent previews, we'll let you know as soon as there is something to see..
 
-* The [vvvv Beginners Class Winter 2023](https://visualprogramming.net/blog/2023/vvvv-beginner-class-winter-2023/)
+Further, work is currently going on in these areas:
+- There'll be a node-set to communicate with a [redis](https://redis.io) database
+- Global Channels are getting backends for OSC and redis
+- There'll be a node-set for logging messages from your patch to various logging sinks including an improved Log window
+- Remember the [Remoter](https://beta.vvvv.org/contributions/misc/remotersa/index.html)? There'll be a node-set and UI to achieve what it did
 
-This week intermediate workshops:
-* July 6th: [Game Logic](https://thenodeinstitute.org/courses/ss23-vvvv-game-logic/)
-* July 7th: [MiDi & Sequencing tools](https://thenodeinstitute.org/courses/ss23-vvvv-15-midi-sequencing-tools/)
-
-
-* and a vvvarm welcome to [VL.Kairos'](https://opencollective.com/kairos-research-lab/updates/kairos-1-1-release) first stable version!
-
-//////
-
-
+## Upcoming dates
+Here some events not to miss:
+* July 6: [Game Logic workshop](https://thenodeinstitute.org/courses/ss23-vvvv-game-logic/) 
+* July 7: [MIDI & Sequencing tools workshop](https://thenodeinstitute.org/courses/ss23-vvvv-15-midi-sequencing-tools/)
+* July 10: **[21. vvvv worldwide meetup](https://visualprogramming.net/blog/2023/21.-vvvv-worldwide-meetup/)**
+* From October 16: [vvvv Beginners Class Winter 2023](https://visualprogramming.net/blog/2023/vvvv-beginner-class-winter-2023/)
 
 ## Contributions
 Many thanks to those of you who help complete vvvv with countless additions! For an overview of libraries available for vvvv [start here](https://thegraybook.vvvv.org/reference/libraries/overview.html).
 
-Last month, we got a new one:
-- [VL.PAExec](https://www.nuget.org/packages/VL.PAExec)
+Two major drops this time:
+* After years in development, [VL.Kairos](https://opencollective.com/kairos-research-lab/updates/kairos-1-1-release) is now available in its first stable version!
+- [VL.Addons](https://www.nuget.org/packages/VL.Addons) now ships with a range of ~200 TextureFX and an Expr node
 
 We received updates to the following:
-
-- [VL.Kairos](https://www.nuget.org/packages/VL.Kairos)
 - [VL.Touchy](https://www.nuget.org/packages/VL.Touchy)
 - [VL.LayerX](https://www.nuget.org/packages/VL.LayerX)
 - [VL.AlchemX](https://www.nuget.org/packages/VL.AlchemX)
@@ -47,20 +45,9 @@ We received updates to the following:
 - [VL.OpenWeather](https://www.nuget.org/packages/VL.OpenWeather)
 - [VL.DebugInfo.HDE](https://www.nuget.org/packages/VL.DebugInfo.HDE)
 
-and we have two new enteries in the forum's work-in-progress section:
-
-- [VL Expr Node](https://discourse.vvvv.org/t/vl-expr-node/21617)
-and a discussion about [TextureFX Color inputs](https://discourse.vvvv.org/t/your-opinion-on-texturefx-color-inputs-poll/21596/1)
-
-## Gallery
-{{< vimeo 389578379 >}}
-SYSTEMA, Live Mapping Projection for the 25th Anniversary of the National Center of Arts
-Facade of the Blas Galindo Auditorium
-Mexico by [F3 Studio](https://f3.studio/) 
-
 ## Jobs
 - Always keep an eye on the [vvvv job board](https://discourse.vvvv.org/c/jobs)
 - There are often some more on [The Interactive & Immersive Job Board](https://jobs.interactiveimmersive.io/?s=vvvv&post_type=job_listing&orderby=date) and [dasauge.de](https://dasauge.de/sta/Vvvv/)
 - If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
 
-That was it for May. Anything to add? Please do so in the comments!
+That was it for June. Anything to add? Please do so in the comments!
