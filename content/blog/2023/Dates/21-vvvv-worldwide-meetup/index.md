@@ -32,7 +32,8 @@ No, absolutely not. The presentations will be about projects, patches, plugins o
 
 ## Attending
 {{< box >}}
-Watch this space! We'll announce the link to the zoom call and youtube broadcast here in time before the event. 
+[Join via Zoom](https://us06web.zoom.us/j/87981985361?pwd=TmdSRE1ITGlXVXpxMnNoT011Z0VBQT09)  
+[Watch via Youtube](https://www.youtube.com/watch?v=bVKJAiVIdlQ)
 {{< /box >}}
 
 Any questions? Get in touch via meetup@vvvv.org. See you there!!
