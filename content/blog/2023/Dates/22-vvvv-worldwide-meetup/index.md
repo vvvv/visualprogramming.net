@@ -10,7 +10,7 @@ where:
     country: "de"
     country_name: "Germany"
     from_date: "1693245600"
-    to_date: "1689019200"
+    to_date: "1693252800"
 thumb: "22.png"
 ---
 
