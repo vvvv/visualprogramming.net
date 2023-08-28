@@ -32,7 +32,7 @@ No, absolutely not. The presentations will be about projects, patches, plugins o
 
 ## Attending
 {{< box >}}
-[Join via Zoom](https://us02web.zoom.us/j/89450389425?pwd=MTFXai9BdGJsMUFFbE92QUFjUnN0dz09)  
+[Join via Zoom](https://us02web.zoom.us/j/85911367138?pwd=TUdpY0lpRStqNVZ1K1BxWnVIWXVrQT09)  
 [Watch via Youtube](https://www.youtube.com/watch?v=o5MRTJTyzPc)
 {{< /box >}}
 
