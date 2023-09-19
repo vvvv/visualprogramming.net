@@ -1,9 +1,9 @@
 ---
 categories: "Dates"
-author: "joreg"
-date: "2023-09-16"
+author: "amir"
+date: "2023-09-19"
 title: "A revvvview of Ars Electronica 2023"
-description: "Here's where it hides"
+description: "What vvvv contributes to the Ars Electronica Festival"
 thumb: 2022-09-05-10-33-57.png
 
 ---
