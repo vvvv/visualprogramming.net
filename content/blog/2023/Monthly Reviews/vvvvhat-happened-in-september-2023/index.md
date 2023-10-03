@@ -1,41 +1,46 @@
 ---
-date: "2023-09-04"
+date: "2023-10-03"
 title: "vvvvhat happened in September 2023"
 description: "Last month in review"
 categories: Monthly Reviews
 author: joreg
 ---
 
-////
-test, to be finished later
-////
+////////////
+Suggestions:
 
-August is a wrap. Here are the news in brief:
+- Read a [revvvview of Ars Electronica festival](https://visualprogramming.net/blog/2023/a-revvvview-of-ars-electronica-2023/) and take a look back on the projects which vvvv had its bits on them.
 
-We managed to run another meetup and you can re-watch it here if you haven't yet:
+- vvvv Intermediate workshops are under development, stay tuned!
 
-{{< youtube "o5MRTJTyzPc" >}}
-
-Nothing new in the previews yet, but a lot is being worked on. Here some teasers:
-- A pack for easy integration with [Augmenta](https://augmenta.tech/) is in the making
-- We've started looking into supporting [OSCQuery](https://github.com/Vidvox/OSCQueryProposal)
-- Work on a set of nodes for logging based on [MEL](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging) is ongoing
-- Work continued on allowing to [annotate Compute4 as Color](https://discourse.vvvv.org/t/add-feature-to-annotate-computefloat4-as-color/21591) in shaders
-- We did initial experiments on adding a boygrouping-like experience to vvvv gamma
-
-And probably a few more things. September will hopefully show some results already...
 
 ## Contributions
 Many thanks to those of you who help complete vvvv with countless additions! For an overview of libraries available for vvvv [start here](https://thegraybook.vvvv.org/reference/libraries/overview.html).
 
+We have a new nuget package:
+- [VL.Unicolour ](https://discourse.vvvv.org/t/VL.Unicolour)
+
 We received updates to the following:
+- [VL.Devices.Kinect](https://www.nuget.org/packages/VL.Devices.Kinect)
 - [VL.Addons](https://www.nuget.org/packages/VL.Addons) <- includes TextureFX!
-- [VL.PolyTools](https://www.nuget.org/packages/VL.PolyTools)
+- [VL.CEF.Stride](https://www.nuget.org/packages/VL.CEF.Stride)
+- [VL.CEF.Skia](https://www.nuget.org/packages/VL.CEF.Skia)
 - [VL.IO.TUIO](https://www.nuget.org/packages/VL.IO.TUIO)
-- [VL.IO.Midi](https://www.nuget.org/packages/VL.IO.Midi)
 
 Plus a new entry in the forum’s work-in-progress section:
-- [VL.ModelUtils](https://discourse.vvvv.org/t/vl-modelutils/21759)
+- [VL.Audio Spectrum](https://discourse.vvvv.org/t/vl-audio-spectrum/21897)
+
+
+## Gallery
+
+Some FUSE eyecandies from [texone](https://mastodon.social/@texone) and [chk](https://vis.social/@chkworks@mastodon.xyz)
+
+{{< mastodon "mastodon.social/@texone/111107798150530696" >}}  
+{{< mastodon "mastodon.social/@texone/111065024256557605" >}}  
+{{< mastodon "mastodon.xyz/@chkworks/111115567508946514" >}}
+
+
+Please keep them coming. And everyone else: Be the next to join the "#madewithvvvv" and share your doodles...
 
 ## Jobs
 - Always keep an eye on the [vvvv job board](https://discourse.vvvv.org/c/jobs)
