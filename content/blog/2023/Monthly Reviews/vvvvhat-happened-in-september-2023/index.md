@@ -45,11 +45,13 @@ Plus a new entry in the forum’s work-in-progress section:
 ## Gallery
 This years Ars Electronica festival in Linz saw quite some projects realized with vvvv. Here is a [review of vvvvorks shown at Ars Electronica 2023](https://visualprogramming.net/blog/2023/a-revvvview-of-ars-electronica-2023/).
 
-And here are some [FUSE](https://www.thefuselab.io/) eyecandies from [texone](https://mastodon.social/@texone) and [chk](https://vis.social/@chkworks@mastodon.xyz)
+And here are some [FUSE](https://www.thefuselab.io/) eyecandies from [texone](https://mastodon.social/@texone):
 
-{{< mastodon "mastodon.social/@texone/111107798150530696" >}}  
-{{< mastodon "mastodon.social/@texone/111065024256557605" >}}  
-{{< mastodon "mastodon.xyz/@chkworks/111115567508946514" >}}
+{{< mastodon "mastodon.social/@texone/111178560477939523" >}}
+
+{{< mastodon "mastodon.social/@texone/111065022789991871" >}}
+
+{{< mastodon "mastodon.social/@texone/111107797967450931" >}}
 
 ## Jobs
 - Always keep an eye on the [vvvv job board](https://discourse.vvvv.org/c/jobs)
