@@ -8,11 +8,12 @@ author: joreg
 
 Boom.
 
-Some of the things we've been working on for a while are now in your hands:
+Some of the things we've been working on for a while are now available as previews:
+
 - Latest previews are shipping with a new pack: VL.IO.Redis. Check out the helppatches, it is a really simple node-set so far and allows you to talk to a [Redis](https://redis.io/) database. Requires some setup but is probably the fastest way to share data in bigger installations
 - [VL.CEF.Stride](https://www.nuget.org/packages/VL.CEF.Stride) and [VL.CEF.Skia](https://www.nuget.org/packages/VL.CEF.Skia) have been updated to use Chromium 103, which increases the number of websites it will render correctly. Note that videos using proprietary codecs will not play, see the [VL.CEF Troubleshooting section](https://github.com/vvvv/VL.CEF#troubleshooting)
 - We now have an official pack out to support ZED cameras by [Stereolabs](https://www.stereolabs.com/) (includes Skeleton tracking!). See [VL.Devices.ZED](https://www.nuget.org/packages/VL.Devices.ZED)
-- 
+- **BREAKING CHANGE**: The VL.Video.MediaFoundation package shipping with vvvv is no more. It's been renamed to VL.Video. Essentially we got rid of the backend-specific duplication of the nodes. This means you'll see red nodes that you can simply double click and replace with the new (non-backend specific) node. To now apply the video to either Skia or Stride you'll have to add either a `VideoSourceToSKImage` or a `VideoSourceToTexture` node. For all details, see the [Change Log](https://thegraybook.vvvv.org/changelog/5.x.html#changes)
 
 Further we've been progressing on:
 - [Remoter 2.0](https://github.com/vvvv/Remoter/), a standalone tool allowing you to start/kill applications on and mirror assets to a range of client PCs at the click of a button
