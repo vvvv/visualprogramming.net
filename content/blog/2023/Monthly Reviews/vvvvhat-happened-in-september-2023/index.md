@@ -17,7 +17,7 @@ Some of the things we've been working on for a while are now available as previe
 
 Further we've been progressing on:
 - [Remoter 2.0](https://github.com/vvvv/Remoter/), a standalone tool allowing you to start/kill applications on and mirror assets to a range of client PCs at the click of a button
-- A complete solution for Logging
+- A complete solution app Configuration and Logging
 - Easy server/client render clusters (aka. "boygrouping")
 - Support for [OSCQuery](https://github.com/Vidvox/OSCQueryProposal)
 - Support for [Scalable Display](https://www.scalabledisplay.com/) projector auto-alignment
