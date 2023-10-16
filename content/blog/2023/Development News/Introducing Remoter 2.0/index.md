@@ -38,7 +38,7 @@ Say you have 42 PCs that you like to think of in 3 groups. You need to sometimes
 
 Remoter allows you to create lists of PCs (given their IPs) and organize them in groups. And it allows you to define custom tasks that you can then run on a selection of PCs.
 
-## Successor to RemosterSA 
+## Successor to RemoterSA 
 If you've been with vvvv long enough you may remember [the old version](https://beta.vvvv.org/using-vvvv/boygrouping/remotersa.html), which was built on top of [PSTools](https://learn.microsoft.com/de-de/sysinternals/downloads/pstools). But since PSTools doesn't allow redistribution it always required a separate download. 
 
 Remoter 2.0 is completely repatched in vvvv gamma, with sources available via [Remoter on GitHub](https://github.com/vvvv/Remoter).
