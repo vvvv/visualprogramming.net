@@ -4,7 +4,7 @@ title: "Introducing: Remoter 2.0"
 description: "A fancy UI to remote control PCs"
 categories: "Development News"
 author: "joreg"
-thumb: "open-source.png"
+thumb: "remoter.jpg"
 ---
 
 Developers!
