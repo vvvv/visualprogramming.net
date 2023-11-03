@@ -29,6 +29,10 @@ Reminder: This is coincidentally also a perfect opportunity to test [the Show & 
 ## Learning vvvv
 A wide range of intermediate workshops run via [The Node Institute](https://thenodeinstitute.org/winter-season-23/) is almost ready and we should be hearing more about those soon!
 
+Meanwhile: Your fellow patcher `ravazquez` has embarked on a journey of implementing game classics. Looks like some good learning material could be found in his repos:
+- https://github.com/ravazquez/VL.Snake
+- https://github.com/ravazquez/VL.Breakout
+
 ## Contributions
 Many thanks to those of you who help complete vvvv with countless additions! For an overview of libraries available for vvvv [start here](https://thegraybook.vvvv.org/reference/libraries/overview.html).
 
@@ -42,6 +46,7 @@ And updates to the following:
 - [VL.PolyTools](https://www.nuget.org/packages/VL.PolyTools)
 - [VL.IO.MouseKeyGlobal](https://www.nuget.org/packages/VL.IO.MouseKeyGlobal)
 - [VL.Addons](https://www.nuget.org/packages/VL.Addons)
+- VL.Audio (which is shipping with vvvv) got a new extension contributed by your fellow patcher `chk` that allows you to view the Spectrum of the current input. Available in latest previews!
 
 Plus a new entry in the forum’s work-in-progress section:
 - [Music Sequencer](https://discourse.vvvv.org/t/music-sequencer/21971)
