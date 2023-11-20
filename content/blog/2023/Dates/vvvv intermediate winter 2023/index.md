@@ -15,7 +15,7 @@ Winter semester is around the corner!
 
 Here is a list of intermediate vvvv workshops for those of you who already have a basic understanding of vvvv gamma. These sessions are designed to build on your existing knowledge and take you to the next level of skill and expertise.
 
-All the workshops are taking place On Thursadays 18:00 to 21:00 CET
+All workshops are taking place on Thursdays 18:00 to 21:00 CET
 
 
 - **November 23rd 2023** 
