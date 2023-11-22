@@ -3,6 +3,11 @@ title: Learn
 firstColumn:
   - item: 
       text: > 
+            <a href="https://thenodeinstitute.org/ws23-vvvv-intermediates/" target="_blank">Online Workshops, Winter 23/24</a>
+      image: /img/icons/mortarboard-fill.svg
+secondColumn:
+  - item: 
+      text: > 
             <a href="https://thegraybook.vvvv.org/reference/getting-started/overview.html" target="_blank">Getting started</a>
       image: /img/icons/brightness-alt-high-fill.svg
   - item:
@@ -14,20 +19,12 @@ firstColumn:
             <a href="https://thegraybook.vvvv.org/" target="_blank">Documentation</a> (The Gray Book)
       image: /img/icons/body-text.svg
   - item:
-      text:
-      image:
-secondColumn:
-  - item: 
-      text: > 
-            <a href="https://thenodeinstitute.org/courses/vvvv-beginner-class-summer-2023/" target="_blank">Beginner Course, April 2023</a>
-      image: /img/icons/mortarboard-fill.svg
-  - item:
       text: >
             Integrated <a href="https://thegraybook.vvvv.org/reference/hde/findinghelp.html" target="_blank">Help Browser</a>
       image: /img/icons/stack.svg
   - item: 
       text: > 
-            Help: <a href="https://app.element.io/#/room/#vvvv:matrix.org" target="_blank">Chat</a>, <a href="https://discourse.vvvv.org/c/vvvv-gamma/28" target="_blank">Forum</a>
+            Help: <a href="https://matrix.to/#/#vvvv:matrix.org" target="_blank">Chat</a>, <a href="https://discourse.vvvv.org/c/vvvv-gamma/28" target="_blank">Forum</a>
       image: /img/icons/chat-left-heart-fill.svg
   - item:
       text:

@@ -976,4 +976,8 @@ img::-moz-selection {
   background-color: #333;
 }
 
+.collapsing{
+  transition: none;
+}
+
 

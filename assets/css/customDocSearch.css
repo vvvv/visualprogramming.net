@@ -9,12 +9,6 @@
 --docsearch-muted-color: #777;
 }
 
-.ds-search
-{
-    padding-bottom: 1em;
-    border-bottom: 1px solid #eee;
-}
-
 section#Blog .ds-search
 {
     margin-bottom: 1em;
@@ -60,7 +54,7 @@ section#Blog .DocSearch-Button:hover
 
 .DocSearch-Modal
 {
-    margin: 100px auto auto;
+    margin: 70px auto auto;
     border-radius: 3px;
 }
 
