@@ -15,7 +15,7 @@ Enter:
 
 [![](logo.png)](https://augmenta.tech/)
 
-[Augmenta](https://augmenta.tech/) conveniently provide such a plug & play solution. In close collaboration with their team we've implemented the [VL.Augmenta](https://nuget.org/VL.Augmenta) NuGet, which gives you most easy access to the streamed data. 
+[Augmenta](https://augmenta.tech/) conveniently provide such a plug & play solution. In close collaboration with their team we've implemented the [VL.Augmenta](https://www.nuget.org/packages/VL.Augmenta/) NuGet, which gives you most easy access to the streamed data. 
 
 You have the choice between receiving their TUIO based protocol or version 3 of their OSC based protocol. For you, in vvvv, they work the same, so it simply depends on the setting on the sender side on which you have to choose. Usage is as simple as this:
 
