@@ -13,7 +13,7 @@ You've all been there: Rolling your own tracking solution from scratch using inf
 
 Enter: 
 
-[![](logo.png)](https://augmenta.tech/)
+[![](logo.jpg)](https://augmenta.tech/)
 
 [Augmenta](https://augmenta.tech/) conveniently provide such a plug & play solution. In close collaboration with their team we've implemented the [VL.Augmenta](https://www.nuget.org/packages/VL.Augmenta/) NuGet, which gives you most easy access to the streamed data. 
 
