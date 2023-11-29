@@ -25,7 +25,7 @@ The great thing is that for development you don't need a system at hand, as ther
 
 So please go ahead and test it right away and report your findings. Beware: Requires [latest vvvv 5.3 preview](https://visualprogramming.net/#Download)!
 
-To get an idea of what Augmenta has been used for so far, watch their 2022 showreel:
+To get an idea of what Augmenta has been used for so far, watch their showreel:
 
 {{< youtube OqNKxXrXn48 >}}
 
