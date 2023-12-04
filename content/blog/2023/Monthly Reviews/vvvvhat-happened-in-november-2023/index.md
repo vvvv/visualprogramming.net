@@ -8,9 +8,9 @@ author: joreg
 
 If you haven't been aware yet:
 
-The third week in a row now, on Thursday evening, The NODE Institute is running one of a series of [vvvv intermediate-level workshops](https://visualprogramming.net/blog/2023/node-institute-winter-season-23/24/).
+The third week in a row now, on Thursday evening, The NODE Institute is running one of a series of [vvvv intermediate-level workshops](https://thenodeinstitute.org/ws23-vvvv-intermediates/).
 
-![](WS23-VVVV-Intemediates-FuseIntro.png)
+[![](WS23-VVVV-Intemediates-FuseIntro.png)](https://thenodeinstitute.org/ws23-vvvv-intermediates/)
 
 Next on the list, this Thursday December 7, is an [Introduction To FUSE](https://thenodeinstitute.org/courses/ws23-vvvv-03-fuse-introduction/) the clever GPU patching library. It is **free to join** once you are registered at The NODE Institute, so there is really no good excuse to miss it!
 
@@ -48,7 +48,7 @@ Plus new entries in the forum’s work-in-progress section:
 
 ## Gallery
 
-This month we celebrate this beauty posted on our shared [madewithvvvv account](https://pixelfed.social//madewithvvvv/). Many thanks go out to the guest!
+This month we celebrate this beauty shot, posted on our shared [madewithvvvv account](https://pixelfed.social//madewithvvvv/). Many thanks go out to the guest. Please keep them coming!
 
 {{< pixelfed "pixelfed.social/p/madewithvvvv/628311469870676332" >}}
 
