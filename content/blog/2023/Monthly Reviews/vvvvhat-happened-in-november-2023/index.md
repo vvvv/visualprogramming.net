@@ -38,7 +38,7 @@ And updates to the following:
 - [VL.Kairos](https://www.nuget.org/packages/VL.Kairos)
 - [VL.Kairos.Runtime](https://www.nuget.org/packages/VL.Kairos.Runtime)
 - [VL.ExtendedTutorials](https://www.nuget.org/packages/VL.ExtendedTutorials)
-- [VL.IO.RCP](https://www.nuget.org/packages/VL.VL.IO.RCP)
+- [VL.IO.RCP](https://www.nuget.org/packages/VL.IO.RCP)
 - [VL.SharedMemory](https://www.nuget.org/packages/VL.SharedMemory)
 
 Plus new entries in the forum’s work-in-progress section:
