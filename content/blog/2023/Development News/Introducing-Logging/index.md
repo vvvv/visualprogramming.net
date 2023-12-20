@@ -4,7 +4,6 @@ author: "joreg"
 date: "2023-12-20"
 title: "Introducing: Debug views"
 description: "Build Result, App Health and Log"
-thumb: a.png
 ---
 
 Dear patchers!
