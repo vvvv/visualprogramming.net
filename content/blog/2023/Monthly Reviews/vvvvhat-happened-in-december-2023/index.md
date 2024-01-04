@@ -8,7 +8,9 @@ author: joreg
 
 ///////
 
-- There will be vvvvorldwild meetup on January 12th
+- A new GammaLuncher has been released, here is the full [changelog](https://github.com/sebescudie/GammaLauncher/releases/tag/5.2.1)
+
+- There will be a vvvvorldwild meetup on January 12th
 
 - We well continuie with the Thursday-intermidiate, here is the next one:
 
