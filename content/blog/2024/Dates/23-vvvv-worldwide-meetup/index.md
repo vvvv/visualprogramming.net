@@ -7,19 +7,24 @@ description: "Realworld and realtime!"
 where: 
     location_name: "NODE Institute"
     city: "Wipperstrasse 13, 12055 Berlin"
+    country: "de"
+    country_name: "Germany"
+    from_date: "1705082400"
+    to_date: "1705093200"
 thumb: "TWBL.png"
 ---
 
 ![](TWBL.png) 
 
-The first vvvvworldwide meetup of the year - **January 12th - 7pm ECT**. This is the meetup for creatives and developers using the visual programming environment vvvv and its visual language VL. Join us in Berlin IRL on Jan 12th or live online with artists presentations and announcements in the vvvv community.
-
-Attending in Berlin:
-Doors open: 18:30
-Start: 19:00
+The first vvvvworldwide meetup of the year - **January 12th - 7pm CET**. This is the meetup for creatives and developers using the visual programming environment vvvv and its visual language VL. Join us IRL or online with artists presentations and announcements in the vvvv community.
 
 ## Attending
 {{< box >}}
+### In Berlin
+Doors open: 18:30  
+Start: 19:00
+
+### Online
 [Join via Zoom](https://us02web.zoom.us/j/82465531151)  
 [Watch via Youtube](https://www.youtube.com/watch?v=m-vXJDhLugE)
 {{< /box >}}
