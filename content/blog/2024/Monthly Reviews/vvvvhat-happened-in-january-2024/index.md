@@ -15,11 +15,11 @@ We're now officially in release-mode, working towards a stable vvvv gamma 6.0 re
 ![](2024-02-02-11-03-51.png)
 
 Some additional goodies recently added:
-- Support for [Projector Calibration by Scalable Display Technologies](https://visualprogramming.net/blog/introducing-projector-calibration-by-scalable-display-technologies/).
+- Support for [Projector Calibration by Scalable Display Technologies](https://visualprogramming.net/blog/introducing-projector-calibration-by-scalable-display-technologies/)
 - Support for [Configuration](https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration) see help: HowTo Use Configuration
 - Support for [TPL.Dataflow](https://learn.microsoft.com/en-us/dotnet/standard/parallel-programming/dataflow-task-parallel-library) (undocumented as of yet, see nodes in the helpbrowser)
 
-And in our efforts of bringing vvvv to a wider audience, we're happy to be presenting vvvv at the german .NET conference BASTA! in Frankfurt. Here is the session: [ vvvv - Eine visuelle Echtzeit-Programmierumgebung für .NET](https://basta.net/net-framework-c/vvv-visuelle-echtzeit-programmierumgebung-dotnet/)
+And in our efforts of bringing vvvv to a wider audience, we're happy to be presenting vvvv at the german .NET conference BASTA! in Frankfurt. Here is the session: [vvvv - Eine visuelle Echtzeit-Programmierumgebung für .NET](https://basta.net/net-framework-c/vvv-visuelle-echtzeit-programmierumgebung-dotnet/)
 
 ## Learning
 Here are some upcoming opportunities for learning vvvv.
@@ -60,7 +60,7 @@ Plus an update in the forum’s work-in-progress section:
 
 This month we celebrate this beauty shot, posted on our shared [madewithvvvv account](https://pixelfed.social/madewithvvvv/). Please keep them coming!
 
-{{< mastodon "vis.social/@thomashelzle@mastodon.art/111796003106759262" >}}
+{{< mastodon "mastodon.art/@thomashelzle/111796002218452836" >}}
 
 ## Jobs
 - Always keep an eye on the [vvvv job board](https://discourse.vvvv.org/c/jobs)
