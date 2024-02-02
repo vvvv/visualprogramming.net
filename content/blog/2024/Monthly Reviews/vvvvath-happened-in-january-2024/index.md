@@ -48,7 +48,7 @@ And updates to the following:
 
 
 Plus an update in the forum’s work-in-progress section:
-- [Genuary Entries](https://discourse.vvvv.org/t/my-genuary-entries/22238) Thomas Helzle took us through a his Genuary journey where he nailed every single prompt!
+- [Genuary Entries](https://discourse.vvvv.org/t/my-genuary-entries/22238) Thomas Helzle took us through his Genuary journey where he nailed every single prompt for each day!
 
 ## Gallery
 
