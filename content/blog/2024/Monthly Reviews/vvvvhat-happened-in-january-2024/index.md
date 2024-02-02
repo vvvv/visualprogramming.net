@@ -29,7 +29,6 @@ At The NODE Forum in Frankfurt  :
 
 Online via The NODE Institute:
 - February 8: [Exploring VL.Stride for 3d graphics rendering](https://thenodeinstitute.org/courses/ws23-vvvv-10-exploring-vl-stride-for-3d-graphics-rendering-in-vvvv/) by [Randall Vásquez](https://github.com/ravazquez)
-- February 15: [SuperCollider Integration for Sonic Explorations](https://thenodeinstitute.org/courses/ws23-vvvv-11-supercollider-integration-for-sonic-explorations-in-vvvv-gamma/) by [Christoph Ignaz Kirmaier](https://vimeo.com/threeeeight/)
 - February 22: [Unlocking Shader Artistry: A Journey through ‘The Book of Shaders’](https://thenodeinstitute.org/courses/ws23-vvvv-12-book-of-shaders/) by [Vincent Nowak](https://discourse.vvvv.org/u/vincent.now/summary)
 - February 29: [Create Sequencers and Precise Clock Based Tools](https://thenodeinstitute.org/courses/ws23-vvvv-08-create-sequencers-and-precise-clock-based-tools-in-vvvv-gamma/) by [Arístides García](https://www.aristidesgarcia.de/)
 
