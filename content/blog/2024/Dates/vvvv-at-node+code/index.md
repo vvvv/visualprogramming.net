@@ -9,9 +9,7 @@ where:
     city: "Mainzer Landstraße 351, 60326 Frankfurt"
     country: "de"
     country_name: "Germany"
-    from_date: "1707908400"
-    to_date: "1707912000"
-thumb: "basta.png"
+thumb: "thumb.jpg"
 ---
 
 Besides a [session at BASTA!](https://basta.net/net-framework-c/vvv-visuelle-echtzeit-programmierumgebung-dotnet/) we're happy to announce two more activities in Frankfurt.
