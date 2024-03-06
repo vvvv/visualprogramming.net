@@ -22,9 +22,7 @@
         </div>
         <div class="row justify-content-center mb-5">
             <div class="col-11 col-xl-9">
-                {{ $pages := ((where .Site.RegularPages "Section" "MadeWithGamma").ByParam "id").Reverse }}
-                {{ $len := len $pages }}
-                {{ $seq := seq 0 2 (sub $len 1) }}
+                {{ $pages := ((where .Site.RegularPages "Section" "madewithgamma").ByParam "id").Reverse }}
 
                 <div class="swiper">
                     <!-- Additional required wrapper -->

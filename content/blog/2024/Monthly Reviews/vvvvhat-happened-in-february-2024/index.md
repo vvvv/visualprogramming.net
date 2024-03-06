@@ -1,6 +1,6 @@
 ---
 date: "2024-03-06"
-title: "vvvvhat happened in Februray 2024"
+title: "vvvvhat happened in February 2024"
 description: "Last month in review"
 categories: Monthly Reviews
 author: joreg
