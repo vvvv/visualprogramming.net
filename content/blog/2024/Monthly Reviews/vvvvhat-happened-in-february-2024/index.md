@@ -34,8 +34,8 @@ This past month, we've received several new ones:
 - [VL.FastNoiseLite](https://www.nuget.org/packages/VL.FastNoiseLite)
 
 ... including a whopping, 5 all released by the one and only [Arístides "lasal" García](https://www.aristidesgarcia.de/):  
-🔥 [VL.PTZ](https://www.nuget.org/packages/VL.PTZ)  
-🔥 [VL.ILDA](https://www.nuget.org/packages/VL.ILDA)  
+🔥 [VL.PTZ](https://www.nuget.org/packages/VL.PTZ) in collaboration with Simone "IO" Marin  
+🔥 [VL.ILDA](https://www.nuget.org/packages/VL.ILDA) sponsored by https://keroxen.com  
 🔥 [VL.Harmony](https://www.nuget.org/packages/VL.Harmony)  
 🔥 [VL.Interpolator](https://www.nuget.org/packages/VL.Interpolator)  
 🔥 [VL.MiDi.Music.Utils](https://www.nuget.org/packages/VL.MiDi.Music.Utils)  
