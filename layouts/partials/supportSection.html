@@ -14,7 +14,7 @@
         {{ $plausible:= .Params.plausible}}
 
         <div class="card-footer">
-            {{ range where (where .Site.RegularPages "Section" "SupportMailTemplates") ".Params.id" "==" .Params.id }}
+            {{ range where (where .Site.RegularPages "Section" "supportmailtemplates") ".Params.id" "==" .Params.id }}
                 {{ with . }}
                     <a href="mailto:{{.Params.email}}?subject={{.Params.subject}}&body={{.Content|markdownify|plainify|}}" class="btn btn-lg text-light blueColor" target="_blank" onclick="plausible('{{$plausible}}')">{{ $button }}</a>
                 {{ end  }}

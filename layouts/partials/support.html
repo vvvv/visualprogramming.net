@@ -11,7 +11,7 @@
 
     <div class="container mt-4">
         <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 justify-content-between">
-                {{ range ((where .Site.RegularPages "Section" "Support").ByParam "id") }}
+                {{ range ((where .Site.RegularPages "Section" "support").ByParam "id") }}
                     {{ partial "supportSection" .}}
                 {{ end }}
         </div>
