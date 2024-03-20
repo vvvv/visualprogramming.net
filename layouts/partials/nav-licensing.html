@@ -1,9 +1,7 @@
 {{ "<!-- NAVIGATION -->" | safeHTML }}
 <div class="sticky-top">
-    <nav id="mainNav" class="navbar navbar-default navbar-light navbar-expand-lg affix">
-        {{ with .Site.Params.navigation.brand }}
-                    <a class="navbar-brand noUnderline ml-1 ml-md-3" href="{{ "/#page-top" | relLangURL}}">{{ . | markdownify }}</a>
-                {{ end }}
+    <nav id="mainNav" class="navbar navbar-default navbar-dark navbar-expand-lg affix">
+        {{ partial "logo"}}
                 <button class="navbar-toggler mx-3" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

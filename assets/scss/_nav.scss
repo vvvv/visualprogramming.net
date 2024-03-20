@@ -1,13 +1,15 @@
 #mainNav
 {
+    background-color: $header-dark;
     
     .navbar-toggler {
         border: none;
+        color: #fff;
     }
 
     .nav-link
     {
-        color: #000;
+        color: #fff;
     }
 
     .nav-link:hover

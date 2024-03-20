@@ -20,6 +20,12 @@ hr.thin{
     padding: 1em 0em;
     z-index: 1;
 
+    &.dark
+    {
+        background-color: $header-dark;
+        color: #fff;
+    }
+
     a
     {
         text-decoration: none;

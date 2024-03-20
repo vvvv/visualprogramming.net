@@ -76,11 +76,6 @@ blog = '/blog/:sections[1]/:slug'
 		support = "Support"
 		contact   = "contact"
 
-		# Ribbon
-		# [params.Ribbon]
-		# text 			= "PRELIMINARY"
-		# tooltip 	= "A unified website for both vvvv beta and vvvv gamma is still to come. For now find everything about vvvv gamma on this page and go to vvvv.org to learn about vvvv beta."
-
 		# Hero section
 		[params.Hero]
 		slogan     = "vvvv"

@@ -1,9 +1,7 @@
 {{ "<!-- NAVIGATION -->" | safeHTML }}
 <div class="sticky-top">
-    <nav id="mainNav" class="navbar navbar-default navbar-light navbar-expand-lg affix">
-        {{ with .Site.Params.navigation.brand }}
-                    <a class="navbar-brand noUnderline ml-1 ml-md-3" href="{{ "/#page-top" | relLangURL}}">{{ . | markdownify }}</a>
-                {{ end }}
+    <nav id="mainNav" class="navbar navbar-default navbar-dark navbar-expand-lg affix">
+        {{ partial "logo"}}
                 <button class="navbar-toggler mx-3" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -35,16 +33,13 @@
                         </li>
                     </ul>
                     <hr class="thin d-lg-none"/>
-                    <div class="prev-next-search pt-0 mt-0 mb-0 mx-4 col-12 d-block d-lg-none">
+                    <div class="prev-next-search dark pt-0 mt-0 mb-0 mx-4 col-12 d-block d-lg-none">
                         {{ if isset .Params "categories"}}
                         <p class="bold mb-1">Navigate Blog</p>
                         <div class="row">                          
-                            <div class="col-12 col-md-8">
+                            <div class="d-flex col-12 col-md-8">
                                 {{ partial "blog/prev-next" . }}
-                            </div>
-
-                            <div class="col-12 col-md-4">
-                                <div class="docsearchBottom ds-search"></div>
+                                <div class="d-inline-block ml-4 docsearchBottom ds-search"></div>
                             </div>
                         </div>
                         {{else}}
