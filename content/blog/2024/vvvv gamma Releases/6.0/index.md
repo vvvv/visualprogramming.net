@@ -90,9 +90,8 @@ We're not happy with all the details of this whole topic yet and therefore you'l
 ### Send and Receive
 The S and R nodes from the `Primitives` category were renamed to Send (Global) and Receive (Global) and can now be found in the `Control` category. 
 
-This release introduces an additional Send (Local) region and Receive (Local) node that in combination allow you to keep better control of data you send around in your patches. Check the following patches in the Help Browser:
+This release introduces an additional Send (Local) region and Receive (Local) node that in combination allow you to keep better control of data you send around in your patches. Check the following patch in the Help Browser:
 
-- HowTo Work with Scoped Values
 - HowTo Send and Receive Values
   
 ---  
