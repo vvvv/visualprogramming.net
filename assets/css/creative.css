@@ -12,6 +12,7 @@ body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
     line-height: 1.42857143;
     color: #333;
+    overflow-x: hidden;
 }
 
 hr {
@@ -297,7 +298,7 @@ aside {
 }
 
 .navbar-default {
-    border-bottom: 1px #eee solid;
+    border-bottom: 1px #222 solid;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     transition: all .35s;
     min-height: 60px;
