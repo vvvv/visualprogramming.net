@@ -28,7 +28,7 @@ Currently the Inspector only works on nodes and regions, but not other elements,
 
 Another caveat: Interaction in the Inspector's editors is different to the editors in IOBoxes. Most notably, while on a number IOBox you change its value via right-down scroll up/down, in the Inspector you use left-down scroll left/right. We're not happy with this and are still exploring options to unify this. One option is using the new IOBox settings (see below).
 
-Inspektor gray book 
+**Inspektor gray book**
 
 ## Debug Views
 Boring but invaluable when working on large projects. The 3 new debug views help you in different ways:
@@ -39,12 +39,18 @@ Boring but invaluable when working on large projects. The 3 new debug views help
 
 Read all about the above views in the [Debugging](https://thegraybook.vvvv.org/reference/hde/debugging.html) section of the gray book. 
 
-## Nodebrowser
-Not new, but with quite some improvements: 
+## Node Browser
+Not new, but with quite some subtle improvements: 
 
-## Patching 
-Refined Copy & paste logic: sets references to packages in the target patch.
+There is now a top entry "New..." that shows you all the options for creating code elements that take a name. And you can now create all those code elements either way: 
+* Choose a code element first and then type a name
+* Or type a name first and then choose a code element
 
+When opening the Node Browser while making a link (or inserting a node into a link via doubleclick), you'll now see two additional entries:
+
+* Connectable Nodes: Here you'll see most relevant connectable nodes 
+* By Type: Here you'll see nodes that connect to the type of the link at hand. The direction of the link decides whether sub- or super-types are also shown.
+   
 ## New Settings
 
 At just the click of a single button (the Hamburger icon in the vvvv editors top-right corner) you can reach any of the global settings to customize your vvvvexperience. This release adds the following settings:
@@ -77,15 +83,12 @@ As you may have noticed, the different windows of our hybrid development environ
 
 - Keyboard shortcuts are now unified across the main patch editor, extension windows and render windows
 - On render windows we can opt-out of those HDE shortcuts using the "Enable Keyboard Shortcuts" input
-- Render windows now have an optional input "Commands". Commands can be defined using nodes available in the VL.Core.Commands package and will take precedence over system commands
+- Render windows (Skia and Stride) now have an optional input "Commands". Commands can be defined using nodes available in the VL.Core.Commands package and allow you to define custom keyboar shortcuts that override shortcuts predefined on renderers
 - HDE windows can now be made topmost by pressing Ctrl + T (not working on renderers yet)
 - There is a setting called "HDE Font Size" (not working on all windows yet)
   
 ## VL features
-### Experimental Global Channels
-One of the big things we've been working on recently are "global channels" which allow you to bind data from external sources (Redis, OSC, RCP,...) quickly to parameters in your patch. 
 
-We're not happy with all the details of this whole topic yet and therefore you'll still find all corresponding nodes with the "experimental" aspect. This means that we still expect breaking changes going forward and don't have documentation yet other than some helppatches in the Help Browser. More still to come...
 
 ### Send and Receive
 The S and R nodes from the `Primitives` category were renamed to Send (Global) and Receive (Global) and can now be found in the `Control` category. 
@@ -97,7 +100,22 @@ This release introduces an additional Send (Local) region and Receive (Local) no
 ---  
 - .net8
 - Direct import of types & nodes from C# 
-- 
+
+Direct import of types & nodes from C#
+
+    It's now possible to write types & nodes directly from within C# with the new ImportAsIs assembly attribute. When set, all the public classes / structs / enums will be available in VL as if they'd have been defined there directly. No type forwarding required.
+    It's further possible to write process nodes directly in C# by attaching the new ProcessNode on a class. Again, no further work has to be done on the VL side of thins.
+    This way (if desired) the C# code can be become the single source of truth for a library project.
+
+### .NET8 
+![.NET](dotnet-logo.png)
+
+Under the hood, vvvv gamma was sitting on .NET472, by now a rather old version of [.NET](https://en.wikipedia.org/wiki/.NET). With this release, we're upgrading to .NET6. If this means anything to you, you may want to read about [What's new in .NET6](https://docs.microsoft.com/en-us/dotnet/core/whats-new/dotnet-6).
+
+In more human-readable terms, for us this means:
+- Generally improved performance
+- We can now use newest .NET NuGets of libraries
+- When [writing your own nodes](https://thegraybook.vvvv.org/reference/extending/writing-nodes.html) for vvvv you can now use [C#10 features](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10)
 
 ## New Libraries
 Our fully [opensource VL.StandardLibs](https://github.com/vvvv/VL.StandardLibs) has the following new features that are conveniently shipping with vvvv:
@@ -105,7 +123,7 @@ Our fully [opensource VL.StandardLibs](https://github.com/vvvv/VL.StandardLibs) 
 - Logging is now a breeze. Not only to the new Log Window mention above, but also to any [thirdparty logging provider](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging-providers#third-party-logging-providers) you prefer. Browse for "logging" in the Helpbrowser to learn more
 - No need anymore to reinvent the wheel for configuring your apps. With full support for [Configuration](https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration) you can make use of all the different workflows available. For a start see "HowTo Use Configuration" in the Helpbrowser
 - Our new favorite way for sharing data among PCs is using [Redis](https://redis.io/) via **VL.IO.Redis**. Basically a high-performance key-value store you can access from many PCs
-- The above also made us add support for [MessagePack](https://msgpack.org/) serialization via **VL.Serialization.MessagePack**, which we use as a default with Redis
+- The above also made us add support for [MessagePack](https://msgpack.org/) serialization via **VL.Serialization.MessagePack**, which we use as a default with Redis. And on the side this pack also comes with handy JSON Serializer/Deserializer!
 - Support for the [OSCQuery protocol](https://github.com/Vidvox/OSCQueryProposal) via **VL.IO.OSCQuery**. It allows you to quickly expose parameters in your patch to other softwares supporting the protocol. Exactly, in a way similar to [VL.IO.RCP](https://www.nuget.org/packages/VL.IO.RCP)
 - You have a complex scenario that can be heavily threaded to make use of all your 64 CPU cores? Have a look at [Dataflow](https://learn.microsoft.com/en-us/dotnet/standard/parallel-programming/dataflow-task-parallel-library) and then use it via  **VL.TPL.Dataflow**
 - And finally a tiny new feature that was long overdue: A new Random (process) node with a Seed input!
@@ -171,27 +189,13 @@ With the big focus on [extendability](https://thegraybook.vvvv.org/reference/ext
 - texone
 - chkworks
 
+## What Next?
 
-----
+In case you wonder why the above doesn't mention "global channels" and "bindings" as huge new features: True, one of the things we've been working on recently are "global channels" which allow you to bind data from external sources (Redis, OSC, RCP,...) quickly to parameters in your patch. 
 
-### Quick Data-binding using Channels
-You'll most likely love Channels. They are the simplest way yet for controlling values in a patch from different spots. 
+While they are already shipping with this release, we're still hiding all related nodes behind the "experimental" aspect, since we're not happy with all the details of this whole topic yet. This means that we still expect breaking changes going forward and don't have documentation yet other than some helppatches in the Help Browser. More still to come...
 
-![Channels](vvvv-channels.png)
-
-You'll first encounter them when working with ImGui widgets where they e.g. allow you to easily change a value either via an on-screen UI widget or from an IOBox in the patch through the very same Channel. But you'll soon notice that they are a general game-changer for bidirectional data-binding!
-
-In the Helpbrowser look for the term "channels" to find a range of help patches introducing the topic. 
-
-### .NET8 
-![.NET](dotnet-logo.png)
-
-Under the hood, vvvv gamma was sitting on .NET472, by now a rather old version of [.NET](https://en.wikipedia.org/wiki/.NET). With this release, we're upgrading to .NET6. If this means anything to you, you may want to read about [What's new in .NET6](https://docs.microsoft.com/en-us/dotnet/core/whats-new/dotnet-6).
-
-In more human-readable terms, for us this means:
-- Generally improved performance
-- We can now use newest .NET NuGets of libraries
-- When [writing your own nodes](https://thegraybook.vvvv.org/reference/extending/writing-nodes.html) for vvvv you can now use [C#10 features](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10)
+Apart from regular 6.x bug-fix releases, we'll also add a few more features in the 6.x branch. Consult our [living roadmap](https://thegraybook.vvvv.org/roadmap/planned.html) for details.
 
 ---
 
@@ -202,7 +206,6 @@ In case, you simply [buy a license](https://store.vvvv.org/) the moment you star
 
 ---
 
-What next? Apart from regular 6.x bug-fix releases, we'll also add a few more features in the 6.x branch. Check our updated [roadmap](https://thegraybook.vvvv.org/roadmap/planned.html) for some details.
 
 We hope this release suits you well and would love to hear your thoughts on it in the comments. 
 
