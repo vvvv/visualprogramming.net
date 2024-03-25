@@ -1,28 +1,9 @@
 {{ "<!-- HEADER -->" | safeHTML }}
 <header>
-  <div class="header-content jumbotron-fluid">
-        <div class="header-quad">
-          <div class="container-fluid">
-          <div class="row mt-0 pt-0 md-0 pd-0">
-            <img src="{{ "img/vvvv.svg" | relURL }}" alt="vvvv" class="vvvv">
-            <p>
-              {{.Site.Params.Hero.subtitle | markdownify}}
-            </p>
-            <div class="mt-1 mb-sm-5 mb-3">
-              <a href="#{{ .Site.Params.Hero.learnmoreButtonLink }}" class="btn btn-primary btn-xl js-scroll-trigger">{{ .Site.Params.Hero.learnmoreButton }}</a>
-              <a href="#{{ .Site.Params.Hero.tryitButtonLink }}" class="btn btn-secondary btn-xl js-scroll-trigger">{{ .Site.Params.Hero.tryitButton }}</a>
-              <a href="#{{ .Site.Params.Hero.requestADemoLink }}" class="btn mt-1 mt-sm-0 btn-secondary btn-xl js-scroll-trigger">{{ .Site.Params.Hero.requestADemoButton }}</a>
-            </div>
-            <div class="tags mt-0 mb-0 pt-0">
-              <p>{{ .Site.Params.Hero.tagsHeadline }}</p>
-              <div class="d-flex flex-wrap">
-                {{ range (split .Site.Params.Hero.tags ",")}}
-                  <div class="tag">{{ . }}</div>
-                {{ end }}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div class="header-content jumbotron-fluid d-flex align-items-center">
+    <div id="hero-text">
+      <div class="vvvv">{{ .Site.Params.Hero.vvvv }}</div>
+      <p>{{ .Site.Params.Hero.subtitle | safeHTML}}</p>
     </div>
+  </div>
 </header>

@@ -4,7 +4,9 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
 (function($) {
+
     "use strict"; // Start of use strict
     var topOffset = 0;
 
@@ -44,14 +46,6 @@
     $('.docsearchBottom').click(function() {
       $('#navbar-links').collapse('hide')
     });
-
-    // // Fit Text Plugin for Main Header
-    // $("h1").fitText(
-    //     1.2, {
-    //         minFontSize: '35px',
-    //         maxFontSize: '65px'
-    //     }
-    // );
 
     //Animate scroll to FeaturesMenu when switching sticky menu
     $('a[data-toggle="pill"]').on('show.bs.tab', function (e) {

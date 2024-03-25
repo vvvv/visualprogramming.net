@@ -76,15 +76,10 @@ blog = '/blog/:sections[1]/:slug'
 		support = "Support"
 		contact   = "contact"
 
-		# Ribbon
-		# [params.Ribbon]
-		# text 			= "PRELIMINARY"
-		# tooltip 	= "A unified website for both vvvv beta and vvvv gamma is still to come. For now find everything about vvvv gamma on this page and go to vvvv.org to learn about vvvv beta."
-
 		# Hero section
 		[params.Hero]
-		slogan     = "vvvv"
-		subtitle   = "A visual live-programming environment that takes you from rapid prototyping to final production."
+		vvvv     = "vvvv"
+		subtitle   = "A visual live-programming environment that takes you from <b>rapid prototyping</b> to <b>final production.</b>"
 		tryitButton = "Download"
 		tryitButtonLink = "Download"
 		requestADemoButton = "Request a tour"
@@ -109,7 +104,7 @@ blog = '/blog/:sections[1]/:slug'
 
 		StableText  = "Download: Stable"
 		StableLink = "https://teamcity.vvvv.org/guestAuth/app/rest/builds/id:37342/artifacts/content/vvvv_gamma_5.2_setup.exe"
-		StableVersion = "Version: 5.2"
+		StableVersion = "Version: 6.0"
 
 		PreviewText = "Download: Preview"
 		PreviewLink = "PreviewDownloads"

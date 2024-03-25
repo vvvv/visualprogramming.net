@@ -1,6 +1,3 @@
-$sans: "Open-Sans", sans-serif;
-$serif: "Roboto Slab", serif;
-
 .prev-next-top
 {
     top: 60px;
@@ -19,6 +16,12 @@ hr.thin{
     background-color: #fff;
     padding: 1em 0em;
     z-index: 1;
+
+    &.dark
+    {
+        background-color: $header-dark;
+        color: #fff;
+    }
 
     a
     {

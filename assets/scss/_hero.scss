@@ -1,0 +1,35 @@
+#hero-text
+{
+    top: 60px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    width: 450px;
+    padding: 1em 0em;
+    margin: 0px;
+    font-family: $sans;
+    text-align: left;
+    padding: auto 0;
+    
+    p
+    {
+        font-size: 1.3em; //1.5em when not caps
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+
+    .vvvv
+    {
+        padding: 0px;
+        margin: 0 0 0.3em 0;
+        font-weight: 400;
+        font-size: 7rem;
+        line-height: 0.7em;
+    }
+
+    b
+    {
+        font-weight: 700;
+    }
+
+
+}

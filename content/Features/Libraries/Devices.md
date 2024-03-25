@@ -5,7 +5,7 @@ img: img/Lib_Devices.png
 ---
 
 * Kinect v1, v2, Azure
-* Intel RealSense, Orbbec Astra, Nuitrack
+* Intel RealSense, Orbbec Astra, ZED, Nuitrack
 * IDS-Imaging uEye cameras
 * Leap Motion
 * SerialPort

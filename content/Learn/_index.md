@@ -3,7 +3,15 @@ title: Learn
 firstColumn:
   - item: 
       text: > 
-            <a href="https://thenodeinstitute.org/ws23-vvvv-intermediates/" target="_blank">Online Workshops, Winter 23/24</a>
+            <a href="https://thenodeinstitute.org/courses/vvvv-beginner-class-summer-2024/" target="_blank">Beginner class, starting April 15</a>
+      image: /img/icons/mortarboard-fill.svg
+  - item: 
+      text: > 
+            <a href="https://thenodeinstitute.org/ws23-vvvv-intermediates/" target="_blank">Course recordings, Winter 23/24</a>
+      image: /img/icons/mortarboard-fill.svg
+  - item: 
+      text: > 
+            <a href="https://thenodeinstitute.org/vvvv-intermediates-summer-2023/" target="_blank">Course recordings, Summer 23</a>
       image: /img/icons/mortarboard-fill.svg
 secondColumn:
   - item: 
