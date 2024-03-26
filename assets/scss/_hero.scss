@@ -9,12 +9,12 @@
 
     @media(min-width:500px) {
         width: 450px;
-        font-size: 1.3em; //1.5em when not caps
+        // font-size: 1.3em; //1.5em when not caps
     }
     
     p
     {
-        font-size: 1em; //1.5em when not caps
+        font-size: 1.3em; //1.5em when not caps
         font-weight: 100;
         text-transform: uppercase;
     }
