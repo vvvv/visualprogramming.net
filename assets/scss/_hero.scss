@@ -1,13 +1,15 @@
 #hero-text
 {
-    // top: 60px;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
-    width: 450px;
+    width: 90%;
     padding: 1em 0em;
-    // margin: 0px;
     font-family: $sans;
     text-align: left;
+
+    @media(min-width:500px) {
+        width: 450px;
+    }
     
     p
     {
