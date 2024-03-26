@@ -308,7 +308,7 @@ header {
     width: 100%;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header_6.0.jpg);
+    background-image: url(../img/header_6.0_1500.jpg);
     background-position: 71% 0%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -316,7 +316,14 @@ header {
     -o-background-size: cover;
     overflow: hidden;
     padding: 2em 0 4em;
-    min-height: 600px;
+    height: 400px;
+}
+
+@media (min-width: 1000px){
+  header {
+      background-image: url(../img/header_6.0.jpg);
+      min-height: 600px;
+  }
 }
 
 @media (min-width: 2250px){
