@@ -335,17 +335,24 @@ header {
   }
 } */
 
+@media (min-width: 768px)
+{
+  header{
+    background-position: 65% 0%;
+  }
+}
+
+@media (min-width: 1500px)
+{
+  header{
+    background-position: center top;
+  }
+}
+
 @media (min-width: 2250px){
   header {
       background-image: url(../img/header_6.0_3072.jpg);
       min-height: 819px;
-  }
-}
-
-@media (min-width: 768px)
-{
-  header{
-    background-position: center top;
   }
 }
 
