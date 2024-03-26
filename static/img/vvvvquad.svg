@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="60px"
+   height="60px"
+   viewBox="0 0 60 60"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.1 (91b66b0783, 2023-11-16)"
+   sodipodi:docname="vvvvquad.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.9200211"
+     inkscape:cx="40.103726"
+     inkscape:cy="184.63339"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="vvvv"
+     inkscape:groupmode="layer"
+     id="vvvv-logo">
+    <rect
+       style="fill:#1a1a1a;"
+       id="quad"
+       width="60"
+       height="60"
+       x="0"
+       y="0"
+       inkscape:label="quad" />
+    <path
+       id="vvvv"
+       style="fill:#ffffff;"
+       inkscape:label="vvvv"
+       d="m 8,24 4.380612,11.773441 h 1.839164 L 18.622608,24 H 17.062496 L 13.32474,34.08879 9.5849162,24 Z m 11.325924,0 4.380611,11.773441 h 1.838648 L 29.948531,24 H 28.387903 L 24.650664,34.08879 20.91084,24 Z m 11.325924,0 4.380611,11.773441 h 1.838647 L 41.274455,24 H 39.713827 L 35.976071,34.08879 32.236764,24 Z m 11.325923,0 4.380612,11.773441 H 48.19703 L 52.600379,24 H 51.039751 L 47.301994,34.08879 43.562688,24 Z" />
+  </g>
+</svg>
