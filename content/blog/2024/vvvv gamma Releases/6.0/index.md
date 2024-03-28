@@ -7,7 +7,7 @@ author: joreg
 thumb: vvvv6.png
 ---
 
-![vvvv gamma 6.0 release](vvvv6.png "")
+![vvvv gamma 6.0 release](vvvv6.0.jpg "")
  
 Here is to introduce **vvvv gamma 6.0**, quite a big drop as you'll understand when you read to the end...
 
@@ -31,6 +31,9 @@ Another caveat: Interaction in the Inspector's editors is different to the edito
 **Inspektor gray book**
 
 ## Debug Views
+
+![](2024-03-28-11-09-13.png)
+
 Boring but invaluable when working on large projects. The 3 new debug views help you in different ways:
 
 - **Build Result:** Get an overview of where in your patches you have build errors. Go fix those first.
@@ -44,12 +47,14 @@ Not new, but with quite some subtle improvements:
 
 There is now a top entry "New..." that shows you all the options for creating code elements that take a name. And you can now create all those code elements either way: 
 * Choose a code element first and then type a name
-* Or type a name first and then choose a code element
+* Type a name first and then choose a code element
 
 When opening the Node Browser while making a link (or inserting a node into a link via doubleclick), you'll now see two additional entries:
 
 * Connectable Nodes: Here you'll see most relevant connectable nodes 
 * By Type: Here you'll see nodes that connect to the type of the link at hand. The direction of the link decides whether sub- or super-types are also shown.
+
+To reach the "By Type" view directly while making a link, press the "." key.
    
 ## New Settings
 At just the click of a single button (the Hamburger icon in the vvvv editors top-right corner) you can reach any of the global settings to customize your vvvvexperience. This release adds the following settings:
@@ -62,11 +67,11 @@ At just the click of a single button (the Hamburger icon in the vvvv editors top
 ### Links
 - **Dragging on connector starts link:** Start links from pins, pads and control points on drag, rather than on mouse up. NOTE: This requires to move pads by grabbing their labels rather than their own body!
 - **Dropping a link creates element:** OFF: When starting a link with a drag gesture, you may release the mouse button any time without any consequence. 
-ON: Releasing the mouse button opens the node browser or creates an element right away, if modifier keys are pressed.
+ON: Releasing the mouse button opens the Node Browser or creates an element right away, if modifier keys are pressed.
 - **Enable autolink segmentation:** Links attempt to avoid regions and nodes they are connected to.
 
 ### Node Browser
-- **Enable Connectable Nodes mode:** Show only connectable nodes when opening the NodeBrowser with a link at hand
+- **Enable Connectable Nodes mode:** Show only connectable nodes when opening the Node Browser with a link at hand
 
 ### Inspector
 - **Float Precision:** Number of digits to display after the decimal separator
@@ -81,7 +86,7 @@ As you may have noticed, the different windows of our hybrid development environ
 
 - Keyboard shortcuts are now unified across the main patch editor, extension windows and render windows
 - On render windows we can opt-out of those HDE shortcuts using the "Enable Keyboard Shortcuts" input
-- Render windows (Skia and Stride) now have an optional input "Commands". Commands can be defined using nodes available in the VL.Core.Commands package and allow you to define custom keyboar shortcuts that override shortcuts predefined on renderers
+- Render windows (Skia and Stride) now have an optional input "Commands". Commands can be defined using nodes available in the VL.Core.Commands package and allow you to define custom keyboard shortcuts that override shortcuts predefined on renderers. See "HowTo Customize keyboard shortcuts on Renderer" in the Help Browser
 - HDE windows can now be made topmost by pressing Ctrl + T (not working on renderers yet)
 - There is a setting called "HDE Font Size" (not working on all windows yet)
   
@@ -116,8 +121,8 @@ What this basically means, is this:
 ## New Standard Libraries
 vvvv's famously fully [open-source standard libraries](https://github.com/vvvv/VL.StandardLibs) got some substantial additions. Here's an overview:
 
-- Logging is now a breeze. Not only due to the new Log Window mention above, but also because you can use any [thirdparty logging provider](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging-providers#third-party-logging-providers) you prefer. Browse for "logging" in the Helpbrowser to learn more
-- No need anymore to reinvent the wheel for configuring your apps. With full support for [Configuration](https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration) you can make use of all the different workflows available. For a start see "HowTo Use Configuration" in the Helpbrowser
+- Logging is now a breeze. Not only due to the new Log Window mention above, but also because you can use any [thirdparty logging provider](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging-providers#third-party-logging-providers) you prefer. Browse for "logging" in the Help Browser to learn more
+- No need anymore to reinvent the wheel for configuring your apps. With full support for [Configuration](https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration) you can make use of all the different workflows available. For a start see "HowTo Use Configuration" in the Help Browser
 - Our new favorite way for sharing data among PCs is using [Redis](https://redis.io/) via **VL.IO.Redis**. Basically a high-performance key-value store you can access from many PCs
 - The above also made us add support for [MessagePack](https://msgpack.org/) serialization via **VL.Serialization.MessagePack**, which we use as a default with Redis. And on the side this pack also comes with a handy new JSON Serializer/Deserializer!
 - Support for the [OSCQuery protocol](https://github.com/Vidvox/OSCQueryProposal) via **VL.IO.OSCQuery**. It allows you to quickly expose parameters in your patch to other softwares supporting the protocol. Exactly, in a way similar to [VL.IO.RCP](https://www.nuget.org/packages/VL.IO.RCP)
@@ -143,7 +148,7 @@ So the above was all the new stuff. Now here is an overview of the changes to ex
   - The PostFX pipeline is now completely flexible in that you're no longer limited to using the pre-existing PostFX but you can completely patch the whole pipeline with your own shaders! See "HowTo Create Custom PostFX" and "HowTo Use pre-defined effect in Custom PostFX"
   - TextureFX have moved to a separate pack VL.Stride.TextureFX
   - TextureFX RGBA inputs are now of type ComputeColor
-    - And then [some more](https://thegraybook.vvvv.org/changelog/6.x.html#vlstride)
+  - And then [some more](https://thegraybook.vvvv.org/changelog/6.x.html#vlstride)
 - **VL.Skia**, vvvv's 2d rendering library. Not many changes, see [change log](https://thegraybook.vvvv.org/changelog/6.x.html#vlskia)
 - **VL.ImGui**, the rapid UI building library
   - Adds a backend for directly rendering in VL.Stride (thanks [kopffarben](https://github.com/kopffarben))
@@ -151,7 +156,7 @@ So the above was all the new stuff. Now here is an overview of the changes to ex
 - **VL.Video**, the MediaFoundation based video playback library has a breaking change, see [change log](https://thegraybook.vvvv.org/changelog/6.x.html#vlvideo)
 - **VL.Audio**, vvvv's audio playback, analysis and synthesis library 
   - Comes with a simplified workflow for FFT analysis (see helppatch) 
-  - Comes with a new Visualizer extension (thanks [chkworks](https://github.com/chkworks))
+  - Comes with a new Visualizer extension (thanks [chk](https://github.com/chkworks))
 - **VL.IO.TUIO** now supports the 2.5D and 3D profiles
 
 ## Additional Updated Libraries
@@ -161,32 +166,21 @@ So the above was all the new stuff. Now here is an overview of the changes to ex
   - Now has nodes to directly work with Channels 
 
 ## Community efforts
-With the big focus on [extendability](https://thegraybook.vvvv.org/reference/extending/overview.html) we have with vvvv, it is possible for everyone to contribute to its ecosystem of libraries. And many of you do!
+The big focus on [extendability](https://thegraybook.vvvv.org/reference/extending/overview.html) we have with vvvv, makes it possible for everyone to contribute to its ecosystem of libraries. And many of you do! Following is a list of profile pages on nuget.org by all individuals and groups that have published libraries for use with vvvv since the last vvvv gamma stable release. In no particular order:
 
-- launcher
-- fuse, ... 
-- kairos - mention opencollectives
-- vl.mapper
-- vl.addons
-- lasals
-- bjoerns
-- natan
-- gamingrobot
-- sebl
-- gegenlicht
-- mhusinsky
-- domj
-- tobyk
-- cnisidis
-- sunep
-- torinos-yt
-- kopffarben
-- wirmachenbunt
-- wmc
-- phlegma
-- leavittx
-- texone
-- chkworks
+[AristidesGarcia](https://www.nuget.org/profiles/AristidesGarcia), [chkworks](https://www.nuget.org/profiles/chkworks), [gegenlicht](https://www.nuget.org/profiles/gegenlicht), [natan.sinigaglia](https://www.nuget.org/profiles/natan.sinigaglia), [KairosResearchLab](https://www.nuget.org/profiles/KairosResearchLab), [bj-rn](https://www.nuget.org/profiles/bj-rn), [gamingrobot](https://www.nuget.org/profiles/gamingrobot), [sebl](https://www.nuget.org/profiles/sebl), [mhusinsky](https://www.nuget.org/profiles/mhusinsky), [texone](https://www.nuget.org/profiles/texone), [TheFuseLab](https://www.nuget.org/profiles/TheFuseLab), [domj](https://www.nuget.org/profiles/domj), [TobyKLight](https://www.nuget.org/profiles/TobyKLight), [cnisidis](https://www.nuget.org/profiles/cnisidis), [sunep](https://www.nuget.org/profiles/sunep), [torinos-yt](https://www.nuget.org/profiles/torinos-yt), [kopffarben](https://www.nuget.org/profiles/kopffarben), [sebescudie](https://www.nuget.org/profiles/sebescudie), [wirmachenbunt](https://www.nuget.org/profiles/wirmachenbunt), [domj](https://www.nuget.org/profiles/domj), [AdamZeke](https://www.nuget.org/profiles/AdamZeke)
+
+Further we'd like to highlight the following users who continuously provide materials to learn from:
+
+- [Christoph Ignaz Kirmaier](https://www.3e8.studio/) aka "chk" maintains his [VL.TheBigBang](https://www.nuget.org/packages/VL.TheBigBang) pack which he describes as: "A tutorial series of 42 chapters, covering all nodes and techniques to get you started with the visual programming environment vvvv"
+- [Toby Knyvett]() aka "tobyk" maintains his [VL.ExtendedTutorials](https://www.nuget.org/packages/VL.ExtendedTutorials) pack with a series of [video tutorials](https://www.youtube.com/@TobyKLight) covering various topics, like Mutability (Record vs Class), Solving Cyclic problems and a vector matrix maths tutorial series 
+- [Takuma Nakata](https://www.takumanakata.com/) creates [video tutorials](https://www.youtube.com/user/takumatn) exploring various aspects of vvvv, recently mostly VL.Fuse
+- [Dominik Jančík](https://www.domj.net/) aka "domj" creates [Schema](https://schema.scenic.tools/), which he calls "a playful visual environment for behavior programming with focus on physical devices and spatial relations". It is built with vvvv from the ground up and [open-source](https://github.com/domjancik/scnq-schema) for you to explore and learn from. You may even catch him do some [live-coding](https://www.youtube.com/@domjancik)
+- [Randal Vazquez](https://github.com/ravazquez) aka "ravazquez" has released two little games for you to explore and learn from: [VL.Snake](https://github.com/ravazquez/VL.Snake) and [VL.Breakout](https://github.com/ravazquez/VL.Breakout)
+  
+And let's not forget about the hours of learning content created by different individuals that are now available via The NODE Institute:
+- [Course recordings, Winter 23/24](https://thenodeinstitute.org/ws23-vvvv-intermediates/)
+- [ Course recordings, Summer 23](https://thenodeinstitute.org/vvvv-intermediates-summer-2023/)
 
 ## What Next?
 
