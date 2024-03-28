@@ -130,6 +130,9 @@ vvvv's famously fully [open-source standard libraries](https://github.com/vvvv/V
 - And finally a tiny new feature that was long overdue: A new Random (process) node with a Seed input!
 
 ## Additional New Libraries
+
+![](newlibs-logos.png)
+
 But that's not all! While not shipping as part of the standard libraries, here are a bunch of new libraries that you can install on demand:
 
 - [VL.ScalableDisplay](https://www.nuget.org/packages/VL.ScalableDisplay) adds support for automatic projector calibration by [Scalable Display Technologies](https://www.scalabledisplay.com/)
