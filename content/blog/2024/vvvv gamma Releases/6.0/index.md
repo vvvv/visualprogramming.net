@@ -121,6 +121,8 @@ What this basically means, is this:
 ## New Standard Libraries
 vvvv's famously fully [open-source standard libraries](https://github.com/vvvv/VL.StandardLibs) got some substantial additions. Here's an overview:
 
+![](newlibs-logos.png)
+
 - Logging is now a breeze. Not only due to the new Log Window mentioned above, but also because you can use any [thirdparty logging provider](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging-providers#third-party-logging-providers) you prefer. Browse for "logging" in the Help Browser to learn more
 - No need anymore to reinvent the wheel for configuring your apps. With full support for [Configuration](https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration) you can make use of all the different workflows available. For a start see "HowTo Use Configuration" in the Help Browser
 - Our new favorite way for sharing data among PCs is using [Redis](https://redis.io/) via **VL.IO.Redis**. Basically a high-performance key-value store you can access from multiple PCs
@@ -131,7 +133,7 @@ vvvv's famously fully [open-source standard libraries](https://github.com/vvvv/V
 
 ## Additional New Libraries
 
-![](newlibs-logos.png)
+![](additionallibs-logos.png)
 
 But that's not all! While not shipping as part of the standard libraries, here are a bunch of new libraries that you can install on demand:
 
