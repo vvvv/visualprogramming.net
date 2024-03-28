@@ -25,11 +25,11 @@ Let's dive right into what you get with this update:
 
 ![vvvv Inspector](vvvv-Inspector2.jpg)
 
-Finally here comes the long awaited Inspector. Open it via Ctrl+I to get an overview of all the pins of a selected node. Inputs can be manipulated and the visibility of pins in the patch can be configured.
+Finally here comes the long awaited Inspector. Open it via Ctrl+I to get an overview of all the pins of a selected node. Inputs can be manipulated and the visibility of pins in the patch can be configured. Pressing the question mark in the top-right corner will show you a bunch of info about the selected node.
 
-Currently the Inspector only works on nodes and regions, but not other elements, like Pads and IOBoxes. We had to keep some things for future releases also...
+Currently the Inspector only works on nodes and regions, but not other elements, like Pads and IOBoxes. You'll understand we had to keep some things for future releases also...
 
-Another caveat: Interaction in the Inspector's editors is different to the editors in IOBoxes. Most notably, while on a number IOBox you change its value via right-down scroll up/down, in the Inspector you use left-down scroll left/right. We're not happy with this and are still exploring options to unify this. One option is using the new IOBox settings (see below).
+Another caveat: Interaction in the Inspector's editors is different to the editors in IOBoxes. Most notably, while on a number IOBox you change its value via right-down scroll-up/down, in the Inspector you use left-down scroll-left/right. We're not happy with this and are still exploring options to unify this. One option is using the new IOBox settings (see below).
 
 ## Debug Views
 
@@ -38,8 +38,8 @@ Another caveat: Interaction in the Inspector's editors is different to the edito
 Boring but invaluable when working on large projects. The 3 new debug views help you in different ways:
 
 - **Build Result:** Get an overview of where in your patches you have build errors. Go fix those first.
-- **App Health:** Here you'll see you apps see runtime errors (like exceptions) and warnings
-- **Log:** A structured log collecting all messages sent by your own app but also any libraries you have in use
+- **App Health:** Here you'll see your apps runtime errors (like exceptions) and warnings
+- **Log:** A structured log collecting all messages sent by your own app (e.g. via the new Log [System.Logging] node), but also any libraries you have in use
 
 Read all about the above views in the [Debugging](https://thegraybook.vvvv.org/reference/hde/debugging.html) section of the gray book. 
 
@@ -53,12 +53,12 @@ There is now a top entry "New..." that shows you all the options for creating co
 When opening the Node Browser while making a link (or inserting a node into a link via doubleclick), you'll now see two additional entries:
 
 * Connectable Nodes: Here you'll see most relevant connectable nodes 
-* By Type: Here you'll see nodes that connect to the type of the link at hand. The direction of the link decides whether sub- or super-types are also shown.
+* By Type: Here you'll see nodes that connect to the type of the link at hand. The direction of the link decides whether sub- or super-types are also shown
 
-To reach the "By Type" view directly while making a link, press the "." key.
+To reach the "By Type" view directly while making a link, press the "." key (ie. no need to doubleclick!).
    
 ## New Settings
-At just the click of a single button (the Hamburger icon in the vvvv editors top-right corner) you can reach any of the global settings to customize your vvvvexperience. This release adds the following settings:
+At just the click of a single button (the Hamburger icon in the vvvv editor's top-right corner) you can reach any of the global settings to customize your vvvvexperience. This release adds the following settings:
 
 ### Patch
 - **Press SPACE to pan:** Enables panning with a left mouse drag while the SPACE bar is pressed.
@@ -87,25 +87,24 @@ As you may have noticed, the different windows of our hybrid development environ
 
 - Keyboard shortcuts are now unified across the main patch editor, extension windows and render windows
 - On render windows we can opt-out of those HDE shortcuts using the "Enable Keyboard Shortcuts" input
-- Render windows (Skia and Stride) now have an optional input "Commands". Commands can be defined using nodes available in the VL.Core.Commands package and allow you to define custom keyboard shortcuts that override shortcuts predefined on renderers. See "HowTo Customize keyboard shortcuts on Renderer" in the Help Browser
+- Render windows (Skia and Stride) now have an optional input "Commands". Commands can be defined using nodes available in the VL.Core.Commands package and allow you to define custom keyboard shortcuts that override shortcuts predefined on renderers. See "HowTo Customize keyboard shortcuts on render windows" in the Help Browser
 - HDE windows can now be made topmost by pressing Ctrl + T (not working on renderers yet)
 - There is a setting called "HDE Font Size" (not working on all windows yet)
   
-## VL features
+## New VL features
 ### Send and Receive
 The S and R nodes from the `Primitives` category were renamed to Send (Global) and Receive (Global) and can now be found in the `Control` category. 
 
 This release introduces an additional Send (Local) region and Receive (Local) node that in combination allow you to keep better control of data you send around in your patches. Check the following patch in the Help Browser:
 
 - HowTo Send and Receive Values
-  
 
 ### Direct import of types & nodes from C#
 If you thought that [extending vvvv](https://thegraybook.vvvv.org/reference/extending/overview.html) with your own types and nodes couldn't get any better, then what do you think of this: Where so far you had to use a [type forward](https://thegraybook.vvvv.org/reference/extending/forwarding.html#forwarding-types), you can now express your goal directly in C#!
 
 Using the assembly attribute `[ImportAsIs]` you declare that all public classes, structs and enums will be available in VL as if they'd have been defined there directly, ie without the need for a manual type forward.
 
-It's further possible to write process nodes directly in C# by attaching the new `[ProcessNode]` attribute on a class. Again, no further work has to be done on the VL side of things. This way (if desired) the C# code can be become the single source of truth for a library project.
+It's further possible to write process nodes directly in C# by attaching the new `[ProcessNode]` attribute on a class. Again, no further work has to be done on the VL side of things. This way (if desired) C# code can be the single source of truth for a library project.
 
 Learn more about these new attributes in the [Writing Nodes](https://thegraybook.vvvv.org/reference/extending/writing-nodes.html) section of the gray book.
 
@@ -122,12 +121,12 @@ What this basically means, is this:
 ## New Standard Libraries
 vvvv's famously fully [open-source standard libraries](https://github.com/vvvv/VL.StandardLibs) got some substantial additions. Here's an overview:
 
-- Logging is now a breeze. Not only due to the new Log Window mention above, but also because you can use any [thirdparty logging provider](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging-providers#third-party-logging-providers) you prefer. Browse for "logging" in the Help Browser to learn more
+- Logging is now a breeze. Not only due to the new Log Window mentioned above, but also because you can use any [thirdparty logging provider](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging-providers#third-party-logging-providers) you prefer. Browse for "logging" in the Help Browser to learn more
 - No need anymore to reinvent the wheel for configuring your apps. With full support for [Configuration](https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration) you can make use of all the different workflows available. For a start see "HowTo Use Configuration" in the Help Browser
-- Our new favorite way for sharing data among PCs is using [Redis](https://redis.io/) via **VL.IO.Redis**. Basically a high-performance key-value store you can access from many PCs
+- Our new favorite way for sharing data among PCs is using [Redis](https://redis.io/) via **VL.IO.Redis**. Basically a high-performance key-value store you can access from multiple PCs
 - The above also made us add support for [MessagePack](https://msgpack.org/) serialization via **VL.Serialization.MessagePack**, which we use as a default with Redis. And on the side this pack also comes with a handy new JSON Serializer/Deserializer!
 - Support for the [OSCQuery protocol](https://github.com/Vidvox/OSCQueryProposal) via **VL.IO.OSCQuery**. It allows you to quickly expose parameters in your patch to other softwares supporting the protocol. Exactly, in a way similar to [VL.IO.RCP](https://www.nuget.org/packages/VL.IO.RCP)
-- You have a complex scenario that can be heavily threaded to make use of all your 64 CPU cores? Have a look at [Dataflow](https://learn.microsoft.com/en-us/dotnet/standard/parallel-programming/dataflow-task-parallel-library) and then use it via  **VL.TPL.Dataflow**
+- You have a complex scenario that can be heavily threaded to make use of all your 64 CPU cores? Have a look at [Dataflow](https://learn.microsoft.com/en-us/dotnet/standard/parallel-programming/dataflow-task-parallel-library) and then use it via  **VL.TPL.Dataflow**. Check the Help Browser for a demo
 - And finally a tiny new feature that was long overdue: A new Random (process) node with a Seed input!
 
 ## Additional New Libraries
@@ -136,7 +135,7 @@ But that's not all! While not shipping as part of the standard libraries, here a
 - [VL.ScalableDisplay](https://www.nuget.org/packages/VL.ScalableDisplay) adds support for automatic projector calibration by [Scalable Display Technologies](https://www.scalabledisplay.com/)
 - [VL.Augmenta](https://www.nuget.org/packages/VL.Augmenta) adds support for people tracking by [Augmenta](https://augmenta.tech/)
 - [VL.Devices.TheImagingSource](https://www.nuget.org/packages/VL.Devices.TheImagingSource) adds support for industrial cameras by [The Imaging Source](https://www.theimagingsource.com/)
-- [VL.Devices.IDS](https://www.nuget.org/packages/VL.Devices.IDS) adds support for industrial cameras by [IDS Imaging](https://ids-imaging.com/)
+- [VL.Devices.IDS](https://www.nuget.org/packages/VL.Devices.IDS) adds support for industrial cameras by [IDS Imaging](https://ids-imaging.com/) using their new [IDS Peak SDK](https://de.ids-imaging.com/ids-peak.html)
 - [VL.Devices.ZED](https://www.nuget.org/packages/VL.Devices.ZED/) adds support for stereo cameras by [StereoLabs](https://www.stereolabs.com/)   
 - [VL.MediaPipe](https://www.nuget.org/packages/VL.MediaPipe) adds support for hand-, face- and pose-tracking, object-detection and image-segmentation from a live video stream via [Google's MediaPipe](https://mediapipe-studio.webapps.google.com)
   
@@ -146,7 +145,7 @@ So the above was all the new stuff. Now here is an overview of the changes to ex
 - **VL.Stride**, vvvv's 3d rendering library has the following new features
   - We've updated to [Stride 4.2](https://www.stride3d.net/blog/announcing-stride-4-2-in-dotnet-8/)
   - Shaders can now be organized in subfolders, their name must still be globally unique though
-  - The PostFX pipeline is now completely flexible in that you're no longer limited to using the pre-existing PostFX but you can completely patch the whole pipeline with your own shaders! See "HowTo Create Custom PostFX" and "HowTo Use pre-defined effect in Custom PostFX"
+  - The PostFX pipeline is now completely flexible in that you're no longer limited to using the pre-existing PostFX but you can completely patch the whole pipeline with your own shaders! See "HowTo Create Custom PostFX" and "HowTo Use pre-defined effect in Custom PostFX" in the Help Browser
   - TextureFX have moved to a separate pack VL.Stride.TextureFX
   - TextureFX RGBA inputs are now of type ComputeColor
   - And then [some more](https://thegraybook.vvvv.org/changelog/6.x.html#vlstride)
@@ -163,13 +162,13 @@ So the above was all the new stuff. Now here is an overview of the changes to ex
 ## Additional Updated Libraries
 - [VL.CEF](https://github.com/vvvv/VL.CEF), allowing to render websites in both Skia and Stride:
   - Updated to use CEF 103.0.0
-- [VL.IO.RCP](https://www.nuget.org/packages/VL.IO.RCP), the quickest way to expose parameters to control e.g. via a webbrowserto e.g. a web browser
+- [VL.IO.RCP](https://www.nuget.org/packages/VL.IO.RCP), the quickest way to expose parameters to control them e.g. via a web browser
   - Now has nodes to directly work with Channels 
 
 ## Community efforts
 The big focus on [extendability](https://thegraybook.vvvv.org/reference/extending/overview.html) we have with vvvv, makes it possible for everyone to contribute to its ecosystem of libraries. And many of you do! Following is a list of profile pages on nuget.org by all individuals and groups that have published libraries for use with vvvv since the last vvvv gamma stable release. In no particular order:
 
-[AristidesGarcia](https://www.nuget.org/profiles/AristidesGarcia), [chkworks](https://www.nuget.org/profiles/chkworks), [gegenlicht](https://www.nuget.org/profiles/gegenlicht), [natan.sinigaglia](https://www.nuget.org/profiles/natan.sinigaglia), [KairosResearchLab](https://www.nuget.org/profiles/KairosResearchLab), [bj-rn](https://www.nuget.org/profiles/bj-rn), [gamingrobot](https://www.nuget.org/profiles/gamingrobot), [sebl](https://www.nuget.org/profiles/sebl), [mhusinsky](https://www.nuget.org/profiles/mhusinsky), [texone](https://www.nuget.org/profiles/texone), [TheFuseLab](https://www.nuget.org/profiles/TheFuseLab), [domj](https://www.nuget.org/profiles/domj), [TobyKLight](https://www.nuget.org/profiles/TobyKLight), [cnisidis](https://www.nuget.org/profiles/cnisidis), [sunep](https://www.nuget.org/profiles/sunep), [torinos-yt](https://www.nuget.org/profiles/torinos-yt), [kopffarben](https://www.nuget.org/profiles/kopffarben), [sebescudie](https://www.nuget.org/profiles/sebescudie), [wirmachenbunt](https://www.nuget.org/profiles/wirmachenbunt), [domj](https://www.nuget.org/profiles/domj), [AdamZeke](https://www.nuget.org/profiles/AdamZeke)
+[AristidesGarcia](https://www.nuget.org/profiles/AristidesGarcia), [chkworks](https://www.nuget.org/profiles/chkworks), [gegenlicht](https://www.nuget.org/profiles/gegenlicht), [natan.sinigaglia](https://www.nuget.org/profiles/natan.sinigaglia), [KairosResearchLab](https://www.nuget.org/profiles/KairosResearchLab), [bj-rn](https://www.nuget.org/profiles/bj-rn), [gamingrobot](https://www.nuget.org/profiles/gamingrobot), [sebl](https://www.nuget.org/profiles/sebl), [mhusinsky](https://www.nuget.org/profiles/mhusinsky), [texone](https://www.nuget.org/profiles/texone), [TheFuseLab](https://www.nuget.org/profiles/TheFuseLab), [domj](https://www.nuget.org/profiles/domj), [TobyKLight](https://www.nuget.org/profiles/TobyKLight), [cnisidis](https://www.nuget.org/profiles/cnisidis), [sunep](https://www.nuget.org/profiles/sunep), [torinos-yt](https://www.nuget.org/profiles/torinos-yt), [kopffarben](https://www.nuget.org/profiles/kopffarben), [sebescudie](https://www.nuget.org/profiles/sebescudie), [wirmachenbunt](https://www.nuget.org/profiles/wirmachenbunt), [domj](https://www.nuget.org/profiles/domj), [AdamZeke](https://www.nuget.org/profiles/AdamZeke), [ANDAND](https://www.nuget.org/profiles/ANDAND)
 
 Further we'd like to highlight the following users who continuously provide materials to learn from:
 
@@ -183,13 +182,15 @@ And let's not forget about the hours of learning content created by different in
 - [Course recordings, Winter 23/24](https://thenodeinstitute.org/ws23-vvvv-intermediates/)
 - [ Course recordings, Summer 23](https://thenodeinstitute.org/vvvv-intermediates-summer-2023/)
 
+All of the above (and those we might have missed) are immensely valuable and we as the developers of vvvv bow before every single one of you!
+
 ## What Next?
 
 In case you wonder why the above doesn't mention "global channels" and "bindings" as huge new features: True, one of the things we've been working on recently are "global channels" which allow you to bind data from external sources (Redis, OSC, RCP,...) quickly to parameters in your patch. 
 
 While they are already shipping with this release, we're still hiding all related nodes behind the "experimental" aspect, since we're not happy with all the details of this whole topic yet. This means that we still expect breaking changes going forward and don't have documentation yet other than some helppatches in the Help Browser. More still to come...
 
-Apart from regular 6.x bug-fix releases, we'll also add a few more features in the 6.x branch. Consult our [living roadmap](https://thegraybook.vvvv.org/roadmap/planned.html) for details.
+Apart from regular 6.x bug-fix releases, we'll also add a few more features in the 6.x branch. Please consult our [living roadmap](https://thegraybook.vvvv.org/roadmap/planned.html) for details.
 
 ## Licensing
 The release of a new version is always a good moment to make sure you still have a valid license for commercial use. To check, log into your account on vvvv.org and then view [your vvvv gamma licenses](https://store.vvvv.org/licenses).
@@ -198,8 +199,7 @@ In case, you simply [buy a license](https://store.vvvv.org/) the moment you star
 
 ---
 
-
 We hope this release suits you well and would love to hear your thoughts on it in the comments. 
 
-Good patch,
+Good patch,  
 your devvvvs!
