@@ -13,26 +13,27 @@ Here is to introduce **vvvv gamma 6.0**, quite a big drop as you'll understand w
 
 {{< box >}}
 __[Download vvvv gamma 6.0](http://visualprogramming.net/#Download)__  
-[Full Change Log](https://thegraybook.vvvv.org/changelog/6.x.html)
 
-[Get started](https://thegraybook.vvvv.org/reference/getting-started/overview.html)  
-[Buy a license](https://store.vvvv.org)
+- [Full Change Log](https://thegraybook.vvvv.org/changelog/6.x.html)
+- [Get started](https://thegraybook.vvvv.org/reference/getting-started/overview.html)  
+- [Buy a license](https://store.vvvv.org)
 {{< /box >}}
 
 Let's dive right into what you get with this update:
 
 ## Inspector
+
+![vvvv Inspector](vvvv-Inspector.jpg)
+
 Finally here comes the long awaited Inspector. Open it via Ctrl+I to get an overview of all the pins of a selected node. Inputs can be manipulated and the visibility of pins in the patch can be configured.
 
 Currently the Inspector only works on nodes and regions, but not other elements, like Pads and IOBoxes. We had to keep some things for future releases also...
 
 Another caveat: Interaction in the Inspector's editors is different to the editors in IOBoxes. Most notably, while on a number IOBox you change its value via right-down scroll up/down, in the Inspector you use left-down scroll left/right. We're not happy with this and are still exploring options to unify this. One option is using the new IOBox settings (see below).
 
-**Inspektor gray book**
-
 ## Debug Views
 
-![](2024-03-28-11-09-13.png)
+![vvvv Debug Views](vvvv-DebugViews.jpg)
 
 Boring but invaluable when working on large projects. The 3 new debug views help you in different ways:
 
