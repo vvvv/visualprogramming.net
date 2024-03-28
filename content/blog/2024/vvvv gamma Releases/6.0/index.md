@@ -4,10 +4,10 @@ title: "vvvv gamma 6.0 release"
 description: Release notes
 categories: "vvvv gamma Releases"
 author: joreg
-thumb: vvvv6.png
+thumb: vvvv60-thumb.jpg
 ---
 
-![vvvv gamma 6.0 release](vvvv6.0.jpg "")
+![vvvv gamma 6.0 release](vvvv60.jpg "")
  
 Here is to introduce **vvvv gamma 6.0**, quite a big drop as you'll understand when you read to the end...
 
