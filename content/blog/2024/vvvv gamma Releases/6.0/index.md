@@ -62,8 +62,8 @@ At just the click of a single button (the Hamburger icon in the vvvv editor's to
 
 ### Patch
 - **Press SPACE to pan:** Enables panning with a left mouse drag while the SPACE bar is pressed.
-- **IOBox editable with left mouse button:** This requires to move IOBoxes by grabbing their labels rather than their own body!
-- **IOBox defaults to horizontal drag:** **You overwrite this on the IOBox itself.**??
+- **IOBox editable with left mouse button:** Manipulate values in IOBoxes with the left instead of the right mousebutton. NOTE: This requires to move IOBoxes by grabbing their labels rather than their own body!
+- **IOBox defaults to horizontal drag:** Applicable to number IOBoxes. Can be overridden by configuring the "Slider Direction" of the IOBox"
 
 ### Links
 - **Dragging on connector starts link:** Start links from pins, pads and control points on drag, rather than on mouse up. NOTE: This requires to move pads by grabbing their labels rather than their own body!
