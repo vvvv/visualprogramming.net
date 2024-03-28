@@ -1,5 +1,5 @@
 ---
-date: "2024-04-20"
+date: "2024-03-28"
 title: "vvvv gamma 6.0 release"
 description: Release notes
 categories: "vvvv gamma Releases"
