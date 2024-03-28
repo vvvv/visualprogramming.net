@@ -23,7 +23,7 @@ Let's dive right into what you get with this update:
 
 ## Inspector
 
-![vvvv Inspector](vvvv-Inspector.jpg)
+![vvvv Inspector](vvvv-Inspector2.jpg)
 
 Finally here comes the long awaited Inspector. Open it via Ctrl+I to get an overview of all the pins of a selected node. Inputs can be manipulated and the visibility of pins in the patch can be configured.
 
