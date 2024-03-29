@@ -82,6 +82,9 @@ ON: Releasing the mouse button opens the Node Browser or creates an element righ
 - **Log Buffer length:** Log messages exceeding this number will cause older messages to be dropped. Increasing this number may degrade performance of the Log window.
 - **HDE Font Size:** Allows to change the font size for HDE Windows, like the Inspector
 
+![](ParticleLife.gif)
+*Paid ad: Find the patch rendering this animation in the Help Browser. Keyword "Particle Life"*
+
 ## HDE windows
 As you may have noticed, the different windows of our hybrid development environment (HDE) feel slightly detached. This has historical reasons and is not meant to be like that. Moving forward we believe we finally have an idea of how to unify them and starting with this release we have laid some ground work:
 
