@@ -7,7 +7,7 @@ author: joreg
 thumb: vvvv60-thumb.jpg
 ---
 
-![vvvv gamma 6.0 release](vvvv60.jpg "")
+![vvvv gamma 6.0 release](vvvv60-400px.jpg)
  
 Here is to introduce **vvvv gamma 6.0**, quite a big drop as you'll understand when you read to the end...
 
