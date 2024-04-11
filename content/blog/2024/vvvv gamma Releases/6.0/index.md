@@ -12,11 +12,15 @@ thumb: vvvv60-thumb.jpg
 Here is to introduce **vvvv gamma 6.0**, quite a big drop as you'll understand when you read to the end...
 
 {{< box >}}
-__[Download vvvv gamma 6.0](http://visualprogramming.net/#Download)__  
+__[Download vvvv gamma 6.1](http://visualprogramming.net/#Download)__  
 
 - [Full Change Log](https://thegraybook.vvvv.org/changelog/6.x.html)
 - [Get started](https://thegraybook.vvvv.org/reference/getting-started/overview.html)  
 - [Buy a license](https://store.vvvv.org)
+
+__Bugfix releases__
+- 6.1 on April 11, 2024
+  
 {{< /box >}}
 
 Let's dive right into what you get with this update:
