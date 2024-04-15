@@ -49,7 +49,7 @@ section#Blog .DocSearch-Button:hover
 
 .DocSearch header
 {
-    min-height: inherit;
+    height: 5em;
 }
 
 .DocSearch-Modal
