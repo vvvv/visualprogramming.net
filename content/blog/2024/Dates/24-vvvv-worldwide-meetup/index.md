@@ -9,14 +9,14 @@ where:
     city: "Wipperstrasse 13, 12055 Berlin"
     country: "de"
     country_name: "Germany"
-    from_date: "1705082400"
-    to_date: "1705093200"
+    from_date: "1714755600"
+    to_date: "1714766400"
 thumb: "241.png"
 ---
 
 ![](241.png) 
 
-The upcoming vvvvworldwide meetup of the year - **May 3rd - 7pm CET**. This is the meetup for creatives and developers using the visual programming environment vvvv and its visual language VL. Join us IRL or online with artists presentations and announcements in the vvvv community.
+Here's to announce the second vvvvworldwide meetup of this year on **May 3rd - 7pm CET**. This is the meetup for creatives and developers using the visual programming environment vvvv and its visual language VL. Join us IRL or online with artists presentations and announcements in the vvvv community.
 
 ## Attending
 {{< box >}}
