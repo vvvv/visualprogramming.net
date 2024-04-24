@@ -7,6 +7,10 @@ firstColumn:
       image: /img/icons/mortarboard-fill.svg
   - item: 
       text: > 
+            <a href="https://thenodeinstitute.org/ss24-vvvv-intermediates/" target="_blank">Upcoming intermediate level workshops</a>
+      image: /img/icons/mortarboard-fill.svg
+  - item: 
+      text: > 
             <a href="https://thenodeinstitute.org/ws23-vvvv-intermediates/" target="_blank">Course recordings, Winter 23/24</a>
       image: /img/icons/mortarboard-fill.svg
   - item: 
