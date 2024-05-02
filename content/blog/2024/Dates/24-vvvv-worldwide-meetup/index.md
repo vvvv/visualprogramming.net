@@ -27,7 +27,7 @@ Start: 19:00
 ### Online
 [Join via Zoom](https://us02web.zoom.us/j/87489794140)
 
-[Watch via Youtube]() > Will be available soon
+[Watch via Youtube](https://www.youtube.com/watch?v=gNszIiRAjDo)
 {{< /box >}}
 
 ##  Want to share your work?
