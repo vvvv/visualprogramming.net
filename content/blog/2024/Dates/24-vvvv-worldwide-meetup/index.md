@@ -25,7 +25,7 @@ Doors open: 18:30
 Start: 19:00
 
 ### Online
-[Join via Zoom]() > Will be available shortly before the start of the meetup
+[Join via Zoom](https://us02web.zoom.us/j/87489794140)
 
 [Watch via Youtube]() > Will be available soon
 {{< /box >}}
