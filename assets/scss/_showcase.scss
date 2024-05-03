@@ -62,8 +62,16 @@
 
   button
   {
-    background: inherit;
+    // background: inherit;
     border: none;
+    background-color: #333;
+    color: #bbb;
+      
+    &.active
+      {
+        color: #333;
+        background-color: #ddd;
+      }
   }
 
   .carousel-control-prev

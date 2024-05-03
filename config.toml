@@ -137,9 +137,15 @@ blog = '/blog/:sections[1]/:slug'
 
 		[params.Showcase]
 		headline = "Showcase"
-		showreelHeadline = "Showreel 2018 - 2024"
-		showreelSubline = "Works in this reel were realized in the past ~6 years and thus include both vvvv beta as well as pure vvvv gamma projects."
-		vimeo = 930568091
+			[params.Showcase.Showreel2]
+			title = "2018 - 2024"
+			alt = "Works in this reel were realized in the past ~6 years and thus include both vvvv beta as well as pure vvvv gamma projects."
+			vimeo = 930568091
+
+			[params.Showcase.Showreel1]
+			title = "2002 - 2019"
+			alt = "Projects in this showreel were realized mostly with vvvv beta within the past few years."
+			vimeo = 371511910
 
 		[params.Blog]
 		Title = "Blog"
