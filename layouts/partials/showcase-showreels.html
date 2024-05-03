@@ -1,0 +1,33 @@
+<div class="row justify-content-center mb-3">
+    <div class="col-11 col-xl-9">
+        <div class="row">
+            <div class="col d-flex">
+                <div class="label py-1 px-2 text-center">Showreels</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-11 col-xl-9 mt-2">
+        <ul class="nav nav-pills" id="showreel-pills" role="tablist">
+            {{ with .Showreel2}}
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active mr-2" href="#showreel-2" data-toggle="pill" data-target="#showreel-2" role="tab" aria-controls="showreel-2" aria-selected="true" alt="{{ .alt }}">{{ .title }}</button >
+                </li>
+            {{ end }}
+            {{ with .Showreel1}}
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" href="#showreel-1" data-toggle="pill" data-target="#showreel-1" role="tab" aria-controls="showreel-1" aria-selected="false" alt="{{ .alt }}">{{ .title }}</button >
+                </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+<div class="row mt-2 px-3 mb-5 justify-content-center" id="showreel-content">
+    <div class="tab-content col-11 col-xl-9 mx-2 text-center px-0">
+        <div class="mediaShadow tab-pane fade show active" id="showreel-2" role="tabpanel" aria-labelledby="pills-showreel2-tab">
+            {{ partial "vimeo" .Showreel2.vimeo }}
+        </div>
+        <div class="mediaShadow tab-pane fade" id="showreel-1" role="tabpanel" aria-labelledby="pills-showreel1-tab">
+            {{ partial "vimeo" .Showreel1.vimeo }}
+        </div>
+    </div> 
+</div>
