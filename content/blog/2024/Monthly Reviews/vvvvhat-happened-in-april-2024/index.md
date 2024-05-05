@@ -28,6 +28,10 @@ Coming up in May:
 * May 23: [Integrating Rhino 3D with vvvv](https://thenodeinstitute.org/courses/ss24-vvvv-integrating-rhino-3d-with-vvvv/)
 * May 29: [Augmented Reality using OpenCV](https://thenodeinstitute.org/courses/ss24-vvvv-introduction-to-core-fuse-principles/)
 
+But also TobyK has released some new video tutorials:
+* [Manipulating Classes and Exploding Barrels](https://discourse.vvvv.org/t/manipulating-classes-and-exploding-barrels/22559)
+* [Type Flexibility tutorials](https://discourse.vvvv.org/t/type-flexibility-tutorials/22589/)
+
 ## Contributions
 Many thanks to those of you who help complete vvvv with countless additions! For an overview of libraries available for vvvv [start here](https://thegraybook.vvvv.org/reference/libraries/overview.html).
 
