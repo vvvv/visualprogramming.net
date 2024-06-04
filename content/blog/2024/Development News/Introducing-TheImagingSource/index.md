@@ -1,7 +1,7 @@
 ---
 categories: "Development News"
 author: "joreg"
-date: "2024-05-31"
+date: "2024-06-04"
 title: "Introducing: Support for The Imaging Source"
 description: "Industrial cameras for your installations"
 thumb: thumb.png
