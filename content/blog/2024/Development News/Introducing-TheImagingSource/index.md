@@ -11,9 +11,11 @@ Dear patchers,
 
 here is to introduce full support for industrial cameras by [The Imaging Source](https://www.theimagingsource.com/).
 
-![The Imaging Source cameras](hero-tall-product-camera-industrial.webp)
+[![](tis-logo.svg)](https://www.theimagingsource.com/)
 
 *"Founded in 1988, The Imaging Source is a leading manufacturer of high-performance industrial and board cameras for machine vision applications in factory automation, quality control, logistics, medicine, science, security..."* and now also a breeze to use with vvvv!
+
+![The Imaging Source cameras](hero-tall-product-camera-industrial.webp)
 
 Based on their [IC Imaging Control 4 SDK](https://www.theimagingsource.com/en-us/support/download/icimagingcontrol4win-1.0.0.2416/) we've created the [VL.Devices.TheImagingSource](https://www.nuget.org/packages/VL.Devices.TheImagingSource) package, implementing a node-set for you to quickly access the streams of one or multiple cameras in parallel. 
 
