@@ -19,7 +19,7 @@ Based on their [blueiot Open API](https://www.blueiot.com/product/open-api/) we'
 
 ![](2024-05-14-11-11-56.png)
 
-So the fundamentals of the API are implemented, but it has some more obscure features that would still need wrapping, which all shouldn't be to tricky, if needed. 
+So the fundamentals of the API are implemented, but it has some more obscure features that would still need wrapping, which all shouldn't be too tricky, if needed. 
 
 Your turn now.
 

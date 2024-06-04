@@ -16,6 +16,7 @@ Massive thanks to all studios and individual artists who sent in their material,
 
 Here is a listing of all contributors to the reel, in order of appearance:
 
+- [flora&faunavisions](https://www.florafaunavisions.de/)
 - [wirmachenbunt](https://wirmachenbunt.de/)
 - [COCOLAB](https://cocolab.mx/)
 - [Colorsound-ixd](https://www.colorsound-ixd.com)
