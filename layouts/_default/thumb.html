@@ -1,13 +1,18 @@
 {{ $thumb := ""}}
-{{ with .Params.thumb}}
-  {{ with $.Resources.GetMatch .}}
-      {{ $thumb = .Fill "80x80 jpg q99"}}
-      {{ with $thumb}}
-        <div class="post-thumb"><img src="{{ $thumb.Permalink }}" class="img-fluid"/></div>
-      {{ end }}
+{{ $category := .Params.categories }}
+
+{{ if ne $category "Monthly Reviews" }}
+  {{ with .Params.thumb}}
+    {{ with $.Resources.GetMatch .}}
+        {{ $thumb = .Fill "80x80 jpg q99"}}
+    {{ end }}
   {{ end }}
 {{ end }}
 
-{{ if eq $thumb ""}}
-  <div class="post-thumb"><img src="/img/blog/grey-thumb.png" class="img-fluid"/></div>
+{{ if eq $category "Monthly Reviews" }}
+    <div class="post-thumb"><img src="/img/blog/review-thumb.png" class="img-fluid"/></div>
+{{ else if ne $thumb "" }}
+    <div class="post-thumb"><img src="{{ $thumb.Permalink }}" class="img-fluid"/></div>
+{{ else }}
+    <div class="post-thumb"><img src="/img/blog/grey-thumb.png" class="img-fluid"/></div>
 {{ end }}
