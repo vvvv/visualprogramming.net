@@ -2,8 +2,8 @@
 categories: "Development News"
 author: "joreg"
 date: "2024-06-04"
-title: "Introducing: Support for The Imaging Source"
-description: "Industrial cameras for your installations"
+title: "Introducing: Support for The Imaging Source’s Industrial Cameras"
+description: "For your computer-vision needs"
 thumb: thumb.png
 ---
 
@@ -13,7 +13,7 @@ here is to introduce full support for industrial cameras by [The Imaging Source]
 
 [![](tis-logo.svg)](https://www.theimagingsource.com/)
 
-*"Founded in 1988, The Imaging Source is a leading manufacturer of high-performance industrial and board cameras for machine vision applications in factory automation, quality control, logistics, medicine, science, security..."* and now also a breeze to use with vvvv!
+*"Established in 1988, The Imaging Source is a leading manufacturer of industrial cameras, video converters and embedded vision components for factory automation, quality assurance, medicine, science, security..."* and now also a breeze to use with vvvv!
 
 ![The Imaging Source cameras](hero-tall-product-camera-industrial.webp)
 
