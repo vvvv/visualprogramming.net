@@ -22,6 +22,7 @@ __Bugfix releases__
 - 6.2 on April 11, 2024
 - 6.3 on May 3, 2024
 - 6.4 on May 27, 2024  
+- 6.5 on June 12, 2024
 {{< /box >}}
 
 Let's dive right into what you get with this update:
