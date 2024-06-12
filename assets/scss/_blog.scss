@@ -255,7 +255,7 @@ section#Blog
     // margin-top: 3em;
     margin-bottom: 5em;
 
-    a
+    a:not(:has(img))
     {
         text-decoration: none;
         border-bottom: 1px solid #ccc;
