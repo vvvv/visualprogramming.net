@@ -12,7 +12,7 @@ thumb: vvvv60-thumb.jpg
 Here is to introduce **vvvv gamma 6.0**, quite a big drop as you'll understand when you read to the end...
 
 {{< box >}}
-__[Download vvvv gamma 6.4](http://visualprogramming.net/#Download)__  
+__[Download vvvv gamma 6.5](http://visualprogramming.net/#Download)__  
 
 - [Full Change Log](https://thegraybook.vvvv.org/changelog/6.x.html)
 - [Get started](https://thegraybook.vvvv.org/reference/getting-started/overview.html)  
