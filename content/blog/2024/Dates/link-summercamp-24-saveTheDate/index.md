@@ -1,9 +1,9 @@
 ---
 categories: "Dates"
 author: "eddy"
-date: "2024-05-01"
-title: "LINK - the vvvv Summer Camp 24"
-description: "A community event for everyone, no matter if you´re new to vvvv or already a pro."
+date: "2024-06-27"
+title: "LINK - the vvvv Summer Camp 24 - Registration open!"
+description: "Registration open for LINK - the vvvv Summer Camp 24. A community event for everyone, no matter if you´re new to vvvv or already a pro."
 where:
   location_name: "Funkinstitut"
   city: "Ring 60, 15754 Heidesee"
@@ -14,15 +14,15 @@ where:
 thumb: "thumb.jpg"
 ---
 
-![1714653003106](image/index/1714653003106.png)
+![1719502934803](image/index/1719502934803.png)
 
-**Heyy dear community! We have exciting news for you!**
+**Hellou there! The wait is over, wuuhuuu :D**
 
-Join us at the 3rd edition of LINK - the vvvv Summer Camp 24. A community event for everyone, no matter if you´re new to vvvv or already a pro.
+We are thrilled to announce that the registration for the 3rd edition of LINK - the vvvv Summer Camp 24 is officially open! Whether you're a newcomer to vvvv or a seasoned pro, this community event promises to be an unforgettable experience.
 
-You will have the chance to attend and give workshops, work on your projects or just relax and hang out at one of the nearby lakes, whatever you feel like doing.
+From August 22nd to 25th, join us at the beautiful [Funkinstitut](https://www.google.com/maps/place/Funkinstitut/@52.2400775,13.8031136,15.79z/data=!4m7!3m6!1s0x47a823316c0554f9:0xbae1fbf0680531a0!8m2!3d52.2386641!4d13.8155728!15sCg5mdW5rIGluc3RpdHV0ZZIBD2dhdGVkX2NvbW11bml0eeABAA!16s%2Fg%2F11mhg2x5mt?entry=tts), located about an hour southeast of Berlin. This is a perfect opportunity to immerse yourself in workshops, work on your personal projects, or simply relax and enjoy the serene lakeside setting.
 
-This is just a first announcement so you can include this in your summer plans. Here is what we already know:
+We are excited to host some renowned personalities from the vvvv community, including sebescurdie, kopffarben, chk and more! Also a part of the vvvv group will join us. Don´t miss the chance to deepen your knowledge, make new friends and enjoy the sun at the lake!
 
 {{< box >}}
 
@@ -34,12 +34,14 @@ This is just a first announcement so you can include this in your summer plans. 
 
 **Food:** Taken care of
 
-**Cost:** To be finalized, but around 200€
+**Cost:** You can decide how much you want to pay for the ticket! The recommended value is 200€, with that we can cover all our costs barely.
 
 {{< /box >}}
 
-For further planings we ask you to give us a little overview of how many people are interested in coming. Therefore please fill out this [non-binding survey](https://docs.google.com/forms/d/e/1FAIpQLSe3cAKMq-XFL3i-DlmpFFCJp72bHgHQbYwnuKEcPtL-9bHdZQ/viewform?usp=sf_link).
+For the registration please fill out [this binding form](https://docs.google.com/forms/d/e/1FAIpQLSdQv2IvrPGJSop_l4JMWFQmg2CUOXMyVzy9e0G5veA8Zp_uTw/viewform?usp=sf_link).
 
-If you have questions, please get in touch via [post@link-summercamp.de](mailto:post@link-summercamp.de) or please [join us in the chat](https://matrix.to/#/#link24:matrix.org).
+If you have questions, please get in touch via [post@link-summercamp.de](mailto:post@link-summercamp.de) or please [join us in the chat](https://matrix.to/#/#link24:matrix.org)
 
-Greetings from the summer camp team :D
+We are super keen to welcome you!
+
+Warm greetings from the summer camp team :D
