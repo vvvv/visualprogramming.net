@@ -3,7 +3,7 @@ categories: "Dates"
 author: "eddy"
 date: "2024-07-01"
 title: "LINK - the vvvv Summer Camp 24 - Registration open!"
-description: "Registration open for LINK - the vvvv Summer Camp 24. A community event for everyone, no matter if you´re new to vvvv or already a pro."
+description: "A community event for everyone, no matter if you´re new to vvvv or already a pro."
 where:
   location_name: "Funkinstitut"
   city: "Ring 60, 15754 Heidesee"
