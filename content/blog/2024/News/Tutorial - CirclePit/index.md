@@ -10,8 +10,7 @@ Patcher people!
 
 We're happy to announce a new series of beginner video tutorials for which we joined forces with Christoph Ignaz Kirmaier aka [chk](https://discourse.vvvv.org/u/chk/summary) of [3e8](https://3e8.studio/). 
 
-**If you're still rather new to vvvv these upcoming short-form step-by-step tutorials are for you!
-**
+**If you're still rather new to vvvv these upcoming short-form step-by-step tutorials are for you!**
 
 In each video you'll be guided from start to finish to achieve a little animation without having to know and understand too many details yet. The videos are aiming at your curiousity to experiment and hope to inspire you to start working on your own ideas. Those will certainly spark further questions which you'll get answered in [the forum](https://discourse.vvvv.org/c/vvvv-gamma/28) or [chat](https://matrix.to/#/#vvvv:matrix.org)!
 
