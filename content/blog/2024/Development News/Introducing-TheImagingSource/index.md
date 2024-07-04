@@ -17,7 +17,7 @@ here is to introduce full support for industrial cameras by [The Imaging Source]
 
 ![The Imaging Source cameras](hero-tall-product-camera-industrial.webp)
 
-Based on their [IC Imaging Control 4 SDK](https://www.theimagingsource.com/en-us/support/download/icimagingcontrol4win-1.0.0.2416/) we've created the [VL.Devices.TheImagingSource](https://www.nuget.org/packages/VL.Devices.TheImagingSource) package, implementing a node-set for you to quickly access the streams of one or multiple cameras in parallel. 
+Based on their [IC Imaging Control 4 SDK](https://www.theimagingsource.com/en-us/product/software/icimagingcontrol/) we've created the [VL.Devices.TheImagingSource](https://www.nuget.org/packages/VL.Devices.TheImagingSource) package, implementing a node-set for you to quickly access the streams of one or multiple cameras in parallel. 
 
 ![](2024-05-31-17-31-02.png)
 
