@@ -28,7 +28,7 @@ Here is what participants at this year LINK have told us, maybe that will convin
 - "I can give some vvvv teaching. We could make a vj lesson and let everybody vj on a party night"
 - "i like to sing and dance, and patch"
 
-I don´t know about you, but to me that sounds like a wonderful time!
+I don´t know about you, but to us that sounds like a wonderful time!
 
 {{< box >}}
 
