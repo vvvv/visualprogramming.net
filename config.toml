@@ -75,6 +75,10 @@ blog = '/blog/:sections[1]/:slug'
 		licensing = "Licensing"
 		support = "Support"
 		contact   = "contact"
+		users = "/community"
+		professionals = "/community/professionals"
+		businesses = "/community/businesses"
+		education = "/community/education"
 
 		# Hero section
 		[params.Hero]

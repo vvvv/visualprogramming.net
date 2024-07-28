@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class="scroll-padding">
+    <head>
+        {{ partial "head" . }}
+        {{ partial "head-vue" . }}
+   </head>
+<body>
+    <div class="main">
+        {{ partial "nav-community" . }}
+
+        <section id="Community">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-5 col-md-3">
+                        {{ partial "community-subnavi" (dict "active" "businesses") }}
+                    </div>
+                    <div class="col-12 col-sm-7 col-md-9">
+                        <div id="app" page="businesses"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        {{ partial "videoBlocker" . }}
+
+        {{ partial "contact" . }}
+        
+        {{ partial "footer" . }}
+    </div>
+    {{ partial "js" . }}
+</body>
+</html>

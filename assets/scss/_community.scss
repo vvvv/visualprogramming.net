@@ -1,0 +1,85 @@
+$label: #888;
+
+
+#Community{
+    .nav-link.active
+    {
+        background-color: #555;
+    }
+}
+
+#app{
+
+    .h2{
+        margin-bottom: 1em;
+    }
+
+    .company
+    {
+        .name
+        {
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+
+        .logo
+        {
+            width: 50px;
+            height: 50px;
+            max-width: 60px;
+            max-height: 60px;
+        }
+    }
+
+    .card
+    {
+        border-radius: 5px;
+        box-shadow: 0px 0px 6px #dfdfdf;
+    }
+
+    .UserInfo
+    {
+        margin-top: 2em;
+    }
+
+    .emptypic
+    {
+        width: 120px;
+        height: 120px;
+        background-color: $label;
+    }
+
+    .field
+    {
+        .label
+        {
+            font-size: 0.8em;
+            color: $label;
+        }
+
+        .caps
+        {
+            text-transform: uppercase;
+        }
+
+        .value
+        {
+            color: #000;
+        }
+
+        margin-bottom: 1em;
+    }
+
+    hr {
+        margin: 1 0;
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        max-width: inherit;
+      }
+    
+    .picSize
+    {
+        width: 50px;
+    }
+
+}

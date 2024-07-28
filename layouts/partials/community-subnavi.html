@@ -1,0 +1,7 @@
+{{ "<!-- NAVIGATION -->" | safeHTML }}
+<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <a class='nav-link {{ if eq .active "users" }} active {{ end }}' id="v-pills-home-tab" href='{{ site.Params.navigation.links.users | relLangURL}}' role="tab" aria-controls="v-pills-home" aria-selected="true">Users</a>
+    <a class='nav-link {{ if eq .active "professionals" }} active {{ end }}' id="v-pills-profile-tab" href='{{ site.Params.navigation.links.professionals | relLangURL}}' role="tab" aria-controls="v-pills-profile" aria-selected="false">Professionals</a>
+    <a class='nav-link {{ if eq .active "businesses" }} active {{ end }}' id="v-pills-profile-tab" href='{{ site.Params.navigation.links.businesses | relLangURL}}' role="tab" aria-controls="v-pills-profile" aria-selected="false">Businesses</a>
+    <a class='nav-link {{ if eq .active "edus" }} active {{ end }}' id="v-pills-messages-tab" href='{{ site.Params.navigation.links.education | relLangURL}}' role="tab" aria-controls="v-pills-messages" aria-selected="false">Educational Institutions</a>
+</div>

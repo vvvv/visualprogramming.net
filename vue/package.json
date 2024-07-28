@@ -1,0 +1,24 @@
+{
+  "name": "users",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "watch": "vite build --watch --base=/js/vue",
+    "preview": "vite preview",
+    "serve": "serve -s dist -l 5173"
+  },
+  "dependencies": {
+    "@vue-leaflet/vue-leaflet": "^0.10.1",
+    "axios": "^1.7.2",
+    "keycloak-js": "^25.0.2",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "sass": "^1.77.8",
+    "vite": "^5.3.1"
+  }
+}

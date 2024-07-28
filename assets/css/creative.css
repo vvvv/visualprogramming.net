@@ -622,7 +622,7 @@ img::-moz-selection {
   font-size: smaller;
 }
 
-.card
+#MadeWithGamma .card
 {
   background-color: #444;
   color: #ccc;
@@ -634,7 +634,7 @@ img::-moz-selection {
   color: #fff;
 }
 
-.card .card-footer
+#MadeWithGamma .card .card-footer
 {
   background-color: rgba(0,0,0,.1);
 }
