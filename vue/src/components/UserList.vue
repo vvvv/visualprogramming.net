@@ -15,8 +15,10 @@ const currentPage = ref(1)
 const totalPages = ref(0)
 const pageLimit = ref(10)
 const pageToJump = ref(null)
+const totalCount = ref(0)
 
-const isMap = ref(true)
+const isMap = ref(false)
+
 
 function link (l)
 {
@@ -39,7 +41,8 @@ function fetchData(url)
     .then((response) => {
         response.json().then((data) => {
             users.value = data.data
-            totalPages.value = Math.ceil((data.meta.total_count || data.meta.filter_count) / pageLimit.value)  || totalPages.value
+            totalCount.value = data.meta.total_count || totalCount.value
+            totalPages.value = Math.ceil(totalCount.value / pageLimit.value)  || totalPages.value
         })
     })
     .catch((err) => {
@@ -93,6 +96,7 @@ watchEffect(async () => {
     </ul>
 
     <template v-if="!isMap">
+        <p>Total profiles: {{ totalCount }}</p>
         <div class="row justify-content-between">
             <div class="col-12 col-md-6">
                 <div class="form-row">
