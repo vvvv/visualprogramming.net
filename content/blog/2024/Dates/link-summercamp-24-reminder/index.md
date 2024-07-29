@@ -29,12 +29,11 @@ Here is what participants at this year LINK have told us, maybe that will convin
 
 I don´t know about you, but to us that sounds like a wonderful time!
 
+Also, if you already have topics you are interested in learning/working on or something you want to show, please **leave a comment to this post** with some information for the other participants!
 
-Also, if you already have topics you are interested in learning/working on or something you want to show, please **leave a comment to this post** with some information for the other participants! 
+After the deadline is over, you will recieve an email with further information concerning the arrival/departure, a rough schedule and everything else you might need to know :D
 
-After the deadline is over, you will recieve an email with further information concerning the arrival/departure, a rough schedule and everything else you might need to know :D 
-
-Furthermore, have a look at the website for general information, it will be updated in the next days!
+Furthermore, have a look at the [website](https://link-summercamp.de/information/) for general information, it will be updated in the next days!
 
 {{< box >}}
 
