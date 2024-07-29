@@ -13,7 +13,6 @@ where:
   to_date: "1724580000"
 thumb: "thumb.jpg"
 ---
-
 ![1721920595159](image/index/1721920595159.png)
 
 **Hiii folkss!**
@@ -29,6 +28,13 @@ Here is what participants at this year LINK have told us, maybe that will convin
 - "i like to sing and dance, and patch"
 
 I don´t know about you, but to us that sounds like a wonderful time!
+
+
+Also, if you already have topics you are interested in learning/working on or something you want to show, please **leave a comment to this post** with some information for the other participants! 
+
+After the deadline is over, you will recieve an email with further information concerning the arrival/departure, a rough schedule and everything else you might need to know :D 
+
+Furthermore, have a look at the website for general information, it will be updated in the next days!
 
 {{< box >}}
 
