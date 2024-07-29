@@ -3,7 +3,7 @@ categories: "Dates"
 author: "eddy"
 date: "2024-07-01"
 title: "LINK - the vvvv Summer Camp 24 - Registration open!"
-description: "Registration open for LINK - the vvvv Summer Camp 24. A community event for everyone, no matter if you´re new to vvvv or already a pro."
+description: "A community event for everyone, no matter if you´re new to vvvv or already a pro."
 where:
   location_name: "Funkinstitut"
   city: "Ring 60, 15754 Heidesee"
@@ -18,7 +18,7 @@ thumb: "thumb.jpg"
 
 **Hellou there! The wait is over, wuuhuuu :D**
 
-We are thrilled to announce that the registration for the 3rd edition of LINK - the vvvv Summer Camp 24 is officially open! Whether you're a newcomer to vvvv or a seasoned pro, this community event promises to be an unforgettable experience.
+We are thrilled to announce that the registration for the 3rd edition of [LINK - the vvvv Summer Camp 2024](https://link-summercamp.de) is officially open! Whether you're a newcomer to vvvv or a seasoned pro, this community event promises to be an unforgettable experience.
 
 From August 22nd to 25th, join us at the beautiful [Funkinstitut](https://www.google.com/maps/place/Funkinstitut/@52.2400775,13.8031136,15.79z/data=!4m7!3m6!1s0x47a823316c0554f9:0xbae1fbf0680531a0!8m2!3d52.2386641!4d13.8155728!15sCg5mdW5rIGluc3RpdHV0ZZIBD2dhdGVkX2NvbW11bml0eeABAA!16s%2Fg%2F11mhg2x5mt?entry=tts), located about an hour southeast of Berlin. This is a perfect opportunity to immerse yourself in workshops, work on your personal projects, or simply relax and enjoy the serene lakeside setting.
 
