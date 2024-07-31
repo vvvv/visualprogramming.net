@@ -1,6 +1,6 @@
 <script setup>
-import { ref, onMounted, watchEffect } from 'vue'
-import { USERS_URL, PROFILE_URL, OSM_URL, OSM_COPY } from '../constants'
+import { ref, onMounted, watch, watchEffect } from 'vue'
+import { PROFILE_URL, OSM_URL, OSM_COPY, USERS_ON_MAP_URL } from '../constants'
 
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
@@ -15,17 +15,15 @@ L.Icon.Default.prototype.options.iconRetinaUrl = markerIconRetinaUrl;
 L.Icon.Default.prototype.options.shadowUrl = markerShadowUrl;
 L.Icon.Default.imagePath = '';
 
+const state = defineModel()
+
 const zoom = ref (2)
 const users = ref (null)
 const count = ref (0)
 const initialCenter = [47.41322, -1.219482]
 const center = ref({lat: initialCenter[0], lng: initialCenter[1]})
-const limit = 10
+const markerLayer = L.layerGroup()
 var map = null
-
-const request = `?fields=username,coordinates&sort=name&filter[coordinates][_neq]=""&limit=${limit}&meta=total_count`
-
-const url = `${USERS_URL}/${request}`
 
 function mapSetup () {
      map = L.map("map").setView(center.value, zoom.value);
@@ -34,50 +32,34 @@ function mapSetup () {
          maxZoom: 18,
        }
      ).addTo(map);
+     markerLayer.addTo(map);
 }
-
-watchEffect(()=>{
-
-    if (users.value !== null)
-    {
-        users.value.forEach( user => {
-            var m = L.marker(user.point).addTo(map);
-            var content = `
-            <p>${user.user}</p>
-            <a href="#" class="btn btn-secondary">Open Proile</a>
-            `
-            m.bindPopup(content, {closeButton: false})
-            m.bindTooltip(user.user)
-        })
-    }
-    
-})
 
 function fetchData(url)
 {
     fetch(url)
     .then((response) => {
         response.json().then((data) => {
-            count.value = data.meta.total_count
+            count.value = data.meta.filter_count
             users.value = data.data
-            .filter (e => {
-                return e.coordinates !== null;
+            .filter (user => {
+                return user.Basics.coordinates !== null;
             })
-            .map((e) => {
+            .map((user) => {
                 //var coord = e.coordinates.match(/\((.*)\s(.*)\)/)
                 //return { user: e.username, point: [coord[1], coord[2]] }
                 
                 var point = new Array(0,0)
 
                 try {
-                    var coords = JSON.parse(e.coordinates).coordinates
+                    var coords = JSON.parse(user.Basics.coordinates).coordinates
                     point = [ coords[1], coords[0] ]
                 }
                 catch{
-                    //console.log (e.coordinates)
+                    console.log (user.Basics.coordinates)
                 }
 
-                return { user: e.username, point: point }
+                return { user: user.Basics.username, point: point }
             })
         })
     })
@@ -86,8 +68,46 @@ function fetchData(url)
     });
 }
 
-onMounted(() =>{
+watch(users, async (newUsers, old) => {
+    markerLayer.clearLayers()
+    if (newUsers !== null)
+    {
+        newUsers.forEach( user => {
+            var m = L.marker(user.point);
+            var content = `
+            <p>${user.user}</p>
+            <a href="#" class="btn btn-secondary">Open Proile</a>
+            `
+            m.bindPopup(content, {closeButton: false})
+            m.bindTooltip(user.user)
+            markerLayer.addLayer(m)
+        })
+    }   
+})
+
+watchEffect(() => {
+
+    const _coordFilter = '[Basics][coordinates][_neq]=""'
+    const _usernameFilter = `[Basics][username][_contains]=${state.value.filter}`
+    const _limit = 10
+
+    var _filter = ""
+
+    if (state.value.filter!=="")
+    {
+        _filter = `&filter[_and][0]${_coordFilter}&filter[_and][1]${_usernameFilter}`
+    }
+    else
+    {
+        _filter = `&filter${_coordFilter}`
+    }
+
+    const url = `${USERS_ON_MAP_URL}&limit=${_limit}${_filter}&meta=filter_count`
+
     fetchData(url)
+})
+
+onMounted(() =>{
     mapSetup()
 })
 

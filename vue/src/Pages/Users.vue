@@ -13,10 +13,11 @@ const url = new URL(window.location.href)
 const params = url.searchParams
 const username = params.get("user")
 const edit = params.get("edit")
+const map = params.get("map")
 
 </script>
 
 <template>
     <UserInfo v-if="username" :username="username"/>
-    <UserList v-else/>
+    <UserList v-else :isMap="map"/>
 </template>
