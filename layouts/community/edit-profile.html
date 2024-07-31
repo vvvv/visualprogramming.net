@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html class="scroll-padding">
+    <head>
+        {{ partial "head" . }}
+        {{ partial "head-vue" . }}
+        <link rel="stylesheet" href="{{ "js/vue/UserMap.css" | relURL }}" type="text/css">
+   </head>
+<body>
+    <div class="main">
+        {{ partial "nav-community" . }}
+        <section id="Community">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="app" page="edit-profile"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        {{ partial "videoBlocker" . }}
+
+        {{ partial "contact" . }}
+        
+        {{ partial "footer" . }}
+    </div>
+    {{ partial "js" . }}
+</body>
+</html>

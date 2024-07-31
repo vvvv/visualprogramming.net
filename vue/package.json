@@ -11,10 +11,11 @@
     "serve": "serve -s dist -l 5173"
   },
   "dependencies": {
-    "@vue-leaflet/vue-leaflet": "^0.10.1",
     "axios": "^1.7.2",
     "keycloak-js": "^25.0.2",
-    "vue": "^3.4.29"
+    "leaflet": "^1.9.4",
+    "vue": "^3.4.29",
+    "vue-router": "^4.4.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",

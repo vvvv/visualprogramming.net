@@ -6,7 +6,6 @@ const UserMap = defineAsyncComponent(() =>
   import('./UserMap.vue')
 )
 
-const fields = `fields=*,profilepic.image_id`
 
 const users = ref(null)
 const filterField = ref("")
@@ -41,7 +40,7 @@ function fetchData(url)
     .then((response) => {
         response.json().then((data) => {
             users.value = data.data
-            totalCount.value = data.meta.total_count || totalCount.value
+            totalCount.value = data.meta.total_count || data.meta.filter_count || totalCount.value
             totalPages.value = Math.ceil(totalCount.value / pageLimit.value)  || totalPages.value
         })
     })
@@ -63,7 +62,7 @@ function resetFilter()
 
 watchEffect(async () => { 
     var _filter = "";
-    const sort = "&sort=username"
+    const sort = "&sort=Basics.username"
     const pages =`&limit=${pageLimit.value}&page=${currentPage.value}`
     var count = ""
 
@@ -77,7 +76,7 @@ watchEffect(async () => {
         count = _filter != "" ? "&meta=filter_count" :  "&meta=total_count"
     }
 
-    const url = `${USERS_URL}?${fields}${_filter}${sort}${pages}${count}`;
+    const url = `${USERS_URL}${_filter}${sort}${pages}${count}`;
 
     fetchData(url)
 })
@@ -86,65 +85,78 @@ watchEffect(async () => {
 
 <template>
     <div class="h2">Users</div>
-    <ul class="nav nav-pills">
-        <li class="nav-item">
-            <a class="nav-link" :class="{active: !isMap}" href="#" @click="isMap=false">List</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" :class="{active: isMap}" href="#" @click="isMap=true">Map</a>
-        </li>
-    </ul>
-
-    <template v-if="!isMap">
-        <p>Total profiles: {{ totalCount }}</p>
-        <div class="row justify-content-between">
-            <div class="col-12 col-md-6">
-                <div class="form-row">
-                    <div class="col-6 my-1">
-                        <label for="filter" class="sr-only">Filter</label>
-                        <input id="filter" v-model="filterField" placeholder="filter" class="form-control"/>
+        <div class="border-top">
+            <nav class="navbar navbar-expand-lg navbar-color">
+                    <ul class="navbar-nav nav nav-pills" role="tablist">
+                        <li class="nav-item mr-1" :class="{active: !isMap}">
+                            <a class="nav-link px-4" :class="{active: !isMap}" href="#" @click="isMap=false">List</a>
+                        </li>
+                        <li class="nav-item" :class="{active: isMap}">
+                            <a class="nav-link px-4" :class="{active: isMap}" href="#" @click="isMap=true">Map</a>
+                        </li>
+                    </ul>
+                    <template v-if="!isMap">
+                    <!-- border-left pl-2 ml-2  -->
+                    <div class="mr-auto">
+                        <ul class="navbar-nav nav nav-pills mr-auto mt-1" role="tablist">       
+                            <li class="nav-item">
+                                <div class="vr"></div>
+                            </li>
+                            <li class="nav-item mr-1">
+                                <button class="btn btn-sm btn-outline-secondary" href="#" @click="currentPage--" :disabled="currentPage <= 1">Prev</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn btn-sm">{{  currentPage }} of {{ totalPages }}</button>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <button class="btn btn-sm btn-outline-secondary" href="#" @click="currentPage++" :disabled="currentPage >= totalPages">Next</button>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="btn btn-sm btn-outline-secondary" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Per Page ({{ pageLimit }})
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#" @click="pageLimit=10">10</a>
+                                    <a class="dropdown-item" href="#" @click="pageLimit=20">20</a>
+                                    <a class="dropdown-item" href="#" @click="pageLimit=50">50</a>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-6 my-1">
-                        <button @click="applyFilter" class="btn btn-secondary ml-2 form-group">Apply</button>
-                        <button @click="resetFilter" class="btn btn-secondary ml-2 form-group" v-if="filterField != ''">Reset</button>
+                    <!-- border-left pl-2 -->
+                    <div class="">
+                        <ul class="navbar-nav nav">
+                            <li class="nav-item">
+                                <form class="form-inline">
+                                    <input style="width: 8em"class="form-control form-control-sm mr-sm-1" v-model="filterField" placeholder="Filter" aria-label="Filter">
+                                    <button class="btn btn-sm btn-outline-secondary my-2 my-sm-0" @click="applyFilter">Apply</button>
+                                </form>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-            <div v-if="totalPages > 1" class="col-12 col-md-auto">
-                <div class="form-row">
-                    <div class="col-auto my-1">
-                        Page
-                        <button @click="currentPage--" class="btn btn-secondary" :disabled="currentPage <= 1"> < </button>
-                        {{  currentPage }} of {{ totalPages }}
-                        <button href="#" @click="currentPage++" class="btn btn-secondary" :disabled="currentPage >= totalPages"> > </button>
-                    </div>
-                    <div class="col-auto ml-2 my-1">
-                        <div class="form-row">
-                            <label for="jumpto" class="sr-only">Jump To</label>
-                            <input v-model="pageToJump" style="width: 3em" class="form-control">
-                            <button href="#" @click="go" class="btn btn-secondary ml-2"> Go </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    </template>
+        </nav>
         </div>
-
+        <template v-if="!isMap">     
         <div class="table-responsive">
             <table class="table table-sm">
                 <colgroup>
                     <col class="col-md-1">
-                    <col class="col-md-11">
+                    <col class="col-md-3">
+                    <col class="col-md-8">
                 </colgroup>
                 <thead>
                     <tr>
                         <th scope="col" class="picsize"></th>
                         <th scope="col">Username</th>
+                        <th scope="col">Available for hire</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="{ name, username, statement, profilepic } in users" track-by="id">
-                        <td><img :src="link(profilepic.image_id)" v-if="profilepic !== null" class="rounded-circle"/></td> 
-                        <td><a :href="`?${username}`">{{username}}</a></td>
+                    <tr v-for="u in users" track-by="id">
+                        <td><img :src="link(u.Basics.profilepic.image_id)" v-if="u.Basics.profilepic !== null" class="rounded-circle"/></td> 
+                        <td><a :href="`?user=${u.Basics.username}`">{{u.Basics.username}}</a></td>
+                        <td><a :href="`?user=${username}`" v-if="u.Hire !== null">{{ u.Hire.available ? 'Yes' : 'No' }}</a></td>
                     </tr>
                 </tbody>
             </table>

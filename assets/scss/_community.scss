@@ -10,6 +10,23 @@ $label: #888;
 
 #app{
 
+    .sticky-top{
+        top: 4em;
+    }
+
+    .navbar-color
+    {
+        background-color: #eee;
+    }
+
+    .listMenu
+    {
+        border-radius: 3px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+        background-color: #eee;
+        padding: .5em;
+    }
+
     .h2{
         margin-bottom: 1em;
     }
@@ -35,11 +52,6 @@ $label: #888;
     {
         border-radius: 5px;
         box-shadow: 0px 0px 6px #dfdfdf;
-    }
-
-    .UserInfo
-    {
-        margin-top: 2em;
     }
 
     .emptypic
@@ -71,10 +83,10 @@ $label: #888;
     }
 
     hr {
-        margin: 1 0;
+        margin: 0;
         border: 0;
         border-top: 1px solid rgba(0, 0, 0, 0.1);
-        max-width: inherit;
+        max-width: 100%;
       }
     
     .picSize

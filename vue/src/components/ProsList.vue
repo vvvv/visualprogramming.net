@@ -3,8 +3,6 @@ import { ref, onMounted } from 'vue'
 import { isEmpty } from '../utils'
 import { HIRE_URL, PROFILE_URL, ASSETS_URL } from '../constants'
 
-const request = `?filter[available][_eq]=true&sort=user_id.username&fields=*.*.*`
-
 const pros = ref(null)
 
 function image (l)
@@ -14,7 +12,7 @@ function image (l)
 
 function fetchData()
 {
-    fetch (`${HIRE_URL}${request}`)
+    fetch (`${HIRE_URL}`)
         .then((response) =>{
             response.json().then((data) =>{
                     pros.value = data.data
@@ -34,22 +32,22 @@ onMounted(()=>
 
 <template>
     <div class="h2">Professionals</div>
-    <div class="card mb-4" v-for="{ user_id, description, type } in pros" track-by="username" v-if="pros.length > 0">
-        <h5 class="card-header">{{ user_id.name }} ({{ user_id.username }})</h5>
+    <div v-if="pros.length > 0" class="card mb-4" v-for="p in pros" track-by="username">
+        <h5 class="card-header">{{ p.Basics.name }} ({{ p.Basics.username }})</h5>
         <div class="card-body">
-            <img :src="image(user_id.profilepic.image_id)" v-if="user_id.profilepic !== null" class="rounded-circle"/>
-            <p class="card-text">{{ description }}</p>
+            <img :src="image(p.Basics.profilepic.image_id)" v-if="p.Basics.profilepic !== null" class="rounded-circle"/>
+            <p class="card-text">{{ p.Hire.description }}</p>
         </div>
         <ul class="list-group list-group-flush">
             <li class="list-group-item">
                 Available for:<br/>
-                <template v-for="(t, index) in type" v-if="type!='undefined'">
-                        <span>{{ isEmpty(t) }}</span><template v-if="index+1 < type.length">, </template>
+                <template v-for="(t, index) in p.Hire.type" v-if="p.Hire.type!='undefined'">
+                        <span>{{ isEmpty(t) }}</span><template v-if="index+1 < p.Hire.type.length">, </template>
                 </template>
             </li>
         </ul>
         <div class="card-body">
-            <a :href="PROFILE_URL+user_id.username" class="card-link">Show profile</a>
+            <a :href="PROFILE_URL+p.Basics.username" class="card-link">Show profile</a>
         </div>
     </div>
     <template v-else>

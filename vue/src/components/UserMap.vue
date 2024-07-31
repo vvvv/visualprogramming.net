@@ -1,17 +1,57 @@
 <script setup>
-import { ref, onMounted } from 'vue'
-import { USERS_URL, PROFILE_URL } from '../constants'
+import { ref, onMounted, watchEffect } from 'vue'
+import { USERS_URL, PROFILE_URL, OSM_URL, OSM_COPY } from '../constants'
 
 import "leaflet/dist/leaflet.css";
-import { LMap, LMarker, LTooltip, LTileLayer } from "@vue-leaflet/vue-leaflet";
+import L from "leaflet";
+
+//Setup Icons
+import markerIconUrl from '/node_modules/leaflet/dist/images/marker-icon.png';
+import markerIconRetinaUrl from '/node_modules/leaflet/dist/images/marker-icon-2x.png';
+import markerShadowUrl from '/node_modules/leaflet/dist/images/marker-shadow.png';
+
+L.Icon.Default.prototype.options.iconUrl = markerIconUrl;
+L.Icon.Default.prototype.options.iconRetinaUrl = markerIconRetinaUrl;
+L.Icon.Default.prototype.options.shadowUrl = markerShadowUrl;
+L.Icon.Default.imagePath = '';
 
 const zoom = ref (2)
 const users = ref (null)
 const count = ref (0)
+const initialCenter = [47.41322, -1.219482]
+const center = ref({lat: initialCenter[0], lng: initialCenter[1]})
+const limit = 10
+var map = null
 
-const request = `?fields=username,coordinates&sort=name&filter[coordinates][_neq]=""&limit=-1&meta=total_count`
+const request = `?fields=username,coordinates&sort=name&filter[coordinates][_neq]=""&limit=${limit}&meta=total_count`
 
 const url = `${USERS_URL}/${request}`
+
+function mapSetup () {
+     map = L.map("map").setView(center.value, zoom.value);
+     L.tileLayer(OSM_URL, {
+         attribution: OSM_COPY,
+         maxZoom: 18,
+       }
+     ).addTo(map);
+}
+
+watchEffect(()=>{
+
+    if (users.value !== null)
+    {
+        users.value.forEach( user => {
+            var m = L.marker(user.point).addTo(map);
+            var content = `
+            <p>${user.user}</p>
+            <a href="#" class="btn btn-secondary">Open Proile</a>
+            `
+            m.bindPopup(content, {closeButton: false})
+            m.bindTooltip(user.user)
+        })
+    }
+    
+})
 
 function fetchData(url)
 {
@@ -48,6 +88,7 @@ function fetchData(url)
 
 onMounted(() =>{
     fetchData(url)
+    mapSetup()
 })
 
 function link(l)
@@ -55,14 +96,34 @@ function link(l)
     window.location.href = `${PROFILE_URL}${l}`
 }
 
+function checkCoordinates()
+{
+    var url=`${NOMINATIM_URL}?lat=${curLocation.value.lat}&lon=${curLocation.value.lng}&format=json&zoom=12`
+
+    fetch(url)
+    .then((response) => {
+        response.json().then((data) => {
+
+            console.log (data)
+
+        })
+    })
+}
+
+const curLocation = ref(initialCenter)
+
+function move(v)
+{
+    curLocation.value = v.target.getCenter()
+}
+
+
 </script>
 
 <template>
     <template v-if="true">
-        <p>Map of {{ count }} users that provided their coordinates.</p>
-
-        <div style="height: 400px">
-            <l-map ref="map" v-model:zoom="zoom" :center="[47.41322, -1.219482]">
+        <!-- <div style="height: 400px">
+            <l-map ref="map" v-model:zoom="zoom" :center.sync="initialCenter" @move="move" @zoom="move">
                 <l-tile-layer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 layer-type="base"
@@ -70,8 +131,11 @@ function link(l)
                 ></l-tile-layer>
                 <l-marker v-for="u in users" :lat-lng="u.point" @click="link(u.user)">
                     <l-tooltip>{{ u.user }}</l-tooltip>
-                </l-marker>    
+                </l-marker>
+                <l-marker :lat-lng="curLocation"></l-marker>
             </l-map>
-        </div>
+        </div> -->
+        <div id="map" style="height: 400px"></div>
+        <button @click="checkCoordinates">Find Location</button>
     </template>
 </template>
