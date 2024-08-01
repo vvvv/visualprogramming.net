@@ -1,51 +1,127 @@
 <script setup>
 
-import { ref, watchEffect, onMounted, computed } from 'vue'
-import { PUBLIC_USER_INFO_URL, ASSETS_URL } from '../constants'
+import { ref } from 'vue'
+import { ASSETS_URL } from '../constants'
 import FieldEdit from './FieldEdit.vue'
-import { isEmpty } from '../utils'
+import { isEmpty, toJson, removeProps } from '../utils'
+import ActionButtons from './ActionButtons.vue';
+import SetPositionMap from './SetPositionMap.vue';
 
-var Original = null
+const props = defineProps(['data'])
 
-var model = defineModel()
+const basicsData = ref(cleanup(props.data.Basics))
+const socialData = ref(cleanup(props.data.SocialNetworks))
+
+const array = props.data.SocialNetworks.fields || [];
+socialData.value.fields =  Array(4).fill(null).map((_, index) => array[index] || { key:'', value:''});
+basicsData.value.coordinates = JSON.parse(basicsData.value.coordinates)
+
+const basicsOriginal = toJson(socialData.value)
+const socialOriginal = toJson(socialData.value)
+
+const imageParams = "?quality=90&fit=cover&width=120"
+
+const address = ref(null)
 
 function revert()
 {
-    model.value = JSON.parse(Original)
+    basicsData.value = JSON.parse(basicsOriginal)
+    socialData.value = JSON.parse(socialOriginal)
 }
 
-watchEffect(()=>{
-    console.log (model.value)
-})
+function cleanup( obj )
+{
+    const removeFields = ['date_updated', 'date_created']
+    removeProps(obj, removeFields)
+    
+    return obj
+}
+
+function save()
+{
+    console.log(toJson(basicsData.value))
+    console.log(toJson(socialData.value))
+}
+
+function setCenter(c)
+{
+    basicsData.value.coordinates = {
+        coordinates: [c.lat, c.lng],
+        type: "Point"
+    }
+}
+
+function setAddress(a)
+{
+    address.value = a
+}
 
 
 </script>
 
 <template>
-    <div class="row">
-        <div class="col-12 col-sm-3">
-            <img :src="`${ASSETS_URL}${model.User.profilepic}${imageParams}`" v-if="model.User.profilepic !== 'undefined'" class="rounded-circle img-fluid"/>
-            <div class="emptypic rounded-circle" v-else></div>
-        </div>
-        <div class="col-12 col-sm-9">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <FieldEdit label="Real Name" v-model="model.User.realname" :edit="edit"/>
-                    <FieldEdit label="Homepage" v-model="model.User.homepage" :edit="edit"/>
-                </div>
-                <div class="col-12 col-md-6">
-                    <FieldEdit label="Github Account" v-model="model.SocialNetworks.github" :edit="edit"/>
-                    <FieldEdit label="Nuget Account" v-model="model.SocialNetworks.nuget" :edit="edit"/>
+    <template v-if="basicsData">
+        <div class="row">
+            <div class="col-12 col-sm-3">
+                <img :src="`${ASSETS_URL}${basicsData.profilepic.image_id}${imageParams}`" v-if="basicsData.profilepic !== 'undefined'" class="rounded-circle img-fluid"/>
+                <div class="emptypic rounded-circle" v-else></div>
+            </div>
+            <div class="col-12 col-sm-9">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <FieldEdit label="Real Name" v-model="basicsData.name"/>
+                        <FieldEdit label="Homepage" v-model="basicsData.homepage"/>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <FieldEdit label="Github Account" v-model="socialData.github"/>
+                        <FieldEdit label="Nuget Account" v-model="socialData.nuget"/>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="row mb-3">
+            <div class="col-md-2">
+                <span class="label">Statement</span>
+            </div>
+            <div class="col-md-10">
+                <textarea class="form-control form-control-sm" rows="5" v-model="basicsData.statement">{{ basicsData.statement }}</textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <span class="label">Custom Fields</span>
+            </div>
+            <div class="col-md-10">
+                <template v-for="(key, index) in socialData.fields">
+                    <div class="form-row" :class="index+1 < socialData.fields.length ? 'mb-3' : ''">
+                            <div class="form-group col-4">
+                                <input v-model="socialData.fields[index].key" placeholder="key" class="form-control form-control-sm" />
+                            </div>
+                            <div class="form-group col-8">
+                                <input v-model="socialData.fields[index].value" placeholder="value" class="form-control form-control-sm" />
+                            </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                    <span class="label">Location</span>
+            </div>
+            <div class="col-md-10">
+                <SetPositionMap @address="setAddress" @center="setCenter" :coords="basicsData.coordinates.coordinates"/>
+                <div v-if="address != null" class="mt-2">
+                    {{ address.display_name }}
+                </div>
+            </div>
+        </div>
 
-    <FieldEdit label="Statement" v-model="model.User.statement" class="mt-md-3" :edit="edit" multi="true"/>
+        <ActionButtons @save="save" @revert="revert"/>
 
-    <div class="row" v-if="model.SocialNetworks.fields !='undefined'">
-        <template v-for="f in model.SocialNetworks.fields">
-                <FieldEdit :label="f.key" v-model="f.value" class="col-12 col-md-6" :edit="edit"/>
-        </template>
-    </div>   
+    </template> 
+    <template v-else>
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </template>
 </template>

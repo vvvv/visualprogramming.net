@@ -116,28 +116,6 @@ function link(l)
     window.location.href = `${PROFILE_URL}${l}`
 }
 
-function checkCoordinates()
-{
-    var url=`${NOMINATIM_URL}?lat=${curLocation.value.lat}&lon=${curLocation.value.lng}&format=json&zoom=12`
-
-    fetch(url)
-    .then((response) => {
-        response.json().then((data) => {
-
-            console.log (data)
-
-        })
-    })
-}
-
-const curLocation = ref(initialCenter)
-
-function move(v)
-{
-    curLocation.value = v.target.getCenter()
-}
-
-
 </script>
 
 <template>
@@ -156,6 +134,5 @@ function move(v)
             </l-map>
         </div> -->
         <div id="map" style="height: 400px"></div>
-        <button @click="checkCoordinates">Find Location</button>
     </template>
 </template>

@@ -61,14 +61,14 @@ $label: #888;
         background-color: $label;
     }
 
+    .label
+    {
+        font-size: 0.8em;
+        color: $label;
+    }
+
     .field
     {
-        .label
-        {
-            font-size: 0.8em;
-            color: $label;
-        }
-
         .caps
         {
             text-transform: uppercase;

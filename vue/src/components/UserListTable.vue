@@ -27,7 +27,11 @@ function fetchData(url)
     .then((response) => {
         response.json().then((data) => {
             users.value = data.data
-            state.value.totalCount = data.meta.total_count || data.meta.filter_count || state.value.totalCount
+
+            if (data.hasOwnProperty("meta"))
+            {
+                state.value.totalCount = data.meta.total_count || data.meta.filter_count || state.value.totalCount      
+            }
             state.value.totalPages = Math.ceil(state.value.totalCount / state.value.pageLimit)  || state.value.totalPages
         })
     })
