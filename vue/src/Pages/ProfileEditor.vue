@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import Keycloak from 'keycloak-js'
 import Form from './components/Form.vue'
 import { LOGIN_OPTIONS, LOGIN_REDIRECT } from '../constants'
@@ -91,4 +91,4 @@ onMounted(() => {
       </template>
     </template>
     <button @click="login" v-else="!logged" class="btn btn-secondary btn-lg mt-4">Login</button>
-</template>
+</template> -->

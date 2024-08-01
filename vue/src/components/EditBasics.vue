@@ -14,9 +14,9 @@ const socialData = ref(cleanup(props.data.SocialNetworks))
 
 const array = props.data.SocialNetworks.fields || [];
 socialData.value.fields =  Array(4).fill(null).map((_, index) => array[index] || { key:'', value:''});
-basicsData.value.coordinates = JSON.parse(basicsData.value.coordinates)
+basicsData.value.coordinates = {coordinates: [0,0], type: "Point"}
 
-const basicsOriginal = toJson(socialData.value)
+const basicsOriginal = toJson(basicsData.value)
 const socialOriginal = toJson(socialData.value)
 
 const imageParams = "?quality=90&fit=cover&width=120"
@@ -80,18 +80,18 @@ function setAddress(a)
             </div>
         </div>
         <div class="row mb-3">
-            <div class="col-md-2">
+            <div class="col-md-3 text-right">
                 <span class="label">Statement</span>
             </div>
-            <div class="col-md-10">
+            <div class="col-md-9">
                 <textarea class="form-control form-control-sm" rows="5" v-model="basicsData.statement">{{ basicsData.statement }}</textarea>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-3 text-right">
                 <span class="label">Custom Fields</span>
             </div>
-            <div class="col-md-10">
+            <div class="col-md-9">
                 <template v-for="(key, index) in socialData.fields">
                     <div class="form-row" :class="index+1 < socialData.fields.length ? 'mb-3' : ''">
                             <div class="form-group col-4">
@@ -105,18 +105,25 @@ function setAddress(a)
             </div>
         </div>
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-3 text-right">
                     <span class="label">Location</span>
             </div>
-            <div class="col-md-10">
+            <div class="col-md-9">
                 <SetPositionMap @address="setAddress" @center="setCenter" :coords="basicsData.coordinates.coordinates"/>
                 <div v-if="address != null" class="mt-2">
                     {{ address.display_name }}
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-9">
+                <ActionButtons @save="save" @revert="revert"/>
+            </div>
+        </div>
 
-        <ActionButtons @save="save" @revert="revert"/>
+
 
     </template> 
     <template v-else>
