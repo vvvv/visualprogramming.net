@@ -17,12 +17,14 @@ class KC
     private keycloak: Keycloak
     private tokens: Tokens
     private initOptions: InitOptions
-    private onReady: ()=> void
 
     public getAccessToken = () => this.keycloak.token
     public getMail = () => this.keycloak.idTokenParsed.email
     public getUsername = () => this.keycloak.tokenParsed?.preferred_username;
     public isLogged = () => !!this.keycloak.token
+
+    public onAuth: () => void;
+    public onReady: () => void;
     
     public logout(url: string)
     {
@@ -34,11 +36,10 @@ class KC
         this.keycloak.login({redirectUri: redirectURL })
     }
 
-    public constructor(redirectURL: string, onReady: ()=> void)
+    public constructor(redirectURL: string)
     {
         this.tokens = null
         this.initOptions = LOGIN_OPTIONS
-        this.onReady = onReady
         this.init(redirectURL)
     }
 
@@ -59,10 +60,11 @@ class KC
         this.keycloak = new Keycloak(this.initOptions)
 
         this.keycloak.onReady = (auth) => {
-            if (auth) 
-            {
-                this.onReady()
-            }
+            auth ? this.onAuth() : this.onReady()
+        }
+
+        this.keycloak.onAuthSuccess = () =>{
+            this.onAuth()
         }
 
         try 
@@ -92,9 +94,3 @@ class KC
 }
 
 export default KC
-
-
-// this.keycloak.onAuthSuccess = () =>{
-//     this.initCompleted = true;
-//     this.tokens.rt = this.keycloak.refreshToken;
-// }
