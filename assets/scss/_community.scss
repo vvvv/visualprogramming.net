@@ -8,7 +8,74 @@ $label: #888;
     }
 }
 
+#ProfileEditor{
+    background-color: #363636;
+
+    .nav-link.active
+    {
+        background-color: #555;
+    }
+
+    a
+    {
+        &.nav-link
+        {
+            color: #bbb !important;
+
+            &:hover
+            {
+                background-color: #505050 !important;
+            }
+        }
+
+        &.active
+        {
+            color: #fff !important;
+            background-color: #666 !important;
+        }
+
+    }
+
+    .card
+    {
+        background-color: #444;
+        box-shadow: 0px 0px 10px #303030 !important;
+        //box-shadow: none !important;
+
+        input, textarea {
+            background-color: #333;
+            color: #ccc;
+            border: none;
+            border-radius: 2px;
+        }
+
+        .h4{
+            color: #fff;
+        }
+
+        .btn-outline-secondary
+        {
+            color: #ccc;
+            border-color: #666;
+        }
+
+        .label
+        {
+            color: #aaa;
+            margin-bottom: 0.5em;
+        }
+    }
+}
+
 #app{
+
+
+    .disabled
+    {
+        pointer-events: none;
+        opacity: 0.5;
+        // background: #CCC;
+    }
 
     .sticky-top{
         top: 4em;

@@ -18,13 +18,18 @@ class KC
     private tokens: Tokens
     private initOptions: InitOptions
 
-    public getAccessToken = () => this.keycloak.token
     public getMail = () => this.keycloak.idTokenParsed.email
     public getUsername = () => this.keycloak.tokenParsed?.preferred_username;
     public isLogged = () => !!this.keycloak.token
 
     public onAuth: () => void;
     public onReady: () => void;
+
+    public async getAccessToken()
+    {
+        await this.keycloak.updateToken()
+        return this.keycloak.token
+    }
     
     public logout(url: string)
     {
@@ -60,7 +65,7 @@ class KC
         this.keycloak = new Keycloak(this.initOptions)
 
         this.keycloak.onReady = (auth) => {
-            auth ? this.onAuth() : this.onReady()
+            this.onReady()
         }
 
         this.keycloak.onAuthSuccess = () =>{
@@ -75,15 +80,13 @@ class KC
                     onLoad: 'check-sso',
                     token: this.tokens.at, 
                     refreshToken: this.tokens.rt, 
-                    checkLoginIframe: false,
-                    redirectUri: redirectURL
+                    checkLoginIframe: false
                 })
             }
             else
             {
                 this.keycloak.init({
-                    onLoad: 'check-sso',
-                    redirectUri: redirectURL
+                    onLoad: 'check-sso'
                 })
             }
         }

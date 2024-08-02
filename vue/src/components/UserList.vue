@@ -9,10 +9,6 @@ const UserMap = defineAsyncComponent(() =>
   import('./UserMap.vue')
 )
 
-const currentPage = ref(1)
-const totalPages = ref(0)
-const pageToJump = ref(null)
-
 var stateObject = {
     isMap: props.isMap,
     currentPage: 1,

@@ -1,41 +1,75 @@
 <script setup>
 
-import { ref, watchEffect, onMounted, computed } from 'vue'
-import { PUBLIC_USER_INFO_URL, ASSETS_URL } from '../constants'
+import { ref } from 'vue'
+import { POST_HIRE } from '../constants'
 import FieldEdit from './FieldEdit.vue'
-import { isEmpty } from '../utils'
+import { post, cleanup, removeEmpty, toJson, removeProps, isEmpty } from '../utils'
+import ActionButtons from './ActionButtons.vue';
+import Spinner from './Spinner.vue';
 
-var model = defineModel()
-var Original = null
+const props = defineProps(['data', 'keycloak'])
+
+const data = ref(cleanup(props.data.Hire))
+const dataOriginal = toJson(data.value)
+
+const loading = ref(false)
 
 function revert()
 {
-    // UserData.value = JSON.parse(Original)
+    data.value = JSON.parse(dataOriginal)
 }
 
-watchEffect(()=>{
-    console.log (model.value)
-})
+async function save()
+{
+    loading.value = true
+    const payload = removeEmpty(data.value)
+    const token = await props.keycloak.getAccessToken()
+    post(POST_HIRE, payload, token, onResponse)
+}
+
+function onResponse(data)
+{
+    loading.value = false
+    console.log (data)
+}
+
+
 </script>
 
 <template>
-        <fieldset class="md-2">
-            <input type="checkbox" class="form-check-input"v-model="model.Hire.available"/>
-            <span class="label">Available for Hire</span>
-        </fieldset>
-        <hr>
-        <fieldset :disabled="!model.Hire.available">
-            <FieldEdit label="Description" v-model="model.Hire.description" :edit="edit" :multi="true"/>
-            <div class="field">
-                <div class="label">
-                    Available for:
+    <template v-if="data">
+        <div :class="loading ? 'disabled' : ''">
+            <div class="row"> 
+                <fieldset class="md-2">
+                    <input type="checkbox" class="form-check-input"v-model="data.available"/>
+                    <span class="label">Available for Hire</span>
+                </fieldset>
+                <hr>
+                <fieldset :disabled="!data.available">
+                    <FieldEdit label="Description" v-model="data.description" :edit="edit" :multi="true"/>
+                    <div class="field">
+                        <div class="label">
+                            Available for:
+                        </div>
+                        <div class="value">
+                            <template v-for="(t, index) in data.type" v-if="data.type!='undefined'">
+                                <span>{{ isEmpty(t) }}</span><template v-if="index+1 < data.type.length">, </template>
+                            </template>
+                            <span v-else>---</span>
+                        </div>
+                    </div> 
+                </fieldset>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
                 </div>
-                <div class="value">
-                    <template v-for="(t, index) in model.Hire.type" v-if="model.Hire.type!='undefined'">
-                        <span>{{ isEmpty(t) }}</span><template v-if="index+1 < model.Hire.type.length">, </template>
-                    </template>
-                    <span v-else>---</span>
+                <div class="col-md-9">
+                    <ActionButtons @save="save" @revert="revert"/>
                 </div>
-            </div> 
-        </fieldset>
+            </div>
+        </div>
+    </template>
+    <template v-else>
+        <Spinner/>
+    </template>
 </template>
