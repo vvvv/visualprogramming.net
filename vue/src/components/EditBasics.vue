@@ -1,12 +1,13 @@
 <script setup>
 
-import { ref } from 'vue'
+import { ref, watchEffect } from 'vue'
 import { ASSETS_URL, POST_BASISC, POST_SOCIAL } from '../constants'
 import { cleanup, post, removeEmpty, toJson, removeProps } from '../utils'
 import FieldEdit from './FieldEdit.vue'
 import ActionButtons from './ActionButtons.vue';
 import SetPositionMap from './SetPositionMap.vue';
 import Spinner from './Spinner.vue';
+import FileUploader from './FileUploader.vue';
 
 const props = defineProps(['data', 'keycloak'])
 
@@ -21,10 +22,20 @@ basicsData.value.coordinates = {coordinates: [0,0], type: "Point"}
 const basicsOriginal = toJson(basicsData.value)
 const socialOriginal = toJson(socialData.value)
 
-const imageParams = "?quality=90&fit=cover&width=120"
-
 const loading = ref(false)
 const address = ref(null)
+const image = ref()
+
+const imageParams = "?quality=90&fit=cover&width=120"
+
+watchEffect(()=>{
+    if (basicsData.value.profilepic !== null)
+    {
+        image.value = `${ASSETS_URL}${basicsData.value.profilepic.image_id}${imageParams}`
+    }
+})
+
+const showMap = false
 
 function revert()
 {
@@ -68,20 +79,27 @@ function setAddress(a)
     address.value = a
 }
 
+function updateImage(uid)
+{
+    image.value = `${ASSETS_URL}${uid.id}${imageParams}`
+    console.log (image.value)
+}
+
+
 </script>
 
 <template>
     <template v-if="basicsData">
         <div :class="loading ? 'disabled' : ''">
             <div class="row">
-                <div class="col-12 col-sm-3 align-center">
+                <div class="col-12 col-sm-3">
                     <div class="row">
-                        <div class="col-12">
-                            <img :src="`${ASSETS_URL}${basicsData.profilepic.image_id}${imageParams}`" v-if="basicsData.profilepic !== 'undefined'" class="rounded-circle img-fluid"/>
-                            <div class="emptypic rounded-circle" v-else></div>
+                        <div class="col-12 text-center">
+                            <img v-if="image" :src="image"  class="rounded-circle"/>
+                            <div v-else class="emptypic rounded-circle center-block"></div>
                         </div>
-                        <div class="col-12">
-                            <a href="#" class="badge badge-dark">Update image</a>
+                        <div class="col-12 text-center mt-2">
+                            <FileUploader :keycloak="props.keycloak" title="Upload Image" @response="updateImage"/>
                         </div>
                     </div>
                 </div>
@@ -123,7 +141,7 @@ function setAddress(a)
                     </template>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" v-if="showMap">
                 <div class="col-md-3 text-right">
                         <span class="label">Location</span>
                 </div>

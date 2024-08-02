@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "watch": "vite build --watch --base=/js/vue",
+    "watch": "vite build --watch --base=/js/vue --emptyOutDir",
     "preview": "vite preview",
     "serve": "serve -s dist -l 5173"
   },
@@ -14,8 +14,7 @@
     "axios": "^1.7.2",
     "keycloak-js": "^25.0.2",
     "leaflet": "^1.9.4",
-    "vue": "^3.4.29",
-    "vue-router": "^4.4.0"
+    "vue": "^3.4.29"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",

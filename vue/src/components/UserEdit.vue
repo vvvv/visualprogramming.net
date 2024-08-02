@@ -14,6 +14,7 @@ var keycloak = null
 
 const isLogged = ref(false)
 const isReady = ref(false)
+const prod = true;
 
 function revert()
 {
@@ -22,7 +23,7 @@ function revert()
 
 function getData()
 {
-    fetch(PUBLIC_USER_INFO_URL + keycloak.getUsername(), 
+    fetch(PUBLIC_USER_INFO_URL + getName(), 
     { 
         cache: "no-store" 
     })
@@ -37,17 +38,35 @@ function getData()
     });
 }
 
+function getName()
+{
+    if (prod)
+    {
+        return keycloak.getUsername()     
+    }
+    return 'antontest'
+}
+
 onMounted(()=>
 {
     //getData();
     //UserData.value = {"Basics":{"username":"antontest","name":"Anton M","homepage":"vvvv.org","statement":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.","coordinates":"{\"coordinates\":[174.88597,-40.90056],\"type\":\"Point\"}","profilepic":{"image_id":"e1409088-c43c-4513-8acc-47f7973ba881"}},"Hire":{"available":true,"type":["remote"],"description":"fsfsdf sdf sd fasf asdf asdf a","date_created":"2024-07-31T08:41:27.000Z","date_updated":null},"SocialNetworks":{"fields":null,"nuget":null,"github":null,"date_updated":"2024-08-01T13:59:34.000Z","date_created":"2024-07-31T08:40:52.000Z"}}
-    keycloak = new KC()
-    keycloak.onAuth = ()=> {
-        isLogged.value = true
-        getData();
+    if (prod)
+    {
+        keycloak = new KC()
+        keycloak.onAuth = ()=> {
+            isLogged.value = true
+            getData();
+        }
+        keycloak.onReady = ()=> {
+            isReady.value = true
+        }
     }
-    keycloak.onReady = ()=> {
-        isReady.value = true
+    else
+    {
+        isLogged.value = true;
+        isReady.value = true;
+        UserData.value = {"Basics":{"username":"antontest","name":"Anton M","homepage":"vvvv.org","statement":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.","coordinates":"{\"coordinates\":[174.88597,-40.90056],\"type\":\"Point\"}","profilepic":{"image_id":"e1409088-c43c-4513-8acc-47f7973ba881"}},"Hire":{"available":true,"type":["remote"],"description":"fsfsdf sdf sd fasf asdf asdf a","date_created":"2024-07-31T08:41:27.000Z","date_updated":null},"SocialNetworks":{"fields":null,"nuget":null,"github":null,"date_updated":"2024-08-01T13:59:34.000Z","date_created":"2024-07-31T08:40:52.000Z"}}
     }
 })
 
@@ -115,7 +134,7 @@ const Header = computed(()=>{
                     <div class="h4 mr-auto">{{ Header }}</div>
                 </div>
             </div>
-            <div class="card-body">
+            <div class="card-body row">
                 <template v-if="isReady">
                     <div class="col"> 
                         <div>Login to edit the data</div>
