@@ -6,6 +6,7 @@ import FieldEdit from './FieldEdit.vue'
 import { isEmpty, toJson, removeProps } from '../utils'
 import ActionButtons from './ActionButtons.vue';
 import SetPositionMap from './SetPositionMap.vue';
+import Spinner from './Spinner.vue';
 
 const props = defineProps(['data'])
 
@@ -127,8 +128,6 @@ function setAddress(a)
 
     </template> 
     <template v-else>
-        <div class="spinner-border" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+        <Spinner/>
     </template>
 </template>

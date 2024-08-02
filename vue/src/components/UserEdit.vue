@@ -6,6 +6,7 @@
     import EditHire from './EditHire.vue'
     import EditBasics from './EditBasics.vue'
     import EditNavi from './EditNavi.vue'
+import Spinner from './Spinner.vue'
 
     const UserData = ref(null)
     var Original = null
@@ -99,9 +100,7 @@
                     </div>
                 </template>
                 <template v-else>
-                    <div class="spinner-border" role="status">
-                        <span class="sr-only">Loading...</span>
-                    </div>
+                    <Spinner/>
                 </template>
             </div>
         </div>
@@ -121,9 +120,7 @@
                     </div>
                 </template>
                 <template v-else>
-                    <div class="spinner-border" role="status">
-                        <span class="sr-only">Loading...</span>
-                    </div>
+                    <Spinner/>
                 </template>
             </div>
         </div>
