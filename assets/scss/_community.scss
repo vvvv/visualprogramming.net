@@ -53,9 +53,7 @@ $label: #888;
 
             input, textarea {
                 background-color: #333;
-                color: #ccc;
-                border: none;
-                border-radius: 2px;
+                color: #ddd;
             }
 
             .h4{
@@ -71,7 +69,6 @@ $label: #888;
             .label
             {
                 color: #aaa;
-                margin-bottom: 0.5em;
             }
         }
 
@@ -131,6 +128,13 @@ $label: #888;
         border-radius: 5px;
         box-shadow: 0px 0px 6px #dfdfdf;
         min-height: 45em;
+
+        input, textarea {
+            background-color: #eee;
+            color: #222;
+            border: none;
+            border-radius: 2px;
+        }
     }
 
     .emptypic
@@ -144,6 +148,7 @@ $label: #888;
     {
         font-size: 0.8em;
         color: $label;
+        margin-bottom: 0.5em;
     }
 
     .field
