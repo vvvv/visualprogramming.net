@@ -1,7 +1,7 @@
 <script setup>
 
 import { ref, watchEffect, onMounted, computed, defineModel } from 'vue'
-import { PUBLIC_USER_INFO_URL, ASSETS_URL } from '../constants'
+import { PUBLIC_USER_INFO_URL, CONSTANTS_URL, ASSETS_URL } from '../constants'
 import KC from '../keycloak'
 import EditHire from './EditHire.vue'
 import EditBasics from './EditBasics.vue'
@@ -9,6 +9,7 @@ import EditNavi from './EditNavi.vue'
 import Spinner from './Spinner.vue'
 
 const UserData = ref(null)
+const Constants = ref(null)
 var Original = null
 var keycloak = null
 
@@ -16,9 +17,17 @@ const isLogged = ref(false)
 const isReady = ref(false)
 const prod = true;
 
-function revert()
+function getConstants()
 {
-    UserData.value = JSON.parse(Original)
+    fetch(CONSTANTS_URL)
+    .then((response) => {
+        response.json().then((data) => {
+            Constants.value = data.Constants
+        })
+    })
+    .catch((err) => {
+        console.error(err);
+    });
 }
 
 function getData()
@@ -56,7 +65,8 @@ onMounted(()=>
         keycloak = new KC()
         keycloak.onAuth = ()=> {
             isLogged.value = true
-            getData();
+            getConstants()
+            getData()
         }
         keycloak.onReady = ()=> {
             isReady.value = true
@@ -112,12 +122,12 @@ const Header = computed(()=>{
             </div>    
             <hr/>
             <div class="card-body row">
-                <template v-if="UserData">
+                <template v-if="UserData && Constants">
                     <div class="col-12 col-md-5 col-lg-4 col-xl-3">
                         <EditNavi v-model="active"/>
                     </div>
                     <div class="col-12 col-md-7 col-lg-8 col-xl-9 mb-4">
-                        <component :is="activeSection" :data="UserData" :keycloak="keycloak"></component>
+                        <component :is="activeSection" :data="UserData" :constants="Constants" :keycloak="keycloak"></component>
                         <ActionButtons />
                     </div>
                 </template>

@@ -7,7 +7,7 @@ import { post, cleanup, removeEmpty, toJson, removeProps, isEmpty } from '../uti
 import ActionButtons from './ActionButtons.vue';
 import Spinner from './Spinner.vue';
 
-const props = defineProps(['data', 'keycloak'])
+const props = defineProps(['data', 'keycloak', 'constants'])
 
 const data = ref(cleanup(props.data.Hire))
 const dataOriginal = toJson(data.value)
@@ -24,7 +24,7 @@ async function save()
     loading.value = true
     const payload = removeEmpty(data.value)
     const token = await props.keycloak.getAccessToken()
-    post(POST_HIRE, payload, token, onResponse)
+    post (POST_HIRE, payload, token, onResponse)
 }
 
 function onResponse(data)
@@ -33,37 +33,62 @@ function onResponse(data)
     console.log (data)
 }
 
+function updateTypes(t)
+{
+    if (data.value.type.includes(t))
+    {
+        data.value.type = data.value.type.filter( (e) => e != t )
+    }
+    else
+    {
+        data.value.type.push(t)
+    }
+}
+
 
 </script>
 
 <template>
     <template v-if="data">
         <div :class="loading ? 'disabled' : ''">
-            <div class="row"> 
-                <fieldset class="md-2">
-                    <input type="checkbox" class="form-check-input"v-model="data.available"/>
-                    <span class="label">Available for Hire</span>
-                </fieldset>
-                <hr>
-                <fieldset :disabled="!data.available">
-                    <FieldEdit label="Description" v-model="data.description" :edit="edit" :multi="true"/>
-                    <div class="field">
-                        <div class="label">
-                            Available for:
-                        </div>
-                        <div class="value">
-                            <template v-for="(t, index) in data.type" v-if="data.type!='undefined'">
-                                <span>{{ isEmpty(t) }}</span><template v-if="index+1 < data.type.length">, </template>
-                            </template>
-                            <span v-else>---</span>
-                        </div>
-                    </div> 
-                </fieldset>
+            <div class="row">
+                <div class="col-5 btn-group btn-group-toggle">
+                        <label class="btn" :class="data.available ? 'btn-secondary active' : 'btn-outline-secondary'">
+                            <input type="radio" :checked="data.available" @click="data.available=!data.available"> Available For Hire
+                        </label>
+                        <label class="btn" :class="!data.available ? 'btn-secondary active' : 'btn-outline-secondary'">
+                            <input type="radio" :checked="!data.available" @click="data.available=!data.available"> Not Available
+                        </label>
+                </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-12">
+                    <FieldEdit label="Description" v-model="data.description" :edit="edit" :multi="true"/>
                 </div>
-                <div class="col-md-9">
+                <div class="col-6">
+                    <FieldEdit label="Contact" v-model="data.contact"/>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="label">Available for:</div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <a v-for="t in props.constants.hire_Type" 
+                                        href="#"
+                                        @click="updateTypes(t.value)" 
+                                        class="badge badge-pill mr-2" 
+                                        :class="data.type.includes(t.value) ? 'badge-light' : 'badge-dark'">
+                                    {{ t.text }}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
                     <ActionButtons @save="save" @revert="revert"/>
                 </div>
             </div>
