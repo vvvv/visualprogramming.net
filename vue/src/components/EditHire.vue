@@ -9,7 +9,14 @@ import Spinner from './Spinner.vue';
 
 const props = defineProps(['data', 'keycloak', 'constants'])
 
-const data = ref(cleanup(props.data.Hire))
+const defaultData = {
+    available: false,
+    description: '',
+    type: [],
+    contact: ''
+}
+
+const data = ref(cleanup(props.data.basics.value.Hire || defaultData))
 const dataOriginal = toJson(data.value)
 
 const loading = ref(false)
@@ -51,37 +58,41 @@ function updateTypes(t)
 <template>
     <template v-if="data">
         <div :class="loading ? 'disabled' : ''">
-            <div class="row">
-                <div class="col-5 btn-group btn-group-toggle">
+            <div class="row mb-3">
+                <div class="col-12">
+                    <div class="btn-group btn-group-toggle">
                         <label class="btn" :class="data.available ? 'btn-secondary active' : 'btn-outline-secondary'">
-                            <input type="radio" :checked="data.available" @click="data.available=!data.available"> Available For Hire
+                            <input type="radio" :checked="data.available" @click="data.available=!data.available"> Available
                         </label>
                         <label class="btn" :class="!data.available ? 'btn-secondary active' : 'btn-outline-secondary'">
                             <input type="radio" :checked="!data.available" @click="data.available=!data.available"> Not Available
                         </label>
+                    </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" :class="data.available ? '' : 'disabled'">
                 <div class="col-12">
                     <FieldEdit label="Description" v-model="data.description" :edit="edit" :multi="true"/>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6">
                     <FieldEdit label="Contact" v-model="data.contact"/>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6">
                     <div class="row">
                         <div class="col-12">
                             <div class="label">Available for:</div>
                         </div>
                         <div class="col-12">
                             <div class="row">
-                                <a v-for="t in props.constants.hire_Type" 
-                                        href="#"
-                                        @click="updateTypes(t.value)" 
-                                        class="badge badge-pill mr-2" 
-                                        :class="data.type.includes(t.value) ? 'badge-light' : 'badge-dark'">
-                                    {{ t.text }}
-                                </a>
+                                <div class="col-12">
+                                    <a v-for="t in props.constants.hire_Type" 
+                                            href="#"
+                                            @click="updateTypes(t.value)" 
+                                            class="badge badge-pill mr-2 mb-1" 
+                                            :class="data.type.includes(t.value) ? 'badge-light' : 'badge-dark'">
+                                        {{ t.text }}
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

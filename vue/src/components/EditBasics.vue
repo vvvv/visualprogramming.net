@@ -11,8 +11,8 @@ import FileUploader from './FileUploader.vue';
 
 const props = defineProps(['data', 'keycloak'])
 
-const basicsData = ref(cleanup(props.data.Basics))
-const socialData = ref(cleanup(props.data.SocialNetworks))
+const basicsData = ref(cleanup(props.data.basics.value.Basics))
+const socialData = ref(cleanup(props.data.basics.value.SocialNetworks))
 
 const basicsOriginal = toJson(basicsData.value)
 const socialOriginal = toJson(socialData.value)
@@ -111,7 +111,7 @@ function updateImage(uid)
     <template v-if="basicsData">
         <div :class="loading ? 'disabled' : ''">
             <div class="row">
-                <div class="col-12 col-sm-3">
+                <div class="col-12 col-lg-3">
                     <div class="row">
                         <div class="col-12 text-center">
                             <img v-if="image" :src="image"  class="rounded-circle"/>
@@ -119,10 +119,10 @@ function updateImage(uid)
                         </div>
                         <div class="col-12 text-center mt-2">
                             <FileUploader :keycloak="props.keycloak" title="Upload Image" @response="updateImage"/>
-                        </div>
+                    </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-9">
+                <div class="col-12 col-lg-9">
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <FieldEdit label="Real Name" v-model="basicsData.name"/>
@@ -136,18 +136,18 @@ function updateImage(uid)
                 </div>
             </div>
             <div class="row mb-3">
-                <div class="col-md-3 text-right">
+                <div class="col-lg-3 text-lg-right">
                     <span class="label">Statement</span>
                 </div>
-                <div class="col-md-9">
+                <div class="col-lg-9">
                     <textarea class="form-control form-control-sm" rows="5" v-model="basicsData.statement">{{ basicsData.statement }}</textarea>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 text-right">
+                <div class="col-lg-3 text-lg-right">
                     <span class="label">Custom Fields</span>
                 </div>
-                <div class="col-md-9">
+                <div class="col-lg-9">
                     <template v-for="(key, index) in socialData.fields">
                         <div class="form-row" :class="index+1 < socialData.fields.length ? 'mb-3' : ''">
                                 <div class="form-group col-4">
@@ -161,10 +161,10 @@ function updateImage(uid)
                 </div>
             </div>
             <div class="row" v-if="showMap">
-                <div class="col-md-3 text-right">
+                <div class="col-lg-3 text-lg-right">
                         <span class="label">Location</span>
                 </div>
-                <div class="col-md-9">
+                <div class="col-lg-9">
                     <SetPositionMap @address="setAddress" @center="setCenter" :coords="basicsData.coordinates.coordinates"/>
                     <div v-if="address != null" class="mt-2">
                         {{ address.display_name }}
@@ -172,9 +172,9 @@ function updateImage(uid)
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-lg-3">
                 </div>
-                <div class="col-md-9">
+                <div class="col-lg-9">
                     <ActionButtons @save="save" @revert="revert"/>
                 </div>
             </div>
