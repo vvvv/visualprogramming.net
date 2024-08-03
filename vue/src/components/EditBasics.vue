@@ -1,6 +1,6 @@
 <script setup>
 
-import { ref, watchEffect } from 'vue'
+import { ref, watchEffect, onMounted } from 'vue'
 import { ASSETS_URL, POST_BASISC, POST_SOCIAL } from '../constants'
 import { cleanup, post, removeEmpty, toJson, removeProps } from '../utils'
 import FieldEdit from './FieldEdit.vue'
@@ -14,11 +14,6 @@ const props = defineProps(['data', 'keycloak'])
 const basicsData = ref(cleanup(props.data.Basics))
 const socialData = ref(cleanup(props.data.SocialNetworks))
 
-/// move these to the data loader in the parent
-const array = props.data.SocialNetworks.fields || [];
-socialData.value.fields =  Array(4).fill(null).map((_, index) => array[index] || { key:'', value:''});
-basicsData.value.coordinates = {coordinates: [0,0], type: "Point"}
-
 const basicsOriginal = toJson(basicsData.value)
 const socialOriginal = toJson(socialData.value)
 
@@ -27,6 +22,27 @@ const address = ref(null)
 const image = ref()
 
 const imageParams = "?quality=90&fit=cover&width=120"
+const showMap = false
+
+onMounted(()=>{
+    
+    basicsData.value.coordinates = {coordinates: [0,0], type: "Point"}
+
+    const EmptyField = { key: '', value: '' }
+
+    if (socialData.value.fields !== null)
+    {
+        var f = socialData.value.fields
+
+        f = new Array(4).fill().map ((index) => { 
+            f[index] != null || f[index] != 'undefined' ? f[index] : Object.create(EmptyField)  
+        })
+    }
+    else
+    {
+        socialData.value.fields = new Array(4).fill().map( (obj) => Object.create(EmptyField))
+    }
+})
 
 watchEffect(()=>{
     if (basicsData.value.profilepic !== null)
@@ -35,7 +51,7 @@ watchEffect(()=>{
     }
 })
 
-const showMap = false
+
 
 function revert()
 {
@@ -45,6 +61,9 @@ function revert()
 
 async function save()
 {
+
+    console.log (socialData.value.fields)
+
     loading.value = true
     var payload = ""
 
