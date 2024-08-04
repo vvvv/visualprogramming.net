@@ -1,24 +1,43 @@
 <script setup>
 
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import { POST_WORKSFOR } from '../constants'
 import FieldEdit from './FieldEdit.vue'
 import { post, cleanup, removeEmpty, toJson, removeProps, isEmpty } from '../utils'
 import ActionButtons from './ActionButtons.vue';
 import Spinner from './Spinner.vue';
 
-const props = defineProps(['data', 'constants', 'keycloak'])
+const props = defineProps(['data', 'keycloak'])
 
-const defaultData = new Array()
+const data = ref(new Array())
 
-const data = ref(cleanup(props.data.worksfor.value || defaultData))
-const dataOriginal = toJson(data.value)
+var constants
+var dataOriginal
 
 const loading = ref(false)
 
 onMounted(()=>{
-    console.log (data.value)
+    constants = props.data.constants.value
+
+    data.value = data.value.concat(pickEntities(props.data.basics.value.User_Company, 'User_Company_id'))
+    data.value = data.value.concat(pickEntities(props.data.basics.value.User_Edu, 'User_Edu_id'))
+    dataOriginal = toJson(data.value)
 })
+
+function pickEntities(elements, rootElement)
+{
+    var res = new Array()
+    if (elements)
+    {
+        for (var e of elements)
+        {
+            const c = e[rootElement]
+            const role = constants.company_Roles[c.role-1].role
+            res.push({role: role, name: c.entity.name, confirmed: false}) 
+        }
+    }
+    return res
+}
 
 function revert()
 {
@@ -52,7 +71,7 @@ function onResponse(data)
                     <span> {{ d.name }}</span>
                 </div>
                 <div class="col-12 col-lg-3">
-                    {{ props.constants.company_Roles[d.role].role }}
+                    {{ d.role }}
                 </div>
                 <div class="col-12 col-lg-3 text-lg-right">
                     <span class="mr-2">Confirmed:</span>

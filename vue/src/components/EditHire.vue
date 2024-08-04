@@ -7,7 +7,7 @@ import { post, cleanup, removeEmpty, toJson, removeProps, isEmpty } from '../uti
 import ActionButtons from './ActionButtons.vue';
 import Spinner from './Spinner.vue';
 
-const props = defineProps(['data', 'keycloak', 'constants'])
+const props = defineProps(['data', 'keycloak'])
 
 const defaultData = {
     available: false,
@@ -18,6 +18,7 @@ const defaultData = {
 
 const data = ref(cleanup(props.data.basics.value.Hire || defaultData))
 const dataOriginal = toJson(data.value)
+const constants = props.data.constants.value
 
 const loading = ref(false)
 
@@ -85,7 +86,7 @@ function updateTypes(t)
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12">
-                                    <a v-for="t in props.constants.hire_Type" 
+                                    <a v-for="t in constants.hire_Type" 
                                             href="#"
                                             @click="updateTypes(t.value)" 
                                             class="badge badge-pill mr-2 mb-1" 

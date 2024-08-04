@@ -1,7 +1,7 @@
 <script setup>
 
 import { ref, watchEffect, onMounted, computed } from 'vue'
-import { PUBLIC_USER_INFO_URL, CONSTANTS_URL, ASSETS_URL, WORKSFOR_URL } from '../constants'
+import { GET_PROFILE_DATA, CONSTANTS_URL } from '../constants'
 import KC from '../keycloak'
 import EditHire from './EditHire.vue'
 import EditBasics from './EditBasics.vue'
@@ -10,12 +10,11 @@ import Spinner from './Spinner.vue'
 import EditWorksFor from './EditWorksFor.vue'
 
 const UserData = ref(null)
-const WorksFor = ref(null)
 const Constants = ref(null)
 const activeSection = ref(null)
 const currentRoute = ref('Basics')
 var mainDiv = null
-const data = { basics: UserData, worksfor: WorksFor }
+const data = { basics: UserData, constants: Constants }
 
 var keycloak = null
 
@@ -24,9 +23,9 @@ const isReady = ref(false)
 const prod = true;
 
 const routes = {
-    'Basics':EditBasics,
-    'For Hire':EditHire,
-    'Works for':EditWorksFor
+    'Basics' : EditBasics,
+    'For Hire' : EditHire,
+    'Works for' : EditWorksFor
 }
 
 function getConstants()
@@ -43,26 +42,26 @@ function getConstants()
 }
 
 
-function getWorksFor()
-{
-    fetch(WORKSFOR_URL + getUsername(), 
-    { 
-        cache: "no-store" 
-    })
-    .then((response) => {
-        response.json().then((data) => {
-            WorksFor.value = data
-            console.log (data)
-        })
-    })
-    .catch((err) => {
-        console.error(err);
-    });
-}
+// function getWorksFor()
+// {
+//     fetch(WORKSFOR_URL + getUsername(), 
+//     { 
+//         cache: "no-store" 
+//     })
+//     .then((response) => {
+//         response.json().then((data) => {
+//             WorksFor.value = data
+//             console.log (data)
+//         })
+//     })
+//     .catch((err) => {
+//         console.error(err);
+//     });
+// }
 
 function getBasics()
 {
-    fetch(PUBLIC_USER_INFO_URL + getUsername(), 
+    fetch(GET_PROFILE_DATA + getUsername(), 
     { 
         cache: "no-store" 
     })
@@ -96,7 +95,7 @@ onMounted(()=>
             isLogged.value = true
             getConstants()
             getBasics()
-            getWorksFor()
+            // getWorksFor()
         }
         keycloak.onReady = ()=> {
             isReady.value = true
@@ -157,7 +156,7 @@ function switchTheme()
                         <EditNavi v-model="currentRoute"/>
                     </div>
                     <div class="col-12 col-md-7 col-lg-8 col-xl-9 mb-4">
-                        <component :is="activeSection" :data="data" :constants="Constants" :keycloak="keycloak"></component>
+                        <component :is="activeSection" :data="data" :keycloak="keycloak"></component>
                         <ActionButtons />
                     </div>
                 </template>
