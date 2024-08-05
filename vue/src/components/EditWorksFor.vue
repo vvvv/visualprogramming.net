@@ -1,15 +1,16 @@
 <script setup>
 
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, watchEffect } from 'vue'
 import { POST_WORKSFOR } from '../constants'
-import FieldEdit from './FieldEdit.vue'
 import { post, cleanup, removeEmpty, toJson, removeProps, isEmpty } from '../utils'
-import ActionButtons from './ActionButtons.vue';
-import Spinner from './Spinner.vue';
+import ActionButtons from './ActionButtons.vue'
+import WorksForItem from './WorksForItem.vue'
+import Spinner from './Spinner.vue'
+
 
 const props = defineProps(['data', 'keycloak'])
 
-const data = ref(new Array())
+const data = ref({ companies: new Array(), edus: new Array()})
 
 var constants
 var dataOriginal
@@ -19,8 +20,8 @@ const loading = ref(false)
 onMounted(()=>{
     constants = props.data.constants.value
 
-    data.value = data.value.concat(pickEntities(props.data.basics.value.User_Company, 'User_Company_id'))
-    data.value = data.value.concat(pickEntities(props.data.basics.value.User_Edu, 'User_Edu_id'))
+    data.value.companies = pickEntities(props.data.basics.value.User_Company, 'User_Company_id')
+    data.value.edus = pickEntities(props.data.basics.value.User_Edu, 'User_Edu_id')
     dataOriginal = toJson(data.value)
 })
 
@@ -32,8 +33,14 @@ function pickEntities(elements, rootElement)
         for (var e of elements)
         {
             const c = e[rootElement]
-            const role = constants.company_Roles[c.role-1].role
-            res.push({role: role, name: c.entity.name, confirmed: false}) 
+            if (c !== null)
+            {
+                if (c.role > 1)
+                {
+                    const role = constants.company_Roles[c.role-1].role
+                    res.push({role: role, name: c.entity.name, uuid: c.uuid, confirmed: c.confirmed}) 
+                }
+            }
         }
     }
     return res
@@ -47,48 +54,49 @@ function revert()
 async function save()
 {
     loading.value = true
-    const payload = data.value.map ((e)=>({
+
+    const companies = data.value.companies.map ((e)=>({
+        collection: 'User_Company',
         uuid: e.uuid,
         confirmed: e.confirmed
     }))
+
+    const edus = data.value.edus.map ((e)=>({
+        collection: 'User_Edu',
+        uuid: e.uuid,
+        confirmed: e.confirmed
+    }))
+
+    const payload = companies.concat(edus)
+
     const token = await props.keycloak.getAccessToken()
     post (POST_WORKSFOR, payload, token, onResponse)
 }
 
-function onResponse(data)
+function onResponse()
 {
     loading.value = false
-    console.log (data)
 }
+
 
 </script>
 
 <template>
     <template v-if="data">
         <div :class="loading ? 'disabled' : ''">
-            <div v-for="d in data" class="row align-items-center">
-                <div class="col-12 col-lg-3">
-                    <span> {{ d.name }}</span>
-                </div>
-                <div class="col-12 col-lg-3">
-                    {{ d.role }}
-                </div>
-                <div class="col-12 col-lg-3 text-lg-right">
-                    <span class="mr-2">Confirmed:</span>
-                </div>
-                <div class="col-12 col-lg-3">
-                    <div class="btn-group btn-group-sm btn-group-toggle">
-                        <label class="btn" :class="d.confirmed ? 'btn-secondary active' : 'btn-outline-secondary'">
-                            <input type="radio" :checked="d.confirmed" @click="d.confirmed=!d.confirmed"> Yes
-                        </label>
-                        <label class="btn" :class="!d.confirmed ? 'btn-secondary active' : 'btn-outline-secondary'">
-                            <input type="radio" :checked="!d.confirmed" @click="d.confirmed=!d.confirmed"> No
-                        </label>
-                    </div>
-                </div>
-                <hr class="d-block d-lg-none"/>
+            <div class="h4">Companies</div>
+            <div v-for="(c, index) in data.companies" class="mb-2">
+                <WorksForItem v-model="data.companies[index]"/>
+                <hr v-if="index+1 < data.companies.length" class="mt-4"/>
             </div>
             
+            <hr v-if="data.edus.length > 0" class="my-4"/>
+            <div class="h4">Educational Institutions</div>
+            <div v-for="(c, index) in data.edus" class="mb-2">
+                <WorksForItem v-model="data.edus[index]"/>
+                <hr v-if="index+1 < data.length" class="mt-4"/>
+            </div>
+
             <div class="row">
                 <div class="col-12">
                     <ActionButtons @save="save" @revert="revert"/>

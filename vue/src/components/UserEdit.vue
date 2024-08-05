@@ -1,7 +1,7 @@
 <script setup>
 
 import { ref, watchEffect, onMounted, computed } from 'vue'
-import { GET_PROFILE_DATA, CONSTANTS_URL } from '../constants'
+import { RETRIEVE_PROFILE_DATA, CONSTANTS_URL } from '../constants'
 import KC from '../keycloak'
 import EditHire from './EditHire.vue'
 import EditBasics from './EditBasics.vue'
@@ -41,33 +41,22 @@ function getConstants()
     });
 }
 
-
-// function getWorksFor()
-// {
-//     fetch(WORKSFOR_URL + getUsername(), 
-//     { 
-//         cache: "no-store" 
-//     })
-//     .then((response) => {
-//         response.json().then((data) => {
-//             WorksFor.value = data
-//             console.log (data)
-//         })
-//     })
-//     .catch((err) => {
-//         console.error(err);
-//     });
-// }
-
-function getBasics()
+async function getData()
 {
-    fetch(GET_PROFILE_DATA + getUsername(), 
-    { 
-        cache: "no-store" 
+    const token = await keycloak.getAccessToken()
+
+    var body = JSON.stringify({
+            Token: token,
+        })
+
+    fetch(RETRIEVE_PROFILE_DATA, {
+        headers: { "Content-Type": "application/json" },
+        method: "POST",
+        body: body
     })
     .then((response) => {
         response.json().then((data) => {
-            UserData.value = data.data[0]
+            UserData.value = data[0]
         })
     })
     .catch((err) => {
@@ -94,8 +83,7 @@ onMounted(()=>
         keycloak.onAuth = ()=> {
             isLogged.value = true
             getConstants()
-            getBasics()
-            // getWorksFor()
+            getData()
         }
         keycloak.onReady = ()=> {
             isReady.value = true

@@ -78,6 +78,7 @@ class KC
             {
                 this.keycloak.init({
                     onLoad: 'check-sso',
+                    silentCheckSsoRedirectUri: `${location.origin}/silent-check-sso.html`,
                     token: this.tokens.at, 
                     refreshToken: this.tokens.rt, 
                     checkLoginIframe: false
@@ -86,7 +87,8 @@ class KC
             else
             {
                 this.keycloak.init({
-                    onLoad: 'check-sso'
+                    onLoad: 'check-sso',
+                    silentCheckSsoRedirectUri: `${location.origin}/silent-check-sso.html`
                 })
             }
         }
