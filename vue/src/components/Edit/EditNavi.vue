@@ -1,5 +1,5 @@
 <script setup>
-import { SECTIONS } from '../constants'
+import { SECTIONS } from '../../constants'
 import { defineModel } from 'vue'
 
 const sections = SECTIONS;

@@ -4,7 +4,7 @@ import Home from './Pages/Home.vue'
 import Business from './Pages/Business.vue'
 import Users from './Pages/Users.vue'
 import Professionals from './Pages/Professionals.vue'
-import UserEdit from './components/UserEdit.vue'
+import UserEdit from './components/Edit/UserEdit.vue'
 const props = defineProps(['page'])
 
 const currentView = computed(() => {

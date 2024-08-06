@@ -2,7 +2,7 @@
 
 import { defineProps, defineEmits} from 'vue'
 
-import { FILE_UPLOAD_URL, USERPIC_FOLDER } from '../constants'
+import { FILE_UPLOAD_URL, USERPIC_FOLDER } from '../../constants'
 
 const props = defineProps (['keycloak', 'title'])
 const events = defineEmits (['response'])

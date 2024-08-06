@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted, defineProps, defineModel, defineEmits, watch } from 'vue'
-import { OSM_URL, OSM_COPY, NOMINATIM_URL } from '../constants'
+import { OSM_URL, OSM_COPY, NOMINATIM_URL } from '../../constants'
 
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";

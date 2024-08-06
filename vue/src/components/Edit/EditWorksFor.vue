@@ -1,27 +1,24 @@
 <script setup>
 
 import { ref, onMounted, watchEffect } from 'vue'
-import { POST_WORKSFOR } from '../constants'
-import { post, cleanup, removeEmpty, toJson, removeProps, isEmpty } from '../utils'
+import { POST_WORKSFOR } from '../../constants'
+import { post, cleanup, removeEmpty, toJson, removeProps, isEmpty } from '../../utils'
 import ActionButtons from './ActionButtons.vue'
 import WorksForItem from './WorksForItem.vue'
-import Spinner from './Spinner.vue'
-
+import Spinner from '../Spinner.vue'
 
 const props = defineProps(['data', 'keycloak'])
 
 const data = ref({ companies: new Array(), edus: new Array()})
 
-var constants
+const constants = props.data.constants.value
 var dataOriginal
 
 const loading = ref(false)
 
 onMounted(()=>{
-    constants = props.data.constants.value
-
-    data.value.companies = pickEntities(props.data.basics.value.User_Company, 'User_Company_id')
-    data.value.edus = pickEntities(props.data.basics.value.User_Edu, 'User_Edu_id')
+    data.value.companies = pickEntities(props.data.user.value.User_Company, 'User_Company_id')
+    data.value.edus = pickEntities(props.data.user.value.User_Edu, 'User_Edu_id')
     dataOriginal = toJson(data.value)
 })
 

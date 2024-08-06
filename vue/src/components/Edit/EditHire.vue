@@ -1,11 +1,11 @@
 <script setup>
 
 import { ref } from 'vue'
-import { POST_HIRE } from '../constants'
+import { POST_HIRE } from '../../constants'
 import FieldEdit from './FieldEdit.vue'
-import { post, cleanup, removeEmpty, toJson, removeProps, isEmpty } from '../utils'
+import { post, cleanup, removeEmpty, toJson, removeProps, isEmpty } from '../../utils'
 import ActionButtons from './ActionButtons.vue';
-import Spinner from './Spinner.vue';
+import Spinner from '../Spinner.vue';
 
 const props = defineProps(['data', 'keycloak'])
 
@@ -16,7 +16,7 @@ const defaultData = {
     contact: ''
 }
 
-const data = ref(cleanup(props.data.basics.value.Hire || defaultData))
+const data = ref(cleanup(props.data.user.value.Hire || defaultData))
 const dataOriginal = toJson(data.value)
 const constants = props.data.constants.value
 

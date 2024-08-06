@@ -1,18 +1,18 @@
 <script setup>
 
 import { ref, watchEffect, onMounted } from 'vue'
-import { ASSETS_URL, POST_BASISC, POST_SOCIAL } from '../constants'
-import { cleanup, post, removeEmpty, toJson, removeProps } from '../utils'
+import { ASSETS_URL, POST_BASISC, POST_SOCIAL } from '../../constants'
+import { cleanup, post, removeEmpty, toJson, removeProps } from '../../utils'
 import FieldEdit from './FieldEdit.vue'
 import ActionButtons from './ActionButtons.vue';
 import SetPositionMap from './SetPositionMap.vue';
-import Spinner from './Spinner.vue';
+import Spinner from '../Spinner.vue';
 import FileUploader from './FileUploader.vue';
 
 const props = defineProps(['data', 'keycloak'])
 
-const basicsData = ref(cleanup(props.data.basics.value.Basics))
-const socialData = ref(cleanup(props.data.basics.value.SocialNetworks))
+const basicsData = ref(cleanup(props.data.user.value.Basics))
+const socialData = ref(cleanup(props.data.user.value.SocialNetworks))
 
 const basicsOriginal = toJson(basicsData.value)
 const socialOriginal = toJson(socialData.value)

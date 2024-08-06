@@ -1,6 +1,6 @@
 <script setup>
 import { defineModel } from 'vue'
-import Field from './Field.vue'
+import Field from '../Field.vue'
 
 const model = defineModel()
 </script>
