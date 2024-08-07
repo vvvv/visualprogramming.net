@@ -10,6 +10,13 @@ $label: #888;
 
 #ProfileEditor{
 
+    min-height: 45em;
+
+    .profileCard
+    {
+        min-height: 45em;
+    }
+
     &.darkMode{
         color: #fff;
         background-color: #363636;
@@ -45,11 +52,19 @@ $label: #888;
 
         }
 
+        .shadow
+        {
+            box-shadow: 0px 0px 10px #303030 !important;
+        }
+
         .card
         {
+            &.personCard
+            {
+                background-color: #555;
+            }
+
             background-color: #444;
-            box-shadow: 0px 0px 10px #303030 !important;
-            //box-shadow: none !important;
 
             input, textarea {
                 background-color: #333;
@@ -131,11 +146,14 @@ $label: #888;
         }
     }
 
+    .shadow
+    {
+        box-shadow: 0px 0px 6px #dfdfdf;
+    }
+
     .card
     {
         border-radius: 5px;
-        box-shadow: 0px 0px 6px #dfdfdf;
-        min-height: 45em;
 
         input, textarea {
             background-color: #eee;

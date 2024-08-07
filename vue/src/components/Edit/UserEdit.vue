@@ -134,7 +134,7 @@ function switchTheme()
 <template>
     <template v-if="isLogged">
         <button class="btn btn-sm btn-outline-secondary" @click="switchTheme">{{ theme ? "Light" : "Dark" }}</button>
-        <div class="card mt-2">
+        <div class="card mt-2 shadow profileCard">
             <div class="card-header">
                 <div class="row mx-1">
                     <div class="h4 mr-auto">{{ Header }}</div>
@@ -161,7 +161,7 @@ function switchTheme()
         </div>
     </template>
     <template v-else>
-        <div class="card">
+        <div class="card shadow profileCard">
             <div class="card-header">
                 <div class="row mx-1">
                     <div class="h4 mr-auto">{{ Header }}</div>

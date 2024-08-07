@@ -1,20 +1,27 @@
 <script setup>
 
-import { ref, defineProps, computed, defineExpose, defineModel } from 'vue'
-import { POST_WORKSFOR } from '../../constants'
-import { post, cleanup, removeEmpty, toJson, removeProps, isEmpty } from '../../utils'
-import ActionButtons from './ActionButtons.vue'
+import { ref, defineProps, computed, defineModel } from 'vue'
 import FieldEdit from './FieldEdit.vue'
 import Dropdown from './Dropdown.vue'
+import { toJson } from '../../utils';
 
 const props = defineProps(['roles'])
 const model = defineModel()
+const original = toJson(model.value)
 const role = ref(model.value.role-1)
 const roles = props.roles.map((e) => e.role)
+const isEdit = ref(false)
 
-function edit ()
+function edit()
 {
-    emit('edit')
+    model.value.isEdited = true
+    isEdit.value = true
+}
+
+function revert()
+{
+    model.value = JSON.parse(original)
+    isEdit.value = false
 }
 
 function updateRole(index)
@@ -26,31 +33,29 @@ function updateRole(index)
 </script>
 
 <template>
-    <!-- E-Mail -->
-    <div class="row">
-        <div class="col-3" v-if="model.isNew">
-            <input class="form-control form-control-sm" v-model="model.user.email" :placeholder="E-Mail"/>
-        </div>
-        <div v-else>
-            {{ model.user.email }}
-        </div>
+     <div :class="isEdit || model.isNew ? '' : 'disabled'">
+        <!-- EMAIL -->
+        <div class="label">E-Mail</div>
+        <input class="form-control form-control-sm" v-model="model.user.email"/>
 
-        <!-- Role -->
-        <div class="col-3" v-if="model.isNew || model.isEdit">
-            <Dropdown :index="role" :values="roles" :update="updateRole" />
+        <div class="row mt-2">
+            <div class="col-6">
+                <!-- ROLE -->
+                <div class="label">Role</div>
+                <Dropdown :index="role" :values="roles" :update="updateRole"/>
+            </div>
+            <div class="col-6">
+                <!-- STATUS -->
+                <div class="label">Status</div>
+                <div>{{ model.user.status }}</div>
+            </div>
         </div>
-        <div class="col-3" v-else>
-            {{ roles[model.role] }}
-        </div>
+    </div>
 
-        <!-- Status -->
-        <div class="col-3">
-            {{ model.user.status }}
-        </div>
+    <hr class="my-2">
 
-        <div class="col-3">
-            <div v-if="!model.isNew && !model.isEdit" class="btn btn-sm" @click="edit">Edit</div>
-            <div class="btn btn-sm" @click="model.isDeleted = true">Delete</div>
-        </div>
-     </div>
+    <!-- EDIT / DELETE -->
+    <div v-if="!model.isNew && !isEdit" class="btn btn-sm btn-outline-secondary mr-2" @click="edit">Edit</div>
+    <div v-if="isEdit" class="btn btn-sm btn-outline-secondary mr-2" @click="revert">Cancel</div>
+    <div class="btn btn-sm btn-outline-secondary" @click="model.isDeleted = true">Delete</div>
 </template>
