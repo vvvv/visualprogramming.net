@@ -33,7 +33,7 @@ function revert()
 function addPerson()
 {
     const newEmployee = { 
-        entity: props.data.users[0].entity, 
+        entity: data.value.entity.id, 
         role: 2, 
         user: { email: "", status: "", uuid: "" }, 
         isDeleted: false, 
@@ -98,12 +98,6 @@ async function save()
     post (POST_COMPANY, payload, token, ()=>{ loading.value = false })
 }
 
-onMounted(()=>{
-
-    //console.log (Employee.value)
-
-})
-
 </script>
 
 <template>
@@ -115,7 +109,7 @@ onMounted(()=>{
             <div clas=""></div>
         </div>
     
-        <span class="badge badge-pill">{{ data.entity.status }}</span>
+        <span class="badge badge-pill badge-primary">{{ data.entity.status }}</span>
 
         <!-- Image -->
         <div class="row">
@@ -150,11 +144,7 @@ onMounted(()=>{
                 </div>
             </template>
             <div class="col-12 col-lg-6 mb-3">
-                <div class="card personCard">
-                    <div class="card-body">
-                        <button class="btn btn-sm btn-secondary" @click="addPerson">Add Person</button>
-                    </div>
-                </div>
+                <button class="btn btn-sm btn-secondary" @click="addPerson">Add Person</button>
             </div>
         </div>
 

@@ -47,7 +47,7 @@ function updateRole(index)
             <div class="col-6">
                 <!-- STATUS -->
                 <div class="label">Status</div>
-                <div>{{ model.user.status }}</div>
+                <div>{{ model.user.status ? 'Confirmed' : 'Pending' }}</div>
             </div>
         </div>
     </div>

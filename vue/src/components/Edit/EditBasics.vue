@@ -111,49 +111,37 @@ function updateImage(uid)
     <template v-if="basicsData">
         <div :class="loading ? 'disabled' : ''">
             <div class="row">
-                <div class="col-12 col-lg-3">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <img v-if="image" :src="image"  class="rounded-circle"/>
-                            <div v-else class="emptypic rounded-circle center-block"></div>
-                        </div>
-                        <div class="col-12 text-center mt-2">
-                            <FileUploader :keycloak="props.keycloak" title="Upload Image" @response="updateImage"/>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-9">
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <FieldEdit label="Real Name" v-model="basicsData.name"/>
-                            <FieldEdit label="Homepage" v-model="basicsData.homepage"/>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <FieldEdit label="Github Account" v-model="socialData.github"/>
-                            <FieldEdit label="Nuget Account" v-model="socialData.nuget"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-3">
-                <div class="col-lg-3 text-lg-right">
-                    <span class="label">Statement</span>
-                </div>
-                <div class="col-lg-9">
-                    <textarea class="form-control form-control-sm" rows="5" v-model="basicsData.statement">{{ basicsData.statement }}</textarea>
+                <div class="col-12 text-center mb-2">
+                    <img v-if="image" :src="image"  class="rounded-circle"/>
+                    <div v-else class="emptypic rounded-circle center-block"></div>
+                    <FileUploader :keycloak="props.keycloak" title="Upload Image" @response="updateImage"/>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 text-lg-right">
-                    <span class="label">Custom Fields</span>
+                <div class="col-12 col-md-6">
+                    <FieldEdit label="Real Name" v-model="basicsData.name"/>
+                    <FieldEdit label="Homepage" v-model="basicsData.homepage"/>
                 </div>
-                <div class="col-lg-9">
+                <div class="col-12 col-md-6">
+                    <FieldEdit label="Github Account" v-model="socialData.github"/>
+                    <FieldEdit label="Nuget Account" v-model="socialData.nuget"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="label mb-1">Statement</div>
+                    <textarea class="form-control form-control-sm" rows="5" v-model="basicsData.statement">{{ basicsData.statement }}</textarea>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-12">
+                    <div class="label mb-1">Custom Fields</div>
                     <template v-for="(key, index) in socialData.fields">
-                        <div class="form-row" :class="index+1 < socialData.fields.length ? 'mb-3' : ''">
-                                <div class="form-group col-4">
+                        <div class="form-row" :class="index+1 < socialData.fields.length ? 'mb-1' : ''">
+                                <div class="form-group col-6">
                                     <input v-model="socialData.fields[index].key" placeholder="key" class="form-control form-control-sm" />
                                 </div>
-                                <div class="form-group col-8">
+                                <div class="form-group col-6">
                                     <input v-model="socialData.fields[index].value" placeholder="value" class="form-control form-control-sm" />
                                 </div>
                         </div>
@@ -161,10 +149,9 @@ function updateImage(uid)
                 </div>
             </div>
             <div class="row" v-if="showMap">
-                <div class="col-lg-3 text-lg-right">
-                        <span class="label">Location</span>
-                </div>
-                <div class="col-lg-9">
+                <div class="col-lg-12">
+                    <span class="label">Location</span>
+
                     <SetPositionMap @address="setAddress" @center="setCenter" :coords="basicsData.coordinates.coordinates"/>
                     <div v-if="address != null" class="mt-2">
                         {{ address.display_name }}
@@ -172,9 +159,7 @@ function updateImage(uid)
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3">
-                </div>
-                <div class="col-lg-9">
+                <div class="col-12">
                     <ActionButtons @save="save" @revert="revert"/>
                 </div>
             </div>

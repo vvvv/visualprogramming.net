@@ -81,35 +81,28 @@ function onResponse()
 <template>
     <template v-if="data">
         <div :class="loading ? 'disabled' : ''">
-            <div class="row">
-                <template v-if="data.companies.length > 0">
-                    <div class="col-12 h4">Companies</div>
-                    <div v-for="(c, index) in data.companies" class="col-12 col-lg-4 mb-3">
-                        <div class="card personCard">
-                            <div class="card-body">
-                              <WorksForItem v-model="data.companies[index]"/>
-                            </div>
-                        </div>
-                    </div>
-                </template>
-                
-                <template v-if="data.edus.length > 0">
-                    <hr class="my-4" v-if="data.companies.length > 0"/>
-
-                    <div class="col-12 h4">Educational Institutions</div>
-                    <div v-for="(c, index) in data.edus" class="col-12 col-lg-4 mb-3">
-                        <div class="card personCard">
-                            <div class="card-body">
-                                <WorksForItem v-model="data.edus[index]"/>
-                            </div>
-                        </div>
-                    </div>
-                </template>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <ActionButtons @save="save" @revert="revert"/>
+            <div class="row label d-none d-lg-flex">
+                <div class="col-7">
+                    Name
                 </div>
+                <div class="col-3">
+                    Role
+                </div>
+                <div class="col-2">
+                    Confirmed
+                </div>
+            </div>
+            <template v-for="(c, index) in data.companies">
+                <WorksForItem v-model="data.companies[index]"/>
+                <hr class="col-12 my-2 d-flex d-lg-none"/>
+            </template>
+            <template v-for="(c, index) in data.edus">
+                <WorksForItem v-model="data.edus[index]"/>
+            </template>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <ActionButtons @save="save" @revert="revert"/>
             </div>
         </div>
     </template>
