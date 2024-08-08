@@ -81,19 +81,31 @@ function onResponse()
 <template>
     <template v-if="data">
         <div :class="loading ? 'disabled' : ''">
-            <div class="h4">Companies</div>
-            <div v-for="(c, index) in data.companies" class="mb-2">
-                <WorksForItem v-model="data.companies[index]"/>
-                <hr v-if="index+1 < data.companies.length" class="mt-4"/>
-            </div>
-            
-            <hr v-if="data.edus.length > 0" class="my-4"/>
-            <div class="h4">Educational Institutions</div>
-            <div v-for="(c, index) in data.edus" class="mb-2">
-                <WorksForItem v-model="data.edus[index]"/>
-                <hr v-if="index+1 < data.length" class="mt-4"/>
-            </div>
+            <div class="row">
+                <template v-if="data.companies.length > 0">
+                    <div class="col-12 h4">Companies</div>
+                    <div v-for="(c, index) in data.companies" class="col-12 col-lg-4 mb-3">
+                        <div class="card personCard">
+                            <div class="card-body">
+                              <WorksForItem v-model="data.companies[index]"/>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+                
+                <template v-if="data.edus.length > 0">
+                    <hr class="my-4" v-if="data.companies.length > 0"/>
 
+                    <div class="col-12 h4">Educational Institutions</div>
+                    <div v-for="(c, index) in data.edus" class="col-12 col-lg-4 mb-3">
+                        <div class="card personCard">
+                            <div class="card-body">
+                                <WorksForItem v-model="data.edus[index]"/>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
             <div class="row">
                 <div class="col-12">
                     <ActionButtons @save="save" @revert="revert"/>
