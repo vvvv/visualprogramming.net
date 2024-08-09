@@ -1,7 +1,7 @@
 <script setup>
 
 import { ref, defineProps, onMounted } from 'vue'
-import { POST_UPDATE_COMPANY, POST_CREATE_COMPANY, ASSETS_URL, PROFILEPIC_PARAMS } from '../../constants'
+import { POST_UPDATE_COMPANY, POST_CREATE_COMPANY, ASSETS_URL, PROFILEPIC_PARAMS, DEFAULT_ENTITY_NAME } from '../../constants'
 import { post, toJson, clone } from '../../utils'
 import ActionButtons from './ActionButtons.vue'
 import FieldEdit from './FieldEdit.vue'
@@ -75,6 +75,25 @@ async function updateLogo(newImage)
 
 async function save()
 {
+    // Validate
+    try {
+            persons.forEach((p) => {
+                if (p.action == "add" & p.email == "")
+                {
+                    throw new Error ("E-Mail address is missing for a person")   
+                }
+            })
+
+            if (data.value.entity.name == "" || data.value.entity.name == DEFAULT_ENTITY_NAME)
+            {
+                throw new Error ("Name of the Entity can't be empty or default")   
+            }
+
+    } catch (err) {
+        emit('error', err.message)
+        return
+    }
+
     //POST_COMPANY
     loading.value = true
 

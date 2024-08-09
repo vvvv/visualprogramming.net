@@ -31,19 +31,12 @@ export async function post(url, payload, token)
         method: "POST",
         body: body
     })
-    .then((response) => {
-        response.json().then((data) => {
-            if (Object.hasOwn(data.response, 'error'))
-                {
-                    throw new Error (data.response.error)
-                }
-            return data
-        })
-        .catch((err)=>{
-            throw new Error (err)
-        })
-    })
-    .catch((err)=>{
-        throw new Error (err)
+    .then((response) => response.json())
+    .then((data) => {
+        if (Object.hasOwn(data.response, 'error'))
+            {
+                throw new Error (data.response.error)
+            }
+        return data
     })
 }

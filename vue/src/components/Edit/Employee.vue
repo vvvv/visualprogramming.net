@@ -1,6 +1,6 @@
 <script setup>
 
-import { ref, defineProps, computed, defineModel } from 'vue'
+import { ref, defineProps, onMounted, defineModel } from 'vue'
 import FieldEdit from './FieldEdit.vue'
 import Dropdown from './Dropdown.vue'
 import { toJson } from '../../utils';
@@ -11,6 +11,7 @@ const original = toJson(model.value)
 const role = ref(model.value.role-1)
 const roles = props.roles.map((e) => e.role)
 const isEdit = ref(false)
+const input = ref(null)
 
 function edit()
 {
@@ -30,13 +31,17 @@ function updateRole(index)
     role.value = index
 }
 
+onMounted(()=>{
+    if (model.value.user.email == "") input.value.focus()
+})
+
 </script>
 
 <template>
      <div :class="isEdit || model.isNew ? '' : 'disabled'">
         <!-- EMAIL -->
         <div class="label">E-Mail</div>
-        <input class="form-control form-control-sm" v-model="model.user.email"/>
+        <input class="form-control form-control-sm" v-model="model.user.email" ref="input"/>
 
         <div class="row mt-2">
             <div class="col-6">

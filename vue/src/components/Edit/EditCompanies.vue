@@ -4,7 +4,7 @@ import { ref, onMounted, computed, watchEffect } from 'vue'
 import Spinner from '../Spinner.vue';
 import Entity from './Entity.vue';
 import Dropdown from './Dropdown.vue';
-import { clone } from '../../utils';
+import {DEFAULT_ENTITY_NAME} from '../../constants'
 
 const emit = defineEmits(['reload', 'error'])
 const props = defineProps(['data', 'keycloak'])
@@ -26,14 +26,13 @@ watchEffect(()=>{
 
 function addCompany()
 {
-    const newName = "New Company"
 
-    if (!names.value.includes(newName))
+    if (!names.value.includes(DEFAULT_ENTITY_NAME))
     {
         const newCompany={
             entity: {
                 uuid: null,
-                name: "New Company",
+                name: DEFAULT_ENTITY_NAME,
                 profilepic: null,
                 status: "",
                 website: "",

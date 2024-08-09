@@ -13,14 +13,14 @@ import { onMounted } from 'vue';
 </script>
 
 <template>
-    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true" data-delay="1000">
-        <div class="toast-header bg-secondary">
-            <strong class="mr-auto">Warning</strong>
-            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close" @click="emit('close', props.index)">
-            <span aria-hidden="true">&times;</span>
+    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header bg-warning">
+            <strong class="mr-auto text-body">Warning</strong>
+            <button type="button" class="ml-2 mb-1 close text-body" data-dismiss="toast" aria-label="Close" @click="emit('close', props.index)">
+                <span aria-hidden="true" class="">&times;</span>
             </button>
         </div>
-        <div class="toast-body">
+        <div class="toast-body bg-dark text-light">
             {{ props.data }}
         </div>
     </div>
