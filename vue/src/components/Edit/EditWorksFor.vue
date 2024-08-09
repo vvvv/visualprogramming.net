@@ -8,6 +8,7 @@ import WorksForItem from './WorksForItem.vue'
 import Spinner from '../Spinner.vue'
 
 const props = defineProps(['data', 'keycloak'])
+const emit = defineEmits(['reload'])
 
 const data = ref({ companies: new Array(), edus: new Array()})
 
@@ -73,6 +74,7 @@ async function save()
 function onResponse()
 {
     loading.value = false
+    emit('reload')
 }
 
 

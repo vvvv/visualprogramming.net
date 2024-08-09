@@ -38,7 +38,6 @@ async function save()
 function onResponse(data)
 {
     loading.value = false
-    console.log (data)
 }
 
 function updateTypes(t)

@@ -8,14 +8,17 @@ import FieldEdit from './FieldEdit.vue'
 import Employees from './Employees.vue'
 import FileUploader from './FileUploader.vue'
 
-const props = defineProps (['data', 'keycloak', 'constants'])
+const props = defineProps (['data', 'user', 'keycloak', 'constants'])
+const emit = defineEmits(['reload', 'error'])
 
 const data = ref(clone(props.data))
 const dataOriginal = toJson(data.value)
 const roles = props.constants.company_Roles
 const loading = ref(false)
 const image = ref()
+const isNew = data.value.entity.uuid === null
 
+var owner = {}
 var persons = new Array()
 
 onMounted (()=>{
@@ -23,6 +26,16 @@ onMounted (()=>{
     if (data.value.entity.profilepic !== null)
     {
         image.value = `${ASSETS_URL}${data.value.entity.profilepic}${PROFILEPIC_PARAMS}`
+    }
+
+    //It's a new company
+    if (isNew)
+    {
+        owner = {
+            action: "add",
+            email: props.user.email,
+            role: 1
+        }
     }
 })
 
@@ -35,7 +48,6 @@ function revert()
 function updatePersons(p)
 {
     persons = p
-    console.log (p)
 }   
 
 async function updateLogo(newImage)
@@ -44,11 +56,12 @@ async function updateLogo(newImage)
     data.value.entity.profilepic = newImage.id
     image.value = `${ASSETS_URL}${newImage.id}${PROFILEPIC_PARAMS}`
     
-    if (data.value.entity.uuid !== "")
+    if (!isNew)
     {
         const payload =
         {
-            collection: "User_Company",
+            user_collection: "User_Company",
+            entity_collection: "Company",
             uuid: data.value.entity.uuid,
             entity: {
                 profilepic: newImage.id
@@ -66,32 +79,53 @@ async function save()
     loading.value = true
 
     var payload = {
-        collection: "User_Company",
+        user_collection: "User_Company",
+        entity_collection: "Company",
         uuid: data.value.entity.uuid,
         entity: {
             website: data.value.entity.website,
             profilepic: data.value.entity.profilepic,
             description: data.value.entity.description,
         },
-        personnel: persons
+        personnel: [...persons]
     }
 
     const token = await props.keycloak.getAccessToken()
-    const url = payload.uuid === null ? POST_CREATE_COMPANY : POST_UPDATE_COMPANY
+
+    var url = ""
+
+    if (isNew)
+    {
+        url = POST_CREATE_COMPANY
+        payload.personnel.push(owner)
+        payload.entity.name = data.value.entity.name
+    }
+    else
+    {
+        url = POST_UPDATE_COMPANY
+    }
 
     //console.log (payload)
-    post (url, payload, token, ()=>{ loading.value = false })
-    
+    post (url, payload, token)
+    .then (()=>{
+        loading.value = false
+        emit('reload')
+    })
+    .catch((err)=>
+    {
+        loading.value = false
+        emit('error', err)
+    })
 }
 
 </script>
 
 <template>
     <div :class="loading ? 'disabled' : ''">
-        <div class="row mb-4">
+        <div class="row my-4">
             <div class="col-8 mr-auto">
                 <span class="h4 pr-4">{{ data.entity.name }}</span> 
-                <span class="badge badge-pill badge-primary">{{ data.entity.status }}</span> 
+                <span class="badge badge-pill badge-primary py-1 px-2" :class="data.entity.status === 'confirmed' ? 'badge-primary' : 'badge-warning'">{{ data.entity.status }}</span> 
             </div>
             <div clas=""></div>
         </div>
@@ -99,8 +133,8 @@ async function save()
         <!-- Image -->
         <div class="row">
             <div class="col-12 text-center">
-                <img v-if="image" :src="image"  class="rounded-circle"/>
-                <div v-else class="emptypic rounded-circle center-block"></div>
+                <img v-if="image" :src="image"/>
+                <div v-else class="emptypic center-block"></div>
                 <div class="mt-2">
                     <FileUploader :keycloak="props.keycloak" title="Upload Logo" @response="updateLogo"/>
                 </div>
@@ -109,7 +143,7 @@ async function save()
 
         <!-- Name if NEW -->
         <template v-if="data.entity.uuid === null">
-            <FieldEdit label="Name" v-model="data.entity.name"/>
+            <FieldEdit label="Name" v-model="data.entity.name" focus="true"/>
         </template>
 
         <!-- Website -->

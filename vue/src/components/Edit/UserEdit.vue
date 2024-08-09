@@ -9,6 +9,7 @@ import EditNavi from './EditNavi.vue'
 import Spinner from '../Spinner.vue'
 import EditWorksFor from './EditWorksFor.vue'
 import EditCompanies from './EditCompanies.vue'
+import Toast from './Toast.vue'
 
 const User = ref(null)
 const Entities = ref(null)
@@ -17,6 +18,7 @@ const activeSection = ref(null)
 const currentRoute = ref('Basics')
 var mainDiv = null
 const data = { user: User, entities: Entities, constants: Constants }
+const errors = ref([])
 
 var keycloak = null
 
@@ -129,6 +131,16 @@ function switchTheme()
     mainDiv.classList.toggle("darkMode")
 }
 
+function addError(e)
+{
+    errors.value.push(e)
+}
+
+function deleteError(i)
+{
+    errors.value.splice(i,1)
+}
+
 </script>
 
 <template>
@@ -151,7 +163,7 @@ function switchTheme()
                         <EditNavi v-model="currentRoute"/>
                     </div>
                     <div class="col-12 col-md-7 col-lg-8 col-xl-9 mb-4">
-                        <component :is="activeSection" :data="data" :keycloak="keycloak"></component>
+                        <component :is="activeSection" :data="data" :keycloak="keycloak" @reload="getData" @error="addError"></component>
                         <ActionButtons />
                     </div>
                 </template>
@@ -185,4 +197,11 @@ function switchTheme()
             </div>
         </div>
     </template>
+    <!-- Notifications -->
+    <div v-if="errors.length > 0" class="position-fixed bottom-0 right-0 p-3" style="z-index: 5; right: 0; bottom: 0;">
+        <template v-for="(e, index) in errors" :key="e">
+            <Toast :data="e" :index="index" @close="deleteError"/>
+        </template>
+    </div>
+
 </template>

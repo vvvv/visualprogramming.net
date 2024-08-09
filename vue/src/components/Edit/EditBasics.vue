@@ -10,6 +10,7 @@ import Spinner from '../Spinner.vue';
 import FileUploader from './FileUploader.vue';
 
 const props = defineProps(['data', 'keycloak'])
+const emit = defineEmits(['error'])
 
 const basicsData = ref(cleanup(props.data.user.value.Basics))
 const socialData = ref(cleanup(props.data.user.value.SocialNetworks))
@@ -70,10 +71,10 @@ async function save()
     const token = await props.keycloak.getAccessToken()
     
     payload = removeEmpty(dataToSend)
-    post(POST_BASISC, payload, token, onResponse)
+    post(POST_BASISC, payload, token, onResponse, emitError)
 
     payload = removeEmpty(socialData.value)
-    post(POST_SOCIAL, payload, token, onResponse)
+    post(POST_SOCIAL, payload, token, onResponse, emitError)
 }
 
 function onResponse(data)
@@ -109,8 +110,13 @@ async function updateProfilepic(newImage)
         }
 
         const token = await props.keycloak.getAccessToken()
-        post(POST_BASISC, payload, token)
+        post(POST_BASISC, payload, token,null,emitError)
     }
+}
+
+function emitError(e)
+{
+    emit('error', e)
 }
 </script>
 

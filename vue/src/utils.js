@@ -19,25 +19,31 @@ export function cleanup(obj)
     return obj
 }
 
-export async function post(url, payload, token, onResponse, onError)
+export async function post(url, payload, token)
 {
     var body = JSON.stringify({
             Token: token,
             Payload: payload
         })
 
-    fetch(url, {
+    return fetch(url, {
         headers: { "Content-Type": "application/json" },
         method: "POST",
         body: body
     })
     .then((response) => {
         response.json().then((data) => {
-            if (onResponse) onResponse(data)
+            if (Object.hasOwn(data.response, 'error'))
+                {
+                    throw new Error (data.response.error)
+                }
+            return data
+        })
+        .catch((err)=>{
+            throw new Error (err)
         })
     })
-    .catch((err) => {
-        if (onError) onError(err)
-        console.error(err);
-    });
+    .catch((err)=>{
+        throw new Error (err)
+    })
 }
