@@ -24,7 +24,6 @@ const active = defineModel()
                 <a v-for="s in sections" class="dropdown-item" @click="active = s">{{ s }}</a>
             </div>
         </div>
-        <hr class="mt-3"/>
     </div>
     
     <div class="nav flex-column nav-pills d-none d-md-block" id="v-pills-tab" role="tablist" aria-orientation="vertical">

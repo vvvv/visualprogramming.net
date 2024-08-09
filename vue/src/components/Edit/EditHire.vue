@@ -89,8 +89,8 @@ function updateTypes(t)
                                     <a v-for="t in constants.hire_Type" 
                                             href="#"
                                             @click="updateTypes(t.value)" 
-                                            class="badge badge-pill mr-2 mb-1" 
-                                            :class="data.type.includes(t.value) ? 'badge-light' : 'badge-dark'">
+                                            class="badge px-3 py-1 mr-2 mb-1" 
+                                            :class="data.type.includes(t.value) ? 'badge-primary' : 'badge-secondary'">
                                         {{ t.text }}
                                     </a>
                                 </div>

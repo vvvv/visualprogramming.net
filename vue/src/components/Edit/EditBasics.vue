@@ -1,7 +1,7 @@
 <script setup>
 
 import { ref, watchEffect, onMounted } from 'vue'
-import { ASSETS_URL, POST_BASISC, POST_SOCIAL } from '../../constants'
+import { ASSETS_URL, POST_BASISC, POST_SOCIAL, PROFILEPIC_PARAMS } from '../../constants'
 import { cleanup, post, removeEmpty, toJson, removeProps } from '../../utils'
 import FieldEdit from './FieldEdit.vue'
 import ActionButtons from './ActionButtons.vue';
@@ -21,13 +21,15 @@ const loading = ref(false)
 const address = ref(null)
 const image = ref()
 
-const imageParams = "?quality=90&fit=cover&width=120"
 const showMap = false
 
 onMounted(()=>{
     
+    //Map
     basicsData.value.coordinates = {coordinates: [0,0], type: "Point"}
 
+
+    //Social Data
     const EmptyField = { key: '', value: '' }
 
     if (socialData.value.fields !== null)
@@ -42,16 +44,13 @@ onMounted(()=>{
     {
         socialData.value.fields = new Array(4).fill().map( (obj) => Object.create(EmptyField))
     }
-})
 
-watchEffect(()=>{
+    //Image
     if (basicsData.value.profilepic !== null)
     {
-        image.value = `${ASSETS_URL}${basicsData.value.profilepic.image_id}${imageParams}`
+        image.value = `${ASSETS_URL}${basicsData.value.profilepic}${PROFILEPIC_PARAMS}`
     }
 })
-
-
 
 function revert()
 {
@@ -61,14 +60,12 @@ function revert()
 
 async function save()
 {
-
     console.log (socialData.value.fields)
 
     loading.value = true
     var payload = ""
 
     var dataToSend = JSON.parse(toJson(basicsData.value))
-    delete dataToSend.profilepic
 
     const token = await props.keycloak.getAccessToken()
     
@@ -98,23 +95,35 @@ function setAddress(a)
     address.value = a
 }
 
-function updateImage(uid)
+async function updateProfilepic(newImage)
 {
-    image.value = `${ASSETS_URL}${uid.id}${imageParams}`
-    console.log (image.value)
+
+    basicsData.value.profilepic = newImage.id
+    image.value = `${ASSETS_URL}${newImage.id}${PROFILEPIC_PARAMS}`
+    
+    if (basicsData.value.uuid !== null)
+    {
+        const payload =
+        {
+            profilepic: newImage.id
+        }
+
+        const token = await props.keycloak.getAccessToken()
+        post(POST_BASISC, payload, token)
+    }
 }
-
-
 </script>
 
 <template>
     <template v-if="basicsData">
         <div :class="loading ? 'disabled' : ''">
-            <div class="row">
+            <div class="row my-3">
                 <div class="col-12 text-center mb-2">
                     <img v-if="image" :src="image"  class="rounded-circle"/>
                     <div v-else class="emptypic rounded-circle center-block"></div>
-                    <FileUploader :keycloak="props.keycloak" title="Upload Image" @response="updateImage"/>
+                    <div class="mt-2">
+                        <FileUploader :keycloak="props.keycloak" title="Upload Image" @response="updateProfilepic"/>
+                    </div>
                 </div>
             </div>
             <div class="row">

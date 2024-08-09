@@ -1,126 +1,116 @@
 <script setup>
 
-import { ref, defineProps, onMounted, watchEffect } from 'vue'
-import { POST_COMPANY } from '../../constants'
-import { post, cleanup, removeEmpty, toJson, removeProps, isEmpty } from '../../utils'
+import { ref, defineProps, onMounted } from 'vue'
+import { POST_UPDATE_COMPANY, POST_CREATE_COMPANY, ASSETS_URL, PROFILEPIC_PARAMS } from '../../constants'
+import { post, toJson, clone } from '../../utils'
 import ActionButtons from './ActionButtons.vue'
 import FieldEdit from './FieldEdit.vue'
-import Employee from './Employee.vue'
+import Employees from './Employees.vue'
+import FileUploader from './FileUploader.vue'
 
 const props = defineProps (['data', 'keycloak', 'constants'])
 
-const data = ref(props.data)
+const data = ref(clone(props.data))
 const dataOriginal = toJson(data.value)
 const roles = props.constants.company_Roles
 const loading = ref(false)
+const image = ref()
 
-const Employees = ref([])
+var persons = new Array()
 
-watchEffect(()=>{
-    Employees.value = new Array()
-
-    data.value.users.forEach((d)=>{
-        var Employee = {...d, isDeleted: false, isEdited: false, isNew: false }
-        Employees.value.push(Employee)
-    })
+onMounted (()=>{
+    //Image
+    if (data.value.entity.profilepic !== null)
+    {
+        image.value = `${ASSETS_URL}${data.value.entity.profilepic}${PROFILEPIC_PARAMS}`
+    }
 })
+
 
 function revert()
 {
     data.value = JSON.parse(dataOriginal)
 }
 
-function addPerson()
+function updatePersons(p)
 {
-    const newEmployee = { 
-        entity: data.value.entity.id, 
-        role: 2, 
-        user: { email: "", status: "", uuid: "" }, 
-        isDeleted: false, 
-        isEdited: false,
-        isNew: true
+    persons = p
+    console.log (p)
+}   
+
+async function updateLogo(newImage)
+{
+
+    data.value.entity.profilepic = newImage.id
+    image.value = `${ASSETS_URL}${newImage.id}${PROFILEPIC_PARAMS}`
+    
+    if (data.value.entity.uuid !== "")
+    {
+        const payload =
+        {
+            collection: "User_Company",
+            uuid: data.value.entity.uuid,
+            entity: {
+                profilepic: newImage.id
+            }
+        }
+        
+        const token = await props.keycloak.getAccessToken()
+        post(POST_UPDATE_COMPANY, payload, token)
     }
-    Employees.value.push(newEmployee)
 }
 
 async function save()
 {
-    var persons = new Array()
-
-    Employees.value.forEach((e) => {
-
-        if (e.isDeleted && !e.isNew)
-        {
-            persons.push(
-                {
-                    action: "delete",
-                    uuid: e.uuid
-                }
-            )
-            
-        }
-        else if(e.isNew && !e.isDeleted)
-        {
-            persons.push(
-                {
-                    action: "add",
-                    entity: e.entity,
-                    email: e.user.email,
-                    role: e.role
-                }
-            )
-        }
-        else if (e.isEdited)
-        {
-            persons.push(
-                {
-                    action: "edit",
-                    uuid: e.uuid,
-                    role: e.role
-                }
-            )
-        }
-    })
-
-    console.log (persons)
     //POST_COMPANY
     loading.value = true
 
     var payload = {
         collection: "User_Company",
         uuid: data.value.entity.uuid,
-        website: data.value.entity.website,
-        description: data.value.entity.description,
+        entity: {
+            website: data.value.entity.website,
+            profilepic: data.value.entity.profilepic,
+            description: data.value.entity.description,
+        },
         personnel: persons
     }
 
     const token = await props.keycloak.getAccessToken()
-    post (POST_COMPANY, payload, token, ()=>{ loading.value = false })
+    const url = payload.uuid === null ? POST_CREATE_COMPANY : POST_UPDATE_COMPANY
+
+    //console.log (payload)
+    post (url, payload, token, ()=>{ loading.value = false })
+    
 }
 
 </script>
 
 <template>
     <div :class="loading ? 'disabled' : ''">
-        <div class="row">
-            <div class="col-8 h4 mr-auto">
-                {{ data.entity.name }} 
+        <div class="row mb-4">
+            <div class="col-8 mr-auto">
+                <span class="h4 pr-4">{{ data.entity.name }}</span> 
+                <span class="badge badge-pill badge-primary">{{ data.entity.status }}</span> 
             </div>
             <div clas=""></div>
         </div>
-    
-        <span class="badge badge-pill badge-primary">{{ data.entity.status }}</span>
 
         <!-- Image -->
         <div class="row">
             <div class="col-12 text-center">
                 <img v-if="image" :src="image"  class="rounded-circle"/>
                 <div v-else class="emptypic rounded-circle center-block"></div>
-            </div>
-            <div class="col-12 text-center mt-2">
-                <FileUploader :keycloak="props.keycloak" title="Upload Image" @response="updateImage"/>
+                <div class="mt-2">
+                    <FileUploader :keycloak="props.keycloak" title="Upload Logo" @response="updateLogo"/>
+                </div>
             </div>
         </div>
+
+        <!-- Name if NEW -->
+        <template v-if="data.entity.uuid === null">
+            <FieldEdit label="Name" v-model="data.entity.name"/>
+        </template>
 
         <!-- Website -->
         <FieldEdit label="Website" v-model="data.entity.website"/>
@@ -134,18 +124,7 @@ async function save()
         <!-- Employees -->
         <div class="h4">Personnel</div>
         <div class="row mb-3">
-            <template v-for="(e, index) in Employees" refs="EmployeeRefs">
-                <div v-if="!e.isDeleted" class="col-12 col-lg-6 mb-3">
-                    <div class="card personCard">
-                        <div class="card-body">
-                            <Employee v-model="Employees[index]" :roles="roles"/>
-                        </div>
-                    </div>
-                </div>
-            </template>
-            <div class="col-12 col-lg-6 mb-3">
-                <button class="btn btn-sm btn-secondary" @click="addPerson">Add Person</button>
-            </div>
+            <Employees :data="data.users" :entityId="data.entity.id" :roles="roles" @update="updatePersons"/>
         </div>
 
         <div class="row">

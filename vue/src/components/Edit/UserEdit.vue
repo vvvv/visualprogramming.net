@@ -138,13 +138,16 @@ function switchTheme()
             <div class="card-header">
                 <div class="row mx-1">
                     <div class="h4 mr-auto">{{ Header }}</div>
+                    <div class="d-block d-md-none mr-3">
+                        <EditNavi v-model="currentRoute"/>
+                    </div>
                     <button class="btn btn-sm btn-outline-secondary" @click="logout" v-if="isLogged">Logout</button>
                 </div>
             </div>    
             <hr/>
             <div class="row mx-1 mt-4">
                 <template v-if="User && Constants">
-                    <div class="col-12 col-md-5 col-lg-4 col-xl-3 flex-shrink-1">
+                    <div class="col-md-5 col-lg-4 col-xl-3 flex-shrink-1 d-none d-md-block">
                         <EditNavi v-model="currentRoute"/>
                     </div>
                     <div class="col-12 col-md-7 col-lg-8 col-xl-9 mb-4">

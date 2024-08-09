@@ -54,5 +54,5 @@ async function uploadFile(f)
 </script>
 
 <template>
-    <a href="#" type='file' class="badge badge-pill badge-dark" @click="chooseFile">{{ props.title }}</a>
+    <button class="btn btn-sm btn-outline-secondary" @click="chooseFile">{{ props.title }}</button>
 </template>
