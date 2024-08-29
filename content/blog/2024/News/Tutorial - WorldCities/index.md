@@ -1,5 +1,5 @@
 ---
-date: "2024-07-02"
+date: "2024-08-29"
 title: "New vvvv Tutorial: World Cities"
 description: "Beginners start here!"
 categories: "News"
