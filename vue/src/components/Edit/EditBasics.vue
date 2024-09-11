@@ -1,7 +1,7 @@
 <script setup>
 
 import { ref, watchEffect, onMounted } from 'vue'
-import { ASSETS_URL, POST_BASISC, POST_SOCIAL, PROFILEPIC_PARAMS } from '../../constants'
+import { ASSETS_URL, POST_BASICS, POST_SOCIAL, PROFILEPIC_PARAMS } from '../../constants'
 import { cleanup, post, removeEmpty, toJson, removeProps } from '../../utils'
 import FieldEdit from './FieldEdit.vue'
 import ActionButtons from './ActionButtons.vue';
@@ -61,26 +61,25 @@ function revert()
 
 async function save()
 {
-    console.log (socialData.value.fields)
-
     loading.value = true
     var payload = ""
+    var response
 
     var dataToSend = JSON.parse(toJson(basicsData.value))
 
     const token = await props.keycloak.getAccessToken()
     
     payload = removeEmpty(dataToSend)
-    post(POST_BASISC, payload, token, onResponse, emitError)
-
+    await post(POST_BASICS, payload, token).catch ((err) => {
+        emit("error", err)
+    })
+    
     payload = removeEmpty(socialData.value)
-    post(POST_SOCIAL, payload, token, onResponse, emitError)
-}
+    await post(POST_SOCIAL, payload, token).catch ((err) => {
+        emit("error", err)
+    })
 
-function onResponse(data)
-{
-    loading.value = false
-    console.log (data)
+    loading.value = false;
 }
 
 function setCenter(c)
@@ -110,14 +109,13 @@ async function updateProfilepic(newImage)
         }
 
         const token = await props.keycloak.getAccessToken()
-        post(POST_BASISC, payload, token,null,emitError)
+        post(POST_BASICS, payload, token).catch((err) =>
+        {
+            emit('error', err)
+        })
     }
 }
 
-function emitError(e)
-{
-    emit('error', e)
-}
 </script>
 
 <template>

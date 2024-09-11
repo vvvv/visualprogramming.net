@@ -8,7 +8,7 @@ import WorksForItem from './WorksForItem.vue'
 import Spinner from '../Spinner.vue'
 
 const props = defineProps(['data', 'keycloak'])
-const emit = defineEmits(['reload'])
+const emit = defineEmits(['reload', 'error'])
 
 const data = ref({ companies: new Array(), edus: new Array()})
 
@@ -68,15 +68,13 @@ async function save()
     const payload = companies.concat(edus)
 
     const token = await props.keycloak.getAccessToken()
-    post (POST_WORKSFOR, payload, token, onResponse)
-}
+    await post (POST_WORKSFOR, payload, token).catch ((err) => {
+        emit('error', err)
+    })
 
-function onResponse()
-{
-    loading.value = false
+    loading.value = false;
     emit('reload')
 }
-
 
 </script>
 

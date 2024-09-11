@@ -8,6 +8,7 @@ import ActionButtons from './ActionButtons.vue';
 import Spinner from '../Spinner.vue';
 
 const props = defineProps(['data', 'keycloak'])
+const emit = defineEmits(['error'])
 
 const defaultData = {
     available: false,
@@ -32,11 +33,10 @@ async function save()
     loading.value = true
     const payload = removeEmpty(data.value)
     const token = await props.keycloak.getAccessToken()
-    post (POST_HIRE, payload, token, onResponse)
-}
+    await post (POST_HIRE, payload, token).catch ((err) => {
+        emit('error', err)
+    })
 
-function onResponse(data)
-{
     loading.value = false
 }
 

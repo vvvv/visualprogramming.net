@@ -69,7 +69,9 @@ async function updateLogo(newImage)
         }
         
         const token = await props.keycloak.getAccessToken()
-        post(POST_UPDATE_COMPANY, payload, token)
+        await post(POST_UPDATE_COMPANY, payload, token).catch( (err) => {
+            console.log (err)
+        })
     }
 }
 
