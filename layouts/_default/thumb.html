@@ -4,7 +4,7 @@
 {{ if ne $category "Monthly Reviews" }}
   {{ with .Params.thumb}}
     {{ with $.Resources.GetMatch .}}
-        {{ $thumb = .Fill "80x80 jpg q99"}}
+        {{ $thumb = .Fill "80x80 Center jpg q99"}}
     {{ end }}
   {{ end }}
 {{ end }}
