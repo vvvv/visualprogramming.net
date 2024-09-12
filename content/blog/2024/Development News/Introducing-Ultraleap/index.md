@@ -1,7 +1,7 @@
 ---
 categories: "Development News"
 author: "joreg"
-date: "2024-08-28"
+date: "2024-09-12"
 title: "Introducing: Support latest Ultraleap devices"
 description: "For your hand-tracking needs"
 thumb: thumb.jpg
@@ -9,7 +9,7 @@ thumb: thumb.jpg
 
 Dear trackers of hands,
 
-we're happy to announce that we now have support for the latest handtracking devices by [Ultraleap](https://www.ultraleap.com/). Tested to work with both their Gemini (5.20) and Hyperion (6.0) line of drivers.
+we're happy to announce that we now have support for the latest handtracking devices by [Ultraleap](https://www.ultraleap.com/). Tested to work with both their Gemini (5.x) and Hyperion (6.x) line of drivers.
 
 [![](ultraleap-logo.png)](https://www.ultraleap.com/)
 
