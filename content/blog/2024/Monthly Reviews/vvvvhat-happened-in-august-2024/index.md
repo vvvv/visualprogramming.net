@@ -52,8 +52,8 @@ Plus an update in the forum’s work-in-progress section:
 
 ## Gallery
 
-{{< mastodon "vis.social/@artmarvin/112757524301096410">}}
-- Prism by [Artificial Marvin](https://vis.social/@artmarvin@gram.social) 
+{{< pixelfed "gram.social/p/artmarvin/716330380806412201" >}}
+- Prism by [Artificial Marvin](https://gram.social/artmarvin) 
 
 ## Jobs
 - Always keep an eye on the [vvvv job board](https://discourse.vvvv.org/c/jobs)
