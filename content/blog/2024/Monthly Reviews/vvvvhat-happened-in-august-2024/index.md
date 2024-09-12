@@ -50,11 +50,6 @@ And updates to these:
 Plus an update in the forum’s work-in-progress section:
 - [VL.Benchmarks: A Performance Benchmarking Tool](https://discourse.vvvv.org/t/vl-benchmarks-a-performance-benchmarking-tool-for-vvvv-gamma/22842)
 
-## Gallery
-
-{{< pixelfed "gram.social/p/artmarvin/716330380806412201" >}}
-- Prism by [Artificial Marvin](https://gram.social/artmarvin) 
-
 ## Jobs
 - Always keep an eye on the [vvvv job board](https://discourse.vvvv.org/c/jobs)
 - There maybe some more on [The Interactive & Immersive Job Board](https://jobs.interactiveimmersive.io/?s=vvvv&post_type=job_listing&orderby=date) and [dasauge.de](https://dasauge.de/sta/Vvvv/)
