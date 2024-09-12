@@ -12,14 +12,14 @@ const emit = defineEmits(['reload', 'error'])
 
 const data = ref({ companies: new Array(), edus: new Array()})
 
-const constants = props.data.constants.value
+const constants = props.data.constants
 var dataOriginal
 
 const loading = ref(false)
 
 onMounted(()=>{
-    data.value.companies = pickEntities(props.data.user.value.User_Company, 'User_Company_id')
-    data.value.edus = pickEntities(props.data.user.value.User_Edu, 'User_Edu_id')
+    data.value.companies = pickEntities(props.data.user.User_Company, 'User_Company_id')
+    data.value.edus = pickEntities(props.data.user.User_Edu, 'User_Edu_id')
     dataOriginal = toJson(data.value)
 })
 

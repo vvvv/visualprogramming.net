@@ -12,8 +12,8 @@ import FileUploader from './FileUploader.vue';
 const props = defineProps(['data', 'keycloak'])
 const emit = defineEmits(['error'])
 
-const basicsData = ref(cleanup(props.data.user.value.Basics))
-const socialData = ref(cleanup(props.data.user.value.SocialNetworks))
+const basicsData = ref(cleanup(props.data.user.Basics))
+const socialData = ref(cleanup(props.data.user.SocialNetworks))
 
 const basicsOriginal = toJson(basicsData.value)
 const socialOriginal = toJson(socialData.value)

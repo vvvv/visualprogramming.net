@@ -9,15 +9,13 @@ import EditNavi from './EditNavi.vue'
 import Spinner from '../Spinner.vue'
 import EditWorksFor from './EditWorksFor.vue'
 import EditCompanies from './EditCompanies.vue'
+import EditEdus from './EditEdus.vue'
 import Toast from './Toast.vue'
 
-const User = ref(null)
-const Entities = ref(null)
-const Constants = ref(null)
 const activeSection = ref(null)
 const currentRoute = ref('Basics')
 var mainDiv = null
-const data = { user: User, entities: Entities, constants: Constants }
+const data = ref({ user: null, entities: null, constants: null })
 const errors = ref([])
 
 var keycloak = null
@@ -30,15 +28,16 @@ const routes = {
     'Basics' : EditBasics,
     'For Hire' : EditHire,
     'Works for' : EditWorksFor,
-    'Companies' : EditCompanies
+    'Companies' : EditCompanies,
+    'Educational Institutions' : EditEdus
 }
 
 function getConstants()
 {
     fetch(CONSTANTS_URL)
     .then((response) => {
-        response.json().then((data) => {
-            Constants.value = data.Constants
+        response.json().then((d) => {
+            data.value.constants = d.Constants
         })
     })
     .catch((err) => {
@@ -60,9 +59,9 @@ async function getData()
         body: body
     })
     .then((response) => {
-        response.json().then((data) => {
-            User.value = data.user
-            Entities.value = { companies: data.companies, edus: data.edus }
+        response.json().then((d) => {
+            data.value.user = d.user
+            data.value.entities = { companies: d.companies, edus: d.edus }
         })
     })
     .catch((err) => {
@@ -99,7 +98,7 @@ onMounted(()=>
     {
         isLogged.value = true;
         isReady.value = true;
-        User.value = {"Basics":{"username":"antontest","name":"Anton M","homepage":"vvvv.org","statement":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.","coordinates":"{\"coordinates\":[174.88597,-40.90056],\"type\":\"Point\"}","profilepic":{"image_id":"e1409088-c43c-4513-8acc-47f7973ba881"}},"Hire":{"available":true,"type":["remote"],"description":"fsfsdf sdf sd fasf asdf asdf a","date_created":"2024-07-31T08:41:27.000Z","date_updated":null},"SocialNetworks":{"fields":null,"nuget":null,"github":null,"date_updated":"2024-08-01T13:59:34.000Z","date_created":"2024-07-31T08:40:52.000Z"}}
+        data.value.user = {"Basics":{"username":"antontest","name":"Anton M","homepage":"vvvv.org","statement":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.","coordinates":"{\"coordinates\":[174.88597,-40.90056],\"type\":\"Point\"}","profilepic":{"image_id":"e1409088-c43c-4513-8acc-47f7973ba881"}},"Hire":{"available":true,"type":["remote"],"description":"fsfsdf sdf sd fasf asdf asdf a","date_created":"2024-07-31T08:41:27.000Z","date_updated":null},"SocialNetworks":{"fields":null,"nuget":null,"github":null,"date_updated":"2024-08-01T13:59:34.000Z","date_created":"2024-07-31T08:40:52.000Z"}}
     }
 
     mainDiv = document.getElementById('ProfileEditor')
@@ -116,7 +115,7 @@ function login()
 }
 
 const Header = computed(()=>{
-    return User.value ? User.value.Basics.username : 'Profile' 
+    return data.value.user ? data.value.user.Basics.username : 'Profile' 
 })
 
 watchEffect(()=>{
@@ -158,7 +157,7 @@ function deleteError(i)
             </div>    
             <hr/>
             <div class="row mx-1 mt-4">
-                <template v-if="User && Constants">
+                <template v-if="data.user && data.constants">
                     <div class="col-md-5 col-lg-4 col-xl-3 flex-shrink-1 d-none d-md-block">
                         <EditNavi v-model="currentRoute"/>
                     </div>

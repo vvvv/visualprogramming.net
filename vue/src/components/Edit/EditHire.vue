@@ -17,9 +17,9 @@ const defaultData = {
     contact: ''
 }
 
-const data = ref(cleanup(props.data.user.value.Hire || defaultData))
+const data = ref(cleanup(props.data.user.Hire || defaultData))
 const dataOriginal = toJson(data.value)
-const constants = props.data.constants.value
+const constants = props.data.constants
 
 const loading = ref(false)
 
@@ -89,7 +89,7 @@ function updateTypes(t)
                                             href="#"
                                             @click="updateTypes(t.value)" 
                                             class="badge px-3 py-1 mr-2 mb-1" 
-                                            :class="data.type.includes(t.value) ? 'badge-primary' : 'badge-secondary'">
+                                            :class="data.type.includes(t.value) ? 'badge-success' : 'badge-secondary'">
                                         {{ t.text }}
                                     </a>
                                 </div>
