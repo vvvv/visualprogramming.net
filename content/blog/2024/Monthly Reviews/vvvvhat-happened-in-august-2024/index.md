@@ -50,6 +50,11 @@ And updates to these:
 Plus an update in the forum’s work-in-progress section:
 - [VL.Benchmarks: A Performance Benchmarking Tool](https://discourse.vvvv.org/t/vl-benchmarks-a-performance-benchmarking-tool-for-vvvv-gamma/22842)
 
+## Gallery
+
+{{< youtube 8xbPp7eMcSE >}}
+[VW Iconic](https://wirmachenbunt.de/work/iconic) immersive space by [wirmachenbunt](https://wirmachenbunt.de)
+  
 ## Jobs
 - Always keep an eye on the [vvvv job board](https://discourse.vvvv.org/c/jobs)
 - There maybe some more on [The Interactive & Immersive Job Board](https://jobs.interactiveimmersive.io/?s=vvvv&post_type=job_listing&orderby=date) and [dasauge.de](https://dasauge.de/sta/Vvvv/)
