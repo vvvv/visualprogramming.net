@@ -2,8 +2,8 @@
 categories: "Dates"
 author: "wmc"
 date: "2024-09-17"
-title: "Rhino User Webinar: Rhino meets Realtime with vvvv"
-description: "Rhino Webinar for using VL.Rhino.3dm"
+title: "Webinar: Rhino meets Realtime with vvvv"
+description: "How to work with VL.Rhino.3dm"
 where: 
     country_name: "Zoom Event Online"
     from_date: "1727881200"
@@ -14,9 +14,9 @@ thumb: "VLRhino3dmWebinar-thumb.jpg"
 
 Hello vvvvorld!
 
-I am excited to announce an upcoming short webinar that will showcase the integration between Rhino and vvvv, opening up new horizons for dynamic and interactive 3D experiences and workflows.
+I am excited to announce an upcoming short webinar that will showcase the integration between [Rhino](https://www.rhino3d.com) and vvvv, opening up new horizons for dynamic and interactive 3D experiences and workflows.
 
-In this webinar you'll learn essential techniques, including .3dm file support, utilizing user strings for informed geometry, and ensuring smooth integration of material properties between [Rhino](https://www.rhino3d.com) and vvvv.
+In this webinar you'll learn essential techniques, including .3dm file support, utilizing user strings for informed geometry, and ensuring smooth integration of material properties between Rhino and vvvv.
 
 
 
