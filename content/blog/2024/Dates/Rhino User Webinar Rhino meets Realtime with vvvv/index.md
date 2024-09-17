@@ -1,12 +1,12 @@
 ---
 categories: "Dates"
 author: "wmc"
-date: "2024-10-02"
+date: "2024-09-18"
 title: "Rhino User Webinar: Rhino meets Realtime with vvvv"
 description: "Rhino Webinar for using VL.Rhino.3dm"
 where: 
     country_name: "Zoom Event Online"
-    from_date: "1726486424"
+    from_date: "1727881200"
 thumb: "VLRhino3dmWebinar-thumb.jpg"
 ---
 
@@ -14,14 +14,16 @@ thumb: "VLRhino3dmWebinar-thumb.jpg"
 
 Hello vvvvorld!
 
-We’re excited to announce an upcoming webinar that will showcase the powerful integration between Rhino and vvvv, opening up new horizons for dynamic and interactive 3D experiences.
+I am excited to announce an upcoming short webinar that will showcase the integration between Rhino and vvvv, opening up new horizons for dynamic and interactive 3D experiences and workflows.
 
-In this webinar, led by Wolf Moritz Cramer, you'll learn essential techniques, including .3dm file support, utilizing user strings for informed geometry, and ensuring smooth integration of material properties between Rhino and vvvv.
+In this webinar you'll learn essential techniques, including .3dm file support, utilizing user strings for informed geometry, and ensuring smooth integration of material properties between Rhino and vvvv.
 
-Don’t miss this opportunity to elevate your design skills and explore new creative workflows!
 
-Sign up here:
-https://us02web.zoom.us/meeting/register/tZEtdO6grjIrG9OR0HPBpVkbPN_KRkhB49pB
+
+{{< box >}}
+### Interested? [Join and register via Zoom](https://us02web.zoom.us/meeting/register/tZEtdO6grjIrG9OR0HPBpVkbPN_KRkhB49pB).
+{{< /box >}}
+
 
 ## What will I learn?
 
@@ -31,10 +33,13 @@ In this webinar, you'll learn how to harness the full potential of Rhino when pa
 
 We'll guide you through essential techniques, including .3dm file support, using user strings for informed geometry, and ensuring smooth integration of material properties between Rhino and vvvv. By the end of the session, you'll have a solid understanding of how to enhance your Rhino workflow with real-time interactivity and visualization, making your 3D models more dynamic and expressive. 
 
-If you are looking for an in depth Webinar going around 3 hours have a look at the recording here:
+This Webinar will be more of an introduction for the Rhino Community, showing the possibilities coming with vvvv.
+
+If you are looking for an in depth Webinar (3h) have a look at the recording here:
+
 https://thenodeinstitute.org/courses/ss24-vvvv-integrating-rhino-3d-with-vvvv/
 
-This Webinar will be more of an introduction for the Rhino Community, showing the possibilities coming with vvvv.
+
 
 ## Who is it for?
 
@@ -46,10 +51,4 @@ This Webinar will be more of an introduction for the Rhino Community, showing th
 
 **Wolf Moritz Cramer** aka *wmc* works as a creative technologist and artist in Hamburg. While studying architecture, he specialized in computational design combined with digital fabrication methods. Today, he brings this expertise to the collaboration with his clients and partners, helping to make complex geometries realizable and to enhance physical objects with digital interactivity. The results range from compact prototypes to room-filling installations.
 
-## Schedule
 
-The course is on **October 2nd 17:00-18:00**
-
-{{< box >}}
-Interested? Check out [full details and registration](https://www.linkedin.com/events/rhinouserwebinar-rhinomeetsreal7236684761207894018/about/).
-{{< /box >}}
