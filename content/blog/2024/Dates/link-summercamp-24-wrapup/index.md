@@ -1,7 +1,7 @@
 ---
 categories: "Dates"
 author: "amir"
-date: "2024-09-12"
+date: "2024-09-18"
 title: "LINK - the vvvv Summer Camp 24 - Wrapup"
 description: "A community event for everyone, no matter if you´re new to vvvv or already a pro."
 where:
@@ -32,9 +32,11 @@ Now let's have a look at what has happened:
 TremensS, tomson, ravel_of, Noor, Maxime, eddyoaa, notfelix, dalrae
 
 Discussions:
-- Laser safety induction by TremenS
-- Potential upcoming workshop by TremenS
+- Laser safety induction by TremensS
+- Potential upcoming workshop by TremensS
 - Patch sharing on element channel
+
+![](Haiko01.png)
 
   
 
@@ -45,27 +47,27 @@ iorec, m4d, larsek
 Discussions:
 - They got the core functionality working
 - Can draw basic SVG elements, (primitives only)
-- Skia now has a GCode writer node
+- Skia will get a GCodeWriter node
 
   
 
 ### 03. **Controlling software**
 
-Natan Sinigaglia, gregsn, David, azeno, texone
+Natan Sinigaglia, gregsn, David Brüll, azeno, texone
 
 Discussions:
 
 - How to simplify Kairos for typical usecases
-- How Kairos and Global Channels work togeter
+- How Kairos and Global Channels work together
 - Seeing and timelining global channel data
 - We now know where we want to get to and how it should feel like, implementation details come later
 - Particle life help patch already showcases some ideas
 - Trying to find common UI workflows
 - Kairos as a VL extension progress made by azeno and Natan
 - Currently working on adding a default timeline
-- New nuget coming in the near future
+- New nuget is already available! Read [the announcement](https://matrix.to/#/!fxIulIhNFcMAixEsSW:matrix.org/$A0B_nbBqvTpIRw3sT-b3HlBN0DSjyoyDLP-qIW7ka3I?via=matrix.org&via=t2bot.io) on the VL.Kairos chat  for more information. 
 
-  
+![](Haiku02.png)
 
 ### 04. **AI**
 
@@ -94,7 +96,8 @@ Discussions:
 - F1 blue bubbles are clickable!
 (they show all help patches where a node is used)
 
-  
+![](Haiku03.png)
+
 
 ### 06. **Supercollider**
 
@@ -123,6 +126,7 @@ Discussions:
 - ravel_of already has a tool which was used as a baseline as is already being extended (almost ready...)
 - Element channel coming
 
+![](Haiku04.png)
 
 ### 10. **Steam Games**
 
@@ -130,7 +134,7 @@ CeeYaa, ravazquez, amir, reaktant
 
 Discussions:
 
-- General interest in bringin gamma build games and experiences into Steam to draw attention to vvvv and Stride in other communitites
+- General interest in bringing_ gamma built_ games and experiences into Steam to draw attention to vvvv and Stride in other communitites
 - Using steam to share not only games but also interactive experiences (music visualizer, meditation/excercise apps, virtual worlds, AR content)
 - In depth review of steamworks publishing workflow and pipelines
 - Test CeeYaa's ImGui game launcher prototype
@@ -145,7 +149,7 @@ sebescudie, dlvr
 
 Discussions:
 
-- Nuget TOR browser support was developed and published during LINK!
+- Nuget [TOR browser support](https://www.nuget.org/packages/VL.TorSharp) was developed and published during LINK!
 - Allows scrapping of data without restrictions (new IPs can be easily obtained if current IP is blocked/banned)
 - Allows access to the web from different countries. (Useful by geofencing.)
 - Allows access to the dark side of the web (be nice and handle with care!)
@@ -159,24 +163,24 @@ Discussions:
 - How do these two worlds relate to each other?
 - How can we improve inter-operability?
 
-More to that coming soon...
-  
+  ![](Haiku05.png)
+
 ### **NODE Institute**
 David Brüll
 
 workshop ideas for the coming semester:
 
--  A workshop about controlling lasers by TremenS
--  A workshop covering teh best practices about Building Applications in vvvv by sebl and ravazquez
+-  A workshop about controlling lasers by TremensS
+-  A workshop covering best practices about Building Applications in vvvv by sebl and ravazquez
 -  A hands on Supercollider + vvvv workshop by chk
 -  Creative Robots series workshop by amir
 
 
-### Project Shwocase
+### Shwocase
 
 Special thanks to sebl who kicked off a series of conversation and project showcases.
 
-sebl, chk, amir, ravazquez, David, Maxime
+sebl, chk, amir, ravazquez, David Brüll, Maxime
 
 Discussions:
 
@@ -188,7 +192,7 @@ Discussions:
 
 ## Node based Haiku
 
-During the summer camp, the patchers/poets showcased their node-based Haiku skills and here is the winner:
+During the summer camp, the patcher-poets showcased their node-based Haiku skills, give them a moment and enjoy what the nodes have to tell you. Here is another one: 
 
 ![](Haiku06.png)
 
