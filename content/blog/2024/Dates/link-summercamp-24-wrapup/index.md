@@ -134,7 +134,7 @@ CeeYaa, ravazquez, amir, reaktant
 
 Discussions:
 
-- General interest in bringing_ gamma built_ games and experiences into Steam to draw attention to vvvv and Stride in other communitites
+- General interest in bringing gamma built games and experiences into Steam to draw attention to vvvv and Stride in other communitites
 - Using steam to share not only games but also interactive experiences (music visualizer, meditation/excercise apps, virtual worlds, AR content)
 - In depth review of steamworks publishing workflow and pipelines
 - Test CeeYaa's ImGui game launcher prototype
@@ -176,7 +176,7 @@ workshop ideas for the coming semester:
 -  Creative Robots series workshop by amir
 
 
-### Shwocase
+### Showcase
 
 Special thanks to sebl who kicked off a series of conversation and project showcases.
 
