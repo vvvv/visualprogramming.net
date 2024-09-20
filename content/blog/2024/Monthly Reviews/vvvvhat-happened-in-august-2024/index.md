@@ -8,9 +8,9 @@ author: joreg
 
 Apologies...
 
-...for the delayed review. As you may have noticed we had a bit of summer going on lately. Most notably we had a very cozy time at [LINK24](https://link-summercamp.de/) together with a bunch of you. Once again thanks to everyone involved making these 4 days such a lovvvvely experience. A detailed review of what happened there is still to come...
+...for the delayed review. As you may have noticed we had a bit of summer going on lately. Most notably we had a very cozy time at [LINK24](https://link-summercamp.de/) together with a bunch of you. Once again thanks to everyone involved making these 4 days such a lovvvvely experience. Here is a little [LINK24 wrapup](/blog/2024/link-the-vvvv-summer-camp-24-wrapup/) of what happened there. 
 
-Then there was [Ars Electronica](https://ars.electronica.art/) in Linz with quite a vvvview things on display. Review in the works...
+Then there was [Ars Electronica](https://ars.electronica.art/) in Linz with [quite a vvvview things on display](/blog/2024/a-revvvview-of-ars-electronica-2024/)!
 
 Meanwhile, in our ongoing quest to support more and more devices out-of-the-box, here are the most recent additions:
 * [Support for hand-tracking devices by Ultraleap](https://visualprogramming.net/blog/2024/introducing-support-for-new-ultraleap-devices/)
