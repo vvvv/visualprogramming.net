@@ -1,7 +1,7 @@
 ---
 categories: "Dates"
 author: "amir"
-date: "2024-09-12"
+date: "2024-09-20"
 title: "A revvvview of Ars Electronica 2024"
 description: "What vvvv contributes to the Ars Electronica Festival"
 thumb: 2022-09-05-10-33-57.png
@@ -10,8 +10,7 @@ thumb: 2022-09-05-10-33-57.png
 
 Did you make it to this years [Ars Electronica Festival](https://ars.electronica.art/news/en/)?
 
-
-If not here is a (most certainly incomplete) list of fine works that we know vvvv has its bits in:
+Similar to [the last year](https://visualprogramming.net/blog/2023/a-revvvview-of-ars-electronica-2023/) we put together a (most certainly incomplete) list of fine works that we know vvvv has its bits in:
 
 ## [FOMO Live Performance](https://ars.electronica.art/hope/de/events/fomo-live-performance-program/?occurrence=2024-09-05&time=1725552000)
 ![](equisite-corpus.png)
