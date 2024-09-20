@@ -75,4 +75,4 @@ To be found at [Linz Institute of Technology exhibition](https://ars.electronica
 
 ![](RaiseYourVoice.png)
 
-If you know of any other projects utilising vvvv at Ars Electronica 2023, please let us know in the comments!
+If you know of any other projects utilising vvvv at Ars Electronica 2024, please let us know in the comments!
