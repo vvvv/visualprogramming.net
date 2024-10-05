@@ -11,6 +11,8 @@ Suggestions:
 A new device support has been added to the tool set:
 * [Support for ZED stereo cameras by Stereolabs](https://visualprogramming.net/blog/2024/introducing-support-for-zed-stereo-cameras-by-stereolabs/)
 
+[GammaLauncher](https://github.com/sebescudie/GammaLauncher?tab=readme-ov-file#gammalauncher) has a new release. Download and read the changes [here](https://github.com/sebescudie/GammaLauncher/releases/tag/5.2.3).
+
 ///
 
 ## Learning vvvv
