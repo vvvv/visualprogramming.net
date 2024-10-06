@@ -1,5 +1,5 @@
 ---
-date: "2024-10-6"
+date: "2024-10-06"
 title: "vvvvhat happened in September 2024"
 description: "Last month in review"
 categories: Monthly Reviews
