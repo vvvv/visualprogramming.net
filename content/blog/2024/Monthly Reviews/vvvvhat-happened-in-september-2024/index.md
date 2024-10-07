@@ -19,6 +19,14 @@ Let's see what we do have though:
 
 And these are only the tip of the iceberg... please bare with us!
 
+## Learning vvvv
+
+Here is your current best opportunity for getting started with vvvv: 
+
+The 12 session online [vvvv beginner class winter 24/25](https://thenodeinstitute.org/courses/ws24-5-vvvv-beginners-class/), run by [The NODE Institute](https://thenodeinstitute.org/), has been postponed to now start on November 4th!
+
+![](WS24_VVVV_Beginner.jpg)
+
 ## Contributions
 Many thanks to those of you who help complete vvvv with countless additions! For an overview of libraries available for vvvv [start here](https://thegraybook.vvvv.org/reference/libraries/overview.html).
 
