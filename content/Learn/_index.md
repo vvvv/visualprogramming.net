@@ -7,7 +7,7 @@ firstColumn:
       image: /img/icons/mortarboard-fill.svg
   - item: 
       text: > 
-            <a href="https://thenodeinstitute.org/courses/ws24-5-vvvv-beginners-part-ii/" target="_blank">Deep dive from January 13</a>
+            <a href="https://thenodeinstitute.org/courses/ws24-5-vvvv-beginners-part-ii/" target="_blank">Deep dive course from January 13</a>
       image: /img/icons/mortarboard-fill.svg
   - item: 
       text: > 
