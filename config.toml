@@ -3,7 +3,7 @@ languageCode = "en-us"
 paginate = 20
 paginatePath = "page"
 summaryLength = 20
-title = "vvvv - visual live-progamming for .NET"
+title = "vvvv - visual live-programming for .NET"
 relativeURLs = "true"
 
 [sitemap]
