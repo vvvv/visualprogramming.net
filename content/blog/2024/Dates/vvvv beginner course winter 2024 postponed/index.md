@@ -14,14 +14,16 @@ thumb: "WS24_VVVV_Beginner-thumb.jpg"
 
 We are keeping the registration for the next edition of the vvvv beginner course open for another four weeks - scheduled every Monday evening from 6-9 pm, starting on November 4th. 
 
-For us this was also a good chance to finally split the course into two parts which we call "Playground" and "Deep Dive". So in case you are just starting with vvvv and want to extend your artistic toolset or try something new, join us for part I. But if you already have some knowledge under your belt, want to learn more about the language methodologies of VL and how to build more complex applications, you may also join the second part of the course.
+For us this was also a good chance to finally split the course into two parts which we call "Playground" and "Deep Dive", each one comprised of six sequential sessions. So in case you are just starting with vvvv and want to extend your artistic toolset or try something new, join us for part I. But if you already have some knowledge under your belt, want to learn more about the language methodologies of VL and how to build more complex applications, you may also join the second part of the course.
 
 Choose your path and sign up here:<br />
 https://thenodeinstitute.org/vvvv-education-winter-2024-25/
 
 ## What will I learn?
 
-The course covers all you need to know to start your vvvv career and enter specific intermediate or advanced topics. In 12 sessions you will learn the basics of programming in vvvv and creating real time renderings, audio and data visualizations, creative coding algorithms, best practices in structuring your applications, building user interfaces and object-oriented patching in VL.
+**Part I** of our VVVV beginner class is the perfect starting point for anyone interested in creative coding and interactive media. Over six sessions, you’ll learn how to build interactive visuals, animations, and audio-reactive compositions—all without needing prior programming experience. We’ll cover the basics of 2D and 3D graphics, the rendering pipeline, audio visualization, and even touch on more advanced topics like shaders and algorithms. By the end of the course, you’ll have the skills and confidence to start building your own interactive installations or performances.
+
+**Part II** is crafted for those ready to deepen their understanding of this powerful visual programming environment. Whether you’re an artist, designer, developer, or technologist, this course will guide you through advanced topics to take your projects to the next level. Each of its six sessions is designed to tackle complex concepts in a practical, hands-on way, with real-world examples and interactive exercises. The topics include object-oriented patching, game development, networking, and much more - offering a focused deep dive into specific methodologies and tools that expand your creative and technical capabilities. 
 
 ## Who is it for?
 
