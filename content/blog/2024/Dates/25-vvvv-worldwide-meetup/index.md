@@ -25,7 +25,10 @@ Doors open: 18:30
 Start: 19:00
 
 ### Online
-tba...
+
+[Watch via Youtube](https://youtube.com/live/MdvTa58uxB0?)  
+Join via Zoom still tba.
+
 {{< /box >}}
 
 ##  Want to share your work?
