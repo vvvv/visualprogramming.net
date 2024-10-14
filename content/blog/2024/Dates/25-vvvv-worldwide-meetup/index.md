@@ -11,10 +11,10 @@ where:
     country_name: "Germany"
     from_date: "1729184400"
     to_date: "1729195200"
-thumb: "25.png"
+thumb: "25thVVVVMeetup.png"
 ---
 
-![](25.png) 
+![](25thVVVVMeetup.png) 
 
 Here's to announce the third vvvvworldwide meetup of this year on **October 17th - 7pm CET**. This is the meetup for creatives and developers using the visual programming environment vvvv and its visual language VL. Join us IRL or online with artists presentations and announcements in the vvvv community.
 
