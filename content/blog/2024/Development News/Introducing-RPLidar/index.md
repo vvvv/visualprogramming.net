@@ -17,7 +17,7 @@ we're happy to announce that we now have stable support for RPLidar devices by [
 
 ...and while you might not build robots, those sensors can help you turn any flat surface into a multitouch canvas with just a few clicks!
 
-![RPLidar devices by Slamtec](2024-10-10-22-55-11.png)
+![RPLidar devices by Slamtec](2024-10-15-15-42-09.png)
 
 Based on a [third-party C# implementation](https://www.nuget.org/packages/RPLidar4Net.IO) of their [RPLidar SDK](https://github.com/slamtec/rplidar_sdk) we've created the [VL.Devices.RPLidar](https://www.nuget.org/packages/VL.Devices.RPLidar) package, implementing a node-set for you to quickly access the data of one or multiple [supported models](https://github.com/slamtec/rplidar_sdk?tab=readme-ov-file#supported-platforms). 
 
