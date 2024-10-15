@@ -9,7 +9,7 @@ thumb: thumb.jpg
 
 Dear scanners of surfaces,
 
-we're happy to announce that we now have stable support for ZED stereo cameras by [Slamtec](https://www.slamtec.com/).
+we're happy to announce that we now have stable support for RPLidar devices by [Slamtec](https://www.slamtec.com/).
 
 [![](header-logo.png)](https://www.slamtec.com/)
 
