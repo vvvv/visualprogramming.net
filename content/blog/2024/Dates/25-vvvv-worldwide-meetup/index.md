@@ -28,7 +28,8 @@ Start: 19:00
 ### Online
 
 [Watch via Youtube](https://youtube.com/live/MdvTa58uxB0?)  
-Join via Zoom still tba.
+
+[Join via Zoom](https://us02web.zoom.us/j/88234201495?pwd=Y91k9hNe8aKJHHKtTfEPsoygKAqJkj.1)
 
 {{< /box >}}
 
