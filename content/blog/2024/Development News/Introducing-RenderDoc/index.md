@@ -34,7 +34,7 @@ This tool is essential for debugging complex shaders or performance issues relat
 
 ### How to Use
 
-Start vvvv with the `--debug-gpu` flag and add the **RenderDocManager** node to your patch. For more information, refer to the [documentation](https://thegraybook.vvvv.org/reference/libraries/3d/gpu-debugging.html).
+There is a dedicated [documentation page](https://thegraybook.vvvv.org/reference/libraries/3d/gpu-debugging.html) in The Gray Book with all the details.
 
 ## Credits
 
