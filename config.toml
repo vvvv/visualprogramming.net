@@ -154,7 +154,7 @@ blog = '/blog/:sections[1]/:slug'
 		Warning = "\\* Looking for older blog posts? Find them at: [vvvv.org/blog](https://vvvv.org/blog/1575+1576+25+23+24+39+26+1461+127+126+124)."
 		Categories = ["Monthly Reviews", "News", "Development News", "Dates", "vvvv gamma Releases", "vvvv beta Releases", "vvvv beta Addon Releases", "Guest Posts"]
 		CommentsDisabled = "Comments are no longer accepted for this post."
-		Devvvvs = ["devvvv", "joreg", "gregsn", "tebjan", "tonfilm", "robotanton", "untone", "elias", "azeno", "oschatz", "max"]
+		Devvvvs = ["devvvv", "joreg", "gregsn", "tonfilm", "robotanton", "untone", "elias", "azeno", "oschatz", "max"]
 
 	#Community section
 	  [params.Community]
