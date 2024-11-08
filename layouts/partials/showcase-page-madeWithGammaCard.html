@@ -1,0 +1,16 @@
+{{ $rightItem := .right}}
+
+{{ with .context}}
+<div class="col-10 my-2 col-lg-5 py-4 px-3">
+    <div class="card text-white card-has-bg click-col">
+        <img class="card-img-top lazyload" data-src="{{.Params.img | relURL}}" alt="{{ .Params.Title }}">
+        <div class="card-body p-4">
+            <small class="card-meta mb-2">{{.Params.Author}}</small>
+            <a href="{{ .Params.link }}" target="_blank" class="stretched-link"><h4 class="card-title mt-0 ">{{.Params.Title}}</h4></a>
+            <div class="d-xs-none d-sm-block">
+                {{.Content}}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
