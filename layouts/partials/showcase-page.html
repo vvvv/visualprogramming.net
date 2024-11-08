@@ -1,0 +1,16 @@
+{{ "<!-- MADE WITH GAMMA -->" | safeHTML }}
+<section id="Showcase">
+    <div class="container-fluid">
+        {{ with .Site.Params.Showcase }}
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">{{ .headline }}</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+            {{ partial "showcase-page-showreels" . }}
+
+            {{ partial "showcase-page-projects" . }}   
+        {{ end }}
+    </div>
+</section>  

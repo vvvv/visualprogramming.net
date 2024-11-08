@@ -601,44 +601,6 @@ img::-moz-selection {
     background: 0 0;
 }
 
-#MadeWithGamma
-{
-  background-color: #333;
-  padding: 0 0 1em;
-}
-
-#MadeWithGamma h2
-{
-  color: #fff;
-}
-
-#MadeWithGamma .gammaCard
-{
-  min-height: 250px;
-}
-
-#MadeWithGamma p
-{
-  font-size: smaller;
-}
-
-.card
-{
-  background-color: #444;
-  color: #ccc;
-  border-color: #2f2f2f;
-}
-
-#MadeWithGamma .card h4
-{
-  color: #fff;
-}
-
-.card .card-footer
-{
-  background-color: rgba(0,0,0,.1);
-}
-
 #Support
 {
   background-color: #333;

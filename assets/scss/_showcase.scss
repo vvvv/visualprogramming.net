@@ -3,6 +3,16 @@
 
   background-color: #222;
 
+  .lazyload,
+  .lazyloading {
+    opacity: 0;
+  }
+
+  .lazyloaded {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+
   img
   {
     background: none;
@@ -107,6 +117,10 @@
     overflow:hidden;
     border-radius: 4px;
 
+    background-color: #1f1f1f;
+    color: #ccc;
+    border-color: #2f2f2f;
+
     box-shadow: 0 0 12px 5px rgba(0,0,0,0.2);
 
     .card-meta{color:orange}
@@ -155,8 +169,14 @@
     .card-img-overlay 
     {
         transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-        background: #444444;
+        background: #101010;
         background: linear-gradient(0deg, rgba(0,0,0,0.9) 10%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0) 70%);
+    }
+  }
+
+  .list{
+    .card{
+      background-color: #101010;
     }
   }
 }
