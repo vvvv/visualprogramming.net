@@ -3,10 +3,6 @@ title: Learn
 firstColumn:
   - item: 
       text: > 
-            <a href="https://thenodeinstitute.org/courses/ws24-5-vvvv-beginners-part-i/" target="_blank">Beginner course from November 4</a>
-      image: /img/icons/mortarboard-fill.svg
-  - item: 
-      text: > 
             <a href="https://thenodeinstitute.org/courses/ws24-5-vvvv-beginners-part-ii/" target="_blank">Deep dive course from January 13</a>
       image: /img/icons/mortarboard-fill.svg
   - item: 
