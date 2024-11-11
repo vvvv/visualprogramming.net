@@ -10,7 +10,8 @@ iframe {
   display: flex;
   flex-direction: column;
   border: 1px solid #444 !important;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 1em;
 
   label {
     margin-bottom: 0em;
@@ -22,6 +23,7 @@ iframe {
         
         a {
             margin-right: 0em;
+            text-decoration: underline;
         }        
     }
 
