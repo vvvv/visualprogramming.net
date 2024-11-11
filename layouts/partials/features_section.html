@@ -1,7 +1,7 @@
 {{ "<!-- TopFeatures -->" | safeHTML }}
 <div class="row justify-content-start">
     {{ range $index, $elem:=(index (where (.Site.GetPage "Features").Sections "Title" (.Scratch.Get "sectionTitle")) 0).RegularPages.ByParam "id" }}
-    <div class="col-md-5 mb-5 {{if modBool $index 2}}ml-md-5{{end}} {{if not (modBool $index 2)}}offset-md-1{{end}}">
+    <div class="col-lg-5 mb-5 {{if modBool $index 2}}ml-lg-5{{end}} {{if not (modBool $index 2)}}offset-lg-1{{end}}">
         <div class="row g-0 d-flex align-items-start position-relative">
           <div class="col-12 mb-3" style="color: #fff">
             {{ with .Params.img}}
