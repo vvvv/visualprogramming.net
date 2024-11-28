@@ -3,12 +3,11 @@
     <head>
         {{ partial "head.html" . }}
 
+        <!-- Cactus css -->
         {{ if .IsPage }}
-        <!-- Cactus comments -->
-        <script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
-        <link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
-        {{ end }}
-        
+            <script src="{{ "/js/cactus.js" | relURL }}"></script>
+            <link rel="stylesheet" href="{{ "/css/cactus.css" | relURL }}" type="text/css">
+        {{ end }}     
    </head>
 <body>
     <div class="main">
