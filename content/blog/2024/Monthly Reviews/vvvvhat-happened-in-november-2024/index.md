@@ -1,5 +1,5 @@
 ---
-date: "2024-11-03"
+date: "2024-12-02"
 title: "vvvvhat happened in November 2024"
 description: "Last month in review"
 categories: Monthly Reviews
@@ -10,9 +10,9 @@ author: joreg
 
 Already three episodes of the famous [vvvvTv](https://visualprogramming.net/blog/2024/vvvvtv-is-back-with-season-2/) is out and counting!
 
-### S02 E00 [Sensors & Servos with Arduino](https://www.youtube.com/watch?v=uvLNZsStve8&list=PLBTgwgsWWcT8eDfjAg299o7paRqkd2Zdi)
-### S02 E01 [Buttons & Sliders with Dear ImGui](https://www.youtube.com/watch?v=PuuTilbqd9w&list=PLBTgwgsWWcT8eDfjAg299o7paRqkd2Zdi&index=3)
-### S02 E02 [Saving & Loading UI State](https://www.youtube.com/watch?v=GJQGVxA1pIQ&list=PLBTgwgsWWcT8eDfjAg299o7paRqkd2Zdi&index=4)
+- S02 E00 [Sensors & Servos with Arduino](https://www.youtube.com/watch?v=uvLNZsStve8&list=PLBTgwgsWWcT8eDfjAg299o7paRqkd2Zdi)
+- S02 E01 [Buttons & Sliders with Dear ImGui](https://www.youtube.com/watch?v=PuuTilbqd9w&list=PLBTgwgsWWcT8eDfjAg299o7paRqkd2Zdi&index=3)
+- S02 E02 [Saving & Loading UI State](https://www.youtube.com/watch?v=GJQGVxA1pIQ&list=PLBTgwgsWWcT8eDfjAg299o7paRqkd2Zdi&index=4)
 
 
 ///
@@ -22,8 +22,8 @@ Already three episodes of the famous [vvvvTv](https://visualprogramming.net/blog
 
 Here is your current best opportunity for getting started with vvvv via courses run by [The NODE Institute](https://thenodeinstitute.org/)
 
-### Starting soon
-- 6 session [beginner course part 2 "Deep Dive"](https://thenodeinstitute.org/courses/ws24-5-vvvv-beginners-part-ii/) starts January 13th 
+- Starting soonis a 6 session [beginner course part 2 "Deep Dive"](https://thenodeinstitute.org/courses/ws24-5-vvvv-beginners-part-ii/) starts January 13th
+- And, make sure not to miss the [Advent of Code](https://www.twitch.tv/tobyklight) by [TobyKLight](https://github.com/TobyKLight) live on Twitch!
 
 ## Contributions
 
@@ -55,16 +55,16 @@ And updates to the following:
 
 Plus an update in the forum’s work-in-progress section:
 
-[Gamma to ComfyUI proof of concept](https://discourse.vvvv.org/t/gamma-to-comfyui-proof-of-concept/23741)
-[VL.Devices.LaserCube](https://discourse.vvvv.org/t/vl-devices-lasercube/23757)
-[VL.String.Homoglyph](https://discourse.vvvv.org/t/vl-string-homoglyph/23715)
+- [Gamma to ComfyUI proof of concept](https://discourse.vvvv.org/t/gamma-to-comfyui-proof-of-concept/23741)
+- [VL.Devices.LaserCube](https://discourse.vvvv.org/t/vl-devices-lasercube/23757)
+- [VL.String.Homoglyph](https://discourse.vvvv.org/t/vl-string-homoglyph/23715)
 
-and, make sure not to miss the [Advent of Code](https://www.twitch.tv/tobyklight) by [TobyKLight](https://github.com/TobyKLight) live on Twitch!
+
 ## Gallery
 
-{{< mastodon "vis.social/@baxtan/113414365518399616" 1000 >}}
+{{< vimeo 687254045 >}}
+[Kinesis](https://www.timrumpf.com/projects/kinesis) by [Tim Rumpf](https://www.timrumpf.com/)
 
-[Creative Robotics](https://creativerobotics.at/) and [amir](https://amirbastan.com/) brought an industrial robot to participat with the [Stuttgarter Kammerorchester](https://stuttgarter-kammerorchester.com/index-en) to play Terry Riley's "In C"
 
 ## Jobs
 - Always keep an eye on the [vvvv job board](https://discourse.vvvv.org/c/jobs)
