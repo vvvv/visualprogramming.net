@@ -28,7 +28,9 @@ You'll have to stay tuned. More on those soon™.
 Here is your current best opportunity for getting started with vvvv:
 
 - Starting January 13: A 6 session [Intermediate level course](https://thenodeinstitute.org/courses/ws24-5-vvvv-beginners-part-ii/) run by The NODE Institute
-- Make sure not to miss the [Advent of Code by TobyK](https://www.twitch.tv/tobyklight) who's streaming his solutions live on Twitch!
+- It is [Advent of Code](https://adventofcode.com/) time and we're lucky to have 2 of you releasing their solutions:
+  - TobyK is [streaming his solutions live on Twitch](https://www.twitch.tv/tobyklight)
+  - yar is [sharing his solutions over here](https://discourse.vvvv.org/t/advent-of-code-2024/23772/1)
 - If you haven't yet, watch our latest tutorials: [Circle Pit](https://www.youtube.com/watch?v=Ma1IullIugY) and [World Cities](https://www.youtube.com/watch?v=ymzrK7tZLBI) and pray for the next one to be ready in time for the holidays
 
 ## Contributions
