@@ -21,8 +21,7 @@ From **December 13, noon CET**, we're starting the following 2-phased transition
 - Store and Forum will be read-only for a while
 - When signing up or logging in to the [Store](http://store.vvvv.org) or [Forum](http://discourse.vvvv.org), you'll be directed to our new login provider
 
->NOTE 
->In order to log in via the new login provider for the first time with your existing vvvv.org credentials, **you'll have to go through the "Renew Password" routine once!** This is because the new login provider only knows your username/email but not your password. 
+> In order to log in via the new login provider for the first time with your existing vvvv.org credentials, **you'll have to go through the "Renew Password" routine once!** This is because the new login provider only knows your username/email but not your password. 
 
 ## Phase 2
 - The old `vvvv.org` page will move to legacy.vvvv.org 
