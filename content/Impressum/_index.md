@@ -7,14 +7,12 @@ description: Impressum
 
 ## Responsible for Site Content
 
-vvvv group  
-joreg, Max Wolf, Sebastian Gregor, Sebastian Oschatz
-
-Oranienstrasse 10
-10997 Berlin/Germany
+vvvv - Dießl & Gregor GbR  
+Oranienstrasse 10  
+10997 Berlin/Germany  
 contact: groupӘvvvv.org
 
-VVVV web site ver. 4.0 is based on Hugo
+VVVV web site ver. 4.0 is based on [Hugo](https://gohugo.io/)
 
 ## Non-Liability
 
@@ -28,7 +26,7 @@ The author is not responsible for any contents linked or referred to from his pa
 
 ### 3. Copyright
 
-The author intended not to use any copyrighted material for the publication or, if not possible, to indicatethe copyright of the respective object. The copyright for any material created by the author is reserved. Any duplication or use of objects such as diagrams, sounds or texts in other electronic or printed publications is not permitted without the author's agreement.
+The author intended not to use any copyrighted material for the publication or, if not possible, to indicate the copyright of the respective object. The copyright for any material created by the author is reserved. Any duplication or use of objects such as diagrams, sounds or texts in other electronic or printed publications is not permitted without the author's agreement.
 
 ### 4. Privacy policy
 
