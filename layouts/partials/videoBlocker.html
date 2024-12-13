@@ -4,7 +4,7 @@
     <h1>{{ .Site.Params.youtubeBlocker.headline }}</h1>
     <div class="text">{{ .Site.Params.youtubeBlocker.text | markdownify}}</div>  
     <div class="buttons">
-        <div class="playButton text-center">
+        <div class="playButton text-center" title="Play video">
         </div>
         <input type="checkbox" name="rememberchoice" value="true" checked="checked"><label for="rememberchoice">{{ .Site.Params.youtubeBlocker.checkbox }}</label>
     </div>
@@ -17,7 +17,7 @@
     <h1>{{ .Site.Params.vimeoBlocker.headline }}</h1>
     <div class="text">{{ .Site.Params.vimeoBlocker.text | markdownify }}</div>  
     <div class="buttons">
-      <div class="playButton text-center">
+      <div class="playButton text-center" title="Play video">
       </div>
       <input type="checkbox" name="rememberchoice" value="true" checked="checked"><label for="rememberchoice">{{ .Site.Params.vimeoBlocker.checkbox }}</label>
     </div>

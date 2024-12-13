@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html class="scroll-padding">
+    <head>
+        {{ partial "head" . }}     
+   </head>
+<body>
+    <div class="main">
+        {{ partial "nav" . }}
+        
+        {{ partial "legal" .}}
+
+        {{ partial "videoBlocker" . }}
+
+        {{ partial "contact" . }}
+        
+        {{ partial "footer" . }}
+
+        {{ partial "js" . }}
+
+        <script src="{{"/js/lazysizes.min.js" | relURL}}"></script>
+    </div>
+</body>
+</html>

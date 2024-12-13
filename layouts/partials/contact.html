@@ -17,41 +17,34 @@
 
 
         <div class="row justify-content-between">
-          <div class="col-md-3 mt-5">
+          <div class="col-lg-3 mt-5">
             <h3><strong>{{ .Site.Params.Contact.Imprint.Headline | markdownify}}</strong></h3>
             {{ .Site.Params.Contact.Imprint.Text | markdownify}}
           </div>
-          <div class="col-md-3 mt-5">
+          <div class="col-lg-4 mt-5 mr-3">
             <h3><strong>Follow us</strong></h3>
-            <div class="row justify-content-start ml-1">
-              <div class="col-2 col-md-5 col-lg-2 p-0 mb-md-3 mr-sm-2">
-                <a href="https://mastodon.xyz/@vvvv" target="_blank" class="noUnderline">
-                  <img src="{{ "img/icons/mastodon32x32.png" | relLangURL }}" alt="Mastodon.social">
-                </a>
-              </div>
-              <div class="col-2 col-md-5 col-lg-2 p-0 mb-md-3 mr-sm-2">
-                <a href="https://pixelfed.social/madewithvvvv" target="_blank" class="noUnderline">
-                  <img src="{{ "img/icons/pixelfed32x32.png" | relLangURL }}" alt="Pixelfed.social">
-                </a>
-              </div>
-              <div class="col-2 col-md-5 col-lg-2 p-0 mb-md-3 mr-sm-2">
-                <a href="https://github.com/vvvv" target="_blank" class="noUnderline">
-                  <img src="{{ "img/icons/github32x32.png" | relLangURL }}" alt="Github">
-                </a>
-              </div>
-              <div class="col-2 col-md-5 col-lg-2 p-0 mb-md-3 mr-sm-2">
-                    <a href="https://vimeo.com/groups/vvvv/sort:date/format:thumbnail" target="_blank" class="noUnderline">
-                      <img src="{{ "img/icons/vimeo-32x32.png" | relLangURL }}" alt="Vimeo">
-                    </a>
-              </div>
-              <div class="col-2 col-md-5 col-lg-2 p-0 mb-md-3 mr-sm-2">
-                    <a href="https://www.youtube.com/channel/UCu-xqv-TLwv6L0An7MJJA5A" target="_blank" class="noUnderline">
-                      <img src="{{ "img/icons/youtube-32x32.png" | relLangURL }}" alt="Youtube">
-                    </a>
-              </div>
+            <div class="row justify-content-between ml-1">
+              <a href="https://mastodon.xyz/@vvvv" target="_blank" class="noUnderline">
+                <img src="{{ "img/icons/mastodon32x32.png" | relLangURL }}" alt="Mastodon.social">
+              </a>
+              <a href="https://pixelfed.social/madewithvvvv" target="_blank" class="noUnderline">
+                <img src="{{ "img/icons/pixelfed32x32.png" | relLangURL }}" alt="Pixelfed.social">
+              </a>
+              <a href="https://github.com/vvvv" target="_blank" class="noUnderline">
+                <img src="{{ "img/icons/github32x32.png" | relLangURL }}" alt="Github">
+              </a>
+              <a href="https://www.linkedin.com/company/vvvv-group" target="_blank" class="noUnderline">
+                <img src="{{ "img/icons/linkedin32x32.png" | relLangURL }}" alt="LinkedIn">
+              </a>
+              <a href="https://vimeo.com/groups/vvvv/sort:date/format:thumbnail" target="_blank" class="noUnderline">
+                <img src="{{ "img/icons/vimeo-32x32.png" | relLangURL }}" alt="Vimeo">
+              </a>
+              <a href="https://www.youtube.com/channel/UCu-xqv-TLwv6L0An7MJJA5A" target="_blank" class="noUnderline">
+                <img src="{{ "img/icons/youtube-32x32.png" | relLangURL }}" alt="Youtube">
+              </a>
             </div>
           </div>
-          <div class="col-md-4 mt-5">
+          <div class="col-lg-4 mt-5">
             <h3><strong>Sign up for our Newsletter</strong></h3>
             {{ partial "newsletterForm"}}
           </div>

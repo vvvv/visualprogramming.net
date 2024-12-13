@@ -55,6 +55,13 @@ a:focus {
   border-bottom: 1px solid #999;
 }
 
+.card
+{
+  background-color: #444;
+  color: #ccc;
+  border-color: #2f2f2f;
+}
+
 
 #about a {
   text-decoration: none;
