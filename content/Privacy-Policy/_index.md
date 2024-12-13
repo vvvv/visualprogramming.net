@@ -9,7 +9,7 @@ description: Privacy Policy
 
 For any questions we can be reached via groupӘvvvv.org
 
-In case you reach us be email we will store your mails in order to process the request and in case of follow-up questions. We will not share any information without your consent.
+In case you reach us by email we will store your mails in order to process the request and in case of follow-up questions. We will not share any information without your consent.
 
 ## Your Data
 
@@ -26,3 +26,5 @@ We're not using those cookies for any kind of user tracking!
 ## Third party trackers
 
 On some pages of this website you'll encounter embedded videos. In case of youtube those embeds are using the "extended privacy" mode for which google claims it will not phone home unless you actually play the video. In case of vimeo videos we are not aware of any specific "privacy" mode for their embeds at the time of this writing. Vimeo may therefore send data to their servers without your consent.
+
+For analytics we're using [Plausible](https://plausible.io/privacy-focused-web-analytics).
