@@ -125,7 +125,7 @@ blog = '/blog/:sections[1]/:slug'
 		[params.Download.gamma.previewWindow]
 		Title = "Latest Previews"
 		Subtitle ="Don't use for production!"
-		Text = 'These are daily development builds. If you find one to be broken, try an earlier one.<p>Please mark problems you report in the <a href="https://discourse.vvvv.org/c/vvvv-gamma/" target="_blank">forum</a> with the *preview* tag or visit us in the <a href="https://app.element.io/#/room/#vvvv:matrix.org" target="_blank">chat</a> to talk about issues you encounter.</p>'
+		Text = 'These are daily development builds. If you find one to be broken, try an earlier one.<p>Please mark problems you report in the <a href="https://forum.vvvv.org/c/vvvv-gamma/" target="_blank">forum</a> with the *preview* tag or visit us in the <a href="https://app.element.io/#/room/#vvvv:matrix.org" target="_blank">chat</a> to talk about issues you encounter.</p>'
 
 		
 		[params.Download.beta]
@@ -165,7 +165,7 @@ blog = '/blog/:sections[1]/:slug'
 		imgAlt = "vvvv Forum"
 		title = "Forum"
 		description = "Get answers to your questions or find them in existing discussions in the vvvv forum."
-		link = "https://discourse.vvvv.org/c/vvvv-gamma"
+		link = "https://forum.vvvv.org/c/vvvv-gamma"
 		text = "Open Forum"
 
 		[[params.Community.list]]
