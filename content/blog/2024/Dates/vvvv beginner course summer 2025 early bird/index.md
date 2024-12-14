@@ -13,7 +13,11 @@ thumb: "SS25_VVVV_Beginner-thumb.jpg"
 ![](SS25_VVVV_Beginner.png) 
 
 ## Announcing: New vvvv Classes!
-As the year wraps up, we're excited to share some great opportunities for you to dive into the world of vvvv, whether you're just starting out or looking to deepen your skills. No matter where you are in your journey, these classes are a great way to build your skills, connect with like-minded creatives, and unlock the full potential of vvvv. Here’s what’s coming up:
+As the year wraps up, we're excited to share some great opportunities for you to dive into the world of vvvv, whether you're just starting out or looking to deepen your skills. No matter where you are in your journey, these classes are a great way to build your skills, connect with like-minded creatives, and unlock the full potential of vvvv. 
+
+We’re also proud to announce that **Refik Anadol**, one of the most influential figures in the digital art world, has joined as an official ambassador for our vvvv programs at The NODE Institute! Beyond being a globally celebrated artist, Refik has been instrumental in advancing vvvv behind the scenes and regularly collaborates with the most talented patchers from our community. We’re honored to have him as part of the vvvv family, so thank you for your support!
+
+Here’s what’s coming up:
 
 ### Early Bird Registration for the vvvv Beginner Class Summer 2025
 The next edition of our **vvvv Beginner Class** is here! Early bird registration is now open and will run until December 31, 2024. The course begins on March 24, 2025 and is perfect for anyone eager to explore creative coding and interactive media.
