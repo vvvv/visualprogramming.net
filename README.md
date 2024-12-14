@@ -1,4 +1,4 @@
-# visualprogramming.net
+# vvvv.org
 
 The new website for vvvv.
 
@@ -6,7 +6,7 @@ Local build:
 * [Download Hugo Extended](https://gohugo.io/installation/windows/#prebuilt-binaries), unzip and place that into your programs folder,
 * Add it to your path (environment variables),
 * Powershell: 
-  * cd C:\dev\visualprogramming.net
+  * cd C:\dev\vvvv.org
   * hugo server
 * Open http://localhost:1313/ in your browser
 
