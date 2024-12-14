@@ -12,7 +12,7 @@ jobs:
       - name: build on target
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: ./stage.vvvv.org/build.sh
-          host: 'vvvv.org'
+          command: ./stage.visualprogramming.net/build.sh
+          host: 'visualprogramming.net'
           username: vvvv
           privateKey: ${{ secrets.SSH_PRIVATE_KEY}}
