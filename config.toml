@@ -131,8 +131,8 @@ blog = '/blog/:sections[1]/:slug'
 		[params.Download.beta]
 		Headline = "vvvv beta"
 		Copy = "In development since 2001, vvvv beta has been used by many companies worldwide to create large media environments."
-		Text  = "Go to vvvv.org"
-		Link = "https://vvvv.org/downloads"
+		Text  = "Download vvvv beta"
+		Link = "https://legacy.vvvv.org/downloads"
 		Target = "_blank"
 
 		[params.Showcase]
