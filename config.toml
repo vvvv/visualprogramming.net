@@ -1,4 +1,4 @@
-baseURL = "https://visualprogramming.net/"
+baseURL = "https://vvvv.org/"
 languageCode = "en-us"
 paginate = 20
 paginatePath = "page"
@@ -63,7 +63,7 @@ blog = '/blog/:sections[1]/:slug'
 
 		# Navigation
 		[params.navigation]
-		brand 		= "visualprogramming.net"
+		brand 		= "vvvv.org"
 
 		[params.navigation.links]
 		features  = "Features"
