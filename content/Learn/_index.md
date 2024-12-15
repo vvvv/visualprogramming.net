@@ -36,7 +36,7 @@ secondColumn:
       image: /img/icons/stack.svg
   - item: 
       text: > 
-            Help: <a href="https://matrix.to/#/#vvvv:matrix.org" target="_blank">Chat</a>, <a href="https://discourse.vvvv.org/c/vvvv-gamma/28" target="_blank">Forum</a>
+            Help: <a href="https://matrix.to/#/#vvvv:matrix.org" target="_blank">Chat</a>, <a href="https://forum.vvvv.org/c/vvvv-gamma/28" target="_blank">Forum</a>
       image: /img/icons/chat-left-heart-fill.svg
   - item:
       text:
