@@ -1,7 +1,7 @@
 ---
 categories: "Dates"
 author: "The NODE Institute"
-date: "2024-12-07"
+date: "2024-12-17"
 title: "vvvv Beginner Class Summer 2025 - Early Bird!"
 description: "We have already started the early bird registrations for the summer season 2025. Better get your seat now!"
 where: 
