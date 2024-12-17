@@ -20,14 +20,14 @@ We’re also proud to announce that **[Refik Anadol](https://refikanadolstudio.c
 Here’s what’s coming up:
 
 ### Early Bird Registration for the vvvv Beginner Class Summer 2025
-The next edition of our **vvvv Beginner Class** is here! Early bird registration is now open and will run until January 9th, 2024. The course begins on March 24, 2025 and is perfect for anyone eager to explore creative coding and interactive media.
+The next edition of our **vvvv Beginner Class** is here! Early bird registration is now open and will run until January 19th, 2024. The course begins on March 24th, 2025 and is perfect for anyone eager to explore creative coding and interactive media.
 
 https://thenodeinstitute.org/vvvv-beginner-class-summer-2025/
 
 Over 12 sessions, this course will guide you through the fundamentals of 2D and 3D visuals, audio-reactive designs, and interactive compositions — no prior programming knowledge required. Whether you’re an artist, designer, or technologist, this is your chance to start creating with vvvv!
 
 ### Part II of the current Winter Class – “Deep Dive”
-Missed the first half of the running winter class but already have some vvvv basics? No problem! Join us for the **Winter Deep Dive**, starting on January 13, 2025. This advanced course consists of six sessions designed for those ready to tackle more complex projects.
+Missed the first half of the running winter class but already have some vvvv basics? No problem! Join us for the **Winter Deep Dive**, starting on January 13th, 2025. This advanced course consists of six sessions designed for those ready to tackle more complex projects.
 
 https://thenodeinstitute.org/courses/ws24-5-vvvv-beginners-part-ii/
 
@@ -42,8 +42,8 @@ Besides his artistic practice he primarily runs the Vienna and Berlin based desi
 ## Choose your path and sign up today!
 Early registration is key, as spots are limited. Don’t miss out — join us and discover what’s possible with vvvv!
 
-**Summer VVVV Beginner Class**, starting March 2025: Ideal for total newcomers or those looking to expand their artistic toolkit. 12 Sessions. [Register here](https://thenodeinstitute.org/vvvv-beginner-class-summer-2025/)
+**Summer VVVV Beginner Class**, starting March 2025: Ideal for total newcomers or those looking to expand their artistic toolkit. 12 sessions. [Register here](https://thenodeinstitute.org/vvvv-beginner-class-summer-2025/)
 
-**Winter Deep Dive**, starting on January 2025: For those with some experience who want to explore the more technical and advanced sides of vvvv. 6 Sessions. [Register here](https://thenodeinstitute.org/courses/ws24-5-vvvv-beginners-part-ii/)
+**Winter Deep Dive**, starting January 2025: For those with some experience who want to explore the more technical and advanced sides of vvvv. 6 sessions. [Register here](https://thenodeinstitute.org/courses/ws24-5-vvvv-beginners-part-ii/)
 
 {{< /box >}}
