@@ -34,6 +34,10 @@
 {{ $style := resources.Get "css/customDocSearch.css" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" type="text/css">
 
+{{ "<!-- Plausible -->" | safeHTML }}
+<script async defer data-domain="vvvv.org" src="https://plausible.io/js/script.js"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+
 {{ "<!-- Custom Fonts -->" | safeHTML }}
 {{ $style := resources.Get "css/fonts.css" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" type="text/css">
