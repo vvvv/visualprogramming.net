@@ -27,7 +27,7 @@ Wipperstrasse 13, 12055 Berlin<br>
 Doors open: 18:30
 
 ### Vienna
-NBG31<br>
+NBG31 / Bildwerk<br>
 Neubaugasse 31/11, 1070 Vienna<br>
 Doors open: 18:30
 
