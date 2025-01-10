@@ -1,0 +1,47 @@
+{{ "<!-- Features -->" | safeHTML }}
+<section id="Features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ .Site.Params.Features.headline }}</h2>
+                <hr class="primary">
+            </div>
+        </div>
+        <!-- Pills -->
+         
+        <div class="row stickyRow mb-5">
+          <div class="col-12 d-flex justify-content-center">
+            <ul class="nav nav-pills featuresMenu mt-3" id="feature-page-pills">
+              <!-- Overview Menu -->
+              {{ $sections := ((.Site.GetPage "Features").Sections).ByParam "id" }}
+              {{ range $index, $value := $sections }}
+              <li class="nav-item mx-md-1">
+                <a class="nav-link" href="#Features{{.Params.id}}">{{ .Title }}</a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+        {{ .Scratch.Set "sections" (.Site.GetPage "Features")}}
+
+        <div id="Feature-Sections">
+          <div class="col-lg-12 text-center mb-5 pt-2" id="Features0">
+            <h2 class="section-heading">Top Features</h2>
+          </div>
+            {{ .Scratch.Set "sectionTitle" "Top Features"}}
+            {{ partial "features_section" .}}
+
+          <div class="col-lg-12 text-center mb-5 pt-3" id="Features1">
+            <h2 class="section-heading">Libraries</h2>
+          </div>
+          {{ .Scratch.Set "sectionTitle" "Libraries"}}
+          {{ partial "features_section" .}}
+
+          <div class="col-lg-12 text-center mb-5 pt-3" id="Features2">
+            <h2 class="section-heading">Language</h2>
+          </div>
+          {{ .Scratch.Set "sectionTitle" "Language"}}
+          {{ partial "features_section" .}}
+        </div>
+    </div>
+</section>

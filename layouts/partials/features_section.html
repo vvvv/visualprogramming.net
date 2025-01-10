@@ -1,4 +1,4 @@
-{{ "<!-- TopFeatures -->" | safeHTML }}
+{{ "<!-- Features -->" | safeHTML }}
 <div class="row justify-content-start">
     {{ range $index, $elem:=(index (where (.Site.GetPage "Features").Sections "Title" (.Scratch.Get "sectionTitle")) 0).RegularPages.ByParam "id" }}
     <div class="col-lg-5 mb-5 {{if modBool $index 2}}ml-lg-5{{end}} {{if not (modBool $index 2)}}offset-lg-1{{end}}">

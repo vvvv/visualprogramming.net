@@ -3,11 +3,11 @@
     <head>
         {{ partial "head" . }}     
    </head>
-<body>
+<body data-spy="scroll" data-target="#feature-page-pills" data-offset="450">
     <div class="main">
         {{ partial "nav-features" . }}
         
-        {{ partial "features" .}}
+        {{ partial "features-page" .}}
 
         {{ partial "videoBlocker" . }}
 

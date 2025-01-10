@@ -66,14 +66,14 @@ blog = '/blog/:sections[1]/:slug'
 		brand 		= "vvvv.org"
 
 		[params.navigation.links]
-		features  = "Features"
-		blog = "Blog"
-		download  = "Download"
-		showcase = "Showcase"
-		Learn = "Learn"
-		community = "Community"
-		licensing = "Licensing"
-		support = "Support"
+		features  = "features"
+		blog = "blog"
+		download  = "download"
+		showcase = "showcase"
+		Learn = "learn"
+		community = "community"
+		licensing = "licensing"
+		support = "support"
 		contact   = "contact"
 
 		# Hero section

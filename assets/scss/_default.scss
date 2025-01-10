@@ -6,6 +6,9 @@ $header-dark: #282828;
 $sans: "Open Sans", sans-serif;
 $serif: "Roboto Slab", serif;
 
+html{
+  scroll-behavior: smooth;
+}
 
 .btn-xl
 {

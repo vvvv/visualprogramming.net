@@ -8,35 +8,6 @@
 (function($) {
 
     "use strict"; // Start of use strict
-    var topOffset = 0;
-
-    // Smooth scrolling using jQuery easing
-    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-      animateScroll (this);
-    });
-
-    function animateScroll(element)
-    {
-        if (location.pathname.replace(/^\//, '') == element.pathname.replace(/^\//, '') && location.hostname == element.hostname) {
-
-          var target = $(element.hash);
-
-          var navbarMenuHeight = $('#navbar-links').height();
-          target = target.length ? target : $('[name=' + element.hash.slice(1) + ']');
-          if (target.length) {
-            $('html, body').animate({
-              scrollTop: (target.offset().top - navbarMenuHeight - topOffset) 
-            }, 1000, "easeInOutExpo");
-            return false;
-          }
-        }
-    }
-
-    // Highlight the top nav as scrolling occurs
-    $('body').scrollspy({
-        target: '#mainNav',
-        offset: $(window).height()/2
-    })
 
     // Closes the Responsive Menu on Menu Item Click
     $('#navbar-links ul li a').click(function() {
