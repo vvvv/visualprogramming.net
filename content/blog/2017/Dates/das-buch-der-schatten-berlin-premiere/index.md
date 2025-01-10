@@ -6,7 +6,7 @@ title: "Das Buch der Schatten - Berlin Premiere"
 slug: "das-buch-der-schatten-berlin-premiere"
 description: ""
 who: 
-    name: "Daniel Huber (<a href\"https://vvvv.org/users/CeeYaa\">CeeYaa</a>), Alessandro Maggioni, Mika Satomi, Benjamin Hohnheiser (<a href\"https://vvvv.org/users/benju\">benju</a>)"
+    name: "Daniel Huber (<a href\"https://legacy.vvvv.org/users/CeeYaa\">CeeYaa</a>), Alessandro Maggioni, Mika Satomi, Benjamin Hohnheiser (<a href\"https://legacy.vvvv.org/users/benju\">benju</a>)"
 where: 
     location_name: "Schaubude Berlin"
     street: "Greifswalder Str. 81-84"

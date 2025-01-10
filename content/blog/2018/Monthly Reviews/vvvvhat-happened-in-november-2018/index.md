@@ -60,8 +60,8 @@ and something in chinese:
 * [Transcripción 3.0 (Performance](/blog/transcripción-3.0-(performance))) by {{< user "EmilioCorderoCheca" >}}
 <!--~~~-->
 * [as promised 2](/blog/as-promised-2) by {{< user "baxtan" >}}
-* [Inspiration Wall](/blog/inspiration-wall) by [schnellebuntebilder](https://vvvv.org/businesses/schnellebuntebilder)
-* [Mercedes EQC Scanner (Insights](/blog/mercedes-eqc-scanner-(insights))) by [wirmachenbunt](https://vvvv.org/businesses/wirmachenbunt)
+* [Inspiration Wall](/blog/inspiration-wall) by [schnellebuntebilder](https://legacy.vvvv.org/businesses/schnellebuntebilder)
+* [Mercedes EQC Scanner (Insights](/blog/mercedes-eqc-scanner-(insights))) by [wirmachenbunt](https://legacy.vvvv.org/businesses/wirmachenbunt)
 <!--{SPLIT}-->
 
 and remember you can always find much more fancy new stuff appearing [on vimeo](https://vimeo.com/tag:vvvv) and sadly [even here](https://www.instagram.com/explore/tags/vvvv/).

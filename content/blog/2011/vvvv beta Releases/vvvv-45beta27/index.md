@@ -38,7 +38,7 @@ you've probably noticed and didn't dare to mention that since around beta20 vvvv
 forget the GDI category of nodes, vvvv now has a new 2d drawing engine based on [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics). while it is not exactly suitable for highperformance realtime applications it does not only allow you to render 2d stuff with antialiasing and transparency but at the same time save the result as .svg files for printing or further editing in any vector graphics editor. in the right hands this should have quite some potential...
 ---
 and now for the small print: we have some breaking changes this time. nothing too bad though:
-* vvvv is now using .net4 which means that plugins from the [/contributions](https://vvvv.org/contributions) will need a rebuild. contributors please do so and reupload your contribution or consider putting your stuff in the addonpack (using the [vvvv-sdk](https://betadocs.vvvv.org/devvvveloping/vvvv-sdk.html))
+* vvvv is now using .net4 which means that plugins from the [/contributions](https://legacy.vvvv.org/contributions) will need a rebuild. contributors please do so and reupload your contribution or consider putting your stuff in the addonpack (using the [vvvv-sdk](https://betadocs.vvvv.org/devvvveloping/vvvv-sdk.html))
 * vvvv ships with a new and more clean directory-structure. just don't touch anything inside \lib if you don't want to break anything and note that all assets that have ben scattered all over the place are now to be found in \lib\assets
 * input {{< pin "Get Original File Infos" >}} and output {{< pin "File Format" >}} pins of {{< node "Info (EX9.Texture)" >}} had to be removed (due to internas).
 

@@ -23,7 +23,7 @@ A 45 meters picture using our favorite software **VVVV**.
 
 People interested to work with us on this project are welcome.
 
-A [Digital Slaves](http://www.digital-slaves.com/videos.php) project with perhaps the [Desaxismundi](http://www.vvvv.org/tiki-index.php?page=UserPageDesaxismundi)'s contribution.
+A [Digital Slaves](http://www.digital-slaves.com/videos.php) project with perhaps the [Desaxismundi](http://www.legacy.vvvv.org/tiki-index.php?page=UserPageDesaxismundi)'s contribution.
 
 Cheers 
 Or3

@@ -12,9 +12,10 @@ thumb: "tuio_logo.png"
 
 ![](tuio_logo.png)
 
-## Short Version
-vvvv now has native support for both sending and receiving TUIO messages!
-The following nodes are available in latest [alphas](https://vvvv.org/downloads/previews):
+## Short Version
+
+vvvv now has native support for both sending and receiving //legacy.vvvv.org/downloads/previews
+The following nodes are available in latest [alphas](https://legacy.vvvv.org/downloads/previews):
 * TUIOCursor (Network Join/Split)
 * TUIOObject (Network Join/Split)
 * TUIOBlob (Network Join/Split)
@@ -24,7 +25,8 @@ The following nodes are available in latest [alphas](https://vvvv.org/downloads/
 
 For receiving TUIO messages the individual split nodes can be used directly. The TUIOBundler is used for combining different types of TUIO messages in order to send them in one bundle. 
 
-## Some Background
+## Some Background
+
 vvvv has long had support for [TUIO](http://tuio.org), a protocol for receiving data from multitouch surfaces. The {{< node "TUIODecoder (Network)" >}}  was contributed to the addonpack by {{< user "Abomb" >}} years ago. 
 
 It did what it was supposed to with only two caveats: 

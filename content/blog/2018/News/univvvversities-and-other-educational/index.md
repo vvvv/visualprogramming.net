@@ -15,9 +15,9 @@ we'd like to assemble a list of your educational institutions that teach vvvv in
 - give people interested in vvvv an overview of opportunities
 - be able to reach you with information about courses and workshops that could be interesting to students
 
-for 7 years (i just checked my notes) we planned to build a system into the website (similar to the [businesses](https://vvvv.org/businesses/)) where you could manage your own little profile of your institution. apparently that didn't happen...so let's try it the oldschool way. there are two ways to add your institution:
+for 7 years (i just checked my notes) we planned to build a system into the website (similar to the [businesses](https://legacy.vvvv.org/businesses/)) where you could manage your own little profile of your institution. apparently that didn't happen...so let's try it the oldschool way. there are two ways to add your institution:
 
-* go modify the wiki-page [Educational Institutions](https://vvvv.org/documentation/educational-institutions) yourself
+* go modify the wiki-page [Educational Institutions](https://legacy.vvvv.org/documentation/educational-institutions) yourself
 * or send us an email to **edu at vvvv.org** and we'll fiddle with the wiki for you
 
 in case you send an email please include the following information:

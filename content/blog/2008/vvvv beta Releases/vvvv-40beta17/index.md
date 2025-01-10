@@ -20,7 +20,7 @@ thumb: "x.jpg"
 dear audiophiles and ordinary maintainace release lovers,
 
 you might want to check that out:
-* audio ON: now you can plug your favorite [VST](http://www.vvvv.org/tiki-index.php?page=VST) instrument / effect into vvvv. also have a look on the waveplayer patches in \girlpower\+Sound.
+* audio ON: now you can plug your favorite [VST](http://www.legacy.vvvv.org/tiki-index.php?page=VST) instrument / effect into vvvv. also have a look on the waveplayer patches in \girlpower\+Sound.
 * patch OFF: there's a new commandline option "/shutup" to finish your project in a clean way. only renderers are displayed. only the ALT-F4 shortcut works.
 
 also:

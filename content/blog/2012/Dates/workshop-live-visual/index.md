@@ -37,7 +37,7 @@ http://about.me/nicolapavone
 Materiale necessario per la partecipazione:
 
 I partecipanti dovranno portare il proprio laptop con windowsXP, Vista o 7 (su MAC, Boot Camp: http://support.apple.com/kb/HT1461).
-E' richiesta l'installazione del software nel proprio portatile prima dell'inizio del corso: qui le istruzioni per scaricare e installare il programma: [/downloads](https://vvvv.org/downloads)
+E' richiesta l'installazione del software nel proprio portatile prima dell'inizio del corso: qui le istruzioni per scaricare e installare il programma: [/downloads](https://legacy.vvvv.org/downloads)
 Tariffe:
 
     tariffa small: 90,00 euro + 5,00 euro quota associativa annuale / dal 20 settembre al 28 ottobre 2012

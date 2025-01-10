@@ -15,7 +15,7 @@ oh, [NODE20 just happened](/blog/2020/this-was-node20) and never mind if you mis
 
 If you haven't noticed yet, the latest previews for vvvv gamma now include [VL.Stride](/blog/2020/vl.stride-for-evvvveryone), the fancy new 3d engine. We're quite happy with the feedback so far. Things mostly seem to work as expected. We're now focusing on making this preview into the first 2020.3 stable release including VL.Stride. But 3d is not all, we've also included a few other goodies in the 2020.3 branch, which are summarized in a separate blog post with the juicy title: [vvvv - The Tool](/blog/2020/vvvv-the-tool).
 
-[vvvv gamma 2020.2](/blog/vvvv-gamma-2020.2-release) is out and also the latest [previews for beta41](https://vvvv.org/downloads/previews) already include the 2020.2.x branch of VL!
+[vvvv gamma 2020.2](/blog/vvvv-gamma-2020.2-release) is out and also the latest [previews for beta41](https://legacy.vvvv.org/downloads/previews) already include the 2020.2.x branch of VL!
 
 ## Contributions
 
@@ -44,8 +44,8 @@ Quite a few new works in progress:
 {{< vimeo "456625253" >}}
 *Visuals Reel by {{< user "c nissidis" >}}*
 
-* [Retune Live #01 - Moon Garden](https://vimeo.com/473355079) About a largescale multiprojection interactive installation that [wirmachenbunt](https://vvvv.org/businesses/wirmachenbunt) recently realized.
-* [DC Tower - Top of Austria](/blog/dc-tower-top-of-austria-interactive-installation) Interactive Installation by [Responsive Spaces](https://vvvv.org/businesses/responsive-spaces-gmbh)
+* [Retune Live #01 - Moon Garden](https://vimeo.com/473355079) About a largescale multiprojection interactive installation that [wirmachenbunt](https://legacy.vvvv.org/businesses/wirmachenbunt) recently realized.
+* [DC Tower - Top of Austria](/blog/dc-tower-top-of-austria-interactive-installation) Interactive Installation by [Responsive Spaces](https://legacy.vvvv.org/businesses/responsive-spaces-gmbh)
 * [WITHHELD BREATH](/blog/withheld-breath) by {{< user "rogalag" >}}
 * [WALK](/blog/walk-designup-india) by {{< user "takuma" >}}
 * [Nymphéas](/blog/nymphéas-kinetic-light-installation) a kinetic-light-installation by {{< user "iam404" >}}
@@ -55,7 +55,7 @@ Quite a few new works in progress:
 ## Jobs
 
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
-* If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
+* If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://legacy.vvvv.org/documentation/vvvv-specialists-available-for-hire)
 
 ---
 

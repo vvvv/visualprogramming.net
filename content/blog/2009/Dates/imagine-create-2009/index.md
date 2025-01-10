@@ -24,6 +24,6 @@ The event will be aimed at audiences from a range of backgrounds, including busi
 
 The organisers anticipate that this event, which is unique in both Northern Ireland and the wider context, will draw audiences from schools, colleges and businesses to the North West from around Northern Ireland, the Republic of Ireland and the UK. It is hoped that the festival will become an annual event; focused firmly on the interface between creativity and technology.
 
-[**Digital Slaves**](http://vvvv.org/tiki-index.php?page=UserPageDigitalSlaves) will show an audioreactive mapping with BoxCutter,The Crimson Underground, Stephen McCauley.
+[**Digital Slaves**](http://legacy.vvvv.org/tiki-index.php?page=UserPageDigitalSlaves) will show an audioreactive mapping with BoxCutter,The Crimson Underground, Stephen McCauley.
 
 On the afternoon Digital Slaves will propose an introduction to vvvv programming.

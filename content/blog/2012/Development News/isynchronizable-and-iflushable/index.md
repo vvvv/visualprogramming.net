@@ -11,7 +11,7 @@ imported: "true"
 
 ever wanted to write a sample and hold node as a plugin? well you couldn't, until now :)
 <!--break-->
-the ISpread interface now implements two new interfaces, [ISynchronizable](https://vvvv.org/pluginspecs/T_VVVV_Utils_Streams_ISynchronizable.htm) and [IFlushable](https://vvvv.org/pluginspecs/T_VVVV_Utils_Streams_IFlushable.htm). 
+the ISpread interface now implements two new interfaces, [ISynchronizable](https://legacy.vvvv.org/pluginspecs/T_VVVV_Utils_Streams_ISynchronizable.htm) and [IFlushable](https://legacy.vvvv.org/pluginspecs/T_VVVV_Utils_Streams_IFlushable.htm). 
 ISynchronizable exposes the method Sync and IFlushable exposes the method Flush. what they do is simple: 
 calling the method Sync on a spread triggers the evaluation of the upstream pin and copies the raw pin data to the spread.
 calling the method Flush on a spread will copy the data of the spread back to the pin.

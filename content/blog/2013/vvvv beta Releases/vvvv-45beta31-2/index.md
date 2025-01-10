@@ -36,6 +36,6 @@ to find an unprecedented collection of finely documented demos and overviews cov
 
 so they say vvvv is hard to learn? depends. they say vvvv lacks documentation? wrong. vvvvs documentation taskforce in the manifestation of {{< user "robotanton" >}} is unstoppable. much more to come... learning/teaching resources for vvvv are getting ready to play with the grownups. tweet that already!
 
-and while we have you reading..please take a second to update your [personal settings](https://vvvv.org/home/settings/personal) with infos you'd like to share and then see the new [connections](https://vvvv.org/users/connections) page for some convenient listings. 
+and while we have you reading..please take a second to update your [personal settings](https://legacy.vvvv.org/home/settings/personal) with infos you'd like to share and then see the new [connections](https://legacy.vvvv.org/users/connections) page for some convenient listings. 
 
 that is it for now. more changes to arrive in the alpha builds soon..

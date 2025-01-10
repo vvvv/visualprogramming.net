@@ -10,7 +10,7 @@ thumb: "0_2016.01.10-17_r.png"
 ---
 
 
-as the [Scripter contribution](https://vvvv.org/contribution/scripter-%28csharp%29) title describes - for your ultimative hacking comfort in vvvv...
+as the [Scripter contribution](https://legacy.vvvv.org/contribution/scripter-%28csharp%29) title describes - for your ultimative hacking comfort in vvvv...
 ---
 ### two reasons this might be interesting for you:
 

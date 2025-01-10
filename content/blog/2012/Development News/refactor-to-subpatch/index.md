@@ -15,7 +15,7 @@ you're patching away and things start to get messy but you're too lazy to **refa
 
 there are not many shortcuts left, but **ctrl+g** seems quite suitable (in fact theres only one more major shortcut left now..still to come..) for a task that groups selected nodes to a new subpatch. admittedly it would be even more useful if the new subpatch would not even have to be saved in an extra file but unfortunately that requires some more work still. so hope this saves us some clicks already...
 
-now available in latest [alpha builds](https://vvvv.org/downloads/previews).
+now available in latest [alpha builds](https://legacy.vvvv.org/downloads/previews).
 reports to the [alpha forum](https://discourse.vvvv.org/) please. 
 
 known issues:

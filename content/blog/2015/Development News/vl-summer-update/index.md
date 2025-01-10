@@ -14,13 +14,16 @@ dir lovvvvers of visual programming,
 
 we've not talked about our progress on VL for a while. So here is what happened since its [initial public release](/blog/2015/vvvv50-vl-pack-alpha) at the [NODE15 keynode](https://vimeo.com/129085756).
 
-## What the VL?
-VL is our next generation visual programming language that (for now only) integrates with vvvv as you know it and allows you to patch plugins for vvvv making use of its object oriented language features. You can test it by using the latest [alpha build](https://vvvv.org/downloads/previews) and following the [VL quick reference](https://betadocs.vvvv.org/devvvveloping/dynamic-vl-plugin-reference.html) as an introduction. If you encounter any problems, please get in contact using the [VL alpha forum](https://discourse.vvvv.org/).
+## What the VL?
+//legacy.vvvv.org/downloads/previews
+VL is our next generation visual programming language that (for now only) integrates with vvvv as you know it and allows you to patch plugins for vvvv making use of its object oriented language features. You can test it by using the latest [alpha build](https://legacy.vvvv.org/downloads/previews) and following the [VL quick reference](https://betadocs.vvvv.org/devvvveloping/dynamic-vl-plugin-reference.html) as an introduction. If you encounter any problems, please get in contact using the [VL alpha forum](https://discourse.vvvv.org/).
 
 In the future VL will be available in a standalone development environment with which you'll be able to deploy .net executables and .dlls that can be consumed by any other .net application. 
 
-## What happened since node15
-### Library
+## What happened since node15
+
+### Library
+
 A lot of work has been done in the library. We first tried to focus on getting the basics complete. And I'd say we're about 90% there. Here is an overview of what you can now use:
 * String/Char: more functionality than vvvv except a RegExpr node
 * Color: more functionality than vvvv
@@ -45,7 +48,8 @@ Those are arguably the big chunks indeed, but since we have plenty of those in v
 
 Specifically we're in the process of importing a bit larger .net libraries to learn how we can work with them. The first tests resulted in a patched node for the [EyeTribe eyetracking](https://discourse.vvvv.org/t/theeyetribe-eyetracking-vl-plugin/13201) and the [3dConnexion spacemouse](https://discourse.vvvv.org/t/spacemouse-vl-plugin/13207) devices, all open for you to inspect. This is how in the future you will integrate any device. More to come..
 
-###  UI
+###  UI
+
 UK, so now that we're getting confident with the library what we're also working on is patchability.
 
 Here is the biggest recent changes: 
@@ -56,14 +60,16 @@ Here is the biggest recent changes:
 
 And yes, much more to be done..
 
-###  Language
+###  Language
+
 Also languagewise a few things have happened. Here are some of the highlights:
-* loops now understand a special "Alive" outlet. Should the "Alive" outlet evaluate to false the slice will not make it into the output spread...
+* loops now understand a special "Alive" outlet. Should the "Alive" outlet evaluate to false the slice will not make it into the output spread...//legacy.vvvv.org/downloads/previews
 * if-regions now have inlets. They provide the region with the value connected to the default input.
 * the targetcode quality has been improved improving the overall runtime performance.
 
-## The road ahead
-We're quite happy with what the integration of VL into vvvv brings us and therefore instead of the VL standalone we now first concentrate on making VL a first-class language inside vvvv, ie. combining the powers of the two. Therefore we're now working towards beta35 which will be the first vvvv release that officially includes VL, expected around new-year. So take this time to check out the [latest alphas](https://vvvv.org/downloads/previews) and feed us back with your thoughts. The main question being: Are you able to express yourself within VL? Show us your patches and lets discuss where you meet limits. You know where to find us: [IRC](https://betadocs.vvvv.org/chat.html) and [alpha forum](https://discourse.vvvv.org/). We're very much looking forward to your input.
+## The road ahead
+
+We're quite happy with what the integration of VL into vvvv brings us and therefore instead of the VL standalone we now first concentrate on making VL a first-class language inside vvvv, ie. combining the powers of the two. Therefore we're now working towards beta35 which will be the first vvvv release that officially includes VL, expected around new-year. So take this time to check out the [latest alphas](https://legacy.vvvv.org/downloads/previews) and feed us back with your thoughts. The main question being: Are you able to express yourself within VL? Show us your patches and lets discuss where you meet limits. You know where to find us: [IRC](https://betadocs.vvvv.org/chat.html) and [alpha forum](https://discourse.vvvv.org/). We're very much looking forward to your input.
 
 Then with beta35 we'll expect you to gradually incorporate VL into your projects. Implement parts of new projects in VL and still do the rendering parts in vvvv. While you'll be doing that we'll have some time to prepare the standalone release that at some point should finally convince you to completely move to the next generation of visual programming. But no need to rush it..one step at a time..
 

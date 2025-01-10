@@ -17,7 +17,7 @@ thumb: "timeliner.jpg"
 
 ![](timeliner.jpg)
 
-well, it is that time of year again. happy birthday vvvv. you may not have counted, but she is 5 official years old today. horray. see the [Change Log](https://betadocs.vvvv.org/changelog/core/change-log-vvvv33beta14.html) for what she's gone through lately and get her freshest bytes from the [Downloads](https://vvvv.org/downloads). may she loop on forever and we love you very much.
+well, it is that time of year again. happy birthday vvvv. you may not have counted, but she is 5 official years old today. horray. see the [Change Log](https://betadocs.vvvv.org/changelog/core/change-log-vvvv33beta14.html) for what she's gone through lately and get her freshest bytes from the [Downloads](https://legacy.vvvv.org/downloads). may she loop on forever and we love you very much.
 
 ah and oh, what is there on the horizon? 
 **the vvvv group humbly presents: [TimelinerSA](https://betadocs.vvvv.org/topics/animation/timelinersa.html) - A Multipurpose Timeline**

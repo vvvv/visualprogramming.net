@@ -28,7 +28,7 @@ an enduser (and we all are!) should not need to know about addons. for the first
 
 the addonpack is a single download for the enduser that makes sure he gets working versions of all addons and their dependencies for a specific vvvv release. true, this adds a bit of a startup-lag but we think this is a good tradeoff for potentially reducing the problems of missing or out of date addons. no fiddling around with individual addons, just get the pack, don't touch it and you should be save 90% of the time.
 
-now not every contributor wants to deal with github so we introduced a second standardized way to contribute addons, the [contributions](https://vvvv.org/contributions). here it is easy for everyone to upload stuff. also the integration of downloads into ones vvvv installation [is](https://betadocs.vvvv.org/using-vvvv/patching/using-addons.html) easy]: make a directory "contributions" say on your desktop, reference that directory in vvvvs root and put the downloads in there. done.
+now not every contributor wants to deal with github so we introduced a second standardized way to contribute addons, the [contributions](https://legacy.vvvv.org/contributions). here it is easy for everyone to upload stuff. also the integration of downloads into ones vvvv installation [is](https://betadocs.vvvv.org/using-vvvv/patching/using-addons.html) easy]: make a directory "contributions" say on your desktop, reference that directory in vvvvs root and put the downloads in there. done.
 
 of course the contributions bare the risk of becoming out of date but again that is an accepted tradeoff in order to make it possible/easier for more people to contribute.
 

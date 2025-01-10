@@ -53,4 +53,4 @@ For the plugin-developer:
 * Plugins that are using the (now) legacy "KeyboardState" and "MouseState" datatype don't need to be modified - vvvv is gracefully taking care of this with an auto-wrapper. 
 * The new "Device" datatype merely is a wrapper around a push based sequence of Device notifications. See [KeyboardNodes.cs](https://github.com/vvvv/vvvv-sdk/blob/develop/vvvv45/src/nodes/plugins/System/KeyboardNodes.cs) for an example of how to use it in your new developments. 
 
-all available now for testing with the latest [alpha builds](https://vvvv.org/downloads/previews)
+all available now for testing with the latest [alpha builds](https://legacy.vvvv.org/downloads/previews)

@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-Here is to inform you about an update to general File input/output in VL available for testing in [latest alphas](https://vvvv.org/downloads/previews) today. Introduced [1.5years ago](/blog/2016/let-me-present-to-you-file-io) we've now completely reworked this from the ground up with the things we've learned so far. 
+Here is to inform you about an update to general File input/output in VL available for testing in [latest alphas](https://legacy.vvvv.org/downloads/previews) today. Introduced [1.5years ago](/blog/2016/let-me-present-to-you-file-io) we've now completely reworked this from the ground up with the things we've learned so far. 
 
 ## Blocking
 

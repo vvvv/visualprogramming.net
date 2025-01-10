@@ -32,6 +32,6 @@ plus:
 
 so basically anything you could already do in vvvv plus some more. and this is only what we brought to the surface for you. using the underlying .net datatypes (XDocuments, ...) directly, a pro-user will (later) easily be able to use the whole range of functions that those datatypes provide for more advanced use-cases. 
 
-so, once again, something for the whole family..available in [latest alphas](https://vvvv.org/downloads/previews) now.
+so, once again, something for the whole family..available in [latest alphas](https://legacy.vvvv.org/downloads/previews) now.
 gut patch!
 

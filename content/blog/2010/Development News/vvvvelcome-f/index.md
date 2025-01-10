@@ -23,7 +23,7 @@ we uploaded [some code templates](http://vvvv.svn.sourceforge.net/viewvc/vvvv/pl
 
 althogh we uploaded all code with #develop solutions, we highly recommend to use visual studio 2010 professional because of its F# IntelliSense. you can still [download the release candidate for free](http://www.microsoft.com/downloads/details.aspx?FamilyID=f9c0b89b-4964-4906-94c6-60ad8a429690&displaylang=en), but hurry up, the official release is at 12th april.
 
-if you have questions, ask them in our [vvvvorums](http://vvvv.org/tiki-view_forum.php?forumId=22).
+if you have questions, ask them in our [vvvvorums](http://legacy.vvvv.org/tiki-view_forum.php?forumId=22).
 
 and here are some links to get startet with F#:
 

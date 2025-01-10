@@ -25,7 +25,7 @@ So you see, we're far from bored...In case you are, here are two things for you 
 * The [recording of my intro to vvvv gamma](https://youtu.be/SG65AaOksFk) talk I held at Ircam some weeks ago where I'm also casually using VL.Stride already...
 * The [recording of the 2. worldwide vvvv meetup](https://youtu.be/uczIZHGHUlg?t=219) from last week with many nice goodies being presented...
 
-And finally, if you need a vvvv specialist or are one yourself, check out this new listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire).
+And finally, if you need a vvvv specialist or are one yourself, check out this new listing of [vvvv specialists available for hire](https://legacy.vvvv.org/documentation/vvvv-specialists-available-for-hire).
 
 ## Contributions
 

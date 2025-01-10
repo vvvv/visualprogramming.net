@@ -16,7 +16,7 @@ thumb: "rendererdirectx_r.jpg"
 
 
 <!--{SPLIT()}-->
-once again just in time for you to get your christmas presents patched together. if you want trouble you know [how to bug us](http://vvvv.org/tiki-view_forum.php?forumId=4). 
+once again just in time for you to get your christmas presents patched together. if you want trouble you know [how to bug us](http://legacy.vvvv.org/tiki-view_forum.php?forumId=4). 
 
 hope many of your graphiccards can enjoy the mountain view. (sanch wanted to put the camera a little bit eier and change the text last minute... but there are even deadlines we have to meet!) 
 

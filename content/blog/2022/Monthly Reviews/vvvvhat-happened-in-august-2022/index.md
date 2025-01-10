@@ -15,7 +15,7 @@ a month that saw quite some holiday action on our end. Still we found time for a
 - After identifying the issue, work has started to mitigate framedrops as mentioned in [this forum post](https://discourse.vvvv.org/t/total-frame-drop-out-including-audio-dropout-glitching/20701)
 - We're about to finish work on the [Geometry Primitives](https://github.com/vvvv/VL.Stride/pull/561) pullrequest and hope to soon have it merged into latest previews
 - We further continued work on wrapping [ImGui](https://github.com/ocornut/imgui) and on our projection mapping library [VL.Badmapper](https://www.nuget.org/packages/VL.Badmapper)
-- Work is well under way moving [Contributions](https://vvvv.org/contributions) into a new home...
+- Work is well under way moving [Contributions](https://legacy.vvvv.org/contributions) into a new home...
 - We sat with the [FUSE](https://www.thefuselab.io/) team to figure out best practices for their next steps 
   
 Next up: We're looking forward to the **[Kairos development camp 1.0
@@ -42,6 +42,6 @@ REPEAT - by [F3](http://f3.studio/)
 
 - Always keep an eye on the [vvvv job board](https://discourse.vvvv.org/c/jobs)
 - There are often some more on [The Interactive & Immersive Job Board](https://jobs.interactiveimmersive.io/?s=vvvv&post_type=job_listing&orderby=date) and [dasauge.de](https://dasauge.de/sta/Vvvv/)
-- If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
+- If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://legacy.vvvv.org/documentation/vvvv-specialists-available-for-hire)
 
 That was it for August. Anything to add? Please do so in the comments!

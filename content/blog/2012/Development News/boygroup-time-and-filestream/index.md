@@ -16,7 +16,7 @@ In fact all files which you can play with a {{< node "FileStream (DShow9)" >}} c
 
 Along with it comes a node {{< node "Clock (Network Boygroup)" >}}, which synchronizes an adjustable server time on the clients almost as tight as N'Sync can dance.
 
-So [download the alpha](https://vvvv.org/downloads/previews) and check the help patches!
+So [download the alpha](https://legacy.vvvv.org/downloads/previews) and check the help patches!
 
 To realize all that, the IHDEHost interface got some new goodies:
 
@@ -25,6 +25,6 @@ To realize all that, the IHDEHost interface got some new goodies:
  .RealTime
  .SetRealtime(double time)
 
-have a look at the corresponding [documentation pages](https://vvvv.org/pluginspecs/).
+have a look at the corresponding [documentation pages](https://legacy.vvvv.org/pluginspecs/).
 
 please report all missing dance steps in the [alpha forums](https://discourse.vvvv.org/).

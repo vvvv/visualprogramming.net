@@ -33,6 +33,6 @@ The new release comes with the following features:
 
 And some more shwops and mops.
 
-Get it at [Downloads](https://vvvv.org/downloads), be sure to have installed all the requirements listed under Additional Downloads and also don't forget the latest [addonpack](https://betadocs.vvvv.org/devvvveloping/addons/)!
+Get it at [Downloads](https://legacy.vvvv.org/downloads), be sure to have installed all the requirements listed under Additional Downloads and also don't forget the latest [addonpack](https://betadocs.vvvv.org/devvvveloping/addons/)!
 Go for it!
 Yours devvvvs, groups

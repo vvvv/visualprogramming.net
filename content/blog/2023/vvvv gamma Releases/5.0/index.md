@@ -92,7 +92,7 @@ Many more features can now be added, one by one, depending on your requirements.
 
 ![Fuse](vvvv-fuse.png)
 
-Created by [dottore](https://vvvv.org/users/dottore), [everyoneishappy](https://vvvv.org/users/everyoneishappy) and [texone](https://vvvv.org/users/texone) it is currently on its way to its second major release, which makes extensive use of latest changes to our [Custom Regions API](https://thegraybook.vvvv.org/reference/extending/custom-regions.html) that allows anyone to develop their own regions! Curious to test? Check the preview builds of [VL.Fuse 1.0.0](https://www.nuget.org/packages/VL.Fuse), then consider supporting further development via [The Fuse Lab OpenCollective](https://opencollective.com/the-fuse-lab).
+Created by [dottore](https://legacy.vvvv.org/users/dottore), [everyoneishappy](https://legacy.vvvv.org/users/everyoneishappy) and [texone](https://legacy.vvvv.org/users/texone) it is currently on its way to its second major release, which makes extensive use of latest changes to our [Custom Regions API](https://thegraybook.vvvv.org/reference/extending/custom-regions.html) that allows anyone to develop their own regions! Curious to test? Check the preview builds of [VL.Fuse 1.0.0](https://www.nuget.org/packages/VL.Fuse), then consider supporting further development via [The Fuse Lab OpenCollective](https://opencollective.com/the-fuse-lab).
 
 ### Tesselation Stage
 Thanks to a [code contribution by kopffarben](https://github.com/vvvv/VL.Stride/pull/589) you now have access to the Tesselation Stage in VL.Stride and the MaterialExtension node has a Tesselation feature. 

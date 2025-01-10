@@ -54,7 +54,7 @@ Any experience with coding or visual based development environements will come i
 Software and costs
 
 All software is freely available for learning/non-commercial purposes, and copies will be distributed with the course materials on the day.
-We will be using the latest version of VVVV at the time of the workshops (currently 26, which can be downloaded from [/downloads](https://vvvv.org/downloads))
+We will be using the latest version of VVVV at the time of the workshops (currently 26, which can be downloaded from [/downloads](https://legacy.vvvv.org/downloads))
 
 **Equipment you’ll need**
 

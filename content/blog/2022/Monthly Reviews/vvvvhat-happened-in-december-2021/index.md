@@ -37,7 +37,7 @@ And there is a growing number of [video tutorials in chinese](https://www.youtub
 ## Gallery
 
 {{< vimeo "657825615" >}}
-*Fantastic Mobility by [BADABOOMBERLIN](https://vvvv.org/businesses/badaboomberlin)*
+*Fantastic Mobility by [BADABOOMBERLIN](https://legacy.vvvv.org/businesses/badaboomberlin)*
 
 * [Perpetual Myth](https://www.aristidesgarcia.de/perpetual-myth) by {{< user "lasal" >}}
 * [#madewithvvvv](https://www.picuki.com/tag/madewithvvvv) by various patchers
@@ -46,7 +46,7 @@ And there is a growing number of [video tutorials in chinese](https://www.youtub
 
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
-* If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
+* If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://legacy.vvvv.org/documentation/vvvv-specialists-available-for-hire)
 
 ---
 

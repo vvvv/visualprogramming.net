@@ -26,7 +26,7 @@ vl is going strong. at least on our side. but also more and more of you are eage
 * [Verlet Chain](https://discourse.vvvv.org/t/verletchain-in-vl/14747/)
 <!--{SPLIT}-->
 
-aaaaand the [quickfancypix](https://vvvv.org/businesses/schnellebuntebilder) are spoiling  you with a [recording of their latest workshop about vl](/blog/2017/video-doc-vvvvorkshop-ii-about-vl) held by {{< user "elias" >}} and {{< user "tonfilm" >}}
+aaaaand the [quickfancypix](https://legacy.vvvv.org/businesses/schnellebuntebilder) are spoiling  you with a [recording of their latest workshop about vl](/blog/2017/video-doc-vvvvorkshop-ii-about-vl) held by {{< user "elias" >}} and {{< user "tonfilm" >}}
 
 ## Jobs
 

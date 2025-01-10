@@ -38,7 +38,7 @@ Small update (30/12/2015):
 Since a small issue was preventing startup on windows 7, small 0.6.1 bug fix release has been out), please check in downloads (old 0.6 is removed to avoid getting wrong download). 
 
 Download here:
-https://vvvv.org/contribution/directx11-nodes-alpha
+https://legacy.vvvv.org/contribution/directx11-nodes-alpha
 
 
 Merry christmas,

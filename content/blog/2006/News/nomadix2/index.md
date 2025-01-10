@@ -14,7 +14,7 @@ thumb: "nomade.jpg"
 
 **Coached Workshop at [Hyperwerk](http://hyperwerk.ch) (Basel, Switzerland) this july.** 
 
-The goal was to design a new audiovisual content for a previous installation: [nomadix](http://vvvv.org/tiki-view_blog_post.php?blogId=4&amp;postId=68). The nomadix installation is composed of seven inflatable, motorized “screens” in the shape of a cone. The devices consist of a beamer, a computer, speakers and a motor for each of the two axis of rotation. 
+The goal was to design a new audiovisual content for a previous installation: [nomadix](http://legacy.vvvv.org/tiki-view_blog_post.php?blogId=4&amp;postId=68). The nomadix installation is composed of seven inflatable, motorized “screens” in the shape of a cone. The devices consist of a beamer, a computer, speakers and a motor for each of the two axis of rotation. 
 
 ([nomadix1 project website](http://www.nomadix.info/eng/index.php))
 

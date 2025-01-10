@@ -32,5 +32,5 @@ At the moment DX9 is used for input/output of textures, but thanks to the modula
 * Photoshop (EX9.Texture). 
 Anyone?
 
-Available for testing in latest [alpha](https://vvvv.org/downloads/previews).
+Available for testing in latest [alpha](https://legacy.vvvv.org/downloads/previews).
 happy photopatching.

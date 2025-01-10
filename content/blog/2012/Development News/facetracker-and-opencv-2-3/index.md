@@ -13,7 +13,7 @@ helos,
 
 this is to announce the availability of a new node called 
 **FaceTracker (DShow9 Freeframe)**
-in the latest [alpha builds](https://vvvv.org/downloads/previews). it is essentially a wrapper around [Jason Saragih's facetracking library](http://web.mac.com/jsaragih/FaceTracker/FaceTracker.html) (to whom all credits belong). Please note though that it is only licensed for non-commercial use which means you must not use it in a commercial project even if you aquired a vvvv-license!
+in the latest [alpha builds](https://legacy.vvvv.org/downloads/previews). it is essentially a wrapper around [Jason Saragih's facetracking library](http://web.mac.com/jsaragih/FaceTracker/FaceTracker.html) (to whom all credits belong). Please note though that it is only licensed for non-commercial use which means you must not use it in a commercial project even if you aquired a vvvv-license!
 
 additional credits go to [enrico viola](http://naufolio.augmentedrealityag.com/) for guiding the process of implementing jasons library in the freeframe plugin for vvvv. and to [marco tempest](http://marcotempest.com/) for insisting on having this in his [magic-and-storytelling](/blog/magic-and-storytelling) ted-talk.
 

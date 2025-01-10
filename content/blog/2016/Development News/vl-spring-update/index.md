@@ -14,7 +14,8 @@ previously on VL: [VL Winter Update](/blog/2016/vl-winter-update)
 
 Still? Yep, spring has passed, summer is in full bloom and we're still finishing up that branch... To learn more about what we're working on at the moment and what you can expect with the next alpha-release, please read on, below the 'what the vl' intro.
 ---
-## What the VL?
+## What the VL?
+
 VL is a general purpose visual programming language that combines dataflow with features known from object-oriented programming. It comes with a compiler that builds to the .net intermediate language and as such produces executables and libraries compatible to .net/mono. 
 
 Language features include but are not limited to:
@@ -29,11 +30,13 @@ Language features include but are not limited to:
 <!--{SPLIT}-->
 As a proof of concept VL is now embedded into vvvv before it will later be available in a standalone development environment. Also we're planning for VL to be embeddable in other software products allowing it to become a dynamic plugin provider for various applications...
 
-## Where its at
+## Where its at
+
 The main reason for the internal rework we started a few month ago (as mentioned in the previous update) was to get the underlying model that describes a VL program immutable. Immuhat? and why? I'm afraid the answer to that is gonna be a bit technical but since you asked I'd like to quote [wikipedia on Immutable Object](https://en.wikipedia.org/wiki/Immutable_object):
 <!--break-->
 {{< box >}}quote:wikipedia:
-Immutable objects are useful because they are inherently thread-safe. Other benefits are that they are simpler to understand and reason about and offer higher security than mutable objects.{{< /box >}}
+Immutable objects are useful because they are inherently thread-safe. Other benefits are that they are simpler to understand and reason about and offer higher security than mutable objects.
+{{< /box >}}
 
 So by making sure that VL internally is completely immutable we're benefiting from these things and already the compiler now runs on a background thread speeding up things quite a bit. 
 
@@ -45,10 +48,12 @@ Anyway it was a bigger rework then we'd anticipated and we made the mistake of m
 - interaction consistency
 because of course those are arguably the most important things for you to judge VL by, but we simply have to do things one after the other. strong basement first..
 
-## Upcoming improvements
+## Upcoming improvements
+
 In current alphas loading VL inside vvvv takes around 30 seconds which is why we're displaying a splashscreen showing the progress. In our new branch this is now so fast that we're trying without the splashscreen again. The improvement was possible due to a more selective loading/compiling of only the actually needed nodes and the fact that the compiler can now use multiple threads in parallel.
 
-### Language related improvements
+### Language related improvements
+
 When in current alphas you create a patch you then have to decide whether it is a datatype and if so whether that datatype is mutable or not. In the new branch you'll explicitly create either just a patch (that can hold utility operations which can call each other!) or a Record (=immutable datatype) or a Class (=mutable datatype). 
 
 The newly introduced document patch (already mentioned in our last update) gives an overview of the patches in a document, see:
@@ -63,7 +68,8 @@ There is a conceptual change regarding fields of a datatype: Where in current al
 
 When making a connection between nodes that belong to different operations VL now inserts an anonymous (unnamed) field. This is useful because such a field can now be initialized in the constructor, allowing you to avoid uninitialized states.
 
-### UI related improvements
+### UI related improvements
+
 The explorer in the top-left corner of a patch got an update: You can now conveniently add, remove and rename fields and operations there. Also name and category of the patch can now be changed in that same on-patch menu. 
 
 ![](_02.08.2016-15._r.gif)
@@ -109,24 +115,28 @@ By doubleclicking an existing link you can now insert any node by choosing it fr
 
 And one more thing that's already available in current alphas but also got some rework plus i think we've not mentioned it yet: the Documentation Window. Press Ctrl+M to open it and write documentation for different elements. Here you can write a general introduction to a vl document, explaining the functionality of individual operations, add credits and tags and such. Things you enter here are also showing up in the vvvv nodebrowser!
 
-## Library
+## Library
+
 In the last update we already promised an Arduino/Firmata implementation. It is now 99% finished, working smoothly and so convenient to use that it is ridiculous. Expect a separate blogpost soon™. 
 
 Together with our june/july coder-in-residence {{< user "ravasquez" >}} work has started on the implementation of file reader/writer nodes. We're still learning a lot about how to wrap things for VL and are adding details to the documentation (mentioned in the last update) that we're preparing for you to learn how to import/create your own VL libraries.
 
 {{< user "dominikKoller" >}} has done more work on the Skia (2d graphics rendering framework) wrapper. It can already do much more and much faster than 2d-drawing ever was capable of in vvvv (think precision font rendering, antialiasing, clipping paths...) but it is a huge library, so don't expect this out too soon. Note to self: leak a little videoproof of those claims..
 
-{{< user "robotanton" >}} is further improving our new [editing framework](/blog/2016/introducing-the-editing-framework). Every point now comes with an ID that can be used to tie other things to it. There were some troubles with the aspectratio not being handled consistently between interaction and drawing and the beziereditors now have clear handle-modes and interaction. Those three changes are already in latest alphas now. Next we're improving interaction with 3D points, which is still a bit tricky at the moment. Expect an extra blogpost update when that hits the alphas.
+{{< user "robotanton" >}} is further impr//legacy.vvvv.org/downloads/previewsork](/blog/2016/introducing-the-editing-framework). Every point now comes with an ID that can be used to tie other things to it. There were some troubles with the aspectratio not being handled consistently between interaction and drawing and the beziereditors now have clear handle-modes and interaction. Those three changes are already in latest alphas now. Next we're improving interaction with 3D points, which is still a bit tricky at the moment. Expect an extra blogpost update when that hits the alphas.
 
-## Next Steps
+## Next Steps
+
 Fix last remaining issues with the branch, make sure all the things that worked before the restructuring still work, then merge it back into alpha builds. Then continue with more frequent smaller updates on the road towards beta35 which will be the first vvvversion that includes VL as a first-class patching language. If you already want to get your hands on whats available so far, follow these steps:
 
 {{< box >}}
-## Diving into VL
-* download: [vvvv alpha downloads](https://vvvv.org/downloads/previews) 
+## Diving into VL
+
+* download: [vvvv alpha downloads](https://legacy.vvvv.org/downloads/previews) 
 * demos: see \packs\vlpack_..\girlpower 
 * learn: [VL quick reference](https://betadocs.vvvv.org/devvvveloping/dynamic-vl-plugin-reference.html)
-* discuss: [alpha forum](https://discourse.vvvv.org){{< /box >}}
+* discuss: [alpha forum](https://discourse.vvvv.org)
+{{< /box >}}
 
 If you want to let us know that you like anything you just read...we're always up for a comment or even a flattr:
 [/downloads|vvvv](flattr)

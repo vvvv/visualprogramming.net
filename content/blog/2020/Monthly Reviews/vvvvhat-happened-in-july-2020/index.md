@@ -42,7 +42,7 @@ Wtih many things now falling into place for vvvv gamma, we're really happy to ha
 
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
-* If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
+* If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://legacy.vvvv.org/documentation/vvvv-specialists-available-for-hire)
 
 ---
 

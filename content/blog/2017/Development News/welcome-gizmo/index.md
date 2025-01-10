@@ -29,4 +29,4 @@ See Editor's helppatches.
 Nothing more to say.
 Easy.
 
-**Available in the latest [Alphas](https://vvvv.org/downloads/previews).**
+**Available in the latest [Alphas](https://legacy.vvvv.org/downloads/previews).**

@@ -15,7 +15,8 @@ Anyway, we maintained those modules over time but kinda failed to review/consoli
 
 Entering [VL](https://betadocs.vvvv.org/using-vvvv/vl.html). With VL we now allegedly have the right tool at hand to tackle such complexities. To put it to a test we thought it would be a good time to rework those Camera and Editor modules. So we went ahead keeping the following things in mind:
 
-## Design Goals
+## Design Goals
+
 * Modularity: a clear line between Model and View allows 
 ** easy reuse of individual parts in custom editors 
 ** a simple way to adapt the look of an editor by simply providing an alternative View node
@@ -26,13 +27,16 @@ Entering [VL](https://betadocs.vvvv.org/using-vvvv/vl.html). With VL we now alle
 
 {{< vimeo "153554803" >}}
 
-## Performance
+## Performance
+
 By building them with VL (which, remember, is a compiled language) we were hoping for improved performance because the existing modules were actually quite CPU hungry. And indeed we got better results immediately even though there's not been put too much effort in optimization on the VL side yet. 
 
-## Drawbacks?
+## Drawbacks?
+
 Of course! Mainly one though. A little one. More an annoyance. Not a big deal really. You may not even notice it..well..after a while.. in fact some people may even love it..niiiooaaa.. here is the thing: The first time you're using one of those new modules, VL is loaded, which takes a while. That really only happens once per session though, so lets for now pretend it is not that bad... 
 
-## Here is what you get
+## Here is what you get
+
 * PointEditor
 * BezierEditor
 * BezierPatchEditor (was: GridEditor)
@@ -49,10 +53,11 @@ Besides the above design-goals here is what changed with the modules for the use
 * AxisAndGrid now has pins to show/hide axis and grid
 
 Bonus:
-* ArcLength (2d/3d) a replacement for https://vvvv.org/contribution/pathvectors-%283d%29 and https://vvvv.org/contribution/arclength%283d-generic%29
+* ArcLength (2d/3d) a replacement for https://legacy.vvvv.org/contribution/pathvectors-%283d%29 and https://legacy.vvvv.org/contribution/arclength%283d-generic%29
 * a generic Undo (3d) module (as used in MeshEditor)
+//legacy.vvvv.org/downloads/previews
+## Next Steps
 
-## Next Steps
 The editors still need a bit of finetuning in terms of interaction and also their internal architecture is not yet exactly optimized for readability. Then the DX11 versions of the views need to be patched but that should be rather trivial since it is really only about drawing. So now you please give it a spin and feed back your findings before we're going into a second round..
 
-Available now in latest [alpha builds](https://vvvv.org/downloads/previews).
+Available now in latest [alpha builds](https://legacy.vvvv.org/downloads/previews).

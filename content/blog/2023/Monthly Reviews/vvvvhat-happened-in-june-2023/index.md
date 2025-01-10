@@ -16,7 +16,7 @@ Further, work is currently going on in these areas:
 - There'll be a node-set to communicate with a [redis](https://redis.io) database
 - Global Channels are getting backends for OSC and redis
 - There'll be a node-set for logging messages from your patch to various logging sinks including an improved Log window
-- Remember the [Remoter](https://beta.vvvv.org/contributions/misc/remotersa/index.html)? There'll be a node-set and UI to achieve what it did
+- Remember the [Remoter](https://beta.legacy.vvvv.org/contributions/misc/remotersa/index.html)? There'll be a node-set and UI to achieve what it did
 
 ## Upcoming dates
 Here some events not to miss:
@@ -48,6 +48,6 @@ We received updates to the following:
 ## Jobs
 - Always keep an eye on the [vvvv job board](https://discourse.vvvv.org/c/jobs)
 - There are often some more on [The Interactive & Immersive Job Board](https://jobs.interactiveimmersive.io/?s=vvvv&post_type=job_listing&orderby=date) and [dasauge.de](https://dasauge.de/sta/Vvvv/)
-- If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
+- If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://legacy.vvvv.org/documentation/vvvv-specialists-available-for-hire)
 
 That was it for June. Anything to add? Please do so in the comments!

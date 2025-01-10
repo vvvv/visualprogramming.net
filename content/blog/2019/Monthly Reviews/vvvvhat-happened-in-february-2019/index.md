@@ -45,11 +45,11 @@ and one update:
 and some more fine projects:
 * [Second Litany for List I Ljosi](/blog/second-litany-for-list-i-ljosi) by {{< user "StiX" >}}
 * [Red Square (Engineer](/blog/red-square-engineer)) by {{< user "eps" >}}
-* [NoiseSignalSilence](/blog/noisesignalsilence) by [quadrature](https://vvvv.org/businesses/quadrature-goetz-neitsch-gbr)
+* [NoiseSignalSilence](/blog/noisesignalsilence) by [quadrature](https://legacy.vvvv.org/businesses/quadrature-goetz-neitsch-gbr)
 * [Forest](https://vimeo.com/311857556) by {{< user "boplbopl" >}}
 * [EQ Teaser - kinetic wall](/blog/eq-teaser-kinetic-wall) by {{< user "u7angel" >}}
-* [IBM Flux – data driven art installation](/blog/ibm-flux-–-data-driven-art-installation-by-onformative) by [onformative](https://vvvv.org/businesses/onformative-gmbh)
-* [CARL LAEMMLE](/blog/carl-laemmle) by [schnellebuntebilder](https://vvvv.org/businesses/schnellebuntebilder)
+* [IBM Flux – data driven art installation](/blog/ibm-flux-–-data-driven-art-installation-by-onformative) by [onformative](https://legacy.vvvv.org/businesses/onformative-gmbh)
+* [CARL LAEMMLE](/blog/carl-laemmle) by [schnellebuntebilder](https://legacy.vvvv.org/businesses/schnellebuntebilder)
 
 
 

@@ -30,6 +30,6 @@ next it would be nice to write values to such exposed IOBoxes from, say a mobile
 
 and like Kontrolleur (VVVV) it could also make (even more) sense to code a plugin that communicates with [Control](http://charlie-roberts.com/Control/) (which seems to be in quite a rework for some time now so i didn't dare touch it) or one that exposes pins via even other protocols (http, whatnot..)
 
-all necessary functionality (reading of/writing to pins, listing exposed pins,...) is accessible via the [plugininterface](https://vvvv.org/pluginspecs/). you know what to do..
+all necessary functionality (reading of/writing to pins, listing exposed pins,...) is accessible via the [plugininterface](https://legacy.vvvv.org/pluginspecs/). you know what to do..
 
-now available in latest [alpha builds](https://vvvv.org/downloads/previews).
+now available in latest [alpha builds](https://legacy.vvvv.org/downloads/previews).

@@ -24,7 +24,8 @@ texture-sharing can be used to share textures e.g. between two instances of vvvv
 
 apparently this can also work as a [bridge to opengl](http://developer.download.nvidia.com/opengl/specs/WGL_NV_DX_interop.txt) if someone wants to give this a try...and for those wondering, yes this enables stuff on windows your macfriends have been bragging about for a while now using [syphon](http://syphon.v002.info/).
 
-### depth rendering
-another new thing (not related to dx9ex) is the possibility to render the deph of scenes directly without using an extra pixelshader pass. just set the {{< pin "Texture Format" >}} of a {{< node "DX9Texture (EX9.Texture)" >}} to *INTZ* and you should get the depth of your scene rather than a colorbuffer. disclaimer: may not work on certain graphiccards, [see here](http://aras-p.info/texts/D3D9GPUHacks.html)
+### depth rendering
 
-available now in latest [alphas](https://vvvv.org/downloads/previews), enjoy.
+another new thing (not related to dx9ex) is the possibility to render the deph of scenes directly without using an extra pixelshader pass. just set the {{< pin "Texture Format" >}} of a {{< node "DX9Texture (EX9.Texture)" >}} to *INTZ* and you should get the depth of your scene rather than a colorbuffer. disclaimer: may not work on certain graphiccards, [see here](http://aras-p.info/texts/D3D9GPUHacks.html)
+//legacy.vvvv.org/downloads/previews
+available now in latest [alphas](https://legacy.vvvv.org/downloads/previews), enjoy.

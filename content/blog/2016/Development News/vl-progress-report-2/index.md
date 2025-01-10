@@ -16,7 +16,7 @@ and indeed,
 
 just as planned, we're now making quicker progress as we have the previously mentioned big stones out of the way. Always still some to come, but things start to feel more and more solid and intuitive. We're also happy about the now frequent VL related bug-reports and questions in the forum. Keep them coming, very helpful! 
 
-Here is a rough log of recent changes that you can now test in latest [alphas](https://vvvv.org/downloads/previews). Ordered by nerdness, simple ones first:
+Here is a rough log of recent changes that you can now test in latest [alphas](https://legacy.vvvv.org/downloads/previews). Ordered by nerdness, simple ones first:
 - IOBoxes can now be reset to their default using ALT+Rightclick
 - more sensitive picking area for pins
 - problems with the mouse sometimes hitting an element that is visually below the one you targeted are now fixed
@@ -30,7 +30,8 @@ Here is a rough log of recent changes that you can now test in latest [alphas](h
 - you can now return a Spread<Spread<>> (and even more) to vvvv and get according multiple BinSize bins (omg!)
 - delegates now survive a hot-swap
 
-## Next Steps
+## Next Steps
+
 With strong support by [owner of the golden quad](https://www.flickr.com/photos/node-forum/17098233527/in/photostream/) {{< user "woei" >}} we're working on library basics, like File and Network IO. The goal is to have them as simple to use for standard use-cases as in vvvv, yet more flexible for more complex scenarios. In the process we're still learning about library design and taking notes for a guide to help future devlopers to make good nodes quickly. 
 
 Progress is being made on the EditingFramework which will next see an update with a proper gizmo handling..
@@ -39,11 +40,13 @@ Work has begun on the previously mentioned unification of *Record*, *Class* and 
 
 If you want to get started right now, here is what you do:
 {{< box >}}
-## Diving into VL
-* download: [vvvv alpha downloads](https://vvvv.org/downloads/previews) 
+## Diving into VL//legacy.vvvv.org/downloads/previews
+
+* download: [vvvv alpha downloads](https://legacy.vvvv.org/downloads/previews) 
 * demos: see \packs\vlpack_..\girlpower 
 * learn: [VL quick reference](https://betadocs.vvvv.org/devvvveloping/dynamic-vl-plugin-reference.html)
-* discuss: [alpha forum](https://discourse.vvvv.org){{< /box >}}
+* discuss: [alpha forum](https://discourse.vvvv.org)
+{{< /box >}}
 
 If you want to let us know that you like anything you just read...we're always up for a comment or even a flattr:
 [/downloads|vvvv](flattr)

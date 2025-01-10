@@ -34,7 +34,7 @@ still the old versions of those nodes with string inputs are available as module
 so this is to distinguish more clearly between string and byte-handling and should also have a positive influence on performance in situations where string/byte conversions can now be omitted. 
 
 please give it a run and let us know what you think.
-as always get the latest from here: [alpha builds](https://vvvv.org/downloads/previews)
+as always get the latest from here: [alpha builds](https://legacy.vvvv.org/downloads/previews)
 
 
 

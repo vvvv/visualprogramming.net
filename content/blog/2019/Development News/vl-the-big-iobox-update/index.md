@@ -14,7 +14,8 @@ jojojo IO,
 
 one of the more important features for quick prototyping in vvvv always were the IOBoxes. Here is an update that finally brings the vl IOBoxes up to par (and beyond) with what you were used to from vvvv beta.
 
-## Support for Spreads
+## Support for Spreads
+
 Most notably missing so far was proper support for spreads. Sorted. When creating an IOBox via "start link -> middleclick" you now always get an interactive IOBox for the supported primitive types: ints, floats, bool, string, path, color, enum, even if they are spreaded or spread-of-spreaded or...
 
 ![](outboxes.png)
@@ -44,19 +45,22 @@ And you can now specify defaults for input pins that are spreads:
 ![](defaults.gif)
 *Setting the default of a spread input*
 
-## Override values temporarily
+## Override values temporarily
+
 Mostly useful for numbers and bools, in vl you can override upstream values directly, by manipulating an IOBox that sits in the middle:
 
 ![](override.gif)
 *IOBoxes do not only pass values through, but can also override them*
 
-## Numbers
+## Numbers
+
 What we're used to from beta: Entering values via formula now also works:
 
 ![](formula.gif)
 *Entering values by formula*
 
-## Vectors
+## Vectors
+
 Vectors now allow you to change all components at once:
 
 ![](allatonce.gif)
@@ -64,19 +68,22 @@ Vectors now allow you to change all components at once:
 
 Also the Inspektor now shows all properties that you get on a float IOBox, so you can now also configure e.g. a vectors precision.
 
-## Strings and Chars
+## Strings and Chars
+
 Both can now optionally show non-printable characters:
 
 ![](chars.gif)
 *Showing non-printable characters as ASCII values*
 
-## Colors
+## Colors
+
 Color IOBoxes now also show you transparency:
 
 ![](colors.gif)
 *Transparency visualized*
 
-## Paths
+## Paths
+
 Paths finally can be reduced to smaller sizes and show proper path ellipsis, ie. preferring to keep the last part of the value visible:
 
 ![](paths.gif)
@@ -84,11 +91,12 @@ Paths finally can be reduced to smaller sizes and show proper path ellipsis, ie.
 
 Click the little O icon to open the current file/directory with their associated program. ALT+click the icon to show the file/directory in the explorer. 
 
-## Matrix
+## Matrix//legacy.vvvv.org/downloads/previews
+
 For completeness:
 ![](matrixbox.png)
 *Matrix IOBox*
 
 ---
 
-This is it for now.. Available for testing in both latest [alphas](https://vvvv.org/downloads/previews) and [gamma previews](/blog/2019/vvvv-gamma-2019.1-preview). 
+This is it for now.. Available for testing in both latest [alphas](https://legacy.vvvv.org/downloads/previews) and [gamma previews](/blog/2019/vvvv-gamma-2019.1-preview). 

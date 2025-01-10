@@ -15,11 +15,12 @@ vvvv has finally arrived in the age of 64bit computing. to you this means you ca
 
 so basically "out of memory" messages should be out of our memories (cheese us!) soon and content/texture heavy vvvv-applications ahoi. in theory due to the compilers use of SSE2 instructions things should be generally faster as well..but we already noticed this doesn't seem the case just yet. generally. 
 
-now available from: [alpha builds](https://vvvv.org/downloads/previews)
+now available from: [alpha builds](https://legacy.vvvv.org/downloads/previews)
 
 and of course every beauty has its beast. so here is a list of a couple of things that are not yet (probably never will be) working in the 64bit builds:
 
-## missing from core
+## missing from core
+
 * all nodes in the FreeFrame category
 * some nodes of the DShow9 category
 * all nodes of the ODE category rely on the discontinued delphi wrapper of ODE (RIP)
@@ -29,10 +30,12 @@ and of course every beauty has its beast. so here is a list of a couple of thing
 * {{< node "Tidy (XML)" >}} relies on a discontinued opensource project (RIP)
 * {{< node "Styx (Windows)" >}} relies on an external winlockdll.dll which we could probably build ourselves from http://www.codeproject.com/Articles/7392/Lock-Windows-Desktop anyone?
 
-## missing from addonpack
+## missing from addonpack
+
 most of the addons already work with the 64bit build. below is a listing of those which still need some treatment. chances are good that we'll get most of them to run..given some time.
 
-### need some bugging towards {{< user "vux" >}}
+### need some bugging towards {{< user "vux" >}}
+
 * Assimp
 * Bullet
 * Box2d
@@ -42,7 +45,8 @@ most of the addons already work with the 64bit build. below is a listing of thos
 * FitEllipse, MinimumAreaRect, KMeans
 * all of his EX9.Geometry nodes
 
-### some devices
+### some devices
+
 * all Phidget stuff
 * LD2000 (Devices)
 * LinBus (Devices)
@@ -53,7 +57,8 @@ most of the addons already work with the 64bit build. below is a listing of thos
 * uEyeCam (Devices)
 * WiiMote (Devices)
 
-### misc
+### misc
+
 * Ssh (Network)
 * Arduino
 * OpenNI
@@ -62,7 +67,8 @@ most of the addons already work with the 64bit build. below is a listing of thos
 * HTMLTexture
 * Flash (EX9.Texture) (RIP)
 
-## developers
+## developers
+
 when you want to debug 64bit stuff use:
  scripts/fetch-binaries --platform=x64
 in the bash to get the according executables and in the Addonpack.sln set the Configuration to x64. 

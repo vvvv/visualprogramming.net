@@ -34,13 +34,13 @@ but there's been more:
 * {{< user "sagishi" >}} and Marlene Reischl created [All Of Us](/blog/all-of-us)
 * {{< user "sunep" >}} did some [Ghost Scanning](/blog/ghost-scanning)
 * {{< user "kld4" >}} shared 3 projects: [Interaction in Dance](/blog/interaction-in-dance), [Switch On](/blog/switch-on) and [The New Comoluces](/blog/the-new-comoluces)
-* [intolight](https://vvvv.org/businesses/intolight) shared their documentation of doing [Visuals for the Nachtiville festival](http://www.intolight.de/en/projects/visuals-nachtiville-festival) last year
+* [intolight](https://legacy.vvvv.org/businesses/intolight) shared their documentation of doing [Visuals for the Nachtiville festival](http://www.intolight.de/en/projects/visuals-nachtiville-festival) last year
 
 ...and {{< user "zeos" >}} is telling us how he goes [about his work](https://vimeo.com/160707634).
 
 ## Oldies but Goldies
 
-i've been recently reminded of this little gem by [Grosse8](https://vvvv.org/businesses/grosse8):
+i've been recently reminded of this little gem by [Grosse8](https://legacy.vvvv.org/businesses/grosse8):
 {{< vimeo "55024483" >}}
 
 but also i want to make sure that everyone is aware of [Spout](http://spout.zeal.co). available now for at least 2 years it allows you to share dx9/dx11/opengl textures between different programs on windows, like: max/msp, touchdesigner, resolume, afterfx,... see a full list of supported programs on their website.
@@ -61,7 +61,7 @@ latest additions:
 * "Everything Messages" with {{< user "velcrome" >}} introducing his pack
 * a two part "Machine Learning with vvvv" workshop with {{< user "motzi" >}}, creator of the {{< contribution "vvvv.packs.machinelearning-%28alpha%29" "Machine Learning Pack" >}}
 
-und die kunstuniversität linz sucht eine/n [UniversitätsassistentIn - Schwerpunkt Interaktive Medien](https://vvvv.org/blog/universit%C3%A4tsassistentin-schwerpunkt-interaktive-medien)
+und die kunstuniversität linz sucht eine/n [UniversitätsassistentIn - Schwerpunkt Interaktive Medien](https://vvvv.org/blog/2016/universitätsassistentin-schwerpunkt-interaktive-medien/)
 
 ## what the VL?
 

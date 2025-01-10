@@ -66,7 +66,7 @@ This timer has an option to reduce CPU load for period times that are higher tha
 
 Both the MultimediaTimer and the BusyWaitTimer start their own background thread with priority [AboveNormal](https://msdn.microsoft.com/en-us/library/system.threading.threadpriority(v=vs.110).aspx). The thread priority setting might become an input pin in the future.
 
-So now download [latest alpha](https://vvvv.org/downloads/previews), enable the *Experimental* button in the VL node browser and give it a shot. If anything unexpected happens, let us know in the forums.
+So now download [latest alpha](https://legacy.vvvv.org/downloads/previews), enable the *Experimental* button in the VL node browser and give it a shot. If anything unexpected happens, let us know in the forums.
 
 yours,
 devvvvs

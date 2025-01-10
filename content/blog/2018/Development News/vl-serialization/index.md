@@ -28,7 +28,7 @@ Serializers are provided for all primtive types (Boolean, Integer32, Float32, et
 Paired with the [new files nodes](/blog/2018/vl-improved-file-io) serialization to disk is straight forward:
 ![](Serialization_T_r.PNG) 
 
-That's basically all there is to know from an end-user perspective. You can try these new nodes in the latest [alpha versions](https://vvvv.org/downloads/previews).
+That's basically all there is to know from an end-user perspective. You can try these new nodes in the latest [alpha versions](https://legacy.vvvv.org/downloads/previews).
 
 ##  Writing a custom serializer
 

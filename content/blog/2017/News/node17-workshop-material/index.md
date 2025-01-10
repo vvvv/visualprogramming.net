@@ -115,7 +115,7 @@ here is the place to collect and find materials handed out during the [NODE17 wo
 
 ---
 
-All [NODE17 contributions](https://vvvv.org//contributions/1353+1351+2439+1352+7934+2438+1354+1355/10856) in one place.
+All [NODE17 contributions](https://legacy.vvvv.org/contributions/1353+1351+2439+1352+7934+2438+1354+1355/10856) in one place.
 All [NODE17 videos](/blog/2017/node17-workshop-video-captures) in one place.
 
 Looking for NODE15 material? Check this: [NODE15 workshop material](/blog/2015/node15-workshop-material)

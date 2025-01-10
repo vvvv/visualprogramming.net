@@ -56,7 +56,7 @@ In the run-up to NODE17 a large number of contributions were updated...
 - {{< contribution "node-17-compute-shader-workshop-material" >}} by {{< user "vux" >}}
 <!--{SPLIT}-->
 
-And as announced during keynode there is some more stuff available now by [NSYNK](https://vvvv.org/businesses/nsynk-gesellschaft-f%C3%BCr-kunst-und-technik) via the [/store](https://store.vvvv.org/):
+And as announced during keynode there is some more stuff available now by [NSYNK](https://legacy.vvvv.org/businesses/nsynk-gesellschaft-f%C3%BCr-kunst-und-technik) via the [/store](https://store.vvvv.org/):
 - DX11 Imagesequence Player
 - DX11 BlackmagicDesign Decklink VideoIn
 - OptiTrack Motiontracking

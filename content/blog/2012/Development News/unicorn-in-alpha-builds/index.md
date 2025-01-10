@@ -12,7 +12,7 @@ thumb: "unicorn.png"
 
 helos,
 
-this is to announce that vvvv [alpha-builds](https://vvvv.org/downloads/previews) now include the afformentioned unicode changes. 
+this is to announce that vvvv [alpha-builds](https://legacy.vvvv.org/downloads/previews) now include the afformentioned unicode changes. 
 
 ![](unicorn.png)
 

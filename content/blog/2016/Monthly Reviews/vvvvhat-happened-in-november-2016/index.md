@@ -48,7 +48,7 @@ And what is [this](https://github.com/satoruhiga/VVVV.GPUParticle)?
 And more gems from:
 * {{< user "sunep" >}}: [Golden Mirror](/blog/golden-mirror)
 * {{< user "patxi" >}}: [How to exlpain interactivity to an audience](/blog/how-to-explain-interactivity-to-an-audience)
-* [Intolight](https://vvvv.org/businesses/intolight)
+* [Intolight](https://legacy.vvvv.org/businesses/intolight)
 ** [Digital Spray Painter](http://www.intolight.de/en/projects/digital-spray-painter)
 ** [European Mobile Dome Lab](http://www.intolight.de/en/projects/european-mobile-dome-lab)
 * {{< user "rrrr" >}} for Native Instruments: [Komplete Sketches](https://vimeo.com/nativeinstruments)

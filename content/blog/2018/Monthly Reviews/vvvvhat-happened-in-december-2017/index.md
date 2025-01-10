@@ -35,7 +35,7 @@ starting now, follow [@vvvvAcademy](https://twitter.com/vvvvAcademy)
 
 <!--{SPLIT()}-->
 Some new stuff:
-* [Content Management System](https://vvvv.org/store/store#content-management-system) by {{< user "u7angel" >}} available in the Store
+* [Content Management System](https://beta.vvvv.org/contributions/store/index.html) by {{< user "u7angel" >}} available in the Store
 * FieldTrip by {{< user "everyoneishappy" >}} available via [github](https://github.com/everyoneishappy/FieldTrip) or {{< contribution "vpm" "vpm" >}}
 * {{< contribution "colorama" "Colorama" >}} by {{< user "catweasel" >}}
 <!--~~~-->

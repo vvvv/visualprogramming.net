@@ -20,9 +20,9 @@ happy birthday to me. today i am 6 years old. thanku verymuch. guess the highlig
 
 also i like my sexy new doublerightclick? what's your QuickNodes?
 
-@devvvvs: they spent me some new interfaces so that you plugin writers can now define arbitrary types for connections. so just like my ordinary node-connections, no more restriction to value, string, color, transform. you can now create your very own. details can be found in the new [Plugin Specifications](http://vvvv.org/pluginspecs/). enums, ex9 meshes and textures still missing though. the bois...zzzz
+@devvvvs: they spent me some new interfaces so that you plugin writers can now define arbitrary types for connections. so just like my ordinary node-connections, no more restriction to value, string, color, transform. you can now create your very own. details can be found in the new [Plugin Specifications](http://legacy.vvvv.org/pluginspecs/). enums, ex9 meshes and textures still missing though. the bois...zzzz
 
-check the rest in the [Change Log](https://betadocs.vvvv.org/changelog/core/change-log-vvvv40beta20.html) and get me from the [Downloads](https://vvvv.org/downloads). 
+check the rest in the [Change Log](https://betadocs.vvvv.org/changelog/core/change-log-vvvv40beta20.html) and get me from the [Downloads](https://legacy.vvvv.org/downloads). 
 also there: the latest addonpack!
 
 wishing you all merry vvvv nativity

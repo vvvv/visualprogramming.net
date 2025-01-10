@@ -55,7 +55,7 @@ And some more fresh from the vimeo group:
 
 ## Jobs
 
-* [A new livvvve in Switzerland?](https://discourse.vvvv.org/t/a-new-livvvve-in-switzerland/18112) by [-naut GmbH](https://vvvv.org/businesses/naut-gmbh)
+* [A new livvvve in Switzerland?](https://discourse.vvvv.org/t/a-new-livvvve-in-switzerland/18112) by [-naut GmbH](https://legacy.vvvv.org/businesses/naut-gmbh)
 * [Some more on dasauge.de](https://dasauge.de/sta/Vvvv/)
 
 ---

@@ -12,7 +12,7 @@ thumb: "01_primitive_ca_r.png"
 
 #  Introduction
 
-The [latest VL](https://vvvv.org/downloads/alphas) comes with a revised 'Primitive' category in the nodebrowser. This category holds the most basic data types which the system has build in. As amazing as it sounds all other types are made out of them.
+The [latest VL](https://legacy.vvvv.org/downloads/alphas) comes with a revised 'Primitive' category in the nodebrowser. This category holds the most basic data types which the system has build in. As amazing as it sounds all other types are made out of them.
 
 There are:
 - Integer and floating point numeric types for calculations

@@ -59,7 +59,7 @@ this thursday i will assist {{< user "tonfilm" >}} in his [Rapid Prototyping for
 
 ## What the VL?
 
-oh glad you asked, big time! all is back on schedule. please first read our [vl-midsummer-nights-dream](/blog/2016/vl-midsummer-nights-dream) update and then: so you can now follow our daily progress again using the [alpha builds](https://vvvv.org/downloads/previews) and we're very happy about feedback in the [alpha forum](https://discourse.vvvv.org/) at this stage. 
+oh glad you asked, big time! all is back on schedule. please first read our [vl-midsummer-nights-dream](/blog/2016/vl-midsummer-nights-dream) update and then: so you can now follow our daily progress again using the [alpha builds](https://legacy.vvvv.org/downloads/previews) and we're very happy about feedback in the [alpha forum](https://discourse.vvvv.org/) at this stage. 
 
 we're now hoping for a beta35 release including VL as a first class patching language around new-years. all the bigger concepts are in place and we're now already giving them a second spin looking at ways to improve workflows for you (ie, spare you some clicks and the need to understand every technical detail to get things going). there'll be blog-posts with updates as we progress..
 

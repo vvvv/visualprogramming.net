@@ -42,5 +42,5 @@ Note: If you copy folder based version using subfolders, you'll have different p
 
 Please note that the box2d is still flat (as it probably been used before), so this one need to be copied in the plugins folder as is.
 
-[Download Flat version here](http://vvvv.org/tiki-download_file.php?fileId=2027)
-[Download Folder version here (not recommended, see above)](http://vvvv.org/tiki-download_file.php?fileId=2028)
+[Download Flat version here](http://legacy.vvvv.org/tiki-download_file.php?fileId=2027)
+[Download Folder version here (not recommended, see above)](http://legacy.vvvv.org/tiki-download_file.php?fileId=2028)

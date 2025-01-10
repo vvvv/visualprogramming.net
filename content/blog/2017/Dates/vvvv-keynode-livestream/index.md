@@ -36,7 +36,7 @@ https://www.youtube.com/watch?v=BKHbEWaHjcw
 Thanks everyone who was there and followed us live.
 It was a great evening with you and we are very happy about all the super positive feedback we got for the speakers and the show.
 
-Also big, big thanks to the technical team around @MSBERGER from [Satis&Fy](https://vvvv.org/businesses/satisfy-ag-deutschland) who made this show look so pro in the stream. As well as the team around @eno from [NSYNK](https://vvvv.org/businesses/nsynk-gesellschaft-f%C3%BCr-kunst-und-technik) for the stage video production using their vvvv based tool IRIS.
+Also big, big thanks to the technical team around @MSBERGER from [Satis&Fy](https://legacy.vvvv.org/businesses/satisfy-ag-deutschland) who made this show look so pro in the stream. As well as the team around @eno from [NSYNK](https://legacy.vvvv.org/businesses/nsynk-gesellschaft-f%C3%BCr-kunst-und-technik) for the stage video production using their vvvv based tool IRIS.
 
 
 Enjoy the rest of NODE17!

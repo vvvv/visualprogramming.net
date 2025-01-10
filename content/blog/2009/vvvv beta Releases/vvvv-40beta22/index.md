@@ -26,7 +26,7 @@ well and of course there is an addonpack again, stuffed with an extra 139(!) plu
 
 and if i am not mistaken there is still more to come of this kind...
 
-tsit for now, parents are screaming for attention. so please [help yourself](https://vvvv.org/downloads) and let us know about your findings.
+tsit for now, parents are screaming for attention. so please [help yourself](https://legacy.vvvv.org/downloads) and let us know about your findings.
 
 happy nevvvv to you,
 yours devvvvs.

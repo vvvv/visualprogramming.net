@@ -38,14 +38,14 @@ And team node has released a parutiful [documentation of NODE15](/blog/2016/this
 *[Tzigane](http://natansinigaglia.com/works/tzigane) by {{< user "dottore" >}}*
 
 * {{< user "evvvvil" >}} added some to [his youtube channel](https://www.youtube.com/channel/UCy0lnGPDoNdaoXzHil68rXQ)
-* [schnellebuntebilder](https://vvvv.org/businesses/schnellebuntebilder) did [MTV Cave Rave](http://schnellebuntebilder.de/projects/mtv-cave-rave/)
+* [schnellebuntebilder](https://legacy.vvvv.org/businesses/schnellebuntebilder) did [MTV Cave Rave](http://schnellebuntebilder.de/projects/mtv-cave-rave/)
 * Refik Anadol in cooperation with {{< user "everyoneishappy" >}} did [Art Of Intelligence](http://www.refikanadol.com/works/art-of-intelligence)
 * i stumbled on <http://bouksi.com>
 * {{< user "umanema" >}} shared his [kldt-interactive-art-installation](/blog/kldt-interactive-art-installation)
 
 ## Upcoming
 
-The good peeps of the [schnellebuntebilder](https://vvvv.org/businesses/schnellebuntebilder) are doing a [vvvvorkshop](/blog/2016/vvvvorkshop-in-berlin) that is apparently already booked out. Pictures or it didn't happen!
+The good peeps of the [schnellebuntebilder](https://legacy.vvvv.org/businesses/schnellebuntebilder) are doing a [vvvvorkshop](/blog/2016/vvvvorkshop-in-berlin) that is apparently already booked out. Pictures or it didn't happen!
 
 Hot: [Waltz Binaire](http://waltzbinaire.com/) is [looking for a patcher](http://www.creativeapplications.net/jobs-featured/creative-coder-at-waltz-binaire).
 

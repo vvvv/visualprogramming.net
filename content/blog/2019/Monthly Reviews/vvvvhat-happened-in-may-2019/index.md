@@ -40,8 +40,8 @@ but really too much to list here is happening in the forums **[work-in-progress]
 *[Amnesia](/blog/amnesia-0) by {{< user "Onur77" >}}*
 
 and some more:
-* [Fantasie#1_OrganTelescopeAI](/blog/fantasie1organtelescopeai) by [Quadrature](https://vvvv.org/businesses/quadrature-goetz-neitsch-gbr)
-* [DesignHoldingWall](/blog/dotdotdot-for-design-holding) by [DotDotDot](https://vvvv.org/businesses/dotdotdot)
+* [Fantasie#1_OrganTelescopeAI](/blog/fantasie1organtelescopeai) by [Quadrature](https://legacy.vvvv.org/businesses/quadrature-goetz-neitsch-gbr)
+* [DesignHoldingWall](/blog/dotdotdot-for-design-holding) by [DotDotDot](https://legacy.vvvv.org/businesses/dotdotdot)
 * [Life Cycles live take](/blog/life-cycles-live-take) by {{< user "DIDIF" >}}
 * [Realtime Graphic Composition 2018 Part 1](/blog/realtime-graphic-composition-2018-part-1) by {{< user "cloneproduction" >}}
 * [Weaving for violin solo](https://www.youtube.com/watch?v=vrSlaVyIMIg) by Yuta Inada

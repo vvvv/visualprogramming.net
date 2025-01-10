@@ -80,7 +80,7 @@ Also note that I ditched mcropack for a while now and turned it into this weird 
 https://github.com/microdee/vpm
 
 **Download it here:**
-https://vvvv.org/contribution/vpm-alpha
+https://legacy.vvvv.org/contribution/vpm-alpha
 (read installation notes)
 
 and here are some packs to test it with right away: (special links which should open vpm automatically)
@@ -91,7 +91,8 @@ and here are some packs to test it with right away: (special links which should 
 [VObjects](vpms://raw.githubusercontent.com/microdee/VObjects/master/p.vpack)
 [Leappack](vpms://raw.githubusercontent.com/microdee/leappack/master/p.vpack)
 
-###  Now time for some questions:
+###  Now time for some questions:
+
 **Why not nuget, chocolately or any other already existing package manager out there?**
 Because non of them meets my requirement for a pack. A VVVV pack is a quite obscure thing. It can have any folder structure and any particular way of installing them. That's also why I chose to use a powerful scripting language as a way to install the packs. Also some solutions like nuget require you to run a nuget server which I looked up and I came to the conclusion of no thanks. I rather like a decentralized solution.
 
@@ -104,7 +105,8 @@ Also note vpm is a command line tool, there's no fancy GUI for selecting from a 
 vpm won't take VVVV's version into account because I found no way yet to determine version from the VVVV folder or executable, and presumes you have addonpack installed.
 Script files have to be online yet as I was lazy. Obviously this will be fixed shortly.
 
-###  Future plans / Roadmap
+###  Future plans / Roadmap
+
 * Version aware management
 * If addonpack is not detected ask to download and install it automatically (would require some metadata from vvvv which would be its perfect complimentary addonpack and where would one get it from)
 * License agreement stuff. Will coming soon probably.

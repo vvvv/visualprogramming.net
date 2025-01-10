@@ -17,9 +17,9 @@ summertime...and we learn from google that you've been a bit more active on vvvv
 ![](july-august.PNG)
 *daily sessions on vvvv.org in july/august 2016 (orange) and 2017 (blue)*
 
-good! though this may just be the weather or the aftermath of [NODE17](http://17.nodeforum.org/) still. speaking of which...the [schnellebuntebilder](https://vvvv.org/businesses/schnellebuntebilder) have kept their promise and shared the [22 workshops they recorded at NODE](/blog/2017/node17-workshop-video-captures). alltogether those make for more than 60 hours of vvvv wisdom. thanksforthat!
+good! though this may just be the weather or the aftermath of [NODE17](http://17.nodeforum.org/) still. speaking of which...the [schnellebuntebilder](https://legacy.vvvv.org/businesses/schnellebuntebilder) have kept their promise and shared the [22 workshops they recorded at NODE](/blog/2017/node17-workshop-video-captures). alltogether those make for more than 60 hours of vvvv wisdom. thanksforthat!
 
-in the vvvv/vl land we're still busily polishing the new importing feature for vl, as mentioned [previously](/blog/2017/vvvvhat-happened-in-july-2017). already looking vvvverygood but just still not ready for beta which should not keep you from testing it in latest [alphas](https://vvvv.org/downloads/previews) already. a blog-post with a bit more details on the topic is pending..
+in the vvvv/vl land we're still busily polishing the new importing feature for vl, as mentioned [previously](/blog/2017/vvvvhat-happened-in-july-2017). already looking vvvverygood but just still not ready for beta which should not keep you from testing it in latest [alphas](https://legacy.vvvv.org/downloads/previews) already. a blog-post with a bit more details on the topic is pending..
 
 also new in latest alphas is a [BarcodeReader (2d) node](/blog/barcodereader-%282d%29-help-directx-renderer) that can read a wide range of 1d and 2d barcodes and the very handy [new Tokenizer nodes](/blog/new-tokenizer-nodes%20).
 

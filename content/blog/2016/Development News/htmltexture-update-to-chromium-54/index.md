@@ -10,7 +10,7 @@ thumb: "Chromium54.png"
 ---
 
 
-Thanks to [MESO](https://vvvv.org/businesses/meso) our HTMLTexture (EX9.Texture) node got another update to version 3.2840.1513.gf7effc7 (Chromium 54.0.2840.59) of the [Chromium Embedded Framework](https://bitbucket.org/chromiumembedded/cef).
+Thanks to [MESO](https://legacy.vvvv.org/businesses/meso) our HTMLTexture (EX9.Texture) node got another update to version 3.2840.1513.gf7effc7 (Chromium 54.0.2840.59) of the [Chromium Embedded Framework](https://bitbucket.org/chromiumembedded/cef).
 
 ![](Chromium54.png)
 
@@ -21,4 +21,4 @@ For a complete list of changes between Chromium 33.0 and 54.0 have a look at the
 Advanced features like WebGL, Flash, PDF rendering etc. should all be working, but compared to Chrome itself playback of H.264 encoded video files will not work because we do not have a license to ship these proprietary codecs. For a more detailed discussion have a look [here](https://code.google.com/archive/p/chromiumembedded/issues/371).
 In case you need to support these codecs you'll have to build the exact same CEF version we're using (3.2840.1513.gf7effc7) on your own (with set GYP_DEFINES="proprietary_codecs=1") and replace our shipped CEF files with those of your custom build.
 
-As always the node can be tested using our latest [alpha builds](https://vvvv.org/downloads/previews).
+As always the node can be tested using our latest [alpha builds](https://legacy.vvvv.org/downloads/previews).

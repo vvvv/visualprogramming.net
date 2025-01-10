@@ -54,7 +54,7 @@ And some new works in progress:
 ## Jobs
 
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
-* If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
+* If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://legacy.vvvv.org/documentation/vvvv-specialists-available-for-hire)
 
 ---
 

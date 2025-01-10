@@ -46,7 +46,7 @@ The Editors by itself are graphics-engine-independent, but their points, lines a
 <!--~~~-->
 <!--{SPLIT}-->
 
-**Available in latest [Alpha builds](https://vvvv.org/downloads/previews).**
+**Available in latest [Alpha builds](https://legacy.vvvv.org/downloads/previews).**
 
 See also: 
 * [Introducing the Editing Framework](/blog/2016/introducing-the-editing-framework)

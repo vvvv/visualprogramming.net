@@ -12,7 +12,7 @@ thumb: "TypeBrowserAlph_r.png"
 
 ![](TypeBrowserAlph_r.png) 
 
-The winner of the [VL feature voting](/blog/2015/vl-feature-voting) is now available in the [alpha builds](https://vvvv.org/downloads/previews).
+The winner of the [VL feature voting](/blog/2015/vl-feature-voting) is now available in the [alpha builds](https://legacy.vvvv.org/downloads/previews).
 
 The type browser will assist you when annotating the type of a pad by providing an auto completion list with all types valid in the current scope.
 

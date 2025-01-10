@@ -22,7 +22,7 @@ Beware: Both are still previews, but any feedback is already very welcome!
 
 Further, recent progress was made in the following areas:
 - The OSC backend for Global Channels
-- The new [Remoter](https://beta.vvvv.org/contributions/misc/remotersa/index.html) node-set and UI
+- The new [Remoter](https://beta.legacy.vvvv.org/contributions/misc/remotersa/index.html) node-set and UI
 
 Also two meetups happened: 
 - One in Japan, which you can [read about in this write-up](https://bassdrum.substack.com/p/vvvv-japan-meetup-kyoto-vol1) by Takuma Nakata
@@ -56,6 +56,6 @@ Please keep them coming. And everyone else: Be the next to join and share your d
 ## Jobs
 - Always keep an eye on the [vvvv job board](https://discourse.vvvv.org/c/jobs)
 - There are often some more on [The Interactive & Immersive Job Board](https://jobs.interactiveimmersive.io/?s=vvvv&post_type=job_listing&orderby=date) and [dasauge.de](https://dasauge.de/sta/Vvvv/)
-- If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
+- If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://legacy.vvvv.org/documentation/vvvv-specialists-available-for-hire)
 
 That was it for July. Anything to add? Please do so in the comments!

@@ -35,7 +35,8 @@ Also, on the other side, if you're in the business of sending out a stream of by
 - **PostfixBytes (Raw)**
 - **FrameBytes (Raw)**
 
-###  What the VL?
+###  What the VL?
+
 Of course. All patched in VL and even more practical to use over there because (once again) datatypes and delegates. The Tokenizer in VL is much more primitive in that it only collects all incoming bytes and then executes a delegates on the buffered bytes. The delegate allows you to easily implement more complex scenarios than the four preconfigured ones mentioned above. 
 
 ![](tokenizer3.png)
@@ -44,5 +45,5 @@ Of course. All patched in VL and even more practical to use over there because (
 The Firmata protocol for example fits non of the above mentioned simple cases as it has different types of tokens. Still the basic Tokenizer can be used to implement the firmata peculiarities on top of it. Further the delegate allows you to return the tokens already in your desired datatype. So instead of returning a Spread<Spread<Bytes>> as the Tokenizers in vvvv can only do, in VL it can readily return a Spread<MyToken> which is just so much more modern..
 
 If you feel anything missing here or have any questions, please let us know in the comments!
-
-**The nodes are now available in [Alpha Builds](https://vvvv.org/downloads/previews).**
+//legacy.vvvv.org/downloads/previews
+**The nodes are now available in [Alpha Builds](https://legacy.vvvv.org/downloads/previews).**

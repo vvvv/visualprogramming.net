@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-thanks to [MESO](https://vvvv.org/businesses/meso) for sponsoring and [CEF](http://code.google.com/p/chromiumembedded) and [Chromium](http://www.chromium.org/Home) for doing the hard work, it's finally possible to render web content (HTML, Flash, WebGL, etc.) directly into a texture using one of the two new nodes:
+thanks to [MESO](https://legacy.vvvv.org/businesses/meso) for sponsoring and [CEF](http://code.google.com/p/chromiumembedded) and [Chromium](http://www.chromium.org/Home) for doing the hard work, it's finally possible to render web content (HTML, Flash, WebGL, etc.) directly into a texture using one of the two new nodes:
 
 <!--{SPLIT()}-->
 **HTMLTexture (EX9.Texture String)**
@@ -31,7 +31,7 @@ with the key and mouse inputs you can redirect user input wherever it needs to g
 
 for more advanced usage scenarios use the JavaScript input pin in combination with the Execute pin. they allow you to run custom JavaScript code on the displayed web site.
 
-if you want to test these new nodes download the latest [alpha build](https://vvvv.org/downloads/previews) of vvvv including the addonpack.
+if you want to test these new nodes download the latest [alpha build](https://legacy.vvvv.org/downloads/previews) of vvvv including the addonpack.
 
 <!--{SPLIT()}-->
 **Flash demo**

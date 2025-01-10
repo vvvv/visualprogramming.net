@@ -15,14 +15,14 @@ so where were we? time flies..so many things you should know about..let's see
 ## NODE17
 
 two month have past since NODE17 and still things are trickling in:
-- while at NODE {{< user "mino" >}} did an interview with {{< user "oschatz" >}} about [meso](https://vvvv.org/businesses/meso), vvvv and related stuff: [click to listen!](https://soundcloud.com/takramcast/sebastian-oschatz)
+- while at NODE {{< user "mino" >}} did an interview with {{< user "oschatz" >}} about [meso](https://legacy.vvvv.org/businesses/meso), vvvv and related stuff: [click to listen!](https://soundcloud.com/takramcast/sebastian-oschatz)
 - [revolution consultant kathia](https://youtu.be/BKHbEWaHjcw?t=4096) did a report on NODE in the  [july edition of the c-radar podcast](https://www.c-radar.de/2017/07/c-radar-juli-2017-zwei-berichte-vom-g20-in-hh-node-forum-ccc-regiotreff-grundrechte-demo-in-berlin/) (german)
 - as of this writing the [keynode17 video](https://www.youtube.com/watch?v=BKHbEWaHjcw) has 1970 views with 47 upvotes and not a single downvote. you can still be the first..
 ![](maxresdefault.jpg) 
 - [somthing in japanese](http://peatix.com/event/284326)
 - tons of beautiful memories are now up on [Flickr](https://www.flickr.com/photos/node-forum/albums) and there is a [NODE17 group](https://www.flickr.com/groups/3902188@N22/) where we hope some of you will share their own
 - [workshop materials](/blog/2017/node17-workshop-material) are coming slowly. please share yours!
-- you can safely get excited already: [schnellebuntebilder](https://vvvv.org/businesses/schnellebuntebilder) are about to release their excellent recordings of many of the workshops..
+- you can safely get excited already: [schnellebuntebilder](https://legacy.vvvv.org/businesses/schnellebuntebilder) are about to release their excellent recordings of many of the workshops..
 
 ## VL
 

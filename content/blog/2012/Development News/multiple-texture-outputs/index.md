@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-the easiest way to write a plugin with a texture output was by extending the [DXTextureOutPluginBase](https://vvvv.org/pluginspecs/T_VVVV_PluginInterfaces_V2_EX9_DXTextureOutPluginBase.htm) class and overriding the CreateTexture and UpdateTexture methods. this approach lead to several issues though:
+the easiest way to write a plugin with a texture output was by extending the [DXTextureOutPluginBase](https://legacy.vvvv.org/pluginspecs/T_VVVV_PluginInterfaces_V2_EX9_DXTextureOutPluginBase.htm) class and overriding the CreateTexture and UpdateTexture methods. this approach lead to several issues though:
 1. the plugin was limited to one texture output. if there was the necessity to have more than one texture output one had to go the long route by implementing IPluginDXTexture2 and doing the resource management manually.
 1. it wasn't possible to reinitialize the textures on a slicewise basis. for example if the size of one texture changed all textures had to be recreated.
 1. dealing with a pin of type texture was completely different than all the other data types. wouldn't it be nice to simply write ISpread<Texture> and be done with it?
@@ -20,7 +20,7 @@ well it's nearly as simple as that now. you can create a texture output by writi
 ISpread<TextureResource> FMyTextureOut;
 ```
 
-the [TextureResource](https://vvvv.org/pluginspecs/html/T_VVVV_PluginInterfaces_V2_EX9_TextureResource_1.htm) class takes care of the resource management, for example if a renderer is moved to another screen, the directx9 device changes and therefor the texture on the old device needs to be disposed and recreated on the new one.
+the [TextureResource](https://legacy.vvvv.org/pluginspecs/html/T_VVVV_PluginInterfaces_V2_EX9_TextureResource_1.htm) class takes care of the resource management, for example if a renderer is moved to another screen, the directx9 device changes and therefor the texture on the old device needs to be disposed and recreated on the new one.
 
 {{< box >}}
 Note:

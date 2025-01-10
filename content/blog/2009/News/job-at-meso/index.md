@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-[MESO Digital interiors](http://www.meso.net) has been [around here for a while](http://vvvv.org/tiki-index.php?page=Meso) and is currently looking for a 
+[MESO Digital interiors](http://www.meso.net) has been [around here for a while](http://legacy.vvvv.org/tiki-index.php?page=Meso) and is currently looking for a 
 
 Multimedia Software Developer / VVVV Patcher (m/f)
 

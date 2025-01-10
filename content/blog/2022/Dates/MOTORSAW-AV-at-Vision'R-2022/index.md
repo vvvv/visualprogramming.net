@@ -39,7 +39,7 @@ Come by, it will be awesome!
 ## Warning
 Stroboscopic flickering video and loud sound will be used. It will be intense.
 
-[sunep](https://vvvv.org/users/sunep)
+[sunep](https://legacy.vvvv.org/users/sunep)
 
 ## Event Description
 

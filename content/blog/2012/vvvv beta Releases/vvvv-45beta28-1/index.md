@@ -26,7 +26,7 @@ this is a quick bugfix-only update to beta28. not too many problems it seems hav
 
 some more important fixes come with the addonpack.
 
-watch the [devvvv blog](/blog/23) for announcements and get daily [alpha builds](https://vvvv.org/downloads/previews) to test the latest and greatest. 
+watch the [devvvv blog](/blog/23) for announcements and get daily [alpha builds](https://legacy.vvvv.org/downloads/previews) to test the latest and greatest. 
 
 features ahead!
 yours, devvvvs.

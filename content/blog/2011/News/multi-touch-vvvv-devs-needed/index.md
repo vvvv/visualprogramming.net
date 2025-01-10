@@ -21,7 +21,7 @@ Interns - if you are looking for a way in to freelancing with VVVV please get in
 
 My contact details can be found on my user page:
 
-http://vvvv.org/users/gaz
+http://legacy.vvvv.org/users/gaz
 
 
 

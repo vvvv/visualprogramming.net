@@ -41,7 +41,7 @@ many people are using vvvv for commercial work, which is great. only hardly anyo
 * {{< user "dominikkoller" >}} shared the latest update to his award-winning project [Visual Drumset](/blog/davidecks-drums-present-visualdrumset)
 * {{< user "Junky_Inc" >}} [projectionmapped a weddingdress](/blog/wedding-dress-projection-mapping)
 * the [Ars Electronica Futurelab](http://www.aec.at/futurelab) used vvvv for their latest [concert visualisation](http://www.aec.at/aeblog/2016/02/16/mothergoose/) in the Walt Disney Music Hall in Los Angeles
-* [BadaBoom](https://vvvv.org/businesses/badaboom.berlin) have created a [portable green box](http://badaboom.berlin/2016/01/15/portable-green-box/) they use with vvvv
+* [BadaBoom](https://legacy.vvvv.org/businesses/badaboom.berlin) have created a [portable green box](http://badaboom.berlin/2016/01/15/portable-green-box/) they use with vvvv
 
 and some people apparently are simply to lazy to post their stuff and i have to go dig it all out by myself. check this latest work by {{< user "sunep" >}}. best viewed on a large projection with speakers set to max:
 {{< vimeo "129431563" >}}
@@ -59,7 +59,7 @@ and if you're free between april 12-16th come to <http://resonate.io> and join t
 
 ## what the [VL](https://betadocs.vvvv.org/using-vvvv/vl.html)?
 
-it is amazing! i'm hoping to write a winter update before the end of winter.. ah and if you haven't already, check out the completely refurbished [Editing Framework](/blog/2016/introducing-the-editing-framework) we patched almost entirely in VL. available in latest [alphas](https://vvvv.org/downloads/previews).
+it is amazing! i'm hoping to write a winter update before the end of winter.. ah and if you haven't already, check out the completely refurbished [Editing Framework](/blog/2016/introducing-the-editing-framework) we patched almost entirely in VL. available in latest [alphas](https://legacy.vvvv.org/downloads/previews).
 
 ---
 enouvvvv. let us know if i forgot to mention something by adding it in the comments. looking forward to seeing what you come up with in march..

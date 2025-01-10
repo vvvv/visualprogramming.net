@@ -13,7 +13,7 @@ This was long overdue. While patching with vectors it happens quite often that y
 
 And while at it, the vector join/split nodes got a rewrite and are now 4-5 times faster. 
 
-Try it out in the [latest alpha build](https://vvvv.org/downloads/previews) and report the bugs as usual.
+Try it out in the [latest alpha build](https://legacy.vvvv.org/downloads/previews) and report the bugs as usual.
 
 best,
 dvevvsv

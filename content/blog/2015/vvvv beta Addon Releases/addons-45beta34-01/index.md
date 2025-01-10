@@ -27,6 +27,6 @@ Kinect and Bullet nodes are both available in the addonpack and the DX11 pack. U
 
 A few new nodes by {{< user "motzi" >}}, most notably the OneDollarRecognizer (2d). Make sure to check its helppatch.
 
-And thanks to work by {{< user "velcrome" >}} and {{< user "microdee" >}} we were able to further reduce the list of nodes [missing in 64bit builds](https://vvvv.org/documentation/missing-in-64bit-builds).
+And thanks to work by {{< user "velcrome" >}} and {{< user "microdee" >}} we were able to further reduce the list of nodes [missing in 64bit builds](https://legacy.vvvv.org/documentation/missing-in-64bit-builds).
 
 Feel like supporting those efforts? See [the list of flattrable vvvv users](https://vvvv.org/404).

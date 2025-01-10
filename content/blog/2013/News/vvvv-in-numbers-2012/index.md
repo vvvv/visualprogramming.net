@@ -23,7 +23,7 @@ and read on!{{< /box >}}
 
 helo volks, 
 
-it was a wonderful year. we had a lot of things happening as you know if you conveniently followed our updates on the [devvvv blog](/blog/23). we would say vvvv is sitting on a more solid base than ever. you might say year-old issues still not adressed...and we wouldn't even argue that. anyway..since about a year now you have comfortable realtime access to the latest fixes/changes via the daily [alpha-builds](https://vvvv.org/downloads/previews) and most recently we introduced [64bit builds](/blog/2012/vvvv-64bit) just before {{< user "vux" >}} stole our show by [announcing a full dx11 implementation for vvvv](/blog/2012/everything-you-know). so basically all is full of lovvvve. only your figures try to tell us a different story...
+it was a wonderful year. we had a lot of things happening as you know if you conveniently followed our updates on the [devvvv blog](/blog/23). we would say vvvv is sitting on a more solid base than ever. you might say year-old issues still not adressed...and we wouldn't even argue that. anyway..since about a year now you have comfortable realtime access to the latest fixes/changes via the daily [alpha-builds](https://legacy.vvvv.org/downloads/previews) and most recently we introduced [64bit builds](/blog/2012/vvvv-64bit) just before {{< user "vux" >}} stole our show by [announcing a full dx11 implementation for vvvv](/blog/2012/everything-you-know). so basically all is full of lovvvve. only your figures try to tell us a different story...
 
 while the figures show that your interest in vvvv is still growing, in areas where those figures can be expressed in the unit of € you're losing out quite a bit. but lets start at the beginning. here are your numbers of 2012:
 

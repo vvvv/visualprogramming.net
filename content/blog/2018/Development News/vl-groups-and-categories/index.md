@@ -31,7 +31,7 @@ When we read `TogEdge (Control)`, that means there is a node named "TogEdge" in 
 {{< /box >}}
 Obviously. (Yeah, just wanted to make sure)
 
-What we had so far was a not so clear mix of all three. Let's see what we have in [latest alpha](https://vvvv.org/downloads/previews):
+What we had so far was a not so clear mix of all three. Let's see what we have in [latest alpha](https://legacy.vvvv.org/downloads/previews):
 ## Group
 
 *Group* patches simply allow you to create more space in a patch by opening a new canvas. The groups name is merely used for human readability, vl doesn't care about it at all. Create a group by typing "group" in the nodebrowser. Groups is what you will be mostly using in your daily project-patching work.

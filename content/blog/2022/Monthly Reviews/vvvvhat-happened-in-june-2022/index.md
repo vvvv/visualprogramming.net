@@ -35,7 +35,7 @@ Still cooking are these two pull requests for VL.Stride:
 * [TextureFX update](https://github.com/vvvv/VL.Stride/pull/565)
 * [Geometry Primitives](https://github.com/vvvv/VL.Stride/pull/561)
 
-aaand [tobyk](https://vvvv.org/users/tobyk) created a [vvvv tutorial](https://youtu.be/RXDRfqLbc74) that looks like it could become a bit of a series...
+aaand [tobyk](https://legacy.vvvv.org/users/tobyk) created a [vvvv tutorial](https://youtu.be/RXDRfqLbc74) that looks like it could become a bit of a series...
 
 ## Gallery
 ![image](https://schnellebuntebilder.de/wp-content/uploads/2022/05/210314_hu_labor_12_1920-1280x853.jpg)
@@ -47,6 +47,6 @@ Also by the same pack: [Panic](https://schnellebuntebilder.de/panic/)
 
 - Always keep an eye on the [vvvv job board](https://discourse.vvvv.org/c/jobs)
 - There are often some more on [The Interactive & Immersive Job Board](https://jobs.interactiveimmersive.io/?s=vvvv&post_type=job_listing&orderby=date) and [dasauge.de](https://dasauge.de/sta/Vvvv/)
-- If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
+- If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://legacy.vvvv.org/documentation/vvvv-specialists-available-for-hire)
 
 That was it for June. Anything to add? Please do so in the comments!

@@ -23,14 +23,16 @@ Never heard of Skia before? Check [Skia](https://en.wikipedia.org/wiki/Skia_Grap
 
 Read on.
 
-##  Masking
+##  Masking
+
 You already were able to clip layers by rectangles or paths (ClipRect, ClipPath), now you can use **any layer** as a mask (as you know it from Photoshop), be it an image or very complicated layer pipeline. Welcome the **Mask**. It comes in two flavors: one uses a layer as a mask, another one just an image. The node has useful helpers which allow you to see how the mask looks like and where it is applied.
 
 ![](Mask5-compresse_r.gif) 
 
 
 
-##  Precomposing
+##  Precomposing
+
 While researching for the masks we've stumbled upon Skia's superpower: we call it precomposing. Layers can be precomposed (leaving canvas unchanged) and then applied (grouped) with other layers. It's like having an extra render pass that works like a layer.
 
 So now you've got two options: you can blur every single particle alone (by setting SetMaskFilter > Blur) or prepare all of them (precompose) and then blur the whole scene at once (by setting SetImageFilter > Blur).
@@ -42,13 +44,15 @@ Left - every single circle is blurred alone, the background comes into play.
 Right - the whole precomposition is blurred.
 
 
-##  Ellipsis
+##  Ellipsis
+
 Then we have these boring Ellipsis nod... nodes. They clip your text (left, right or center) by the number of letters or the width in units. Like this:
 
 ![](Ellipsis2.PNG) 
 
 
-##  Paint completeness & cleanup
+##  Paint completeness & cleanup
+
 We've cleaned up the **Paint** a lot and now you can set or get any of its properties. Don't forget to turn on the "Advanced" filter of the NodeBrowser (like in the screenshot or just press TAB-key) to get the full power. SetFakeBoldText anyone?
 
 In the **Paint** category:
@@ -59,25 +63,30 @@ In the **Paint** category:
 ![](Paint-Nodebrows_r.gif) 
 
 
-##  Examples and Demos
+##  Examples and Demos
+
 Don't forget to check the **/examples** folder of the package (your-vvvv-folder/lib/packs/VL.Skia.xxxx/).
 There are also some updates to the **/examples/demos**, like the **Slideshow.vl** which let's you click through your-very-big-images asynchronously preloading them in the background.
 
-##  Some more features:
+##  Some more features:
+
 - ImageEncoder
 - ImageWriter
 - SubpixelText property is on by default
 - Pipet (Experimental)
 
 
-##  How to Install
-1. Install the latest [vvvv_50beta38.1](https://vvvv.org/downloads) (older versions are not supported)
+##  How to Install
+
+1. Install the latest [vvvv_50beta38.1](https://legacy.vvvv.org/downloads) (older versions are not supported)
 2. In vvvv, middleclick > Show VL
 3. In VL, go to: **Dependencies > Manage Nugets > Commandline** and type: 
 {{< box >}}
-nuget install VL.Skia -prerelease{{< /box >}}
+nuget install VL.Skia -prerelease
+{{< /box >}}
 
 
-## Versions
+## Versions
+
 * This latest version works best with **beta38.1**. 
 * Using **beta38 or older**? make sure to install an older skia version. Type 'nuget install VL.Skia -version 0.93.26-g6c67991fa4' to get a compatible version. You'll miss some of the advertised features though.

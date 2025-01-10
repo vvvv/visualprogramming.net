@@ -49,7 +49,7 @@ We saw saw quite some activity in the forums work-in-progress section:
 {{< vimeo "352358337" >}}
 *[Duel by VOLNA](/blog/duel-%e2%80%93-kinetic-light-installation-by-volna)*
 
-And also: [Steel City Interactive](/blog/steel-city-interactive-installation) by [Responsive Spaces](https://vvvv.org/businesses/responsive-spaces-gmbh)
+And also: [Steel City Interactive](/blog/steel-city-interactive-installation) by [Responsive Spaces](https://legacy.vvvv.org/businesses/responsive-spaces-gmbh)
 
 ## Jobs
 

@@ -62,7 +62,7 @@ But the best thing about extensions is, that they are just patches. So it takes 
 * Materials can now be extended with custom shaders
 
 ### FUSE - visual gpu patching
-This release paves the way for the almighty new [FUSE](https://www.thefuselab.io) library, developed by [dottore](https://vvvv.org/users/dottore), [everyoneishappy](https://vvvv.org/users/everyoneishappy) and [texone](https://vvvv.org/users/texone). It allows you to use your GPU for things that typically require writing shaders. FUSE gives you access to procedural noise, signed distance field rendering, customizable particle systems, vector fields, fluid simulations and more, without having to write shader programs! Watch this video to see [how to get started with FUSE](https://youtu.be/25sk7_NaEgM).
+This release paves the way for the almighty new [FUSE](https://www.thefuselab.io) library, developed by [dottore](https://legacy.vvvv.org/users/dottore), [everyoneishappy](https://legacy.vvvv.org/users/everyoneishappy) and [texone](https://legacy.vvvv.org/users/texone). It allows you to use your GPU for things that typically require writing shaders. FUSE gives you access to procedural noise, signed distance field rendering, customizable particle systems, vector fields, fluid simulations and more, without having to write shader programs! Watch this video to see [how to get started with FUSE](https://youtu.be/25sk7_NaEgM).
 
 ![17. vvvv woldwide meetup](fuseheader.jpg "FUSE - the almighty visual gpu programming solution")
 

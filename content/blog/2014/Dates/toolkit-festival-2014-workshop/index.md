@@ -51,7 +51,7 @@ SOFTWARE AND TOOLS
 VVVV
 
 REQUIREMENTS
-You have to bring your own computer with Mac or Windows system; you have to download the VVVV software (from the website [Downloads](https://vvvv.org/downloads))
+You have to bring your own computer with Mac or Windows system; you have to download the VVVV software (from the website [Downloads](https://legacy.vvvv.org/downloads))
 
 TUTOR
 Martìn Romeo

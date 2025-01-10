@@ -43,7 +43,7 @@ And always keep an eye on the forums [work-in-progress section](https://discours
 
 * [Gesture controlled X-ray model](/blog/gesture-controlled-x-ray-model-with-leap-motion-vvvv-and-arduino) by {{< user "Hannes Panzenböck" >}}
 * [Keep Yourself Clean](/blog/keep-yourself-clean-%e2%80%93-virtual-exhibition-by-volna) by {{< user "iam404" >}}
-* [Refik Anadol](http://refikanadol.com/) and [Quadrature](https://vvvv.org/businesses/quadrature-goetz-neitsch-gbr) are talking about their works and collaboration in the latest [Retune Studio Visit](https://vimeo.com/429510091).
+* [Refik Anadol](http://refikanadol.com/) and [Quadrature](https://legacy.vvvv.org/businesses/quadrature-goetz-neitsch-gbr) are talking about their works and collaboration in the latest [Retune Studio Visit](https://vimeo.com/429510091).
 
 ## Jobs
 
@@ -51,7 +51,7 @@ And always keep an eye on the forums [work-in-progress section](https://discours
 * [Multi-media system development for showroom, China](https://discourse.vvvv.org/t/multi-media-system-development-for-showroom-china/18624)
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
-* If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
+* If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://legacy.vvvv.org/documentation/vvvv-specialists-available-for-hire)
 
 ---
 

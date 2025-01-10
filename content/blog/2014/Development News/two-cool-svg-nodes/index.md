@@ -18,7 +18,7 @@ The {{< node "Join (SVG)" >}} node is similar to the {{< node "Group (SVG)" >}} 
 
 If you put an {{< node "AsDocument (SVG)" >}} node right after it, it will create a spread of SVG documents for each SVG element at its input. And since the {{< node "SVGTexture (EX9.Texture)" >}} is also spreadable, you can render a bunch of textures at once.
 
-Please test in latest [alpha builds](https://vvvv.org/downloads/previews) and [bugreport](https://discourse.vvvv.org/) as usual.
+Please test in latest [alpha builds](https://legacy.vvvv.org/downloads/previews) and [bugreport](https://discourse.vvvv.org/) as usual.
 
 render on,
 devvvvs

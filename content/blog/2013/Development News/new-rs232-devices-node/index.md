@@ -26,4 +26,4 @@ we therefore decided to make the previous two nodes legacy (not breaking existin
 * allows setting of [DTR](http://en.wikipedia.org/wiki/Data_Terminal_Ready), RTS and Break states
 * returns DSR, [DCD](http://en.wikipedia.org/wiki/Data_Carrier_Detect), CTS, RI and Break states
 
-the new {{< node "RS232 (Devices)" >}} is now available for testing in the [alpha](https://vvvv.org/downloads/previews) versions of vvvv >= 29.5.
+the new {{< node "RS232 (Devices)" >}} is now available for testing in the [alpha](https://legacy.vvvv.org/downloads/previews) versions of vvvv >= 29.5.

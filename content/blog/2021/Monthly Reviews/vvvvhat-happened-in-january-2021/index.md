@@ -50,7 +50,7 @@ Updates:
 ## Gallery
 
 {{< vimeo "492467329" >}}
-*Schattenfänger by [BADABOOM](https://vvvv.org/businesses/badaboomberlin)*
+*Schattenfänger by [BADABOOM](https://legacy.vvvv.org/businesses/badaboomberlin)*
 
 And more:
 * [Return the Eye by DROUGHT SPA](/blog/return-the-eye-%28until-feb-28%29-by-drought-spa)
@@ -64,7 +64,7 @@ And more:
 
 * Always keep an eye on [the vvvv job board](https://discourse.vvvv.org/c/jobs)
 * There are often some more on [dasauge.de](https://dasauge.de/sta/Vvvv/)
-* If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
+* If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://legacy.vvvv.org/documentation/vvvv-specialists-available-for-hire)
 
 ---
 

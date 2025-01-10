@@ -11,7 +11,7 @@ imported: "true"
 i know it is a lot every month, but take those 5 minutes to browse through the stuff. i don't want to later hear anyone say they didn't know about something.. so first vvvv:
 * now comes with [native spout support](/blog/2016/spout-0)
 * got a [RAW performance bump](/blog/2016/raw-performance-speedup)
-both are available for testing in latest [alphas](https://vvvv.org/downloads/previews)
+both are available for testing in latest [alphas](https://legacy.vvvv.org/downloads/previews)
 
 ---
 ## Contributions

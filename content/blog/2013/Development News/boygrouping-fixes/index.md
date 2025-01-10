@@ -21,4 +21,4 @@ Here's whats fixed:
 There is a thing though that may cause troubles but has to be solved patchwise: By default vvvv sends value-changes in the graph via udp but switches to sending via tcp if a message is too large (ie. a spreadcount too high). Please read the updated section [boygrouping basics#warnings](https://betadocs.vvvv.org/using-vvvv/boygrouping/index.html) to understand how to detect those bottlenecks and how to deal with them. 
 
 Those fixes should get your boys back n'sync. 
-Please check the latest [alpha builds](https://vvvv.org/downloads/previews) for those changes. 
+Please check the latest [alpha builds](https://legacy.vvvv.org/downloads/previews) for those changes. 

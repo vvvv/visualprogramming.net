@@ -30,7 +30,7 @@ Partick Jost (elektromeier)将在新车间介绍vvvv的基本知识以及基础�
 材料:
 
     请自备安装了Windows 7 或 XP 的笔记本。Mac 笔记本需要安装bootcamp。安装了Mac OS 和 Linux 还有Wine的笔记本基本上也可以但是应该处理速度会很慢。
-    请先下载及安装好vvvv编程环境：[/downloads](https://vvvv.org/downloads)
+    请先下载及安装好vvvv编程环境：[/downloads](https://legacy.vvvv.org/downloads)
     最好自备带有滾輪的鼠标
     笔记本最好是带有较好的图形处理卡
 

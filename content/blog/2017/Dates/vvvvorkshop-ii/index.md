@@ -34,7 +34,7 @@ Yes, you read it right, this time we will dive into the next level of visual pro
 What do you need to bring?
 
 * Windows laptop running vvvv
-* Please Install the latest version of [vvvv and the AddonPack](https://vvvv.org/downloads).
+* Please Install the latest version of [vvvv and the AddonPack](https://legacy.vvvv.org/downloads).
 * If you encounter any problems installing vvvv please contact us before the workshop
 * ( It’s fine to share a machine with two people, this is a good way to learn. )
 * 3 Button Mouse

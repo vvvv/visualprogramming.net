@@ -45,7 +45,7 @@ and some fine updates to existing contributions:
 * [HUSTLE Light Box](/blog/hustle-light-box) by Jeff Zhu
 * [Digital Wool](/blog/digital-woolmuseumnightfever2018coudenberg) by Vision Nocturne
 
-and if you have a moment checkout the [latest additions to vimeo](https://vimeo.com/search/sort:latest?q=vvvv) already with some fine documentations by latest works of [NSNK](https://vvvv.org/businesses/nsynk-gesellschaft-f%C3%BCr-kunst-und-technik)
+and if you have a moment checkout the [latest additions to vimeo](https://vimeo.com/search/sort:latest?q=vvvv) already with some fine documentations by latest works of [NSNK](https://legacy.vvvv.org/businesses/nsynk-gesellschaft-f%C3%BCr-kunst-und-technik)
 
 ---
 that was it for june. anything to add? please do so in the comments!

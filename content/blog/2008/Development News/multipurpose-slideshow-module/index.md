@@ -11,7 +11,7 @@ imported: "true"
 
 This very simple effect is needed just too many times. I bet people have been repatching the behaviour of a slideshow many times. Even a Slideshow might be a cheesy way of presenting things, i believe you will  need it from time to time. If you want to add features, patch it and start a vvvvorum thread. This is version 1.
 
-[Slideshow (EX9).zip (6.00 Mb)](http://vvvv.org/tiki-download_file.php?fileId=1809)
+[Slideshow (EX9).zip (6.00 Mb)](http://legacy.vvvv.org/tiki-download_file.php?fileId=1809)
 
 
 *Directory based image cascading.

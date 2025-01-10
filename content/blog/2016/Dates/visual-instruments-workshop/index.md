@@ -45,7 +45,7 @@ Interfacing to controllers MIDI/HID
 If the participants wish so, the workshop can also cover controlling vvvv (or lots of other “VJ” softwares) from a Music sequencer
 Requirements:
 
-Windows computer with latest version of vvvv installed along with the current addon pack and the current DX11 pack. (Get it here: [/downloads](https://vvvv.org/downloads) and here: {{< contribution "directx11-nodes-alpha)" >}}
+Windows computer with latest version of vvvv installed along with the current addon pack and the current DX11 pack. (Get it here: [/downloads](https://legacy.vvvv.org/downloads) and here: {{< contribution "directx11-nodes-alpha)" >}}
 Basic understanding of 3D Math is an advantage but not a requirement
 A MIDI or HID game controller are recommended to enable tactile control of the instrument
 Sune Petersen (born in 1974 in Denmark) is an international VJ and digital artist who works with synthetic video in performance and installations. He has studied physics and computer engineering and through the past years Sune Petersen has worked with Aalborg university faculty of Architecture and Design and other institutions teaching at workshops where interactive installations have been on the agenda. His working area also includes visualisations, photography, audio and teaching but one of Sune’s main interests is live visual performance. Some of Peterson’s best know works are NoRA Pavillion at La Biennale 2006 (Venice) and world’s first interactive bench („Playful bench”) that invites you to play, move and experience the urban space in a new way.

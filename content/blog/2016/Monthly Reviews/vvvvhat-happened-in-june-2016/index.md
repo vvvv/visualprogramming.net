@@ -35,9 +35,9 @@ quite some quality projects this time. here only my personal favorites:
 {{< user "rrrr" >}} doesn't speak about the tools he uses to create his mesmerizing works. but i happen to know that he still lovvvves. therefore i think it is save to guess that it also powers his latest: [never comes tomorrow](http://kohlberger.net/work/never-comes-tomorrow)
 ![](http://kohlberger.net/wp-content/files/never51.jpg) 
 
-[badaboom](https://vvvv.org/businesses/badaboom.berlin) are doing a summer residency at the [Schaubude Berlin](http://www.schaubude-berlin.de/index.php) where they are researching into finding new ways of interaction between the art of puppeteering and the digital world. they are exemplarily [documenting their steps in a blog](http://badaboom.berlin/category/schaubude-berlin-art-residency/).
+[badaboom](https://legacy.vvvv.org/businesses/badaboom.berlin) are doing a summer residency at the [Schaubude Berlin](http://www.schaubude-berlin.de/index.php) where they are researching into finding new ways of interaction between the art of puppeteering and the digital world. they are exemplarily [documenting their steps in a blog](http://badaboom.berlin/category/schaubude-berlin-art-residency/).
 
-[meso](https://vvvv.org/businesses/meso) did a [crazy thing with bikes and moving heads](http://meso.net/Luminale-2016) for luminale 2016 in frankfurt.
+[meso](https://legacy.vvvv.org/businesses/meso) did a [crazy thing with bikes and moving heads](http://meso.net/Luminale-2016) for luminale 2016 in frankfurt.
 
 and our alwaysbusy {{< user "lasal" >}} is apparently working on a [Midi Sequencer](https://www.youtube.com/watch?v=EVZh_liwiPA)..
 

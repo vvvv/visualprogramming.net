@@ -22,7 +22,8 @@ We're meeting up on **November 24th, 8pm CET** to get insights into what everyon
 
 {{< youtube "LzqaoN7QCSg" >}}
 
-## Want to share your work?
+## Want to share your work?
+
 We could have one or two more demos/presentations! Anything more or less related to vvvv, yourself and your projects. Share some thoughts, share your funny fails. Or just ask some questions...
 
 Please get in touch via **meetup@vvvv.org** and let us know what you want to talk about. We'll then get back to you and organize the streaming tool etc.
@@ -31,8 +32,9 @@ Please get in touch via **meetup@vvvv.org** and let us know what you want to tal
 
 Here is our line-up so far:
 
-## wirmachenbunt
-[wirmachenbunt](https://vvvv.org/businesses/wirmachenbunt): Joscha Brüning, Thomas Gross, Nils Nahrwold, Christian Engler 
+## wirmachenbuntlegacy.vvvv.org/businesses/
+
+[wirmachenbunt](https://legacy.vvvv.org/businesses/wirmachenbunt): Joscha Brüning, Thomas Gross, Nils Nahrwold, Christian Engler 
 Location: Hamburg 
 
 <http://wirmachenbunt.de> 
@@ -41,7 +43,8 @@ wirmachenbunt is a studio for interactive and immersive shows and exhibits. The 
 
 ![](magentamoommaki_r.png) 
 
-## Christian Riekoff
+## Christian Riekoff
+
 {{< user "texone" >}}
 Location: Schwerin
 
@@ -51,7 +54,8 @@ Christian is a media artist based in Schwerin. Working on all kinds of kinetic, 
 
 ![](westlight.png) 
 
-## Amir Bastan
+## Amir Bastan
+
 {{< user "baxtan" >}}
 Location: Linz, Austria
 

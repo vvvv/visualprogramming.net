@@ -24,6 +24,6 @@ thumb: "bannerTop.png"
 
 i will be talking some Реалтаймовый композитинг, видеоэффекты и проекционый мэппинг в VVVV at the [CG Event](http://www.cgevent.ru) in Москва this sunday evening. 
 
-also [invisible studio](https://vvvv.org/businesses/invisible-studio) are coming to talk about [Лазеры, DX11 в VVVV](http://www.cgevent.ru/?p=5364)
+also [invisible studio](https://legacy.vvvv.org/businesses/invisible-studio) are coming to talk about [Лазеры, DX11 в VVVV](http://www.cgevent.ru/?p=5364)
 
 anyone else?

@@ -11,7 +11,7 @@ imported: "true"
 
 wow, 
 
-what a month. again so many new things... while we've still not managed to finalize our rework of the vl corlib, as mentioned here last month, you can already follow our developments using [alpha builds](https://vvvv.org/downloads/previews) if you're curious. we're now mostly done and are working on documentation and a blogpost to give you an easy overview of whats new.
+what a month. again so many new things... while we've still not managed to finalize our rework of the vl corlib, as mentioned here last month, you can already follow our developments using [alpha builds](https://legacy.vvvv.org/downloads/previews) if you're curious. we're now mostly done and are working on documentation and a blogpost to give you an easy overview of whats new.
 
 meanwhile we've released an [update to our HTMLTexture nodes](/blog/2018/htmltexture-now-for-dx11-and-more) which are now working for both DX9 and DX11!
 
@@ -21,7 +21,7 @@ signup for [http://link-summercamp.de/](http://link-summercamp.de/) is now close
 
 berliners save the date: **June 12th** will be our first [vvvv/vl meetup](/blog/2018/berlin-vvvv-meetup). as of this writing already 11 participants have signed up! looking forward to getting to know you..
 
-and finally: we've started collecting [Universities and other Educational Institutions](https://vvvv.org/documentation/educational-institutions) that are using vvvv/vl. we got 9 so far. please add yours there, if it is still missing!
+and finally: we've started collecting [Universities and other Educational Institutions](https://legacy.vvvv.org/documentation/educational-institutions) that are using vvvv/vl. we got 9 so far. please add yours there, if it is still missing!
 
 ## Contributions
 

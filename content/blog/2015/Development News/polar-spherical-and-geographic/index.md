@@ -267,4 +267,4 @@ ToCylindrical, FromCylindrical
 
 ## Download
 
-As usual in the [alpha builds](https://vvvv.org/downloads/previews).
+As usual in the [alpha builds](https://legacy.vvvv.org/downloads/previews).

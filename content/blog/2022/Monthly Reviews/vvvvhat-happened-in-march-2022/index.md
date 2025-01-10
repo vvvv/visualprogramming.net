@@ -21,7 +21,7 @@ Work has started on a new NuGet to cover all things projection-mapping. Currentl
 
 ## Contributions
 We got a new one:
-* [VL.RougeSharp](https://vvvv.org/contribution/vl.roguesharp) by [tobyk](https://vvvv.org/users/tobyk)
+* [VL.RougeSharp](https://legacy.vvvv.org/contribution/vl.roguesharp) by [tobyk](https://legacy.vvvv.org/users/tobyk)
 
 and received updates to the following:
 * [VL.Fuse](https://www.nuget.org/packages/VL.Fuse)
@@ -48,6 +48,6 @@ Couleurs Sonores by Konstantin Semilakovs
 
 - Always keep an eye on the [vvvv job board](https://discourse.vvvv.org/c/jobs)
 - There are often some more on [The Interactive & Immersive Job Board](https://jobs.interactiveimmersive.io/?s=vvvv&post_type=job_listing&orderby=date) and [dasauge.de](https://dasauge.de/sta/Vvvv/)
-- If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://vvvv.org/documentation/vvvv-specialists-available-for-hire)
+- If you need a vvvv specialist or are one yourself, check out this listing of [vvvv specialists available for hire](https://legacy.vvvv.org/documentation/vvvv-specialists-available-for-hire)
 
 That was it for March. Anything to add? Please do so in the comments!

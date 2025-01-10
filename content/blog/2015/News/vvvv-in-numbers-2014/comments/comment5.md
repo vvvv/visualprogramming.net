@@ -3,7 +3,7 @@ user: "joreg"
 created: "1421758073"
 ---
 
-regarding the question "who to support": the flattr button on the [downloads](https://vvvv.org/downloads) page supports the vvvv core team. otherwise every contribution and user page has flattr buttons. so simply flattr those whose contributions you like/use or whose answers in the forum are helpful to you. it really should be quite intuitive.
+regarding the question "who to support": the flattr button on the [downloads](https://legacy.vvvv.org/downloads) page supports the vvvv core team. otherwise every contribution and user page has flattr buttons. so simply flattr those whose contributions you like/use or whose answers in the forum are helpful to you. it really should be quite intuitive.
 
 instead of thinking "who will i spend 10e" you just include someone in your flattring-club. and don't worry how much an individual gets. thats a common critizism of flattr but actually what makes it so easy as it takes those thoughts about specific sums away. i can only repeat: it is not about the sum, it is about the gesture. and the crowd will do the rest. SPAM also still seems to work..
 

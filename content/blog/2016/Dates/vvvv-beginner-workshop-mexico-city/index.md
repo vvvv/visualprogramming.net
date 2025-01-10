@@ -30,7 +30,7 @@ If you want to take part, please:
 
 1. Be at General Prim 30 on Saturday the 11th of June at 2 p.m..
 
-2. If you want to patch on your own, bring your own Windows-laptop and install the latest VVVV ([Downloads](https://vvvv.org/downloads)) and addon-pack and if you know how to, the DX11-alpha pack ({{< contribution "directx11-nodes-alpha)" >}}.
+2. If you want to patch on your own, bring your own Windows-laptop and install the latest VVVV ([Downloads](https://legacy.vvvv.org/downloads)) and addon-pack and if you know how to, the DX11-alpha pack ({{< contribution "directx11-nodes-alpha)" >}}.
 
 3. Reserve appr. 4 to hours for the workshop.
 

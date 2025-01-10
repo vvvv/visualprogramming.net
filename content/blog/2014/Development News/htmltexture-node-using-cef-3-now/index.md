@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-The HTMLTexture (EX9.Texture) node is now based on version 3 of the [Chromium Embedded Framework (CEF)](https://code.google.com/p/chromiumembedded/) and available for testing in the latest [alpha builds](https://vvvv.org/downloads/previews). Thanks to [MESO](https://vvvv.org/businesses/meso) for sponsoring the update.
+The HTMLTexture (EX9.Texture) node is now based on version 3 of the [Chromium Embedded Framework (CEF)](https://code.google.com/p/chromiumembedded/) and available for testing in the latest [alpha builds](https://legacy.vvvv.org/downloads/previews). Thanks to [MESO](https://legacy.vvvv.org/businesses/meso) for sponsoring the update.
 
 The update to CEF 3 brings the following features:
 * The node is now finally available in 64 bit.

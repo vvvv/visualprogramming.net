@@ -11,7 +11,7 @@ imported: "true"
 
 time flies,
 
-more than a month now since the release of b36 and we are happy with it. but are you? anyone using a previous version still? meanwhile we have b36.1 heavily in the making where we are concentrating our work on the vl CoreLib. making it more managable so we can finally open it up for contributions. some of the fruits can already be seen in the nodebrowser if you're using [alpha builds](https://vvvv.org/downloads/previews). announcement and some explaining words on this still pending. and then quite some crazyshit is happening in the secret labs that we hopefully can talk about soon...geee
+more than a month now since the release of b36 and we are happy with it. but are you? anyone using a previous version still? meanwhile we have b36.1 heavily in the making where we are concentrating our work on the vl CoreLib. making it more managable so we can finally open it up for contributions. some of the fruits can already be seen in the nodebrowser if you're using [alpha builds](https://legacy.vvvv.org/downloads/previews). announcement and some explaining words on this still pending. and then quite some crazyshit is happening in the secret labs that we hopefully can talk about soon...geee
 
 one of the more often requested features for vvvv was the ability to run different parts of a project in different mainloops. since b36 this is conveniently possible using vl and the article [Patch Your Own Mainloops](/blog/2018/vl-patch-your-own-mainloops) explains how. no more excuses...
 
@@ -53,7 +53,7 @@ happy to see three works in progress shared in april. keep them coming:
 *using {{< contribution "fieldtrip" "FieldTrip" >}} by {{< user "everyoneishappy" >}}*
 *as mentioned in this [writeup on creativeapplications](http://www.creativeapplications.net/vvvv/melting-memories-drawing-neural-mechanisms-of-cognitive-control/)*
 
-and [meso](https://vvvv.org/businesses/meso) documented 3 of their latest works:
+and [meso](https://legacy.vvvv.org/businesses/meso) documented 3 of their latest works:
 * [YANFENG — Kinetic seat and media elements for autonomous car concept](/blog/yanfeng-—-kinetic-seat-and-media-elements-for-autonomous-car-concept)
 * [SENCKENBERG NATURKUNDEMUSEUM FRANKFURT — Modest multi-narrative media stations for natural history museum](/blog/senckenberg-naturkundemuseum-frankfurt-—-modest-multi-narrative-media-stations-for-natural-hist)
 * [KLASSIK STIFTUNG WEIMAR — Hyperrealistic face-to-face experience for cultural history exhibition](/blog/klassik-stiftung-weimar-—-hyperrealistic-face-to-face-experience-for-cultural-history-exhibitio)

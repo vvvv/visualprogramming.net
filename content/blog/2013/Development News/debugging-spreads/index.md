@@ -22,6 +22,6 @@ A link can have any of 4 styles:
 
 We hope this to be specifically usefull when teaching beginners about spreads or hunting for large spreads or ø. 
 
-Available now in latest [alpha builds](https://vvvv.org/downloads/previews)
+Available now in latest [alpha builds](https://legacy.vvvv.org/downloads/previews)
 
 

@@ -20,7 +20,7 @@ we haven't heard any serious complaints about it yet. just sayin... and also the
 
 ## Contributions
 
-again there've been a couple of new or updates to existing contributions. as always you can [find them all here](https://vvvv.org/contributions), this is a list of only my favorites:
+again there've been a couple of new or updates to existing contributions. as always you can [find them all here](https://legacy.vvvv.org/contributions), this is a list of only my favorites:
 * {{< user "vth1618" >}} shared his {{< contribution "excel-reader" >}}
 * {{< user "gumilastik" >}} forgot to add a changelog but apparently there's an update to his {{< contribution "htmltexture-(dx11)" >}}
 * {{< user "honix" >}} shared his {{< contribution "polar-menu" >}} in dx9 and dx11 flavours
@@ -52,7 +52,7 @@ also, if you're among the unfortunate that use instagram you might as well follo
 
 ## VL stuff
 
-just a little update regarding VL: we're hard working-on/learning VL ourselves. it's coming along very nicely. latest additions that can also be used in vvvv (if you use the latest [alpha](https://vvvv.org/downloads/previews)version):
+just a little update regarding VL: we're hard working-on/learning VL ourselves. it's coming along very nicely. latest additions that can also be used in vvvv (if you use the latest [alpha](https://legacy.vvvv.org/downloads/previews)version):
 * [/forum-alpha/artnet-vl-plugin](https://discourse.vvvv.org/t/artnet-vl-plugin/13360) (multi subnet/universe node)
 * [/forum-alpha/leap-vl-plugin](https://discourse.vvvv.org/t/leap-vl-plugin/13344) 
 * and {{< user "tonfilm" >}} wrote us a nice roundup on what you get regarding [polar-spherical-and-geographic-coordinates](/blog/2015/polar-spherical-and-geographic-coordinates) in VL

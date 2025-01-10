@@ -9,7 +9,7 @@ imported: "true"
 ---
 
 
-the upcoming vvvv release (beta28) will contain a new way of accessing pin data by using the [IStream](https://vvvv.org/pluginspecs/html/T_VVVV_Utils_Streams_IStream.htm) interface. please note that it's just "a new way" and not "the new way" as its usage is much more complicated than ISpread and it will only be superior to ISpread if the plugin you want to write accesses its data sequentially.
+the upcoming vvvv release (beta28) will contain a new way of accessing pin data by using the [IStream](https://legacy.vvvv.org/pluginspecs/html/T_VVVV_Utils_Streams_IStream.htm) interface. please note that it's just "a new way" and not "the new way" as its usage is much more complicated than ISpread and it will only be superior to ISpread if the plugin you want to write accesses its data sequentially.
 
 if you don't mind writing much more complicated code in order to squeeze out every last bit of performance, read on, otherwise you can safely skip this blog post.
 <!--break-->

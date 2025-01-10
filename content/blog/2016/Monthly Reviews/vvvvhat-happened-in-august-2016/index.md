@@ -61,9 +61,9 @@ If Mrs. Krenz thinks she gets away with this, without doing a related workshop a
 * {{< user "Svdk" >}} did a [vvvv on Supercollider livecoding session](https://www.youtube.com/watch?v=_yryiuALe_c).
 * {{< user "kld4" >}} documented two projects: [Ezagutu Bilbao!](/blog/ezagutu-bilbao-interactive-game) and [Dank](/blog/dank).
 * Students of the Interactive Architecture course at the Bartlett in London found some use for vvvv: [A Portable Air Driven System for Kinetic Structures ](http://www.interactivearchitecture.org/a-portable-air-driven-system-for-kinetic-structures.html) and [Real-Time Object Tracking Systems](http://www.interactivearchitecture.org/real-time-object-tracking-systems.html).
-* [Kimchi and Chips](https://vvvv.org/businesses/kimchi-and-chips) talk about their project [Light Barrier 3rd Edition](https://www.facebook.com/asiaculturecenter.eng/videos/591845057659581).
+* [Kimchi and Chips](https://legacy.vvvv.org/businesses/kimchi-and-chips) talk about their project [Light Barrier 3rd Edition](https://www.facebook.com/asiaculturecenter.eng/videos/591845057659581).
 * {{< user "ggml" >}} is doing weird stuff: [aa](/blog/aa)
-* [Quadrature](https://vvvv.org/businesses/quadrature-goetz-neitsch-gbr) are preparing for their exhibition at this years Ars Electronica Festival: [Von absurden Landschaften und habitablen Exoplaneten](http://www.aec.at/aeblog/de/2016/09/01/von-absurden-landschaften-und-habitablen-exoplaneten/)
+* [Quadrature](https://legacy.vvvv.org/businesses/quadrature-goetz-neitsch-gbr) are preparing for their exhibition at this years Ars Electronica Festival: [Von absurden Landschaften und habitablen Exoplaneten](http://www.aec.at/aeblog/de/2016/09/01/von-absurden-landschaften-und-habitablen-exoplaneten/)
 
 And lastbutnotleast you shall be informed that the jury has selected two artists for the coming edition of the [TADAEX/NODE Exchange Program](http://node.vvvv.org/jury-selection-tadaexnode-exchange-201617/). Horray to the lucky Lilian Nejatpour and [Simon Weckert](http://www.simonweckert.com/).
 

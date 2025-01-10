@@ -17,7 +17,8 @@ If you're writing your own dynamic plugins in C#, we got something for you! If n
 The C# language is evolving all the time with nifty features. In order to be able to use those, you need a suitable compiler that understands those. So far, the C# compiler included with vvvv only supported language features of C# versions lower than 6. But no more:
 
 {{< box >}}
-Latest alphas suppport all [features new in C# 6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6).{{< /box >}}
+Latest alphas suppport all [features new in C# 6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6).
+{{< /box >}}
 
 ![](c-60-what-c-is-_r.jpg)
 *image grabbed off [the internet](http://image.slidesharecdn.com/filipekberg-dddbrisbane-csharp6-141207042920-conversion-gate01/95/c-60-what-c-is-_r.jpg?cb=1417927109)*
@@ -31,5 +32,5 @@ Note:
 UPDATE: 
 This is now activated by default for everyone even without the caveats as mentioned above!
 {{< /box >}}
-
-So get yourself a fresh [alpha](https://vvvv.org/downloads/previews) now and do yourself a favor by using those new language features.
+//legacy.vvvv.org/downloads/previews
+So get yourself a fresh [alpha](https://legacy.vvvv.org/downloads/previews) now and do yourself a favor by using those new language features.

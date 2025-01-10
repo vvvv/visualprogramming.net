@@ -11,8 +11,8 @@ imported: "true"
 
 there're situations were one needs to create pins at runtime depending on the value of some config pin. for example consider the {{< node "Expr (Value)" >}} node. it creates input pins for each given variable name.
 
-with beta28 coming up this kind of task got considerably easier to do with a new interface called [IIOFactory](https://vvvv.org/pluginspecs/T_VVVV_PluginInterfaces_V2_IIOFactory.htm).
-it basically provides a method to create so called [IO containers](https://vvvv.org/pluginspecs/T_VVVV_PluginInterfaces_V2_IIOContainer.htm), containing the actual "view" on the pin data (such as ISpread) and controlling the lifetime of it.
+with beta28 coming up this kind of task got considerably easier to do with a new interface called [IIOFactory](https://legacy.vvvv.org/pluginspecs/T_VVVV_PluginInterfaces_V2_IIOFactory.htm).
+it basically provides a method to create so called [IO containers](https://legacy.vvvv.org/pluginspecs/T_VVVV_PluginInterfaces_V2_IIOContainer.htm), containing the actual "view" on the pin data (such as ISpread) and controlling the lifetime of it.
 
 say we want to create an ISpread<ISpread<T>> during runtime, we do something like this:
 ```

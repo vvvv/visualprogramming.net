@@ -25,7 +25,7 @@ For the first time in world history (?) there'll be a vvvv meetup in your paruti
 ![](MVRBD_2.jpg)
 *VR Branding Dome by DECODE*
 
-We're happy to have long time vvvv users [DECODE](https://vvvv.org/businesses/decode) demo one of their latest projects. But there'll be enough time to hear more, so please bring your projects and show everyone what you're patching on!
+We're happy to have long time vvvv users [DECODE](https://legacy.vvvv.org/businesses/decode) demo one of their latest projects. But there'll be enough time to hear more, so please bring your projects and show everyone what you're patching on!
 
 From our side expect a little update on latest developments regarding the [vvvv gamma preview](/blog/2019/vvvv-gamma-2019.1-preview)
 

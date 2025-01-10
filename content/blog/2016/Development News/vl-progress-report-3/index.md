@@ -23,7 +23,7 @@ also the explorer (the listings in the topleft of the patch) are now hidden by d
 ![](explorer.gif)
 *Easy switching between Patch, Record and Class*
 
-here is a rough log of other recent changes that you can now test in latest [alphas](https://vvvv.org/downloads/previews): 
+here is a rough log of other recent changes that you can now test in latest [alphas](https://legacy.vvvv.org/downloads/previews): 
 * to create a patch for grouping some utility operations together now create a *Group*
 * Cons: the Cons node now finally has a dynamic pin count. use CTRL +/- on the selected node to increase/decrease the number of inputs
 * Concat: similar to Cons, but for concatenating multiple spreads to one spread
@@ -60,7 +60,8 @@ here is a rough log of other recent changes that you can now test in latest [alp
 * patches with the same name and category in a document will now be recognized as duplicates and report an error. same for pins in operations.
 * middleclick alternative (ALT + LeftClick) now works on patch labels to open the patch
 
-## Documentation
+## Documentation
+
 * the following pages where updated in the gray book
  ** [Libraries](https://vvvv.gitbooks.io/the-gray-book/content/en/reference/libraries/libraries.html)
  ** [The VL.CoreLib](https://vvvv.gitbooks.io/the-gray-book/content/en/reference/libraries/standard_libraries.html)
@@ -71,16 +72,19 @@ here is a rough log of other recent changes that you can now test in latest [alp
  ** there is a [discussion board](https://www.gitbook.com/book/vvvv/the-gray-book/discussions) for the book
  ** you can comment on any paragraph in the book using the little + button that appears on the right when hovering a line. lets see how that goes..
 
-## Next Steps
+## Next Steps
+
 Bughunt and preparing for the beta35 release in parallel to continued library development for VL. Means, now is a good time to report bugs!
 
 If you want to get started with VL right now, here is what you do:
-{{< box >}}
-## Diving into VL
-* download: [vvvv alpha downloads](https://vvvv.org/downloads/previews) 
+{{< box >}}//legacy.vvvv.org/downloads/previews
+## Diving into VL
+
+* download: [vvvv alpha downloads](https://legacy.vvvv.org/downloads/previews) 
 * demos: see \girlpower\VL
 * learn: [VL quick reference](https://betadocs.vvvv.org/devvvveloping/dynamic-vl-plugin-reference.html)
-* discuss: [alpha forum](https://discourse.vvvv.org){{< /box >}}
+* discuss: [alpha forum](https://discourse.vvvv.org)
+{{< /box >}}
 
 If you want to let us know that you like anything you just read...we're always up for a comment or even a flattr:
 [/downloads|vvvv](flattr)
