@@ -3,9 +3,9 @@
     <head>
         {{- $CSS := resources.Get "scss/onlyHeader.scss" | toCSS | minify }}
         <link rel="stylesheet" href="{{ $CSS.RelPermalink }}" type="text/css">
+        <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}" type="text/css">      
    </head>
 <body>
-    <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}" type="text/css">      
     <script src="{{"/js/jquery-3.6.0.min.js" | relURL}}"></script>
     <script src="{{"/js/bootstrap.min.js" | relURL}}"></script>
     
