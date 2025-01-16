@@ -32,7 +32,7 @@ Neubaugasse 31/11, 1070 Vienna<br>
 Doors open: 18:30
 
 ## Online
-[Watch via Youtube](https://youtube.com/live/5tIPjM7zvHU)  
+[Watch via Youtube](https://youtube.com/live/uRVZlBzfHjU)  
 [Join via Zoom](https://us02web.zoom.us/j/89589347632?pwd=Z6cuPpJvGtdPbklkfrdkaWgAaBuVpN.1)
 {{< /box >}}
 
