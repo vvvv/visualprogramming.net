@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html class="scroll-padding">
     <head>
-        {{- $CSS := resources.Get "scss/onlyHeader.scss" | toCSS | minify }}
-        <link rel="stylesheet" href="{{ $CSS.RelPermalink }}" type="text/css">
-        <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}" type="text/css">      
+        {{- $CSS := resources.Get "scss/_header.scss" | toCSS | minify }}
+        <link rel="stylesheet" href="{{ $CSS.RelPermalink | absLangURL }}" type="text/css">
+        {{- $JS := resources.Get "js/header.js" | js.Build | minify }}
+        <script type="text/javascript" src="{{ $JS.RelPermalink | absLangURL }}"></script>
    </head>
-<body>
-    <script src="{{"/js/jquery-3.6.0.min.js" | relURL}}"></script>
-    <script src="{{"/js/bootstrap.min.js" | relURL}}"></script>
-    
+<body> 
     {{ partial "nav" . }}
 </body>
 </html>

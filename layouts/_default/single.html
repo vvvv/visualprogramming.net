@@ -2,19 +2,17 @@
 
 {{ $guest := not (in .Site.Params.Blog.Devvvvs (lower .Params.author)) }}
 <main id="Blog">
-        <div class="prev-next-search sticky-top d-none d-lg-block prev-next-top">
+        <div class="prev-next-search sticky-top prev-next-top">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-9 col-md-8 col-lg-9 border-below">
+                    <div class="col-12 d-flex justify-content-between border-below">
                         {{ partial "blog/prev-next" . }}
-                    </div>
-                    <div class="col-sm-3 col-md-4 col-lg-3 pl-3 pt-3 pt-sm-0 mt-md-0 border-below">
                         {{ partial "blog/docsearch" . }}
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container mt-1">
             <div class="row justify-content-between">
                 <div class="col-12 col-lg-8">
                     <div class="post">

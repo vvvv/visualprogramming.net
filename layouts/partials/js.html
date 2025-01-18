@@ -5,11 +5,12 @@
 <script src="{{"/js/jquery.easing.min.js" | relURL}}"></script>
 <script src="{{"/js/swiper-bundle.min.js" | relURL}}"></script>
 
+
+
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
-{{ $build := resources.Get "js/creative.js" | js.Build "js/creative.js" | minify}}
-<script type="text/javascript" src="{{ $build.RelPermalink }}" defer></script>
-{{ $build := resources.Get "js/download.js" | js.Build "js/download.js" | minify}}
-<script type="text/javascript" src="{{ $build.RelPermalink }}" defer></script>
+{{- $jsfiles := resources.Match "js/*" -}}
+{{- $jsfiles := $jsfiles | resources.Concat "js/vvvv.js" | js.Build | minify -}}
+<script type="text/javascript" src="{{ $jsfiles.RelPermalink | relURL }}" defer></script>
 
 {{ "<!-- DSGVO Video Blocker -->" | safeHTML }}
 <script src="{{"/js/dsgvo-video-embed.js" | relURL}}"></script>

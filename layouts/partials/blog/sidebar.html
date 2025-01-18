@@ -1,4 +1,7 @@
 <hr class="d-block d-md-none mb-5 thin">
+<div class="d-none d-lg-block col-lg-3 pl-3 pt-3 pt-sm-0 mt-md-0">
+  {{ partial "blog/docsearch" . }}
+</div>
 {{ if ne .Page.Title "Posts"}}
     <a href="/blog/" class="btn btn-secondary btn-lg mb-5">{{ .Site.Params.Blog.ReadMore}}</a>
 {{ end }}

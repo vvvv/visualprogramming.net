@@ -4,11 +4,12 @@
     <div class="prev-next-search sticky-top">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-9 border-below">       
+                <div class="col-12 d-flex justify-content-between border-below">   
                     <h1>{{ .Title }}</h1>
-                </div>
-                <div class="d-none d-lg-block col-lg-3 pl-3 pt-3 pt-sm-0 mt-md-0">
-                    {{ partial "blog/docsearch" . }}
+                    <div class="d-flex justify-content-between">
+                        {{ partial "blog/prev-next" . }}
+                        {{ partial "blog/docsearch" . }}
+                    </div>
                 </div>
             </div>
         </div>
