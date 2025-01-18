@@ -7,10 +7,6 @@ firstColumn:
       image: /img/icons/mortarboard-fill.svg
   - item: 
       text: > 
-            <a href="https://thenodeinstitute.org/courses/ws24-5-vvvv-beginners-part-ii/" target="_blank">Deep dive course from January 13</a>
-      image: /img/icons/mortarboard-fill.svg
-  - item: 
-      text: > 
             <a href="https://thenodeinstitute.org/vvvv-education-winter-2024-25/" target="_blank">All upcoming courses Winter 24/25</a>
       image: /img/icons/mortarboard-fill.svg
   - item: 
@@ -29,6 +25,10 @@ secondColumn:
   - item:
       text: > 
             Video <a href="https://www.youtube.com/playlist?list=PLBTgwgsWWcT_VMMrwsy3Ao7_ubazEGL4s" target="_blank">Tutorials</a> and <a href="https://www.youtube.com/playlist?list=PLBTgwgsWWcT-G9lk-IlKLkGZJ9NnXcuBV" target="_blank">HowTo's</a>
+      image: /img/icons/collection-play-fill.svg
+  - item:
+      text: > 
+            Season 2 episodes of <a href="https://www.youtube.com/watch?v=uvLNZsStve8&list=PLBTgwgsWWcT8eDfjAg299o7paRqkd2Zdi" target="_blank">vvvvTv</a>
       image: /img/icons/collection-play-fill.svg
   - item:
       text: > 

@@ -20,20 +20,20 @@ thumb: "vvvvmeetup-2501-thumb.jpg"
 Here's to announce the first vvvv worldwide meetup for 2025 on **January 16th - 7pm CET**, hosted by The NODE Institute. This is the meetup for creatives and developers using the visual programming environment vvvv and its visual language VL. Join us IRL or online with artists presentations and announcements in the vvvv community.
 
 {{< box >}}
-## In Real Life
+## In real life
 ### Berlin
 The NODE Institute<br>
 Wipperstrasse 13, 12055 Berlin<br>
 Doors open: 18:30
 
 ### Vienna
-NBG31 / Bildwerk<br>
+Bildwerk / NBG31<br>
 Neubaugasse 31/11, 1070 Vienna<br>
 Doors open: 18:30
 
 ## Online
-Join via Zoom or watch the stream on YouTube!<br>
-The links will be added here shortly before the meetup.
+[Watch via Youtube](https://youtube.com/live/uRVZlBzfHjU)  
+[Join via Zoom](https://us02web.zoom.us/j/89589347632?pwd=Z6cuPpJvGtdPbklkfrdkaWgAaBuVpN.1)
 {{< /box >}}
 
 ##  Want to share your work?
