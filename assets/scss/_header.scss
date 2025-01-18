@@ -1,10 +1,5 @@
 @import '../css/fonts-header';
 
-body{
-  padding: 0px;
-  margin: 0px;
-}
-
 #vvvv-navbar
 {
   font-weight: 400;
@@ -69,7 +64,7 @@ body{
     }
    
     #vvvv-menu {
-      margin-right: 1rem;
+      margin-right: 2rem;
       
       ul {
         margin-top: 0;
@@ -160,7 +155,7 @@ body{
         top: 60px;
         left: 0;
         right: 0;
-        padding: 1rem 0em 1rem 1.5rem;
+        padding: 1rem 0em 1rem 1rem;
         margin-right: 0;
         background-color: #282828;
 
