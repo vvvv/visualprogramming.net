@@ -175,3 +175,108 @@
     }
   }
 }
+
+#socialBanner{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: open sans,helvetica neue,Arial,sans-serif;
+  font-size: 0.8rem;
+  justify-content: center;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  a{
+
+    &:link, &:visited {
+      text-decoration: none;
+      color: #666;
+    }
+
+    &:hover{
+      text-decoration: none;
+      color: #000;
+    }
+
+  }
+
+  .social-container
+  {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+    box-sizing: border-box;
+    padding: 0px 1rem;
+  }
+
+  .column {
+   &.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+   }
+  }
+
+  .social
+  {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    display: flex;
+    cursor: pointer;
+    gap: 1em;
+    align-self: stretch;
+    flex: auto 1 1;
+
+    p{
+      margin-bottom: 0;
+    }
+
+    img{
+      max-width: 50px;
+    }
+
+    &:hover
+    {
+      background-color: #eaeaea;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .text-muted{
+      display: none;
+    }
+
+    .logo{
+      display: none;
+    }
+
+    .social-container
+    {
+      justify-content: flex-start;
+    }
+  }
+}
+
+body{
+  background-color: #fff;
+}
+
+.content
+{
+  width: 1170px;
+  height: 100%;
+  position: relative;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
