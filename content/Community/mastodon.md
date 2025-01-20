@@ -3,7 +3,7 @@ id: 0
 title: Mastodon
 description: Bla
 icon: img/icons/mastodon32x32.png
-mainUrl: https://mastodon.xyz/@vvvv
+link: https://mastodon.xyz/@vvvv
 alt: Mastodon.social
 tag:
     title: '#vvvv'

@@ -3,7 +3,7 @@ id: 5
 title: YouTube
 description: 
 icon: img/icons/youtube-32x32.png
-mainUrl: https://www.youtube.com/channel/UCu-xqv-TLwv6L0An7MJJA5A
+link: https://www.youtube.com/@vvvvTv42
 alt: YouTube
 tag:
     title: '#vvvv'

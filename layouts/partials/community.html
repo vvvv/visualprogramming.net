@@ -12,11 +12,11 @@
         <div class="row text-center">
             {{ range $sections }}
               <div class="col-md-4 text-center mt-5">
-                        <a href="{{ .Params.mainUrl }}" class="noUnderline" target="_blank">
+                        <a href="{{ .Params.link }}" class="noUnderline" target="_blank">
             			    <img src ="{{ .Params.icon | relURL }}" alt = "{{ .Params.alt }}" style="height: 32px">
             		    </a>
                       <h3>{{ .Params.title }}</h3>
-                          <p class="text-muted">{{ .Params.description }}</p><br><a href="{{ .Params.mainUrl }}" class="btn btn-default btn-xl noUnderline onWhite" target="_blank">{{ .Params.buttonText }}</a>
+                          <p class="text-muted">{{ .Params.description }}</p><br><a href="{{ .Params.link }}" class="btn btn-default btn-xl noUnderline onWhite" target="_blank">{{ .Params.buttonText }}</a>
               </div>
               {{ end }}
         </div>

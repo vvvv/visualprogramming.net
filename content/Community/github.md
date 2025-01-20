@@ -3,7 +3,7 @@ id: 2
 title: GitHub
 description: 
 icon: img/icons/github32x32.png
-mainUrl: https://github.com/vvvv
+link: https://github.com/vvvv
 alt: Github
 tag:
     title: '#vl'

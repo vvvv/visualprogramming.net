@@ -28,7 +28,7 @@
             {{- $sections := where $sections ".Params.follow" "eq" true -}}
             <div class="row justify-content-between ml-1">
               {{- range $sections -}}
-              <a href="{{ .Params.mainUrl}}" target="_blank" class="noUnderline">
+              <a href="{{ .Params.link }}" target="_blank" class="noUnderline">
                 <img src="{{ .Params.icon | relLangURL }}" alt="{{.Params.alt}}">
               </a>
               {{- end -}}
