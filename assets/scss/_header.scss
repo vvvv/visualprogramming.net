@@ -176,7 +176,7 @@
   }
 }
 
-#socialBanner{
+#socialBanner {
   display: flex;
   flex-direction: row;
   margin-top: 1rem;
@@ -185,6 +185,12 @@
   font-size: 0.8rem;
   justify-content: center;
 
+  .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   h2 {
     margin: 0;
     padding: 0;
@@ -192,7 +198,7 @@
     font-weight: bold;
   }
 
-  a{
+  a {
 
     &:link, &:visited {
       text-decoration: none;
@@ -206,60 +212,98 @@
 
   }
 
-  .social-container
-  {
+  .social-container {
     max-width: 1170px;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 2em;
+    justify-content: flex-start;
+    gap: 1.5em;
     box-sizing: border-box;
     padding: 0px 1rem;
-  }
 
-  .column {
-   &.desc{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; 
-   }
-  }
+    .social {
+      display: flex;
+      border-radius: 6px;
+      // overflow: hidden;
+      justify-content: center;
+      border: 1px solid #e8e8e8;
 
-  .social
-  {
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    padding: 1rem 1rem;
-    display: flex;
-    cursor: pointer;
-    gap: 1em;
-    align-self: stretch;
-    flex: auto 1 1;
+      .tooltip {
+        position: relative;
+        width: auto;
+        white-space: nowrap;
+      }
+
+      .tooltip:hover .tooltiptext{
+        visibility: visible;
+        opacity: 1;
+      }
+
+      .tooltiptext {
+        visibility: hidden;
+        background-color: #eee;
+        text-align: center;
+        border-radius: 3px;
+        padding: 0.5rem 1rem;
+        position: absolute;
+        z-index: 999;
+        top: 2.8rem;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+  
+      .media, .tag {
+        height: 2.5rem;
+        padding: 0rem 1rem;
+        transition: background-color 0.2s ease;
+        background-color: #eee;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        
+        &:hover{
+          background-color: #ccc;
+        }
+      }
+
+      .separator {
+        width: 1px;
+        background-color: #ddd;
+      }
+
+      .media{
+        img {
+          width: 24px;
+        }
+      }
+    }
+
+    
+    // .tooltiptext {
+    //   display: none;
+    //   background-color: #555;
+    //   color: #fff;
+    //   text-align: center;
+    //   border-radius: 6px;
+    //   padding: 5px;
+    //   position: absolute;
+    //   z-index: 1;
+    //   bottom: 125%;
+    //   left: 50%;
+    //   opacity: 0;
+    //   transition: opacity 0.3s;
+    // }
 
     p{
-      margin-bottom: 0;
+      margin: 0;
+      vertical-align: middle;
     }
 
-    img{
-      max-width: 50px;
-    }
-
-    &:hover
-    {
-      background-color: #eaeaea;
-    }
   }
 
   @media screen and (max-width: 850px) {
-    .text-muted{
-      display: none;
-    }
-
-    .logo{
-      display: none;
-    }
-
     .social-container
     {
       justify-content: flex-start;

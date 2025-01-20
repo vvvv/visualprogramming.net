@@ -1,0 +1,13 @@
+---
+id: 0
+title: Mastodon
+description: Bla
+icon: img/icons/mastodon32x32.png
+mainUrl: https://mastodon.xyz/@vvvv
+alt: Mastodon.social
+tag:
+    title: '#vvvv'
+    link: https://mastodon.xyz/tags/vvvv
+    alt: '#vvvv'
+follow: true
+---

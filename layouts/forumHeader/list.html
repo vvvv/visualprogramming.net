@@ -1,3 +1,4 @@
+{{- $sections := ((where site.RegularPages "Section" "community").ByParam "id") -}}
 <!DOCTYPE html>
 <html class="scroll-padding">
     <head>
@@ -11,19 +12,28 @@
 
     {{ with .Site.Params.Community }}
         <div id="socialBanner">
+            <div class="intro">See also:</div>
             <div class="social-container">
-                {{ range .list }}
-                    <a href="{{ .link }}" class="noUnderline" target="_blank">
+                {{- range $sections -}}
+                {{ with .Params}}
                         <div class="social">
-                            <div class="column logo">
-                                <img src ="{{ .img }}" alt = "{{ .imgAlt }}">
+                            <div class="media tooltip">
+                                <a href="{{ .mainUrl }}" class="noUnderline" target="_blank">
+                                    <img src ="{{ .icon | relLangURL }}" alt = "{{ .alt }}">
+                                </a>
+                                <span class="tooltiptext">{{ .alt}}</span>
                             </div>
-                            <div class="column desc">
-                                <h2>{{ .title }}</h2>
-                                <p class="text-muted">{{ .description }}</p>
-                            </div>
+                            {{ with .tag}}
+                                <div class="separator">
+
+                                </div>
+                                <div class="tag tooltip">
+                                    <a href="{{.link}}" target="_blank">{{.title}}</a>
+                                    <span class="tooltiptext">{{.alt}}</span>
+                                </div>
+                            {{ end }}
                         </div>
-                    </a>
+                    {{ end }}
                 {{ end }}
             </div>
         </div>

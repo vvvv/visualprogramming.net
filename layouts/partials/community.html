@@ -1,24 +1,24 @@
 {{ "<!-- Community -->" | safeHTML }}
-{{ with .Site.Params.Community }}
+{{ $sections := ((where site.RegularPages "Section" "community").ByParam "id") }}
+{{- $sections := where $sections ".Params.follow" "eq" false -}}
 <section id="Community">
         <div class="container">
               <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-headin">{{ .headline }}</h2>
+                    <h2 class="section-headin">{{ .Site.Params.Community.headline }}</h2>
                     <hr class="primary">
                 </div>
             </div>
         <div class="row text-center">
-              {{ range .list }}
+            {{ range $sections }}
               <div class="col-md-4 text-center mt-5">
-                      <a href="{{ .link }}" class="noUnderline" target="_blank">
-            					       <img src ="{{ .img }}" alt = "{{ .imgAlt }}">
-            					</a>
-                      <h3>{{ .title }}</h3>
-                          <p class="text-muted">{{ .description }}</p><br><a href="{{ .link }}" class="btn btn-default btn-xl noUnderline onWhite" target="_blank">{{ .text }}</a>
+                        <a href="{{ .Params.mainUrl }}" class="noUnderline" target="_blank">
+            			    <img src ="{{ .Params.icon | relURL }}" alt = "{{ .Params.alt }}" style="height: 32px">
+            		    </a>
+                      <h3>{{ .Params.title }}</h3>
+                          <p class="text-muted">{{ .Params.description }}</p><br><a href="{{ .Params.mainUrl }}" class="btn btn-default btn-xl noUnderline onWhite" target="_blank">{{ .Params.buttonText }}</a>
               </div>
               {{ end }}
         </div>
     </div>
 </section>
-{{ end }}
