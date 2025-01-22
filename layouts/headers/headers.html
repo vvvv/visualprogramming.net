@@ -1,0 +1,26 @@
+{{ $content := site.GetPage "section" "community" }}
+{{ $links := sort ($content.Resources.ByType "page") ".Params.id" "asc" }}
+<!DOCTYPE html>
+<html class="scroll-padding">
+    <head>
+        {{- $CSS := resources.Get "scss/_header.scss" | toCSS | minify }}
+        <link rel="stylesheet" href="{{ $CSS.RelPermalink | absLangURL }}" type="text/css">
+        {{- $JS := resources.Get "js/header.js" | js.Build | minify }}
+        <script type="text/javascript" src="{{ $JS.RelPermalink | absLangURL }}"></script>
+   </head>
+<body> 
+    {{ "<!-- COPY FOR FORUM-->" | safeHTML }}
+        <div name="ForumHeader">
+            {{ site.Store.Set "SelectedItem" "community" }}
+            {{ partial "nav" . }}
+            {{ partial "socialButtons" $links }}
+        </div>
+
+    {{ "<!-- COPY FOR STORE-->" | safeHTML }}
+        <div name="StoreHeader">
+            {{ site.Store.Set "SelectedItem" "licensing" }} 
+            {{ partial "nav" . }}
+        </div>
+        
+</body>
+</html>

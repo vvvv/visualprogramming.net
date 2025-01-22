@@ -1,14 +1,15 @@
-{{ "<!-- NAVIGATION -->" | safeHTML }}
+{{ $selected := $.Params.title }}
+{{ with site.Store }}
+    {{ $selected = .Get "SelectedItem"}}
+{{ end }}
 
 <div id="vvvv-navbar">
     {{ partial "logoAndToggler"}}
     <div id="vvvv-menu">
         <ul>
-
-            {{- range .Site.Params.menu.main -}}
-                {{ partial "nav-item" (dict "ctx" . "selected" $.Params.title) }}
-            {{- end -}}
-            
+           {{- range .Site.Params.menu.main -}}
+                {{ partial "nav-item" (dict "ctx" . "selected" $selected) }}
+            {{- end -}}          
         </ul>
     </div>
 </div>
