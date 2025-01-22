@@ -1,7 +1,7 @@
 baseURL = "https://vvvv.org/"
 languageCode = "en-us"
-paginate = 20
-paginatePath = "page"
+pagination.pagerSize = 20
+pagination.path = "page"
 summaryLength = 20
 title = "vvvv - visual live-programming for .NET"
 relativeURLs = "true"
@@ -63,18 +63,28 @@ blog = '/blog/:sections[1]/:slug'
 
 		# Navigation
 		[params.navigation]
-		brand 		= "vvvv.org"
+		home = "vvvv.org"
 
-		[params.navigation.links]
-		features  = "features"
-		blog = "blog"
-		download  = "download"
-		showcase = "showcase"
-		Learn = "learn"
-		community = "community"
-		licensing = "licensing"
-		support = "support"
-		contact   = "contact"
+		[params.menu]
+			[[params.menu.main]]
+				name = 'features'
+			[[params.menu.main]]
+				name = 'blog'
+			[[params.menu.main]]
+				name = 'showcase'
+			[[params.menu.main]]
+				name = 'learn'
+			[[params.menu.main]]
+				name = 'community'
+				url = 'https://forum.vvvv.org'
+			[[params.menu.main]]
+				name = 'licensing'
+			[[params.menu.main]]
+				name = 'support'
+			[[params.menu.main]]
+				name = 'download'
+				style = 'download'
+
 
 		# Hero section
 		[params.Hero]
