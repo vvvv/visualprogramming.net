@@ -1,6 +1,6 @@
 ---
 title: community
-type: forumHeader
-layout: "forumHeader"
+type: headers
+layout: "headers"
 description: Header
 ---

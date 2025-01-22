@@ -12,28 +12,28 @@
           <div class="col-12 d-flex justify-content-center">
             <ul class="nav nav-pills featuresMenu mt-3" id="pills-tab" role="tablist">
               <!-- Overview Menu -->
-              {{ $sections := ((.Site.GetPage "Features").Sections).ByParam "id" }}
+              {{ $features := site.GetPage "section" "features"}}
+              {{ $sections := sort (site.GetPage "section" "features").Pages ".Params.id" "asc" }}
               {{ range $index, $value := $sections }}
               <li class="nav-item mx-md-1" role="presentation">
-                <a class="nav-link {{ if (eq $index 0) }} active {{end}}" id="v-pills-{{ .Params.id }}-tab" data-toggle="pill" href="#v-pills-{{ .Params.id }}" role="tab" aria-controls="v-pills-{{ .Params.id }}" aria-selected="false">{{ .Title }}</a>
+                <a class="nav-link {{ if (eq $index 0) }} active {{end}}" id="link-{{ replaceRE "(\\s)" "" .Params.title }}" data-toggle="pill" href="#{{ replaceRE "(\\s)" "" .Params.title }}" role="tab" aria-controls="v-pills-{{ .Params.id }}" aria-selected="false">{{ .Title }}</a>
               </li>
               {{ end }}
             </ul>
           </div>
         </div>
         <div class="tab-content" id="pills-tabContent">
-          {{ .Scratch.Set "sections" (.Site.GetPage "Features")}}
-          <div class="tab-pane fade show active" id="v-pills-0" role="tabpanel" aria-labelledby="pills-topfeatures-tab">
+          <div class="tab-pane fade show active" id="TopFeatures" role="tabpanel" aria-labelledby="pills-topfeatures-tab">
             {{ .Scratch.Set "sectionTitle" "Top Features"}}
-            {{ partial "features_section" .}}
+            {{ partial "features-section" .}}
           </div>
-          <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="pills-languages-tab">
+          <div class="tab-pane fade" id="Language" role="tabpanel" aria-labelledby="pills-languages-tab">
             {{ .Scratch.Set "sectionTitle" "Language"}}
-            {{ partial "features_section" .}}
+            {{ partial "features-section" .}}
           </div>
-          <div class="tab-pane fade" id="v-pills-1" role="tabpanel" aria-labelledby="pills-libraries-tab">
+          <div class="tab-pane fade" id="Libraries" role="tabpanel" aria-labelledby="pills-libraries-tab">
             {{ .Scratch.Set "sectionTitle" "Libraries"}}
-            {{ partial "features_section" .}}
+            {{ partial "features-section" .}}
           </div>
         </div>
     </div>

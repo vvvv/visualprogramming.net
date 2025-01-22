@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 type: legal
-layout: "legal"
+layout: legal
 description: Privacy Policy
 ---
 

@@ -1,6 +1,12 @@
 {{ "<!-- Features -->" | safeHTML }}
-<div class="row justify-content-start">
-    {{ range $index, $elem:=(index (where (.Site.GetPage "Features").Sections "Title" (.Scratch.Get "sectionTitle")) 0).RegularPages.ByParam "id" }}
+
+  {{ $features := site.GetPage "section" "features"}}
+  {{ $feature := index (where $features.Pages ".Params.title" (.Scratch.Get "sectionTitle")) 0}}
+  {{ $content := sort ($feature.Resources.ByType "page") ".Params.id" "asc"}}
+
+  <div class="row justify-content-start">
+
+    {{ range $index, $elem:=$content }}
     <div class="col-lg-5 mb-5 {{if modBool $index 2}}ml-lg-5{{end}} {{if not (modBool $index 2)}}offset-lg-1{{end}}">
         <div class="row g-0 d-flex align-items-start position-relative">
           <div class="col-12 mb-3" style="color: #fff">

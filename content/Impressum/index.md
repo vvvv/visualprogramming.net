@@ -1,7 +1,7 @@
 ---
 title: Impressum
 type: legal
-layout: "legal"
+layout: legal
 description: Impressum
 ---
 

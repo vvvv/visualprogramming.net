@@ -1,4 +1,6 @@
-{{ $TotalProjects := len (where site.RegularPages "Section" "madewithgamma") }}
+
+{{ $content := site.GetPage "section" "showcase" }}
+{{ $TotalProjects := len ($content.Resources.ByType "page") }}
 
 <div class="swiper-slide py-4 px-3">
     <div class="card text-white card-has-bg click-col h-100 justify-content-center">

@@ -1,6 +1,7 @@
 {{ "<!-- Community -->" | safeHTML }}
-{{ $sections := ((where site.RegularPages "Section" "community").ByParam "id") }}
-{{- $sections := where $sections ".Params.follow" "eq" false -}}
+
+    {{ $content := site.GetPage "section" "community" }}
+    {{ $links := sort (where ($content.Resources.ByType "page") ".Params.follow" false) ".Params.id" "asc" }}
 <section id="Community">
         <div class="container">
               <div class="row">
@@ -10,7 +11,7 @@
                 </div>
             </div>
         <div class="row text-center">
-            {{ range $sections }}
+            {{ range $links }}
               <div class="col-md-4 text-center mt-5">
                         <a href="{{ .Params.link }}" class="noUnderline" target="_blank">
             			    <img src ="{{ .Params.icon | relURL }}" alt = "{{ .Params.alt }}" style="height: 32px">

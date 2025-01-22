@@ -1,8 +1,10 @@
+{{- $buttons := where . ".Params.title" "ne" "Forum" -}}
+
 <div id="socialBanner">
     <div class="social-container">
         <div class="social-intro">Connections:</div>
         <div class="social-list">
-            {{- range . -}}
+            {{- range $buttons -}}
             {{ with .Params}}
                     <div class="social">
                         <div class="media tooltip">
