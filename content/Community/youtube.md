@@ -8,6 +8,6 @@ alt: YouTube
 tag:
     title: '#vvvv'
     link: https://www.youtube.com/hashtag/vvvv
-    alt: '#vvvv'
+    alt: 'Videos tagged with #vvvv'
 follow: true
 ---

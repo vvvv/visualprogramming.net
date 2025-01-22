@@ -4,6 +4,5 @@ window.onload = function() {
   
   hamburgerButton.addEventListener("click", ()=>{
     menu.classList.toggle("visible")
-    console.log ("clicked")
   })
 };

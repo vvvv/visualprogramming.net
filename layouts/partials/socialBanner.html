@@ -1,0 +1,28 @@
+<div id="socialBanner">
+    <div class="social-container">
+        <div class="social-intro">Connections:</div>
+        <div class="social-list">
+            {{- range . -}}
+            {{ with .Params}}
+                    <div class="social">
+                        <div class="media tooltip">
+                            <a href="{{ .link }}" class="noUnderline" target="_blank">
+                                <img src ="{{ .icon | absLangURL }}" alt = "{{ .alt }}">
+                            </a>
+                            <span class="tooltiptext">{{ .alt}}</span>
+                        </div>
+                        {{ with .tag}}
+                            <div class="separator">
+
+                            </div>
+                            <div class="tag tooltip">
+                                <a href="{{.link}}" target="_blank">{{.title}}</a>
+                                <span class="tooltiptext">{{.alt}}</span>
+                            </div>
+                        {{ end }}
+                    </div>
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</div>

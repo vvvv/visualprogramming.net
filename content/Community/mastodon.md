@@ -8,6 +8,6 @@ alt: Mastodon.social
 tag:
     title: '#vvvv'
     link: https://mastodon.xyz/tags/vvvv
-    alt: '#vvvv'
+    alt: 'Posts tagged with #vvvv'
 follow: true
 ---

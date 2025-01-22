@@ -8,36 +8,12 @@
         <script type="text/javascript" src="{{ $JS.RelPermalink | absLangURL }}"></script>
    </head>
 <body> 
-    {{ partial "nav" . }}
-
-    {{ with .Site.Params.Community }}
-        <div id="socialBanner">
-            <div class="intro">See also:</div>
-            <div class="social-container">
-                {{- range $sections -}}
-                {{ with .Params}}
-                        <div class="social">
-                            <div class="media tooltip">
-                                <a href="{{ .link }}" class="noUnderline" target="_blank">
-                                    <img src ="{{ .icon | relLangURL }}" alt = "{{ .alt }}">
-                                </a>
-                                <span class="tooltiptext">{{ .alt}}</span>
-                            </div>
-                            {{ with .tag}}
-                                <div class="separator">
-
-                                </div>
-                                <div class="tag tooltip">
-                                    <a href="{{.link}}" target="_blank">{{.title}}</a>
-                                    <span class="tooltiptext">{{.alt}}</span>
-                                </div>
-                            {{ end }}
-                        </div>
-                    {{ end }}
-                {{ end }}
-            </div>
+    {{ "<!-- COPY -->" | safeHTML }}
+        <div name="headerAndSocial">
+            {{ partial "nav" . }}
+            {{ partial "socialBanner" $sections }}
         </div>
-    {{ end }}
+    {{ "<!-- END COPY -->" | safeHTML }}
     <div class="content">
         test
     </div>
