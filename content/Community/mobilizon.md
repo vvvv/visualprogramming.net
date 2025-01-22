@@ -5,6 +5,6 @@ description: 'Join us for a meetup: real-world, in-person drinks and presentatio
 icon: /img/icons/Mobilizon-logo.svg
 link: https://mobilize.berlin/@vvvvmeetups
 buttonText: Open Meetups
-alt: vvvv Mobilizon
+alt: Join and organize meetups on Mobilizon
 follow: false
 ---

@@ -1,5 +1,5 @@
 ---
-id: 6
+id: 8
 title: Forum
 description: Get answers to your questions or find them in existing discussions in the vvvv forum.
 icon: /img/icons/Discourse-32x32_gray.png

@@ -1,10 +1,10 @@
 ---
-id: 0
+id: 2
 title: Mastodon
-description: Bla
+description: 
 icon: img/icons/mastodon32x32.png
 link: https://mastodon.xyz/@vvvv
-alt: Mastodon.social
+alt: Follow our news on Mastodon
 tag:
     title: '#vvvv'
     link: https://mastodon.xyz/tags/vvvv
