@@ -305,6 +305,10 @@
       {
         border: none;
         border-radius: 6px;
+
+        .tooltiptext{
+          display: none;
+        }
       }
 
       .social-list {
@@ -314,6 +318,8 @@
         white-space: nowrap; /* Prevents content from wrapping */
         justify-content: flex-start;
         width: fit-content;
+        height: 3.7rem;
+
       }
     }
   }
