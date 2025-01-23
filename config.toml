@@ -73,9 +73,10 @@ blog = '/blog/:sections[1]/:slug'
 				name = 'showcase'
 			[[params.menu.main]]
 				name = 'learn'
+				url = 'https://thegraybook.vvvv.org/'
 			[[params.menu.main]]
 				name = 'community'
-				url = 'https://forum.vvvv.org'
+				url = 'https://forum.vvvv.org/'
 			[[params.menu.main]]
 				name = 'licensing'
 			[[params.menu.main]]
