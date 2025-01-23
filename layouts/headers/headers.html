@@ -14,6 +14,7 @@
             {{ site.Store.Set "SelectedItem" "community" }}
             {{ partial "nav" . }}
             {{ partial "socialButtons" $links }}
+            {{ site.Store.Delete "SelectedItem"}}
         </div>
 
     <br><br>
@@ -21,6 +22,7 @@
         <div name="StoreHeader">
             {{ site.Store.Set "SelectedItem" "licensing" }} 
             {{ partial "nav" . }}
+            {{ site.Store.Delete "SelectedItem"}}
         </div>
 
     <br><br>
@@ -28,6 +30,7 @@
         <div name="DocsHeader">
             {{ site.Store.Set "SelectedItem" "learn" }} 
             {{ partial "nav" . }}
+            {{ site.Store.Delete "SelectedItem"}}
         </div>
 
 </body>
