@@ -1,8 +1,10 @@
 @import '../css/fonts-header';
 
-// .discourse-root .d-header-wrap{
-//   top: 60px !important;
-// }
+//Hack for Forum's sidepanels.
+// --header-bottom is calculated by js: it is the bottom of the #vvvv-navbar
+.discourse-root .menu-panel.slide-in {
+  top: var(--header-bottom, 0);
+}
 
 #vvvv-navbar
 {
@@ -158,7 +160,7 @@
       #vvvv-menu{
         display: none;
         flex-direction: column;
-        position: fixed;
+        position: absolute;
         top: 60px;
         left: 0;
         right: 0;
