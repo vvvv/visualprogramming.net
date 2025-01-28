@@ -1,5 +1,9 @@
 @import '../css/fonts-header';
 
+// .discourse-root .d-header-wrap{
+//   top: 60px !important;
+// }
+
 #vvvv-navbar
 {
   font-weight: 400;
@@ -231,7 +235,6 @@
       .social {
         display: flex;
         border-radius: 4px;
-        border: 1px solid #e8e8e8;
         height: fit-content;
   
         .tooltip {
@@ -249,7 +252,6 @@
           visibility: hidden;
           background-color: #eee;
           text-align: center;
-          border-radius: 3px;
           padding: 0.5rem 1rem;
           position: absolute;
           z-index: 10000;
@@ -257,6 +259,7 @@
           left: 0;
           opacity: 0;
           transition: opacity 0.3s;
+          border-radius: 3px;
         }
     
         .media, .tag {
@@ -267,10 +270,27 @@
           cursor: pointer;
           display: flex;
           align-items: center;
-          
+          border: 1px solid #ddd;
           &:hover{
             background-color: #ddd;
           }
+        }
+
+        .media
+        {
+          border-radius: 3px;
+        }
+
+        .media:has( + .separator){
+          border-right: none;
+          border-top-right-radius: 0px;
+          border-bottom-right-radius: 0px;
+        }
+
+        .tag{
+          border-left: none;
+          border-top-right-radius: 3px;
+          border-bottom-right-radius: 3px;
         }
   
         .separator {
