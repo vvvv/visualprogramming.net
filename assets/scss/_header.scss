@@ -1,8 +1,14 @@
 @import '../css/fonts-header';
 
-// .discourse-root .d-header-wrap{
-//   top: 60px !important;
-// }
+// Hack for the Forum:
+// Move .ember-application to the top on z, its sidepanel should be on top of the header
+#main
+{
+  &.ember-application
+  {
+    z-index: 1030; // #vvvv-navbar is at 1020
+  }
+}
 
 #vvvv-navbar
 {
