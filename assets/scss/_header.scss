@@ -25,6 +25,10 @@
   align-items: center;
   justify-content: space-between;
 
+  &:has( ~ .ember-application) {
+    position: relative;
+  }
+
   .logo {
     background-color: transparent;
     text-decoration: none;
