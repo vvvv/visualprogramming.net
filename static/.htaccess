@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} ^/sites/default/files/ [NC]
+RewriteRule ^sites/default/files/(.*)$ https://legacy.vvvv.org/sites/default/files/$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/contribution/ [NC]
+RewriteRule ^contribution/.*$ https://beta.vvvv.org/contributions/ [R=301,L]
