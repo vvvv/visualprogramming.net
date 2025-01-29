@@ -8,8 +8,10 @@
 
 
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
-{{- $jsfiles := resources.Match "js/*" -}}
-{{- $jsfiles := $jsfiles | resources.Concat "js/vvvv.js" | js.Build | minify -}}
+{{- $creativejs := resources.Get "js/creative.js" -}}
+{{- $downloadjs := resources.Get "js/download.js" -}}
+{{- $headerjs := resources.Get "js/header.js" -}}
+{{- $jsfiles := slice $creativejs $downloadjs $headerjs | resources.Concat "js/vvvv.js" | js.Build | minify -}}
 <script type="text/javascript" src="{{ $jsfiles.RelPermalink | relURL }}" defer></script>
 
 {{ "<!-- DSGVO Video Blocker -->" | safeHTML }}
