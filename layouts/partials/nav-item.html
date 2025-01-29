@@ -1,0 +1,21 @@
+{{- $ctx := .ctx -}}
+{{- $selected := .selected -}}
+{{- $name := index $ctx "name" -}}
+{{- $url := index $ctx "name" | absLangURL -}}
+{{- $selectedStyle := "" -}}
+{{- $style := "" -}}
+
+{{- with index $ctx "style" -}}
+    {{- $style = . -}}
+{{- end -}}
+
+{{- if eq (lower $selected) (lower $name) -}}
+    {{- $selectedStyle = "selected" -}}
+{{- end -}}
+{{- with index $ctx "url" -}}
+    {{- $url = . -}}
+{{- end -}}
+
+<li {{ if $style -}}class="{{- $style -}}"{{- end }}>
+    <a href="{{- $url -}}" {{ if $selectedStyle }} class="selected" {{ end }}>{{- $name -}}</a>
+</li>

@@ -5,9 +5,9 @@
    </head>
 <body>
     <div class="main">
-        {{ partial "nav-community" . }}
+        {{ partial "nav" . }}
         
-        {{ partial "community" .}}
+        {{ partial "showcase-page" .}}
 
         {{ partial "videoBlocker" . }}
 
@@ -16,6 +16,8 @@
         {{ partial "footer" . }}
 
         {{ partial "js" . }}
+
+        <script src="{{"/js/lazysizes.min.js" | relURL}}"></script>
     </div>
 </body>
 </html>

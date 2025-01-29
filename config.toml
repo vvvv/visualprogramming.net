@@ -1,7 +1,7 @@
 baseURL = "https://vvvv.org/"
 languageCode = "en-us"
-paginate = 20
-paginatePath = "page"
+pagination.pagerSize = 20
+pagination.path = "page"
 summaryLength = 20
 title = "vvvv - visual live-programming for .NET"
 relativeURLs = "true"
@@ -10,7 +10,6 @@ relativeURLs = "true"
   changefreq = 'daily'
   filename = 'sitemap.xml'
   priority = -1 # priority omitted from rendered sitemap
-
 
 [Services.RSS]
   limit = 10
@@ -63,18 +62,30 @@ blog = '/blog/:sections[1]/:slug'
 
 		# Navigation
 		[params.navigation]
-		brand 		= "vvvv.org"
+		home = "vvvv.org"
 
-		[params.navigation.links]
-		features  = "features"
-		blog = "blog"
-		download  = "download"
-		showcase = "showcase"
-		Learn = "learn"
-		community = "community"
-		licensing = "licensing"
-		support = "support"
-		contact   = "contact"
+		[params.menu]
+			[[params.menu.main]]
+				name = 'features'
+			[[params.menu.main]]
+				name = 'blog'
+			[[params.menu.main]]
+				name = 'showcase'
+			[[params.menu.main]]
+				name = 'learn'
+				url = 'https://thegraybook.vvvv.org/'
+			[[params.menu.main]]
+				name = 'community'
+				url = 'https://forum.vvvv.org/'
+			[[params.menu.main]]
+				name = 'licensing'
+				url = 'https://store.vvvv.org/'
+			[[params.menu.main]]
+				name = 'support'
+			[[params.menu.main]]
+				name = 'download'
+				style = 'download'
+
 
 		# Hero section
 		[params.Hero]

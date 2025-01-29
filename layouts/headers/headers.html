@@ -1,0 +1,39 @@
+{{ $content := site.GetPage "section" "community" }}
+{{ $links := sort ($content.Resources.ByType "page") ".Params.id" "asc" }}
+<!DOCTYPE html>
+<html class="scroll-padding">
+    <head>
+        {{- $CSS := resources.Get "scss/_header.scss" | toCSS | minify }}
+        <link rel="stylesheet" href="{{ $CSS.RelPermalink | absLangURL }}" type="text/css">
+        {{- $JS := resources.Get "js/header.js" | js.Build | minify }}
+        <script type="text/javascript" src="{{ $JS.RelPermalink | absLangURL }}"></script>
+        {{- $DiscourseJS := resources.Get "js/discourse-header.js" | js.Build | minify }}
+        <script type="text/javascript" src="{{ $DiscourseJS.RelPermalink | absLangURL }}"></script>
+   </head>
+<body> 
+    {{ "<!-- COPY FOR FORUM-->" | safeHTML }}
+        <div name="ForumHeader">
+            {{ site.Store.Set "SelectedItem" "community" }}
+            {{ partial "nav" . }}
+            {{ partial "socialButtons" $links }}
+            {{ site.Store.Delete "SelectedItem"}}
+        </div>
+
+    <br><br>
+    {{ "<!-- COPY FOR STORE-->" | safeHTML }}
+        <div name="StoreHeader">
+            {{ site.Store.Set "SelectedItem" "licensing" }} 
+            {{ partial "nav" . }}
+            {{ site.Store.Delete "SelectedItem"}}
+        </div>
+
+    <br><br>
+    {{ "<!-- COPY FOR DOCS-->" | safeHTML }}
+        <div name="DocsHeader">
+            {{ site.Store.Set "SelectedItem" "learn" }} 
+            {{ partial "nav" . }}
+            {{ site.Store.Delete "SelectedItem"}}
+        </div>
+
+</body>
+</html>

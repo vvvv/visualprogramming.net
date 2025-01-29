@@ -1,3 +1,0 @@
----
-headline: Licensing
----

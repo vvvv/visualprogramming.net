@@ -1,42 +1,45 @@
 {{ "<!-- LICENSING -->" | safeHTML }}
+
+{{ $licensing := .Site.GetPage "/Licensing" }}
+
 <section id="Licensing">
     <div class="container">
-          {{ with .Site.GetPage "/Licensing/Licensing.md" }}
+          {{ with $licensing }}
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ .Params.headline }}</h2>
+                    <h2 class="section-heading">{{ .Params.title }}</h2>
                     <hr class="primary">
                 </div>
               </div>
             {{ end }}
 
         <div class="row justify-content-between">
-          {{ with .Site.GetPage "/Licensing/TRUST.md" }}
+          {{ with $licensing.Resources.GetMatch "TRUST.md" }}
           <div class="col-md-4 mt-5 pr-2">
-            <h3 class="section-heading bold">{{ .Params.headline }}</h3>
+            <h3 class="section-heading bold">{{ .Params.title }}</h3>
             {{ with .Content }}
                 <p>{{ . | markdownify}}</p>
             {{ end }}
           </div>
           {{ end }}
 
-          {{ with .Site.GetPage "/Licensing/Commercial.md" }}
+          {{ with $licensing.Resources.GetMatch "Commercial.md" }}
             <div class="col-md-4 mt-5">
-                <h3 class="section-heading bold">{{ .Params.headline }}</h3>
+                <h3 class="section-heading bold">{{ .Params.title }}</h3>
                 {{ with .Content }}
                     <p>{{ . | markdownify}}</p>
                 {{ end }}
 
-            {{ with .Site.GetPage "/Licensing/Buy.md" }}
+            {{ with $licensing.Resources.GetMatch "Buy.md" }}
               <a href="{{ .Params.buttonGammaLink }}" class="btn btn-primary btn-xl js-scroll-trigger" target="_blank">{{ .Params.buttonGammaText }}</a>
               <p class="underButton">{{ .Params.buttonGammaComment }}</p>
             {{ end }}
             </div>
           {{ end }}
 
-          {{ with .Site.GetPage "/Licensing/Free.md" }}
+          {{ with $licensing.Resources.GetMatch "Free.md" }}
             <div class="col-md-4 mt-5">
-                <h3 class="section-heading bold">{{ .Params.headline }}</h3>
+                <h3 class="section-heading bold">{{ .Params.title }}</h3>
                 {{ with .Content }}
                     <p>{{ . | markdownify }}</p>
                 {{ end }}

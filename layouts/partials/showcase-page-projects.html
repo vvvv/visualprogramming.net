@@ -8,8 +8,11 @@
     </div>
 </div>
 <div class="list row mb-5 justify-content-around px-lg-5">
-    {{ $pages := ((where site.RegularPages "Section" "madewithgamma").ByParam "id").Reverse }}
-    {{ range $index, $elem:= $pages }}
+
+    {{ $content := site.GetPage "section" "showcase" }}
+    
+    {{ $projects := sort ($content.Resources.ByType "page") ".Params.id" "desc" }}
+    {{ range $index, $elem:= $projects }}
         {{ partial "showcase-page-madeWithGammaCard" (dict "context" $elem "index" $index) }}
     {{ end }}
 </div>

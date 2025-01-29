@@ -1,5 +1,5 @@
 ---
-headline: T.R.U.S.T
+title: T.R.U.S.T
 ---
 vvvv is protected by our (pattern pending) T.R.U.S.T model:
 

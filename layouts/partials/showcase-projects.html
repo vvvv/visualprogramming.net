@@ -9,7 +9,11 @@
 </div>
 <div class="row justify-content-center mb-5">
     <div class="col-11 col-xl-9">
-        {{ $pages := first 5 ((where site.RegularPages "Section" "madewithgamma").ByParam "id").Reverse }}
+        {{ $content := site.GetPage "section" "showcase" }}
+        {{ $projects := sort ($content.Resources.ByType "page") ".Params.id" "desc" }}
+  
+        
+        {{ $pages := first 5 $projects }}
 
         <div class="swiper">
             <!-- Additional required wrapper -->
@@ -23,7 +27,7 @@
                 {{ partial "showcase-card-seeAll" }}
                 
             </div>
-        </div>           
+        </div> 
 
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
