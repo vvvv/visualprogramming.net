@@ -66,7 +66,6 @@ And updates to the following:
 - [VL.OCIO](https://www.nuget.org/packages/VL.OCIO)
 - [VL.RichTextKit](https://www.nuget.org/packages/VL.RichTextKit)
 
-
 Plus new entries in the forum’s work-in-progress section:
 
 - [3D Line / Tube in geometry shader](https://forum.vvvv.org/t/3d-line-tube-in-geometry-shader/23917)
@@ -74,6 +73,10 @@ Plus new entries in the forum’s work-in-progress section:
 
 
 ## Gallery
+
+![](2025-02-03-11-44-39.png)
+
+[MonkeyBox](https://www.reddit.com/r/vjing/comments/1i3mdd1/vj_console_monkeybox_made_with_vvvv/) by [VJMonkeyman](https://github.com/VJMonkeyman) available as [binary and source](https://github.com/VJMonkeyman/MonkeyBox)!
 
 {{< vimeo 1043796296 >}}
 Shifting Selves - Registrazione schermo
