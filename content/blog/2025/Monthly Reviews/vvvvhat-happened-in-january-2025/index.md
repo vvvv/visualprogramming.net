@@ -12,7 +12,7 @@ Already!
 
 * We have a new stable release out, see: [vvvv gamma 6.7](https://thegraybook.vvvv.org/changelog/6.x.html#vvvv-gamma-67) 
 * Latest previews include preview of a new feature "Snapping" that helps with clean patching
-* A first preview is out for [VL.Devices.Orbbec](https://www.nuget.org/packages/VL.Devices.Orbbec) supporting their latest Gemini and Femto devices. Development sponsored by [Supply and Deamnd](https://supply-demand.ca/)
+* A first preview is out for [VL.Devices.Orbbec](https://www.nuget.org/packages/VL.Devices.Orbbec) supporting their latest Gemini and Femto devices. Development sponsored by [Supply and Demand](https://supply-demand.ca/)
 * We made good progress on the previously announced avateering front. Still some patches to go though...
 * The website got a much needed re-unification. You'll now find forum, store, thegraybook under the same unified header. Next: Bringing back user/edu/company profiles
 
