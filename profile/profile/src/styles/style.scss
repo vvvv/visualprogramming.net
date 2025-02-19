@@ -1,0 +1,81 @@
+@import '@vueform/vueform/themes/vueform/scss/index.scss';
+
+@media (prefers-color-scheme: dark) {
+  :root{
+    background-color: #222;
+  }
+
+  :root, :before, :after, * {
+    @include vf-dark-vars;
+    --vf-ring-color: none;
+    --vf-primary: #e79600;
+    --vf-primary-darker: #c98600;
+    --vf-success: #ffa800;
+    --vf-success-lighter: #ffd786;
+  }
+}
+
+body{
+  background-color: #222;
+}
+
+#profile{
+  padding: 2rem;
+  background-color: #222;
+  color: #fff;
+  text-align: left;
+
+  .vf-btn
+  {
+    border: none;
+  }
+
+  .vf-btn:hover:not(:disabled):not(.vf-btn-loading) {
+    background-color: #ff8800;
+    text-decoration: none;
+    border: none;
+    transform: none;
+  }
+  .vf-btn.vf-btn-secondary:hover{
+    background-color: #555 !important;
+  }
+
+  h2{
+    border-bottom: 1px solid #555;
+    padding-bottom: 0.3rem;
+  }
+
+  .disabled{
+    pointer-events: none;
+    opacity: 0.3;
+  }
+
+  label{
+    color: #fff !important;
+  }
+
+  .menu{
+    display: flex;
+    color: #fff;
+    text-align: left;
+    gap: 0.5rem;
+    flex-direction: column;
+
+    .item{
+      width: 100%;
+      padding: 0.8rem;
+      background-color: #333;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &.selected{
+        background-color: #555;
+      }
+
+      &:hover
+      {
+        background-color: #444;
+      }
+    }
+  }
+}

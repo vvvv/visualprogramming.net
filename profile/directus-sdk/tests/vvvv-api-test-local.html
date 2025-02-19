@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vvvv uploader tester</title>
+</head>
+<body>
+    <h1>Upload Test</h1>
+    <form method="POST" action="http://127.0.0.1:4050/v1/upload" enctype="multipart/form-data">
+        <div>
+            <label>Select File:</label>
+            <input type="file" name="avatar_upload" /><br/>
+            <input type="text" name="text" placeholder="Text"/><br/>
+            <input type="text" name="username" placeholder="Login"/><br/>
+            <input type="text" name="pass" placeholder="Pass"/><br/>
+        </div>
+        <div>
+            <input type="submit" name="btn_upload_pic" value="Upload" />
+        </div>
+    </form>
+    <br>
+    <h1>Credentials Test</h1>
+    <form method="POST" action="http://localhost:4040/v1/checkcredentials" enctype="multipart/form-data">
+        <div>
+            <input type="text" name="username" placeholder="Login"/><br/>
+            <input type="text" name="pass" placeholder="Pass"/><br/>
+        </div>
+        <div>
+            <input type="submit" name="btn_check_creds" value="Check" />
+        </div>
+    </form>
+
+</body>
+</html>
