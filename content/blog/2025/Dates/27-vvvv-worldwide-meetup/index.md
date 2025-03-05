@@ -32,9 +32,8 @@ Neubaugasse 31/11, 1070 Vienna<br>
 Doors open: 18:30
 
 ## Online
-Links will be shared here shortly before the meetup!
-<!-- [Watch via Youtube](https://youtube.com/live/uRVZlBzfHjU)  
-[Join via Zoom](https://us02web.zoom.us/j/89589347632?pwd=Z6cuPpJvGtdPbklkfrdkaWgAaBuVpN.1) -->
+[Watch via Youtube](https://youtube.com/live/kt0QJ2vHtyE)  
+[Join via Zoom](https://us02web.zoom.us/j/87313372348)
 {{< /box >}}
 
 ##  Want to share your work?
