@@ -73,13 +73,8 @@ Plus new entries in the forum’s work-in-progress section:
 
 ## Gallery
 
-![](2025-02-03-11-44-39.png)
-
-[MonkeyBox](https://www.reddit.com/r/vjing/comments/1i3mdd1/vj_console_monkeybox_made_with_vvvv/) by [VJMonkeyman](https://github.com/VJMonkeyman) available as [binary and source](https://github.com/VJMonkeyman/MonkeyBox)!
-
-{{< vimeo 1043796296 >}}
-Shifting Selves - Registrazione schermo
-by [Simone Martinotta](https://simonemartinotta.com/shifting-selves/)
+ {{< youtube CEa0TMM1a8o >}}
+ ECLIPE by [Lichterloh](https://lichterloh.tv/portfolio/eclipse/)
 
 ## Jobs
 - Always keep an eye on the [vvvv job board](https://discourse.vvvv.org/c/jobs)
